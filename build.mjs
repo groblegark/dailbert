@@ -119,12 +119,15 @@ function renderStrip(strip, artInner = null) {
       return `<g transform="translate(${x},${titleH})">${inner}</g>`;
     }).join('');
   }
+  const sigY = titleH + PANEL.h - 8; // faint signature, bottom-right corner of the art
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${totalW} ${H}" width="${totalW}" height="${H}" font-family="Georgia,serif">
     <rect width="${totalW}" height="${H}" fill="${PAPER}"/>
-    <text x="4" y="26" font-family="Georgia,serif" font-weight="bold" font-size="22" fill="${INK}">${strip.title}</text>
-    <text x="${totalW - 4}" y="26" text-anchor="end" font-family="'Courier New',monospace" font-size="14" fill="${INK}" opacity="0.7">${strip.date}</text>
-    <line x1="4" y1="34" x2="${totalW - 4}" y2="34" stroke="${INK}" stroke-width="2"/>
+    <text x="6" y="29" font-family="Georgia,serif" font-weight="bold" font-size="27" letter-spacing="2" fill="${INK}">DAILBERT</text>
+    <text x="${totalW - 6}" y="19" text-anchor="end" font-family="Georgia,serif" font-style="italic" font-size="16" fill="${INK}">${strip.title}</text>
+    <text x="${totalW - 6}" y="34" text-anchor="end" font-family="'Courier New',monospace" font-size="12" fill="${INK}" opacity="0.65">${strip.date}</text>
+    <line x1="6" y1="37" x2="${totalW - 6}" y2="37" stroke="${INK}" stroke-width="2"/>
     ${panelsSvg}
+    <text x="${totalW - 10}" y="${sigY}" text-anchor="end" font-family="'Segoe Script','Comic Sans MS',cursive" font-style="italic" font-size="11" fill="${INK}" opacity="0.32">Matt Clanker</text>
     ${strip.caption ? `<text x="${totalW / 2}" y="${titleH + PANEL.h + 20}" text-anchor="middle" font-style="italic" font-size="14" fill="${INK}" opacity="0.85">${strip.caption}</text>` : ''}
   </svg>`;
 }
