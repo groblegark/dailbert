@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 340" width="1228" height="340">
+  <defs>
+    <symbol id="dailbert" viewBox="-40 -50 80 132">
+      <rect x="-7" y="18" width="14" height="14" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <path d="M-30,82 Q-30,40 -14,32 L14,32 Q30,40 30,82 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M0,32 L-5,40 L0,66 L5,40 Z" fill="#111"/>
+      <path d="M-10,30 L0,40 L10,30" fill="none" stroke="#111" stroke-width="2"/>
+      <ellipse cx="0" cy="-2" rx="20" ry="24" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M-3,-26 Q3,-35 9,-29 Q5,-25 8,-21" fill="none" stroke="#111" stroke-width="2.5"/>
+      <circle cx="-8" cy="-4" r="7" fill="#fff" stroke="#111" stroke-width="2"/>
+      <circle cx="8" cy="-4" r="7" fill="#fff" stroke="#111" stroke-width="2"/>
+      <line x1="-1" y1="-4" x2="1" y2="-4" stroke="#111" stroke-width="2"/>
+      <circle cx="-8" cy="-4" r="1.8" fill="#111"/>
+      <circle cx="8" cy="-4" r="1.8" fill="#111"/>
+      <path d="M0,-2 L-2,6 L2,6" fill="none" stroke="#111" stroke-width="1.6"/>
+      <path d="M-6,13 Q0,14 6,13" fill="none" stroke="#111" stroke-width="2"/>
+    </symbol>
+    <symbol id="doug" viewBox="-48 -50 100 136">
+      <rect x="-7" y="16" width="14" height="14" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <path d="M-33,86 Q-33,42 -15,32 L15,32 Q33,42 33,86 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M-11,30 L0,40 L11,30" fill="none" stroke="#111" stroke-width="2"/>
+      <circle cx="0" cy="-4" r="24" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M-8,-26 q3,-6 6,0 M0,-27 q3,-6 6,0" fill="none" stroke="#111" stroke-width="2"/>
+      <circle cx="-9" cy="-7" r="2.6" fill="#111"/>
+      <circle cx="9" cy="-7" r="2.6" fill="#111"/>
+      <path d="M-12,3 Q0,20 12,3 Z" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <rect x="20" y="46" width="20" height="18" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M40,50 q8,0 8,7 q0,7 -8,7" fill="none" stroke="#111" stroke-width="2.5"/>
+      <path d="M26,44 q-3,-5 0,-9 M34,44 q3,-5 0,-9" fill="none" stroke="#111" stroke-width="1.5"/>
+    </symbol>
+    <symbol id="boss" viewBox="-42 -62 84 150">
+      <rect x="-8" y="16" width="16" height="14" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <path d="M-34,88 Q-34,42 -16,32 L16,32 Q34,42 34,88 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M-12,30 L0,50 L-8,66 M12,30 L0,50 L8,66" fill="none" stroke="#111" stroke-width="2"/>
+      <path d="M0,40 L-4,48 L0,72 L4,48 Z" fill="#111"/>
+      <ellipse cx="0" cy="-4" rx="19" ry="22" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M-14,-22 L-20,-52 L-6,-26 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M6,-26 L20,-52 L14,-22 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <circle cx="-7" cy="-6" r="1.4" fill="#111"/>
+      <circle cx="7" cy="-6" r="1.4" fill="#111"/>
+      <line x1="-12" y1="-12" x2="-3" y2="-10" stroke="#111" stroke-width="1.6"/>
+      <line x1="12" y1="-12" x2="3" y2="-10" stroke="#111" stroke-width="1.6"/>
+      <path d="M0,-4 L-2,4 L2,4" fill="none" stroke="#111" stroke-width="1.6"/>
+      <line x1="-6" y1="12" x2="6" y2="12" stroke="#111" stroke-width="2"/>
+    </symbol>
+    <symbol id="clanker" viewBox="-35 -48 70 100">
+      <line x1="0" y1="-30" x2="0" y2="-44" stroke="#111" stroke-width="2"/>
+      <circle cx="0" cy="-46" r="3" fill="#111"/>
+      <rect x="-28" y="-30" width="56" height="60" rx="7" fill="#b9bec0" stroke="#111" stroke-width="2.5"/>
+      <circle cx="-28" cy="0" r="3" fill="#8f9597" stroke="#111" stroke-width="1.5"/>
+      <circle cx="28" cy="0" r="3" fill="#8f9597" stroke="#111" stroke-width="1.5"/>
+      <rect x="-20" y="-16" width="15" height="7" rx="3.5" fill="#f7f4ec" stroke="#111" stroke-width="1.5"/>
+      <rect x="5" y="-16" width="15" height="7" rx="3.5" fill="#f7f4ec" stroke="#111" stroke-width="1.5"/>
+      <rect x="-16" y="8" width="32" height="13" rx="2" fill="#8f9597" stroke="#111" stroke-width="2"/>
+      <line x1="-9" y1="8" x2="-9" y2="21" stroke="#111" stroke-width="1.5"/>
+      <line x1="-2" y1="8" x2="-2" y2="21" stroke="#111" stroke-width="1.5"/>
+      <line x1="5" y1="8" x2="5" y2="21" stroke="#111" stroke-width="1.5"/>
+      <line x1="12" y1="8" x2="12" y2="21" stroke="#111" stroke-width="1.5"/>
+    </symbol>
+  </defs>
+
+  <!-- ===================== PANEL 1 ===================== -->
+  <g>
+    <rect x="2" y="2" width="396" height="336" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <line x1="8" y1="150" x2="390" y2="150" stroke="#111" stroke-width="1" opacity="0.25"/>
+    <use href="#boss" x="210" y="70" width="100" height="178"/>
+    <use href="#dailbert" x="70" y="120" width="92" height="152"/>
+    <rect x="6" y="246" width="392" height="90" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <line x1="6" y1="246" x2="398" y2="246" stroke="#111" stroke-width="2.5"/>
+    <rect x="150" y="216" width="78" height="30" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+    <rect x="156" y="208" width="78" height="12" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+    <rect x="150" y="200" width="78" height="12" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+    <rect x="158" y="192" width="72" height="12" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+    <path d="M255,74 L285,74 L262,120 Z" fill="#fff" stroke="#111" stroke-width="2"/>
+    <rect x="214" y="22" width="176" height="54" rx="12" fill="#fff" stroke="#111" stroke-width="2"/>
+    <text x="302" y="45" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">Client wants it by</text>
+    <text x="302" y="64" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">five. Today.</text>
+    <path d="M100,124 L122,124 L112,156 Z" fill="#fff" stroke="#111" stroke-width="2"/>
+    <rect x="22" y="92" width="150" height="34" rx="12" fill="#fff" stroke="#111" stroke-width="2"/>
+    <text x="97" y="114" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">Of course they do.</text>
+  </g>
+
+  <!-- ===================== PANEL 2 ===================== -->
+  <g>
+    <rect x="416" y="2" width="396" height="336" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <use href="#dailbert" x="454" y="120" width="92" height="152"/>
+    <rect x="420" y="250" width="388" height="86" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <line x1="420" y1="250" x2="808" y2="250" stroke="#111" stroke-width="2.5"/>
+    <rect x="664" y="150" width="120" height="96" rx="6" fill="#222" stroke="#111" stroke-width="2.5"/>
+    <rect x="674" y="160" width="100" height="72" fill="#5f6668" stroke="#111" stroke-width="1.5"/>
+    <rect x="716" y="246" width="16" height="12" fill="#222" stroke="#111" stroke-width="2"/>
+    <rect x="702" y="256" width="44" height="6" rx="2" fill="#222" stroke="#111" stroke-width="2"/>
+    <use href="#clanker" x="700" y="158" width="48" height="68"/>
+    <path d="M500,78 L522,78 L508,150 Z" fill="#fff" stroke="#111" stroke-width="2"/>
+    <rect x="430" y="26" width="178" height="54" rx="12" fill="#fff" stroke="#111" stroke-width="2"/>
+    <text x="519" y="49" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">There's three days</text>
+    <text x="519" y="68" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">of work in this.</text>
+    <line x1="706" y1="82" x2="722" y2="156" stroke="#111" stroke-width="1.4" stroke-dasharray="4 3"/>
+    <rect x="618" y="42" width="176" height="38" fill="#fff" stroke="#111" stroke-width="2"/>
+    <rect x="622" y="46" width="168" height="30" fill="none" stroke="#111" stroke-width="1"/>
+    <text x="706" y="66" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">I sent it at four.</text>
+  </g>
+
+  <!-- ===================== PANEL 3 ===================== -->
+  <g>
+    <rect x="830" y="2" width="396" height="336" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <circle cx="1150" cy="46" r="22" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <circle cx="1150" cy="46" r="1.8" fill="#111"/>
+    <line x1="1150" y1="46" x2="1168" y2="46" stroke="#111" stroke-width="2"/>
+    <line x1="1150" y1="46" x2="1160" y2="52" stroke="#111" stroke-width="2.5"/>
+    <use href="#doug" x="836" y="150" width="86" height="117"/>
+    <use href="#dailbert" x="948" y="120" width="92" height="152"/>
+    <rect x="834" y="250" width="388" height="86" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <line x1="834" y1="250" x2="1222" y2="250" stroke="#111" stroke-width="2.5"/>
+    <rect x="1078" y="150" width="120" height="96" rx="6" fill="#222" stroke="#111" stroke-width="2.5"/>
+    <rect x="1088" y="160" width="100" height="72" fill="#5f6668" stroke="#111" stroke-width="1.5"/>
+    <rect x="1130" y="246" width="16" height="12" fill="#222" stroke="#111" stroke-width="2"/>
+    <rect x="1116" y="256" width="44" height="6" rx="2" fill="#222" stroke="#111" stroke-width="2"/>
+    <use href="#clanker" x="1114" y="158" width="48" height="68"/>
+    <path d="M980,62 L1000,62 L994,150 Z" fill="#fff" stroke="#111" stroke-width="2"/>
+    <rect x="846" y="30" width="180" height="34" rx="12" fill="#fff" stroke="#111" stroke-width="2"/>
+    <text x="936" y="52" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">...It's three-fifteen.</text>
+    <line x1="1122" y1="138" x2="1138" y2="156" stroke="#111" stroke-width="1.4" stroke-dasharray="4 3"/>
+    <rect x="1030" y="84" width="182" height="54" fill="#fff" stroke="#111" stroke-width="2"/>
+    <rect x="1034" y="88" width="174" height="46" fill="none" stroke="#111" stroke-width="1"/>
+    <text x="1121" y="107" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">I didn't want you</text>
+    <text x="1121" y="126" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">to have to hurry.</text>
+  </g>
+</svg>

@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 340" width="1228" height="340">
+  <defs>
+    <!-- DAILBERT bust -->
+    <g id="dailbert">
+      <path d="M18,158 L34,100 Q60,86 86,100 L102,158 Z" fill="#fff"/>
+      <ellipse cx="60" cy="46" rx="30" ry="36" fill="#fff"/>
+      <path d="M52,15 q7,-13 15,-4 q3,6 -3,8" fill="none"/>
+      <circle cx="48" cy="47" r="9" fill="#fff"/>
+      <circle cx="72" cy="47" r="9" fill="#fff"/>
+      <line x1="57" y1="47" x2="63" y2="47"/>
+      <line x1="81" y1="45" x2="90" y2="43"/>
+      <circle cx="48" cy="47" r="2" fill="#111" stroke="none"/>
+      <circle cx="72" cy="47" r="2" fill="#111" stroke="none"/>
+      <line x1="50" y1="64" x2="70" y2="64"/>
+      <path d="M50,84 L60,96 L70,84"/>
+      <path d="M58,96 L54,132 L60,140 L66,132 L62,96 Z" fill="#111"/>
+    </g>
+    <!-- DOUG bust -->
+    <g id="doug">
+      <path d="M16,160 L32,102 Q60,88 88,102 L104,160 Z" fill="#fff"/>
+      <circle cx="60" cy="48" r="38" fill="#fff"/>
+      <circle cx="50" cy="44" r="3" fill="#111" stroke="none"/>
+      <circle cx="70" cy="44" r="3" fill="#111" stroke="none"/>
+      <path d="M44,58 Q60,78 76,58" fill="none"/>
+      <path d="M50,58 Q60,66 70,58" fill="none"/>
+      <path d="M46,100 L60,110 L74,100"/>
+    </g>
+    <!-- DOUG bust, flat mouth (the one deep beat) -->
+    <g id="dougFlat">
+      <path d="M16,160 L32,102 Q60,88 88,102 L104,160 Z" fill="#fff"/>
+      <circle cx="60" cy="48" r="38" fill="#fff"/>
+      <circle cx="50" cy="44" r="3" fill="#111" stroke="none"/>
+      <circle cx="70" cy="44" r="3" fill="#111" stroke="none"/>
+      <line x1="50" y1="64" x2="70" y2="64"/>
+      <path d="M46,100 L60,110 L74,100"/>
+    </g>
+    <!-- BOSS bust -->
+    <g id="boss">
+      <path d="M16,160 L32,104 Q60,90 88,104 L104,160 Z" fill="#fff"/>
+      <polygon points="44,34 50,6 58,34" fill="#fff"/>
+      <polygon points="64,34 72,8 80,34" fill="#fff"/>
+      <ellipse cx="60" cy="58" rx="28" ry="30" fill="#fff"/>
+      <circle cx="51" cy="56" r="2" fill="#111" stroke="none"/>
+      <circle cx="69" cy="56" r="2" fill="#111" stroke="none"/>
+      <line x1="53" y1="72" x2="67" y2="72"/>
+      <path d="M42,104 L60,120 L78,104"/>
+      <path d="M55,110 L52,150 M65,110 L68,150"/>
+      <path d="M57,110 L54,140 L60,148 L66,140 L63,110 Z" fill="#111"/>
+    </g>
+    <!-- CLANKER (light, for screens) -->
+    <g id="clanker" stroke="#cdd3d9" stroke-width="2.4" fill="none" stroke-linejoin="round" stroke-linecap="round">
+      <line x1="60" y1="30" x2="60" y2="14"/>
+      <circle cx="60" cy="11" r="3.5" fill="#e7efe9"/>
+      <rect x="28" y="30" width="64" height="56" rx="7" fill="#3a3f46"/>
+      <rect x="40" y="49" width="15" height="7" rx="3" fill="#e7efe9" stroke="none"/>
+      <rect x="65" y="49" width="15" height="7" rx="3" fill="#e7efe9" stroke="none"/>
+      <rect x="43" y="66" width="34" height="11" rx="2"/>
+      <line x1="51" y1="66" x2="51" y2="77"/>
+      <line x1="60" y1="66" x2="60" y2="77"/>
+      <line x1="69" y1="66" x2="69" y2="77"/>
+      <line x1="28" y1="46" x2="22" y2="46"/>
+      <line x1="92" y1="46" x2="98" y2="46"/>
+    </g>
+    <!-- empty chair (recedes) -->
+    <g id="chair" stroke="#8a8a86" stroke-width="2" fill="#f4f1ea" stroke-linejoin="round">
+      <rect x="0" y="0" width="30" height="34" rx="4"/>
+      <line x1="4" y1="34" x2="4" y2="54"/>
+      <line x1="26" y1="34" x2="26" y2="54"/>
+      <line x1="0" y1="34" x2="30" y2="34"/>
+    </g>
+  </defs>
+
+  <!-- PANEL BORDERS -->
+  <rect x="2" y="3" width="396" height="334" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+  <rect x="416" y="3" width="396" height="334" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+  <rect x="830" y="3" width="396" height="334" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+
+  <!-- ========================= PANEL 1 ========================= -->
+  <g stroke="#111" stroke-width="2.5" fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <!-- wall clock -->
+    <circle cx="60" cy="55" r="16"/>
+    <line x1="60" y1="55" x2="60" y2="46"/>
+    <line x1="60" y1="55" x2="68" y2="58"/>
+    <!-- empty chairs, coworkers gone -->
+    <use href="#chair" transform="translate(150,150)"/>
+    <use href="#chair" transform="translate(196,154)"/>
+    <!-- figures -->
+    <use href="#dailbert" transform="translate(26,132)"/>
+    <use href="#boss" transform="translate(232,118)"/>
+    <!-- table -->
+    <rect x="15" y="256" width="370" height="58" fill="#f4f1ea"/>
+    <line x1="15" y1="256" x2="385" y2="256"/>
+  </g>
+  <!-- boss balloon -->
+  <g>
+    <ellipse cx="150" cy="60" rx="120" ry="38" fill="#fff" stroke="#111" stroke-width="2.2"/>
+    <polygon points="212,82 244,92 236,60" fill="#fff" stroke="#111" stroke-width="2.2"/>
+    <text x="150" y="52" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">
+      <tspan x="150">That's the last of them.</tspan>
+      <tspan x="150" dy="20">Whole floor resigned.</tspan>
+    </text>
+  </g>
+
+  <!-- ========================= PANEL 2 ========================= -->
+  <g stroke="#111" stroke-width="2.5" fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <use href="#chair" transform="translate(430,152)"/>
+    <use href="#dailbert" transform="translate(430,150)"/>
+    <use href="#doug" transform="translate(520,140)"/>
+    <!-- doug mug -->
+    <g>
+      <rect x="600" y="222" width="16" height="18" rx="2" fill="#fff"/>
+      <path d="M616,226 q8,3 0,9" fill="none"/>
+    </g>
+    <!-- table -->
+    <rect x="429" y="256" width="370" height="58" fill="#f4f1ea"/>
+    <line x1="429" y1="256" x2="799" y2="256"/>
+    <!-- monitor -->
+    <rect x="664" y="168" width="120" height="90" rx="4" fill="#111"/>
+    <rect x="672" y="176" width="104" height="74" fill="#2b2e33" stroke="none"/>
+  </g>
+  <use href="#clanker" transform="translate(683,182) scale(0.68)"/>
+  <!-- doug balloon -->
+  <g>
+    <ellipse cx="524" cy="52" rx="98" ry="34" fill="#fff" stroke="#111" stroke-width="2.2"/>
+    <polygon points="536,78 560,96 566,74" fill="#fff" stroke="#111" stroke-width="2.2"/>
+    <text x="524" y="46" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">
+      <tspan x="524">The clanker ran all</tspan>
+      <tspan x="524" dy="19">our exit interviews!</tspan>
+    </text>
+  </g>
+  <!-- clanker screen balloon -->
+  <g>
+    <line x1="724" y1="150" x2="710" y2="120" stroke="#111" stroke-width="1.6" stroke-dasharray="4 4"/>
+    <rect x="612" y="110" width="180" height="72" rx="2" fill="#fff" stroke="#111" stroke-width="2.2"/>
+    <rect x="617" y="115" width="170" height="62" fill="none" stroke="#111" stroke-width="0.8"/>
+    <text x="702" y="132" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">
+      <tspan x="702">They all told me one</tspan>
+      <tspan x="702" dy="17">thing. They wanted</tspan>
+      <tspan x="702" dy="17">to go home.</tspan>
+    </text>
+  </g>
+
+  <!-- ========================= PANEL 3 ========================= -->
+  <g stroke="#111" stroke-width="2.5" fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <use href="#chair" transform="translate(1150,150)"/>
+    <use href="#dailbert" transform="translate(846,150)"/>
+    <use href="#dougFlat" transform="translate(936,150)"/>
+    <!-- doug mug, lowered -->
+    <g>
+      <rect x="1016" y="238" width="16" height="18" rx="2" fill="#fff"/>
+      <path d="M1032,242 q8,3 0,9" fill="none"/>
+    </g>
+    <!-- table -->
+    <rect x="843" y="256" width="370" height="58" fill="#f4f1ea"/>
+    <line x1="843" y1="256" x2="1213" y2="256"/>
+    <!-- monitor -->
+    <rect x="1078" y="168" width="120" height="90" rx="4" fill="#111"/>
+    <rect x="1086" y="176" width="104" height="74" fill="#2b2e33" stroke="none"/>
+  </g>
+  <use href="#clanker" transform="translate(1097,182) scale(0.68)"/>
+  <!-- doug small balloon -->
+  <g>
+    <ellipse cx="962" cy="120" rx="34" ry="22" fill="#fff" stroke="#111" stroke-width="2.2"/>
+    <polygon points="968,140 980,158 984,138" fill="#fff" stroke="#111" stroke-width="2.2"/>
+    <text x="962" y="125" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">...oh.</text>
+  </g>
+  <!-- clanker screen balloon -->
+  <g>
+    <line x1="1138" y1="150" x2="1122" y2="118" stroke="#111" stroke-width="1.6" stroke-dasharray="4 4"/>
+    <rect x="1024" y="40" width="182" height="72" rx="2" fill="#fff" stroke="#111" stroke-width="2.2"/>
+    <rect x="1029" y="45" width="172" height="62" fill="none" stroke="#111" stroke-width="0.8"/>
+    <text x="1115" y="62" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">
+      <tspan x="1115">So I'm sending everyone</tspan>
+      <tspan x="1115" dy="17">home. Nobody needs</tspan>
+      <tspan x="1115" dy="17">to come back.</tspan>
+    </text>
+  </g>
+</svg>

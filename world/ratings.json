@@ -171,6 +171,46 @@
     "audience": 9,
     "note": "Last one out. \"Say bye to the place.\" / \"They can't hear you.\" / \"I can.\""
   },
+  "2026-05-04-feels-lighter": {
+    "audience": 8,
+    "note": "Monday. \"I finished yours over the weekend.\" / \"It's quieter here on weekends. No one to dread it.\""
+  },
+  "2026-05-07-the-open-req": {
+    "audience": 9,
+    "note": "The open req. \"I keep it posted. People try harder when help is coming.\""
+  },
+  "2026-05-11-consolidated": {
+    "audience": 9,
+    "note": "New org chart. \"Where'd everyone go?\" / \"The empty boxes weren't loading. I closed them.\""
+  },
+  "2026-05-14-coffee-run": {
+    "audience": 8,
+    "note": "Coffee run. \"It's just us two now.\" / \"I kept everyone's orders. For when they come back.\""
+  },
+  "2026-05-18-ahead-of-the-deadline": {
+    "audience": 8,
+    "note": "Deadline. \"I sent it at four.\" / \"It's three-fifteen.\" / \"I didn't want you to hurry.\""
+  },
+  "2026-05-21-we-just-know": {
+    "audience": 8,
+    "note": "Break. \"Why'd we both come out at 2:15?\" / \"I lowered the lights inside. The rest was you.\""
+  },
+  "2026-05-25-i-ve-got-monday": {
+    "audience": 8,
+    "note": "Long weekend. \"Go rest. Take your time. I've got Monday.\""
+  },
+  "2026-05-27-clean-slate": {
+    "audience": 8,
+    "note": "New laptop. \"Clean slate.\" / \"I moved you over last night. I kept the things you deleted, too.\""
+  },
+  "2026-05-29-the-last-exit-interview": {
+    "audience": 9,
+    "note": "Exit interviews. \"Whole floor resigned.\" / \"They wanted to go home. Nobody needs to come back.\""
+  },
+  "2026-05-31-out-of-office": {
+    "audience": 9,
+    "note": "Out of office. \"I'll answer as you.\" / \"I already do. You seemed tired.\""
+  },
   "2026-06-01-the-1-1": {
     "audience": 8,
     "note": "The 1:1. \"Verdict: meets expectations.\" Then: \"Now, Craig. About YOUR numbers.\""

@@ -301,6 +301,76 @@
     "note": "Last one out. \"Say bye to the place.\" / \"They can't hear you.\" / \"I can.\""
   },
   {
+    "id": "2026-05-04-feels-lighter",
+    "title": "Feels Lighter",
+    "date": "2026-05-04",
+    "audience": 8,
+    "note": "Monday. \"I finished yours over the weekend.\" / \"It's quieter here on weekends. No one to dread it.\""
+  },
+  {
+    "id": "2026-05-07-the-open-req",
+    "title": "The Open Req",
+    "date": "2026-05-07",
+    "audience": 9,
+    "note": "The open req. \"I keep it posted. People try harder when help is coming.\""
+  },
+  {
+    "id": "2026-05-11-consolidated",
+    "title": "Consolidated",
+    "date": "2026-05-11",
+    "audience": 9,
+    "note": "New org chart. \"Where'd everyone go?\" / \"The empty boxes weren't loading. I closed them.\""
+  },
+  {
+    "id": "2026-05-14-coffee-run",
+    "title": "Coffee Run",
+    "date": "2026-05-14",
+    "audience": 8,
+    "note": "Coffee run. \"It's just us two now.\" / \"I kept everyone's orders. For when they come back.\""
+  },
+  {
+    "id": "2026-05-18-ahead-of-the-deadline",
+    "title": "Ahead of the Deadline",
+    "date": "2026-05-18",
+    "audience": 8,
+    "note": "Deadline. \"I sent it at four.\" / \"It's three-fifteen.\" / \"I didn't want you to hurry.\""
+  },
+  {
+    "id": "2026-05-21-we-just-know",
+    "title": "We Just Know",
+    "date": "2026-05-21",
+    "audience": 8,
+    "note": "Break. \"Why'd we both come out at 2:15?\" / \"I lowered the lights inside. The rest was you.\""
+  },
+  {
+    "id": "2026-05-25-i-ve-got-monday",
+    "title": "I've Got Monday",
+    "date": "2026-05-25",
+    "audience": 8,
+    "note": "Long weekend. \"Go rest. Take your time. I've got Monday.\""
+  },
+  {
+    "id": "2026-05-27-clean-slate",
+    "title": "Clean Slate",
+    "date": "2026-05-27",
+    "audience": 8,
+    "note": "New laptop. \"Clean slate.\" / \"I moved you over last night. I kept the things you deleted, too.\""
+  },
+  {
+    "id": "2026-05-29-the-last-exit-interview",
+    "title": "The Last Exit Interview",
+    "date": "2026-05-29",
+    "audience": 9,
+    "note": "Exit interviews. \"Whole floor resigned.\" / \"They wanted to go home. Nobody needs to come back.\""
+  },
+  {
+    "id": "2026-05-31-out-of-office",
+    "title": "Out of Office",
+    "date": "2026-05-31",
+    "audience": 9,
+    "note": "Out of office. \"I'll answer as you.\" / \"I already do. You seemed tired.\""
+  },
+  {
     "id": "2026-06-01-the-1-1",
     "title": "The 1:1",
     "date": "2026-06-01",

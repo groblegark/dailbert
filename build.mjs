@@ -163,12 +163,12 @@ function fmtReach(n) {
 const logPct = (n) => (Math.log10(Math.max(1, n)) / 10 * 100).toFixed(2); // 1e10 -> 100%
 const escAttr = (s) => String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
-function archive(strips, ratings) {
+function archive(strips, ratings, forced = []) {
   const items = strips.map((s, i) => {
     const r = ratings[s.id] || {};
     const a = r.audience || 1;
     return `
-    <figure id="${s.id}" class="strip" data-audience="${a}" data-index="${i}" style="order:${i}">
+    <figure id="${s.id}" class="strip" data-audience="${a}" data-index="${i}" data-date="${s.date}" style="order:${i}">
       <span class="rank"></span>
       <a class="frame" href="index.html?id=${s.id}" aria-label="Open ${escAttr(s.title)}">
         <img src="strips/${s.id}.svg" alt="${escAttr(s.title)} (${s.date})" loading="lazy"/>
@@ -274,6 +274,14 @@ ${items}
 <script>
 (function () {
   var main = document.querySelector('main');
+  // hide future-dated strips (unless force-published). They stay in the source; see admin.html.
+  var FORCED = ${JSON.stringify(forced)};
+  var today = new Date().toISOString().slice(0,10), lp = [];
+  try { lp = JSON.parse(localStorage.getItem('dv.pub') || '[]'); } catch (e) {}
+  Array.prototype.slice.call(main.querySelectorAll('.strip')).forEach(function (f) {
+    var d = f.getAttribute('data-date');
+    if (!(d <= today || FORCED.indexOf(f.id) >= 0 || lp.indexOf(f.id) >= 0)) f.remove();
+  });
   var figs = Array.prototype.slice.call(main.querySelectorAll('.strip'));
   function apply(mode) {
     if (mode === 'rated') {
@@ -308,7 +316,7 @@ ${items}
 }
 
 // ---- solo viewer (index.html): today's comic + prev/next + score + upvote + comments ----
-function solo(manifest) {
+function solo(manifest, forced = []) {
   const data = JSON.stringify(manifest).replace(/</g, '\\u003c');
   return `<meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -408,6 +416,11 @@ function solo(manifest) {
 </div>
 <script>
 var M = ${data};
+var FORCED = ${JSON.stringify(forced)};
+// public visibility: strips dated today-or-earlier, plus any force-published id
+// (world/published.json, or the admin page's local 'dv.pub' preview). Future strips
+// stay hidden here but remain in the page source — a little easter egg. See admin.html.
+(function(){var t=new Date().toISOString().slice(0,10);var lp=[];try{lp=JSON.parse(localStorage.getItem('dv.pub')||'[]');}catch(e){}M=M.filter(function(s){return s.date<=t||FORCED.indexOf(s.id)>=0||lp.indexOf(s.id)>=0;});})();
 function fmtReach(n){n=Math.max(1,Math.round(n));if(n<1000)return''+n;var u=['K','M','B','T'],i=-1,x=n;while(x>=1000&&i<3){x/=1000;i++;}return (x<10?x.toFixed(1):Math.round(x))+u[i];}
 function pct(n){return (Math.log10(Math.max(1,n))/10*100).toFixed(2);}
 function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
@@ -437,6 +450,114 @@ render();
 </script>`;
 }
 
+// ---- admin.html (unlisted easter egg): every strip, draft vs published, publish toggle ----
+function admin(manifest, forced = []) {
+  const data = JSON.stringify(manifest).replace(/</g, '\\u003c');
+  return `<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="robots" content="noindex"/>
+<title>DAILBERT — desk</title>
+<style>
+  * { box-sizing:border-box; }
+  body { margin:0; background:#14140f; color:#e8e4d8; font-family:'Courier New',monospace; }
+  header { padding:22px 18px 8px; border-bottom:1px solid #333; }
+  header h1 { margin:0; font-family:Georgia,serif; letter-spacing:3px; font-size:26px; }
+  header .sub { opacity:.55; font-size:12px; margin-top:4px; }
+  .stat { display:flex; gap:18px; margin:12px 0 0; font-size:13px; }
+  .stat b { font-size:20px; }
+  .pub-cnt { color:#8fce8f; } .drf-cnt { color:#e0b060; }
+  .export { margin:14px 18px; padding:10px 12px; background:#1c1c15; border:1px solid #333; border-radius:6px; }
+  .export textarea { width:100%; min-height:52px; background:#0d0d0a; color:#9fdca0; border:1px solid #333;
+                     border-radius:4px; font-family:'Courier New',monospace; font-size:12px; padding:8px; resize:vertical; }
+  .export .row { display:flex; align-items:center; gap:10px; margin-bottom:6px; }
+  .export button { font-family:inherit; font-size:12px; background:#2a2a20; color:inherit; border:1px solid #444;
+                   border-radius:16px; padding:5px 13px; cursor:pointer; }
+  .export .hint { opacity:.5; font-size:11px; }
+  table { width:100%; border-collapse:collapse; }
+  th, td { text-align:left; padding:8px 10px; border-bottom:1px solid #262620; font-size:13px; vertical-align:middle; }
+  th { position:sticky; top:0; background:#14140f; opacity:.6; font-weight:normal; font-size:11px;
+       text-transform:uppercase; letter-spacing:1px; }
+  tr.draft { background:rgba(224,176,96,.05); }
+  td.th img { display:block; width:210px; height:auto; border:1px solid #333; background:#f4f1ea; }
+  td.dt { white-space:nowrap; opacity:.8; }
+  td.ti a { color:#e8e4d8; text-decoration:none; border-bottom:1px solid transparent; }
+  td.ti a:hover { border-color:#666; }
+  .badge { font-size:11px; padding:3px 9px; border-radius:12px; white-space:nowrap; }
+  .badge.pub { background:#1e3a1e; color:#9fdca0; }
+  .badge.drf { background:#3a2f14; color:#e0b060; }
+  .badge.locked { opacity:.4; }
+  .tog { font-family:inherit; font-size:12px; background:transparent; color:inherit; border:1px solid #555;
+         border-radius:16px; padding:5px 12px; cursor:pointer; min-width:96px; }
+  .tog.on { background:#e0b060; color:#14140f; border-color:#e0b060; }
+  .sc { opacity:.65; }
+</style>
+<header>
+  <h1>DAILBERT &middot; the desk</h1>
+  <div class="sub">unlisted. every strip drawn, published &amp; not. future dispatches are drafts until their date &mdash; or publish them early.</div>
+  <div class="stat"><span class="pub-cnt"><b id="np">0</b> published</span><span class="drf-cnt"><b id="nd">0</b> drafts</span><span class="sc"><b id="nt">0</b> total</span></div>
+</header>
+<div class="export">
+  <div class="row"><b>published.json</b><button id="copy">copy</button><span class="hint">force-publish overrides &mdash; paste into <code>world/published.json</code> (or tell Claude) to publish for everyone. Toggles below preview instantly in your browser.</span></div>
+  <textarea id="exp" readonly></textarea>
+</div>
+<table>
+  <thead><tr><th>strip</th><th>date</th><th>title</th><th>editor</th><th>status</th><th>action</th></tr></thead>
+  <tbody id="rows"></tbody>
+</table>
+<script>
+var M = ${data};
+var FORCED = ${JSON.stringify(forced)};
+var today = new Date().toISOString().slice(0,10);
+function lp(){try{return JSON.parse(localStorage.getItem('dv.pub')||'[]');}catch(e){return [];}}
+function setlp(a){localStorage.setItem('dv.pub',JSON.stringify(a));}
+function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+function fmtReach(n){n=Math.max(1,Math.round(n));if(n<1000)return''+n;var u=['K','M','B','T'],i=-1,x=n;while(x>=1000&&i<3){x/=1000;i++;}return (x<10?x.toFixed(1):Math.round(x))+u[i];}
+// newest / furthest-future first, so drafts are up top
+var rows = M.slice().sort(function(a,b){return a.date<b.date?1:(a.date>b.date?-1:0);});
+function isPast(s){return s.date<=today;}
+function isForced(s){return FORCED.indexOf(s.id)>=0;}
+function isLocal(s){return lp().indexOf(s.id)>=0;}
+function isPub(s){return isPast(s)||isForced(s)||isLocal(s);}
+function render(){
+  var tb=document.getElementById('rows');tb.innerHTML='';
+  var np=0,nd=0;
+  rows.forEach(function(s){
+    var pub=isPub(s), draft=!pub;
+    if(pub)np++;else nd++;
+    var tr=document.createElement('tr');if(draft)tr.className='draft';
+    var badge = isPast(s) ? '<span class="badge pub locked">live &middot; by date</span>'
+      : (isForced(s) ? '<span class="badge pub">published</span>'
+      : (isLocal(s) ? '<span class="badge pub">published &middot; local</span>' : '<span class="badge drf">draft</span>'));
+    var action = isPast(s) ? '<span class="sc" style="opacity:.35">&mdash;</span>'
+      : '<button class="tog'+(isLocal(s)?' on':'')+'" data-id="'+s.id+'">'+(isLocal(s)?'unpublish':'publish')+'</button>';
+    tr.innerHTML='<td class="th"><a href="index.html?id='+s.id+'"><img loading="lazy" src="strips/'+s.id+'.svg" alt=""/></a></td>'+
+      '<td class="dt">'+s.date+'</td>'+
+      '<td class="ti"><a href="index.html?id='+s.id+'">'+esc(s.title)+'</a></td>'+
+      '<td class="sc">'+fmtReach(s.audience)+'</td>'+
+      '<td>'+badge+'</td>'+
+      '<td>'+action+'</td>';
+    tb.appendChild(tr);
+  });
+  document.getElementById('np').textContent=np;
+  document.getElementById('nd').textContent=nd;
+  document.getElementById('nt').textContent=rows.length;
+  // export = union of committed forced + local toggles, sorted
+  var all={};FORCED.forEach(function(id){all[id]=1;});lp().forEach(function(id){all[id]=1;});
+  document.getElementById('exp').value=JSON.stringify(Object.keys(all).sort(),null,2);
+}
+document.getElementById('rows').addEventListener('click',function(e){
+  var b=e.target.closest('.tog');if(!b)return;
+  var id=b.getAttribute('data-id'),a=lp(),i=a.indexOf(id);
+  if(i>=0)a.splice(i,1);else a.push(id);
+  setlp(a);render();
+});
+document.getElementById('copy').addEventListener('click',function(){
+  var t=document.getElementById('exp');t.select();try{document.execCommand('copy');this.textContent='copied';var self=this;setTimeout(function(){self.textContent='copy';},1200);}catch(e){}
+});
+render();
+</script>`;
+}
+
 // ---- go ----
 const strips = loadStrips();
 let inked = 0;
@@ -451,12 +572,17 @@ for (const s of strips) {
 }
 const ratingsPath = join(ROOT, 'world', 'ratings.json');
 const ratings = existsSync(ratingsPath) ? JSON.parse(readFileSync(ratingsPath, 'utf8')) : {};
+const pubPath = join(ROOT, 'world', 'published.json');
+const forced = existsSync(pubPath) ? JSON.parse(readFileSync(pubPath, 'utf8')) : [];
 const manifest = strips.map((s) => ({
   id: s.id, title: s.title, date: s.date,
   audience: (ratings[s.id] && ratings[s.id].audience) || 1,
   note: (ratings[s.id] && ratings[s.id].note) || '',
 }));
 writeFileSync(join(ROOT, 'manifest.json'), JSON.stringify(manifest, null, 2));
-writeFileSync(join(ROOT, 'archive.html'), archive(strips, ratings));
-writeFileSync(join(ROOT, 'index.html'), solo(manifest));
-console.log(`rendered ${strips.length} strips (${inked} Fable-inked); index.html=solo viewer, archive.html=ratings grid`);
+writeFileSync(join(ROOT, 'archive.html'), archive(strips, ratings, forced));
+writeFileSync(join(ROOT, 'index.html'), solo(manifest, forced));
+writeFileSync(join(ROOT, 'admin.html'), admin(manifest, forced));
+const today = new Date().toISOString().slice(0, 10);
+const pub = strips.filter((s) => s.date <= today || forced.includes(s.id)).length;
+console.log(`rendered ${strips.length} strips (${inked} Fable-inked); ${pub} published, ${strips.length - pub} drafts (future). index/archive/admin written.`);
