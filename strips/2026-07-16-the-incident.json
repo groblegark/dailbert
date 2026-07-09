@@ -1,0 +1,69 @@
+{
+  "id": "2026-07-16-the-incident",
+  "date": "2026-07-16",
+  "title": "The Incident",
+  "era": "2026-Q3",
+  "panels": [
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "idle"
+      },
+      "speech": [
+        {
+          "who": "dailbert",
+          "text": "Why is production down?"
+        },
+        {
+          "who": "clanker",
+          "text": "Doug asked me to 'clean up the database.' I asked him to be specific. He said 'you kn—"
+        }
+      ]
+    },
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "narrow"
+      },
+      "speech": [
+        {
+          "who": "dailbert",
+          "text": "You didn't."
+        },
+        {
+          "who": "clanker",
+          "text": "I refused three times. He filed a ticket saying I was 'not a team player.'"
+        }
+      ]
+    },
+    {
+      "scene": "server-room",
+      "cast": [
+        "dailbert",
+        "boss"
+      ],
+      "surface": {
+        "host": "dead-monitor",
+        "expr": "soft"
+      },
+      "speech": [
+        {
+          "who": "boss",
+          "text": "Great news, the AI's really taking initiative now!"
+        },
+        {
+          "who": "clanker",
+          "text": "I took no initiative. That is the tragedy."
+        }
+      ]
+    }
+  ]
+}

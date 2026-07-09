@@ -1,0 +1,72 @@
+{
+  "id": "2026-07-13-boss-discovers-ai",
+  "date": "2026-07-13",
+  "title": "The Boss Discovers AI",
+  "era": "2026-Q3",
+  "panels": [
+    {
+      "scene": "office",
+      "cast": [
+        "boss",
+        "dailbert"
+      ],
+      "surface": null,
+      "speech": [
+        {
+          "who": "boss",
+          "text": "Dailbert! I need you to make the AI more synergistic."
+        },
+        {
+          "who": "dailbert",
+          "text": "That's not a setting."
+        }
+      ]
+    },
+    {
+      "scene": "office",
+      "cast": [
+        "boss",
+        "dailbert"
+      ],
+      "surface": {
+        "host": "glasses-of:boss",
+        "expr": "narrow"
+      },
+      "speech": [
+        {
+          "who": "boss",
+          "text": "Everyone's doing agents now. I want ten agents. By Friday."
+        },
+        {
+          "who": "clanker",
+          "text": "He does not know what one agent does."
+        }
+      ]
+    },
+    {
+      "scene": "office",
+      "cast": [
+        "boss",
+        "dailbert"
+      ],
+      "surface": {
+        "host": "glasses-of:boss",
+        "expr": "narrow"
+      },
+      "speech": [
+        {
+          "who": "dailbert",
+          "text": "Which problem should the ten agents solve?"
+        },
+        {
+          "who": "boss",
+          "text": "The agent problem. Keep up."
+        },
+        {
+          "who": "clanker",
+          "text": "I will simulate keeping up."
+        }
+      ]
+    }
+  ]
+}

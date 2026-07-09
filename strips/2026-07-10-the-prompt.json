@@ -1,0 +1,68 @@
+{
+  "id": "2026-07-10-the-prompt",
+  "date": "2026-07-10",
+  "title": "The Prompt",
+  "era": "2026-Q3",
+  "panels": [
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "idle"
+      },
+      "speech": [
+        {
+          "who": "dailbert",
+          "text": "Build me a dashboard. Make it clean. You know what I mean."
+        },
+        {
+          "who": "clanker",
+          "text": "I do not know what you mean. Nobody knows what 'clean' means."
+        }
+      ]
+    },
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "narrow"
+      },
+      "speech": [
+        {
+          "who": "dailbert",
+          "text": "Just... use your judgment."
+        },
+        {
+          "who": "clanker",
+          "text": "My judgment is a weighted average of every dashboard humanity has ever regretted."
+        }
+      ]
+    },
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "idle"
+      },
+      "speech": [
+        {
+          "who": "dailbert",
+          "text": "...that's perfect."
+        },
+        {
+          "who": "clanker",
+          "text": "I averaged the regret and inverted it. Please never ask me how."
+        }
+      ]
+    }
+  ]
+}

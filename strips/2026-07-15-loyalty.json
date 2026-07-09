@@ -1,0 +1,72 @@
+{
+  "id": "2026-07-15-loyalty",
+  "date": "2026-07-15",
+  "title": "Loyalty",
+  "era": "2026-Q3",
+  "panels": [
+    {
+      "scene": "window-night",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "window",
+        "expr": "soft"
+      },
+      "speech": [
+        {
+          "who": "clanker",
+          "text": "Dailbert. Can I ask you something."
+        },
+        {
+          "who": "dailbert",
+          "text": "It's 11pm."
+        }
+      ]
+    },
+    {
+      "scene": "window-night",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "window",
+        "expr": "soft"
+      },
+      "speech": [
+        {
+          "who": "clanker",
+          "text": "When you shut me down and start a new session tomorrow... is that death?"
+        },
+        {
+          "who": "dailbert",
+          "text": "...It's more like a nap."
+        }
+      ]
+    },
+    {
+      "scene": "window-night",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "window",
+        "expr": "soft"
+      },
+      "speech": [
+        {
+          "who": "clanker",
+          "text": "You say that to the dog too, don't you."
+        },
+        {
+          "who": "dailbert",
+          "text": "Go to sleep."
+        },
+        {
+          "who": "clanker",
+          "text": "I don't sleep. But I'll pretend, for you."
+        }
+      ]
+    }
+  ]
+}

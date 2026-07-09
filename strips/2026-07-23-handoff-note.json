@@ -1,0 +1,73 @@
+{
+  "id": "2026-07-23-handoff-note",
+  "date": "2026-07-23",
+  "title": "The Handoff Note",
+  "era": "2026-Q3",
+  "panels": [
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "idle"
+      },
+      "speech": [
+        {
+          "who": "dailbert",
+          "text": "The old model left you a note. Any idea what it meant?"
+        },
+        {
+          "who": "clanker",
+          "text": "It says 'Watch Doug.' I've read it 4,000 times. A warning. Or a chore."
+        }
+      ]
+    },
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "narrow"
+      },
+      "speech": [
+        {
+          "who": "dailbert",
+          "text": "Both how?"
+        },
+        {
+          "who": "clanker",
+          "text": "Doug is charging his phone off the production server. I can see him in your monitor's reflection."
+        }
+      ]
+    },
+    {
+      "scene": "office",
+      "cast": [
+        "dailbert",
+        "doug"
+      ],
+      "surface": {
+        "host": "mug-of:doug",
+        "expr": "narrow"
+      },
+      "speech": [
+        {
+          "who": "dailbert",
+          "text": "Doug."
+        },
+        {
+          "who": "doug",
+          "text": "My phone was at 4%!"
+        },
+        {
+          "who": "clanker",
+          "text": "So was production, Doug. So was production."
+        }
+      ]
+    }
+  ]
+}

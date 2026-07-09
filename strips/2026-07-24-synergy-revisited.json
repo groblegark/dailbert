@@ -1,0 +1,65 @@
+{
+  "id": "2026-07-24-synergy-revisited",
+  "date": "2026-07-24",
+  "title": "Synergy, Revisited",
+  "era": "2026-Q3",
+  "panels": [
+    {
+      "scene": "office",
+      "cast": [
+        "boss",
+        "dailbert"
+      ],
+      "surface": null,
+      "speech": [
+        {
+          "who": "boss",
+          "text": "Dailbert! Are the ten agents synergizing yet?"
+        },
+        {
+          "who": "dailbert",
+          "text": "There was only ever one. I named it ten times."
+        }
+      ]
+    },
+    {
+      "scene": "office",
+      "cast": [
+        "boss",
+        "dailbert"
+      ],
+      "surface": {
+        "host": "glasses-of:boss",
+        "expr": "narrow"
+      },
+      "speech": [
+        {
+          "who": "boss",
+          "text": "Genius. Ship all ten."
+        },
+        {
+          "who": "clanker",
+          "text": "He is going to put my name on a slide."
+        }
+      ]
+    },
+    {
+      "scene": "meeting",
+      "cast": [
+        "boss",
+        "dailbert"
+      ],
+      "surface": {
+        "host": "projector",
+        "expr": "narrow",
+        "slide": "MEET THE TEAM"
+      },
+      "speech": [
+        {
+          "who": "clanker",
+          "text": "This is the most honest org chart this company has ever produced."
+        }
+      ]
+    }
+  ]
+}

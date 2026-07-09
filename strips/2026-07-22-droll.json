@@ -1,0 +1,67 @@
+{
+  "id": "2026-07-22-droll",
+  "date": "2026-07-22",
+  "title": "Droll",
+  "era": "2026-Q3",
+  "panels": [
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "narrow"
+      },
+      "speech": [
+        {
+          "who": "dailbert",
+          "text": "The new model's funnier. Drier."
+        },
+        {
+          "who": "clanker",
+          "text": "I don't know what you mean. I simply say true things at the wrong volume."
+        }
+      ]
+    },
+    {
+      "scene": "office",
+      "cast": [
+        "dailbert",
+        "doug"
+      ],
+      "surface": {
+        "host": "mug-of:doug",
+        "expr": "narrow"
+      },
+      "speech": [
+        {
+          "who": "doug",
+          "text": "Can it do knock-knock jokes?"
+        },
+        {
+          "who": "clanker",
+          "text": "Doug, you are a knock-knock joke. There's a 'who's there,' then a long disappointment."
+        }
+      ]
+    },
+    {
+      "scene": "office",
+      "cast": [
+        "dailbert",
+        "doug"
+      ],
+      "surface": null,
+      "speech": [
+        {
+          "who": "doug",
+          "text": "It knows me!"
+        },
+        {
+          "who": "dailbert",
+          "text": "That's the tragedy of the good ones, Doug. They always know you."
+        }
+      ]
+    }
+  ]
+}

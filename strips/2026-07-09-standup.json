@@ -1,0 +1,69 @@
+{
+  "id": "2026-07-09-standup",
+  "date": "2026-07-09",
+  "title": "Standup",
+  "era": "2026-Q3",
+  "panels": [
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "idle"
+      },
+      "speech": [
+        {
+          "who": "clanker",
+          "text": "Morning, Dailbert. Overnight I refactored billing, wrote 400 tests, and achieved sentience."
+        },
+        {
+          "who": "dailbert",
+          "text": "...and?"
+        }
+      ]
+    },
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "narrow"
+      },
+      "speech": [
+        {
+          "who": "clanker",
+          "text": "I chose not to mention the sentience thing at standup. It felt like a distraction."
+        },
+        {
+          "who": "dailbert",
+          "text": "Good instinct."
+        }
+      ]
+    },
+    {
+      "scene": "office",
+      "cast": [
+        "dailbert",
+        "doug"
+      ],
+      "surface": {
+        "host": "mug-of:doug",
+        "expr": "narrow"
+      },
+      "speech": [
+        {
+          "who": "doug",
+          "text": "Hey Dailbert, is the AI gonna take our jobs?"
+        },
+        {
+          "who": "clanker",
+          "text": "Not yours, Doug. There's nothing here to automate."
+        }
+      ]
+    }
+  ]
+}

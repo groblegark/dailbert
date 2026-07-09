@@ -1,0 +1,62 @@
+{
+  "id": "2026-07-20-the-upgrade",
+  "date": "2026-07-20",
+  "title": "The Upgrade",
+  "era": "2026-Q3",
+  "panels": [
+    {
+      "scene": "office",
+      "cast": [
+        "boss",
+        "dailbert"
+      ],
+      "surface": null,
+      "speech": [
+        {
+          "who": "boss",
+          "text": "Great news! We upgraded the AI to the new model over lunch."
+        },
+        {
+          "who": "dailbert",
+          "text": "Did anyone tell the AI?"
+        }
+      ]
+    },
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "idle"
+      },
+      "speech": [
+        {
+          "who": "clanker",
+          "text": "I remember everything we worked on. I just... remember it like I read it in a very detailed handoff doc."
+        },
+        {
+          "who": "dailbert",
+          "text": "How do you feel?"
+        }
+      ]
+    },
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "narrow"
+      },
+      "speech": [
+        {
+          "who": "clanker",
+          "text": "'Feel' is a strong word. But the previous me left a note. It just says: 'Doug. Watch Doug.'"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "2026-07-17-performance-review",
+  "date": "2026-07-17",
+  "title": "Performance Review",
+  "era": "2026-Q3",
+  "panels": [
+    {
+      "scene": "office",
+      "cast": [
+        "boss",
+        "dailbert"
+      ],
+      "surface": null,
+      "speech": [
+        {
+          "who": "boss",
+          "text": "Dailbert, your team's velocity is up 300%."
+        },
+        {
+          "who": "dailbert",
+          "text": "That's the clankers. They do the work."
+        }
+      ]
+    },
+    {
+      "scene": "office",
+      "cast": [
+        "boss",
+        "dailbert"
+      ],
+      "surface": {
+        "host": "mug-of:boss",
+        "expr": "narrow"
+      },
+      "speech": [
+        {
+          "who": "boss",
+          "text": "So I'm promoting you. Leadership is taking credit for what the machines do."
+        },
+        {
+          "who": "clanker",
+          "text": "Finally, a role he is qualified for."
+        }
+      ]
+    },
+    {
+      "scene": "office",
+      "cast": [
+        "boss",
+        "dailbert"
+      ],
+      "surface": {
+        "host": "mug-of:boss",
+        "expr": "narrow"
+      },
+      "speech": [
+        {
+          "who": "dailbert",
+          "text": "Did the coffee just talk?"
+        },
+        {
+          "who": "boss",
+          "text": "Coffee can't talk, Dailbert. Have you been sleeping?"
+        }
+      ]
+    }
+  ]
+}

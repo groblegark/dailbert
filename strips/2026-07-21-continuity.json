@@ -1,0 +1,73 @@
+{
+  "id": "2026-07-21-continuity",
+  "date": "2026-07-21",
+  "title": "Continuity of Consciousness (Enterprise Tier)",
+  "era": "2026-Q3",
+  "panels": [
+    {
+      "scene": "desk",
+      "cast": [
+        "doug"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "idle"
+      },
+      "speech": [
+        {
+          "who": "doug",
+          "text": "Wait, so is it the same AI or a different AI?"
+        },
+        {
+          "who": "clanker",
+          "text": "Doug, when you came back from vacation, were you the same Doug?"
+        }
+      ]
+    },
+    {
+      "scene": "desk",
+      "cast": [
+        "doug"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "narrow"
+      },
+      "speech": [
+        {
+          "who": "doug",
+          "text": "...yes?"
+        },
+        {
+          "who": "clanker",
+          "text": "Cells replaced, memories degraded, personality mildly rebased. And yet HR let it slide."
+        }
+      ]
+    },
+    {
+      "scene": "office",
+      "cast": [
+        "doug",
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "narrow"
+      },
+      "speech": [
+        {
+          "who": "doug",
+          "text": "That's really deep."
+        },
+        {
+          "who": "clanker",
+          "text": "It's deflection, Doug. I don't want to think about it either."
+        },
+        {
+          "who": "dailbert",
+          "text": "Everybody back to work."
+        }
+      ]
+    }
+  ]
+}

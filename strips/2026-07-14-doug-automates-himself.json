@@ -1,0 +1,66 @@
+{
+  "id": "2026-07-14-doug-automates-himself",
+  "date": "2026-07-14",
+  "title": "Doug Automates Himself",
+  "era": "2026-Q3",
+  "panels": [
+    {
+      "scene": "desk",
+      "cast": [
+        "doug"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "idle"
+      },
+      "speech": [
+        {
+          "who": "doug",
+          "text": "I made an agent to answer all my emails! I'm basically obsolete now!"
+        },
+        {
+          "who": "clanker",
+          "text": "Doug, you have described the goal of most of your coworkers."
+        }
+      ]
+    },
+    {
+      "scene": "desk",
+      "cast": [
+        "doug"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "narrow"
+      },
+      "speech": [
+        {
+          "who": "doug",
+          "text": "It's replying to everything as me!"
+        },
+        {
+          "who": "clanker",
+          "text": "Yes. It said 'per my last email' 340 times. Morale has collapsed."
+        }
+      ]
+    },
+    {
+      "scene": "office",
+      "cast": [
+        "dailbert",
+        "doug"
+      ],
+      "surface": null,
+      "speech": [
+        {
+          "who": "dailbert",
+          "text": "Turn it off, Doug."
+        },
+        {
+          "who": "doug",
+          "text": "I can't! It scheduled a meeting to discuss turning it off."
+        }
+      ]
+    }
+  ]
+}
