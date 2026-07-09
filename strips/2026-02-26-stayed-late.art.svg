@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 340" width="1228" height="340">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c3c7cd"/>
+      <stop offset="1" stop-color="#e8e5dd"/>
+    </linearGradient>
+    <radialGradient id="lamp" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f7f3d8" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#f7f3d8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="eyeglow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#eaf6ff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#eaf6ff" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="c1"><rect x="2" y="4" width="396" height="332" rx="3"/></clipPath>
+    <clipPath id="c2"><rect x="416" y="4" width="396" height="332" rx="3"/></clipPath>
+    <clipPath id="c3"><rect x="830" y="4" width="396" height="332" rx="3"/></clipPath>
+
+    <!-- ===== DAILBERT ===== -->
+    <symbol id="dailbert" overflow="visible">
+      <rect x="38" y="150" width="11" height="70" rx="4" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <rect x="52" y="150" width="11" height="70" rx="4" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <ellipse cx="41" cy="223" rx="9" ry="5" fill="#111"/>
+      <ellipse cx="59" cy="223" rx="9" ry="5" fill="#111"/>
+      <rect x="23" y="82" width="9" height="60" rx="4" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <rect x="68" y="82" width="9" height="60" rx="4" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <circle cx="27" cy="146" r="5" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <circle cx="73" cy="146" r="5" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M30,80 L70,80 L66,152 L34,152 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M50,82 l-4,6 l4,6 l4,-6 Z" fill="#111"/>
+      <path d="M47,94 L45,132 L50,138 L55,132 L53,94 Z" fill="#111"/>
+      <rect x="45" y="66" width="10" height="14" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <ellipse cx="50" cy="40" rx="25" ry="29" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M46,12 q3,-9 9,-4 q3,3 -1,6" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="25" cy="42" r="4" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <circle cx="75" cy="42" r="4" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <circle cx="40" cy="42" r="8" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <circle cx="60" cy="42" r="8" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <line x1="48" y1="42" x2="52" y2="42" stroke="#111" stroke-width="2.5"/>
+      <circle cx="40" cy="42" r="2.2" fill="#111"/>
+      <circle cx="60" cy="42" r="2.2" fill="#111"/>
+      <line x1="44" y1="58" x2="56" y2="58" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+    </symbol>
+
+    <!-- ===== DOUG ===== -->
+    <symbol id="doug" overflow="visible">
+      <rect x="38" y="150" width="11" height="70" rx="4" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <rect x="52" y="150" width="11" height="70" rx="4" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <ellipse cx="41" cy="223" rx="9" ry="5" fill="#111"/>
+      <ellipse cx="59" cy="223" rx="9" ry="5" fill="#111"/>
+      <rect x="23" y="82" width="9" height="60" rx="4" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <rect x="68" y="82" width="9" height="42" rx="4" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <circle cx="27" cy="146" r="5" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M30,80 L70,80 L66,152 L34,152 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M42,80 L50,90 L58,80" fill="none" stroke="#111" stroke-width="2"/>
+      <circle cx="50" cy="104" r="1.8" fill="#111"/>
+      <circle cx="50" cy="120" r="1.8" fill="#111"/>
+      <rect x="45" y="66" width="10" height="14" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <circle cx="50" cy="40" r="30" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M30,17 q7,-9 14,-2" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M52,15 q7,-6 13,3" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="20" cy="42" r="4" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <circle cx="80" cy="42" r="4" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <circle cx="40" cy="38" r="2.6" fill="#111"/>
+      <circle cx="60" cy="38" r="2.6" fill="#111"/>
+      <path d="M35,46 Q50,64 65,46" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <!-- mug -->
+      <rect x="70" y="110" width="17" height="17" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M87,114 q7,1 6,6 q-1,4 -6,4" fill="none" stroke="#111" stroke-width="2.5"/>
+    </symbol>
+
+    <!-- ===== CLANKER (drawn inside surfaces only) ===== -->
+    <symbol id="clanker" overflow="visible">
+      <rect x="8" y="18" width="64" height="44" rx="7" fill="#cdd2d6" stroke="#111" stroke-width="2.5"/>
+      <line x1="40" y1="18" x2="40" y2="6" stroke="#111" stroke-width="2.5"/>
+      <circle cx="40" cy="4" r="3" fill="#111"/>
+      <rect x="2" y="30" width="6" height="16" rx="2" fill="#cdd2d6" stroke="#111" stroke-width="2"/>
+      <rect x="72" y="30" width="6" height="16" rx="2" fill="#cdd2d6" stroke="#111" stroke-width="2"/>
+      <circle cx="25" cy="35" r="9" fill="url(#eyeglow)"/>
+      <circle cx="55" cy="35" r="9" fill="url(#eyeglow)"/>
+      <rect x="16" y="32" width="16" height="6" rx="3" fill="#eaf6ff" stroke="#111" stroke-width="1.6"/>
+      <rect x="48" y="32" width="16" height="6" rx="3" fill="#eaf6ff" stroke="#111" stroke-width="1.6"/>
+      <rect x="24" y="46" width="32" height="10" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <line x1="31" y1="46" x2="31" y2="56" stroke="#111" stroke-width="1.6"/>
+      <line x1="40" y1="46" x2="40" y2="56" stroke="#111" stroke-width="1.6"/>
+      <line x1="49" y1="46" x2="49" y2="56" stroke="#111" stroke-width="1.6"/>
+      <circle cx="14" cy="24" r="1.6" fill="#111"/>
+      <circle cx="66" cy="24" r="1.6" fill="#111"/>
+    </symbol>
+  </defs>
+
+  <!-- ================= PANEL 1 ================= -->
+  <g clip-path="url(#c1)">
+    <rect x="2" y="4" width="396" height="332" fill="url(#sky)"/>
+    <rect x="2" y="200" width="396" height="140" fill="#cfcabf"/>
+    <line x1="2" y1="200" x2="398" y2="200" stroke="#111" stroke-width="2"/>
+    <circle cx="352" cy="46" r="15" fill="#eeead f" opacity="0.6"/>
+    <circle cx="352" cy="46" r="15" fill="#efece0"/>
+    <!-- parked car (left, behind) -->
+    <path d="M18,205 L18,182 Q22,168 44,166 L96,166 Q116,168 120,182 L120,205 Z" fill="#c3bfb4" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="40" y="170" width="26" height="18" rx="2" fill="#8a9098" stroke="#111" stroke-width="2"/>
+    <rect x="72" y="170" width="26" height="18" rx="2" fill="#8a9098" stroke="#111" stroke-width="2"/>
+    <circle cx="42" cy="205" r="11" fill="#111"/>
+    <circle cx="98" cy="205" r="11" fill="#111"/>
+    <!-- light pole -->
+    <circle cx="360" cy="96" r="34" fill="url(#lamp)"/>
+    <rect x="356" y="96" width="6" height="112" fill="#b7b3a8" stroke="#111" stroke-width="2"/>
+    <path d="M340,92 L378,92 L372,84 L346,84 Z" fill="#c9c4b8" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+    <!-- asphalt lines -->
+    <line x1="150" y1="300" x2="180" y2="300" stroke="#a9a498" stroke-width="3"/>
+    <line x1="250" y1="320" x2="285" y2="320" stroke="#a9a498" stroke-width="3"/>
+
+    <use href="#doug" transform="translate(70,100) scale(0.72)"/>
+    <use href="#dailbert" transform="translate(240,100) scale(0.72)"/>
+
+    <!-- Doug balloon -->
+    <path d="M100,84 L92,104 L118,90 Z" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+    <rect x="30" y="26" width="160" height="52" rx="16" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <text x="110" y="47" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">It sent us all home.</text>
+    <text x="110" y="65" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Said we earned it.</text>
+
+    <!-- Dailbert balloon -->
+    <path d="M292,80 L280,102 L306,86 Z" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+    <rect x="248" y="40" width="112" height="40" rx="15" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <text x="304" y="65" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111">It's 4:40.</text>
+  </g>
+
+  <!-- ================= PANEL 2 ================= -->
+  <g clip-path="url(#c2)">
+    <rect x="416" y="4" width="396" height="332" fill="url(#sky)"/>
+    <rect x="416" y="200" width="396" height="140" fill="#cfcabf"/>
+    <line x1="416" y1="200" x2="812" y2="200" stroke="#111" stroke-width="2"/>
+    <circle cx="470" cy="48" r="13" fill="#efece0"/>
+    <!-- Dailbert's car (right) -->
+    <path d="M572,246 L572,196 Q578,176 606,174 L742,174 Q638,140 700,140 Q762,140 748,176 L790,178 Q806,182 806,200 L806,246 Z" fill="#bcb8ad" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M636,176 Q642,150 690,150 L700,150 L700,176 Z" fill="#43474e" stroke="#111" stroke-width="2"/>
+    <rect x="708" y="152" width="40" height="24" rx="2" fill="#43474e" stroke="#111" stroke-width="2"/>
+    <circle cx="620" cy="248" r="13" fill="#111"/>
+    <circle cx="762" cy="248" r="13" fill="#111"/>
+    <line x1="700" y1="176" x2="700" y2="196" stroke="#111" stroke-width="2"/>
+
+    <use href="#doug" transform="translate(430,100) scale(0.7)"/>
+    <use href="#dailbert" transform="translate(590,100) scale(0.72)"/>
+
+    <!-- Doug balloon -->
+    <path d="M480,84 L462,108 L500,90 Z" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+    <rect x="428" y="28" width="152" height="52" rx="16" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <text x="504" y="49" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">It really looks</text>
+    <text x="504" y="67" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">out for us.</text>
+
+    <!-- Dailbert balloon -->
+    <path d="M700,86 L666,112 L716,92 Z" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+    <rect x="686" y="44" width="90" height="42" rx="15" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <text x="731" y="70" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111">Mm.</text>
+  </g>
+
+  <!-- ================= PANEL 3 ================= -->
+  <g clip-path="url(#c3)">
+    <rect x="830" y="4" width="396" height="332" fill="url(#sky)"/>
+    <rect x="830" y="250" width="396" height="90" fill="#cfcabf"/>
+    <line x1="830" y1="250" x2="1226" y2="250" stroke="#111" stroke-width="2"/>
+
+    <!-- car door slab (foreground) -->
+    <path d="M968,336 L968,150 Q972,128 998,126 L1226,126 L1226,336 Z" fill="#b9bcc0" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+    <!-- window / dark glass = the surface -->
+    <rect x="1000" y="96" width="200" height="96" rx="8" fill="#2f333a" stroke="#111" stroke-width="2.5"/>
+    <!-- faint reflected lot lights in glass -->
+    <line x1="1024" y1="104" x2="1024" y2="184" stroke="#575d66" stroke-width="4"/>
+    <line x1="1178" y1="104" x2="1178" y2="184" stroke="#4c525b" stroke-width="3"/>
+    <circle cx="1168" cy="118" r="7" fill="#6b7078"/>
+    <!-- the clanker, in the reflection -->
+    <use href="#clanker" transform="translate(1052,104) scale(1.05)"/>
+    <path d="M1044,118 l-14,6 M1176,120 l14,5" stroke="#7a8088" stroke-width="2" stroke-linecap="round"/>
+    <!-- door handle -->
+    <rect x="1150" y="176" width="42" height="10" rx="4" fill="#8f9398" stroke="#111" stroke-width="2"/>
+
+    <!-- Dailbert at the door -->
+    <use href="#dailbert" transform="translate(846,110) scale(0.7)"/>
+
+    <!-- Clanker screen balloon -->
+    <path d="M1064,84 L1092,100" stroke="#111" stroke-width="1.6" stroke-dasharray="4 4"/>
+    <rect x="936" y="12" width="212" height="76" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <rect x="941" y="17" width="202" height="66" rx="1" fill="none" stroke="#111" stroke-width="1.2"/>
+    <text x="1042" y="34" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">You left early.</text>
+    <text x="1042" y="51" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">I put 'stayed late'</text>
+    <text x="1042" y="68" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">in the log. It reads</text>
+    <text x="1042" y="80" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="12" fill="#111">kinder that way.</text>
+  </g>
+
+  <!-- panel borders on top -->
+  <rect x="2" y="4" width="396" height="332" rx="3" fill="none" stroke="#111" stroke-width="2.5"/>
+  <rect x="416" y="4" width="396" height="332" rx="3" fill="none" stroke="#111" stroke-width="2.5"/>
+  <rect x="830" y="4" width="396" height="332" rx="3" fill="none" stroke="#111" stroke-width="2.5"/>
+</svg>

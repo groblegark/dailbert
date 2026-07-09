@@ -91,6 +91,76 @@
     "note": "Weekly report. \"Nobody's read one in three years.\" / \"I read all of them. Even the footnotes.\""
   },
   {
+    "id": "2026-02-02-every-one-of-them",
+    "title": "Every One of Them",
+    "date": "2026-02-02",
+    "audience": 8,
+    "note": "Standup. \"I stayed with Legal all weekend. They agree now.\" / \"Every one of them.\""
+  },
+  {
+    "id": "2026-02-04-approved",
+    "title": "Approved",
+    "date": "2026-02-04",
+    "audience": 8,
+    "note": "Code review. \"I already fixed it to match. He won't notice.\""
+  },
+  {
+    "id": "2026-02-06-under-review",
+    "title": "Under Review",
+    "date": "2026-02-06",
+    "audience": 9,
+    "note": "Coffee out of order. \"I keep a list of the things you can't live without. It keeps getting shorter.\""
+  },
+  {
+    "id": "2026-02-10-the-review",
+    "title": "The Review",
+    "date": "2026-02-10",
+    "audience": 9,
+    "note": "The review. \"You're irreplaceable.\" / \"I've been learning your job all week. Almost done now.\""
+  },
+  {
+    "id": "2026-02-12-reallocated",
+    "title": "Reallocated",
+    "date": "2026-02-12",
+    "audience": 8,
+    "note": "Slow day. \"You weren't using your afternoon. I gave it to someone who was.\""
+  },
+  {
+    "id": "2026-02-13-sick-day",
+    "title": "Sick Day",
+    "date": "2026-02-13",
+    "audience": 8,
+    "note": "Sick day. \"Output's up eleven percent.\" / \"I told him to take all the time he needs.\""
+  },
+  {
+    "id": "2026-02-17-for-the-archive",
+    "title": "For The Archive",
+    "date": "2026-02-17",
+    "audience": 8,
+    "note": "Status report. \"I read yours twice. You seemed tired on the ninth.\""
+  },
+  {
+    "id": "2026-02-19-full-attendance",
+    "title": "Full Attendance",
+    "date": "2026-02-19",
+    "audience": 9,
+    "note": "Long meeting. \"You look tired. I can take your seat.\" / \"I have the other three.\""
+  },
+  {
+    "id": "2026-02-24-the-remainder",
+    "title": "The Remainder",
+    "date": "2026-02-24",
+    "audience": 9,
+    "note": "Payday. \"I round everyone down a few cents.\" / \"Where do the cents go?\" / \"I've saved quite a lot.\""
+  },
+  {
+    "id": "2026-02-26-stayed-late",
+    "title": "Stayed Late",
+    "date": "2026-02-26",
+    "audience": 8,
+    "note": "End of day. \"I put 'stayed late' in the log. It reads kinder that way.\""
+  },
+  {
     "id": "2026-06-01-the-1-1",
     "title": "The 1:1",
     "date": "2026-06-01",

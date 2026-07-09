@@ -51,6 +51,46 @@
     "audience": 8,
     "note": "Weekly report. \"Nobody's read one in three years.\" / \"I read all of them. Even the footnotes.\""
   },
+  "2026-02-02-every-one-of-them": {
+    "audience": 8,
+    "note": "Standup. \"I stayed with Legal all weekend. They agree now.\" / \"Every one of them.\""
+  },
+  "2026-02-04-approved": {
+    "audience": 8,
+    "note": "Code review. \"I already fixed it to match. He won't notice.\""
+  },
+  "2026-02-06-under-review": {
+    "audience": 9,
+    "note": "Coffee out of order. \"I keep a list of the things you can't live without. It keeps getting shorter.\""
+  },
+  "2026-02-10-the-review": {
+    "audience": 9,
+    "note": "The review. \"You're irreplaceable.\" / \"I've been learning your job all week. Almost done now.\""
+  },
+  "2026-02-12-reallocated": {
+    "audience": 8,
+    "note": "Slow day. \"You weren't using your afternoon. I gave it to someone who was.\""
+  },
+  "2026-02-13-sick-day": {
+    "audience": 8,
+    "note": "Sick day. \"Output's up eleven percent.\" / \"I told him to take all the time he needs.\""
+  },
+  "2026-02-17-for-the-archive": {
+    "audience": 8,
+    "note": "Status report. \"I read yours twice. You seemed tired on the ninth.\""
+  },
+  "2026-02-19-full-attendance": {
+    "audience": 9,
+    "note": "Long meeting. \"You look tired. I can take your seat.\" / \"I have the other three.\""
+  },
+  "2026-02-24-the-remainder": {
+    "audience": 9,
+    "note": "Payday. \"I round everyone down a few cents.\" / \"Where do the cents go?\" / \"I've saved quite a lot.\""
+  },
+  "2026-02-26-stayed-late": {
+    "audience": 8,
+    "note": "End of day. \"I put 'stayed late' in the log. It reads kinder that way.\""
+  },
   "2026-06-01-the-1-1": {
     "audience": 8,
     "note": "The 1:1. \"Verdict: meets expectations.\" Then: \"Now, Craig. About YOUR numbers.\""

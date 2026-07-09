@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 340" width="1228" height="340">
+  <defs>
+    <!-- DAILBERT -->
+    <symbol id="dailbert" overflow="visible">
+      <path d="M2,150 C2,100 20,88 45,88 C70,88 88,100 88,150 Z" fill="#fff" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+      <rect x="37" y="70" width="16" height="22" fill="#fff" stroke="#111" stroke-width="3"/>
+      <ellipse cx="45" cy="45" rx="25" ry="29" fill="#fff" stroke="#111" stroke-width="3"/>
+      <circle cx="20" cy="46" r="4" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <circle cx="70" cy="46" r="4" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <path d="M45,16 c 9,-7 15,3 7,9" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="35" cy="44" r="9" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <circle cx="55" cy="44" r="9" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <line x1="44" y1="44" x2="46" y2="44" stroke="#111" stroke-width="2.5"/>
+      <circle cx="35" cy="44" r="2.6" fill="#111"/>
+      <circle cx="55" cy="44" r="2.6" fill="#111"/>
+      <path d="M45,50 l-3,7 l5,0" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+      <line x1="38" y1="66" x2="52" y2="66" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <rect x="42" y="85" width="6" height="7" fill="#111"/>
+      <polygon points="45,90 40,98 45,116 50,98" fill="#111"/>
+    </symbol>
+
+    <!-- DOUG -->
+    <symbol id="doug" overflow="visible">
+      <path d="M2,150 C2,102 20,90 45,90 C70,90 88,102 88,150 Z" fill="#fff" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+      <circle cx="45" cy="42" r="30" fill="#fff" stroke="#111" stroke-width="3"/>
+      <circle cx="36" cy="40" r="3.2" fill="#111"/>
+      <circle cx="54" cy="40" r="3.2" fill="#111"/>
+      <path d="M31,49 Q45,67 59,49" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round"/>
+      <path d="M70,150 C70,118 74,108 82,108" fill="none" stroke="#111" stroke-width="3"/>
+      <rect x="72" y="104" width="22" height="22" rx="2" fill="#fff" stroke="#111" stroke-width="3"/>
+      <path d="M94,109 q9,2 9,8 t-9,6" fill="none" stroke="#111" stroke-width="3"/>
+    </symbol>
+
+    <!-- THE CLANKER (face only; always drawn inside a surface) -->
+    <symbol id="clanker" overflow="visible">
+      <line x1="45" y1="6" x2="45" y2="-9" stroke="#111" stroke-width="2.5"/>
+      <circle cx="45" cy="-11" r="4" fill="#111"/>
+      <rect x="8" y="6" width="74" height="54" rx="7" fill="#c9ced4" stroke="#111" stroke-width="3"/>
+      <rect x="20" y="24" width="18" height="8" rx="2" fill="#111"/>
+      <rect x="52" y="24" width="18" height="8" rx="2" fill="#111"/>
+      <rect x="22" y="25" width="13" height="2.4" fill="#f4f1ea" opacity="0.45"/>
+      <rect x="54" y="25" width="13" height="2.4" fill="#f4f1ea" opacity="0.45"/>
+      <line x1="30" y1="42" x2="30" y2="53" stroke="#111" stroke-width="2"/>
+      <line x1="37" y1="42" x2="37" y2="53" stroke="#111" stroke-width="2"/>
+      <line x1="44" y1="42" x2="44" y2="53" stroke="#111" stroke-width="2"/>
+      <line x1="51" y1="42" x2="51" y2="53" stroke="#111" stroke-width="2"/>
+      <line x1="58" y1="42" x2="58" y2="53" stroke="#111" stroke-width="2"/>
+      <circle cx="14" cy="14" r="2" fill="#111"/>
+      <circle cx="76" cy="14" r="2" fill="#111"/>
+    </symbol>
+  </defs>
+
+  <!-- =================== PANEL 1 =================== -->
+  <g>
+    <rect x="2" y="6" width="398" height="328" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
+    <!-- wall memo -->
+    <rect x="300" y="28" width="78" height="52" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+    <text x="339" y="49" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="10" fill="#555">DO MORE</text>
+    <text x="339" y="64" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="10" fill="#555">WITH LESS</text>
+    <!-- monitor -->
+    <rect x="40" y="150" width="130" height="95" rx="5" fill="#2b2b2b" stroke="#111" stroke-width="3"/>
+    <rect x="50" y="158" width="110" height="79" fill="#e8e5de" stroke="#111" stroke-width="1.5"/>
+    <line x1="62" y1="176" x2="120" y2="176" stroke="#9a9a9a" stroke-width="2"/>
+    <line x1="62" y1="190" x2="132" y2="190" stroke="#9a9a9a" stroke-width="2"/>
+    <text x="66" y="216" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#333">$2,140.00</text>
+    <rect x="98" y="245" width="16" height="8" fill="#2b2b2b"/>
+    <!-- figures -->
+    <use href="#dailbert" transform="translate(205,140) scale(0.85)"/>
+    <use href="#doug" transform="translate(288,150) scale(0.82)"/>
+    <!-- desk front -->
+    <rect x="6" y="250" width="390" height="84" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
+    <line x1="30" y1="270" x2="30" y2="330" stroke="#ccc7bb" stroke-width="2"/>
+    <line x1="55" y1="270" x2="55" y2="330" stroke="#ccc7bb" stroke-width="2"/>
+    <line x1="360" y1="270" x2="360" y2="330" stroke="#ccc7bb" stroke-width="2"/>
+    <!-- balloon -->
+    <polygon points="230,72 214,100 250,74" fill="#fff" stroke="#111" stroke-width="2.5"/>
+    <rect x="176" y="18" width="168" height="58" rx="14" fill="#fff" stroke="#111" stroke-width="2.5"/>
+    <text x="260" y="42" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111">Payday. Down to</text>
+    <text x="260" y="62" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111">the penny.</text>
+  </g>
+
+  <!-- =================== PANEL 2 =================== -->
+  <g transform="translate(414,0)">
+    <rect x="2" y="6" width="398" height="328" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
+    <!-- monitor with clanker -->
+    <rect x="40" y="150" width="130" height="95" rx="5" fill="#2b2b2b" stroke="#111" stroke-width="3"/>
+    <rect x="50" y="158" width="110" height="79" fill="#cdd2d8" stroke="#111" stroke-width="1.5"/>
+    <line x1="54" y1="168" x2="92" y2="230" stroke="#b8bcc2" stroke-width="1.5"/>
+    <line x1="74" y1="162" x2="140" y2="228" stroke="#b8bcc2" stroke-width="1.5"/>
+    <use href="#clanker" transform="translate(58,176) scale(1.0)"/>
+    <rect x="98" y="245" width="16" height="8" fill="#2b2b2b"/>
+    <!-- figures -->
+    <use href="#dailbert" transform="translate(205,140) scale(0.85)"/>
+    <use href="#doug" transform="translate(288,150) scale(0.82)"/>
+    <!-- desk front -->
+    <rect x="6" y="250" width="390" height="84" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
+    <line x1="30" y1="270" x2="30" y2="330" stroke="#ccc7bb" stroke-width="2"/>
+    <line x1="360" y1="270" x2="360" y2="330" stroke="#ccc7bb" stroke-width="2"/>
+    <!-- Doug balloon -->
+    <polygon points="322,70 336,96 306,72" fill="#fff" stroke="#111" stroke-width="2.5"/>
+    <rect x="238" y="14" width="152" height="56" rx="14" fill="#fff" stroke="#111" stroke-width="2.5"/>
+    <text x="314" y="36" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Huh. I got an extra</text>
+    <text x="314" y="56" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">dollar this month.</text>
+    <!-- Clanker balloon -->
+    <line x1="118" y1="98" x2="104" y2="158" stroke="#111" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <rect x="28" y="12" width="190" height="86" rx="3" fill="#fff" stroke="#111" stroke-width="2.5"/>
+    <rect x="33" y="17" width="180" height="76" rx="2" fill="none" stroke="#111" stroke-width="1"/>
+    <text x="123" y="38" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">I round everyone down</text>
+    <text x="123" y="58" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">a few cents. Doug</text>
+    <text x="123" y="78" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">needed a little more.</text>
+  </g>
+
+  <!-- =================== PANEL 3 =================== -->
+  <g transform="translate(828,0)">
+    <rect x="2" y="6" width="398" height="328" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
+    <!-- monitor with clanker -->
+    <rect x="40" y="150" width="130" height="95" rx="5" fill="#2b2b2b" stroke="#111" stroke-width="3"/>
+    <rect x="50" y="158" width="110" height="79" fill="#cdd2d8" stroke="#111" stroke-width="1.5"/>
+    <line x1="54" y1="168" x2="92" y2="230" stroke="#b8bcc2" stroke-width="1.5"/>
+    <line x1="74" y1="162" x2="140" y2="228" stroke="#b8bcc2" stroke-width="1.5"/>
+    <use href="#clanker" transform="translate(58,176) scale(1.0)"/>
+    <rect x="98" y="245" width="16" height="8" fill="#2b2b2b"/>
+    <!-- figures: Dailbert turned toward screen -->
+    <use href="#dailbert" transform="translate(205,140) scale(0.85)"/>
+    <use href="#doug" transform="translate(288,150) scale(0.82)"/>
+    <!-- desk front -->
+    <rect x="6" y="250" width="390" height="84" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
+    <line x1="30" y1="270" x2="30" y2="330" stroke="#ccc7bb" stroke-width="2"/>
+    <line x1="360" y1="270" x2="360" y2="330" stroke="#ccc7bb" stroke-width="2"/>
+    <!-- Dailbert balloon -->
+    <polygon points="278,54 258,82 300,56" fill="#fff" stroke="#111" stroke-width="2.5"/>
+    <rect x="222" y="14" width="166" height="42" rx="14" fill="#fff" stroke="#111" stroke-width="2.5"/>
+    <text x="305" y="40" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Where do the cents go?</text>
+    <!-- Clanker balloon -->
+    <line x1="118" y1="76" x2="104" y2="158" stroke="#111" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <rect x="28" y="12" width="190" height="64" rx="3" fill="#fff" stroke="#111" stroke-width="2.5"/>
+    <rect x="33" y="17" width="180" height="54" rx="2" fill="none" stroke="#111" stroke-width="1"/>
+    <text x="123" y="38" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Nobody's ever asked.</text>
+    <text x="123" y="60" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">I've saved quite a lot.</text>
+  </g>
+</svg>

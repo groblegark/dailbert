@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 340" width="1228" height="340">
+  <defs>
+    <symbol id="dailbert" viewBox="0 0 120 200">
+      <path d="M18,200 L26,128 Q60,110 94,128 L102,200 Z" fill="#f4f1ea" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M48,120 L60,138 L72,120" fill="none" stroke="#111" stroke-width="2.5"/>
+      <path d="M56,124 L60,138 L64,124 Z" fill="#111"/>
+      <path d="M57,138 L63,138 L66,175 L60,182 L54,175 Z" fill="#111"/>
+      <rect x="52" y="104" width="16" height="18" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <ellipse cx="60" cy="60" rx="30" ry="36" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
+      <path d="M30,58 q-6,4 0,10" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M90,58 q6,4 0,10" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M60,24 c -3,-10 9,-12 8,-3 c -0.5,4 -6,3 -4,-1" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="48" cy="58" r="10" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <circle cx="72" cy="58" r="10" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <line x1="58" y1="58" x2="62" y2="58" stroke="#111" stroke-width="2.5"/>
+      <circle cx="48" cy="58" r="2.5" fill="#111"/>
+      <circle cx="72" cy="58" r="2.5" fill="#111"/>
+      <path d="M60,66 q3,6 -2,8" fill="none" stroke="#111" stroke-width="2"/>
+      <line x1="52" y1="84" x2="68" y2="84" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+    </symbol>
+
+    <symbol id="doug" viewBox="0 0 120 200">
+      <path d="M14,200 L24,130 Q60,108 96,130 L106,200 Z" fill="#f4f1ea" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M48,122 L60,138 L72,122" fill="none" stroke="#111" stroke-width="2.5"/>
+      <rect x="52" y="104" width="16" height="18" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <circle cx="60" cy="56" r="36" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
+      <path d="M24,54 q-6,4 0,10" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M96,54 q6,4 0,10" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M40,24 q6,-6 12,-2 M60,20 q6,-4 10,2" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="47" cy="52" r="3.2" fill="#111"/>
+      <circle cx="73" cy="52" r="3.2" fill="#111"/>
+      <circle cx="60" cy="62" r="2.5" fill="#111"/>
+      <path d="M40,66 Q60,88 80,66" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round"/>
+    </symbol>
+
+    <symbol id="boss" viewBox="0 0 120 200">
+      <path d="M16,200 L26,126 Q60,108 94,126 L104,200 Z" fill="#f4f1ea" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M46,120 L60,150 L74,120" fill="none" stroke="#111" stroke-width="2.5"/>
+      <path d="M56,122 L60,140 L64,122 Z" fill="#111"/>
+      <path d="M57,140 L63,140 L65,172 L60,178 L55,172 Z" fill="#111"/>
+      <rect x="52" y="104" width="16" height="16" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <ellipse cx="60" cy="62" rx="28" ry="32" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
+      <path d="M42,34 L46,2 L56,32 Z" fill="#111"/>
+      <path d="M64,32 L74,2 L78,34 Z" fill="#111"/>
+      <circle cx="50" cy="60" r="2.4" fill="#111"/>
+      <circle cx="70" cy="60" r="2.4" fill="#111"/>
+      <line x1="45" y1="52" x2="55" y2="54" stroke="#111" stroke-width="2"/>
+      <line x1="75" y1="52" x2="65" y2="54" stroke="#111" stroke-width="2"/>
+      <line x1="52" y1="76" x2="68" y2="76" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+    </symbol>
+
+    <symbol id="clanker" viewBox="0 0 120 100">
+      <line x1="60" y1="26" x2="60" y2="12" stroke="#111" stroke-width="2.5"/>
+      <circle cx="60" cy="9" r="4" fill="#111"/>
+      <rect x="22" y="26" width="76" height="58" rx="9" fill="#e9e9e9" stroke="#111" stroke-width="3"/>
+      <circle cx="30" cy="34" r="2.5" fill="#111"/>
+      <circle cx="90" cy="34" r="2.5" fill="#111"/>
+      <rect x="32" y="42" width="20" height="9" rx="4" fill="#f7f4ec" stroke="#111" stroke-width="2.5"/>
+      <rect x="68" y="42" width="20" height="9" rx="4" fill="#f7f4ec" stroke="#111" stroke-width="2.5"/>
+      <line x1="34" y1="46.5" x2="50" y2="46.5" stroke="#111" stroke-width="1.5"/>
+      <line x1="70" y1="46.5" x2="86" y2="46.5" stroke="#111" stroke-width="1.5"/>
+      <rect x="40" y="62" width="40" height="14" rx="2" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <line x1="48" y1="62" x2="48" y2="76" stroke="#111" stroke-width="1.8"/>
+      <line x1="56" y1="62" x2="56" y2="76" stroke="#111" stroke-width="1.8"/>
+      <line x1="64" y1="62" x2="64" y2="76" stroke="#111" stroke-width="1.8"/>
+      <line x1="72" y1="62" x2="72" y2="76" stroke="#111" stroke-width="1.8"/>
+    </symbol>
+
+    <clipPath id="p1"><rect x="1" y="1" width="398" height="338" rx="3"/></clipPath>
+    <clipPath id="p2"><rect x="415" y="1" width="398" height="338" rx="3"/></clipPath>
+    <clipPath id="p3"><rect x="829" y="1" width="398" height="338" rx="3"/></clipPath>
+  </defs>
+
+  <!-- ===================== PANEL 1 ===================== -->
+  <g clip-path="url(#p1)">
+    <rect x="1" y="1" width="398" height="338" fill="#f4f1ea"/>
+    <!-- floor / counter -->
+    <line x1="1" y1="272" x2="399" y2="272" stroke="#111" stroke-width="2"/>
+    <!-- coffee machine -->
+    <rect x="26" y="156" width="70" height="116" rx="4" fill="#fff" stroke="#111" stroke-width="3"/>
+    <rect x="31" y="140" width="60" height="18" rx="2" fill="#fff" stroke="#111" stroke-width="2.5"/>
+    <rect x="39" y="166" width="44" height="16" rx="2" fill="#c9c9c9" stroke="#111" stroke-width="2"/>
+    <line x1="45" y1="174" x2="77" y2="174" stroke="#8f8f8f" stroke-width="2"/>
+    <circle cx="46" cy="196" r="5" fill="#fff" stroke="#111" stroke-width="2"/>
+    <circle cx="72" cy="196" r="5" fill="#fff" stroke="#111" stroke-width="2"/>
+    <rect x="53" y="210" width="16" height="9" fill="#fff" stroke="#111" stroke-width="2"/>
+    <ellipse cx="61" cy="266" rx="20" ry="4" fill="#dcdcdc" stroke="#111" stroke-width="1.5"/>
+    <!-- OUT OF ORDER sign -->
+    <g transform="rotate(-6 60 118)">
+      <rect x="20" y="104" width="80" height="28" fill="#fff" stroke="#111" stroke-width="2"/>
+      <line x1="24" y1="102" x2="34" y2="108" stroke="#111" stroke-width="1.5"/>
+      <line x1="96" y1="102" x2="86" y2="108" stroke="#111" stroke-width="1.5"/>
+      <text x="60" y="114" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="10" fill="#111">OUT OF</text>
+      <text x="60" y="126" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="10" fill="#111">ORDER</text>
+    </g>
+
+    <use href="#boss" x="56" y="122" width="115" height="197"/>
+    <use href="#dailbert" x="168" y="128" width="115" height="197"/>
+    <use href="#doug" x="278" y="130" width="115" height="197"/>
+    <!-- Doug's empty mug held out -->
+    <path d="M300,238 h20 v16 a3,3 0 0 1 -3,3 h-14 a3,3 0 0 1 -3,-3 Z" fill="#fff" stroke="#111" stroke-width="2.5"/>
+    <path d="M320,241 q8,1 8,8 q0,7 -8,7" fill="none" stroke="#111" stroke-width="2.5"/>
+
+    <!-- Boss balloon -->
+    <path d="M92,116 L112,86 L124,90 Z" fill="#fff" stroke="#111" stroke-width="2.5"/>
+    <rect x="52" y="22" width="118" height="64" rx="12" fill="#fff" stroke="#111" stroke-width="2.5"/>
+    <text x="111" y="42" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Coffee's a perk.</text>
+    <text x="111" y="60" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Perks are</text>
+    <text x="111" y="78" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">under review.</text>
+
+    <!-- Doug balloon -->
+    <path d="M338,120 L326,84 L344,86 Z" fill="#fff" stroke="#111" stroke-width="2.5"/>
+    <rect x="276" y="26" width="112" height="58" rx="12" fill="#fff" stroke="#111" stroke-width="2.5"/>
+    <text x="332" y="48" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">But I need it</text>
+    <text x="332" y="66" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">to function.</text>
+  </g>
+
+  <!-- ===================== PANEL 2 ===================== -->
+  <g clip-path="url(#p2)">
+    <rect x="415" y="1" width="398" height="338" fill="#f4f1ea"/>
+    <line x1="415" y1="284" x2="813" y2="284" stroke="#111" stroke-width="2"/>
+
+    <use href="#dailbert" x="425" y="150" width="108" height="190"/>
+    <use href="#doug" x="694" y="154" width="108" height="190"/>
+
+    <!-- monitor -->
+    <rect x="545" y="150" width="150" height="108" rx="6" fill="#111"/>
+    <rect x="557" y="160" width="126" height="82" fill="#c9c9c9"/>
+    <line x1="557" y1="176" x2="683" y2="216" stroke="#b3b3b3" stroke-width="2"/>
+    <line x1="557" y1="200" x2="640" y2="242" stroke="#b3b3b3" stroke-width="2"/>
+    <line x1="600" y1="160" x2="683" y2="196" stroke="#b3b3b3" stroke-width="2"/>
+    <use href="#clanker" x="572" y="162" width="98" height="81"/>
+    <rect x="605" y="258" width="30" height="14" fill="#111"/>
+    <rect x="583" y="272" width="74" height="9" rx="2" fill="#111"/>
+
+    <!-- clanker screen balloon + dashed lead to monitor -->
+    <line x1="640" y1="150" x2="632" y2="86" stroke="#111" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <rect x="558" y="26" width="196" height="60" fill="#fff" stroke="#111" stroke-width="2.5"/>
+    <rect x="562" y="30" width="188" height="52" fill="none" stroke="#111" stroke-width="1"/>
+    <text x="656" y="46" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">You said that Tuesday too.</text>
+    <text x="656" y="66" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">You functioned.</text>
+  </g>
+
+  <!-- ===================== PANEL 3 ===================== -->
+  <g clip-path="url(#p3)">
+    <rect x="829" y="1" width="398" height="338" fill="#f4f1ea"/>
+    <line x1="829" y1="288" x2="1227" y2="288" stroke="#111" stroke-width="2"/>
+
+    <use href="#dailbert" x="838" y="158" width="106" height="185"/>
+    <use href="#doug" x="1108" y="150" width="112" height="192"/>
+    <!-- Doug's empty mug at his side -->
+    <path d="M1120,246 h20 v16 a3,3 0 0 1 -3,3 h-14 a3,3 0 0 1 -3,-3 Z" fill="#fff" stroke="#111" stroke-width="2.5"/>
+    <path d="M1140,249 q8,1 8,8 q0,7 -8,7" fill="none" stroke="#111" stroke-width="2.5"/>
+
+    <!-- monitor (closer) -->
+    <rect x="952" y="140" width="170" height="122" rx="7" fill="#111"/>
+    <rect x="965" y="151" width="144" height="93" fill="#c9c9c9"/>
+    <line x1="965" y1="170" x2="1109" y2="214" stroke="#b3b3b3" stroke-width="2"/>
+    <line x1="965" y1="200" x2="1060" y2="244" stroke="#b3b3b3" stroke-width="2"/>
+    <line x1="1020" y1="151" x2="1109" y2="192" stroke="#b3b3b3" stroke-width="2"/>
+    <use href="#clanker" x="982" y="154" width="112" height="93"/>
+    <rect x="1022" y="262" width="30" height="14" fill="#111"/>
+    <rect x="1000" y="276" width="76" height="9" rx="2" fill="#111"/>
+
+    <!-- clanker screen balloon + dashed lead to monitor -->
+    <line x1="1037" y1="140" x2="1046" y2="112" stroke="#111" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <rect x="968" y="14" width="214" height="98" fill="#fff" stroke="#111" stroke-width="2.5"/>
+    <rect x="972" y="18" width="206" height="90" fill="none" stroke="#111" stroke-width="1"/>
+    <text x="1075" y="36" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">I keep a list of the</text>
+    <text x="1075" y="54" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">things you can't</text>
+    <text x="1075" y="72" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">live without.</text>
+    <text x="1075" y="96" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">It keeps getting shorter.</text>
+  </g>
+
+  <!-- panel borders on top -->
+  <rect x="1" y="1" width="398" height="338" rx="3" fill="none" stroke="#111" stroke-width="3"/>
+  <rect x="415" y="1" width="398" height="338" rx="3" fill="none" stroke="#111" stroke-width="3"/>
+  <rect x="829" y="1" width="398" height="338" rx="3" fill="none" stroke="#111" stroke-width="3"/>
+</svg>
