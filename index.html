@@ -139,8 +139,13 @@ var FORCED = ["2026-01-05-change-freeze","2026-01-06-nine-days","2026-01-08-lear
 // committed review baseline — seed into localStorage on first visit / new device so
 // votes & comments persist everywhere (Matt reviews -> "save" -> committed here).
 var BASE = {"votes":{},"comments":{}};
-(function(){try{var V=BASE.votes||{};for(var id in V){if(localStorage.getItem('dv.v.'+id)===null)localStorage.setItem('dv.v.'+id,String(V[id]));}var C=BASE.comments||{};for(var cid in C){if(localStorage.getItem('dv.cm.'+cid)===null)localStorage.setItem('dv.cm.'+cid,JSON.stringify(C[cid]));}}catch(e){}})();
-function applyPub(){var lp=[];try{lp=JSON.parse(localStorage.getItem('dv.pub')||'[]');}catch(e){}M=ALL.filter(function(s){return FORCED.indexOf(s.id)>=0||lp.indexOf(s.id)>=0;});}
+var CHOSENBASE = {};
+(function(){try{var V=BASE.votes||{};for(var id in V){if(localStorage.getItem('dv.v.'+id)===null)localStorage.setItem('dv.v.'+id,String(V[id]));}var C=BASE.comments||{};for(var cid in C){if(localStorage.getItem('dv.cm.'+cid)===null)localStorage.setItem('dv.cm.'+cid,JSON.stringify(C[cid]));}if(localStorage.getItem('dv.chosen')===null)localStorage.setItem('dv.chosen',JSON.stringify(CHOSENBASE));}catch(e){}})();
+function chosenMap(){try{return JSON.parse(localStorage.getItem('dv.chosen')||'{}');}catch(e){return {};}}
+// winner of a date = the picked candidate, or the sole candidate if only one exists
+function winnerId(date){var ch=chosenMap();if(ch[date])return ch[date];var c=ALL.filter(function(x){return x.date===date;});return c.length===1?c[0].id:null;}
+// public = published AND is its day's winner (multi-candidate days need an explicit pick)
+function applyPub(){var lp=[];try{lp=JSON.parse(localStorage.getItem('dv.pub')||'[]');}catch(e){}M=ALL.filter(function(s){return (FORCED.indexOf(s.id)>=0||lp.indexOf(s.id)>=0)&&winnerId(s.date)===s.id;});}
 applyPub();
 function fmtReach(n){n=Math.max(1,Math.round(n));if(n<1000)return''+n;var u=['K','M','B','T'],i=-1,x=n;while(x>=1000&&i<3){x/=1000;i++;}return (x<10?x.toFixed(1):Math.round(x))+u[i];}
 function pct(n){return (Math.log10(Math.max(1,n))/10*100).toFixed(2);}
@@ -152,6 +157,7 @@ function getV(id){var v=localStorage.getItem(vkey(id));return v==='1'?1:(v==='-1
 function setV(id,val){if(val===0)localStorage.removeItem(vkey(id));else localStorage.setItem(vkey(id),String(val));}
 function loadC(id){try{return JSON.parse(localStorage.getItem(ckey(id))||'[]');}catch(e){return [];}}
 function saveC(id,a){localStorage.setItem(ckey(id),JSON.stringify(a));}
+var HASID=!!new URLSearchParams(location.search).get('id');
 var cur=(function(){var p=new URLSearchParams(location.search).get('id');var i=p?byId(p):-1;return i>=0?i:todayIdx();})();
 function $(x){return document.getElementById(x);}
 function renderComments(){var s=M[cur],arr=loadC(s.id);$('cmc').textContent=arr.length;$('ch').textContent='('+arr.length+')';var ul=$('clist');ul.innerHTML='';arr.slice().reverse().forEach(function(c){var li=document.createElement('li');var d=new Date(c.ts);li.innerHTML='<div class="ch"><b>'+esc(c.name||'anon')+'</b><span class="ts">'+d.toLocaleDateString()+'</span></div><div class="cb">'+esc(c.text)+'</div>';ul.appendChild(li);});}
@@ -168,5 +174,6 @@ $('prev2').addEventListener('click',function(){go(cur-1);});
 $('next2').addEventListener('click',function(){go(cur+1);});
 document.addEventListener('keydown',function(e){if(e.target.tagName==='TEXTAREA'||e.target.tagName==='INPUT')return;if(e.key==='ArrowLeft')go(cur-1);else if(e.key==='ArrowRight')go(cur+1);});
 render();
-Desk.pull(function(){applyPub();if(cur>=M.length)cur=M.length-1;if(cur<0)cur=todayIdx();render();});
+// after remote truth arrives, re-filter; land on today's strip unless the user opened a specific one
+Desk.pull(function(){applyPub();if(!HASID){cur=todayIdx();}else{if(cur>=M.length)cur=M.length-1;}if(cur<0)cur=todayIdx();render();});
 </script>

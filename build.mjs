@@ -206,7 +206,7 @@ var Desk = (function () {
 </` + `script>`;
 }
 
-function archive(strips, ratings, forced = [], reviews = { votes: {}, comments: {} }, desk = { api: '' }) {
+function archive(strips, ratings, forced = [], reviews = { votes: {}, comments: {} }, desk = { api: '' }, chosenBase = {}) {
   const items = strips.map((s, i) => {
     const r = ratings[s.id] || {};
     const a = r.audience || 1;
@@ -318,7 +318,8 @@ ${deskSync(desk)}
 <script>
 // committed review baseline — seed votes/comments into localStorage on first visit
 var BASE = ${JSON.stringify(reviews)};
-(function(){try{var V=BASE.votes||{};for(var id in V){if(localStorage.getItem('dv.v.'+id)===null)localStorage.setItem('dv.v.'+id,String(V[id]));}var C=BASE.comments||{};for(var cid in C){if(localStorage.getItem('dv.cm.'+cid)===null)localStorage.setItem('dv.cm.'+cid,JSON.stringify(C[cid]));}}catch(e){}})();
+var CHOSENBASE = ${JSON.stringify(chosenBase)};
+(function(){try{var V=BASE.votes||{};for(var id in V){if(localStorage.getItem('dv.v.'+id)===null)localStorage.setItem('dv.v.'+id,String(V[id]));}var C=BASE.comments||{};for(var cid in C){if(localStorage.getItem('dv.cm.'+cid)===null)localStorage.setItem('dv.cm.'+cid,JSON.stringify(C[cid]));}if(localStorage.getItem('dv.chosen')===null)localStorage.setItem('dv.chosen',JSON.stringify(CHOSENBASE));}catch(e){}})();
 function boot() {
   var main = document.querySelector('main');
   // nothing is public by date — only un-drafted (force-published) strips show. The rest
@@ -326,8 +327,12 @@ function boot() {
   var FORCED = ${JSON.stringify(forced)};
   var lp = [];
   try { lp = JSON.parse(localStorage.getItem('dv.pub') || '[]'); } catch (e) {}
+  var chosen = {}; try { chosen = JSON.parse(localStorage.getItem('dv.chosen') || '{}'); } catch (e) {}
+  var byDate = {};
+  Array.prototype.slice.call(main.querySelectorAll('.strip')).forEach(function (f) { (byDate[f.dataset.date] = byDate[f.dataset.date] || []).push(f.id); });
+  function isWinner(f) { var d = f.dataset.date; return chosen[d] ? chosen[d] === f.id : byDate[d].length === 1; }
   Array.prototype.slice.call(main.querySelectorAll('.strip')).forEach(function (f) {
-    if (!(FORCED.indexOf(f.id) >= 0 || lp.indexOf(f.id) >= 0)) f.remove();
+    if (!((FORCED.indexOf(f.id) >= 0 || lp.indexOf(f.id) >= 0) && isWinner(f))) f.remove();
   });
   var figs = Array.prototype.slice.call(main.querySelectorAll('.strip'));
   function apply(mode) {
@@ -364,7 +369,7 @@ Desk.pull(boot);
 }
 
 // ---- solo viewer (index.html): today's comic + prev/next + score + upvote + comments ----
-function solo(manifest, forced = [], reviews = { votes: {}, comments: {} }, desk = { api: '' }) {
+function solo(manifest, forced = [], reviews = { votes: {}, comments: {} }, desk = { api: '' }, chosenBase = {}) {
   const data = JSON.stringify(manifest).replace(/</g, '\\u003c');
   return `<meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -473,8 +478,13 @@ var FORCED = ${JSON.stringify(forced)};
 // committed review baseline — seed into localStorage on first visit / new device so
 // votes & comments persist everywhere (Matt reviews -> "save" -> committed here).
 var BASE = ${JSON.stringify(reviews)};
-(function(){try{var V=BASE.votes||{};for(var id in V){if(localStorage.getItem('dv.v.'+id)===null)localStorage.setItem('dv.v.'+id,String(V[id]));}var C=BASE.comments||{};for(var cid in C){if(localStorage.getItem('dv.cm.'+cid)===null)localStorage.setItem('dv.cm.'+cid,JSON.stringify(C[cid]));}}catch(e){}})();
-function applyPub(){var lp=[];try{lp=JSON.parse(localStorage.getItem('dv.pub')||'[]');}catch(e){}M=ALL.filter(function(s){return FORCED.indexOf(s.id)>=0||lp.indexOf(s.id)>=0;});}
+var CHOSENBASE = ${JSON.stringify(chosenBase)};
+(function(){try{var V=BASE.votes||{};for(var id in V){if(localStorage.getItem('dv.v.'+id)===null)localStorage.setItem('dv.v.'+id,String(V[id]));}var C=BASE.comments||{};for(var cid in C){if(localStorage.getItem('dv.cm.'+cid)===null)localStorage.setItem('dv.cm.'+cid,JSON.stringify(C[cid]));}if(localStorage.getItem('dv.chosen')===null)localStorage.setItem('dv.chosen',JSON.stringify(CHOSENBASE));}catch(e){}})();
+function chosenMap(){try{return JSON.parse(localStorage.getItem('dv.chosen')||'{}');}catch(e){return {};}}
+// winner of a date = the picked candidate, or the sole candidate if only one exists
+function winnerId(date){var ch=chosenMap();if(ch[date])return ch[date];var c=ALL.filter(function(x){return x.date===date;});return c.length===1?c[0].id:null;}
+// public = published AND is its day's winner (multi-candidate days need an explicit pick)
+function applyPub(){var lp=[];try{lp=JSON.parse(localStorage.getItem('dv.pub')||'[]');}catch(e){}M=ALL.filter(function(s){return (FORCED.indexOf(s.id)>=0||lp.indexOf(s.id)>=0)&&winnerId(s.date)===s.id;});}
 applyPub();
 function fmtReach(n){n=Math.max(1,Math.round(n));if(n<1000)return''+n;var u=['K','M','B','T'],i=-1,x=n;while(x>=1000&&i<3){x/=1000;i++;}return (x<10?x.toFixed(1):Math.round(x))+u[i];}
 function pct(n){return (Math.log10(Math.max(1,n))/10*100).toFixed(2);}
@@ -486,6 +496,7 @@ function getV(id){var v=localStorage.getItem(vkey(id));return v==='1'?1:(v==='-1
 function setV(id,val){if(val===0)localStorage.removeItem(vkey(id));else localStorage.setItem(vkey(id),String(val));}
 function loadC(id){try{return JSON.parse(localStorage.getItem(ckey(id))||'[]');}catch(e){return [];}}
 function saveC(id,a){localStorage.setItem(ckey(id),JSON.stringify(a));}
+var HASID=!!new URLSearchParams(location.search).get('id');
 var cur=(function(){var p=new URLSearchParams(location.search).get('id');var i=p?byId(p):-1;return i>=0?i:todayIdx();})();
 function $(x){return document.getElementById(x);}
 function renderComments(){var s=M[cur],arr=loadC(s.id);$('cmc').textContent=arr.length;$('ch').textContent='('+arr.length+')';var ul=$('clist');ul.innerHTML='';arr.slice().reverse().forEach(function(c){var li=document.createElement('li');var d=new Date(c.ts);li.innerHTML='<div class="ch"><b>'+esc(c.name||'anon')+'</b><span class="ts">'+d.toLocaleDateString()+'</span></div><div class="cb">'+esc(c.text)+'</div>';ul.appendChild(li);});}
@@ -502,7 +513,8 @@ $('prev2').addEventListener('click',function(){go(cur-1);});
 $('next2').addEventListener('click',function(){go(cur+1);});
 document.addEventListener('keydown',function(e){if(e.target.tagName==='TEXTAREA'||e.target.tagName==='INPUT')return;if(e.key==='ArrowLeft')go(cur-1);else if(e.key==='ArrowRight')go(cur+1);});
 render();
-Desk.pull(function(){applyPub();if(cur>=M.length)cur=M.length-1;if(cur<0)cur=todayIdx();render();});
+// after remote truth arrives, re-filter; land on today's strip unless the user opened a specific one
+Desk.pull(function(){applyPub();if(!HASID){cur=todayIdx();}else{if(cur>=M.length)cur=M.length-1;}if(cur<0)cur=todayIdx();render();});
 </script>`;
 }
 
@@ -555,11 +567,40 @@ function admin(manifest, forced = [], reviews = { votes: {}, comments: {} }, des
          border-radius:16px; padding:5px 12px; cursor:pointer; min-width:96px; }
   .tog.on { background:#e0b060; color:#14140f; border-color:#e0b060; }
   .sc { opacity:.65; }
+  /* picker: one group per day, candidate cards side-by-side */
+  .groups { padding:6px 14px 80px; }
+  .day { border-top:1px solid #262620; padding:14px 4px 4px; }
+  .day > .dh { display:flex; align-items:center; gap:12px; margin-bottom:10px; font-size:13px; }
+  .day .dh .d { font-weight:bold; letter-spacing:1px; }
+  .day .dh .cc { opacity:.5; font-size:12px; }
+  .day .dh .pill { font-size:11px; padding:3px 10px; border-radius:12px; }
+  .pill.live { background:#1e3a1e; color:#9fdca0; }
+  .pill.ready { background:#2a2f3a; color:#9fb8dc; }
+  .pill.needspick { background:#3a1e1e; color:#e29a9a; }
+  .cands { display:flex; gap:14px; flex-wrap:wrap; }
+  .cand { width:270px; background:#1a1a12; border:1px solid #2c2c22; border-radius:8px; padding:10px; position:relative; }
+  .cand.win { border-color:#e0b060; box-shadow:0 0 0 1px #e0b060 inset; }
+  .cand.dim { opacity:.62; }
+  .cand img { display:block; width:100%; height:auto; border:1px solid #333; background:#f4f1ea; border-radius:3px; }
+  .cand .t { font-size:12px; margin:8px 0 2px; color:#e8e4d8; }
+  .cand .s { font-size:11px; opacity:.55; }
+  .cand .crow { display:flex; align-items:center; gap:8px; margin-top:9px; flex-wrap:wrap; }
+  .vote { display:inline-flex; align-items:center; gap:5px; border:1px solid #444; border-radius:14px; padding:2px 8px; }
+  .vote b { min-width:14px; text-align:center; font-size:12px; }
+  .vote button { border:none; background:transparent; color:inherit; cursor:pointer; font-size:12px; opacity:.5; padding:1px 3px; }
+  .vote button.on { opacity:1; color:#e0b060; transform:scale(1.2); }
+  .pick { font-family:inherit; font-size:12px; background:transparent; color:inherit; border:1px solid #555;
+          border-radius:14px; padding:4px 11px; cursor:pointer; }
+  .pick.win { background:#e0b060; color:#14140f; border-color:#e0b060; cursor:default; }
+  .pubtog { font-family:inherit; font-size:12px; background:transparent; color:inherit; border:1px solid #3a5a3a;
+            border-radius:14px; padding:4px 11px; cursor:pointer; }
+  .pubtog.on { background:#1e3a1e; color:#9fdca0; border-color:#3a5a3a; }
+  .cand .committed { font-size:11px; opacity:.4; }
 </style>
 <header>
   <h1>DAILBERT &middot; the desk</h1>
-  <div class="sub">unlisted. every strip is a hidden draft until you un-draft it here &mdash; nothing is public by date. toggles preview instantly in your browser; commit published.json to publish for everyone.</div>
-  <div class="stat"><span class="pub-cnt"><b id="np">0</b> published</span><span class="drf-cnt"><b id="nd">0</b> drafts</span><span class="sc"><b id="nt">0</b> total</span></div>
+  <div class="sub">unlisted. one row per day; when a day has more than one candidate, <b>pick the keeper</b>. the public site shows each day's picked winner once it's published. vote &#9650;/&#9660; to steer the cartoonist. everything persists to the shared desk.</div>
+  <div class="stat"><span class="pub-cnt"><b id="np">0</b> live days</span><span class="drf-cnt"><b id="nd">0</b> unpublished</span><span class="sc"><b id="nt">0</b> days</span></div>
 </header>
 <div class="sync">
   <span class="dot" id="syncdot"></span><span class="st" id="syncst">checking backend…</span>
@@ -571,62 +612,78 @@ function admin(manifest, forced = [], reviews = { votes: {}, comments: {} }, des
   <div class="row"><b>Snapshot</b><button id="copy">copy</button><span id="savedhint" class="hint">picks &amp; votes now persist live to the AWS desk (above). This is just an optional repo snapshot &mdash; hand to Claude to bake <code>world/published.json</code> + <code>world/reviews.json</code> into git.</span></div>
   <textarea id="exp" readonly></textarea>
 </div>
-<table>
-  <thead><tr><th>strip</th><th>date</th><th>title</th><th>editor</th><th>status</th><th>action</th></tr></thead>
-  <tbody id="rows"></tbody>
-</table>
+<div id="groups" class="groups"></div>
 ${deskSync(desk)}
 <script>
 var M = ${data};
 var FORCED = ${JSON.stringify(forced)};
 var BASE = ${JSON.stringify(reviews)};
-// seed committed review baseline into localStorage on first visit / new device
-(function(){try{var V=BASE.votes||{};for(var id in V){if(localStorage.getItem('dv.v.'+id)===null)localStorage.setItem('dv.v.'+id,String(V[id]));}var C=BASE.comments||{};for(var cid in C){if(localStorage.getItem('dv.cm.'+cid)===null)localStorage.setItem('dv.cm.'+cid,JSON.stringify(C[cid]));}}catch(e){}})();
+var CHOSENBASE = ${JSON.stringify(chosenBase)};
+// seed committed baselines into localStorage on first visit / new device
+(function(){try{var V=BASE.votes||{};for(var id in V){if(localStorage.getItem('dv.v.'+id)===null)localStorage.setItem('dv.v.'+id,String(V[id]));}var C=BASE.comments||{};for(var cid in C){if(localStorage.getItem('dv.cm.'+cid)===null)localStorage.setItem('dv.cm.'+cid,JSON.stringify(C[cid]));}if(localStorage.getItem('dv.chosen')===null)localStorage.setItem('dv.chosen',JSON.stringify(CHOSENBASE));}catch(e){}})();
 function lp(){try{return JSON.parse(localStorage.getItem('dv.pub')||'[]');}catch(e){return [];}}
 function setlp(a){localStorage.setItem('dv.pub',JSON.stringify(a));}
+function chosenMap(){try{return JSON.parse(localStorage.getItem('dv.chosen')||'{}');}catch(e){return {};}}
+function setChosen(m){localStorage.setItem('dv.chosen',JSON.stringify(m));}
 function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
 function fmtReach(n){n=Math.max(1,Math.round(n));if(n<1000)return''+n;var u=['K','M','B','T'],i=-1,x=n;while(x>=1000&&i<3){x/=1000;i++;}return (x<10?x.toFixed(1):Math.round(x))+u[i];}
-// newest / furthest-future first, so drafts are up top
-var rows = M.slice().sort(function(a,b){return a.date<b.date?1:(a.date>b.date?-1:0);});
-function isForced(s){return FORCED.indexOf(s.id)>=0;}
-function isLocal(s){return lp().indexOf(s.id)>=0;}
-function isPub(s){return isForced(s)||isLocal(s);}
+function isForced(id){return FORCED.indexOf(id)>=0;}
+function isPubId(id){return isForced(id)||lp().indexOf(id)>=0;}
+function getV(id){var v=localStorage.getItem('dv.v.'+id);return v==='1'?1:(v==='-1'?-1:0);}
+// group strips by day; best editorial candidate first
+var byDate={};M.forEach(function(s){(byDate[s.date]=byDate[s.date]||[]).push(s);});
+Object.keys(byDate).forEach(function(d){byDate[d].sort(function(a,b){return (b.audience-a.audience)||(a.id<b.id?-1:1);});});
+var dates=Object.keys(byDate).sort(function(a,b){return a<b?1:(a>b?-1:0);});
+function winnerId(d){var ch=chosenMap();if(ch[d])return ch[d];var c=byDate[d];return c.length===1?c[0].id:null;}
+function statusOf(d){var w=winnerId(d);if(!w)return 'needspick';return isPubId(w)?'live':'ready';}
+function pickWinner(d,id){
+  var ch=chosenMap(),old=ch[d];ch[d]=id;setChosen(ch);
+  // if the day was published through its old winner, move publish to the new winner
+  if(old&&old!==id){var a=lp(),i=a.indexOf(old);if(i>=0){a.splice(i,1);if(a.indexOf(id)<0)a.push(id);setlp(a);Desk.published(a);}}
+  Desk.chosen(ch);render();
+}
+function togglePub(id){var a=lp(),i=a.indexOf(id);if(i>=0)a.splice(i,1);else a.push(id);setlp(a);Desk.published(a);render();}
+function vote(id,dir){var nv=getV(id)===dir?0:dir;if(nv===0)localStorage.removeItem('dv.v.'+id);else localStorage.setItem('dv.v.'+id,String(nv));Desk.vote(id,nv);render();}
 function render(){
-  var tb=document.getElementById('rows');tb.innerHTML='';
-  var np=0,nd=0;
-  rows.forEach(function(s){
-    var pub=isPub(s), draft=!pub;
-    if(pub)np++;else nd++;
-    var tr=document.createElement('tr');if(draft)tr.className='draft';
-    var badge = isForced(s) ? '<span class="badge pub">published</span>'
-      : (isLocal(s) ? '<span class="badge pub">published &middot; local</span>' : '<span class="badge drf">draft</span>');
-    var action = isForced(s) ? '<span class="sc" style="opacity:.4">committed</span>'
-      : '<button class="tog'+(isLocal(s)?' on':'')+'" data-id="'+s.id+'">'+(isLocal(s)?'unpublish':'publish')+'</button>';
-    tr.innerHTML='<td class="th"><a href="index.html?id='+s.id+'"><img loading="lazy" src="strips/'+s.id+'.svg" alt=""/></a></td>'+
-      '<td class="dt">'+s.date+'</td>'+
-      '<td class="ti"><a href="index.html?id='+s.id+'">'+esc(s.title)+'</a></td>'+
-      '<td class="sc">'+fmtReach(s.audience)+'</td>'+
-      '<td>'+badge+'</td>'+
-      '<td>'+action+'</td>';
-    tb.appendChild(tr);
+  var wrap=document.getElementById('groups');wrap.innerHTML='';
+  var live=0,unpub=0;
+  dates.forEach(function(d){
+    var cands=byDate[d],w=winnerId(d),st=statusOf(d);
+    if(st==='live')live++;else unpub++;
+    var day=document.createElement('div');day.className='day';
+    var pill=st==='live'?'<span class="pill live">live</span>':(st==='ready'?'<span class="pill ready">picked \\u00b7 unpublished</span>':'<span class="pill needspick">pick one</span>');
+    day.innerHTML='<div class="dh"><span class="d">'+d+'</span>'+pill+'<span class="cc">'+cands.length+(cands.length>1?' candidates':' candidate')+'</span></div>';
+    var row=document.createElement('div');row.className='cands';
+    cands.forEach(function(s){
+      var isWin=(w===s.id),v=getV(s.id);
+      var c=document.createElement('div');c.className='cand'+(isWin?' win':'')+((w&&!isWin)?' dim':'');
+      var pickBtn=cands.length===1?'':(isWin?'<button class="pick win" disabled>picked \\u2713</button>':'<button class="pick" data-pick="'+s.id+'" data-date="'+d+'">pick</button>');
+      var pubBtn=isForced(s.id)?'<span class="committed">committed</span>':(isWin?'<button class="pubtog'+(isPubId(s.id)?' on':'')+'" data-pub="'+s.id+'">'+(isPubId(s.id)?'published':'publish')+'</button>':'');
+      c.innerHTML='<a href="index.html?id='+s.id+'"><img loading="lazy" src="strips/'+s.id+'.svg" alt=""/></a>'+
+        '<div class="t">'+esc(s.title)+'</div><div class="s">editor '+fmtReach(s.audience)+'</div>'+
+        '<div class="crow"><span class="vote"><button class="vb'+(v===1?' on':'')+'" data-up="'+s.id+'">\\u25b2</button><b>'+v+'</b><button class="vb'+(v===-1?' on':'')+'" data-down="'+s.id+'">\\u25bc</button></span>'+pickBtn+pubBtn+'</div>';
+      row.appendChild(c);
+    });
+    day.appendChild(row);wrap.appendChild(day);
   });
-  document.getElementById('np').textContent=np;
-  document.getElementById('nd').textContent=nd;
-  document.getElementById('nt').textContent=rows.length;
-  // full review snapshot: published ids + all votes + all comments from localStorage
+  document.getElementById('np').textContent=live;
+  document.getElementById('nd').textContent=unpub;
+  document.getElementById('nt').textContent=dates.length;
+  // snapshot: published + chosen + votes + comments from localStorage
   var pubset={};FORCED.forEach(function(id){pubset[id]=1;});lp().forEach(function(id){pubset[id]=1;});
   var votes={},comments={};
   for(var i=0;i<localStorage.length;i++){var k=localStorage.key(i);
-    if(k.indexOf('dv.v.')===0){var v=localStorage.getItem(k);if(v==='1'||v==='-1')votes[k.slice(5)]=parseInt(v,10);}
+    if(k.indexOf('dv.v.')===0){var vv=localStorage.getItem(k);if(vv==='1'||vv==='-1')votes[k.slice(5)]=parseInt(vv,10);}
     else if(k.indexOf('dv.cm.')===0){try{var a=JSON.parse(localStorage.getItem(k));if(a&&a.length)comments[k.slice(6)]=a;}catch(e){}}
   }
-  document.getElementById('exp').value=JSON.stringify({published:Object.keys(pubset).sort(),votes:votes,comments:comments},null,2);
+  document.getElementById('exp').value=JSON.stringify({published:Object.keys(pubset).sort(),chosen:chosenMap(),votes:votes,comments:comments},null,2);
 }
-document.getElementById('rows').addEventListener('click',function(e){
-  var b=e.target.closest('.tog');if(!b)return;
-  var id=b.getAttribute('data-id'),a=lp(),i=a.indexOf(id);
-  if(i>=0)a.splice(i,1);else a.push(id);
-  setlp(a);render();Desk.published(a);
+document.getElementById('groups').addEventListener('click',function(e){
+  var t=e.target.closest('button');if(!t)return;
+  if(t.dataset.pick)pickWinner(t.dataset.date,t.dataset.pick);
+  else if(t.dataset.pub)togglePub(t.dataset.pub);
+  else if(t.dataset.up)vote(t.dataset.up,1);
+  else if(t.dataset.down)vote(t.dataset.down,-1);
 });
 document.getElementById('copy').addEventListener('click',function(){
   var t=document.getElementById('exp');t.select();try{document.execCommand('copy');this.textContent='copied';var self=this;setTimeout(function(){self.textContent='copy';},1200);}catch(e){}
@@ -670,14 +727,16 @@ const reviewsPath = join(ROOT, 'world', 'reviews.json');
 const reviews = existsSync(reviewsPath) ? JSON.parse(readFileSync(reviewsPath, 'utf8')) : { votes: {}, comments: {} };
 const deskPath = join(ROOT, 'world', 'desk.json');
 const desk = existsSync(deskPath) ? JSON.parse(readFileSync(deskPath, 'utf8')) : { api: '' };
+const chosenPath = join(ROOT, 'world', 'chosen.json');
+const chosenBase = existsSync(chosenPath) ? JSON.parse(readFileSync(chosenPath, 'utf8')) : {};
 const manifest = strips.map((s) => ({
   id: s.id, title: s.title, date: s.date,
   audience: (ratings[s.id] && ratings[s.id].audience) || 1,
   note: (ratings[s.id] && ratings[s.id].note) || '',
 }));
 writeFileSync(join(ROOT, 'manifest.json'), JSON.stringify(manifest, null, 2));
-writeFileSync(join(ROOT, 'archive.html'), archive(strips, ratings, forced, reviews, desk));
-writeFileSync(join(ROOT, 'index.html'), solo(manifest, forced, reviews, desk));
-writeFileSync(join(ROOT, 'admin.html'), admin(manifest, forced, reviews, desk));
+writeFileSync(join(ROOT, 'archive.html'), archive(strips, ratings, forced, reviews, desk, chosenBase));
+writeFileSync(join(ROOT, 'index.html'), solo(manifest, forced, reviews, desk, chosenBase));
+writeFileSync(join(ROOT, 'admin.html'), admin(manifest, forced, reviews, desk, chosenBase));
 const pub = strips.filter((s) => forced.includes(s.id)).length;
 console.log(`rendered ${strips.length} strips (${inked} Fable-inked); ${pub} published, ${strips.length - pub} drafts. index/archive/admin written.`);
