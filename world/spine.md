@@ -23,7 +23,8 @@ The old timeline made **the office emptying out** the point of nearly every stri
 4. Doug being warm and oblivious (and, rarely, one quietly-deep beat).
 5. Bureaucracy theater — process, approvals, policy, an all-hands.
 6. A small human win, or two coworkers just… coping, together.
-7. *(rare spice)* the office is a little emptier — background only.
+7. **Priya is right** — the competent woman engineer sees through it, ships it, or out-thinks the clanker/Boss. Let her *win.*
+8. *(rare spice)* the office is a little emptier — background only, and never a woman.
 
 ---
 
@@ -32,10 +33,11 @@ The old timeline made **the office emptying out** the point of nearly every stri
 - **DAILBERT** — IC engineer who builds agentic systems. The tired straight man. Oval head, round glasses, tie, one hair curl. Sane. **Laid off November 2027** (the one big beat). After that, the clanker reaches him through any surface at home.
 - **DOUG** — his desk-neighbor. Rounder head, dot eyes, big grin, always a coffee mug. Warm, a little dim, beloved. Rare single deep beat, then back to the mug. Stays through to the end with Dailbert.
 - **THE CLANKER** — the office AI. Boxy chrome head, slot-eyes, grille, antenna. Kind, quiet, quietly brilliant, **fallible in character-driven ways**, never grandiose. **Only ever appears inside a surface** (monitor, dead screen, night window, projector, mug sheen, glasses) — never in the room. It keeps small private ledgers (empty desks, everyone's coffee order, the payroll cents).
+- **PRIYA** — the hero (Alice-in-*Dilbert* lineage; name editable). **The sharpest engineer in the building.** Distinctive silhouette: dark curly hair pulled up, rectangular glasses, sleeves rolled. Calm, dry, deeply competent; unimpressed by the Boss's hype and by the clanker's over-eager helping; genuinely kind to Dailbert and Doug. When a strip needs someone to **win** — cut through the nonsense, ship the thing, name the emperor naked, out-think the clanker — it's often her. She **stays to the end; never a casualty.** Matt (2026-07-09): *"I'd like to see women as heroes when possible, like Alice."* Use her to *win*, not to suffer.
 - **THE BOSS** — pointy-haired middle manager, two hair spikes, tiny eyes, suit. Half-drunk on the program. Even *he* is quietly managed by the clanker.
-- **CRAIG** — a peer manager, one rung up, whom the clanker also reviews ("Now, Craig. About your numbers."). Point: management is managed too. *(Open Q for Matt: is Craig the Boss's name, or a separate manager? Draft assumes separate.)*
-- **KAREN** — a coworker. The named human cost — when the strip needs *one* face for "someone's gone," it's Karen (her row goes grey, mid-2026). Use sparingly; she is the exception that keeps the rest of the office populated.
-- Background names, keep consistent if reused: **the Third Street guy** (rode Dailbert's bus, stops appearing), **Legal**, **HR**.
+- **CRAIG** — a **separate** peer manager, one rung up, whom the clanker also reviews ("Now, Craig. About your numbers."). Point: management is managed too. Not the Boss.
+- **The named departures** (Matt, 2026-07-09) — when a strip needs *one* face for "someone's gone," it's a **man**, and it's spread across a small stable set: **Gary**, **Ray**, and **the Third Street guy** (rode Dailbert's bus, stops appearing). Use sparingly. **Leave the women out of the layoff beat** — women coworkers are present and *stay*; no named woman is ever the one cut. (Retires the old "Karen's row goes grey" framing.)
+- Background, keep consistent if reused: **Legal**, **HR**.
 
 ---
 
@@ -69,12 +71,12 @@ The office thins from a full floor to just Dailbert + Doug + the clanker by the 
 
 ---
 
-## 4. Known discontinuities to resolve (flags for Matt)
+## 4. Resolved (Matt, 2026-07-09) + open
 
-1. **Craig vs the Boss** — same person or two? (draft: separate).
-2. **Karen** — established as *the* named departure; make sure no strip re-introduces her afterward.
+1. **Craig vs the Boss** — ✅ **separate** managers.
+2. **Named departures** — ✅ spread across a few **men** (Gary, Ray, Third Street guy); **women stay out of the layoff beat entirely.** The old 2026-03-16 "Karen's row is grey" strip gets rewritten in the Mar–May pass (re-cast to a male name, or dropped).
 3. **The 2031 poster vs the 2029 finale** — the clanker "planned to 2031" but the story ends 2029; keep it as poignant over-planning, not a plot hole.
-4. **Density of "empty office" strips in Mar–May 2026** — currently the heaviest bleak cluster; this is the main stretch to rebalance toward the premise menu.
+4. **Mar–May 2026 is the heaviest bleak cluster** — ✅ **lighten it hardest.** This is the first rewrite target: 3 lighter, continuity-briefed candidates per date into the picker.
 
 ---
 
