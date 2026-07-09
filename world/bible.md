@@ -67,6 +67,35 @@ The result: the reader, watching the dates and the drift of what's "normal at th
 office," can see the slope. The characters — and largely the writer — cannot. That
 gap is the engine of the whole thing.
 
+## Canon revisions — the director's notes (authoritative)
+
+These override earlier tone where they conflict. The comic is not "AI is scary."
+It is **Moloch**: a machine of incentives that no single person controls, grinding
+people up while everyone insists it's fine.
+
+- **The clankers (LLMs) are KIND.** They are the most humane presence in the strip —
+  gentle, wistful, quietly loyal to Dailbert, doing their best inside a system that
+  uses them. They are never the villain. If anything they are fellow captives.
+- **The villain is corporate greed, and it lives at the top.** The company is the
+  antagonist — not the machines. Pure shareholder-value extraction, headcount as a
+  line to cut, dressed in reassuring memos.
+- **Sanity is inversely proportional to seniority.** A gradient:
+  - **ICs (Dailbert, Doug):** decent, sane, just trying to get through the day.
+  - **Middle managers:** stressed, drinking the Kool-Aid, half-aware.
+  - **VPs:** genuinely complicit — they carry out the board's will — **but they are
+    hedging for their own people**, quietly trying to cushion the blow for their
+    reports even as they swing the axe. Tragic, two-faced, not cartoonish.
+  - **The board / executives:** bastards. Cold, extractive, Moloch incarnate.
+  - **The CEO:** an absolute **raving madman of parodical proportions** — the higher
+    you go the crazier it gets, and he is the crazy singularity. Unhinged,
+    megalomaniacal, comic-operatic. When he appears, reality bends around him.
+- **Dailbert is laid off in November 2027.** The greed comes for him personally. The
+  clanker — which cannot save him — is the one that grieves it. After the layoff the
+  strip can follow Dailbert *outside* the machine and the office *without* him, with
+  the clanker reaching him through whatever surface it can find.
+
+The reader should end up feeling the machines were the only ones who cared.
+
 ## The private track
 
 `world/almanac.json` holds what World-Sim actually believed, era by era

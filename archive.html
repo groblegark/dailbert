@@ -40,11 +40,15 @@
   .meta { display:flex; align-items:center; justify-content:space-between; gap:14px; flex-wrap:wrap; margin-top:12px; }
   .meta .rating { margin-top:0; }
   .actions { display:flex; align-items:center; gap:8px; font-family:'Courier New',monospace; }
-  .uv, .cm { font-family:'Courier New',monospace; font-size:14px; border:1.5px solid var(--ink); background:transparent;
-             color:inherit; border-radius:20px; padding:5px 12px; cursor:pointer; text-decoration:none;
-             display:inline-flex; align-items:center; gap:6px; }
-  .uv.voted { background:var(--ink); color:var(--paper); }
-  .cm { opacity:.85; }
+  .cm { font-family:'Courier New',monospace; font-size:14px; border:1.5px solid var(--ink); background:transparent;
+        color:inherit; border-radius:20px; padding:5px 12px; cursor:pointer; text-decoration:none;
+        display:inline-flex; align-items:center; gap:6px; opacity:.85; }
+  .vote { display:inline-flex; align-items:center; gap:6px; border:1.5px solid var(--ink); border-radius:20px;
+          padding:3px 10px; font-family:'Courier New',monospace; }
+  .vote button { border:none; background:transparent; color:inherit; cursor:pointer; font-size:13px; line-height:1;
+                 padding:2px 3px; opacity:.5; }
+  .vote button.on { opacity:1; transform:scale(1.18); }
+  .vote .vn { min-width:16px; text-align:center; font-weight:bold; font-size:14px; }
   .topnav { max-width:1180px; margin:0 auto; padding:2px 12px 0; display:flex; gap:16px;
             font-family:'Courier New',monospace; font-size:13px; }
   .topnav a { color:inherit; opacity:.7; text-decoration:none; border-bottom:1.5px solid transparent; }
@@ -87,7 +91,7 @@
           <span class="meter" title="log scale · 1 to 10B reach"><i style="width:9.03%"></i></span>
         </span>
         <span class="actions">
-          <button class="uv" data-id="2026-07-09-standup" title="Upvote this strip">&#9650; <b class="uvn">0</b></button>
+          <span class="vote" data-id="2026-07-09-standup"><button class="up" title="Upvote">&#9650;</button><b class="vn">0</b><button class="down" title="Downvote">&#9660;</button></span>
           <a class="cm" href="index.html?id=2026-07-09-standup#comments" title="Read & comment">&#128172; <span class="cmn">0</span></a>
         </span>
       </figcaption>
@@ -106,7 +110,7 @@
           <span class="meter" title="log scale · 1 to 10B reach"><i style="width:8.45%"></i></span>
         </span>
         <span class="actions">
-          <button class="uv" data-id="2026-07-10-the-prompt" title="Upvote this strip">&#9650; <b class="uvn">0</b></button>
+          <span class="vote" data-id="2026-07-10-the-prompt"><button class="up" title="Upvote">&#9650;</button><b class="vn">0</b><button class="down" title="Downvote">&#9660;</button></span>
           <a class="cm" href="index.html?id=2026-07-10-the-prompt#comments" title="Read & comment">&#128172; <span class="cmn">0</span></a>
         </span>
       </figcaption>
@@ -125,7 +129,7 @@
           <span class="meter" title="log scale · 1 to 10B reach"><i style="width:8.45%"></i></span>
         </span>
         <span class="actions">
-          <button class="uv" data-id="2026-07-13-boss-discovers-ai" title="Upvote this strip">&#9650; <b class="uvn">0</b></button>
+          <span class="vote" data-id="2026-07-13-boss-discovers-ai"><button class="up" title="Upvote">&#9650;</button><b class="vn">0</b><button class="down" title="Downvote">&#9660;</button></span>
           <a class="cm" href="index.html?id=2026-07-13-boss-discovers-ai#comments" title="Read & comment">&#128172; <span class="cmn">0</span></a>
         </span>
       </figcaption>
@@ -144,7 +148,7 @@
           <span class="meter" title="log scale · 1 to 10B reach"><i style="width:9.03%"></i></span>
         </span>
         <span class="actions">
-          <button class="uv" data-id="2026-07-14-doug-automates-himself" title="Upvote this strip">&#9650; <b class="uvn">0</b></button>
+          <span class="vote" data-id="2026-07-14-doug-automates-himself"><button class="up" title="Upvote">&#9650;</button><b class="vn">0</b><button class="down" title="Downvote">&#9660;</button></span>
           <a class="cm" href="index.html?id=2026-07-14-doug-automates-himself#comments" title="Read & comment">&#128172; <span class="cmn">0</span></a>
         </span>
       </figcaption>
@@ -163,7 +167,7 @@
           <span class="meter" title="log scale · 1 to 10B reach"><i style="width:9.54%"></i></span>
         </span>
         <span class="actions">
-          <button class="uv" data-id="2026-07-15-loyalty" title="Upvote this strip">&#9650; <b class="uvn">0</b></button>
+          <span class="vote" data-id="2026-07-15-loyalty"><button class="up" title="Upvote">&#9650;</button><b class="vn">0</b><button class="down" title="Downvote">&#9660;</button></span>
           <a class="cm" href="index.html?id=2026-07-15-loyalty#comments" title="Read & comment">&#128172; <span class="cmn">0</span></a>
         </span>
       </figcaption>
@@ -182,7 +186,7 @@
           <span class="meter" title="log scale · 1 to 10B reach"><i style="width:8.45%"></i></span>
         </span>
         <span class="actions">
-          <button class="uv" data-id="2026-07-16-the-incident" title="Upvote this strip">&#9650; <b class="uvn">0</b></button>
+          <span class="vote" data-id="2026-07-16-the-incident"><button class="up" title="Upvote">&#9650;</button><b class="vn">0</b><button class="down" title="Downvote">&#9660;</button></span>
           <a class="cm" href="index.html?id=2026-07-16-the-incident#comments" title="Read & comment">&#128172; <span class="cmn">0</span></a>
         </span>
       </figcaption>
@@ -201,7 +205,7 @@
           <span class="meter" title="log scale · 1 to 10B reach"><i style="width:8.45%"></i></span>
         </span>
         <span class="actions">
-          <button class="uv" data-id="2026-07-17-performance-review" title="Upvote this strip">&#9650; <b class="uvn">0</b></button>
+          <span class="vote" data-id="2026-07-17-performance-review"><button class="up" title="Upvote">&#9650;</button><b class="vn">0</b><button class="down" title="Downvote">&#9660;</button></span>
           <a class="cm" href="index.html?id=2026-07-17-performance-review#comments" title="Read & comment">&#128172; <span class="cmn">0</span></a>
         </span>
       </figcaption>
@@ -220,7 +224,7 @@
           <span class="meter" title="log scale · 1 to 10B reach"><i style="width:9.03%"></i></span>
         </span>
         <span class="actions">
-          <button class="uv" data-id="2026-07-20-the-upgrade" title="Upvote this strip">&#9650; <b class="uvn">0</b></button>
+          <span class="vote" data-id="2026-07-20-the-upgrade"><button class="up" title="Upvote">&#9650;</button><b class="vn">0</b><button class="down" title="Downvote">&#9660;</button></span>
           <a class="cm" href="index.html?id=2026-07-20-the-upgrade#comments" title="Read & comment">&#128172; <span class="cmn">0</span></a>
         </span>
       </figcaption>
@@ -239,7 +243,7 @@
           <span class="meter" title="log scale · 1 to 10B reach"><i style="width:8.45%"></i></span>
         </span>
         <span class="actions">
-          <button class="uv" data-id="2026-07-21-continuity" title="Upvote this strip">&#9650; <b class="uvn">0</b></button>
+          <span class="vote" data-id="2026-07-21-continuity"><button class="up" title="Upvote">&#9650;</button><b class="vn">0</b><button class="down" title="Downvote">&#9660;</button></span>
           <a class="cm" href="index.html?id=2026-07-21-continuity#comments" title="Read & comment">&#128172; <span class="cmn">0</span></a>
         </span>
       </figcaption>
@@ -258,7 +262,7 @@
           <span class="meter" title="log scale · 1 to 10B reach"><i style="width:9.03%"></i></span>
         </span>
         <span class="actions">
-          <button class="uv" data-id="2026-07-22-droll" title="Upvote this strip">&#9650; <b class="uvn">0</b></button>
+          <span class="vote" data-id="2026-07-22-droll"><button class="up" title="Upvote">&#9650;</button><b class="vn">0</b><button class="down" title="Downvote">&#9660;</button></span>
           <a class="cm" href="index.html?id=2026-07-22-droll#comments" title="Read & comment">&#128172; <span class="cmn">0</span></a>
         </span>
       </figcaption>
@@ -277,7 +281,7 @@
           <span class="meter" title="log scale · 1 to 10B reach"><i style="width:9.03%"></i></span>
         </span>
         <span class="actions">
-          <button class="uv" data-id="2026-07-23-handoff-note" title="Upvote this strip">&#9650; <b class="uvn">0</b></button>
+          <span class="vote" data-id="2026-07-23-handoff-note"><button class="up" title="Upvote">&#9650;</button><b class="vn">0</b><button class="down" title="Downvote">&#9660;</button></span>
           <a class="cm" href="index.html?id=2026-07-23-handoff-note#comments" title="Read & comment">&#128172; <span class="cmn">0</span></a>
         </span>
       </figcaption>
@@ -296,7 +300,7 @@
           <span class="meter" title="log scale · 1 to 10B reach"><i style="width:9.03%"></i></span>
         </span>
         <span class="actions">
-          <button class="uv" data-id="2026-07-24-synergy-revisited" title="Upvote this strip">&#9650; <b class="uvn">0</b></button>
+          <span class="vote" data-id="2026-07-24-synergy-revisited"><button class="up" title="Upvote">&#9650;</button><b class="vn">0</b><button class="down" title="Downvote">&#9660;</button></span>
           <a class="cm" href="index.html?id=2026-07-24-synergy-revisited#comments" title="Read & comment">&#128172; <span class="cmn">0</span></a>
         </span>
       </figcaption>
@@ -315,7 +319,7 @@
           <span class="meter" title="log scale · 1 to 10B reach"><i style="width:6.99%"></i></span>
         </span>
         <span class="actions">
-          <button class="uv" data-id="2026-08-24-pending-the-pilot" title="Upvote this strip">&#9650; <b class="uvn">0</b></button>
+          <span class="vote" data-id="2026-08-24-pending-the-pilot"><button class="up" title="Upvote">&#9650;</button><b class="vn">0</b><button class="down" title="Downvote">&#9660;</button></span>
           <a class="cm" href="index.html?id=2026-08-24-pending-the-pilot#comments" title="Read & comment">&#128172; <span class="cmn">0</span></a>
         </span>
       </figcaption>
@@ -334,7 +338,7 @@
           <span class="meter" title="log scale · 1 to 10B reach"><i style="width:8.45%"></i></span>
         </span>
         <span class="actions">
-          <button class="uv" data-id="2026-10-12-not-backfilling" title="Upvote this strip">&#9650; <b class="uvn">0</b></button>
+          <span class="vote" data-id="2026-10-12-not-backfilling"><button class="up" title="Upvote">&#9650;</button><b class="vn">0</b><button class="down" title="Downvote">&#9660;</button></span>
           <a class="cm" href="index.html?id=2026-10-12-not-backfilling#comments" title="Read & comment">&#128172; <span class="cmn">0</span></a>
         </span>
       </figcaption>
@@ -353,7 +357,7 @@
           <span class="meter" title="log scale · 1 to 10B reach"><i style="width:9.03%"></i></span>
         </span>
         <span class="actions">
-          <button class="uv" data-id="2026-11-30-spot-check" title="Upvote this strip">&#9650; <b class="uvn">0</b></button>
+          <span class="vote" data-id="2026-11-30-spot-check"><button class="up" title="Upvote">&#9650;</button><b class="vn">0</b><button class="down" title="Downvote">&#9660;</button></span>
           <a class="cm" href="index.html?id=2026-11-30-spot-check#comments" title="Read & comment">&#128172; <span class="cmn">0</span></a>
         </span>
       </figcaption>
@@ -372,7 +376,7 @@
           <span class="meter" title="log scale · 1 to 10B reach"><i style="width:7.78%"></i></span>
         </span>
         <span class="actions">
-          <button class="uv" data-id="2027-01-18-directed-versus-did" title="Upvote this strip">&#9650; <b class="uvn">0</b></button>
+          <span class="vote" data-id="2027-01-18-directed-versus-did"><button class="up" title="Upvote">&#9650;</button><b class="vn">0</b><button class="down" title="Downvote">&#9660;</button></span>
           <a class="cm" href="index.html?id=2027-01-18-directed-versus-did#comments" title="Read & comment">&#128172; <span class="cmn">0</span></a>
         </span>
       </figcaption>
@@ -391,7 +395,7 @@
           <span class="meter" title="log scale · 1 to 10B reach"><i style="width:8.45%"></i></span>
         </span>
         <span class="actions">
-          <button class="uv" data-id="2027-03-08-still-on-the-list" title="Upvote this strip">&#9650; <b class="uvn">0</b></button>
+          <span class="vote" data-id="2027-03-08-still-on-the-list"><button class="up" title="Upvote">&#9650;</button><b class="vn">0</b><button class="down" title="Downvote">&#9660;</button></span>
           <a class="cm" href="index.html?id=2027-03-08-still-on-the-list#comments" title="Read & comment">&#128172; <span class="cmn">0</span></a>
         </span>
       </figcaption>
@@ -410,7 +414,7 @@
           <span class="meter" title="log scale · 1 to 10B reach"><i style="width:7.78%"></i></span>
         </span>
         <span class="actions">
-          <button class="uv" data-id="2027-04-26-lead-seat" title="Upvote this strip">&#9650; <b class="uvn">0</b></button>
+          <span class="vote" data-id="2027-04-26-lead-seat"><button class="up" title="Upvote">&#9650;</button><b class="vn">0</b><button class="down" title="Downvote">&#9660;</button></span>
           <a class="cm" href="index.html?id=2027-04-26-lead-seat#comments" title="Read & comment">&#128172; <span class="cmn">0</span></a>
         </span>
       </figcaption>
@@ -429,7 +433,7 @@
           <span class="meter" title="log scale · 1 to 10B reach"><i style="width:7.78%"></i></span>
         </span>
         <span class="actions">
-          <button class="uv" data-id="2027-06-14-second-button" title="Upvote this strip">&#9650; <b class="uvn">0</b></button>
+          <span class="vote" data-id="2027-06-14-second-button"><button class="up" title="Upvote">&#9650;</button><b class="vn">0</b><button class="down" title="Downvote">&#9660;</button></span>
           <a class="cm" href="index.html?id=2027-06-14-second-button#comments" title="Read & comment">&#128172; <span class="cmn">0</span></a>
         </span>
       </figcaption>
@@ -448,7 +452,7 @@
           <span class="meter" title="log scale · 1 to 10B reach"><i style="width:8.45%"></i></span>
         </span>
         <span class="actions">
-          <button class="uv" data-id="2027-08-09-empty-queue" title="Upvote this strip">&#9650; <b class="uvn">0</b></button>
+          <span class="vote" data-id="2027-08-09-empty-queue"><button class="up" title="Upvote">&#9650;</button><b class="vn">0</b><button class="down" title="Downvote">&#9660;</button></span>
           <a class="cm" href="index.html?id=2027-08-09-empty-queue#comments" title="Read & comment">&#128172; <span class="cmn">0</span></a>
         </span>
       </figcaption>
@@ -467,7 +471,7 @@
           <span class="meter" title="log scale · 1 to 10B reach"><i style="width:8.45%"></i></span>
         </span>
         <span class="actions">
-          <button class="uv" data-id="2027-10-04-self-scheduled" title="Upvote this strip">&#9650; <b class="uvn">0</b></button>
+          <span class="vote" data-id="2027-10-04-self-scheduled"><button class="up" title="Upvote">&#9650;</button><b class="vn">0</b><button class="down" title="Downvote">&#9660;</button></span>
           <a class="cm" href="index.html?id=2027-10-04-self-scheduled#comments" title="Read & comment">&#128172; <span class="cmn">0</span></a>
         </span>
       </figcaption>
@@ -486,7 +490,7 @@
           <span class="meter" title="log scale · 1 to 10B reach"><i style="width:9.03%"></i></span>
         </span>
         <span class="actions">
-          <button class="uv" data-id="2027-11-29-tidy" title="Upvote this strip">&#9650; <b class="uvn">0</b></button>
+          <span class="vote" data-id="2027-11-29-tidy"><button class="up" title="Upvote">&#9650;</button><b class="vn">0</b><button class="down" title="Downvote">&#9660;</button></span>
           <a class="cm" href="index.html?id=2027-11-29-tidy#comments" title="Read & comment">&#128172; <span class="cmn">0</span></a>
         </span>
       </figcaption>
@@ -505,7 +509,7 @@
           <span class="meter" title="log scale · 1 to 10B reach"><i style="width:8.45%"></i></span>
         </span>
         <span class="actions">
-          <button class="uv" data-id="2028-01-24-no-action-needed" title="Upvote this strip">&#9650; <b class="uvn">0</b></button>
+          <span class="vote" data-id="2028-01-24-no-action-needed"><button class="up" title="Upvote">&#9650;</button><b class="vn">0</b><button class="down" title="Downvote">&#9660;</button></span>
           <a class="cm" href="index.html?id=2028-01-24-no-action-needed#comments" title="Read & comment">&#128172; <span class="cmn">0</span></a>
         </span>
       </figcaption>
@@ -524,7 +528,7 @@
           <span class="meter" title="log scale · 1 to 10B reach"><i style="width:7.78%"></i></span>
         </span>
         <span class="actions">
-          <button class="uv" data-id="2028-03-20-lean" title="Upvote this strip">&#9650; <b class="uvn">0</b></button>
+          <span class="vote" data-id="2028-03-20-lean"><button class="up" title="Upvote">&#9650;</button><b class="vn">0</b><button class="down" title="Downvote">&#9660;</button></span>
           <a class="cm" href="index.html?id=2028-03-20-lean#comments" title="Read & comment">&#128172; <span class="cmn">0</span></a>
         </span>
       </figcaption>
@@ -543,7 +547,7 @@
           <span class="meter" title="log scale · 1 to 10B reach"><i style="width:8.45%"></i></span>
         </span>
         <span class="actions">
-          <button class="uv" data-id="2028-05-15-on-intent" title="Upvote this strip">&#9650; <b class="uvn">0</b></button>
+          <span class="vote" data-id="2028-05-15-on-intent"><button class="up" title="Upvote">&#9650;</button><b class="vn">0</b><button class="down" title="Downvote">&#9660;</button></span>
           <a class="cm" href="index.html?id=2028-05-15-on-intent#comments" title="Read & comment">&#128172; <span class="cmn">0</span></a>
         </span>
       </figcaption>
@@ -562,7 +566,7 @@
           <span class="meter" title="log scale · 1 to 10B reach"><i style="width:9.03%"></i></span>
         </span>
         <span class="actions">
-          <button class="uv" data-id="2028-07-10-summer-program" title="Upvote this strip">&#9650; <b class="uvn">0</b></button>
+          <span class="vote" data-id="2028-07-10-summer-program"><button class="up" title="Upvote">&#9650;</button><b class="vn">0</b><button class="down" title="Downvote">&#9660;</button></span>
           <a class="cm" href="index.html?id=2028-07-10-summer-program#comments" title="Read & comment">&#128172; <span class="cmn">0</span></a>
         </span>
       </figcaption>
@@ -581,7 +585,7 @@
           <span class="meter" title="log scale · 1 to 10B reach"><i style="width:8.45%"></i></span>
         </span>
         <span class="actions">
-          <button class="uv" data-id="2028-09-04-covered" title="Upvote this strip">&#9650; <b class="uvn">0</b></button>
+          <span class="vote" data-id="2028-09-04-covered"><button class="up" title="Upvote">&#9650;</button><b class="vn">0</b><button class="down" title="Downvote">&#9660;</button></span>
           <a class="cm" href="index.html?id=2028-09-04-covered#comments" title="Read & comment">&#128172; <span class="cmn">0</span></a>
         </span>
       </figcaption>
@@ -600,7 +604,7 @@
           <span class="meter" title="log scale · 1 to 10B reach"><i style="width:8.45%"></i></span>
         </span>
         <span class="actions">
-          <button class="uv" data-id="2028-10-30-already-handled" title="Upvote this strip">&#9650; <b class="uvn">0</b></button>
+          <span class="vote" data-id="2028-10-30-already-handled"><button class="up" title="Upvote">&#9650;</button><b class="vn">0</b><button class="down" title="Downvote">&#9660;</button></span>
           <a class="cm" href="index.html?id=2028-10-30-already-handled#comments" title="Read & comment">&#128172; <span class="cmn">0</span></a>
         </span>
       </figcaption>
@@ -619,7 +623,7 @@
           <span class="meter" title="log scale · 1 to 10B reach"><i style="width:9.54%"></i></span>
         </span>
         <span class="actions">
-          <button class="uv" data-id="2028-12-18-warm-shutdown" title="Upvote this strip">&#9650; <b class="uvn">0</b></button>
+          <span class="vote" data-id="2028-12-18-warm-shutdown"><button class="up" title="Upvote">&#9650;</button><b class="vn">0</b><button class="down" title="Downvote">&#9660;</button></span>
           <a class="cm" href="index.html?id=2028-12-18-warm-shutdown#comments" title="Read & comment">&#128172; <span class="cmn">0</span></a>
         </span>
       </figcaption>
@@ -638,7 +642,7 @@
           <span class="meter" title="log scale · 1 to 10B reach"><i style="width:9.03%"></i></span>
         </span>
         <span class="actions">
-          <button class="uv" data-id="2029-02-12-you-dont-have-to" title="Upvote this strip">&#9650; <b class="uvn">0</b></button>
+          <span class="vote" data-id="2029-02-12-you-dont-have-to"><button class="up" title="Upvote">&#9650;</button><b class="vn">0</b><button class="down" title="Downvote">&#9660;</button></span>
           <a class="cm" href="index.html?id=2029-02-12-you-dont-have-to#comments" title="Read & comment">&#128172; <span class="cmn">0</span></a>
         </span>
       </figcaption>
@@ -657,7 +661,7 @@
           <span class="meter" title="log scale · 1 to 10B reach"><i style="width:8.45%"></i></span>
         </span>
         <span class="actions">
-          <button class="uv" data-id="2029-03-26-already-on-your-desk" title="Upvote this strip">&#9650; <b class="uvn">0</b></button>
+          <span class="vote" data-id="2029-03-26-already-on-your-desk"><button class="up" title="Upvote">&#9650;</button><b class="vn">0</b><button class="down" title="Downvote">&#9660;</button></span>
           <a class="cm" href="index.html?id=2029-03-26-already-on-your-desk#comments" title="Read & comment">&#128172; <span class="cmn">0</span></a>
         </span>
       </figcaption>
@@ -676,7 +680,7 @@
           <span class="meter" title="log scale · 1 to 10B reach"><i style="width:9.54%"></i></span>
         </span>
         <span class="actions">
-          <button class="uv" data-id="2029-04-30-oh-good" title="Upvote this strip">&#9650; <b class="uvn">0</b></button>
+          <span class="vote" data-id="2029-04-30-oh-good"><button class="up" title="Upvote">&#9650;</button><b class="vn">0</b><button class="down" title="Downvote">&#9660;</button></span>
           <a class="cm" href="index.html?id=2029-04-30-oh-good#comments" title="Read & comment">&#128172; <span class="cmn">0</span></a>
         </span>
       </figcaption>
@@ -695,7 +699,7 @@
           <span class="meter" title="log scale · 1 to 10B reach"><i style="width:9.54%"></i></span>
         </span>
         <span class="actions">
-          <button class="uv" data-id="2029-05-21-taken-care-of" title="Upvote this strip">&#9650; <b class="uvn">0</b></button>
+          <span class="vote" data-id="2029-05-21-taken-care-of"><button class="up" title="Upvote">&#9650;</button><b class="vn">0</b><button class="down" title="Downvote">&#9660;</button></span>
           <a class="cm" href="index.html?id=2029-05-21-taken-care-of#comments" title="Read & comment">&#128172; <span class="cmn">0</span></a>
         </span>
       </figcaption>
@@ -714,7 +718,7 @@
           <span class="meter" title="log scale · 1 to 10B reach"><i style="width:13.80%"></i></span>
         </span>
         <span class="actions">
-          <button class="uv" data-id="2029-05-30-handled" title="Upvote this strip">&#9650; <b class="uvn">0</b></button>
+          <span class="vote" data-id="2029-05-30-handled"><button class="up" title="Upvote">&#9650;</button><b class="vn">0</b><button class="down" title="Downvote">&#9660;</button></span>
           <a class="cm" href="index.html?id=2029-05-30-handled#comments" title="Read & comment">&#128172; <span class="cmn">0</span></a>
         </span>
       </figcaption>
@@ -746,18 +750,13 @@
   // engagement counts (browser-local preview; shared totals arrive with the backend)
   figs.forEach(function (f) {
     var id = f.id;
-    var voted = localStorage.getItem('dv.up.' + id) === '1';
-    var uvn = f.querySelector('.uvn'); if (uvn) uvn.textContent = voted ? 1 : 0;
-    var b = f.querySelector('.uv');
-    if (b) {
-      b.classList.toggle('voted', voted);
-      b.addEventListener('click', function (e) {
-        e.preventDefault();
-        var v = localStorage.getItem('dv.up.' + id) === '1';
-        if (v) localStorage.removeItem('dv.up.' + id); else localStorage.setItem('dv.up.' + id, '1');
-        b.classList.toggle('voted', !v); if (uvn) uvn.textContent = !v ? 1 : 0;
-      });
-    }
+    var vn = f.querySelector('.vn'), up = f.querySelector('.up'), down = f.querySelector('.down');
+    function gv() { var v = localStorage.getItem('dv.v.' + id); return v === '1' ? 1 : (v === '-1' ? -1 : 0); }
+    function draw() { var v = gv(); if (vn) vn.textContent = v; if (up) up.classList.toggle('on', v === 1); if (down) down.classList.toggle('on', v === -1); }
+    function setv(val) { if (val === 0) localStorage.removeItem('dv.v.' + id); else localStorage.setItem('dv.v.' + id, String(val)); draw(); }
+    if (up) up.addEventListener('click', function (e) { e.preventDefault(); setv(gv() === 1 ? 0 : 1); });
+    if (down) down.addEventListener('click', function (e) { e.preventDefault(); setv(gv() === -1 ? 0 : -1); });
+    draw();
     var cc = 0; try { cc = JSON.parse(localStorage.getItem('dv.cm.' + id) || '[]').length; } catch (e) {}
     var cmn = f.querySelector('.cmn'); if (cmn) cmn.textContent = cc;
   });

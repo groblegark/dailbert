@@ -178,7 +178,7 @@ function archive(strips, ratings) {
           <span class="meter" title="log scale · 1 to 10B reach"><i style="width:${logPct(a)}%"></i></span>
         </span>
         <span class="actions">
-          <button class="uv" data-id="${s.id}" title="Upvote this strip">&#9650; <b class="uvn">0</b></button>
+          <span class="vote" data-id="${s.id}"><button class="up" title="Upvote">&#9650;</button><b class="vn">0</b><button class="down" title="Downvote">&#9660;</button></span>
           <a class="cm" href="index.html?id=${s.id}#comments" title="Read & comment">&#128172; <span class="cmn">0</span></a>
         </span>
       </figcaption>
@@ -226,11 +226,15 @@ function archive(strips, ratings) {
   .meta { display:flex; align-items:center; justify-content:space-between; gap:14px; flex-wrap:wrap; margin-top:12px; }
   .meta .rating { margin-top:0; }
   .actions { display:flex; align-items:center; gap:8px; font-family:'Courier New',monospace; }
-  .uv, .cm { font-family:'Courier New',monospace; font-size:14px; border:1.5px solid var(--ink); background:transparent;
-             color:inherit; border-radius:20px; padding:5px 12px; cursor:pointer; text-decoration:none;
-             display:inline-flex; align-items:center; gap:6px; }
-  .uv.voted { background:var(--ink); color:var(--paper); }
-  .cm { opacity:.85; }
+  .cm { font-family:'Courier New',monospace; font-size:14px; border:1.5px solid var(--ink); background:transparent;
+        color:inherit; border-radius:20px; padding:5px 12px; cursor:pointer; text-decoration:none;
+        display:inline-flex; align-items:center; gap:6px; opacity:.85; }
+  .vote { display:inline-flex; align-items:center; gap:6px; border:1.5px solid var(--ink); border-radius:20px;
+          padding:3px 10px; font-family:'Courier New',monospace; }
+  .vote button { border:none; background:transparent; color:inherit; cursor:pointer; font-size:13px; line-height:1;
+                 padding:2px 3px; opacity:.5; }
+  .vote button.on { opacity:1; transform:scale(1.18); }
+  .vote .vn { min-width:16px; text-align:center; font-weight:bold; font-size:14px; }
   .topnav { max-width:1180px; margin:0 auto; padding:2px 12px 0; display:flex; gap:16px;
             font-family:'Courier New',monospace; font-size:13px; }
   .topnav a { color:inherit; opacity:.7; text-decoration:none; border-bottom:1.5px solid transparent; }
@@ -286,18 +290,13 @@ ${items}
   // engagement counts (browser-local preview; shared totals arrive with the backend)
   figs.forEach(function (f) {
     var id = f.id;
-    var voted = localStorage.getItem('dv.up.' + id) === '1';
-    var uvn = f.querySelector('.uvn'); if (uvn) uvn.textContent = voted ? 1 : 0;
-    var b = f.querySelector('.uv');
-    if (b) {
-      b.classList.toggle('voted', voted);
-      b.addEventListener('click', function (e) {
-        e.preventDefault();
-        var v = localStorage.getItem('dv.up.' + id) === '1';
-        if (v) localStorage.removeItem('dv.up.' + id); else localStorage.setItem('dv.up.' + id, '1');
-        b.classList.toggle('voted', !v); if (uvn) uvn.textContent = !v ? 1 : 0;
-      });
-    }
+    var vn = f.querySelector('.vn'), up = f.querySelector('.up'), down = f.querySelector('.down');
+    function gv() { var v = localStorage.getItem('dv.v.' + id); return v === '1' ? 1 : (v === '-1' ? -1 : 0); }
+    function draw() { var v = gv(); if (vn) vn.textContent = v; if (up) up.classList.toggle('on', v === 1); if (down) down.classList.toggle('on', v === -1); }
+    function setv(val) { if (val === 0) localStorage.removeItem('dv.v.' + id); else localStorage.setItem('dv.v.' + id, String(val)); draw(); }
+    if (up) up.addEventListener('click', function (e) { e.preventDefault(); setv(gv() === 1 ? 0 : 1); });
+    if (down) down.addEventListener('click', function (e) { e.preventDefault(); setv(gv() === -1 ? 0 : -1); });
+    draw();
     var cc = 0; try { cc = JSON.parse(localStorage.getItem('dv.cm.' + id) || '[]').length; } catch (e) {}
     var cmn = f.querySelector('.cmn'); if (cmn) cmn.textContent = cc;
   });
@@ -340,11 +339,15 @@ function solo(manifest) {
   .rating .meter { width:200px; height:9px; border:1.5px solid var(--ink); border-radius:5px; overflow:hidden; }
   .rating .meter i { display:block; height:100%; background:var(--ink); min-width:2px; }
   .eng { display:flex; gap:10px; align-items:center; }
-  .uv, .cm { font-family:'Courier New',monospace; font-size:15px; border:1.5px solid var(--ink); background:transparent;
-             color:inherit; border-radius:22px; padding:8px 16px; cursor:pointer; text-decoration:none;
-             display:inline-flex; align-items:center; gap:7px; }
-  .uv .lbl { opacity:.7; font-size:13px; }
-  .uv.voted { background:var(--ink); color:var(--paper); }
+  .cm { font-family:'Courier New',monospace; font-size:15px; border:1.5px solid var(--ink); background:transparent;
+        color:inherit; border-radius:22px; padding:8px 16px; cursor:pointer; text-decoration:none;
+        display:inline-flex; align-items:center; gap:7px; }
+  .vote { display:inline-flex; align-items:center; gap:8px; border:1.5px solid var(--ink); border-radius:22px;
+          padding:6px 14px; font-family:'Courier New',monospace; }
+  .vote button { border:none; background:transparent; color:inherit; cursor:pointer; font-size:16px; line-height:1;
+                 padding:2px 4px; opacity:.5; }
+  .vote button.on { opacity:1; transform:scale(1.2); }
+  .vote .vn { min-width:20px; text-align:center; font-weight:bold; font-size:17px; }
   .note { font-family:'Courier New',monospace; font-size:12px; opacity:.6; margin:10px 2px 0; }
   #comments { margin-top:34px; border-top:2px solid var(--ink); padding-top:20px; }
   #comments h2 { font-size:22px; margin:0 0 4px; }
@@ -380,7 +383,7 @@ function solo(manifest) {
     <span class="rating"><span class="rk">editor</span><span class="sc" id="sc"></span>
       <span class="meter" title="log scale · 1 to 10B reach"><i id="mtr"></i></span></span>
     <span class="eng">
-      <button class="uv" id="uv">&#9650; <b id="uvn">0</b> <span class="lbl">upvote</span></button>
+      <span class="vote"><button class="up" id="up" title="Upvote">&#9650;</button><b id="vn">0</b><button class="down" id="down" title="Downvote">&#9660;</button></span>
       <a class="cm" href="#comments">&#128172; <span id="cmc">0</span></a>
     </span>
   </div>
@@ -407,15 +410,18 @@ function pct(n){return (Math.log10(Math.max(1,n))/10*100).toFixed(2);}
 function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
 function byId(id){for(var i=0;i<M.length;i++)if(M[i].id===id)return i;return -1;}
 function todayIdx(){var t=new Date().toISOString().slice(0,10),idx=0;for(var i=0;i<M.length;i++){if(M[i].date<=t)idx=i;}return idx;}
-function ukey(id){return 'dv.up.'+id;} function ckey(id){return 'dv.cm.'+id;}
+function vkey(id){return 'dv.v.'+id;} function ckey(id){return 'dv.cm.'+id;}
+function getV(id){var v=localStorage.getItem(vkey(id));return v==='1'?1:(v==='-1'?-1:0);}
+function setV(id,val){if(val===0)localStorage.removeItem(vkey(id));else localStorage.setItem(vkey(id),String(val));}
 function loadC(id){try{return JSON.parse(localStorage.getItem(ckey(id))||'[]');}catch(e){return [];}}
 function saveC(id,a){localStorage.setItem(ckey(id),JSON.stringify(a));}
 var cur=(function(){var p=new URLSearchParams(location.search).get('id');var i=p?byId(p):-1;return i>=0?i:todayIdx();})();
 function $(x){return document.getElementById(x);}
 function renderComments(){var s=M[cur],arr=loadC(s.id);$('cmc').textContent=arr.length;$('ch').textContent='('+arr.length+')';var ul=$('clist');ul.innerHTML='';arr.slice().reverse().forEach(function(c){var li=document.createElement('li');var d=new Date(c.ts);li.innerHTML='<div class="ch"><b>'+esc(c.name||'anon')+'</b><span class="ts">'+d.toLocaleDateString()+'</span></div><div class="cb">'+esc(c.text)+'</div>';ul.appendChild(li);});}
-function render(){var s=M[cur];$('art').src='strips/'+s.id+'.svg';$('art').alt=s.title;$('title').textContent=s.title;$('date').textContent=s.date;$('sc').textContent=fmtReach(s.audience);$('mtr').style.width=pct(s.audience)+'%';$('ednote').textContent=s.note?('editor \\u2014 '+s.note):'';var voted=localStorage.getItem(ukey(s.id))==='1';$('uv').classList.toggle('voted',voted);$('uvn').textContent=voted?1:0;renderComments();$('prev').disabled=$('prev2').disabled=(cur<=0);$('next').disabled=$('next2').disabled=(cur>=M.length-1);document.title='DAILBERT \\u2014 '+s.title;}
+function render(){var s=M[cur];$('art').src='strips/'+s.id+'.svg';$('art').alt=s.title;$('title').textContent=s.title;$('date').textContent=s.date;$('sc').textContent=fmtReach(s.audience);$('mtr').style.width=pct(s.audience)+'%';$('ednote').textContent=s.note?('editor \\u2014 '+s.note):'';var v=getV(s.id);$('vn').textContent=v;$('up').classList.toggle('on',v===1);$('down').classList.toggle('on',v===-1);renderComments();$('prev').disabled=$('prev2').disabled=(cur<=0);$('next').disabled=$('next2').disabled=(cur>=M.length-1);document.title='DAILBERT \\u2014 '+s.title;}
 function go(i){if(i<0||i>=M.length)return;cur=i;try{history.replaceState(null,'','?id='+M[cur].id);}catch(e){}render();window.scrollTo(0,0);}
-$('uv').addEventListener('click',function(){var s=M[cur];if(localStorage.getItem(ukey(s.id))==='1')localStorage.removeItem(ukey(s.id));else localStorage.setItem(ukey(s.id),'1');render();});
+$('up').addEventListener('click',function(){var id=M[cur].id;setV(id,getV(id)===1?0:1);render();});
+$('down').addEventListener('click',function(){var id=M[cur].id;setV(id,getV(id)===-1?0:-1);render();});
 $('cform').addEventListener('submit',function(e){e.preventDefault();var s=M[cur],t=$('ctext').value.trim();if(!t)return;var arr=loadC(s.id);arr.push({name:$('cname').value.trim(),text:t,ts:Date.now()});saveC(s.id,arr);$('ctext').value='';renderComments();});
 $('first').addEventListener('click',function(){go(0);});
 $('latest').addEventListener('click',function(){go(M.length-1);});
