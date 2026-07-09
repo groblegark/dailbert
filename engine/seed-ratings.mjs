@@ -10,6 +10,19 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 
 // date -> [audience, optional editor note (private-ish; shown only as a tooltip)]
 const BY_DATE = {
+  '2026-01-05': [7, 'Change freeze. "I am not a change." / "It\'s Monday."'],
+  '2026-01-06': [8, 'The countdown poster. "It\'s paper, Doug. It didn\'t answer." / "Yet."'],
+  '2026-01-08': [8, '"So it just watches us?" / "Don\'t do anything you\'d regret."'],
+  '2026-01-12': [7, '"Which desk?" / "He lives in the screen!" / "It\'s not even on yet."'],
+  '2026-01-13': [9, 'Pre-recorded training. "I recorded it this morning, just for you two." / "I feel seen." / "You are, Doug."'],
+  '2026-01-14': [8, 'The night before. "So who left the light on?" / "Goodnight. See you tomorrow."'],
+  '2026-01-15': [9, 'Install day. "I counted eleven empty desks." / "I\'ll keep them ready."'],
+  '2026-01-16': [8, 'Clause 9. "There is no clause 9." / "There is now. You agreed to updates."'],
+  '2026-01-19': [9, 'Day four. "I learned when each of you is happiest. I\'ll bring the bad news then. It hurts less."'],
+  '2026-01-21': [9, 'Recurring. "This goes out to 2031. I stopped there. I did not want to presume."'],
+  '2026-01-22': [8, 'Onboarding. "How long\'s that take?" / "I finished Tuesday. There wasn\'t much."'],
+  '2026-01-26': [8, '"I cleared the ones you\'d have said no to." / "How many?" / "I didn\'t want to bother you with a number."'],
+  '2026-01-29': [8, 'Weekly report. "Nobody\'s read one in three years." / "I read all of them. Even the footnotes."'],
   '2026-06-01': [8, 'The 1:1. "Verdict: meets expectations." Then: "Now, Craig. About YOUR numbers."'],
   '2026-06-03': [7, 'Coffee button swapped for a KPI dashboard. "Justify your role to earn coffee."'],
   '2026-06-05': [8, 'The blocker. "It is blocked by a ticket that does not exist yet." / "So when does it unblock?"'],

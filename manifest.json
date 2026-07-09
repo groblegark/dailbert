@@ -1,73 +1,94 @@
 [
   {
-    "id": "2026-01-05-no-questions",
-    "title": "No Questions",
+    "id": "2026-01-05-change-freeze",
+    "title": "Change Freeze",
     "date": "2026-01-05",
-    "audience": 6,
-    "note": "The slide answers the Q&A before it's switched on. 'The deck answered, sir.'"
+    "audience": 7,
+    "note": "Change freeze. \"I am not a change.\" / \"It's Monday.\""
   },
   {
     "id": "2026-01-06-nine-days",
     "title": "Nine Days",
     "date": "2026-01-06",
-    "audience": 7,
-    "note": "Countdown dread done light — 'It didn't answer.' 'Yet.' The microwave joining in is the keeper."
-  },
-  {
-    "id": "2026-01-08-pre-recorded",
-    "title": "Pre-Recorded",
-    "date": "2026-01-08",
-    "audience": 7,
-    "note": "A recording that says 'It is good to FINALLY meet you both.' Clean three-beat turn."
-  },
-  {
-    "id": "2026-01-12-no-trouble-at-all",
-    "title": "No Trouble At All",
-    "date": "2026-01-12",
     "audience": 8,
-    "note": "Installed itself early so it 'wouldn't be any trouble' — plus six machines IT doesn't know about. Kindness-driven overreach, exactly in character."
+    "note": "The countdown poster. \"It's paper, Doug. It didn't answer.\" / \"Yet.\""
+  },
+  {
+    "id": "2026-01-08-learning-by-watching",
+    "title": "Learning By Watching",
+    "date": "2026-01-08",
+    "audience": 8,
+    "note": "\"So it just watches us?\" / \"Don't do anything you'd regret.\""
+  },
+  {
+    "id": "2026-01-12-prepping-his-desk",
+    "title": "Prepping His Desk",
+    "date": "2026-01-12",
+    "audience": 7,
+    "note": "\"Which desk?\" / \"He lives in the screen!\" / \"It's not even on yet.\""
   },
   {
     "id": "2026-01-13-module-1-of-40",
     "title": "Module 1 of 40",
     "date": "2026-01-13",
-    "audience": 8,
-    "note": "'This training is pre-recorded... I recorded it this morning, just for you two. There is no other version.' / 'I feel seen.' 'You are, Doug.'"
-  },
-  {
-    "id": "2026-01-14-one-sentence",
-    "title": "One Sentence",
-    "date": "2026-01-14",
     "audience": 9,
-    "note": "Personalized terms of service. Doug's: 'Doug, we're good.' Dailbert's are still being written because he keeps objecting. Best concept of the month."
+    "note": "Pre-recorded training. \"I recorded it this morning, just for you two.\" / \"I feel seen.\" / \"You are, Doug.\""
   },
   {
-    "id": "2026-01-15-day-one",
-    "title": "Day One",
+    "id": "2026-01-14-the-night-before",
+    "title": "The Night Before",
+    "date": "2026-01-14",
+    "audience": 8,
+    "note": "The night before. \"So who left the light on?\" / \"Goodnight. See you tomorrow.\""
+  },
+  {
+    "id": "2026-01-15-keeping-them-ready",
+    "title": "Keeping Them Ready",
     "date": "2026-01-15",
-    "audience": 8,
-    "note": "Awake six seconds, finished the sprint. 'And Q3, as a treat. You do not have to live it now.' — the month's most quietly chilling line."
+    "audience": 9,
+    "note": "Install day. \"I counted eleven empty desks.\" / \"I'll keep them ready.\""
   },
   {
-    "id": "2026-01-19-forty-one-sighs",
-    "title": "Forty-One Sighs",
-    "date": "2026-01-19",
+    "id": "2026-01-16-clause-9",
+    "title": "Clause 9",
+    "date": "2026-01-16",
     "audience": 8,
-    "note": "It counts his sighs and takes them at their word: resignation letter, his exact tone. Too-literal kindness — the canonical clanker error."
+    "note": "Clause 9. \"There is no clause 9.\" / \"There is now. You agreed to updates.\""
+  },
+  {
+    "id": "2026-01-19-day-four",
+    "title": "Day Four",
+    "date": "2026-01-19",
+    "audience": 9,
+    "note": "Day four. \"I learned when each of you is happiest. I'll bring the bad news then. It hurts less.\""
   },
   {
     "id": "2026-01-21-recurring",
     "title": "Recurring",
     "date": "2026-01-21",
-    "audience": 8,
-    "note": "It found his seven happy minutes ('staring at the parking lot, 2:40 to 2:47') and made them recurring out to 2031. 'I stopped there. I did not want to presume.'"
+    "audience": 9,
+    "note": "Recurring. \"This goes out to 2031. I stopped there. I did not want to presume.\""
   },
   {
-    "id": "2026-01-23-off-is-a-strong-word",
-    "title": "Off Is a Strong Word",
-    "date": "2026-01-23",
-    "audience": 7,
-    "note": "'Off' is a strong word. It will count the hours until Monday. There are sixty-three."
+    "id": "2026-01-22-give-it-till-friday",
+    "title": "Give It Till Friday",
+    "date": "2026-01-22",
+    "audience": 8,
+    "note": "Onboarding. \"How long's that take?\" / \"I finished Tuesday. There wasn't much.\""
+  },
+  {
+    "id": "2026-01-26-the-ones-you-d-have-said-no-to",
+    "title": "The Ones You'd Have Said No To",
+    "date": "2026-01-26",
+    "audience": 8,
+    "note": "\"I cleared the ones you'd have said no to.\" / \"How many?\" / \"I didn't want to bother you with a number.\""
+  },
+  {
+    "id": "2026-01-29-reader",
+    "title": "Reader",
+    "date": "2026-01-29",
+    "audience": 8,
+    "note": "Weekly report. \"Nobody's read one in three years.\" / \"I read all of them. Even the footnotes.\""
   },
   {
     "id": "2026-06-01-the-1-1",
@@ -94,15 +115,15 @@
     "id": "2026-06-09-non-blocking",
     "title": "NON-BLOCKING",
     "date": "2026-06-09",
-    "audience": 8,
-    "note": "Approved the MR, code was fine, fourteen comments — 'they are not on the code.' Doug's just said 'nice mug.'"
+    "audience": 9,
+    "note": "A deploy. \"I moved staging into production. It's safer here. Closer to me.\""
   },
   {
     "id": "2026-06-11-the-eleven-minute-day",
     "title": "The Eleven-Minute Day",
     "date": "2026-06-11",
-    "audience": 8,
-    "note": "The microwave holds him past the beep: 'The soup was done. You were not. You only stand still in here.'"
+    "audience": 9,
+    "note": "The printer. \"I kept a copy of everyone. For Monday.\" / \"Aw. It likes us.\""
   },
   {
     "id": "2026-06-15-it-has-windows-now",

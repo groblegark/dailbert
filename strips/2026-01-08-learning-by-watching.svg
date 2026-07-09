@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 388" width="1228" height="388" font-family="Georgia,serif">
+    <rect width="1228" height="388" fill="#f4f1ea"/>
+    <text x="6" y="29" font-family="Georgia,serif" font-weight="bold" font-size="27" letter-spacing="2" fill="#111">DAILBERT</text>
+    <text x="1222" y="19" text-anchor="end" font-family="Georgia,serif" font-style="italic" font-size="16" fill="#111">Learning By Watching</text>
+    <text x="1222" y="34" text-anchor="end" font-family="'Courier New',monospace" font-size="12" fill="#111" opacity="0.65">2026-01-08</text>
+    <line x1="6" y1="37" x2="1222" y2="37" stroke="#111" stroke-width="2"/>
+    <g transform="translate(0,40)">
+  <defs>
+    <!-- DAILBERT (front) -->
+    <symbol id="dbt" overflow="visible">
+      <path d="M40 9 q0 -7 6 -7 q6 0 4 6" fill="none" stroke="#111" stroke-width="2.4" stroke-linecap="round"/>
+      <ellipse cx="40" cy="34" rx="21" ry="25" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <ellipse cx="18" cy="35" rx="3" ry="5" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+      <ellipse cx="62" cy="35" rx="3" ry="5" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+      <path d="M24 26 H34" stroke="#111" stroke-width="2" stroke-linecap="round"/>
+      <path d="M46 26 H56" stroke="#111" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="30" cy="35" r="7" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+      <circle cx="50" cy="35" r="7" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+      <path d="M37 35 H43" stroke="#111" stroke-width="2.2"/>
+      <circle cx="30" cy="35" r="1.9" fill="#111"/>
+      <circle cx="50" cy="35" r="1.9" fill="#111"/>
+      <path d="M40 41 v5" stroke="#111" stroke-width="2" stroke-linecap="round"/>
+      <path d="M33 52 H47" stroke="#111" stroke-width="2.4" stroke-linecap="round"/>
+      <path d="M33 58 v7 M47 58 v7" stroke="#111" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M18 96 Q40 74 62 96 L66 122 L14 122 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.4" stroke-linejoin="round"/>
+      <path d="M33 66 L40 74 L47 66" fill="none" stroke="#111" stroke-width="2"/>
+      <path d="M35 64 L45 64 L40 71 Z" fill="#111"/>
+      <path d="M40 71 L37 88 L43 88 Z" fill="#111"/>
+    </symbol>
+
+    <!-- DOUG (front) -->
+    <symbol id="dg" overflow="visible">
+      <path d="M27 14 q4 -6 9 -2 M40 12 q4 -6 9 -1" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="round"/>
+      <circle cx="40" cy="34" r="24" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <ellipse cx="16" cy="35" rx="3" ry="5" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+      <ellipse cx="64" cy="35" rx="3" ry="5" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+      <circle cx="31" cy="31" r="2.7" fill="#111"/>
+      <circle cx="49" cy="31" r="2.7" fill="#111"/>
+      <path d="M27 41 Q40 58 53 41 Z" fill="#111"/>
+      <path d="M31 43 Q40 49 49 43" fill="none" stroke="#f4f1ea" stroke-width="1.6"/>
+      <path d="M16 98 Q40 76 64 98 L68 124 L12 124 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.4" stroke-linejoin="round"/>
+    </symbol>
+
+    <!-- BOSS (front) -->
+    <symbol id="bs" overflow="visible">
+      <path d="M28 20 L22 -8 L37 15 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.4" stroke-linejoin="round"/>
+      <path d="M52 20 L58 -8 L43 15 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.4" stroke-linejoin="round"/>
+      <ellipse cx="40" cy="38" rx="19" ry="20" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <circle cx="34" cy="38" r="1.6" fill="#111"/>
+      <circle cx="46" cy="38" r="1.6" fill="#111"/>
+      <path d="M34 36 H37 M43 36 H46" stroke="#111" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M40 42 v4" stroke="#111" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M35 49 H45" stroke="#111" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M16 98 Q40 74 64 98 L68 124 L12 124 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.4" stroke-linejoin="round"/>
+      <path d="M32 74 L40 90 L48 74" fill="none" stroke="#111" stroke-width="2"/>
+      <path d="M40 90 L36 108 L44 108 Z" fill="#111"/>
+    </symbol>
+
+    <!-- MUG -->
+    <symbol id="mug" overflow="visible">
+      <path d="M0 0 h15 v11 a3 3 0 0 1 -3 3 h-9 a3 3 0 0 1 -3 -3 z" fill="#f4f1ea" stroke="#111" stroke-width="2.2" stroke-linejoin="round"/>
+      <path d="M15 2 q6 0 6 5 q0 5 -6 5" fill="none" stroke="#111" stroke-width="2.2"/>
+      <path d="M4 -6 q3 -4 0 -8 M9 -6 q3 -4 0 -8" fill="none" stroke="#bdb9b0" stroke-width="1.8" stroke-linecap="round"/>
+    </symbol>
+
+    <!-- CLANKER (reflection, dim / unpowered grey) -->
+    <symbol id="clank" overflow="visible">
+      <circle cx="24" cy="-11" r="2.4" fill="#8a867d"/>
+      <path d="M24 -9 V-1" stroke="#8a867d" stroke-width="2"/>
+      <rect x="2" y="0" width="44" height="34" rx="7" fill="#cfcbc2" stroke="#8a867d" stroke-width="2.2"/>
+      <rect x="9" y="11" width="12" height="5" rx="2.5" fill="#9a968d"/>
+      <rect x="27" y="11" width="12" height="5" rx="2.5" fill="#9a968d"/>
+      <rect x="13" y="23" width="22" height="6" rx="1.5" fill="none" stroke="#9a968d" stroke-width="1.6"/>
+      <path d="M18 23 v6 M24 23 v6 M30 23 v6" stroke="#9a968d" stroke-width="1.3"/>
+    </symbol>
+  </defs>
+
+  <!-- ================= PANEL 1 ================= -->
+  <rect x="1" y="1" width="398" height="338" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+  <g clip-path="url(#c1)">
+    <clipPath id="c1"><rect x="2" y="2" width="396" height="336" rx="3"/></clipPath>
+    <!-- wall / floor -->
+    <path d="M2 250 H398" stroke="#d8d4ca" stroke-width="2"/>
+    <!-- projector screen -->
+    <rect x="30" y="34" width="150" height="102" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+    <path d="M30 40 L60 34 M30 60 L86 34 M30 92 L150 34 M30 120 L172 34" stroke="#e6e2d8" stroke-width="1.6"/>
+    <text x="105" y="76" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="21" font-weight="bold" fill="#111">AGENTS</text>
+    <text x="105" y="102" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="12" fill="#111">arriving Jan 15</text>
+    <path d="M78 112 H132 M132 112 l-6 -4 M132 112 l-6 4" stroke="#111" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- boss legs -->
+    <path d="M135 210 L131 272 M162 210 L166 272" stroke="#111" stroke-width="8" stroke-linecap="round"/>
+    <path d="M120 272 h20 M158 272 h20" stroke="#111" stroke-width="6" stroke-linecap="round"/>
+    <!-- boss pointing arm -->
+    <path d="M126 160 Q104 148 92 118" fill="none" stroke="#111" stroke-width="6" stroke-linecap="round"/>
+    <use href="#bs" transform="translate(94,52) scale(1.4)"/>
+    <!-- audience (from behind) -->
+    <path d="M56 340 Q95 296 134 340 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+    <circle cx="95" cy="315" r="24" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+    <path d="M95 292 q0 -7 6 -6 q5 1 3 6" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M158 340 Q205 292 252 340 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+    <circle cx="205" cy="320" r="28" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+    <path d="M270 340 Q308 298 346 340 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+    <circle cx="308" cy="317" r="23" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+    <!-- boss balloon -->
+    <path d="M232 84 L206 106 L246 88 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.4" stroke-linejoin="round"/>
+    <rect x="188" y="14" width="200" height="72" rx="15" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+    <text x="288" y="37" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">They install Thursday.</text>
+    <text x="288" y="55" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">They learn by watching</text>
+    <text x="288" y="73" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">how we work.</text>
+  </g>
+
+  <!-- ================= PANEL 2 ================= -->
+  <rect x="415" y="1" width="398" height="338" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+  <g clip-path="url(#c2)">
+    <clipPath id="c2"><rect x="416" y="2" width="396" height="336" rx="3"/></clipPath>
+    <path d="M416 250 H812" stroke="#d8d4ca" stroke-width="2"/>
+    <!-- row of seat backs -->
+    <rect x="470" y="196" width="94" height="120" rx="8" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+    <rect x="648" y="196" width="104" height="120" rx="8" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+    <!-- Dailbert -->
+    <use href="#dbt" transform="translate(455,124) scale(1.5)"/>
+    <!-- Doug -->
+    <use href="#dg" transform="translate(644,127) scale(1.4)"/>
+    <!-- Doug's mug in hand -->
+    <path d="M690 240 q22 -6 44 4" fill="none" stroke="#111" stroke-width="6" stroke-linecap="round"/>
+    <use href="#mug" transform="translate(730,220)"/>
+    <!-- Doug balloon -->
+    <path d="M700 62 L700 138 L720 64 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.4" stroke-linejoin="round"/>
+    <rect x="590" y="18" width="192" height="46" rx="15" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+    <text x="686" y="47" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">So it just watches us?</text>
+    <!-- Dailbert balloon -->
+    <path d="M520 128 L516 176 L540 130 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.4" stroke-linejoin="round"/>
+    <rect x="446" y="78" width="200" height="54" rx="15" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+    <text x="546" y="101" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Don't do anything</text>
+    <text x="546" y="120" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">you'd regret.</text>
+  </g>
+
+  <!-- ================= PANEL 3 ================= -->
+  <rect x="829" y="1" width="398" height="338" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+  <g clip-path="url(#c3)">
+    <clipPath id="c3"><rect x="830" y="2" width="396" height="336" rx="3"/></clipPath>
+    <path d="M830 250 H1226" stroke="#d8d4ca" stroke-width="2"/>
+    <!-- projector slide still glowing -->
+    <rect x="856" y="34" width="118" height="80" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+    <path d="M856 40 L884 34 M856 66 L920 34 M856 96 L974 40" stroke="#e6e2d8" stroke-width="1.6"/>
+    <text x="915" y="82" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111">Jan 15</text>
+    <!-- empty chairs (from side, facing screen) -->
+    <g stroke="#111" stroke-width="2.2" fill="#f4f1ea" stroke-linejoin="round">
+      <rect x="888" y="228" width="12" height="46" rx="4"/>
+      <rect x="862" y="266" width="40" height="8" rx="2"/>
+      <path d="M866 274 V300 M896 274 V300" fill="none" stroke-linecap="round"/>
+      <rect x="953" y="228" width="12" height="46" rx="4"/>
+      <rect x="927" y="266" width="40" height="8" rx="2"/>
+      <path d="M931 274 V300 M961 274 V300" fill="none" stroke-linecap="round"/>
+    </g>
+    <!-- dead wall TV with reflection -->
+    <rect x="1008" y="58" width="150" height="112" rx="5" fill="#3a3a3a" stroke="#111" stroke-width="2.6"/>
+    <path d="M1083 170 v14" stroke="#111" stroke-width="5"/>
+    <path d="M1064 184 h38" stroke="#111" stroke-width="5" stroke-linecap="round"/>
+    <g clip-path="url(#tv)">
+      <clipPath id="tv"><rect x="1010" y="60" width="146" height="108" rx="4"/></clipPath>
+      <rect x="1010" y="60" width="146" height="108" fill="#3a3a3a"/>
+      <path d="M1018 150 h130" stroke="#4d4d4d" stroke-width="2"/>
+      <!-- reflected empty chairs -->
+      <g stroke="#8a867d" stroke-width="1.8" fill="none">
+        <rect x="1036" y="118" width="8" height="30" rx="3"/>
+        <rect x="1022" y="140" width="26" height="5" rx="2"/>
+      </g>
+      <!-- reflected clanker sitting among them, unlit -->
+      <use href="#clank" transform="translate(1086,102) scale(0.72)"/>
+      <rect x="1074" y="140" width="30" height="6" rx="2" fill="none" stroke="#8a867d" stroke-width="1.8"/>
+    </g>
+    <!-- Dailbert leaving through door, back turned -->
+    <rect x="1196" y="150" width="30" height="150" fill="#eae6dc" stroke="#111" stroke-width="2.2"/>
+    <path d="M1180 244 q0 -7 6 -6 q5 1 3 6" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="1178" cy="256" r="14" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+    <path d="M1162 300 Q1178 262 1194 300 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.4" stroke-linejoin="round"/>
+    <rect x="1160" y="278" width="12" height="20" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+    <path d="M1170 300 V320 M1184 300 V320" stroke="#111" stroke-width="6" stroke-linecap="round"/>
+  </g>
+</g>
+    <text x="1218" y="372" text-anchor="end" font-family="'Segoe Script','Comic Sans MS',cursive" font-style="italic" font-size="11" fill="#111" opacity="0.32">Matt Clanker</text>
+    
+  </svg>
