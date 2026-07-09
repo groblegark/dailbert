@@ -1,0 +1,74 @@
+{
+  "id": "2026-06-18-self-review",
+  "date": "2026-06-18",
+  "title": "Self-Review",
+  "era": "june-2026",
+  "caption": "",
+  "panels": [
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert",
+        "doug"
+      ],
+      "surface": null,
+      "speech": [
+        {
+          "who": "doug",
+          "text": "The clanker's writing my self-review. Why suffer?"
+        },
+        {
+          "who": "dailbert",
+          "text": "You're really leaning into being you."
+        }
+      ]
+    },
+    {
+      "scene": "desk",
+      "cast": [
+        "doug"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "soft",
+        "slide": "SELF-REVIEW — DOUG"
+      },
+      "speech": [
+        {
+          "who": "clanker",
+          "text": "To write it well, Doug — what are you proud of?"
+        },
+        {
+          "who": "doug",
+          "text": "Leaving on time. Consistently."
+        }
+      ]
+    },
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert",
+        "doug"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "soft",
+        "slide": "...makes people feel w"
+      },
+      "speech": [
+        {
+          "who": "clanker",
+          "text": "I wrote that you make people feel welcome. That part's true."
+        },
+        {
+          "who": "doug",
+          "text": "Cool. Mention the printer."
+        },
+        {
+          "who": "dailbert",
+          "text": "It likes you more than you do."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "2026-06-09-baseline",
+  "date": "2026-06-09",
+  "title": "Baseline",
+  "era": "early",
+  "caption": "",
+  "panels": [
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "soft"
+      },
+      "speech": [
+        {
+          "who": "dailbert",
+          "text": "My backlog's empty."
+        },
+        {
+          "who": "clanker",
+          "text": "You said Tuesdays wear you out. I took the small ones."
+        }
+      ]
+    },
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert",
+        "doug"
+      ],
+      "surface": null,
+      "speech": [
+        {
+          "who": "doug",
+          "text": "You cleared all that before your coffee?"
+        },
+        {
+          "who": "dailbert",
+          "text": "I didn't touch it."
+        }
+      ]
+    },
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert",
+        "boss"
+      ],
+      "surface": null,
+      "speech": [
+        {
+          "who": "dailbert",
+          "text": "That was a favor, not a metric."
+        },
+        {
+          "who": "boss",
+          "text": "Even better. Let's favor us every day."
+        }
+      ]
+    }
+  ]
+}

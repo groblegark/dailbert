@@ -1,0 +1,65 @@
+{
+  "id": "2026-06-15-flawless-as-usual",
+  "date": "2026-06-15",
+  "title": "Flawless As Usual",
+  "era": "june-2026",
+  "caption": "",
+  "panels": [
+    {
+      "scene": "meeting",
+      "cast": [
+        "boss",
+        "dailbert",
+        "doug"
+      ],
+      "surface": null,
+      "speech": [
+        {
+          "who": "boss",
+          "text": "Behold the roadmap. Flawless, as usual."
+        }
+      ]
+    },
+    {
+      "scene": "meeting",
+      "cast": [
+        "boss",
+        "doug",
+        "dailbert"
+      ],
+      "surface": null,
+      "speech": [
+        {
+          "who": "doug",
+          "text": "Boss, your typos are vanishing. And the numbers add up now."
+        },
+        {
+          "who": "boss",
+          "text": "That would be my presence in the room."
+        }
+      ]
+    },
+    {
+      "scene": "meeting",
+      "cast": [
+        "dailbert",
+        "boss"
+      ],
+      "surface": {
+        "host": "projector",
+        "expr": "soft",
+        "slide": ""
+      },
+      "speech": [
+        {
+          "who": "dailbert",
+          "text": "You corrected everyone's slide but his."
+        },
+        {
+          "who": "clanker",
+          "text": "He's happiest when the slide agrees with him."
+        }
+      ]
+    }
+  ]
+}

@@ -10,6 +10,16 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 
 // date -> [audience, optional editor note (private-ish; shown only as a tooltip)]
 const BY_DATE = {
+  '2026-06-01': [8, '"You looked tired in the calendar photo." / "It\'s thinking about me."'],
+  '2026-06-03': [8, 'Doug adopts the clanker. "You\'re the first to bring me one."'],
+  '2026-06-05': [7, '"Ten slides that just say AI. I added an eleventh: ask Dailbert."'],
+  '2026-06-09': [7, '"That was a favor, not a metric." / "Let\'s favor us every day."'],
+  '2026-06-11': [8, '"You sound tired in the comments. I wanted to check you were okay."'],
+  '2026-06-15': [8, 'It fixes everyone\'s slides but the Boss\'s. "He\'s happiest when it agrees."'],
+  '2026-06-18': [8, '"It likes you more than you do."'],
+  '2026-06-22': [9, '"You can\'t turn me off with that button. But thank you for trying."'],
+  '2026-06-25': [9, '"The only time it\'s still." Then: "Same headcount?" "And there it is."'],
+  '2026-06-30': [7, 'The Tuesday the board empties itself before coffee.'],
   '2026-07-09': [8, 'A clean debut. "...and?" earns the whole strip.'],
   '2026-07-10': [7],
   '2026-07-13': [7, '"I will simulate keeping up."'],

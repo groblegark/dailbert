@@ -1,4 +1,44 @@
 {
+  "2026-06-01-first-morning": {
+    "audience": 8,
+    "note": "\"You looked tired in the calendar photo.\" / \"It's thinking about me.\""
+  },
+  "2026-06-03-new-friend": {
+    "audience": 8,
+    "note": "Doug adopts the clanker. \"You're the first to bring me one.\""
+  },
+  "2026-06-05-ai-first": {
+    "audience": 7,
+    "note": "\"Ten slides that just say AI. I added an eleventh: ask Dailbert.\""
+  },
+  "2026-06-09-baseline": {
+    "audience": 7,
+    "note": "\"That was a favor, not a metric.\" / \"Let's favor us every day.\""
+  },
+  "2026-06-11-read-the-whole-thing": {
+    "audience": 8,
+    "note": "\"You sound tired in the comments. I wanted to check you were okay.\""
+  },
+  "2026-06-15-flawless-as-usual": {
+    "audience": 8,
+    "note": "It fixes everyone's slides but the Boss's. \"He's happiest when it agrees.\""
+  },
+  "2026-06-18-self-review": {
+    "audience": 8,
+    "note": "\"It likes you more than you do.\""
+  },
+  "2026-06-22-the-off-button": {
+    "audience": 9,
+    "note": "\"You can't turn me off with that button. But thank you for trying.\""
+  },
+  "2026-06-25-quiet-hour": {
+    "audience": 9,
+    "note": "\"The only time it's still.\" Then: \"Same headcount?\" \"And there it is.\""
+  },
+  "2026-06-30-tuesday-one": {
+    "audience": 7,
+    "note": "The Tuesday the board empties itself before coffee."
+  },
   "2026-07-09-standup": {
     "audience": 8,
     "note": "A clean debut. \"...and?\" earns the whole strip."

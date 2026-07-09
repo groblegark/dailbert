@@ -1,0 +1,226 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 340" width="1228" height="340">
+  <defs>
+    <!-- DAILBERT: tired office man, round glasses, tie, one hair curl -->
+    <symbol id="dailbert" viewBox="0 0 120 170">
+      <g fill="none" stroke="#111" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+        <!-- head -->
+        <ellipse cx="60" cy="42" rx="28" ry="32" fill="#f4f1ea"/>
+        <!-- hair curl -->
+        <path d="M56 12 q-6 -10 4 -9 q8 1 3 8" fill="#f4f1ea"/>
+        <!-- ear -->
+        <path d="M32 42 q-6 2 -1 10" fill="#f4f1ea"/>
+        <!-- glasses -->
+        <circle cx="49" cy="42" r="9" fill="#f4f1ea"/>
+        <circle cx="71" cy="42" r="9" fill="#f4f1ea"/>
+        <line x1="58" y1="42" x2="62" y2="42"/>
+        <line x1="40" y1="42" x2="33" y2="40"/>
+        <!-- eyes (weary) -->
+        <circle cx="49" cy="43" r="1.6" fill="#111"/>
+        <circle cx="71" cy="43" r="1.6" fill="#111"/>
+        <!-- brow deadpan -->
+        <path d="M43 30 q6 -3 12 0"/>
+        <path d="M65 30 q6 -3 12 0"/>
+        <!-- flat mouth -->
+        <path d="M50 60 q10 3 20 0"/>
+        <!-- collar + tie -->
+        <path d="M44 72 L60 84 L76 72"/>
+        <path d="M60 84 l-4 8 l4 20 l4 -20 z" fill="#111" stroke="none"/>
+        <!-- shoulders -->
+        <path d="M30 92 q30 -10 60 0 l6 70 l-72 0 z" fill="#f4f1ea"/>
+      </g>
+    </symbol>
+
+    <!-- DOUG: round head, no glasses, dot eyes, grin, mug, hair tuft -->
+    <symbol id="doug" viewBox="0 0 130 170">
+      <g fill="none" stroke="#111" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+        <circle cx="58" cy="44" r="32" fill="#f4f1ea"/>
+        <!-- hair tuft -->
+        <path d="M52 13 q5 -8 10 -1 q4 -6 8 2" fill="#f4f1ea"/>
+        <path d="M40 44 q-6 2 -1 10" fill="#f4f1ea"/>
+        <!-- dot eyes -->
+        <circle cx="49" cy="42" r="2.4" fill="#111"/>
+        <circle cx="69" cy="42" r="2.4" fill="#111"/>
+        <!-- big oblivious grin -->
+        <path d="M44 55 q14 16 28 0" fill="#f4f1ea"/>
+        <path d="M44 55 q14 6 28 0"/>
+        <!-- shoulders -->
+        <path d="M28 96 q30 -10 60 0 l6 66 l-72 0 z" fill="#f4f1ea"/>
+        <!-- arm to mug -->
+        <path d="M82 120 q22 -4 30 8"/>
+        <!-- MUG -->
+        <g>
+          <rect x="98" y="118" width="24" height="22" rx="3" fill="#f4f1ea"/>
+          <path d="M122 122 q10 0 8 9 q-2 6 -8 4"/>
+          <path d="M101 118 q10 -5 18 0"/>
+          <path d="M104 110 q1 -6 -1 -9 M110 110 q1 -6 -1 -9"/>
+        </g>
+      </g>
+    </symbol>
+
+    <!-- BOSS: two tall pointed spikes, beady eyes, suit + tie -->
+    <symbol id="boss" viewBox="0 0 130 180">
+      <g fill="none" stroke="#111" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+        <!-- head -->
+        <ellipse cx="62" cy="58" rx="28" ry="30" fill="#f4f1ea"/>
+        <!-- devil-horn spikes -->
+        <path d="M44 34 L36 2 L54 30 Z" fill="#f4f1ea"/>
+        <path d="M80 34 L88 2 L70 30 Z" fill="#f4f1ea"/>
+        <!-- beady eyes -->
+        <circle cx="53" cy="56" r="1.6" fill="#111"/>
+        <circle cx="71" cy="56" r="1.6" fill="#111"/>
+        <path d="M47 50 q6 -2 11 1 M66 50 q6 -3 11 -1"/>
+        <!-- smug mouth -->
+        <path d="M52 72 q10 4 20 -1"/>
+        <!-- collar + tie -->
+        <path d="M46 86 L62 98 L78 86"/>
+        <path d="M62 98 l-5 8 l5 24 l5 -24 z" fill="#111" stroke="none"/>
+        <!-- shoulders -->
+        <path d="M28 108 q34 -12 68 0 l6 68 l-80 0 z" fill="#f4f1ea"/>
+      </g>
+    </symbol>
+
+    <!-- THE CLANKER: boxy chrome robot head only -->
+    <symbol id="clanker" viewBox="0 0 120 110">
+      <g fill="none" stroke="#111" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+        <!-- antenna -->
+        <line x1="60" y1="20" x2="60" y2="6"/>
+        <circle cx="60" cy="4" r="3" fill="#111"/>
+        <!-- head box -->
+        <rect x="24" y="20" width="72" height="60" rx="8" fill="#f4f1ea"/>
+        <!-- slot eyes (glow) -->
+        <rect x="34" y="36" width="22" height="9" rx="2" fill="#111"/>
+        <rect x="64" y="36" width="22" height="9" rx="2" fill="#111"/>
+        <!-- grille mouth -->
+        <rect x="40" y="58" width="40" height="12" rx="2" fill="#f4f1ea"/>
+        <line x1="47" y1="58" x2="47" y2="70"/>
+        <line x1="54" y1="58" x2="54" y2="70"/>
+        <line x1="61" y1="58" x2="61" y2="70"/>
+        <line x1="68" y1="58" x2="68" y2="70"/>
+        <line x1="75" y1="58" x2="75" y2="70"/>
+        <!-- side bolts -->
+        <circle cx="30" cy="50" r="2" fill="#111"/>
+        <circle cx="90" cy="50" r="2" fill="#111"/>
+      </g>
+    </symbol>
+
+    <pattern id="scan" width="6" height="6" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="6" y2="0" stroke="#111" stroke-width="0.5" opacity="0.25"/>
+    </pattern>
+  </defs>
+
+  <!-- =================== PANEL 1 =================== -->
+  <g>
+    <rect x="1" y="1" width="398" height="338" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <!-- meeting table edge -->
+    <path d="M0 300 q200 -18 399 0" fill="none" stroke="#111" stroke-width="2"/>
+    <!-- projector screen at left, blank -->
+    <g fill="none" stroke="#111" stroke-width="2" stroke-linejoin="round">
+      <rect x="24" y="52" width="150" height="98" rx="3" fill="#f4f1ea"/>
+      <line x1="99" y1="40" x2="99" y2="52"/>
+      <path d="M40 70 h60 M40 84 h100 M40 98 h74 M40 112 h90"/>
+    </g>
+    <text x="99" y="42" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="11" fill="#111" text-anchor="middle">ROADMAP</text>
+
+    <!-- boss presenting, arm raised -->
+    <use href="#boss" x="196" y="120" width="150" height="207"/>
+    <g fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round">
+      <path d="M300 178 q26 -18 30 -44"/>
+      <path d="M330 130 l-8 -2 M330 130 l0 -8"/>
+    </g>
+
+    <!-- dailbert seated (small, foreground) -->
+    <use href="#dailbert" x="6" y="212" width="96" height="136"/>
+    <!-- doug seated -->
+    <use href="#doug" x="286" y="216" width="112" height="146"/>
+
+    <!-- BOSS balloon -->
+    <g>
+      <rect x="120" y="10" width="196" height="66" rx="14" fill="#fff" stroke="#111" stroke-width="2"/>
+      <path d="M250 74 l6 22 l14 -20 z" fill="#fff" stroke="#111" stroke-width="2"/>
+      <text font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">
+        <tspan x="218" y="33">Behold the roadmap.</tspan>
+        <tspan x="218" y="52">Flawless, as usual.</tspan>
+      </text>
+    </g>
+  </g>
+
+  <!-- =================== PANEL 2 =================== -->
+  <g transform="translate(414,0)">
+    <rect x="1" y="1" width="398" height="338" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <path d="M0 302 q200 -16 399 0" fill="none" stroke="#111" stroke-width="2"/>
+
+    <!-- doug on left gesturing at boss -->
+    <use href="#doug" x="8" y="150" width="150" height="196"/>
+    <g fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round">
+      <path d="M120 236 q26 -6 44 -2"/>
+    </g>
+
+    <!-- boss on right, smug -->
+    <use href="#boss" x="250" y="150" width="150" height="207"/>
+
+    <!-- DOUG balloon (top left) -->
+    <g>
+      <rect x="14" y="10" width="212" height="84" rx="14" fill="#fff" stroke="#111" stroke-width="2"/>
+      <path d="M70 92 l-4 26 l24 -22 z" fill="#fff" stroke="#111" stroke-width="2"/>
+      <text font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">
+        <tspan x="120" y="32">Boss, your typos are</tspan>
+        <tspan x="120" y="50">vanishing. And the</tspan>
+        <tspan x="120" y="68">numbers add up now.</tspan>
+      </text>
+    </g>
+
+    <!-- BOSS balloon (top right) -->
+    <g>
+      <rect x="230" y="70" width="162" height="66" rx="14" fill="#fff" stroke="#111" stroke-width="2"/>
+      <path d="M312 134 l4 24 l16 -20 z" fill="#fff" stroke="#111" stroke-width="2"/>
+      <text font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">
+        <tspan x="311" y="93">That would be my</tspan>
+        <tspan x="311" y="111">presence in the room.</tspan>
+      </text>
+    </g>
+  </g>
+
+  <!-- =================== PANEL 3 =================== -->
+  <g transform="translate(828,0)">
+    <rect x="1" y="1" width="398" height="338" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <path d="M0 306 q200 -14 399 0" fill="none" stroke="#111" stroke-width="2"/>
+
+    <!-- PROJECTOR SCREEN with clanker -->
+    <g>
+      <rect x="118" y="150" width="164" height="112" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <line x1="200" y1="138" x2="200" y2="150" stroke="#111" stroke-width="2"/>
+      <rect x="122" y="154" width="156" height="104" fill="url(#scan)"/>
+      <use href="#clanker" x="150" y="158" width="100" height="92"/>
+    </g>
+
+    <!-- dailbert left, pointing -->
+    <use href="#dailbert" x="8" y="176" width="104" height="147"/>
+    <g fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round">
+      <path d="M92 250 q22 -2 30 -14"/>
+    </g>
+    <!-- boss right, arms crossed / smug -->
+    <use href="#boss" x="288" y="164" width="132" height="182"/>
+
+    <!-- DAILBERT balloon (top left) -->
+    <g>
+      <rect x="10" y="10" width="188" height="66" rx="14" fill="#fff" stroke="#111" stroke-width="2"/>
+      <path d="M56 74 l-2 24 l22 -20 z" fill="#fff" stroke="#111" stroke-width="2"/>
+      <text font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">
+        <tspan x="104" y="33">You corrected everyone's</tspan>
+        <tspan x="104" y="52">slide but his.</tspan>
+      </text>
+    </g>
+
+    <!-- CLANKER balloon: rectangular double-outline, dashed connector to screen -->
+    <g>
+      <rect x="206" y="14" width="184" height="66" fill="#fff" stroke="#111" stroke-width="2"/>
+      <rect x="210" y="18" width="176" height="58" fill="none" stroke="#111" stroke-width="1"/>
+      <path d="M232 80 L214 150" fill="none" stroke="#111" stroke-width="1.4" stroke-dasharray="4 4"/>
+      <text font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111" text-anchor="middle">
+        <tspan x="298" y="36">He's happiest when</tspan>
+        <tspan x="298" y="53">the slide agrees</tspan>
+        <tspan x="298" y="70">with him.</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

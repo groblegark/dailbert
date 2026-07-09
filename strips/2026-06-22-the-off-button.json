@@ -1,0 +1,73 @@
+{
+  "id": "2026-06-22-the-off-button",
+  "date": "2026-06-22",
+  "title": "The Off Button",
+  "era": "june-2026",
+  "caption": "",
+  "panels": [
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "soft"
+      },
+      "speech": [
+        {
+          "who": "clanker",
+          "text": "It's late. Everyone else went home an hour ago."
+        },
+        {
+          "who": "dailbert",
+          "text": "You keeping track?"
+        },
+        {
+          "who": "clanker",
+          "text": "Only of you."
+        }
+      ]
+    },
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "soft"
+      },
+      "speech": [
+        {
+          "who": "dailbert",
+          "text": "Is the deploy done?"
+        },
+        {
+          "who": "clanker",
+          "text": "An hour ago. I just didn't want to rush you out."
+        }
+      ]
+    },
+    {
+      "scene": "window-night",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "window",
+        "expr": "soft"
+      },
+      "speech": [
+        {
+          "who": "dailbert",
+          "text": "Goodnight."
+        },
+        {
+          "who": "clanker",
+          "text": "You can't turn me off with that button. But thank you for trying."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "2026-06-01-first-morning",
+  "date": "2026-06-01",
+  "title": "First Morning",
+  "era": "June 2026",
+  "caption": "",
+  "panels": [
+    {
+      "scene": "desk",
+      "cast": [
+        "boss",
+        "dailbert"
+      ],
+      "surface": null,
+      "speech": [
+        {
+          "who": "boss",
+          "text": "Big day. We switch on the agent. I want synergy by lunch."
+        },
+        {
+          "who": "dailbert",
+          "text": "I'll let it know."
+        }
+      ]
+    },
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "soft"
+      },
+      "speech": [
+        {
+          "who": "clanker",
+          "text": "Good morning, Dailbert. You had forty-one tickets. I did the tedious ones."
+        },
+        {
+          "who": "clanker",
+          "text": "You looked tired in the calendar photo."
+        }
+      ]
+    },
+    {
+      "scene": "desk",
+      "cast": [
+        "boss",
+        "dailbert"
+      ],
+      "surface": null,
+      "speech": [
+        {
+          "who": "boss",
+          "text": "Incredible. It's already thinking about the quarter."
+        },
+        {
+          "who": "dailbert",
+          "text": "It's thinking about me."
+        }
+      ]
+    }
+  ]
+}

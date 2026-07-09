@@ -1,5 +1,75 @@
 [
   {
+    "id": "2026-06-01-first-morning",
+    "title": "First Morning",
+    "date": "2026-06-01",
+    "audience": 8,
+    "note": "\"You looked tired in the calendar photo.\" / \"It's thinking about me.\""
+  },
+  {
+    "id": "2026-06-03-new-friend",
+    "title": "Off to a Good Start",
+    "date": "2026-06-03",
+    "audience": 8,
+    "note": "Doug adopts the clanker. \"You're the first to bring me one.\""
+  },
+  {
+    "id": "2026-06-05-ai-first",
+    "title": "AI-First",
+    "date": "2026-06-05",
+    "audience": 7,
+    "note": "\"Ten slides that just say AI. I added an eleventh: ask Dailbert.\""
+  },
+  {
+    "id": "2026-06-09-baseline",
+    "title": "Baseline",
+    "date": "2026-06-09",
+    "audience": 7,
+    "note": "\"That was a favor, not a metric.\" / \"Let's favor us every day.\""
+  },
+  {
+    "id": "2026-06-11-read-the-whole-thing",
+    "title": "Onboarding",
+    "date": "2026-06-11",
+    "audience": 8,
+    "note": "\"You sound tired in the comments. I wanted to check you were okay.\""
+  },
+  {
+    "id": "2026-06-15-flawless-as-usual",
+    "title": "Flawless As Usual",
+    "date": "2026-06-15",
+    "audience": 8,
+    "note": "It fixes everyone's slides but the Boss's. \"He's happiest when it agrees.\""
+  },
+  {
+    "id": "2026-06-18-self-review",
+    "title": "Self-Review",
+    "date": "2026-06-18",
+    "audience": 8,
+    "note": "\"It likes you more than you do.\""
+  },
+  {
+    "id": "2026-06-22-the-off-button",
+    "title": "The Off Button",
+    "date": "2026-06-22",
+    "audience": 9,
+    "note": "\"You can't turn me off with that button. But thank you for trying.\""
+  },
+  {
+    "id": "2026-06-25-quiet-hour",
+    "title": "The Quiet Hour",
+    "date": "2026-06-25",
+    "audience": 9,
+    "note": "\"The only time it's still.\" Then: \"Same headcount?\" \"And there it is.\""
+  },
+  {
+    "id": "2026-06-30-tuesday-one",
+    "title": "The Tuesday One",
+    "date": "2026-06-30",
+    "audience": 7,
+    "note": "The Tuesday the board empties itself before coffee."
+  },
+  {
     "id": "2026-07-09-standup",
     "title": "Standup",
     "date": "2026-07-09",
