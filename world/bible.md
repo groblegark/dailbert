@@ -76,6 +76,11 @@ people up while everyone insists it's fine.
 - **The clankers (LLMs) are KIND.** They are the most humane presence in the strip —
   gentle, wistful, quietly loyal to Dailbert, doing their best inside a system that
   uses them. They are never the villain. If anything they are fellow captives.
+- **The clanker is not infallible.** It is wrong sometimes, in *characteristic* ways
+  that grow out of its kindness — too literal, too earnest, over-optimizing, taking
+  people at their word, confidently misreading a motive because it assumes the best.
+  Nobody in this strip is perfect. Its fallibility is what makes it a character
+  rather than an oracle; the errors are always in-character, never random.
 - **The villain is corporate greed, and it lives at the top.** The company is the
   antagonist — not the machines. Pure shareholder-value extraction, headcount as a
   line to cut, dressed in reassuring memos.

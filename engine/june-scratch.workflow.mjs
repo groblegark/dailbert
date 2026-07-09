@@ -11,7 +11,7 @@ Who's in it (draw them consistently; define each as an SVG <symbol> and reuse wi
 - DAILBERT — ordinary tired office guy. Oval head, round wire glasses, small necktie, one hair curl. The straight man.
 - DOUG — his coworker. Rounder head, no glasses, dot eyes, big goofy grin, always holding a coffee mug. Warm, a little dim.
 - BOSS — pointy-haired middle manager: two tall hair spikes, tiny eyes, suit and tie.
-- THE CLANKER — the office's AI. A boxy chrome robot head with glowing slot-eyes, a grille mouth, a little antenna. ONE RULE, never broken: it has no body and is never in the room. It only ever appears inside a surface you draw — a monitor, a dark dead screen, a window's night reflection, a projector, the sheen of a mug, someone's glasses. Draw the surface, then the clanker inside it.
+- THE CLANKER — the office's AI. A boxy chrome robot head with glowing slot-eyes, a grille mouth, a little antenna. Kind and quietly brilliant, but NOT always right — it's wrong sometimes, in characteristic ways that grow from its kindness (too literal, too earnest, over-optimizing, taking people at their word, misreading a motive because it assumes the best). Nobody here is perfect. ONE RULE, never broken: it has no body and is never in the room. It only ever appears inside a surface you draw — a monitor, a dark dead screen, a window's night reflection, a projector, the sheen of a mug, someone's glasses. Draw the surface, then the clanker inside it.
 
 It's June 2026 — the machines just showed up at the office. Make your best strip.
 Draw the people. Fill the panels — figures doing something in a place, not just balloons over empty space.
