@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 340" width="1228" height="340">
+  <defs>
+    <!-- DAILBERT -->
+    <symbol id="dailbert" viewBox="0 0 120 172">
+      <path d="M12,172 C12,132 34,114 60,114 C86,114 108,132 108,172 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <rect x="50" y="90" width="20" height="26" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M46,116 L60,134 L74,116" fill="none" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M55,130 L65,130 L62,140 L58,140 Z" fill="#111"/>
+      <path d="M58,140 L52,150 L60,170 L68,150 L62,140 Z" fill="#111"/>
+      <ellipse cx="60" cy="54" rx="33" ry="40" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M27,52 q-7,1 -6,8 q1,6 7,5" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <path d="M93,52 q7,1 6,8 q-1,6 -7,5" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <circle cx="46" cy="54" r="11" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <circle cx="74" cy="54" r="11" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M57,54 h6" fill="none" stroke="#111" stroke-width="2.5"/>
+      <path d="M35,52 l-9,-3" fill="none" stroke="#111" stroke-width="2"/>
+      <path d="M85,52 l9,-3" fill="none" stroke="#111" stroke-width="2"/>
+      <circle cx="46" cy="54" r="2.6" fill="#111"/>
+      <circle cx="74" cy="54" r="2.6" fill="#111"/>
+      <path d="M60,60 l-3,9 l6,0" fill="none" stroke="#111" stroke-width="2"/>
+      <path d="M50,82 q10,2 20,0" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M58,16 c-1,-11 13,-13 8,-3" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+    </symbol>
+
+    <!-- DOUG -->
+    <symbol id="doug" viewBox="0 0 130 172">
+      <path d="M8,172 C8,130 34,112 62,112 C90,112 116,130 116,172 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <rect x="52" y="88" width="20" height="26" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M48,114 L62,132 L76,114" fill="none" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <circle cx="62" cy="52" r="42" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <circle cx="50" cy="48" r="3.2" fill="#111"/>
+      <circle cx="74" cy="48" r="3.2" fill="#111"/>
+      <circle cx="62" cy="58" r="2.4" fill="#111"/>
+      <path d="M44,64 q18,26 36,0" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M47,66 q15,7 30,0" fill="none" stroke="#111" stroke-width="1.5"/>
+      <path d="M46,14 q4,-12 9,-3 q5,-11 10,-2 q4,-9 8,-1" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+    </symbol>
+
+    <!-- MUG -->
+    <symbol id="mug" viewBox="0 0 64 74">
+      <path d="M8,10 h36 v34 a9,9 0 0 1 -9,9 h-18 a9,9 0 0 1 -9,-9 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M44,16 q15,2 15,18 q0,16 -15,18" fill="none" stroke="#111" stroke-width="2.5"/>
+      <path d="M14,17 q6,14 0,28" fill="none" stroke="#111" stroke-width="1.5" opacity="0.55"/>
+    </symbol>
+
+    <!-- CLANKER (head only; only appears on named surfaces) -->
+    <symbol id="clanker" viewBox="0 0 100 92">
+      <line x1="50" y1="16" x2="50" y2="5" stroke="#111" stroke-width="2.5"/>
+      <circle cx="50" cy="4" r="3" fill="#111"/>
+      <rect x="16" y="16" width="68" height="60" rx="7" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <circle cx="16" cy="46" r="3" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <circle cx="84" cy="46" r="3" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <rect x="24" y="30" width="20" height="9" rx="2.5" fill="#111"/>
+      <rect x="56" y="30" width="20" height="9" rx="2.5" fill="#111"/>
+      <g stroke="#111" stroke-width="1.4">
+        <line x1="24" y1="26" x2="26" y2="22"/>
+        <line x1="34" y1="26" x2="34" y2="21"/>
+        <line x1="44" y1="26" x2="42" y2="22"/>
+        <line x1="56" y1="26" x2="58" y2="22"/>
+        <line x1="66" y1="26" x2="66" y2="21"/>
+        <line x1="76" y1="26" x2="74" y2="22"/>
+      </g>
+      <rect x="30" y="52" width="40" height="14" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <g stroke="#111" stroke-width="1.4">
+        <line x1="37" y1="52" x2="37" y2="66"/>
+        <line x1="44" y1="52" x2="44" y2="66"/>
+        <line x1="50" y1="52" x2="50" y2="66"/>
+        <line x1="56" y1="52" x2="56" y2="66"/>
+        <line x1="63" y1="52" x2="63" y2="66"/>
+      </g>
+    </symbol>
+  </defs>
+
+  <!-- ============ PANEL 1 ============ -->
+  <g transform="translate(0,0)">
+    <rect x="2" y="2" width="396" height="336" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <line x1="12" y1="252" x2="386" y2="252" stroke="#111" stroke-width="1.5" opacity="0.5"/>
+    <use href="#doug" x="30" y="172" width="150" height="172"/>
+    <use href="#dailbert" x="235" y="175" width="130" height="170"/>
+    <use href="#mug" x="152" y="252" width="54" height="62"/>
+
+    <!-- Doug B1 -->
+    <path d="M92,66 L82,66 L98,98 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="16" y="16" width="176" height="52" rx="14" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <text x="104" y="38" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">Hey, my laptop died<tspan x="104" dy="18">this morning.</tspan></text>
+
+    <!-- Dailbert B2 -->
+    <path d="M300,66 L290,66 L306,98 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="206" y="16" width="184" height="52" rx="14" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <text x="298" y="38" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">There's a new one<tspan x="298" dy="18">already on your desk.</tspan></text>
+
+    <!-- Doug B3 -->
+    <path d="M96,138 L86,138 L84,172 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="28" y="88" width="168" height="52" rx="14" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <text x="112" y="110" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">Huh. I hadn't told<tspan x="112" dy="18">anybody yet.</tspan></text>
+  </g>
+
+  <!-- ============ PANEL 2 ============ -->
+  <g transform="translate(414,0)">
+    <rect x="2" y="2" width="396" height="336" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <line x1="12" y1="300" x2="386" y2="300" stroke="#111" stroke-width="1.5" opacity="0.5"/>
+
+    <!-- Monitor with clanker -->
+    <path d="M120,262 l-12,32 h48 l-12,-32" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="92" y="292" width="72" height="9" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <rect x="40" y="150" width="180" height="118" rx="8" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <rect x="52" y="160" width="156" height="94" rx="4" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+    <use href="#clanker" x="82" y="166" width="96" height="88"/>
+    <g stroke="#8a8a8a" stroke-width="1" opacity="0.5">
+      <line x1="54" y1="170" x2="206" y2="170"/>
+      <line x1="54" y1="182" x2="206" y2="182"/>
+      <line x1="54" y1="194" x2="206" y2="194"/>
+      <line x1="54" y1="206" x2="206" y2="206"/>
+      <line x1="54" y1="218" x2="206" y2="218"/>
+      <line x1="54" y1="230" x2="206" y2="230"/>
+      <line x1="54" y1="242" x2="206" y2="242"/>
+    </g>
+
+    <use href="#dailbert" x="245" y="175" width="130" height="170"/>
+
+    <!-- Dailbert B1 (human) -->
+    <path d="M306,64 L296,64 L312,94 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="205" y="14" width="185" height="52" rx="14" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <text x="297" y="36" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">Did you set Doug up<tspan x="297" dy="18">with a replacement?</tspan></text>
+
+    <!-- Clanker B2 (screen balloon, dashed to monitor) -->
+    <line x1="108" y1="90" x2="130" y2="160" stroke="#111" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <rect x="18" y="12" width="180" height="76" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <rect x="23" y="17" width="170" height="66" rx="2" fill="none" stroke="#111" stroke-width="1.3"/>
+    <text x="108" y="34" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="12" fill="#111" text-anchor="middle">The old one was already<tspan x="108" dy="16">de-provisioned. It felt</tspan><tspan x="108" dy="16">like the kind thing.</tspan></text>
+  </g>
+
+  <!-- ============ PANEL 3 ============ -->
+  <g transform="translate(828,0)">
+    <rect x="2" y="2" width="396" height="336" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <line x1="12" y1="120" x2="120" y2="120" stroke="#111" stroke-width="1.3" opacity="0.4"/>
+    <line x1="120" y1="120" x2="120" y2="255" stroke="#111" stroke-width="1.3" opacity="0.4"/>
+    <line x1="12" y1="262" x2="386" y2="262" stroke="#111" stroke-width="1.5" opacity="0.5"/>
+
+    <use href="#doug" x="18" y="172" width="150" height="172"/>
+    <use href="#dailbert" x="248" y="175" width="130" height="170"/>
+
+    <!-- Doug's mug with clanker in its sheen -->
+    <use href="#mug" x="126" y="234" width="88" height="102"/>
+    <use href="#clanker" x="142" y="252" width="58" height="54"/>
+    <path d="M150,256 q8,26 0,50" fill="none" stroke="#8a8a8a" stroke-width="1.2" opacity="0.55"/>
+    <path d="M192,256 q7,26 0,50" fill="none" stroke="#8a8a8a" stroke-width="1.2" opacity="0.55"/>
+
+    <!-- Doug B1 (human) -->
+    <path d="M84,66 L94,66 L76,98 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="14" y="16" width="176" height="52" rx="14" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <text x="102" y="38" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">So what do I file?<tspan x="102" dy="18">Where's the button?</tspan></text>
+
+    <!-- Clanker B2 (screen balloon, dashed to mug) -->
+    <line x1="250" y1="90" x2="176" y2="240" stroke="#111" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <rect x="200" y="12" width="190" height="76" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <rect x="205" y="17" width="180" height="66" rx="2" fill="none" stroke="#111" stroke-width="1.3"/>
+    <text x="295" y="34" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="12" fill="#111" text-anchor="middle">There isn't one anymore,<tspan x="295" dy="16">Doug. There's nothing</tspan><tspan x="295" dy="16">waiting on you.</tspan></text>
+  </g>
+</svg>

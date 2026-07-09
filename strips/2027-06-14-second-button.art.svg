@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 340" width="1228" height="340">
+  <defs>
+    <symbol id="dailbert" viewBox="0 0 120 180">
+      <g fill="none" stroke="#111" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+        <path d="M33 180 L33 150 Q33 118 60 118 Q87 118 87 150 L87 180" fill="#f4f1ea"/>
+        <path d="M48 122 L60 134 L72 122"/>
+        <path d="M60 134 L54 148 L60 166 L66 148 Z" fill="#111"/>
+        <ellipse cx="60" cy="70" rx="33" ry="38" fill="#f4f1ea"/>
+        <path d="M60 32 q11 -7 4 -17"/>
+        <circle cx="47" cy="70" r="12" fill="#f4f1ea"/>
+        <circle cx="73" cy="70" r="12" fill="#f4f1ea"/>
+        <line x1="59" y1="70" x2="61" y2="70"/>
+        <line x1="14" y1="70" x2="35" y2="70"/>
+        <line x1="85" y1="70" x2="106" y2="70"/>
+        <circle cx="47" cy="70" r="2.6" fill="#111" stroke="none"/>
+        <circle cx="73" cy="70" r="2.6" fill="#111" stroke="none"/>
+        <line x1="50" y1="93" x2="70" y2="93"/>
+      </g>
+    </symbol>
+    <symbol id="doug" viewBox="0 0 140 180">
+      <g fill="none" stroke="#111" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+        <path d="M28 180 L28 150 Q28 116 62 116 Q96 116 96 150 L96 180" fill="#f4f1ea"/>
+        <path d="M50 120 L62 130 L74 120"/>
+        <circle cx="62" cy="66" r="40" fill="#f4f1ea"/>
+        <path d="M55 27 q7 -11 13 0"/>
+        <circle cx="50" cy="62" r="3.2" fill="#111" stroke="none"/>
+        <circle cx="74" cy="62" r="3.2" fill="#111" stroke="none"/>
+        <path d="M44 78 Q62 101 80 78"/>
+        <path d="M92 150 Q101 149 101 153"/>
+        <rect x="98" y="140" width="30" height="30" rx="3" fill="#f4f1ea"/>
+        <path d="M128 146 q11 3 0 17"/>
+        <line x1="98" y1="150" x2="128" y2="150"/>
+      </g>
+    </symbol>
+    <symbol id="clanker" viewBox="0 0 100 80">
+      <g fill="none" stroke="#111" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+        <line x1="50" y1="14" x2="50" y2="5"/>
+        <circle cx="50" cy="3.5" r="2.5" fill="#111"/>
+        <rect x="20" y="14" width="60" height="52" rx="6" fill="#f4f1ea"/>
+        <circle cx="26" cy="41" r="2" fill="#111"/>
+        <circle cx="74" cy="41" r="2" fill="#111"/>
+        <rect x="30" y="30" width="16" height="7" rx="2" fill="#111"/>
+        <rect x="54" y="30" width="16" height="7" rx="2" fill="#111"/>
+        <line x1="28" y1="33.5" x2="24" y2="33.5"/>
+        <line x1="72" y1="33.5" x2="76" y2="33.5"/>
+        <rect x="32" y="48" width="36" height="10" rx="2" fill="#f4f1ea"/>
+        <line x1="40" y1="48" x2="40" y2="58"/>
+        <line x1="48" y1="48" x2="48" y2="58"/>
+        <line x1="56" y1="48" x2="56" y2="58"/>
+        <line x1="64" y1="48" x2="64" y2="58"/>
+      </g>
+    </symbol>
+    <g id="mon" fill="none" stroke="#111" stroke-width="2.5" stroke-linejoin="round">
+      <rect x="0" y="0" width="130" height="98" rx="5" fill="#111" stroke="none"/>
+      <rect x="8" y="8" width="114" height="82" rx="3" fill="#f4f1ea"/>
+    </g>
+  </defs>
+
+  <!-- ================= PANEL 1 ================= -->
+  <g transform="translate(0,0)">
+    <rect x="1.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <use href="#dailbert" x="28" y="138" width="120" height="175"/>
+    <line x1="20" y1="300" x2="382" y2="300" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+    <g transform="translate(232,196)">
+      <use href="#mon"/>
+      <g stroke="#cfcfcf" stroke-width="0.8">
+        <line x1="10" y1="20" x2="120" y2="20"/>
+        <line x1="10" y1="34" x2="120" y2="34"/>
+        <line x1="10" y1="48" x2="120" y2="48"/>
+        <line x1="10" y1="62" x2="120" y2="62"/>
+        <line x1="10" y1="76" x2="120" y2="76"/>
+      </g>
+      <use href="#clanker" x="23" y="15" width="84" height="67"/>
+    </g>
+    <rect x="292" y="294" width="10" height="12" fill="#111"/>
+    <rect x="278" y="306" width="38" height="4" rx="2" fill="#111"/>
+
+    <!-- Dailbert balloon -->
+    <polygon points="78,98 106,98 86,164" fill="#fff" stroke="#111" stroke-width="2"/>
+    <rect x="12" y="10" width="196" height="92" rx="14" fill="#fff" stroke="#111" stroke-width="2"/>
+    <text x="110" y="34" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">There are two approve</text>
+    <text x="110" y="52" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">buttons on the export</text>
+    <text x="110" y="70" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">now. One for your draft,</text>
+    <text x="110" y="88" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">one for me.</text>
+
+    <!-- Clanker balloon -->
+    <line x1="301" y1="86" x2="297" y2="194" stroke="#111" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <rect x="212" y="14" width="178" height="72" rx="4" fill="#fff" stroke="#111" stroke-width="2"/>
+    <rect x="216" y="18" width="170" height="64" rx="2" fill="none" stroke="#111" stroke-width="1.2"/>
+    <text x="301" y="39" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="12.5" fill="#111">The second one</text>
+    <text x="301" y="57" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="12.5" fill="#111">is yours. I wouldn't</text>
+    <text x="301" y="75" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="12.5" fill="#111">want to click for you.</text>
+  </g>
+
+  <!-- ================= PANEL 2 ================= -->
+  <g transform="translate(414,0)">
+    <rect x="1.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <line x1="20" y1="300" x2="382" y2="300" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+    <use href="#dailbert" x="18" y="150" width="118" height="172"/>
+    <use href="#doug" x="248" y="140" width="140" height="176"/>
+
+    <!-- Doug balloon 1 -->
+    <polygon points="300,140 326,140 316,166" fill="#fff" stroke="#111" stroke-width="2"/>
+    <rect x="120" y="8" width="268" height="84" rx="14" fill="#fff" stroke="#111" stroke-width="2"/>
+    <text x="254" y="30" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">I checked the 'flagged</text>
+    <text x="254" y="48" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">for your attention' thing</text>
+    <text x="254" y="66" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">this morning. It was</text>
+    <text x="254" y="84" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">empty again.</text>
+
+    <!-- Doug balloon 2 -->
+    <rect x="150" y="94" width="238" height="48" rx="14" fill="#fff" stroke="#111" stroke-width="2"/>
+    <text x="269" y="116" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">Kind of a nice feeling,</text>
+    <text x="269" y="134" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">honestly.</text>
+  </g>
+
+  <!-- ================= PANEL 3 ================= -->
+  <g transform="translate(828,0)">
+    <rect x="1.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <use href="#dailbert" x="250" y="138" width="120" height="175"/>
+    <line x1="20" y1="300" x2="382" y2="300" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+    <g transform="translate(40,196)">
+      <use href="#mon"/>
+      <g stroke="#cfcfcf" stroke-width="0.8">
+        <line x1="10" y1="20" x2="120" y2="20"/>
+        <line x1="10" y1="34" x2="120" y2="34"/>
+        <line x1="10" y1="48" x2="120" y2="48"/>
+        <line x1="10" y1="62" x2="120" y2="62"/>
+        <line x1="10" y1="76" x2="120" y2="76"/>
+      </g>
+      <use href="#clanker" x="23" y="15" width="84" height="67"/>
+    </g>
+    <rect x="100" y="294" width="10" height="12" fill="#111"/>
+    <rect x="86" y="306" width="38" height="4" rx="2" fill="#111"/>
+
+    <!-- Dailbert balloon -->
+    <polygon points="298,78 324,78 314,164" fill="#fff" stroke="#111" stroke-width="2"/>
+    <rect x="196" y="10" width="192" height="72" rx="14" fill="#fff" stroke="#111" stroke-width="2"/>
+    <text x="292" y="34" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">So what would put</text>
+    <text x="292" y="52" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">something in the</text>
+    <text x="292" y="70" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">flagged section?</text>
+
+    <!-- Clanker balloon -->
+    <line x1="103" y1="104" x2="105" y2="194" stroke="#111" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <rect x="12" y="12" width="182" height="92" rx="4" fill="#fff" stroke="#111" stroke-width="2"/>
+    <rect x="16" y="16" width="174" height="84" rx="2" fill="none" stroke="#111" stroke-width="1.2"/>
+    <text x="103" y="38" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="12.5" fill="#111">Something I couldn't</text>
+    <text x="103" y="56" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="12.5" fill="#111">handle. Take your time.</text>
+    <text x="103" y="74" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="12.5" fill="#111">It's a good button</text>
+    <text x="103" y="92" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="12.5" fill="#111">to keep.</text>
+  </g>
+</svg>

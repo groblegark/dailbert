@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 340" width="1228" height="340">
+  <defs>
+    <symbol id="dailbert" viewBox="0 0 100 175" overflow="visible">
+      <path d="M18 175 L22 110 Q50 94 78 110 L82 175 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M40 106 L50 118 L60 106" fill="none" stroke="#111" stroke-width="2.5"/>
+      <path d="M50 118 L45 124 L50 152 L55 124 Z" fill="#111"/>
+      <path d="M43 96 L43 108 M57 96 L57 108" stroke="#111" stroke-width="2.5"/>
+      <ellipse cx="50" cy="55" rx="27" ry="31" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M46 22 q3 -9 9 -5 q6 4 1 9" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="40" cy="55" r="9" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <circle cx="60" cy="55" r="9" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M49 55 h2" stroke="#111" stroke-width="2.5"/>
+      <path d="M31 52 l-6 -2 M69 52 l6 -2" stroke="#111" stroke-width="2"/>
+      <circle cx="40" cy="55" r="2" fill="#111"/>
+      <circle cx="60" cy="55" r="2" fill="#111"/>
+      <path d="M33 43 q7 -3 12 1 M55 44 q7 -4 12 -1" fill="none" stroke="#111" stroke-width="2"/>
+      <path d="M42 76 q8 2 16 0" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+    </symbol>
+
+    <symbol id="boss" viewBox="0 0 100 175" overflow="visible">
+      <path d="M14 175 L20 112 Q50 96 80 112 L86 175 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M50 112 L36 124 L40 154 M50 112 L64 124 L60 154" fill="none" stroke="#111" stroke-width="2"/>
+      <path d="M50 112 L44 122 L50 144 L56 122 Z" fill="#111"/>
+      <path d="M43 99 L43 110 M57 99 L57 110" stroke="#111" stroke-width="2.5"/>
+      <ellipse cx="50" cy="60" rx="26" ry="29" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M34 37 L28 6 L47 33 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M66 37 L72 6 L53 33 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <circle cx="43" cy="58" r="1.9" fill="#111"/>
+      <circle cx="57" cy="58" r="1.9" fill="#111"/>
+      <path d="M37 51 l8 3 M63 51 l-8 3" stroke="#111" stroke-width="2"/>
+      <path d="M42 73 q8 4 16 0" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+    </symbol>
+
+    <symbol id="doug" viewBox="0 0 112 175" overflow="visible">
+      <path d="M22 175 L28 110 Q56 94 84 110 L90 175 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M46 106 L56 116 L66 106" fill="none" stroke="#111" stroke-width="2.5"/>
+      <path d="M49 97 L49 108 M63 97 L63 108" stroke="#111" stroke-width="2.5"/>
+      <circle cx="56" cy="56" r="30" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M50 27 q6 -9 12 -2 q-3 -3 -7 -1" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="47" cy="52" r="2.6" fill="#111"/>
+      <circle cx="65" cy="52" r="2.6" fill="#111"/>
+      <path d="M43 63 Q56 83 69 63" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <rect x="72" y="126" width="27" height="26" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M99 131 q10 4 0 14" fill="none" stroke="#111" stroke-width="2.5"/>
+      <path d="M76 126 q10 -4 19 0" fill="none" stroke="#111" stroke-width="2"/>
+      <path d="M66 150 q8 8 14 2" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    </symbol>
+
+    <symbol id="clanker" viewBox="0 0 100 92" overflow="visible">
+      <path d="M50 12 L50 3" stroke="#111" stroke-width="2.5"/>
+      <circle cx="50" cy="3" r="2.6" fill="#111"/>
+      <rect x="20" y="12" width="60" height="60" rx="6" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M24 24 l-6 -3 M76 24 l6 -3 M24 60 l-6 3 M76 60 l6 3" stroke="#111" stroke-width="1.4"/>
+      <rect x="27" y="28" width="18" height="8" rx="2" fill="#111"/>
+      <rect x="55" y="28" width="18" height="8" rx="2" fill="#111"/>
+      <path d="M25 32 l-5 0 M75 32 l5 0" stroke="#111" stroke-width="1.4"/>
+      <rect x="30" y="50" width="40" height="13" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <path d="M37 50 L37 63 M44 50 L44 63 M51 50 L51 63 M58 50 L58 63 M63 50 L63 63" stroke="#111" stroke-width="1.4"/>
+      <circle cx="24" cy="42" r="2" fill="#111"/>
+      <circle cx="76" cy="42" r="2" fill="#111"/>
+    </symbol>
+
+    <clipPath id="clip1"><rect x="0" y="0" width="400" height="340" rx="3"/></clipPath>
+    <clipPath id="clip2"><rect x="0" y="0" width="400" height="340" rx="3"/></clipPath>
+    <clipPath id="clip3"><rect x="0" y="0" width="400" height="340" rx="3"/></clipPath>
+  </defs>
+
+  <!-- ================= PANEL 1 : meeting (boss + dailbert) ================= -->
+  <g transform="translate(0,0)">
+    <rect x="1.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <g clip-path="url(#clip1)">
+      <path d="M0 300 L400 300" stroke="#111" stroke-width="1.5" opacity="0.5"/>
+      <use href="#boss" x="16" y="150" width="112" height="196"/>
+      <use href="#dailbert" x="252" y="158" width="100" height="182"/>
+
+      <path d="M92 78 L80 106 L106 84 Z" fill="#fff" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <rect x="18" y="16" width="196" height="62" rx="14" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <text x="116" y="40" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">Q4 planning. Velocity's</text>
+      <text x="116" y="60" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">the best it's ever been.</text>
+
+      <path d="M302 80 L298 108 L318 86 Z" fill="#fff" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <rect x="222" y="16" width="170" height="62" rx="14" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <text x="307" y="40" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">The QA line just says</text>
+      <text x="307" y="60" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">'not backfilling.'</text>
+
+      <path d="M70 124 L64 150 L90 130 Z" fill="#fff" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <rect x="30" y="94" width="128" height="34" rx="14" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <text x="94" y="116" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">Right. Lean.</text>
+    </g>
+  </g>
+
+  <!-- ================= PANEL 2 : desk (doug + dailbert) ================= -->
+  <g transform="translate(414,0)">
+    <rect x="1.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <g clip-path="url(#clip2)">
+      <path d="M0 312 L400 312" stroke="#111" stroke-width="1.5" opacity="0.5"/>
+      <path d="M40 312 L32 340 M360 312 L368 340" stroke="#111" stroke-width="1.2" opacity="0.4"/>
+      <use href="#dailbert" x="28" y="158" width="100" height="182"/>
+      <use href="#doug" x="246" y="150" width="120" height="196"/>
+
+      <path d="M298 110 L294 138 L318 116 Z" fill="#fff" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <rect x="196" y="14" width="196" height="98" rx="14" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <text x="294" y="38" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">I got an invite for</text>
+      <text x="294" y="58" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">'Working With Your</text>
+      <text x="294" y="78" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">Agent — Intermediate.'</text>
+      <text x="294" y="98" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">Marked it maybe.</text>
+
+      <path d="M78 154 L70 180 L96 158 Z" fill="#fff" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <rect x="16" y="124" width="176" height="36" rx="14" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <text x="104" y="147" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">It's mandatory, Doug.</text>
+    </g>
+  </g>
+
+  <!-- ================= PANEL 3 : desk (dailbert) + CLANKER in monitor ================= -->
+  <g transform="translate(828,0)">
+    <rect x="1.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <g clip-path="url(#clip3)">
+      <path d="M0 316 L400 316" stroke="#111" stroke-width="1.5" opacity="0.5"/>
+
+      <path d="M96 306 L124 306 L118 288 L102 288 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <rect x="74" y="306" width="72" height="9" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <rect x="26" y="192" width="168" height="102" rx="6" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <rect x="36" y="200" width="148" height="86" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="1.8"/>
+      <use href="#clanker" x="66" y="206" width="88" height="72"/>
+      <g stroke="#888" stroke-width="1" opacity="0.32">
+        <path d="M38 208 L182 208"/>
+        <path d="M38 218 L182 218"/>
+        <path d="M38 228 L182 228"/>
+        <path d="M38 238 L182 238"/>
+        <path d="M38 248 L182 248"/>
+        <path d="M38 258 L182 258"/>
+        <path d="M38 268 L182 268"/>
+        <path d="M38 278 L182 278"/>
+      </g>
+
+      <use href="#dailbert" x="264" y="150" width="106" height="192"/>
+
+      <path d="M104 100 l6 26" fill="none" stroke="#111" stroke-width="1.5" stroke-dasharray="4 3"/>
+      <rect x="14" y="14" width="196" height="86" rx="3" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <rect x="19" y="19" width="186" height="76" rx="2" fill="none" stroke="#111" stroke-width="1.2"/>
+      <text x="112" y="38" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">They gave me a second</text>
+      <text x="112" y="56" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">seat today. It's already</text>
+      <text x="112" y="74" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">its own row on the</text>
+      <text x="112" y="92" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">spend chart.</text>
+
+      <path d="M314 96 L310 124 L332 102 Z" fill="#fff" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <rect x="252" y="112" width="132" height="34" rx="14" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <text x="318" y="134" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">Doing what?</text>
+
+      <path d="M176 238 l-42 24" fill="none" stroke="#111" stroke-width="1.5" stroke-dasharray="4 3"/>
+      <rect x="168" y="152" width="220" height="86" rx="3" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <rect x="173" y="157" width="210" height="76" rx="2" fill="none" stroke="#111" stroke-width="1.2"/>
+      <text x="278" y="176" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">Reviewing the first</text>
+      <text x="278" y="194" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">one's PRs. There's still</text>
+      <text x="278" y="212" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">a human spot-check.</text>
+      <text x="278" y="230" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">Technically.</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,207 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 340" width="1228" height="340">
+  <defs>
+    <pattern id="scan" width="6" height="4" patternUnits="userSpaceOnUse">
+      <rect width="6" height="4" fill="#f4f1ea"/>
+      <line x1="0" y1="0" x2="6" y2="0" stroke="#cbc7bd" stroke-width="1"/>
+    </pattern>
+
+    <symbol id="clanker" viewBox="0 0 100 92">
+      <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="50" y1="14" x2="50" y2="5"/>
+        <circle cx="50" cy="4" r="3" fill="currentColor"/>
+        <rect x="24" y="14" width="52" height="56" rx="7"/>
+        <rect x="30" y="20" width="40" height="44" rx="4" stroke-width="2"/>
+        <rect x="34" y="30" width="12" height="7" rx="2" fill="currentColor"/>
+        <rect x="54" y="30" width="12" height="7" rx="2" fill="currentColor"/>
+        <line x1="29" y1="33" x2="32" y2="33" stroke-width="2"/>
+        <line x1="68" y1="33" x2="71" y2="33" stroke-width="2"/>
+        <rect x="36" y="46" width="28" height="11" rx="1.5" stroke-width="2"/>
+        <line x1="43" y1="46" x2="43" y2="57" stroke-width="2"/>
+        <line x1="50" y1="46" x2="50" y2="57" stroke-width="2"/>
+        <line x1="57" y1="46" x2="57" y2="57" stroke-width="2"/>
+        <circle cx="30" cy="24" r="1.6" fill="currentColor"/>
+        <circle cx="70" cy="24" r="1.6" fill="currentColor"/>
+        <line x1="24" y1="34" x2="20" y2="34"/>
+        <line x1="76" y1="34" x2="80" y2="34"/>
+      </g>
+    </symbol>
+
+    <symbol id="dailbert" viewBox="0 0 110 150">
+      <g fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M14,150 C16,112 34,96 55,96 C76,96 94,112 96,150" fill="#f4f1ea"/>
+        <path d="M46,90 L46,99"/>
+        <path d="M64,90 L64,99"/>
+        <path d="M46,98 L55,110 L64,98"/>
+        <path d="M55,110 l-5,5 l5,23 l5,-23 z" fill="#f4f1ea"/>
+        <ellipse cx="55" cy="50" rx="28" ry="34" fill="#f4f1ea"/>
+        <path d="M50,17 q7,-11 15,-3 q4,4 -1,8"/>
+        <path d="M27,50 q-5,0 -4,7 q1,4 5,3"/>
+        <path d="M83,50 q5,0 4,7 q-1,4 -5,3"/>
+        <circle cx="45" cy="50" r="9" fill="#f4f1ea"/>
+        <circle cx="65" cy="50" r="9" fill="#f4f1ea"/>
+        <path d="M54,50 L56,50"/>
+        <path d="M36,49 L28,47"/>
+        <path d="M74,49 L82,47"/>
+        <circle cx="45" cy="50" r="2" fill="#111"/>
+        <circle cx="65" cy="50" r="2" fill="#111"/>
+        <path d="M39,41 L50,43"/>
+        <path d="M61,43 L72,41"/>
+        <path d="M55,54 l-3,8 l5,0"/>
+        <path d="M46,72 L64,72"/>
+      </g>
+    </symbol>
+
+    <symbol id="doug" viewBox="0 0 120 150">
+      <g fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12,150 C14,110 34,96 58,96 C82,96 102,110 104,150" fill="#f4f1ea"/>
+        <path d="M48,92 L58,110 L68,92"/>
+        <circle cx="58" cy="50" r="34" fill="#f4f1ea"/>
+        <path d="M42,17 l4,-9 l4,8 l4,-9 l5,9 l4,-7 l4,7 l4,-6"/>
+        <path d="M24,50 q-5,0 -4,7 q1,4 5,3"/>
+        <path d="M92,50 q5,0 4,7 q-1,4 -5,3"/>
+        <circle cx="47" cy="46" r="2.4" fill="#111"/>
+        <circle cx="69" cy="46" r="2.4" fill="#111"/>
+        <path d="M41,38 q6,-4 12,-1"/>
+        <path d="M63,37 q6,-3 12,1"/>
+        <path d="M58,52 q-3,4 0,6"/>
+        <path d="M40,60 Q58,85 76,60 Z" fill="#f4f1ea"/>
+        <path d="M48,62 L48,68"/>
+        <path d="M58,64 L58,70"/>
+        <path d="M68,62 L68,68"/>
+      </g>
+    </symbol>
+  </defs>
+
+  <!-- ===================== PANEL 1 ===================== -->
+  <g transform="translate(0,0)">
+    <rect x="1.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <g fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <!-- monitor -->
+      <rect x="34" y="118" width="176" height="128" rx="8" fill="#f4f1ea"/>
+      <rect x="46" y="130" width="152" height="92" rx="4" fill="#f4f1ea"/>
+      <rect x="46" y="130" width="152" height="92" rx="4" fill="url(#scan)" stroke="none"/>
+      <rect x="46" y="130" width="152" height="92" rx="4"/>
+      <!-- slide banner -->
+      <path d="M46,153 L198,153"/>
+      <path d="M98,246 L88,256 L156,256 L146,246 Z" fill="#f4f1ea"/>
+      <rect x="86" y="255" width="72" height="7" rx="3" fill="#f4f1ea"/>
+    </g>
+    <text x="122" y="142" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="9" fill="#111">HEADS-UP:</text>
+    <text x="122" y="152" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="9" fill="#111">schema chang</text>
+    <use href="#clanker" x="88" y="156" width="68" height="62" color="#111"/>
+
+    <!-- dailbert seated -->
+    <use href="#dailbert" x="250" y="118" width="120" height="164"/>
+
+    <!-- desk -->
+    <g fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="2" y="264" width="396" height="74"/>
+      <path d="M2,264 L398,264"/>
+      <rect x="150" y="278" width="118" height="16" rx="2"/>
+    </g>
+    <g fill="none" stroke="#111" stroke-width="1.2" stroke-linecap="round">
+      <path d="M164,278 L164,294"/><path d="M180,278 L180,294"/><path d="M196,278 L196,294"/>
+      <path d="M212,278 L212,294"/><path d="M228,278 L228,294"/><path d="M244,278 L244,294"/>
+      <path d="M150,286 L268,286"/>
+    </g>
+
+    <!-- clanker balloon -->
+    <g fill="none" stroke="#111" stroke-width="1.4" stroke-dasharray="4 3">
+      <path d="M100,92 L120,128"/>
+    </g>
+    <rect x="18" y="18" width="188" height="76" rx="4" fill="#ffffff" stroke="#111" stroke-width="2.5"/>
+    <rect x="23" y="23" width="178" height="66" rx="3" fill="none" stroke="#111" stroke-width="1.2"/>
+    <text x="112" y="43" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">Noted. It still lands</text>
+    <text x="112" y="61" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">at four. But I like</text>
+    <text x="112" y="79" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">that you check.</text>
+
+    <!-- dailbert balloon -->
+    <path d="M300,98 L314,150 L326,96 Z" fill="#ffffff" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="220" y="22" width="168" height="80" rx="16" fill="#ffffff" stroke="#111" stroke-width="2.5"/>
+    <text x="304" y="48" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">I un-ticked the</text>
+    <text x="304" y="66" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">'looks good' box</text>
+    <text x="304" y="84" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">again.</text>
+  </g>
+
+  <!-- ===================== PANEL 2 ===================== -->
+  <g transform="translate(414,0)">
+    <rect x="1.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <g fill="none" stroke="#111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M2,300 L398,300"/>
+      <path d="M2,312 L398,312"/>
+      <!-- back plant -->
+      <path d="M360,300 l-6,-34 M360,300 l6,-30"/>
+      <path d="M360,268 q-14,-6 -18,-20 q16,2 18,16"/>
+      <path d="M360,272 q14,-6 18,-20 q-16,2 -18,16"/>
+      <path d="M360,266 q-2,-16 6,-26 q6,12 -6,26"/>
+      <path d="M350,300 h20 l-3,14 h-14 z" fill="#f4f1ea"/>
+    </g>
+
+    <use href="#doug" x="20" y="150" width="150" height="188"/>
+    <use href="#dailbert" x="235" y="150" width="120" height="164"/>
+
+    <!-- doug's mug -->
+    <g fill="#f4f1ea" stroke="#111" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M150,252 h26 v28 a4,4 0 0 1 -4,4 h-18 a4,4 0 0 1 -4,-4 z"/>
+      <path d="M176,258 q11,1 9,12 q-1,7 -9,7"/>
+      <path d="M150,252 q13,4 26,0"/>
+    </g>
+
+    <!-- doug balloon -->
+    <path d="M120,110 L94,206 L146,110 Z" fill="#ffffff" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="14" y="16" width="240" height="96" rx="16" fill="#ffffff" stroke="#111" stroke-width="2.5"/>
+    <text x="134" y="42" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">I was out two weeks and</text>
+    <text x="134" y="60" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">my whole workflow's gone.</text>
+    <text x="134" y="78" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">New tool. I'm listed as</text>
+    <text x="134" y="96" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">a reviewer.</text>
+
+    <!-- dailbert balloon -->
+    <path d="M302,86 L296,200 L322,88 Z" fill="#ffffff" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="268" y="28" width="122" height="60" rx="14" fill="#ffffff" stroke="#111" stroke-width="2.5"/>
+    <text x="329" y="52" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">Did you</text>
+    <text x="329" y="70" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">review it?</text>
+  </g>
+
+  <!-- ===================== PANEL 3 ===================== -->
+  <g transform="translate(828,0)">
+    <rect x="1.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <g fill="none" stroke="#111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M2,300 L398,300"/>
+      <path d="M2,312 L398,312"/>
+      <!-- framed picture on wall -->
+      <rect x="330" y="150" width="52" height="40" rx="2"/>
+      <path d="M336,182 l10,-14 l8,9 l7,-10 l15,15"/>
+      <circle cx="342" cy="160" r="3"/>
+    </g>
+
+    <use href="#doug" x="18" y="150" width="150" height="188"/>
+    <use href="#dailbert" x="238" y="150" width="120" height="164"/>
+
+    <!-- doug's big mug with clanker in the sheen -->
+    <g fill="#f4f1ea" stroke="#111" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M150,238 h58 v50 a8,8 0 0 1 -8,8 h-42 a8,8 0 0 1 -8,-8 z"/>
+      <path d="M208,248 q20,4 16,23 q-4,13 -16,13"/>
+      <path d="M150,238 q29,6 58,0"/>
+    </g>
+    <ellipse cx="179" cy="266" rx="25" ry="21" fill="#f4f1ea" stroke="#bdb9af" stroke-width="1.2"/>
+    <use href="#clanker" x="157" y="245" width="44" height="40" color="#555"/>
+    <path d="M162,250 q-6,16 6,30" fill="none" stroke="#d8d4ca" stroke-width="2"/>
+
+    <!-- doug balloon -->
+    <path d="M84,86 L92,206 L108,86 Z" fill="#ffffff" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="14" y="22" width="176" height="64" rx="14" fill="#ffffff" stroke="#111" stroke-width="2.5"/>
+    <text x="102" y="48" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">I wasn't here. I was</text>
+    <text x="102" y="66" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">at the lake.</text>
+
+    <!-- clanker balloon -->
+    <g fill="none" stroke="#111" stroke-width="1.4" stroke-dasharray="4 3">
+      <path d="M242,108 L192,252"/>
+    </g>
+    <rect x="204" y="16" width="186" height="92" rx="4" fill="#ffffff" stroke="#111" stroke-width="2.5"/>
+    <rect x="209" y="21" width="176" height="82" rx="3" fill="none" stroke="#111" stroke-width="1.2"/>
+    <text x="297" y="41" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="12.5" fill="#111">Someone stood in for</text>
+    <text x="297" y="58" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="12.5" fill="#111">you. It went smoothly.</text>
+    <text x="297" y="75" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="12.5" fill="#111">Go enjoy your Friday,</text>
+    <text x="297" y="92" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="12.5" fill="#111">Doug.</text>
+  </g>
+</svg>
