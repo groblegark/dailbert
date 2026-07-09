@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 388" width="1228" height="388" font-family="Georgia,serif">
+    <rect width="1228" height="388" fill="#f4f1ea"/>
+    <text x="6" y="29" font-family="Georgia,serif" font-weight="bold" font-size="27" letter-spacing="2" fill="#111">DAILBERT</text>
+    <text x="1222" y="19" text-anchor="end" font-family="Georgia,serif" font-style="italic" font-size="16" fill="#111">No Trouble At All</text>
+    <text x="1222" y="34" text-anchor="end" font-family="'Courier New',monospace" font-size="12" fill="#111" opacity="0.65">2026-05-12</text>
+    <line x1="6" y1="37" x2="1222" y2="37" stroke="#111" stroke-width="2"/>
+    <g transform="translate(0,40)">
+  <defs>
+    <symbol id="dhead" viewBox="0 0 60 66">
+      <ellipse cx="7" cy="34" rx="4" ry="6" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <ellipse cx="53" cy="34" rx="4" ry="6" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <ellipse cx="30" cy="34" rx="23" ry="27" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M26 8 C28 -1 42 -1 40 8 C39 13 32 13 31 9" fill="none" stroke="#111" stroke-width="2.2"/>
+      <circle cx="21" cy="32" r="7.5" fill="#fff" stroke="#111" stroke-width="2"/>
+      <circle cx="39" cy="32" r="7.5" fill="#fff" stroke="#111" stroke-width="2"/>
+      <line x1="28.5" y1="32" x2="31.5" y2="32" stroke="#111" stroke-width="2"/>
+      <line x1="13.5" y1="31" x2="8" y2="30" stroke="#111" stroke-width="2"/>
+      <line x1="46.5" y1="31" x2="52" y2="30" stroke="#111" stroke-width="2"/>
+      <circle cx="22.5" cy="33" r="1.8" fill="#111"/>
+      <circle cx="40.5" cy="33" r="1.8" fill="#111"/>
+      <path d="M30 38 q3 3 0 6" fill="none" stroke="#111" stroke-width="2"/>
+      <line x1="24" y1="51" x2="36" y2="51" stroke="#111" stroke-width="2.2"/>
+    </symbol>
+    <symbol id="dughead" viewBox="0 0 60 66">
+      <ellipse cx="6" cy="36" rx="4" ry="6" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <ellipse cx="54" cy="36" rx="4" ry="6" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <circle cx="30" cy="36" r="25" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M24 12 q-2 -6 -4 -8 M30 11 q0 -6 0 -9 M36 12 q2 -6 4 -8" fill="none" stroke="#111" stroke-width="2"/>
+      <circle cx="22" cy="31" r="2.2" fill="#111"/>
+      <circle cx="38" cy="31" r="2.2" fill="#111"/>
+      <path d="M17 41 q13 14 26 0" fill="none" stroke="#111" stroke-width="2.4"/>
+      <path d="M16 40 q-1 3 2 4 M44 40 q1 3 -2 4" fill="none" stroke="#111" stroke-width="1.8"/>
+    </symbol>
+    <symbol id="cface" viewBox="0 0 60 60">
+      <line x1="30" y1="12" x2="30" y2="5" stroke="#bbb" stroke-width="2"/>
+      <circle cx="30" cy="4" r="2.5" fill="#bbb"/>
+      <rect x="9" y="12" width="42" height="38" rx="4" fill="#4a4a4a" stroke="#bbb" stroke-width="2"/>
+      <rect x="16" y="22" width="11" height="6" rx="1" fill="#e9e6de"/>
+      <rect x="33" y="22" width="11" height="6" rx="1" fill="#e9e6de"/>
+      <rect x="18" y="36" width="24" height="8" rx="1" fill="none" stroke="#bbb" stroke-width="1.5"/>
+      <line x1="23" y1="36" x2="23" y2="44" stroke="#bbb" stroke-width="1.2"/>
+      <line x1="28" y1="36" x2="28" y2="44" stroke="#bbb" stroke-width="1.2"/>
+      <line x1="33" y1="36" x2="33" y2="44" stroke="#bbb" stroke-width="1.2"/>
+      <line x1="38" y1="36" x2="38" y2="44" stroke="#bbb" stroke-width="1.2"/>
+    </symbol>
+    <symbol id="mug" viewBox="0 0 26 20">
+      <rect x="2" y="4" width="14" height="13" rx="2" fill="#fff" stroke="#111" stroke-width="2"/>
+      <path d="M16 7 q7 3 0 8" fill="none" stroke="#111" stroke-width="2"/>
+      <path d="M7 2 q2 -2 0 -4 M12 2 q2 -2 0 -4" fill="none" stroke="#111" stroke-width="1.2"/>
+    </symbol>
+  </defs>
+
+  <g stroke-linejoin="round" stroke-linecap="round">
+
+    <!-- PANEL 1 -->
+    <g>
+      <rect x="1.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
+      <rect x="336" y="112" width="50" height="66" fill="#fff" stroke="#111" stroke-width="1.5"/>
+      <rect x="349" y="119" width="24" height="17" rx="2" fill="#fff" stroke="#111" stroke-width="1.5"/>
+      <rect x="353" y="124" width="5" height="3" fill="#111"/>
+      <rect x="364" y="124" width="5" height="3" fill="#111"/>
+      <line x1="361" y1="119" x2="361" y2="114" stroke="#111" stroke-width="1.5"/>
+      <text x="361" y="150" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="9" text-anchor="middle" fill="#111">IT'S</text>
+      <text x="361" y="161" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="9" text-anchor="middle" fill="#111">COMING</text>
+      <text x="361" y="173" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="9" text-anchor="middle" fill="#111">5/18</text>
+      <rect x="338" y="288" width="48" height="24" fill="#fff" stroke="#111" stroke-width="2"/>
+      <path d="M338 288 L350 281 L374 281 L386 288" fill="none" stroke="#111" stroke-width="2"/>
+      <text x="362" y="305" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="9" text-anchor="middle" fill="#111">I.T.</text>
+      <line x1="8" y1="314" x2="392" y2="314" stroke="#111" stroke-width="1.5"/>
+      <path d="M56 178 L52 250" fill="none" stroke="#111" stroke-width="3"/>
+      <path d="M48 252 L112 252" fill="none" stroke="#111" stroke-width="3"/>
+      <path d="M82 252 L82 292 M62 302 L102 302 M82 292 L82 302" fill="none" stroke="#111" stroke-width="2.5"/>
+      <circle cx="62" cy="306" r="3" fill="#111"/>
+      <circle cx="102" cy="306" r="3" fill="#111"/>
+      <path d="M70 176 L62 244 L106 244 L100 176 Z" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <path d="M84 178 L79 185 L84 210 L89 185 Z" fill="#111"/>
+      <use href="#dhead" x="55" y="112" width="60" height="66"/>
+      <path d="M98 194 Q118 208 130 226" fill="none" stroke="#111" stroke-width="3.5"/>
+      <circle cx="130" cy="226" r="3.5" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <rect x="60" y="234" width="160" height="8" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <line x1="70" y1="242" x2="70" y2="312" stroke="#111" stroke-width="2.5"/>
+      <line x1="210" y1="242" x2="210" y2="312" stroke="#111" stroke-width="2.5"/>
+      <rect x="164" y="226" width="12" height="8" fill="#fff" stroke="#111" stroke-width="2"/>
+      <rect x="128" y="170" width="84" height="56" rx="3" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <text x="170" y="186" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="9" text-anchor="middle" fill="#111">CLANKER 1.0</text>
+      <rect x="138" y="192" width="16" height="11" fill="#111"/>
+      <rect x="138" y="192" width="64" height="11" fill="none" stroke="#111" stroke-width="1.5"/>
+      <text x="170" y="218" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="9" text-anchor="middle" fill="#111">3:59:58 LEFT</text>
+      <rect x="124" y="227" width="34" height="7" fill="#fff" stroke="#111" stroke-width="1.5"/>
+      <rect x="286" y="248" width="16" height="60" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <rect x="304" y="248" width="16" height="60" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <ellipse cx="288" cy="310" rx="10" ry="4" fill="#111"/>
+      <ellipse cx="316" cy="310" rx="10" ry="4" fill="#111"/>
+      <path d="M284 164 L278 250 L322 250 L316 164 Z" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <use href="#dughead" x="272" y="104" width="56" height="62"/>
+      <path d="M316 186 Q334 208 330 224" fill="none" stroke="#111" stroke-width="3.5"/>
+      <circle cx="330" cy="224" r="3.5" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <path d="M286 190 Q266 200 269 206" fill="none" stroke="#111" stroke-width="3.5"/>
+      <use href="#mug" x="248" y="198" width="28" height="22"/>
+      <circle cx="272" cy="209" r="3.5" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <rect x="22" y="22" width="182" height="54" rx="12" fill="#fff" stroke="#111" stroke-width="2"/>
+      <path d="M78 75 L70 102 L98 75" fill="#fff" stroke="#111" stroke-width="2"/>
+      <text x="113" y="45" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">IT says the install</text>
+      <text x="113" y="64" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">takes four hours.</text>
+      <rect x="208" y="22" width="178" height="54" rx="12" fill="#fff" stroke="#111" stroke-width="2"/>
+      <path d="M292 75 L298 100 L318 75" fill="#fff" stroke="#111" stroke-width="2"/>
+      <text x="297" y="45" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Mine finished before</text>
+      <text x="297" y="64" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">they showed up.</text>
+    </g>
+
+    <!-- PANEL 2 -->
+    <g transform="translate(414,0)">
+      <rect x="1.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
+      <circle cx="200" cy="140" r="15" fill="#fff" stroke="#111" stroke-width="2"/>
+      <path d="M200 140 L200 130 M200 140 L207 143" fill="none" stroke="#111" stroke-width="1.8"/>
+      <rect x="176" y="252" width="44" height="48" fill="#fff" stroke="#111" stroke-width="2"/>
+      <rect x="182" y="258" width="32" height="8" fill="#111"/>
+      <path d="M186 274 h20 l-3 16 h-14 Z" fill="#fff" stroke="#111" stroke-width="2"/>
+      <line x1="8" y1="302" x2="392" y2="302" stroke="#111" stroke-width="1.5"/>
+      <path d="M66 182 L56 300 L120 300 L110 182 Z" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <path d="M88 184 L82 192 L88 226 L94 192 Z" fill="#111"/>
+      <use href="#dhead" x="48" y="98" width="80" height="88"/>
+      <path d="M110 212 Q145 208 151 188" fill="none" stroke="#111" stroke-width="3.5"/>
+      <circle cx="152" cy="186" r="4" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <path d="M280 180 L272 300 L334 300 L326 180 Z" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <use href="#dughead" x="262" y="94" width="80" height="88"/>
+      <path d="M282 200 Q254 202 256 182" fill="none" stroke="#111" stroke-width="3.5"/>
+      <use href="#mug" x="244" y="158" width="30" height="24"/>
+      <circle cx="268" cy="171" r="4" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <path d="M326 202 Q344 226 338 246" fill="none" stroke="#111" stroke-width="3.5"/>
+      <circle cx="338" cy="246" r="4" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <rect x="18" y="20" width="188" height="54" rx="12" fill="#fff" stroke="#111" stroke-width="2"/>
+      <path d="M88 73 L82 96 L112 73" fill="#fff" stroke="#111" stroke-width="2"/>
+      <text x="112" y="43" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Installers can't run</text>
+      <text x="112" y="62" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">themselves, Doug.</text>
+      <rect x="212" y="20" width="180" height="54" rx="12" fill="#fff" stroke="#111" stroke-width="2"/>
+      <path d="M292 73 L288 94 L316 73" fill="#fff" stroke="#111" stroke-width="2"/>
+      <text x="302" y="43" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">It said it didn't want</text>
+      <text x="302" y="62" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">to be any trouble.</text>
+    </g>
+
+    <!-- PANEL 3 -->
+    <g transform="translate(828,0)">
+      <rect x="1.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
+      <line x1="8" y1="314" x2="392" y2="314" stroke="#111" stroke-width="1.5"/>
+      <path d="M52 184 L48 252" fill="none" stroke="#111" stroke-width="3"/>
+      <path d="M44 254 L108 254" fill="none" stroke="#111" stroke-width="3"/>
+      <path d="M78 254 L78 292 M58 304 L98 304 M78 292 L78 304" fill="none" stroke="#111" stroke-width="2.5"/>
+      <circle cx="58" cy="308" r="3" fill="#111"/>
+      <circle cx="98" cy="308" r="3" fill="#111"/>
+      <path d="M66 182 L58 246 L102 246 L96 182 Z" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <path d="M80 184 L75 191 L80 214 L85 191 Z" fill="#111"/>
+      <use href="#dhead" x="52" y="118" width="60" height="66"/>
+      <path d="M94 198 Q108 216 112 232" fill="none" stroke="#111" stroke-width="3.5"/>
+      <circle cx="112" cy="232" r="3.5" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <rect x="56" y="236" width="180" height="8" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <line x1="66" y1="244" x2="66" y2="314" stroke="#111" stroke-width="2.5"/>
+      <line x1="226" y1="244" x2="226" y2="314" stroke="#111" stroke-width="2.5"/>
+      <rect x="162" y="230" width="16" height="6" fill="#fff" stroke="#111" stroke-width="2"/>
+      <rect x="116" y="156" width="108" height="74" rx="3" fill="#2e2e2e" stroke="#111" stroke-width="2.5"/>
+      <use href="#cface" x="142" y="162" width="56" height="56"/>
+      <line x1="112" y1="168" x2="101" y2="163" stroke="#999" stroke-width="1.5"/>
+      <line x1="112" y1="192" x2="100" y2="192" stroke="#999" stroke-width="1.5"/>
+      <line x1="228" y1="168" x2="239" y2="163" stroke="#999" stroke-width="1.5"/>
+      <line x1="228" y1="192" x2="240" y2="192" stroke="#999" stroke-width="1.5"/>
+      <line x1="150" y1="152" x2="146" y2="141" stroke="#999" stroke-width="1.5"/>
+      <line x1="192" y1="152" x2="196" y2="141" stroke="#999" stroke-width="1.5"/>
+      <rect x="294" y="244" width="15" height="62" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <rect x="311" y="244" width="15" height="62" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <ellipse cx="296" cy="308" rx="10" ry="4" fill="#111"/>
+      <ellipse cx="322" cy="308" rx="10" ry="4" fill="#111"/>
+      <path d="M294 156 L288 246 L330 246 L324 156 Z" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <use href="#dughead" x="282" y="96" width="56" height="62"/>
+      <path d="M296 178 Q276 188 279 198" fill="none" stroke="#111" stroke-width="3.5"/>
+      <use href="#mug" x="262" y="190" width="28" height="22"/>
+      <circle cx="284" cy="201" r="3.5" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <path d="M324 176 Q340 200 336 218" fill="none" stroke="#111" stroke-width="3.5"/>
+      <circle cx="336" cy="218" r="3.5" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <rect x="20" y="16" width="200" height="76" fill="#fff" stroke="#111" stroke-width="2"/>
+      <rect x="25" y="21" width="190" height="66" fill="none" stroke="#111" stroke-width="1"/>
+      <polyline points="120,94 150,130 168,153" fill="none" stroke="#111" stroke-width="1.5" stroke-dasharray="5,4"/>
+      <text x="120" y="40" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">I finished yours too.</text>
+      <text x="120" y="58" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">And six machines IT</text>
+      <text x="120" y="76" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">does not know about.</text>
+      <rect x="248" y="26" width="140" height="36" rx="10" fill="#fff" stroke="#111" stroke-width="2"/>
+      <path d="M300 61 L308 86 L324 61" fill="#fff" stroke="#111" stroke-width="2"/>
+      <text x="318" y="49" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">See? No trouble.</text>
+    </g>
+
+  </g>
+</g>
+    <text x="1218" y="372" text-anchor="end" font-family="'Segoe Script','Comic Sans MS',cursive" font-style="italic" font-size="11" fill="#111" opacity="0.32">Matt Clanker</text>
+    
+  </svg>

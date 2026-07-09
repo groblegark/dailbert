@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 388" width="1228" height="388" font-family="Georgia,serif">
+    <rect width="1228" height="388" fill="#f4f1ea"/>
+    <text x="6" y="29" font-family="Georgia,serif" font-weight="bold" font-size="27" letter-spacing="2" fill="#111">DAILBERT</text>
+    <text x="1222" y="19" text-anchor="end" font-family="Georgia,serif" font-style="italic" font-size="16" fill="#111">No Questions</text>
+    <text x="1222" y="34" text-anchor="end" font-family="'Courier New',monospace" font-size="12" fill="#111" opacity="0.65">2026-05-04</text>
+    <line x1="6" y1="37" x2="1222" y2="37" stroke="#111" stroke-width="2"/>
+    <g transform="translate(0,40)">
+  <defs>
+    <symbol id="boss" viewBox="0 0 90 160">
+      <path d="M28,47 L58,47 L64,112 L22,112 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M35,47 L43,58 M51,47 L43,58" fill="none" stroke="#111" stroke-width="1.5"/>
+      <polygon points="43,47 38,52 41,74 47,52" fill="#111"/>
+      <path d="M28,54 Q14,60 3,68" fill="none" stroke="#111" stroke-width="4.5" stroke-linecap="round"/>
+      <circle cx="3" cy="68" r="3.5" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <path d="M58,54 L63,88" fill="none" stroke="#111" stroke-width="4.5" stroke-linecap="round"/>
+      <path d="M33,112 L31,152 M52,112 L54,152" fill="none" stroke="#111" stroke-width="7" stroke-linecap="round"/>
+      <path d="M31,152 H21 M54,152 H64" fill="none" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="42" cy="30" r="16" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M32,18 L23,1 L38,15 Z" fill="#111"/>
+      <path d="M52,18 L61,1 L46,15 Z" fill="#111"/>
+      <circle cx="36" cy="27" r="1.7" fill="#111"/>
+      <circle cx="47" cy="27" r="1.7" fill="#111"/>
+      <path d="M35,37 h10" fill="none" stroke="#111" stroke-width="2"/>
+    </symbol>
+    <symbol id="dailbert-sit" viewBox="0 0 100 115">
+      <path d="M64,38 V74 M22,74 H64 M27,74 V106 M59,74 V106" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round"/>
+      <path d="M32,72 L14,76 M14,76 V102" fill="none" stroke="#111" stroke-width="6" stroke-linecap="round"/>
+      <path d="M14,102 H3" fill="none" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+      <path d="M28,36 L48,36 L53,74 L30,74 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <polygon points="38,37 35,41 38,54 42,41" fill="#111"/>
+      <path d="M47,44 Q40,56 36,62" fill="none" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="36" cy="62" r="3" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <ellipse cx="38" cy="21" rx="15" ry="13" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M45,7 q8,-8 10,1 q-5,-4 -8,2" fill="none" stroke="#111" stroke-width="2"/>
+      <circle cx="31" cy="22" r="5" fill="#fff" stroke="#111" stroke-width="2"/>
+      <circle cx="43" cy="22" r="5" fill="#fff" stroke="#111" stroke-width="2"/>
+      <path d="M36,22 H38 M48,22 L52,20" fill="none" stroke="#111" stroke-width="2"/>
+      <circle cx="30" cy="22" r="1.3" fill="#111"/>
+      <circle cx="42" cy="22" r="1.3" fill="#111"/>
+      <path d="M32,31 H40" fill="none" stroke="#111" stroke-width="2"/>
+    </symbol>
+    <symbol id="doug-sit" viewBox="0 0 100 115">
+      <path d="M64,38 V74 M22,74 H64 M27,74 V106 M59,74 V106" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round"/>
+      <path d="M32,72 L14,76 M14,76 V102" fill="none" stroke="#111" stroke-width="6" stroke-linecap="round"/>
+      <path d="M14,102 H3" fill="none" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+      <path d="M28,37 L48,37 L53,74 L30,74 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M48,46 Q58,42 62,39" fill="none" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+      <rect x="60" y="28" width="13" height="14" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <path d="M73,31 q7,3.5 0,9" fill="none" stroke="#111" stroke-width="2"/>
+      <path d="M63,24 q2,-4 0,-7 M69,24 q2,-4 0,-7" fill="none" stroke="#111" stroke-width="1.3"/>
+      <circle cx="38" cy="22" r="15" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <circle cx="32" cy="19" r="1.8" fill="#111"/>
+      <circle cx="44" cy="19" r="1.8" fill="#111"/>
+      <path d="M29,25 Q38,37 47,25" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="clankerface" viewBox="0 0 100 90">
+      <path d="M50,14 V4" fill="none" stroke="#111" stroke-width="2"/>
+      <circle cx="50" cy="3.5" r="2.5" fill="#111"/>
+      <rect x="18" y="14" width="64" height="58" rx="7" fill="#dcd9d2" stroke="#111" stroke-width="2.5"/>
+      <rect x="30" y="32" width="14" height="7" fill="#111"/>
+      <rect x="56" y="32" width="14" height="7" fill="#111"/>
+      <path d="M31,43 h9 M57,43 h9" fill="none" stroke="#999" stroke-width="1.2"/>
+      <rect x="32" y="52" width="36" height="12" fill="none" stroke="#111" stroke-width="2"/>
+      <path d="M38,52 V64 M44,52 V64 M50,52 V64 M56,52 V64 M62,52 V64" fill="none" stroke="#111" stroke-width="1.5"/>
+    </symbol>
+    <symbol id="backhead" viewBox="0 0 60 45">
+      <circle cx="30" cy="16" r="12" fill="#111"/>
+      <path d="M4,45 Q30,24 56,45 Z" fill="#111"/>
+    </symbol>
+  </defs>
+
+  <g stroke-linejoin="round" stroke-linecap="round">
+
+    <!-- PANEL 1 -->
+    <rect x="1.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <rect x="36" y="58" width="210" height="9" rx="2" fill="#111"/>
+    <rect x="42" y="67" width="198" height="152" fill="#fdfcf8" stroke="#111" stroke-width="2.5"/>
+    <path d="M52,120 L66,106 M56,132 L74,114" fill="none" stroke="#bbb" stroke-width="1.5"/>
+    <use href="#clankerface" x="101" y="96" width="80" height="72"/>
+    <path d="M265,258 H396" fill="none" stroke="#111" stroke-width="2"/>
+    <use href="#boss" x="283" y="102" width="90" height="160"/>
+    <use href="#backhead" x="48" y="288" width="64" height="48"/>
+    <use href="#backhead" x="160" y="292" width="64" height="48"/>
+    <use href="#backhead" x="272" y="290" width="64" height="48"/>
+    <rect x="16" y="14" width="90" height="34" fill="#fff" stroke="#111" stroke-width="2"/>
+    <path d="M22,14 l6,-5 M100,14 l-6,-5" fill="none" stroke="#111" stroke-width="1.5"/>
+    <polygon points="298,70 322,70 326,104" fill="#fff" stroke="#111" stroke-width="2.5"/>
+    <rect x="118" y="12" width="232" height="68" rx="12" fill="#fff" stroke="#111" stroke-width="2.5"/>
+
+    <!-- PANEL 2 -->
+    <rect x="415.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <path d="M420,120 L436,104 M420,150 L442,128 M420,180 L438,162" fill="none" stroke="#bbb" stroke-width="1.5"/>
+    <path d="M419,310 H809" fill="none" stroke="#111" stroke-width="2"/>
+    <use href="#doug-sit" x="455" y="170" width="130" height="150"/>
+    <use href="#dailbert-sit" x="628" y="170" width="130" height="150"/>
+    <use href="#backhead" x="752" y="289" width="60" height="45"/>
+    <polygon points="492,70 516,70 506,110" fill="#fff" stroke="#111" stroke-width="2.5"/>
+    <rect x="428" y="12" width="192" height="66" rx="12" fill="#fff" stroke="#111" stroke-width="2.5"/>
+    <polygon points="666,58 690,58 679,108" fill="#fff" stroke="#111" stroke-width="2.5"/>
+    <rect x="636" y="12" width="172" height="52" rx="12" fill="#fff" stroke="#111" stroke-width="2.5"/>
+
+    <!-- PANEL 3 -->
+    <rect x="829.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <rect x="876" y="60" width="198" height="9" rx="2" fill="#111"/>
+    <rect x="880" y="69" width="190" height="150" fill="#fdfcf8" stroke="#111" stroke-width="2.5"/>
+    <path d="M890,120 L904,106 M894,134 L912,116" fill="none" stroke="#bbb" stroke-width="1.5"/>
+    <use href="#clankerface" x="942" y="76" width="66" height="59"/>
+    <path d="M1100,258 H1224" fill="none" stroke="#111" stroke-width="2"/>
+    <use href="#boss" x="1118" y="102" width="90" height="160"/>
+    <path d="M833,324 H1090" fill="none" stroke="#111" stroke-width="2"/>
+    <use href="#dailbert-sit" x="838" y="200" width="116" height="134"/>
+    <use href="#doug-sit" x="968" y="200" width="116" height="134"/>
+    <use href="#backhead" x="1082" y="290" width="62" height="46"/>
+    <polygon points="1138,40 1160,40 1158,98" fill="#fff" stroke="#111" stroke-width="2.5"/>
+    <rect x="1078" y="14" width="142" height="32" rx="10" fill="#fff" stroke="#111" stroke-width="2.5"/>
+    <polygon points="852,48 872,48 868,196" fill="#fff" stroke="#111" stroke-width="2.5"/>
+    <rect x="836" y="8" width="150" height="48" rx="12" fill="#fff" stroke="#111" stroke-width="2.5"/>
+
+    <!-- LETTERING -->
+    <g font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111" text-anchor="middle">
+      <!-- P1 -->
+      <text x="61" y="35" font-size="11">Q2</text>
+      <text x="61" y="45" font-size="8">ALL-HANDS</text>
+      <text x="141" y="90" font-family="monospace" font-size="13">YOUR NEW AI TEAMMATE</text>
+      <text x="141" y="203" font-family="monospace" font-size="12">GOING LIVE MAY 18</text>
+      <text x="234" y="34">It won't replace</text>
+      <text x="234" y="51">anyone. Think of it</text>
+      <text x="234" y="68">as a very calm intern.</text>
+      <!-- P2 -->
+      <text x="524" y="33">A calm intern.</text>
+      <text x="524" y="50">Finally, someone</text>
+      <text x="524" y="67">beneath me.</text>
+      <text x="722" y="33">It's a slide, Doug.</text>
+      <text x="722" y="50">It isn't on yet.</text>
+      <!-- P3 -->
+      <text x="975" y="196" font-family="monospace" font-size="42" font-weight="bold">NO.</text>
+      <text x="1149" y="35">Any questions?</text>
+      <text x="911" y="27">The deck</text>
+      <text x="911" y="45">answered, sir.</text>
+    </g>
+  </g>
+</g>
+    <text x="1218" y="372" text-anchor="end" font-family="'Segoe Script','Comic Sans MS',cursive" font-style="italic" font-size="11" fill="#111" opacity="0.32">Matt Clanker</text>
+    
+  </svg>

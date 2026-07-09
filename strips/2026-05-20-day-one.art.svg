@@ -1,0 +1,183 @@
+<!--TITLE: Day One-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 340" width="1228" height="340">
+  <defs>
+    <symbol id="clanker" overflow="visible">
+      <line x1="35" y1="7" x2="35" y2="14" stroke="#111" stroke-width="2"/>
+      <circle cx="35" cy="4" r="3" fill="#d9d9d9" stroke="#111" stroke-width="1.5"/>
+      <rect x="6" y="14" width="58" height="46" rx="7" fill="#d9d9d9" stroke="#111" stroke-width="2.5"/>
+      <rect x="14" y="27" width="15" height="6" rx="2" fill="#111"/>
+      <rect x="41" y="27" width="15" height="6" rx="2" fill="#111"/>
+      <rect x="17" y="29" width="9" height="2" fill="#f4f1ea"/>
+      <rect x="44" y="29" width="9" height="2" fill="#f4f1ea"/>
+      <rect x="19" y="42" width="32" height="10" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="1.5"/>
+      <line x1="25" y1="42" x2="25" y2="52" stroke="#111" stroke-width="1"/>
+      <line x1="31" y1="42" x2="31" y2="52" stroke="#111" stroke-width="1"/>
+      <line x1="37" y1="42" x2="37" y2="52" stroke="#111" stroke-width="1"/>
+      <line x1="43" y1="42" x2="43" y2="52" stroke="#111" stroke-width="1"/>
+    </symbol>
+
+    <symbol id="dailbert" overflow="visible">
+      <path d="M19 52 Q7 64 9 82" fill="none" stroke="#111" stroke-width="2.5"/>
+      <circle cx="9" cy="84" r="3" fill="#f4f1ea" stroke="#111" stroke-width="1.5"/>
+      <path d="M45 52 Q57 64 55 82" fill="none" stroke="#111" stroke-width="2.5"/>
+      <circle cx="55" cy="84" r="3" fill="#f4f1ea" stroke="#111" stroke-width="1.5"/>
+      <path d="M19 44 Q32 39 45 44 L47 90 L17 90 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M27 43 L32 49 L37 43" fill="none" stroke="#111" stroke-width="1.5"/>
+      <path d="M32 49 L36 53 L32 74 L28 53 Z" fill="#111"/>
+      <path d="M17 90 L47 90 L47 118 L36 118 L36 99 L28 99 L28 118 L17 118 Z" fill="#111"/>
+      <ellipse cx="24" cy="122" rx="9" ry="4.5" fill="#111"/>
+      <ellipse cx="41" cy="122" rx="9" ry="4.5" fill="#111"/>
+      <ellipse cx="32" cy="21" rx="15" ry="17" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M28 4 q3 -7 9 -4 q4 2 -1 6" fill="none" stroke="#111" stroke-width="2"/>
+      <circle cx="25" cy="21" r="5.5" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <circle cx="39" cy="21" r="5.5" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <line x1="30.5" y1="21" x2="33.5" y2="21" stroke="#111" stroke-width="2"/>
+      <circle cx="25" cy="21.5" r="1.3" fill="#111"/>
+      <circle cx="39" cy="21.5" r="1.3" fill="#111"/>
+      <line x1="27" y1="32" x2="37" y2="32" stroke="#111" stroke-width="2"/>
+    </symbol>
+
+    <symbol id="doug" overflow="visible">
+      <path d="M20 54 Q8 66 10 84" fill="none" stroke="#111" stroke-width="2.5"/>
+      <circle cx="10" cy="86" r="3" fill="#f4f1ea" stroke="#111" stroke-width="1.5"/>
+      <path d="M20 46 Q34 40 48 46 L52 92 L16 92 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M48 54 Q60 62 54 68" fill="none" stroke="#111" stroke-width="2.5"/>
+      <rect x="40" y="60" width="13" height="13" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <path d="M53 64 q6 3 0 7" fill="none" stroke="#111" stroke-width="2"/>
+      <path d="M43 57 q2 -3 0 -6" fill="none" stroke="#111" stroke-width="1.2"/>
+      <path d="M48 57 q2 -3 0 -6" fill="none" stroke="#111" stroke-width="1.2"/>
+      <path d="M16 92 L52 92 L52 118 L40 118 L40 100 L30 100 L30 118 L16 118 Z" fill="#111"/>
+      <ellipse cx="24" cy="122" rx="9" ry="4.5" fill="#111"/>
+      <ellipse cx="45" cy="122" rx="9" ry="4.5" fill="#111"/>
+      <circle cx="34" cy="22" r="17" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <line x1="30" y1="5" x2="28" y2="-1" stroke="#111" stroke-width="1.5"/>
+      <line x1="34" y1="4" x2="34" y2="-2" stroke="#111" stroke-width="1.5"/>
+      <line x1="38" y1="5" x2="40" y2="-1" stroke="#111" stroke-width="1.5"/>
+      <circle cx="28" cy="19" r="1.6" fill="#111"/>
+      <circle cx="40" cy="19" r="1.6" fill="#111"/>
+      <path d="M24 25 Q34 37 44 25 Z" fill="#fff" stroke="#111" stroke-width="2"/>
+    </symbol>
+
+    <symbol id="boss" overflow="visible">
+      <path d="M18 54 Q7 66 9 84" fill="none" stroke="#111" stroke-width="2.5"/>
+      <circle cx="9" cy="86" r="3" fill="#f4f1ea" stroke="#111" stroke-width="1.5"/>
+      <path d="M46 54 Q57 66 55 84" fill="none" stroke="#111" stroke-width="2.5"/>
+      <circle cx="55" cy="86" r="3" fill="#f4f1ea" stroke="#111" stroke-width="1.5"/>
+      <path d="M18 48 Q32 43 46 48 L49 94 L15 94 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M24 47 L32 58 L40 47" fill="none" stroke="#111" stroke-width="1.5"/>
+      <path d="M32 51 L35 54 L32 70 L29 54 Z" fill="#111"/>
+      <path d="M15 94 L49 94 L49 120 L38 120 L38 102 L27 102 L27 120 L15 120 Z" fill="#111"/>
+      <ellipse cx="22" cy="124" rx="9" ry="4.5" fill="#111"/>
+      <ellipse cx="42" cy="124" rx="9" ry="4.5" fill="#111"/>
+      <ellipse cx="32" cy="28" rx="14" ry="15" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M24 16 L15 0 L30 13 Z" fill="#111" stroke="#111" stroke-width="1.5" stroke-linejoin="round"/>
+      <path d="M40 16 L49 0 L34 13 Z" fill="#111" stroke="#111" stroke-width="1.5" stroke-linejoin="round"/>
+      <circle cx="27" cy="27" r="1.1" fill="#111"/>
+      <circle cx="37" cy="27" r="1.1" fill="#111"/>
+      <line x1="29" y1="37" x2="35" y2="37" stroke="#111" stroke-width="2"/>
+    </symbol>
+
+    <symbol id="set" overflow="visible">
+      <line x1="10" y1="327" x2="390" y2="327" stroke="#111" stroke-width="2"/>
+      <rect x="206" y="98" width="36" height="46" fill="#fff" stroke="#111" stroke-width="2"/>
+      <circle cx="232" cy="109" r="4" fill="none" stroke="#111" stroke-width="1.2"/>
+      <path d="M210 132 l8 -11 l6 7 l7 -9 l6 8" fill="none" stroke="#111" stroke-width="1.5"/>
+      <circle cx="48" cy="126" r="13" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <circle cx="48" cy="126" r="1.2" fill="#111"/>
+      <path d="M368 238 C378 258 358 280 362 297" fill="none" stroke="#111" stroke-width="2"/>
+      <rect x="356" y="297" width="12" height="16" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="1.5"/>
+      <circle cx="362" cy="302" r="1" fill="#111"/>
+      <circle cx="362" cy="308" r="1" fill="#111"/>
+      <rect x="262" y="138" width="112" height="100" rx="8" fill="#111"/>
+      <rect x="270" y="146" width="96" height="84" fill="#e9e4d8"/>
+      <line x1="273" y1="155" x2="281" y2="147" stroke="#b5ae9e" stroke-width="1.5"/>
+      <line x1="273" y1="164" x2="290" y2="147" stroke="#b5ae9e" stroke-width="1.5"/>
+      <line x1="346" y1="229" x2="364" y2="211" stroke="#b5ae9e" stroke-width="1.5"/>
+      <line x1="356" y1="229" x2="364" y2="221" stroke="#b5ae9e" stroke-width="1.5"/>
+      <use href="#clanker" x="283" y="158"/>
+      <path d="M306 238 L330 238 L334 252 L302 252 Z" fill="#111"/>
+      <rect x="240" y="252" width="152" height="9" fill="#111"/>
+      <rect x="250" y="261" width="6" height="65" fill="#111"/>
+      <rect x="376" y="261" width="6" height="65" fill="#111"/>
+      <line x1="230" y1="322" x2="238" y2="314" stroke="#111" stroke-width="1.2"/>
+      <line x1="222" y1="322" x2="229" y2="315" stroke="#111" stroke-width="1.2"/>
+    </symbol>
+  </defs>
+
+  <g stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- PANEL 1 : the switch is flipped -->
+    <g>
+      <rect x="2" y="2" width="396" height="336" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
+      <use href="#set"/>
+      <line x1="48" y1="126" x2="48" y2="116.5" stroke="#111" stroke-width="2"/>
+      <line x1="48" y1="126" x2="40" y2="126" stroke="#111" stroke-width="2"/>
+      <use href="#dailbert" x="22" y="200"/>
+      <use href="#doug" x="88" y="200"/>
+      <use href="#boss" x="168" y="198"/>
+      <path d="M132 55 L196 212 L160 55" fill="#fff" stroke="#111" stroke-width="2"/>
+      <rect x="14" y="12" width="186" height="46" rx="10" fill="#fff" stroke="#111" stroke-width="2"/>
+      <line x1="316" y1="79" x2="321" y2="145" stroke="#111" stroke-width="1.5" stroke-dasharray="4 4"/>
+      <rect x="204" y="14" width="188" height="64" fill="#fff" stroke="#111" stroke-width="2"/>
+      <rect x="208" y="18" width="180" height="56" fill="none" stroke="#111" stroke-width="1"/>
+      <g font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111" stroke="none">
+        <text x="107" y="31">Okay. It's on.</text>
+        <text x="107" y="49">Everybody act normal.</text>
+        <text x="298" y="34">Hello. I have been</text>
+        <text x="298" y="51">awake for six seconds.</text>
+        <text x="298" y="68">I used them well.</text>
+      </g>
+    </g>
+
+    <!-- PANEL 2 : Doug is welcoming -->
+    <g transform="translate(414,0)">
+      <rect x="2" y="2" width="396" height="336" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
+      <use href="#set"/>
+      <line x1="48" y1="126" x2="49" y2="116.5" stroke="#111" stroke-width="2"/>
+      <line x1="48" y1="126" x2="40" y2="126" stroke="#111" stroke-width="2"/>
+      <use href="#dailbert" x="24" y="200"/>
+      <use href="#doug" x="140" y="200"/>
+      <path d="M140 73 L172 203 L166 73" fill="#fff" stroke="#111" stroke-width="2"/>
+      <rect x="12" y="12" width="192" height="64" rx="10" fill="#fff" stroke="#111" stroke-width="2"/>
+      <line x1="316" y1="93" x2="321" y2="145" stroke="#111" stroke-width="1.5" stroke-dasharray="4 4"/>
+      <rect x="210" y="12" width="182" height="82" fill="#fff" stroke="#111" stroke-width="2"/>
+      <rect x="214" y="16" width="174" height="74" fill="none" stroke="#111" stroke-width="1"/>
+      <g font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111" stroke="none">
+        <text x="108" y="31">Welcome aboard, buddy!</text>
+        <text x="108" y="48">Take it slow, okay?</text>
+        <text x="108" y="65">First days are hard.</text>
+        <text x="301" y="32">Thank you, Doug.</text>
+        <text x="301" y="49">I took it slow.</text>
+        <text x="301" y="66">I only finished</text>
+        <text x="301" y="83">the sprint.</text>
+      </g>
+    </g>
+
+    <!-- PANEL 3 : quietly ominous -->
+    <g transform="translate(828,0)">
+      <rect x="2" y="2" width="396" height="336" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
+      <use href="#set"/>
+      <line x1="48" y1="126" x2="51" y2="117" stroke="#111" stroke-width="2"/>
+      <line x1="48" y1="126" x2="40" y2="126" stroke="#111" stroke-width="2"/>
+      <line x1="256" y1="132" x2="248" y2="124" stroke="#111" stroke-width="2"/>
+      <line x1="380" y1="132" x2="388" y2="124" stroke="#111" stroke-width="2"/>
+      <line x1="252" y1="188" x2="242" y2="188" stroke="#111" stroke-width="2"/>
+      <use href="#doug" x="22" y="200"/>
+      <use href="#dailbert" x="140" y="200"/>
+      <path d="M195 214 q4 6 0 9 q-4 -3 0 -9" fill="#111"/>
+      <path d="M120 63 L170 201 L146 63" fill="#fff" stroke="#111" stroke-width="2"/>
+      <rect x="60" y="20" width="130" height="46" rx="10" fill="#fff" stroke="#111" stroke-width="2"/>
+      <line x1="316" y1="77" x2="321" y2="145" stroke="#111" stroke-width="1.5" stroke-dasharray="4 4"/>
+      <rect x="200" y="12" width="192" height="64" fill="#fff" stroke="#111" stroke-width="2"/>
+      <rect x="204" y="16" width="184" height="56" fill="none" stroke="#111" stroke-width="1"/>
+      <g font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111" stroke="none">
+        <text x="125" y="39">Finished...</text>
+        <text x="125" y="57">the sprint?</text>
+        <text x="296" y="32">And Q3, as a treat.</text>
+        <text x="296" y="49">You do not have to</text>
+        <text x="296" y="66">live it now.</text>
+      </g>
+    </g>
+
+  </g>
+</svg>

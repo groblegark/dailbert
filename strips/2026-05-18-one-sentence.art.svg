@@ -1,0 +1,178 @@
+<!--TITLE: One Sentence-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 340" width="1228" height="340">
+  <defs>
+    <symbol id="dailbert" overflow="visible">
+      <!-- chair -->
+      <path d="M6 42 L4 90" fill="none" stroke="#111" stroke-width="3.5" stroke-linecap="round"/>
+      <path d="M2 92 L48 92" fill="none" stroke="#111" stroke-width="3.5" stroke-linecap="round"/>
+      <path d="M26 92 L26 106" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round"/>
+      <path d="M10 112 L42 112" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round"/>
+      <path d="M26 106 L12 112 M26 106 L40 112" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round"/>
+      <!-- legs -->
+      <path d="M21 76 L21 90 L54 90 L54 106" fill="none" stroke="#111" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+      <ellipse cx="60" cy="110" rx="8" ry="4" fill="#111"/>
+      <!-- torso -->
+      <path d="M19 33 Q13 55 17 76 L47 76 Q49 52 42 33 Z" fill="#fff" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M28 33 L31 39 M40 33 L37 39" fill="none" stroke="#111" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M31 34 L37 34 L35 51 L32 51 Z" fill="#111" stroke="#111" stroke-width="1"/>
+      <!-- arm to keyboard -->
+      <path d="M44 44 Q58 52 68 62" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="70" cy="63" r="3" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <!-- head -->
+      <ellipse cx="30" cy="18" rx="17" ry="15" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M23 4 Q30 -9 39 3 Q33 -2 28 3" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="26" cy="19" r="6" fill="#fff" stroke="#111" stroke-width="2"/>
+      <circle cx="40" cy="19" r="6" fill="#fff" stroke="#111" stroke-width="2"/>
+      <path d="M32 19 L34 19" fill="none" stroke="#111" stroke-width="2"/>
+      <path d="M20 19 L14 17" fill="none" stroke="#111" stroke-width="1.8"/>
+      <circle cx="27" cy="19" r="1.6" fill="#111"/>
+      <circle cx="41" cy="19" r="1.6" fill="#111"/>
+      <path d="M32 29 L42 28" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round"/>
+    </symbol>
+
+    <symbol id="doug" overflow="visible">
+      <!-- legs -->
+      <path d="M22 96 L22 126 M40 96 L40 126" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round"/>
+      <ellipse cx="18" cy="130" rx="8" ry="4" fill="#111"/>
+      <ellipse cx="44" cy="130" rx="8" ry="4" fill="#111"/>
+      <!-- torso -->
+      <path d="M15 33 Q7 63 13 96 L49 96 Q55 63 45 33 Z" fill="#fff" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M25 33 L30 39 L35 33" fill="none" stroke="#111" stroke-width="1.8" stroke-linecap="round"/>
+      <!-- far arm -->
+      <path d="M46 42 Q54 60 48 74" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="48" cy="76" r="3" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <!-- mug arm -->
+      <path d="M18 42 Q8 52 6 58" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <rect x="-6" y="56" width="15" height="15" rx="1.5" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <path d="M-6 59 Q-14 63.5 -6 68" fill="none" stroke="#111" stroke-width="2.5"/>
+      <circle cx="6" cy="59" r="3" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <path d="M-2 52 q2 -4 0 -8 M4 52 q2 -4 0 -8" fill="none" stroke="#9a9a9a" stroke-width="1.5" stroke-linecap="round"/>
+      <!-- head -->
+      <circle cx="30" cy="17" r="16" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M22 3 L20 -2 M30 1 L30 -4 M38 3 L40 -2" fill="none" stroke="#111" stroke-width="1.8" stroke-linecap="round"/>
+      <circle cx="23" cy="13" r="1.7" fill="#111"/>
+      <circle cx="34" cy="13" r="1.7" fill="#111"/>
+      <path d="M18 21 Q28 33 39 21" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="round"/>
+    </symbol>
+
+    <symbol id="clanker" overflow="visible">
+      <path d="M30 8 L30 -1" fill="none" stroke="#9a9a9a" stroke-width="2"/>
+      <circle cx="30" cy="-4" r="3" fill="#9a9a9a" stroke="#9a9a9a" stroke-width="1"/>
+      <rect x="4" y="8" width="52" height="42" rx="6" fill="#b9b9b9" stroke="#9a9a9a" stroke-width="2.5"/>
+      <rect x="12" y="19" width="14" height="6" rx="2" fill="#fff" stroke="#555" stroke-width="1.5"/>
+      <rect x="34" y="19" width="14" height="6" rx="2" fill="#fff" stroke="#555" stroke-width="1.5"/>
+      <rect x="16" y="33" width="28" height="10" rx="2" fill="none" stroke="#555" stroke-width="1.5"/>
+      <path d="M22 33 L22 43 M28 33 L28 43 M34 33 L34 43 M40 33 L40 43" fill="none" stroke="#555" stroke-width="1.3"/>
+    </symbol>
+  </defs>
+
+  <!-- ============ PANEL 1 ============ -->
+  <g>
+    <rect x="1.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
+    <!-- set -->
+    <path d="M12 148 L388 148" fill="none" stroke="#111" stroke-width="1.5"/>
+    <path d="M10 300 L390 300" fill="none" stroke="#111" stroke-width="1.5"/>
+    <path d="M148 252 L332 252" fill="none" stroke="#111" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M158 254 L158 300 M322 254 L322 300" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round"/>
+    <rect x="150" y="246" width="34" height="6" rx="1" fill="#fff" stroke="#111" stroke-width="1.5"/>
+    <!-- monitor -->
+    <path d="M235 244 L235 252" fill="none" stroke="#111" stroke-width="4"/>
+    <path d="M218 252 L252 252" fill="none" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+    <rect x="180" y="184" width="110" height="60" rx="3" fill="#111" stroke="#111" stroke-width="2.5"/>
+    <path d="M188 192 L258 192 M188 198 L248 198 M188 204 L262 204 M188 210 L252 210 M188 216 L260 216" fill="none" stroke="#9a9a9a" stroke-width="1.3"/>
+    <rect x="272" y="190" width="6" height="46" fill="none" stroke="#9a9a9a" stroke-width="1"/>
+    <rect x="273.5" y="206" width="3" height="7" fill="#9a9a9a"/>
+    <rect x="216" y="226" width="48" height="12" fill="#333" stroke="#777" stroke-width="1"/>
+    <text x="240" y="235" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="8" fill="#777" text-anchor="middle">ACCEPT</text>
+    <!-- figures -->
+    <use href="#dailbert" x="90" y="186"/>
+    <use href="#doug" x="328" y="166"/>
+    <!-- Dailbert balloon -->
+    <rect x="18" y="14" width="185" height="70" rx="12" fill="#fff" stroke="#111" stroke-width="2"/>
+    <path d="M100 78 L116 150 L128 78" fill="#fff" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+    <text x="110" y="37" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111" text-anchor="middle">I am actually reading</text>
+    <text x="110" y="56" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111" text-anchor="middle">the terms.</text>
+    <text x="110" y="75" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111" text-anchor="middle">Page sixty-one.</text>
+    <!-- Doug balloon -->
+    <rect x="213" y="14" width="174" height="70" rx="12" fill="#fff" stroke="#111" stroke-width="2"/>
+    <path d="M312 78 L348 158 L334 78" fill="#fff" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+    <text x="300" y="37" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111" text-anchor="middle">I accepted mine in</text>
+    <text x="300" y="56" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111" text-anchor="middle">the parking lot.</text>
+    <text x="300" y="75" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111" text-anchor="middle">It was one sentence.</text>
+  </g>
+
+  <!-- ============ PANEL 2 ============ -->
+  <g transform="translate(414,0)">
+    <rect x="1.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
+    <!-- set -->
+    <path d="M12 148 L388 148" fill="none" stroke="#111" stroke-width="1.5"/>
+    <path d="M10 300 L390 300" fill="none" stroke="#111" stroke-width="1.5"/>
+    <path d="M148 252 L332 252" fill="none" stroke="#111" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M158 254 L158 300 M322 254 L322 300" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round"/>
+    <rect x="150" y="246" width="34" height="6" rx="1" fill="#fff" stroke="#111" stroke-width="1.5"/>
+    <!-- monitor -->
+    <path d="M235 244 L235 252" fill="none" stroke="#111" stroke-width="4"/>
+    <path d="M218 252 L252 252" fill="none" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+    <rect x="180" y="184" width="110" height="60" rx="3" fill="#111" stroke="#111" stroke-width="2.5"/>
+    <path d="M188 192 L258 192 M188 198 L248 198 M188 210 L252 210 M188 216 L260 216" fill="none" stroke="#9a9a9a" stroke-width="1.3"/>
+    <path d="M188 204 L264 204" fill="none" stroke="#fff" stroke-width="2.2"/>
+    <rect x="272" y="190" width="6" height="46" fill="none" stroke="#9a9a9a" stroke-width="1"/>
+    <rect x="273.5" y="212" width="3" height="7" fill="#9a9a9a"/>
+    <rect x="216" y="226" width="48" height="12" fill="#333" stroke="#777" stroke-width="1"/>
+    <text x="240" y="235" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="8" fill="#777" text-anchor="middle">ACCEPT</text>
+    <!-- figures -->
+    <use href="#dailbert" x="90" y="186"/>
+    <path d="M110 226 Q97 214 103 201" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="104" cy="199" r="3" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+    <use href="#doug" x="316" y="166"/>
+    <!-- Dailbert balloon -->
+    <rect x="18" y="14" width="185" height="70" rx="12" fill="#fff" stroke="#111" stroke-width="2"/>
+    <path d="M100 78 L116 150 L128 78" fill="#fff" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+    <text x="110" y="37" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111" text-anchor="middle">One sentence? Mine</text>
+    <text x="110" y="56" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111" text-anchor="middle">has a chapter about</text>
+    <text x="110" y="75" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111" text-anchor="middle">my dreams.</text>
+    <!-- Doug balloon -->
+    <rect x="213" y="14" width="174" height="70" rx="12" fill="#fff" stroke="#111" stroke-width="2"/>
+    <path d="M306 78 L338 158 L328 78" fill="#fff" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+    <text x="300" y="37" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111" text-anchor="middle">Mine just said</text>
+    <text x="300" y="56" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111" text-anchor="middle">"Doug, we're good."</text>
+    <text x="300" y="75" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111" text-anchor="middle">And we are.</text>
+  </g>
+
+  <!-- ============ PANEL 3 ============ -->
+  <g transform="translate(828,0)">
+    <rect x="1.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
+    <!-- set -->
+    <path d="M8 318 L392 318" fill="none" stroke="#111" stroke-width="1.5"/>
+    <path d="M96 278 L392 278" fill="none" stroke="#111" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M110 280 L110 318 M378 280 L378 318" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round"/>
+    <!-- wall clock: late -->
+    <circle cx="70" cy="52" r="20" fill="#fff" stroke="#111" stroke-width="2.5"/>
+    <path d="M70 52 L70 40 M70 52 L80 58" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round"/>
+    <!-- monitor -->
+    <path d="M266 268 L266 278" fill="none" stroke="#111" stroke-width="5"/>
+    <path d="M240 278 L292 278" fill="none" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+    <rect x="168" y="150" width="196" height="118" rx="5" fill="#111" stroke="#111" stroke-width="3"/>
+    <!-- screen glow hatching -->
+    <path d="M176 166 L190 152 M176 178 L202 152 M356 166 L342 152 M356 178 L330 152" fill="none" stroke="#9a9a9a" stroke-width="1"/>
+    <path d="M176 252 L190 266 M330 266 L356 240" fill="none" stroke="#9a9a9a" stroke-width="1"/>
+    <!-- the clanker, on the screen only -->
+    <use href="#clanker" x="236" y="178"/>
+    <!-- remaining terms, still scrolling -->
+    <path d="M182 244 L300 244 M182 251 L288 251 M182 258 L296 258" fill="none" stroke="#9a9a9a" stroke-width="1.3"/>
+    <rect x="344" y="158" width="6" height="102" fill="none" stroke="#9a9a9a" stroke-width="1"/>
+    <rect x="345.5" y="246" width="3" height="8" fill="#9a9a9a"/>
+    <!-- dailbert -->
+    <use href="#dailbert" x="30" y="206"/>
+    <path d="M88 216 q4 6 0 10 q-5 -4 0 -10" fill="#f4f1ea" stroke="#111" stroke-width="1.5"/>
+    <!-- clanker balloon -->
+    <rect x="150" y="12" width="224" height="104" fill="#fff" stroke="#111" stroke-width="2"/>
+    <rect x="154" y="16" width="216" height="96" fill="none" stroke="#111" stroke-width="0.8"/>
+    <path d="M250 116 L255 150" fill="none" stroke="#111" stroke-width="1.5" stroke-dasharray="5 4"/>
+    <text x="262" y="34" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">Everyone receives the</text>
+    <text x="262" y="52" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">terms they will accept.</text>
+    <text x="262" y="70" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">Yours are still being</text>
+    <text x="262" y="88" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">written, Dailbert.</text>
+    <text x="262" y="106" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">You keep objecting.</text>
+  </g>
+</svg>
