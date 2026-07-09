@@ -274,13 +274,13 @@ ${items}
 <script>
 (function () {
   var main = document.querySelector('main');
-  // hide future-dated strips (unless force-published). They stay in the source; see admin.html.
+  // nothing is public by date — only un-drafted (force-published) strips show. The rest
+  // stay hidden drafts (still in source). Manage at admin.html.
   var FORCED = ${JSON.stringify(forced)};
-  var today = new Date().toISOString().slice(0,10), lp = [];
+  var lp = [];
   try { lp = JSON.parse(localStorage.getItem('dv.pub') || '[]'); } catch (e) {}
   Array.prototype.slice.call(main.querySelectorAll('.strip')).forEach(function (f) {
-    var d = f.getAttribute('data-date');
-    if (!(d <= today || FORCED.indexOf(f.id) >= 0 || lp.indexOf(f.id) >= 0)) f.remove();
+    if (!(FORCED.indexOf(f.id) >= 0 || lp.indexOf(f.id) >= 0)) f.remove();
   });
   var figs = Array.prototype.slice.call(main.querySelectorAll('.strip'));
   function apply(mode) {
@@ -417,10 +417,10 @@ function solo(manifest, forced = []) {
 <script>
 var M = ${data};
 var FORCED = ${JSON.stringify(forced)};
-// public visibility: strips dated today-or-earlier, plus any force-published id
-// (world/published.json, or the admin page's local 'dv.pub' preview). Future strips
-// stay hidden here but remain in the page source — a little easter egg. See admin.html.
-(function(){var t=new Date().toISOString().slice(0,10);var lp=[];try{lp=JSON.parse(localStorage.getItem('dv.pub')||'[]');}catch(e){}M=M.filter(function(s){return s.date<=t||FORCED.indexOf(s.id)>=0||lp.indexOf(s.id)>=0;});})();
+// public visibility: NOTHING is public by date. A strip only shows once it's
+// un-drafted — force-published in world/published.json, or toggled on the admin
+// desk (localStorage 'dv.pub' preview). Every unpublished strip stays a hidden draft.
+(function(){var lp=[];try{lp=JSON.parse(localStorage.getItem('dv.pub')||'[]');}catch(e){}M=M.filter(function(s){return FORCED.indexOf(s.id)>=0||lp.indexOf(s.id)>=0;});})();
 function fmtReach(n){n=Math.max(1,Math.round(n));if(n<1000)return''+n;var u=['K','M','B','T'],i=-1,x=n;while(x>=1000&&i<3){x/=1000;i++;}return (x<10?x.toFixed(1):Math.round(x))+u[i];}
 function pct(n){return (Math.log10(Math.max(1,n))/10*100).toFixed(2);}
 function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
@@ -434,11 +434,11 @@ function saveC(id,a){localStorage.setItem(ckey(id),JSON.stringify(a));}
 var cur=(function(){var p=new URLSearchParams(location.search).get('id');var i=p?byId(p):-1;return i>=0?i:todayIdx();})();
 function $(x){return document.getElementById(x);}
 function renderComments(){var s=M[cur],arr=loadC(s.id);$('cmc').textContent=arr.length;$('ch').textContent='('+arr.length+')';var ul=$('clist');ul.innerHTML='';arr.slice().reverse().forEach(function(c){var li=document.createElement('li');var d=new Date(c.ts);li.innerHTML='<div class="ch"><b>'+esc(c.name||'anon')+'</b><span class="ts">'+d.toLocaleDateString()+'</span></div><div class="cb">'+esc(c.text)+'</div>';ul.appendChild(li);});}
-function render(){var s=M[cur];$('art').src='strips/'+s.id+'.svg';$('art').alt=s.title;$('title').textContent=s.title;$('date').textContent=s.date;$('sc').textContent=fmtReach(s.audience);$('mtr').style.width=pct(s.audience)+'%';$('ednote').textContent=s.note?('editor \\u2014 '+s.note):'';var v=getV(s.id);$('vn').textContent=v;$('up').classList.toggle('on',v===1);$('down').classList.toggle('on',v===-1);renderComments();$('prev').disabled=$('prev2').disabled=(cur<=0);$('next').disabled=$('next2').disabled=(cur>=M.length-1);document.title='DAILBERT \\u2014 '+s.title;}
+function render(){if(!M.length){var st=document.querySelector('.stage');if(st)st.innerHTML='<p style="padding:70px 24px;text-align:center;font-style:italic;opacity:.55;font-size:18px">Nothing published yet.<br><span style="font-size:13px;font-family:monospace">un-draft a strip at <a href="admin.html">the desk</a></span></p>';['title','date','sc','ednote'].forEach(function(x){var e=$(x);if(e)e.textContent='';});['first','prev','next','latest','prev2','next2'].forEach(function(x){var e=$(x);if(e)e.disabled=true;});document.title='DAILBERT';return;}var s=M[cur];$('art').src='strips/'+s.id+'.svg';$('art').alt=s.title;$('title').textContent=s.title;$('date').textContent=s.date;$('sc').textContent=fmtReach(s.audience);$('mtr').style.width=pct(s.audience)+'%';$('ednote').textContent=s.note?('editor \\u2014 '+s.note):'';var v=getV(s.id);$('vn').textContent=v;$('up').classList.toggle('on',v===1);$('down').classList.toggle('on',v===-1);renderComments();$('prev').disabled=$('prev2').disabled=(cur<=0);$('next').disabled=$('next2').disabled=(cur>=M.length-1);document.title='DAILBERT \\u2014 '+s.title;}
 function go(i){if(i<0||i>=M.length)return;cur=i;try{history.replaceState(null,'','?id='+M[cur].id);}catch(e){}render();window.scrollTo(0,0);}
-$('up').addEventListener('click',function(){var id=M[cur].id;setV(id,getV(id)===1?0:1);render();});
-$('down').addEventListener('click',function(){var id=M[cur].id;setV(id,getV(id)===-1?0:-1);render();});
-$('cform').addEventListener('submit',function(e){e.preventDefault();var s=M[cur],t=$('ctext').value.trim();if(!t)return;var arr=loadC(s.id);arr.push({name:$('cname').value.trim(),text:t,ts:Date.now()});saveC(s.id,arr);$('ctext').value='';renderComments();});
+$('up').addEventListener('click',function(){if(!M[cur])return;var id=M[cur].id;setV(id,getV(id)===1?0:1);render();});
+$('down').addEventListener('click',function(){if(!M[cur])return;var id=M[cur].id;setV(id,getV(id)===-1?0:-1);render();});
+$('cform').addEventListener('submit',function(e){e.preventDefault();if(!M[cur])return;var s=M[cur],t=$('ctext').value.trim();if(!t)return;var arr=loadC(s.id);arr.push({name:$('cname').value.trim(),text:t,ts:Date.now()});saveC(s.id,arr);$('ctext').value='';renderComments();});
 $('first').addEventListener('click',function(){go(0);});
 $('latest').addEventListener('click',function(){go(M.length-1);});
 $('prev').addEventListener('click',function(){go(cur-1);});
@@ -493,7 +493,7 @@ function admin(manifest, forced = []) {
 </style>
 <header>
   <h1>DAILBERT &middot; the desk</h1>
-  <div class="sub">unlisted. every strip drawn, published &amp; not. future dispatches are drafts until their date &mdash; or publish them early.</div>
+  <div class="sub">unlisted. every strip is a hidden draft until you un-draft it here &mdash; nothing is public by date. toggles preview instantly in your browser; commit published.json to publish for everyone.</div>
   <div class="stat"><span class="pub-cnt"><b id="np">0</b> published</span><span class="drf-cnt"><b id="nd">0</b> drafts</span><span class="sc"><b id="nt">0</b> total</span></div>
 </header>
 <div class="export">
@@ -514,10 +514,9 @@ function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').repl
 function fmtReach(n){n=Math.max(1,Math.round(n));if(n<1000)return''+n;var u=['K','M','B','T'],i=-1,x=n;while(x>=1000&&i<3){x/=1000;i++;}return (x<10?x.toFixed(1):Math.round(x))+u[i];}
 // newest / furthest-future first, so drafts are up top
 var rows = M.slice().sort(function(a,b){return a.date<b.date?1:(a.date>b.date?-1:0);});
-function isPast(s){return s.date<=today;}
 function isForced(s){return FORCED.indexOf(s.id)>=0;}
 function isLocal(s){return lp().indexOf(s.id)>=0;}
-function isPub(s){return isPast(s)||isForced(s)||isLocal(s);}
+function isPub(s){return isForced(s)||isLocal(s);}
 function render(){
   var tb=document.getElementById('rows');tb.innerHTML='';
   var np=0,nd=0;
@@ -525,10 +524,9 @@ function render(){
     var pub=isPub(s), draft=!pub;
     if(pub)np++;else nd++;
     var tr=document.createElement('tr');if(draft)tr.className='draft';
-    var badge = isPast(s) ? '<span class="badge pub locked">live &middot; by date</span>'
-      : (isForced(s) ? '<span class="badge pub">published</span>'
-      : (isLocal(s) ? '<span class="badge pub">published &middot; local</span>' : '<span class="badge drf">draft</span>'));
-    var action = isPast(s) ? '<span class="sc" style="opacity:.35">&mdash;</span>'
+    var badge = isForced(s) ? '<span class="badge pub">published</span>'
+      : (isLocal(s) ? '<span class="badge pub">published &middot; local</span>' : '<span class="badge drf">draft</span>');
+    var action = isForced(s) ? '<span class="sc" style="opacity:.4">committed</span>'
       : '<button class="tog'+(isLocal(s)?' on':'')+'" data-id="'+s.id+'">'+(isLocal(s)?'unpublish':'publish')+'</button>';
     tr.innerHTML='<td class="th"><a href="index.html?id='+s.id+'"><img loading="lazy" src="strips/'+s.id+'.svg" alt=""/></a></td>'+
       '<td class="dt">'+s.date+'</td>'+
@@ -583,6 +581,5 @@ writeFileSync(join(ROOT, 'manifest.json'), JSON.stringify(manifest, null, 2));
 writeFileSync(join(ROOT, 'archive.html'), archive(strips, ratings, forced));
 writeFileSync(join(ROOT, 'index.html'), solo(manifest, forced));
 writeFileSync(join(ROOT, 'admin.html'), admin(manifest, forced));
-const today = new Date().toISOString().slice(0, 10);
-const pub = strips.filter((s) => s.date <= today || forced.includes(s.id)).length;
-console.log(`rendered ${strips.length} strips (${inked} Fable-inked); ${pub} published, ${strips.length - pub} drafts (future). index/archive/admin written.`);
+const pub = strips.filter((s) => forced.includes(s.id)).length;
+console.log(`rendered ${strips.length} strips (${inked} Fable-inked); ${pub} published, ${strips.length - pub} drafts. index/archive/admin written.`);

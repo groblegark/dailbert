@@ -1928,13 +1928,13 @@
 <script>
 (function () {
   var main = document.querySelector('main');
-  // hide future-dated strips (unless force-published). They stay in the source; see admin.html.
+  // nothing is public by date — only un-drafted (force-published) strips show. The rest
+  // stay hidden drafts (still in source). Manage at admin.html.
   var FORCED = [];
-  var today = new Date().toISOString().slice(0,10), lp = [];
+  var lp = [];
   try { lp = JSON.parse(localStorage.getItem('dv.pub') || '[]'); } catch (e) {}
   Array.prototype.slice.call(main.querySelectorAll('.strip')).forEach(function (f) {
-    var d = f.getAttribute('data-date');
-    if (!(d <= today || FORCED.indexOf(f.id) >= 0 || lp.indexOf(f.id) >= 0)) f.remove();
+    if (!(FORCED.indexOf(f.id) >= 0 || lp.indexOf(f.id) >= 0)) f.remove();
   });
   var figs = Array.prototype.slice.call(main.querySelectorAll('.strip'));
   function apply(mode) {

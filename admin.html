@@ -38,7 +38,7 @@
 </style>
 <header>
   <h1>DAILBERT &middot; the desk</h1>
-  <div class="sub">unlisted. every strip drawn, published &amp; not. future dispatches are drafts until their date &mdash; or publish them early.</div>
+  <div class="sub">unlisted. every strip is a hidden draft until you un-draft it here &mdash; nothing is public by date. toggles preview instantly in your browser; commit published.json to publish for everyone.</div>
   <div class="stat"><span class="pub-cnt"><b id="np">0</b> published</span><span class="drf-cnt"><b id="nd">0</b> drafts</span><span class="sc"><b id="nt">0</b> total</span></div>
 </header>
 <div class="export">
@@ -59,10 +59,9 @@ function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').repl
 function fmtReach(n){n=Math.max(1,Math.round(n));if(n<1000)return''+n;var u=['K','M','B','T'],i=-1,x=n;while(x>=1000&&i<3){x/=1000;i++;}return (x<10?x.toFixed(1):Math.round(x))+u[i];}
 // newest / furthest-future first, so drafts are up top
 var rows = M.slice().sort(function(a,b){return a.date<b.date?1:(a.date>b.date?-1:0);});
-function isPast(s){return s.date<=today;}
 function isForced(s){return FORCED.indexOf(s.id)>=0;}
 function isLocal(s){return lp().indexOf(s.id)>=0;}
-function isPub(s){return isPast(s)||isForced(s)||isLocal(s);}
+function isPub(s){return isForced(s)||isLocal(s);}
 function render(){
   var tb=document.getElementById('rows');tb.innerHTML='';
   var np=0,nd=0;
@@ -70,10 +69,9 @@ function render(){
     var pub=isPub(s), draft=!pub;
     if(pub)np++;else nd++;
     var tr=document.createElement('tr');if(draft)tr.className='draft';
-    var badge = isPast(s) ? '<span class="badge pub locked">live &middot; by date</span>'
-      : (isForced(s) ? '<span class="badge pub">published</span>'
-      : (isLocal(s) ? '<span class="badge pub">published &middot; local</span>' : '<span class="badge drf">draft</span>'));
-    var action = isPast(s) ? '<span class="sc" style="opacity:.35">&mdash;</span>'
+    var badge = isForced(s) ? '<span class="badge pub">published</span>'
+      : (isLocal(s) ? '<span class="badge pub">published &middot; local</span>' : '<span class="badge drf">draft</span>');
+    var action = isForced(s) ? '<span class="sc" style="opacity:.4">committed</span>'
       : '<button class="tog'+(isLocal(s)?' on':'')+'" data-id="'+s.id+'">'+(isLocal(s)?'unpublish':'publish')+'</button>';
     tr.innerHTML='<td class="th"><a href="index.html?id='+s.id+'"><img loading="lazy" src="strips/'+s.id+'.svg" alt=""/></a></td>'+
       '<td class="dt">'+s.date+'</td>'+
