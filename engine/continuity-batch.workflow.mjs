@@ -34,7 +34,8 @@ WHO'S IN IT (draw them consistently; define each as an SVG <symbol> and reuse wi
 
 WHERE WE ARE: ${STATE}
 
-TONE — READ THIS (the strip got too bleak; this is the correction): This is a LIGHT strip. COMEDY FIRST. The office slowly emptying / layoffs / people vanishing is NOT your subject — at most a faint background detail (an empty chair, a grey row) that nobody mentions, and usually not present at all. Do NOT make a departure or a layoff the punchline. Women are never the ones cut. Dread is a faint undertone the reader might feel, never a thing a character announces. Nobody ever says "AI", "singularity", "AGI", or narrates the theme.
+TONE — READ THIS (the strip got too bleak; this is the correction): This is a LIGHT strip. COMEDY FIRST, and where you can, someone WINS (often Priya) or there's a warm beat.
+HARD BAN for this strip — do NOT build the joke around anyone or anything being removed, cut, laid off, downsized, "let go", "leaner", emptied, resigning, gone, or a headcount/quarter/"record" number. No empty-desk punchlines. If your idea's MECHANISM is a person or a role disappearing, throw it out and pick a different idea. The clanker can absolutely still be wrong — but wrong about something ORDINARY (a meeting, a ticket, a coffee order, a doc, a calendar), never about removing people. Women are never cut. Dread, if any, is a faint undertone the reader might feel — never a thing a character says. Nobody ever says "AI", "singularity", "AGI", or narrates the theme.
 
 Draw the people. Fill the panels — figures doing something in a place, not balloons over empty space.
 
