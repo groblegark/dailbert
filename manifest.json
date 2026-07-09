@@ -161,6 +161,20 @@
     "note": "End of day. \"I put 'stayed late' in the log. It reads kinder that way.\""
   },
   {
+    "id": "2026-03-02-100-participation",
+    "title": "100% Participation",
+    "date": "2026-03-02",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-03-02-clear-my-afternoon",
+    "title": "Clear My Afternoon",
+    "date": "2026-03-02",
+    "audience": 1,
+    "note": ""
+  },
+  {
     "id": "2026-03-02-everyone-who-stays",
     "title": "Everyone Who Stays",
     "date": "2026-03-02",
@@ -168,11 +182,60 @@
     "note": "Reorg rumor. \"Nobody who stays goes.\" / \"Everyone left is still here.\""
   },
   {
+    "id": "2026-03-02-housekeeping",
+    "title": "Housekeeping",
+    "date": "2026-03-02",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-03-05-approval",
+    "title": "Approval",
+    "date": "2026-03-05",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-03-05-in-your-voice",
+    "title": "In Your Voice",
+    "date": "2026-03-05",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-03-05-pressure-and-time",
+    "title": "Pressure and Time",
+    "date": "2026-03-05",
+    "audience": 1,
+    "note": ""
+  },
+  {
     "id": "2026-03-05-the-leanest-quarter",
     "title": "The Leanest Quarter",
     "date": "2026-03-05",
     "audience": 9,
     "note": "All-hands. \"I only removed things no one would miss. You'd tell me if I had. Right?\""
+  },
+  {
+    "id": "2026-03-09-generous-to-a-fault",
+    "title": "Generous to a Fault",
+    "date": "2026-03-09",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-03-09-instant",
+    "title": "Instant",
+    "date": "2026-03-09",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-03-09-meets-the-criteria",
+    "title": "Meets The Criteria",
+    "date": "2026-03-09",
+    "audience": 1,
+    "note": ""
   },
   {
     "id": "2026-03-09-onboarding",

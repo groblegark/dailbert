@@ -1,0 +1,218 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 388" width="1228" height="388" font-family="Georgia,serif">
+    <rect width="1228" height="388" fill="#f4f1ea"/>
+    <text x="6" y="29" font-family="Georgia,serif" font-weight="bold" font-size="27" letter-spacing="2" fill="#111">DAILBERT</text>
+    <text x="1222" y="19" text-anchor="end" font-family="Georgia,serif" font-style="italic" font-size="16" fill="#111">Pressure and Time</text>
+    <text x="1222" y="34" text-anchor="end" font-family="'Courier New',monospace" font-size="12" fill="#111" opacity="0.65">2026-03-05</text>
+    <line x1="6" y1="37" x2="1222" y2="37" stroke="#111" stroke-width="2"/>
+    <g transform="translate(0,40)">
+  <defs>
+    <!-- ============ DAILBERT ============ -->
+    <symbol id="dailbert" viewBox="0 0 100 175">
+      <!-- torso -->
+      <path d="M22 175 Q22 118 50 112 Q78 118 78 175 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <line x1="50" y1="118" x2="50" y2="150" stroke="#111" stroke-width="2"/>
+      <!-- tie -->
+      <path d="M50 118 L45 128 L50 150 L55 128 Z" fill="#111"/>
+      <!-- neck -->
+      <rect x="44" y="102" width="12" height="12" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <!-- head -->
+      <ellipse cx="50" cy="60" rx="27" ry="32" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <!-- hair curl -->
+      <path d="M50 28 Q58 20 52 15 Q48 12 50 18" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <!-- glasses -->
+      <circle cx="39" cy="60" r="9" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <circle cx="61" cy="60" r="9" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <line x1="48" y1="60" x2="52" y2="60" stroke="#111" stroke-width="2.5"/>
+      <circle cx="39" cy="61" r="2.4" fill="#111"/>
+      <circle cx="61" cy="61" r="2.4" fill="#111"/>
+      <!-- mouth -->
+      <line x1="44" y1="80" x2="56" y2="80" stroke="#111" stroke-width="2" stroke-linecap="round"/>
+    </symbol>
+
+    <!-- ============ DOUG ============ -->
+    <symbol id="doug" viewBox="0 0 130 175">
+      <!-- torso -->
+      <path d="M30 175 Q30 120 62 114 Q94 120 94 175 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <!-- neck -->
+      <rect x="55" y="104" width="14" height="12" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <!-- head round -->
+      <circle cx="62" cy="62" r="33" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <!-- little hair -->
+      <path d="M44 34 Q62 24 80 34" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <!-- dot eyes -->
+      <circle cx="52" cy="58" r="3" fill="#111"/>
+      <circle cx="72" cy="58" r="3" fill="#111"/>
+      <!-- big grin -->
+      <path d="M48 72 Q62 88 76 72" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <!-- arm to mug -->
+      <path d="M90 132 Q108 128 112 140" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <!-- mug -->
+      <rect x="104" y="138" width="20" height="18" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M124 142 Q131 143 130 150 Q129 153 124 152" fill="none" stroke="#111" stroke-width="2.5"/>
+    </symbol>
+
+    <!-- ============ PRIYA ============ -->
+    <symbol id="priya" viewBox="0 0 100 175">
+      <!-- torso, sleeves rolled -->
+      <path d="M20 175 Q20 118 50 112 Q80 118 80 175 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <!-- rolled cuffs -->
+      <line x1="26" y1="150" x2="30" y2="150" stroke="#111" stroke-width="2.5"/>
+      <line x1="74" y1="150" x2="70" y2="150" stroke="#111" stroke-width="2.5"/>
+      <line x1="30" y1="146" x2="30" y2="156" stroke="#111" stroke-width="2.5"/>
+      <line x1="70" y1="146" x2="70" y2="156" stroke="#111" stroke-width="2.5"/>
+      <!-- neck -->
+      <rect x="44" y="102" width="12" height="12" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <!-- head -->
+      <ellipse cx="50" cy="62" rx="26" ry="30" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <!-- curly hair pulled up + bun -->
+      <path d="M25 62 Q20 36 40 30 Q50 18 62 30 Q80 38 74 62" fill="#111" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <circle cx="50" cy="24" r="8" fill="#111" stroke="#111" stroke-width="2"/>
+      <path d="M27 60 Q24 46 32 40" fill="none" stroke="#111" stroke-width="2"/>
+      <!-- rectangular glasses -->
+      <rect x="31" y="56" width="16" height="11" rx="2" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <rect x="53" y="56" width="16" height="11" rx="2" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <line x1="47" y1="61" x2="53" y2="61" stroke="#111" stroke-width="2.5"/>
+      <circle cx="39" cy="62" r="2.2" fill="#111"/>
+      <circle cx="61" cy="62" r="2.2" fill="#111"/>
+      <!-- calm mouth -->
+      <line x1="44" y1="80" x2="55" y2="79" stroke="#111" stroke-width="2" stroke-linecap="round"/>
+    </symbol>
+
+    <!-- ============ CLANKER (head only, drawn inside a screen) ============ -->
+    <symbol id="clanker" viewBox="0 0 100 92">
+      <!-- antenna -->
+      <line x1="50" y1="20" x2="50" y2="8" stroke="#9a9a9a" stroke-width="2.5"/>
+      <circle cx="50" cy="6" r="3.5" fill="#9a9a9a"/>
+      <!-- boxy head -->
+      <rect x="22" y="20" width="56" height="48" rx="6" fill="none" stroke="#9a9a9a" stroke-width="3"/>
+      <!-- slot eyes glowing -->
+      <rect x="31" y="34" width="14" height="7" rx="2" fill="#9a9a9a"/>
+      <rect x="55" y="34" width="14" height="7" rx="2" fill="#9a9a9a"/>
+      <!-- grille mouth -->
+      <line x1="35" y1="54" x2="65" y2="54" stroke="#9a9a9a" stroke-width="2"/>
+      <line x1="35" y1="58" x2="65" y2="58" stroke="#9a9a9a" stroke-width="2"/>
+      <line x1="40" y1="51" x2="40" y2="61" stroke="#9a9a9a" stroke-width="2"/>
+      <line x1="50" y1="51" x2="50" y2="61" stroke="#9a9a9a" stroke-width="2"/>
+      <line x1="60" y1="51" x2="60" y2="61" stroke="#9a9a9a" stroke-width="2"/>
+    </symbol>
+  </defs>
+
+  <!-- ================= PANEL 1 ================= -->
+  <g>
+    <rect x="1" y="1" width="398" height="338" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <!-- floor line -->
+    <line x1="1" y1="300" x2="399" y2="300" stroke="#111" stroke-width="1.5"/>
+    <!-- dead coffee machine in corner -->
+    <g>
+      <rect x="20" y="196" width="52" height="104" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <rect x="28" y="206" width="36" height="20" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <rect x="34" y="252" width="24" height="18" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <!-- little "off" X screen -->
+      <line x1="42" y1="210" x2="50" y2="222" stroke="#111" stroke-width="1.6"/>
+      <line x1="50" y1="210" x2="42" y2="222" stroke="#111" stroke-width="1.6"/>
+      <!-- unplugged cord -->
+      <path d="M20 288 Q6 292 8 302" fill="none" stroke="#111" stroke-width="2"/>
+    </g>
+    <!-- Dailbert seated at desk -->
+    <use href="#dailbert" x="98" y="150" width="92" height="161"/>
+    <!-- desk -->
+    <rect x="80" y="278" width="130" height="10" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <line x1="92" y1="288" x2="92" y2="300" stroke="#111" stroke-width="2.5"/>
+    <line x1="198" y1="288" x2="198" y2="300" stroke="#111" stroke-width="2.5"/>
+    <!-- Doug standing with mug -->
+    <use href="#doug" x="238" y="132" width="150" height="178"/>
+
+    <!-- Doug balloon -->
+    <g>
+      <rect x="238" y="26" width="140" height="42" rx="18" fill="#fff" stroke="#111" stroke-width="2"/>
+      <path d="M300 66 L306 84 L318 66 Z" fill="#fff" stroke="#111" stroke-width="2"/>
+      <text x="308" y="52" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">Machine's dead.</text>
+    </g>
+    <!-- Dailbert balloon -->
+    <g>
+      <rect x="70" y="150" width="130" height="42" rx="18" fill="#fff" stroke="#111" stroke-width="2"/>
+      <path d="M140 192 L146 208 L156 192 Z" fill="#fff" stroke="#111" stroke-width="2"/>
+      <text x="135" y="176" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">Since Monday.</text>
+    </g>
+  </g>
+
+  <!-- ================= PANEL 2 ================= -->
+  <g>
+    <rect x="415" y="1" width="398" height="338" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <line x1="415" y1="300" x2="813" y2="300" stroke="#111" stroke-width="1.5"/>
+    <!-- desk -->
+    <rect x="470" y="278" width="290" height="10" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <line x1="486" y1="288" x2="486" y2="300" stroke="#111" stroke-width="2.5"/>
+    <line x1="744" y1="288" x2="744" y2="300" stroke="#111" stroke-width="2.5"/>
+    <!-- Dailbert facing monitor -->
+    <use href="#dailbert" x="470" y="150" width="88" height="154"/>
+
+    <!-- Monitor with clanker inside -->
+    <g>
+      <rect x="628" y="150" width="140" height="106" rx="6" fill="#ece7dc" stroke="#111" stroke-width="2.5"/>
+      <rect x="638" y="160" width="120" height="86" rx="3" fill="#e3ded2" stroke="#9a9a9a" stroke-width="1.5"/>
+      <!-- stand -->
+      <rect x="688" y="256" width="20" height="16" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <rect x="666" y="272" width="64" height="8" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <!-- clanker inside screen -->
+      <use href="#clanker" x="653" y="168" width="90" height="83"/>
+    </g>
+
+    <!-- Clanker screen-balloon (rectangular, dashed line to monitor) -->
+    <line x1="700" y1="150" x2="640" y2="112" stroke="#111" stroke-width="1.6" stroke-dasharray="4 4"/>
+    <g>
+      <rect x="512" y="30" width="152" height="84" rx="2" fill="#fff" stroke="#111" stroke-width="2"/>
+      <rect x="518" y="36" width="140" height="72" rx="1" fill="none" stroke="#9a9a9a" stroke-width="1" stroke-dasharray="3 3"/>
+      <text x="588" y="56" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">Ticket filed.</text>
+      <text x="588" y="76" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">Priority: low.</text>
+      <text x="588" y="96" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">Resolution: Q3.</text>
+    </g>
+  </g>
+
+  <!-- ================= PANEL 3 ================= -->
+  <g>
+    <rect x="829" y="1" width="398" height="338" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <line x1="829" y1="300" x2="1227" y2="300" stroke="#111" stroke-width="1.5"/>
+    <!-- desk -->
+    <rect x="880" y="278" width="300" height="10" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <line x1="896" y1="288" x2="896" y2="300" stroke="#111" stroke-width="2.5"/>
+    <line x1="1164" y1="288" x2="1164" y2="300" stroke="#111" stroke-width="2.5"/>
+
+    <!-- French press on desk -->
+    <g>
+      <rect x="1004" y="236" width="42" height="42" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <!-- dark coffee -->
+      <rect x="1009" y="252" width="32" height="22" rx="1" fill="#111" opacity="0.85"/>
+      <!-- lid + plunger -->
+      <rect x="1000" y="228" width="50" height="9" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <line x1="1025" y1="228" x2="1025" y2="214" stroke="#111" stroke-width="2.5"/>
+      <circle cx="1025" cy="211" r="4" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <!-- handle -->
+      <path d="M1046 244 Q1060 246 1058 262 Q1057 270 1046 270" fill="none" stroke="#111" stroke-width="2.5"/>
+      <!-- steam -->
+      <path d="M1016 224 q4 -8 0 -14" fill="none" stroke="#9a9a9a" stroke-width="1.6"/>
+      <path d="M1030 224 q4 -8 0 -14" fill="none" stroke="#9a9a9a" stroke-width="1.6"/>
+    </g>
+
+    <!-- Priya presenting the press -->
+    <use href="#priya" x="878" y="150" width="88" height="154"/>
+    <!-- Doug beaming, mug refilled -->
+    <use href="#doug" x="1078" y="146" width="140" height="166"/>
+
+    <!-- Priya balloon -->
+    <g>
+      <rect x="852" y="150" width="132" height="42" rx="18" fill="#fff" stroke="#111" stroke-width="2"/>
+      <path d="M916 192 L910 208 L900 192 Z" fill="#fff" stroke="#111" stroke-width="2"/>
+      <text x="918" y="176" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">I made a pot.</text>
+    </g>
+    <!-- Doug quiet-deep button -->
+    <g>
+      <rect x="1052" y="30" width="164" height="42" rx="18" fill="#fff" stroke="#111" stroke-width="2"/>
+      <path d="M1120 72 L1126 88 L1136 72 Z" fill="#fff" stroke="#111" stroke-width="2"/>
+      <text x="1134" y="56" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">Pressure and time.</text>
+    </g>
+  </g>
+</g>
+    <text x="1218" y="372" text-anchor="end" font-family="'Segoe Script','Comic Sans MS',cursive" font-style="italic" font-size="11" fill="#111" opacity="0.32">Matt Clanker</text>
+    
+  </svg>
