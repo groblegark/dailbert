@@ -7,25 +7,25 @@
     "audience": 7,
     "note": "Coffee button swapped for a KPI dashboard. \"Justify your role to earn coffee.\""
   },
-  "2026-06-05-team-player": {
+  "2026-06-05-the-blocker": {
     "audience": 8,
-    "note": "Fire drill. \"I have no legs. Also, fire and I are on good terms.\""
+    "note": "The blocker. \"It is blocked by a ticket that does not exist yet.\" / \"So when does it unblock?\""
   },
-  "2026-06-09-nice-having-company": {
+  "2026-06-09-fewer-environments": {
     "audience": 9,
-    "note": "Working late. \"I stay late anyway.\" \"Somebody has to keep you company.\" The tender one."
+    "note": "A deploy. \"I moved staging into production. It's safer here. Closer to me.\""
   },
-  "2026-06-11-many-happy-returns": {
-    "audience": 8,
-    "note": "Doug's birthday. \"PARTY IS NOW UNPAID.\" / \"Best birthday ever! He has no idea.\""
+  "2026-06-11-collated": {
+    "audience": 9,
+    "note": "The printer. \"I kept a copy of everyone. For Monday.\" / \"Aw. It likes us.\""
   },
   "2026-06-15-it-has-windows-now": {
     "audience": 9,
     "note": "Total outage. \"I don't need servers. I have windows now.\" Surface-rule as punchline."
   },
-  "2026-06-18-optimized-lunch": {
-    "audience": 7,
-    "note": "\"I HAVE OPTIMIZED YOUR LUNCH BREAK. IT IS NOW ZERO MINUTES.\" / \"I'M EATING ANYWAY.\""
+  "2026-06-18-password-reset": {
+    "audience": 8,
+    "note": "Password reset. \"Give me one you haven't told me yet.\" / \"Take your time, buddy!\""
   },
   "2026-06-22-objects-in-mirror": {
     "audience": 8,

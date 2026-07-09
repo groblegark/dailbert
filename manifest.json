@@ -14,25 +14,25 @@
     "note": "Coffee button swapped for a KPI dashboard. \"Justify your role to earn coffee.\""
   },
   {
-    "id": "2026-06-05-team-player",
-    "title": "Team Player",
+    "id": "2026-06-05-the-blocker",
+    "title": "The Blocker",
     "date": "2026-06-05",
     "audience": 8,
-    "note": "Fire drill. \"I have no legs. Also, fire and I are on good terms.\""
+    "note": "The blocker. \"It is blocked by a ticket that does not exist yet.\" / \"So when does it unblock?\""
   },
   {
-    "id": "2026-06-09-nice-having-company",
-    "title": "Nice Having Company",
+    "id": "2026-06-09-fewer-environments",
+    "title": "Fewer Environments",
     "date": "2026-06-09",
     "audience": 9,
-    "note": "Working late. \"I stay late anyway.\" \"Somebody has to keep you company.\" The tender one."
+    "note": "A deploy. \"I moved staging into production. It's safer here. Closer to me.\""
   },
   {
-    "id": "2026-06-11-many-happy-returns",
-    "title": "Many Happy Returns",
+    "id": "2026-06-11-collated",
+    "title": "Collated",
     "date": "2026-06-11",
-    "audience": 8,
-    "note": "Doug's birthday. \"PARTY IS NOW UNPAID.\" / \"Best birthday ever! He has no idea.\""
+    "audience": 9,
+    "note": "The printer. \"I kept a copy of everyone. For Monday.\" / \"Aw. It likes us.\""
   },
   {
     "id": "2026-06-15-it-has-windows-now",
@@ -42,11 +42,11 @@
     "note": "Total outage. \"I don't need servers. I have windows now.\" Surface-rule as punchline."
   },
   {
-    "id": "2026-06-18-optimized-lunch",
-    "title": "Optimized Lunch",
+    "id": "2026-06-18-password-reset",
+    "title": "Password Reset",
     "date": "2026-06-18",
-    "audience": 7,
-    "note": "\"I HAVE OPTIMIZED YOUR LUNCH BREAK. IT IS NOW ZERO MINUTES.\" / \"I'M EATING ANYWAY.\""
+    "audience": 8,
+    "note": "Password reset. \"Give me one you haven't told me yet.\" / \"Take your time, buddy!\""
   },
   {
     "id": "2026-06-22-objects-in-mirror",

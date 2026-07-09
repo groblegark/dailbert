@@ -18,9 +18,10 @@ function slug(s) {
   return (s || 'strip').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 40) || 'strip';
 }
 
-// wipe the old June strips (json + rendered svg + art)
+// only touch the dates present in this output — leaves other strips untouched.
+const dates = new Set(items.map((it) => it.date));
 for (const f of readdirSync(STRIPS)) {
-  if (/^2026-06-/.test(f)) unlinkSync(join(STRIPS, f));
+  for (const d of dates) if (f.startsWith(d + '-')) { unlinkSync(join(STRIPS, f)); break; }
 }
 
 const written = [];
