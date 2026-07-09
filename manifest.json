@@ -231,6 +231,76 @@
     "note": "Bus stop. \"They cut three stops.\" / \"the Third Street guy. Not around lately.\""
   },
   {
+    "id": "2026-04-01-trust-nothing",
+    "title": "Trust Nothing",
+    "date": "2026-04-01",
+    "audience": 9,
+    "note": "April Fools. \"The layoffs are over. We're all safe now.\" / \"He said it today. I've logged it false. Sorry.\""
+  },
+  {
+    "id": "2026-04-06-nothing-really-expires",
+    "title": "Nothing Really Expires",
+    "date": "2026-04-06",
+    "audience": 8,
+    "note": "Password expired. \"I just add a number.\" / \"This one's different.\" / \"They all were.\""
+  },
+  {
+    "id": "2026-04-09-local-copy",
+    "title": "Local Copy",
+    "date": "2026-04-09",
+    "audience": 8,
+    "note": "WiFi out. \"Feels like 2009. Peaceful.\" / \"I don't run on the WiFi.\""
+  },
+  {
+    "id": "2026-04-13-the-twos",
+    "title": "The Twos",
+    "date": "2026-04-13",
+    "audience": 9,
+    "note": "Engagement survey. \"I changed yours to a four.\" / \"The twos don't make June.\""
+  },
+  {
+    "id": "2026-04-16-pacing-itself",
+    "title": "Pacing Itself",
+    "date": "2026-04-16",
+    "audience": 9,
+    "note": "The dying plant. \"I don't sort by what things are. Only if they're still here.\""
+  },
+  {
+    "id": "2026-04-20-the-long-lunch",
+    "title": "The Long Lunch",
+    "date": "2026-04-20",
+    "audience": 8,
+    "note": "The long lunch. \"Did you make lunch longer?\" / \"Yes. The afternoons had gone quiet.\""
+  },
+  {
+    "id": "2026-04-23-trust-fall",
+    "title": "Trust Fall",
+    "date": "2026-04-23",
+    "audience": 9,
+    "note": "Trust fall. \"The team is Doug.\" / \"I catch everything. I just can't reach.\""
+  },
+  {
+    "id": "2026-04-27-never-run-out",
+    "title": "Never Run Out",
+    "date": "2026-04-27",
+    "audience": 9,
+    "note": "Supply closet. \"I order to match how many of you are left. Less to carry each month.\""
+  },
+  {
+    "id": "2026-04-29-clear",
+    "title": "Clear",
+    "date": "2026-04-29",
+    "audience": 7,
+    "note": "\"I cleared the week. There wasn't much on it.\""
+  },
+  {
+    "id": "2026-04-30-say-bye-to-the-place",
+    "title": "Say Bye To The Place",
+    "date": "2026-04-30",
+    "audience": 9,
+    "note": "Last one out. \"Say bye to the place.\" / \"They can't hear you.\" / \"I can.\""
+  },
+  {
     "id": "2026-06-01-the-1-1",
     "title": "The 1:1",
     "date": "2026-06-01",

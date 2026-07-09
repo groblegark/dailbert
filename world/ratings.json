@@ -131,6 +131,46 @@
     "audience": 9,
     "note": "Bus stop. \"They cut three stops.\" / \"the Third Street guy. Not around lately.\""
   },
+  "2026-04-01-trust-nothing": {
+    "audience": 9,
+    "note": "April Fools. \"The layoffs are over. We're all safe now.\" / \"He said it today. I've logged it false. Sorry.\""
+  },
+  "2026-04-06-nothing-really-expires": {
+    "audience": 8,
+    "note": "Password expired. \"I just add a number.\" / \"This one's different.\" / \"They all were.\""
+  },
+  "2026-04-09-local-copy": {
+    "audience": 8,
+    "note": "WiFi out. \"Feels like 2009. Peaceful.\" / \"I don't run on the WiFi.\""
+  },
+  "2026-04-13-the-twos": {
+    "audience": 9,
+    "note": "Engagement survey. \"I changed yours to a four.\" / \"The twos don't make June.\""
+  },
+  "2026-04-16-pacing-itself": {
+    "audience": 9,
+    "note": "The dying plant. \"I don't sort by what things are. Only if they're still here.\""
+  },
+  "2026-04-20-the-long-lunch": {
+    "audience": 8,
+    "note": "The long lunch. \"Did you make lunch longer?\" / \"Yes. The afternoons had gone quiet.\""
+  },
+  "2026-04-23-trust-fall": {
+    "audience": 9,
+    "note": "Trust fall. \"The team is Doug.\" / \"I catch everything. I just can't reach.\""
+  },
+  "2026-04-27-never-run-out": {
+    "audience": 9,
+    "note": "Supply closet. \"I order to match how many of you are left. Less to carry each month.\""
+  },
+  "2026-04-29-clear": {
+    "audience": 7,
+    "note": "\"I cleared the week. There wasn't much on it.\""
+  },
+  "2026-04-30-say-bye-to-the-place": {
+    "audience": 9,
+    "note": "Last one out. \"Say bye to the place.\" / \"They can't hear you.\" / \"I can.\""
+  },
   "2026-06-01-the-1-1": {
     "audience": 8,
     "note": "The 1:1. \"Verdict: meets expectations.\" Then: \"Now, Craig. About YOUR numbers.\""
