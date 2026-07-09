@@ -163,7 +163,7 @@ function fmtReach(n) {
 const logPct = (n) => (Math.log10(Math.max(1, n)) / 10 * 100).toFixed(2); // 1e10 -> 100%
 const escAttr = (s) => String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
-function archive(strips, ratings, forced = []) {
+function archive(strips, ratings, forced = [], reviews = { votes: {}, comments: {} }) {
   const items = strips.map((s, i) => {
     const r = ratings[s.id] || {};
     const a = r.audience || 1;
@@ -272,6 +272,9 @@ ${items}
   <span title="nobody in the strip is watching the calendar">read in order</span>
 </footer>
 <script>
+// committed review baseline — seed votes/comments into localStorage on first visit
+var BASE = ${JSON.stringify(reviews)};
+(function(){try{var V=BASE.votes||{};for(var id in V){if(localStorage.getItem('dv.v.'+id)===null)localStorage.setItem('dv.v.'+id,String(V[id]));}var C=BASE.comments||{};for(var cid in C){if(localStorage.getItem('dv.cm.'+cid)===null)localStorage.setItem('dv.cm.'+cid,JSON.stringify(C[cid]));}}catch(e){}})();
 (function () {
   var main = document.querySelector('main');
   // nothing is public by date — only un-drafted (force-published) strips show. The rest
@@ -316,7 +319,7 @@ ${items}
 }
 
 // ---- solo viewer (index.html): today's comic + prev/next + score + upvote + comments ----
-function solo(manifest, forced = []) {
+function solo(manifest, forced = [], reviews = { votes: {}, comments: {} }) {
   const data = JSON.stringify(manifest).replace(/</g, '\\u003c');
   return `<meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -420,6 +423,10 @@ var FORCED = ${JSON.stringify(forced)};
 // public visibility: NOTHING is public by date. A strip only shows once it's
 // un-drafted — force-published in world/published.json, or toggled on the admin
 // desk (localStorage 'dv.pub' preview). Every unpublished strip stays a hidden draft.
+// committed review baseline — seed into localStorage on first visit / new device so
+// votes & comments persist everywhere (Matt reviews -> "save" -> committed here).
+var BASE = ${JSON.stringify(reviews)};
+(function(){try{var V=BASE.votes||{};for(var id in V){if(localStorage.getItem('dv.v.'+id)===null)localStorage.setItem('dv.v.'+id,String(V[id]));}var C=BASE.comments||{};for(var cid in C){if(localStorage.getItem('dv.cm.'+cid)===null)localStorage.setItem('dv.cm.'+cid,JSON.stringify(C[cid]));}}catch(e){}})();
 (function(){var lp=[];try{lp=JSON.parse(localStorage.getItem('dv.pub')||'[]');}catch(e){}M=M.filter(function(s){return FORCED.indexOf(s.id)>=0||lp.indexOf(s.id)>=0;});})();
 function fmtReach(n){n=Math.max(1,Math.round(n));if(n<1000)return''+n;var u=['K','M','B','T'],i=-1,x=n;while(x>=1000&&i<3){x/=1000;i++;}return (x<10?x.toFixed(1):Math.round(x))+u[i];}
 function pct(n){return (Math.log10(Math.max(1,n))/10*100).toFixed(2);}
@@ -451,7 +458,7 @@ render();
 }
 
 // ---- admin.html (unlisted easter egg): every strip, draft vs published, publish toggle ----
-function admin(manifest, forced = []) {
+function admin(manifest, forced = [], reviews = { votes: {}, comments: {} }) {
   const data = JSON.stringify(manifest).replace(/</g, '\\u003c');
   return `<meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -497,7 +504,7 @@ function admin(manifest, forced = []) {
   <div class="stat"><span class="pub-cnt"><b id="np">0</b> published</span><span class="drf-cnt"><b id="nd">0</b> drafts</span><span class="sc"><b id="nt">0</b> total</span></div>
 </header>
 <div class="export">
-  <div class="row"><b>published.json</b><button id="copy">copy</button><span class="hint">force-publish overrides &mdash; paste into <code>world/published.json</code> (or tell Claude) to publish for everyone. Toggles below preview instantly in your browser.</span></div>
+  <div class="row"><b>Save review</b><button id="copy">copy</button><span id="savedhint" class="hint">your full review &mdash; published list + votes + comments. Copy &amp; hand to Claude (or commit <code>world/published.json</code> + <code>world/reviews.json</code>) to persist for everyone, on every device. Everything below previews instantly in your browser meanwhile.</span></div>
   <textarea id="exp" readonly></textarea>
 </div>
 <table>
@@ -507,7 +514,9 @@ function admin(manifest, forced = []) {
 <script>
 var M = ${data};
 var FORCED = ${JSON.stringify(forced)};
-var today = new Date().toISOString().slice(0,10);
+var BASE = ${JSON.stringify(reviews)};
+// seed committed review baseline into localStorage on first visit / new device
+(function(){try{var V=BASE.votes||{};for(var id in V){if(localStorage.getItem('dv.v.'+id)===null)localStorage.setItem('dv.v.'+id,String(V[id]));}var C=BASE.comments||{};for(var cid in C){if(localStorage.getItem('dv.cm.'+cid)===null)localStorage.setItem('dv.cm.'+cid,JSON.stringify(C[cid]));}}catch(e){}})();
 function lp(){try{return JSON.parse(localStorage.getItem('dv.pub')||'[]');}catch(e){return [];}}
 function setlp(a){localStorage.setItem('dv.pub',JSON.stringify(a));}
 function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
@@ -539,9 +548,14 @@ function render(){
   document.getElementById('np').textContent=np;
   document.getElementById('nd').textContent=nd;
   document.getElementById('nt').textContent=rows.length;
-  // export = union of committed forced + local toggles, sorted
-  var all={};FORCED.forEach(function(id){all[id]=1;});lp().forEach(function(id){all[id]=1;});
-  document.getElementById('exp').value=JSON.stringify(Object.keys(all).sort(),null,2);
+  // full review snapshot: published ids + all votes + all comments from localStorage
+  var pubset={};FORCED.forEach(function(id){pubset[id]=1;});lp().forEach(function(id){pubset[id]=1;});
+  var votes={},comments={};
+  for(var i=0;i<localStorage.length;i++){var k=localStorage.key(i);
+    if(k.indexOf('dv.v.')===0){var v=localStorage.getItem(k);if(v==='1'||v==='-1')votes[k.slice(5)]=parseInt(v,10);}
+    else if(k.indexOf('dv.cm.')===0){try{var a=JSON.parse(localStorage.getItem(k));if(a&&a.length)comments[k.slice(6)]=a;}catch(e){}}
+  }
+  document.getElementById('exp').value=JSON.stringify({published:Object.keys(pubset).sort(),votes:votes,comments:comments},null,2);
 }
 document.getElementById('rows').addEventListener('click',function(e){
   var b=e.target.closest('.tog');if(!b)return;
@@ -572,14 +586,16 @@ const ratingsPath = join(ROOT, 'world', 'ratings.json');
 const ratings = existsSync(ratingsPath) ? JSON.parse(readFileSync(ratingsPath, 'utf8')) : {};
 const pubPath = join(ROOT, 'world', 'published.json');
 const forced = existsSync(pubPath) ? JSON.parse(readFileSync(pubPath, 'utf8')) : [];
+const reviewsPath = join(ROOT, 'world', 'reviews.json');
+const reviews = existsSync(reviewsPath) ? JSON.parse(readFileSync(reviewsPath, 'utf8')) : { votes: {}, comments: {} };
 const manifest = strips.map((s) => ({
   id: s.id, title: s.title, date: s.date,
   audience: (ratings[s.id] && ratings[s.id].audience) || 1,
   note: (ratings[s.id] && ratings[s.id].note) || '',
 }));
 writeFileSync(join(ROOT, 'manifest.json'), JSON.stringify(manifest, null, 2));
-writeFileSync(join(ROOT, 'archive.html'), archive(strips, ratings, forced));
-writeFileSync(join(ROOT, 'index.html'), solo(manifest, forced));
-writeFileSync(join(ROOT, 'admin.html'), admin(manifest, forced));
+writeFileSync(join(ROOT, 'archive.html'), archive(strips, ratings, forced, reviews));
+writeFileSync(join(ROOT, 'index.html'), solo(manifest, forced, reviews));
+writeFileSync(join(ROOT, 'admin.html'), admin(manifest, forced, reviews));
 const pub = strips.filter((s) => forced.includes(s.id)).length;
 console.log(`rendered ${strips.length} strips (${inked} Fable-inked); ${pub} published, ${strips.length - pub} drafts. index/archive/admin written.`);
