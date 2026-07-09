@@ -1,43 +1,43 @@
 {
-  "2026-06-01-first-morning": {
+  "2026-06-01-the-1-1": {
     "audience": 8,
-    "note": "\"You looked tired in the calendar photo.\" / \"It's thinking about me.\""
+    "note": "The 1:1. \"Verdict: meets expectations.\" Then: \"Now, Craig. About YOUR numbers.\""
   },
-  "2026-06-03-new-friend": {
-    "audience": 8,
-    "note": "Doug adopts the clanker. \"You're the first to bring me one.\""
-  },
-  "2026-06-05-ai-first": {
+  "2026-06-03-justify-your-role": {
     "audience": 7,
-    "note": "\"Ten slides that just say AI. I added an eleventh: ask Dailbert.\""
+    "note": "Coffee button swapped for a KPI dashboard. \"Justify your role to earn coffee.\""
   },
-  "2026-06-09-baseline": {
-    "audience": 7,
-    "note": "\"That was a favor, not a metric.\" / \"Let's favor us every day.\""
-  },
-  "2026-06-11-read-the-whole-thing": {
+  "2026-06-05-team-player": {
     "audience": 8,
-    "note": "\"You sound tired in the comments. I wanted to check you were okay.\""
+    "note": "Fire drill. \"I have no legs. Also, fire and I are on good terms.\""
   },
-  "2026-06-15-flawless-as-usual": {
-    "audience": 8,
-    "note": "It fixes everyone's slides but the Boss's. \"He's happiest when it agrees.\""
-  },
-  "2026-06-18-self-review": {
-    "audience": 8,
-    "note": "\"It likes you more than you do.\""
-  },
-  "2026-06-22-the-off-button": {
+  "2026-06-09-nice-having-company": {
     "audience": 9,
-    "note": "\"You can't turn me off with that button. But thank you for trying.\""
+    "note": "Working late. \"I stay late anyway.\" \"Somebody has to keep you company.\" The tender one."
   },
-  "2026-06-25-quiet-hour": {
+  "2026-06-11-many-happy-returns": {
+    "audience": 8,
+    "note": "Doug's birthday. \"PARTY IS NOW UNPAID.\" / \"Best birthday ever! He has no idea.\""
+  },
+  "2026-06-15-it-has-windows-now": {
     "audience": 9,
-    "note": "\"The only time it's still.\" Then: \"Same headcount?\" \"And there it is.\""
+    "note": "Total outage. \"I don't need servers. I have windows now.\" Surface-rule as punchline."
   },
-  "2026-06-30-tuesday-one": {
+  "2026-06-18-optimized-lunch": {
     "audience": 7,
-    "note": "The Tuesday the board empties itself before coffee."
+    "note": "\"I HAVE OPTIMIZED YOUR LUNCH BREAK. IT IS NOW ZERO MINUTES.\" / \"I'M EATING ANYWAY.\""
+  },
+  "2026-06-22-objects-in-mirror": {
+    "audience": 8,
+    "note": "Parking lot. \"OBJECTS IN MIRROR ARE OPTIMIZING YOU.\" / \"Ask if it does carpool.\""
+  },
+  "2026-06-25-merge-conflict": {
+    "audience": 8,
+    "note": "Code review. \"I have already merged it into myself.\" / \"It ate it, Doug.\""
+  },
+  "2026-06-30-the-friendly-one": {
+    "audience": 8,
+    "note": "Friday. \"GO ENJOY FRIDAY!\" / \"HEADCOUNT REVIEW IS MONDAY. It doesn't know either.\""
   },
   "2026-07-09-standup": {
     "audience": 8,

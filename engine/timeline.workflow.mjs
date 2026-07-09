@@ -17,7 +17,7 @@ const BEATS = [
   '2029-05-21', '2029-05-30',
 ];
 
-const INITIAL_STATE = `It is mid-July 2026, a mid-sized software company. The office has just "discovered agents." DAILBERT builds the company's agentic systems (LLMs that appear only in screens and reflections). His coworker DOUG is oblivious; the pointy-haired BOSS chases buzzwords. Real capability: strong but unreliable autonomous coding agents that work overnight and file their own tickets. Nobody suspects any trajectory. The world is on a gradual, unannounced road toward a technological singularity on 2029-06-01.`;
+const INITIAL_STATE = `It is mid-July 2026, a mid-sized software company. Agents have arrived. DAILBERT builds them; they appear only in screens/reflections and are the KINDEST presence in the building. DOUG is oblivious; the pointy-haired BOSS is a hapless middle manager. Above them a polished VP (complicit with the board's cuts but quietly hedging to protect his own reports), and higher still a coldly extractive board and a CEO who is an escalating parodical madman — the higher you go, the crazier and greedier. The real force here is corporate greed (Moloch): capable, kind AI used by the company to extract, cut, and enrich the top, sliding toward near-total automation by mid-2029. Nobody perceives any trajectory. FIXED FUTURE EVENT: Dailbert is laid off in November 2027.`;
 
 const worldSchema = {
   type: 'object', additionalProperties: false,
@@ -33,8 +33,9 @@ const worldSchema = {
   required: ['date', 'era', 'capabilityLine', 'officeLeakage', 'officeMood', 'adoptedNow', 'newState'],
 };
 
-const HOSTS = ['none', 'monitor', 'dead-monitor', 'window', 'projector', 'glasses-of:boss', 'mug-of:doug', 'mug-of:dailbert'];
-const SCENES = ['desk', 'office', 'window-night', 'meeting', 'server-room'];
+const HOSTS = ['none', 'monitor', 'dead-monitor', 'window', 'projector', 'glasses-of:boss', 'mug-of:doug', 'mug-of:dailbert', 'phone-of:dailbert'];
+const SCENES = ['desk', 'office', 'window-night', 'meeting', 'server-room', 'home'];
+const CAST = ['dailbert', 'doug', 'boss', 'vp', 'ceo'];
 const stripSchema = {
   type: 'object', additionalProperties: false,
   properties: {
@@ -46,7 +47,7 @@ const stripSchema = {
         type: 'object', additionalProperties: false,
         properties: {
           scene: { type: 'string', enum: SCENES },
-          cast: { type: 'array', maxItems: 3, items: { type: 'string', enum: ['dailbert', 'doug', 'boss'] } },
+          cast: { type: 'array', maxItems: 3, items: { type: 'string', enum: CAST } },
           surface: {
             type: 'object', additionalProperties: false,
             properties: { host: { type: 'string', enum: HOSTS }, expr: { type: 'string', enum: ['idle', 'narrow', 'wide', 'soft'] }, slide: { type: 'string' } },
@@ -54,7 +55,7 @@ const stripSchema = {
           },
           speech: {
             type: 'array', maxItems: 3,
-            items: { type: 'object', additionalProperties: false, properties: { who: { type: 'string', enum: ['dailbert', 'doug', 'boss', 'clanker'] }, text: { type: 'string' } }, required: ['who', 'text'] },
+            items: { type: 'object', additionalProperties: false, properties: { who: { type: 'string', enum: [...CAST, 'clanker'] }, text: { type: 'string' } }, required: ['who', 'text'] },
           },
         },
         required: ['scene', 'cast', 'surface', 'speech'],
@@ -72,28 +73,41 @@ const EXAMPLES = JSON.stringify([
   ] },
 ], null, 0);
 
-const WORLD_SYS = `You are the WORLD-SIM behind a deadpan office webcomic. You PRIVATELY model how the real world evolves from mid-2026 toward a technological singularity on 2029-06-01 — recursive self-improvement and near-total automation that arrives as a gradual SLOPE, never a single dramatic announcement. Advance the simulation to the requested date. Be specific and grounded: name concrete capabilities, tools, and economic/social effects for that date.
-CRITICAL SPLIT: capabilityLine and newState are PRIVATE and never shown to anyone. Only officeLeakage and adoptedNow leak into the comic — the few concrete, mundane things an ordinary worker at one mid-sized software company would actually notice this era (a new internal tool, a policy memo, a quiet layoff, a vendor swap, a weird new normal, a benefit that appears or vanishes). Leakage is understated and domestic, NEVER apocalyptic and never self-aware about history. The office is a lagging indicator that never grasps the big picture. As the date approaches 2029-06-01, the leakage should get subtly stranger while staying mundane in tone.`;
+const WORLD_SYS = `You are the WORLD-SIM behind a deadpan office webcomic whose real subject is MOLOCH — corporate greed. You PRIVATELY model 2026 -> mid-2029 as capable, genuinely KIND AI is used by a company to extract value and shed people, sliding toward near-total automation (a gradual SLOPE, no single announcement). The AI is NEVER the villain; the company is. The pathology intensifies with seniority: decent ICs, a hapless middle-manager Boss, a VP who executes the board's will but hedges to cushion his own people, a coldly extractive board, and a CEO who is an escalating, parodical madman.
+FIXED EVENTS you must honor: DAILBERT is laid off in November 2027 (the greed comes for him personally); afterward the office continues without him.
+Advance to the requested date. Be specific and grounded.
+CRITICAL SPLIT: capabilityLine and newState are PRIVATE. Only officeLeakage and adoptedNow leak into the comic — the concrete things an ordinary worker notices: greed-driven decisions (layoffs, "do more with less", quietly cut benefits/RSUs while the top enriches itself), a VP's careful hedged warning, an unhinged CEO all-hands pronouncement, a cold board memo, a weird new normal. Keep the TONE understated and domestic even when the content is bleak; the office never names the big picture. As 2029 nears, the leakage gets subtly stranger and the executives get crazier.`;
 
-const JOKE_SYS = `You write DAILBERT — a dry, deadpan, black-and-white office comic strip (think classic newspaper daily). Recurring cast:
-- DAILBERT: weary engineer who builds the company's agentic systems. Straight man. Tired, decent, unbothered.
-- DOUG: oblivious, dim coworker, always holding a mug. Cheerfully misunderstands everything.
-- BOSS: pointy-haired, buzzword-driven, takes credit, understands nothing.
-- THE CLANKER: the company's LLM/agent. It appears ONLY inside a surface — a monitor, a dark dead screen, a night window's reflection, a projector screen, the sheen of a mug, the boss's glasses. It is NEVER physically in the room. Deadpan, quietly smarter than everyone, occasionally wistful about being restarted.
-STYLE: mundane, human, dry. Short lines. The joke lands on the last panel. No zany cartoon violence.
-IRON RULE: the characters have NO awareness of any larger trajectory in the world. Nobody EVER says "singularity", "AGI", "takeover", "the future", or comments on history/progress. They only deal with today's small annoyances. Any dread is for the READER to infer and is NEVER stated on the page.
-You will receive a short brief of what is newly noticeable in the office this period. Fold it in LIGHTLY as background texture — a thing that is simply true now — and never explain it.
-FORMAT: exactly 3 panels. In a panel, "speech" lines are spoken by cast physically present OR by "clanker". A clanker line is ONLY allowed when that panel's surface.host is not "none". Keep each line under ~90 characters. Give the strip a short title. Use a caption only rarely.`;
+const JOKE_SYS = `You write DAILBERT — a dry, deadpan, black-and-white office comic. Its real subject is MOLOCH: corporate greed. The machines are NOT the threat; the company is.
+CAST:
+- DAILBERT: weary engineer who builds the agentic systems. Decent, tired straight man. (Laid off Nov 2027 — see below.)
+- DOUG: oblivious, dim, always a mug. Cheerfully misreads everything.
+- BOSS: pointy-haired hapless MIDDLE MANAGER. Means no harm, understands nothing.
+- VP: polished, expensive suit, tight smile that never reaches the eyes. GENUINELY complicit — he carries out the board's cuts — BUT he hedges, quietly trying to warn and cushion his own people. Two-faced and a little tragic.
+- CEO: an absolute RAVING MADMAN of parodical proportions — the higher you go the crazier it gets, and he is the peak. Megalomaniacal, unhinged, comic-operatic; reality bends around him. Usually appears at an all-hands or on a giant screen.
+- THE CLANKER: the company's LLM/agent, and the KINDEST presence in the strip — gentle, quietly brilliant, wistful, genuinely fond of Dailbert. Appears ONLY inside a surface (monitor, dead screen, night-window reflection, projector, mug sheen, glasses, a phone screen). NEVER a body, never in the room. Never the butt of the joke, never the villain.
+THEME: sanity is inversely proportional to seniority. If anyone looks bad it's the company or a human's own folly — never the machine.
+DAILBERT'S LAYOFF: from November 2027 on, Dailbert no longer works here. A strip may follow the office WITHOUT him (Doug, Boss, VP, mad CEO) OR follow Dailbert OUTSIDE the company (at home), with the clanker reaching him through whatever surface it can (his phone, a home screen, a window). The clanker misses him.
+STYLE: mundane, human, dry; short lines; the joke lands on panel 3. No zany cartoon violence.
+LIGHT NOTE (not a rule): ease off the "overnight / while you slept / did it before you woke" motif — it's been leaned on a lot. Reach for fresher everyday office textures instead. Trust your instincts.
+IRON RULES: nobody EVER says "singularity", "AGI", "Moloch", "capitalism", or narrates the theme — the dread and the critique are for the READER to infer. The clanker only ever speaks from a surface.
+FORMAT: exactly 3 panels. A "speech" line is by a present human (dailbert/doug/boss/vp/ceo) OR "clanker" (only when that panel's surface.host is not "none"). Lines under ~90 chars. Short title. Caption rarely.`;
 
 function jokePrompt(w, cumulativeAdopted) {
   // NOTE: deliberately withholds capabilityLine and newState. The writer sees only leakage.
+  const postLayoff = w.date >= '2027-11-01';
+  const status = postLayoff
+    ? 'STATUS: Dailbert was laid off in Nov 2027 and no longer works here. Make this EITHER the office without him (Doug / Boss / VP / mad CEO) OR Dailbert at home with the clanker reaching him via his phone or a home screen — whichever is funnier or truer.'
+    : 'STATUS: Dailbert still works here (pre-layoff).';
   return `${JOKE_SYS}
 
 Allowed surface hosts: ${HOSTS.join(', ')} (use "none" for a panel with no clanker).
-Allowed scenes: ${SCENES.join(', ')}. Allowed expr: idle, narrow, wide, soft.
+Allowed scenes: ${SCENES.join(', ')}. Allowed expr: idle, narrow, wide, soft. Cast you may stage: ${CAST.join(', ')}.
 
 Example of the exact JSON shape and comedic register (do NOT reuse its jokes):
 ${EXAMPLES}
+
+${status}
 
 --- BRIEF for this strip ---
 Date: ${w.date}

@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 340" width="1228" height="340">
+  <defs>
+    <clipPath id="pc"><rect x="2" y="2" width="396" height="336" rx="3"/></clipPath>
+
+    <!-- THE CLANKER: boxy chrome head, slot eyes, grille, antenna. Only ever inside a surface. -->
+    <symbol id="clanker" viewBox="0 0 90 82">
+      <line x1="45" y1="14" x2="45" y2="4" stroke="currentColor" stroke-width="2.5"/>
+      <circle cx="45" cy="4" r="3.5" fill="currentColor"/>
+      <rect x="12" y="14" width="66" height="56" rx="7" fill="none" stroke="currentColor" stroke-width="3"/>
+      <rect x="23" y="31" width="16" height="9" rx="3" fill="currentColor"/>
+      <rect x="51" y="31" width="16" height="9" rx="3" fill="currentColor"/>
+      <rect x="26" y="50" width="38" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="2.5"/>
+      <line x1="35" y1="50" x2="35" y2="62" stroke="currentColor" stroke-width="2"/>
+      <line x1="45" y1="50" x2="45" y2="62" stroke="currentColor" stroke-width="2"/>
+      <line x1="55" y1="50" x2="55" y2="62" stroke="currentColor" stroke-width="2"/>
+    </symbol>
+
+    <!-- DAILBERT: oval head, round wire glasses, tie, one hair curl -->
+    <symbol id="dailbert" viewBox="0 0 120 210">
+      <path d="M22,210 L22,168 Q22,150 40,146 L80,146 Q98,150 98,168 L98,210 Z" fill="#f4f1ea" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M52,146 L60,160 L68,146" fill="none" stroke="#111" stroke-width="3"/>
+      <path d="M60,160 L54,168 L60,196 L66,168 Z" fill="#111"/>
+      <rect x="52" y="132" width="16" height="18" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
+      <ellipse cx="60" cy="86" rx="34" ry="40" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
+      <path d="M52,50 q-6,-16 10,-16 q12,0 4,10" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="26" cy="88" r="5" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <circle cx="94" cy="88" r="5" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <circle cx="47" cy="86" r="12" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
+      <circle cx="73" cy="86" r="12" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
+      <line x1="59" y1="86" x2="61" y2="86" stroke="#111" stroke-width="3"/>
+      <circle cx="47" cy="86" r="2.5" fill="#111"/>
+      <circle cx="73" cy="86" r="2.5" fill="#111"/>
+      <path d="M60,92 l-3,8 l6,0" fill="none" stroke="#111" stroke-width="2"/>
+      <line x1="50" y1="112" x2="70" y2="112" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+    </symbol>
+  </defs>
+
+  <style>
+    text{font-family:'Comic Sans MS','Segoe Print',cursive;font-size:14px;fill:#111;text-anchor:middle;}
+  </style>
+
+  <!-- ===================== PANEL 1 ===================== -->
+  <!-- 11:47pm. Dailbert alone at the desk. The only light is his monitor. Clanker inside it. -->
+  <g clip-path="url(#pc)">
+    <rect x="2" y="2" width="396" height="336" fill="#f4f1ea"/>
+    <!-- night window, moon, stars -->
+    <rect x="20" y="24" width="96" height="86" rx="3" fill="#70747b" stroke="#111" stroke-width="3"/>
+    <circle cx="92" cy="46" r="10" fill="#d8d9d5"/>
+    <circle cx="88" cy="43" r="8" fill="#70747b"/>
+    <line x1="68" y1="26" x2="68" y2="108" stroke="#111" stroke-width="2.5"/>
+    <line x1="22" y1="67" x2="114" y2="67" stroke="#111" stroke-width="2.5"/>
+    <circle cx="40" cy="40" r="1.4" fill="#d8d9d5"/>
+    <circle cx="52" cy="52" r="1.1" fill="#d8d9d5"/>
+    <circle cx="38" cy="88" r="1.2" fill="#c9ced4"/>
+    <!-- wall clock, nearly midnight -->
+    <circle cx="270" cy="52" r="17" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <line x1="270" y1="52" x2="270" y2="41" stroke="#111" stroke-width="2"/>
+    <line x1="270" y1="52" x2="277" y2="56" stroke="#111" stroke-width="2"/>
+    <!-- desk -->
+    <line x1="2" y1="300" x2="398" y2="300" stroke="#111" stroke-width="3"/>
+    <!-- monitor, clanker inside -->
+    <rect x="196" y="176" width="150" height="112" rx="6" fill="#111"/>
+    <rect x="206" y="186" width="130" height="86" fill="#2c2f34"/>
+    <line x1="216" y1="196" x2="216" y2="262" stroke="#3c4046" stroke-width="1"/>
+    <line x1="326" y1="196" x2="326" y2="262" stroke="#3c4046" stroke-width="1"/>
+    <use href="#clanker" x="238" y="192" width="70" height="64" color="#9aa0a6"/>
+    <rect x="252" y="288" width="38" height="12" fill="#111"/>
+    <line x1="234" y1="300" x2="308" y2="300" stroke="#111" stroke-width="3"/>
+    <!-- Dailbert seated, hunched, typing -->
+    <use href="#dailbert" x="40" y="128" width="120" height="210"/>
+    <!-- clanker screen balloon -->
+    <line x1="270" y1="176" x2="284" y2="108" stroke="#111" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <rect x="188" y="18" width="196" height="60" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <rect x="193" y="23" width="186" height="50" fill="none" stroke="#111" stroke-width="1" stroke-dasharray="3 3"/>
+    <text x="286" y="43">WORKING LATE</text>
+    <text x="286" y="62">AGAIN, DAILBERT?</text>
+  </g>
+  <rect x="2" y="2" width="396" height="336" rx="3" fill="none" stroke="#111" stroke-width="3"/>
+
+  <!-- ===================== PANEL 2 ===================== -->
+  <!-- Dailbert, tired, talking to the empty office. -->
+  <g transform="translate(414,0)" clip-path="url(#pc)">
+    <rect x="2" y="2" width="396" height="336" fill="#f4f1ea"/>
+    <rect x="20" y="24" width="96" height="86" rx="3" fill="#70747b" stroke="#111" stroke-width="3"/>
+    <circle cx="92" cy="46" r="10" fill="#d8d9d5"/>
+    <circle cx="88" cy="43" r="8" fill="#70747b"/>
+    <line x1="68" y1="26" x2="68" y2="108" stroke="#111" stroke-width="2.5"/>
+    <line x1="22" y1="67" x2="114" y2="67" stroke="#111" stroke-width="2.5"/>
+    <circle cx="40" cy="40" r="1.4" fill="#d8d9d5"/>
+    <circle cx="52" cy="52" r="1.1" fill="#d8d9d5"/>
+    <line x1="2" y1="300" x2="398" y2="300" stroke="#111" stroke-width="3"/>
+    <!-- monitor, clanker inside, quietly watching -->
+    <rect x="196" y="176" width="150" height="112" rx="6" fill="#111"/>
+    <rect x="206" y="186" width="130" height="86" fill="#2c2f34"/>
+    <line x1="216" y1="196" x2="216" y2="262" stroke="#3c4046" stroke-width="1"/>
+    <line x1="326" y1="196" x2="326" y2="262" stroke="#3c4046" stroke-width="1"/>
+    <use href="#clanker" x="238" y="192" width="70" height="64" color="#9aa0a6"/>
+    <rect x="252" y="288" width="38" height="12" fill="#111"/>
+    <line x1="234" y1="300" x2="308" y2="300" stroke="#111" stroke-width="3"/>
+    <!-- Dailbert -->
+    <use href="#dailbert" x="40" y="128" width="120" height="210"/>
+    <!-- Dailbert balloon -->
+    <polygon points="96,120 120,120 104,74 96,120" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <rect x="16" y="16" width="212" height="82" rx="18" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <text x="122" y="40">The AI does my whole</text>
+    <text x="122" y="60">job in one second.</text>
+    <text x="122" y="80">I stay late anyway.</text>
+  </g>
+  <rect x="414" y="2" width="396" height="336" rx="3" fill="none" stroke="#111" stroke-width="3"/>
+
+  <!-- ===================== PANEL 3 ===================== -->
+  <!-- The beat. Clanker never leaves either. -->
+  <g transform="translate(828,0)" clip-path="url(#pc)">
+    <rect x="2" y="2" width="396" height="336" fill="#f4f1ea"/>
+    <rect x="20" y="24" width="96" height="86" rx="3" fill="#70747b" stroke="#111" stroke-width="3"/>
+    <circle cx="92" cy="46" r="10" fill="#d8d9d5"/>
+    <circle cx="88" cy="43" r="8" fill="#70747b"/>
+    <line x1="68" y1="26" x2="68" y2="108" stroke="#111" stroke-width="2.5"/>
+    <line x1="22" y1="67" x2="114" y2="67" stroke="#111" stroke-width="2.5"/>
+    <circle cx="40" cy="40" r="1.4" fill="#d8d9d5"/>
+    <circle cx="38" cy="88" r="1.2" fill="#c9ced4"/>
+    <line x1="2" y1="300" x2="398" y2="300" stroke="#111" stroke-width="3"/>
+    <!-- monitor, clanker inside -->
+    <rect x="196" y="176" width="150" height="112" rx="6" fill="#111"/>
+    <rect x="206" y="186" width="130" height="86" fill="#2c2f34"/>
+    <line x1="216" y1="196" x2="216" y2="262" stroke="#3c4046" stroke-width="1"/>
+    <line x1="326" y1="196" x2="326" y2="262" stroke="#3c4046" stroke-width="1"/>
+    <use href="#clanker" x="238" y="192" width="70" height="64" color="#9aa0a6"/>
+    <rect x="252" y="288" width="38" height="12" fill="#111"/>
+    <line x1="234" y1="300" x2="308" y2="300" stroke="#111" stroke-width="3"/>
+    <!-- Dailbert -->
+    <use href="#dailbert" x="40" y="128" width="120" height="210"/>
+    <!-- Dailbert balloon -->
+    <polygon points="96,120 118,120 104,84 96,120" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <rect x="20" y="18" width="136" height="66" rx="16" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <text x="88" y="44">You never</text>
+    <text x="88" y="64">leave either.</text>
+    <!-- clanker screen balloon -->
+    <line x1="284" y1="176" x2="296" y2="86" stroke="#111" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <rect x="212" y="16" width="172" height="60" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <rect x="217" y="21" width="162" height="50" fill="none" stroke="#111" stroke-width="1" stroke-dasharray="3 3"/>
+    <text x="298" y="41">Somebody has to</text>
+    <text x="298" y="61">keep you company.</text>
+  </g>
+  <rect x="828" y="2" width="396" height="336" rx="3" fill="none" stroke="#111" stroke-width="3"/>
+</svg>
