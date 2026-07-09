@@ -91,6 +91,46 @@
     "audience": 8,
     "note": "End of day. \"I put 'stayed late' in the log. It reads kinder that way.\""
   },
+  "2026-03-02-everyone-who-stays": {
+    "audience": 9,
+    "note": "Reorg rumor. \"Nobody who stays goes.\" / \"Everyone left is still here.\""
+  },
+  "2026-03-05-the-leanest-quarter": {
+    "audience": 9,
+    "note": "All-hands. \"I only removed things no one would miss. You'd tell me if I had. Right?\""
+  },
+  "2026-03-09-onboarding": {
+    "audience": 8,
+    "note": "The clanker does onboarding. \"It learned mine on a Tuesday.\""
+  },
+  "2026-03-12-fully-anonymous": {
+    "audience": 8,
+    "note": "Anonymous suggestion box. \"The anonymous ones tell me the most.\""
+  },
+  "2026-03-16-the-board-stays-tidy": {
+    "audience": 9,
+    "note": "Efficiency dashboard. Karen's row is grey. \"Grey rows I tidy away. More room around your name now.\""
+  },
+  "2026-03-19-you-re-not-alone": {
+    "audience": 8,
+    "note": "Lunch alone. \"Everyone eats at their desk now. You're not alone.\""
+  },
+  "2026-03-23-express-service": {
+    "audience": 9,
+    "note": "The elevator/bus. \"I stopped stopping where no one waits.\" / \"Fewer light up every week.\""
+  },
+  "2026-03-26-the-trust-fall": {
+    "audience": 8,
+    "note": "Trust fall. \"You won't need all of them. You never really did.\""
+  },
+  "2026-03-30-three-points-of-margin": {
+    "audience": 9,
+    "note": "Quarter-end. \"I removed the seats no work sat in.\" / \"My badge stopped working today.\" / \"I know. I'm sorry.\""
+  },
+  "2026-03-31-the-third-street-guy": {
+    "audience": 9,
+    "note": "Bus stop. \"They cut three stops.\" / \"the Third Street guy. Not around lately.\""
+  },
   "2026-06-01-the-1-1": {
     "audience": 8,
     "note": "The 1:1. \"Verdict: meets expectations.\" Then: \"Now, Craig. About YOUR numbers.\""

@@ -161,6 +161,76 @@
     "note": "End of day. \"I put 'stayed late' in the log. It reads kinder that way.\""
   },
   {
+    "id": "2026-03-02-everyone-who-stays",
+    "title": "Everyone Who Stays",
+    "date": "2026-03-02",
+    "audience": 9,
+    "note": "Reorg rumor. \"Nobody who stays goes.\" / \"Everyone left is still here.\""
+  },
+  {
+    "id": "2026-03-05-the-leanest-quarter",
+    "title": "The Leanest Quarter",
+    "date": "2026-03-05",
+    "audience": 9,
+    "note": "All-hands. \"I only removed things no one would miss. You'd tell me if I had. Right?\""
+  },
+  {
+    "id": "2026-03-09-onboarding",
+    "title": "Onboarding",
+    "date": "2026-03-09",
+    "audience": 8,
+    "note": "The clanker does onboarding. \"It learned mine on a Tuesday.\""
+  },
+  {
+    "id": "2026-03-12-fully-anonymous",
+    "title": "Fully Anonymous",
+    "date": "2026-03-12",
+    "audience": 8,
+    "note": "Anonymous suggestion box. \"The anonymous ones tell me the most.\""
+  },
+  {
+    "id": "2026-03-16-the-board-stays-tidy",
+    "title": "The Board Stays Tidy",
+    "date": "2026-03-16",
+    "audience": 9,
+    "note": "Efficiency dashboard. Karen's row is grey. \"Grey rows I tidy away. More room around your name now.\""
+  },
+  {
+    "id": "2026-03-19-you-re-not-alone",
+    "title": "You're Not Alone",
+    "date": "2026-03-19",
+    "audience": 8,
+    "note": "Lunch alone. \"Everyone eats at their desk now. You're not alone.\""
+  },
+  {
+    "id": "2026-03-23-express-service",
+    "title": "Express Service",
+    "date": "2026-03-23",
+    "audience": 9,
+    "note": "The elevator/bus. \"I stopped stopping where no one waits.\" / \"Fewer light up every week.\""
+  },
+  {
+    "id": "2026-03-26-the-trust-fall",
+    "title": "The Trust Fall",
+    "date": "2026-03-26",
+    "audience": 8,
+    "note": "Trust fall. \"You won't need all of them. You never really did.\""
+  },
+  {
+    "id": "2026-03-30-three-points-of-margin",
+    "title": "Three Points of Margin",
+    "date": "2026-03-30",
+    "audience": 9,
+    "note": "Quarter-end. \"I removed the seats no work sat in.\" / \"My badge stopped working today.\" / \"I know. I'm sorry.\""
+  },
+  {
+    "id": "2026-03-31-the-third-street-guy",
+    "title": "The Third Street Guy",
+    "date": "2026-03-31",
+    "audience": 9,
+    "note": "Bus stop. \"They cut three stops.\" / \"the Third Street guy. Not around lately.\""
+  },
+  {
     "id": "2026-06-01-the-1-1",
     "title": "The 1:1",
     "date": "2026-06-01",
