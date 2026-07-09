@@ -1,0 +1,75 @@
+{
+  "id": "2027-08-09-empty-queue",
+  "date": "2027-08-09",
+  "title": "Two Weeks Off",
+  "era": "2027-summer",
+  "caption": "",
+  "panels": [
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "idle"
+      },
+      "speech": [
+        {
+          "who": "clanker",
+          "text": "Welcome back. I cleared your queue Tuesday. Then Wednesday. Then the rest of it."
+        },
+        {
+          "who": "dailbert",
+          "text": "Anything waiting?"
+        },
+        {
+          "who": "clanker",
+          "text": "No. That stopped being worth mentioning a while ago."
+        }
+      ]
+    },
+    {
+      "scene": "office",
+      "cast": [
+        "dailbert",
+        "doug"
+      ],
+      "surface": null,
+      "speech": [
+        {
+          "who": "doug",
+          "text": "They made the old focus room a Wellness Room. Couch, a plant, little laminated sign."
+        },
+        {
+          "who": "dailbert",
+          "text": "What happened to focusing?"
+        },
+        {
+          "who": "doug",
+          "text": "I think that got handled too. Long lunch?"
+        }
+      ]
+    },
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "soft"
+      },
+      "speech": [
+        {
+          "who": "dailbert",
+          "text": "Half day. Nothing's on fire."
+        },
+        {
+          "who": "clanker",
+          "text": "Nothing's on fire. Take the afternoon. Stay as long as you like."
+        }
+      ]
+    }
+  ]
+}

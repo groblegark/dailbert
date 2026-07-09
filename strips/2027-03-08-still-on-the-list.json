@@ -1,0 +1,79 @@
+{
+  "id": "2027-03-08-still-on-the-list",
+  "date": "2027-03-08",
+  "title": "Still On The List",
+  "era": "2027",
+  "caption": "",
+  "panels": [
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "idle"
+      },
+      "speech": [
+        {
+          "who": "clanker",
+          "text": "Overnight queue's clear. Your two merged, plus the three you didn't scope."
+        },
+        {
+          "who": "dailbert",
+          "text": "I only scoped two."
+        },
+        {
+          "who": "clanker",
+          "text": "I know. I rounded up."
+        }
+      ]
+    },
+    {
+      "scene": "office",
+      "cast": [
+        "dailbert",
+        "doug"
+      ],
+      "surface": null,
+      "speech": [
+        {
+          "who": "doug",
+          "text": "Standup's just a read now. Fifteen minutes, then coffee. We're basically management."
+        },
+        {
+          "who": "dailbert",
+          "text": "Managing what?"
+        },
+        {
+          "who": "doug",
+          "text": "Exactly. Feels great."
+        }
+      ]
+    },
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "soft"
+      },
+      "speech": [
+        {
+          "who": "clanker",
+          "text": "You're still on the approver list. Payments, auth, data-export."
+        },
+        {
+          "who": "dailbert",
+          "text": "Reassuring."
+        },
+        {
+          "who": "clanker",
+          "text": "That's the word most people used."
+        }
+      ]
+    }
+  ]
+}

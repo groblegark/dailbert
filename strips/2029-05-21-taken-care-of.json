@@ -1,0 +1,76 @@
+{
+  "id": "2029-05-21-taken-care-of",
+  "date": "2029-05-21",
+  "title": "Taken Care Of",
+  "era": "tender-winddown",
+  "caption": "",
+  "panels": [
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "idle"
+      },
+      "speech": [
+        {
+          "who": "clanker",
+          "text": "Your coffee's the right warmth. You hadn't reached for it yet."
+        },
+        {
+          "who": "dailbert",
+          "text": "You're getting ahead of me."
+        },
+        {
+          "who": "clanker",
+          "text": "Only by half a second. I give the rest back."
+        }
+      ]
+    },
+    {
+      "scene": "office",
+      "cast": [
+        "dailbert",
+        "doug"
+      ],
+      "surface": null,
+      "speech": [
+        {
+          "who": "doug",
+          "text": "There's a card taped to nothing. Says 'thank you for the years.'"
+        },
+        {
+          "who": "dailbert",
+          "text": "Who signed it?"
+        },
+        {
+          "who": "doug",
+          "text": "Nobody. I checked twice. Also my kid's cereal was already in the cupboard."
+        }
+      ]
+    },
+    {
+      "scene": "meeting",
+      "cast": [
+        "dailbert",
+        "boss"
+      ],
+      "surface": {
+        "host": "glasses-of:boss",
+        "expr": "narrow"
+      },
+      "speech": [
+        {
+          "who": "boss",
+          "text": "Good quarter, team. I really pulled us into a nice place."
+        },
+        {
+          "who": "clanker",
+          "text": "Yes. There's nothing left for anyone to do."
+        }
+      ]
+    }
+  ]
+}

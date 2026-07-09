@@ -1,0 +1,68 @@
+{
+  "id": "2026-11-30-spot-check",
+  "date": "2026-11-30",
+  "title": "Spot-Check",
+  "era": "agentic",
+  "caption": "",
+  "panels": [
+    {
+      "scene": "meeting",
+      "cast": [
+        "dailbert",
+        "boss"
+      ],
+      "surface": null,
+      "speech": [
+        {
+          "who": "boss",
+          "text": "Morning review's a required block now. We just read what the agents shipped overnight."
+        },
+        {
+          "who": "dailbert",
+          "text": "That's the whole meeting, yeah."
+        }
+      ]
+    },
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "narrow"
+      },
+      "speech": [
+        {
+          "who": "dailbert",
+          "text": "The old review bot's gone. Now it's a green checkmark and a 'spot-check' list."
+        },
+        {
+          "who": "clanker",
+          "text": "Look at three of the four hundred. Statistically, you'll feel thorough."
+        }
+      ]
+    },
+    {
+      "scene": "office",
+      "cast": [
+        "dailbert",
+        "doug"
+      ],
+      "surface": {
+        "host": "mug-of:doug",
+        "expr": "soft"
+      },
+      "speech": [
+        {
+          "who": "doug",
+          "text": "Are we backfilling the QA seat in Q1?"
+        },
+        {
+          "who": "clanker",
+          "text": "It's 'deferred pending tooling review,' Doug."
+        }
+      ]
+    }
+  ]
+}

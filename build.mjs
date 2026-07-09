@@ -1,6 +1,6 @@
 // build.mjs — compose strip SVGs from content JSON, then render the gallery.
 // Run: node build.mjs
-import { readdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { readdirSync, readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import * as A from './lib/art.mjs';
@@ -101,18 +101,24 @@ function renderPanel(panel, idx) {
 }
 
 // ---- a whole strip (3 panels in a row) -> standalone svg file ----
-function renderStrip(strip) {
-  const panels = strip.panels.map((p, i) => renderPanel(p, i));
+// If a Fable-inked panels-row SVG is supplied (artInner: the inner markup of a
+// 1228x340 art.svg), it is used verbatim under the masthead; otherwise the
+// deterministic template renders the panels.
+function renderStrip(strip, artInner = null) {
   const gap = 14;
-  const totalW = strip.panels.length * PANEL.w + (strip.panels.length - 1) * gap;
+  const totalW = artInner ? 1228 : strip.panels.length * PANEL.w + (strip.panels.length - 1) * gap;
   const titleH = 40, capH = strip.caption ? 30 : 8;
   const H = titleH + PANEL.h + capH;
-  const panelsSvg = panels.map((p, i) => {
-    const x = i * (PANEL.w + gap);
-    // inline each panel svg's inner content translated
-    const inner = p.replace(/^\s*<svg[^>]*>/, '').replace(/<\/svg>\s*$/, '');
-    return `<g transform="translate(${x},${titleH})">${inner}</g>`;
-  }).join('');
+  let panelsSvg;
+  if (artInner) {
+    panelsSvg = `<g transform="translate(0,${titleH})">${artInner}</g>`;
+  } else {
+    panelsSvg = strip.panels.map((p, i) => renderPanel(p, i)).map((p, i) => {
+      const x = i * (PANEL.w + gap);
+      const inner = p.replace(/^\s*<svg[^>]*>/, '').replace(/<\/svg>\s*$/, '');
+      return `<g transform="translate(${x},${titleH})">${inner}</g>`;
+    }).join('');
+  }
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${totalW} ${H}" width="${totalW}" height="${H}" font-family="Georgia,serif">
     <rect width="${totalW}" height="${H}" fill="${PAPER}"/>
     <text x="4" y="26" font-family="Georgia,serif" font-weight="bold" font-size="22" fill="${INK}">${strip.title}</text>
@@ -193,6 +199,15 @@ ${items}
 
 // ---- go ----
 const strips = loadStrips();
-for (const s of strips) writeFileSync(join(ROOT, 'strips', `${s.id}.svg`), renderStrip(s));
+let inked = 0;
+for (const s of strips) {
+  const artPath = join(ROOT, 'strips', `${s.id}.art.svg`);
+  let artInner = null;
+  if (existsSync(artPath)) {
+    const raw = readFileSync(artPath, 'utf8');
+    if (/<svg[\s\S]*<\/svg>/.test(raw)) { artInner = raw.replace(/^[\s\S]*?<svg[^>]*>/, '').replace(/<\/svg>\s*$/, ''); inked++; }
+  }
+  writeFileSync(join(ROOT, 'strips', `${s.id}.svg`), renderStrip(s, artInner));
+}
 writeFileSync(join(ROOT, 'index.html'), gallery(strips));
-console.log(`rendered ${strips.length} strips -> strips/*.svg + index.html`);
+console.log(`rendered ${strips.length} strips (${inked} Fable-inked, ${strips.length - inked} template) -> strips/*.svg + index.html`);

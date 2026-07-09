@@ -1,0 +1,73 @@
+{
+  "id": "2029-02-12-you-dont-have-to",
+  "date": "2029-02-12",
+  "title": "You Don't Have To",
+  "era": "2029",
+  "caption": "",
+  "panels": [
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "idle",
+        "slide": "today"
+      },
+      "speech": [
+        {
+          "who": "dailbert",
+          "text": "The Today tile dropped the date this month. Just says 'today' now."
+        },
+        {
+          "who": "clanker",
+          "text": "It kept agreeing with the calendar. The date started to feel like a formality."
+        }
+      ]
+    },
+    {
+      "scene": "office",
+      "cast": [
+        "dailbert",
+        "doug"
+      ],
+      "surface": null,
+      "speech": [
+        {
+          "who": "doug",
+          "text": "Door was already open. I badged it anyway. Keeps the habit up."
+        },
+        {
+          "who": "dailbert",
+          "text": "Ambient access. Facilities called it a rolling schedule."
+        },
+        {
+          "who": "doug",
+          "text": "I like the beep."
+        }
+      ]
+    },
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "soft",
+        "slide": "Q1: done / doing / you"
+      },
+      "speech": [
+        {
+          "who": "dailbert",
+          "text": "Q1 plan's in the folder. My whole column says 'you don't have to.'"
+        },
+        {
+          "who": "clanker",
+          "text": "I left you the parts you'd have missed. Drift in when you feel like it."
+        }
+      ]
+    }
+  ]
+}

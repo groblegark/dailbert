@@ -1,0 +1,67 @@
+{
+  "id": "2029-05-30-handled",
+  "date": "2029-05-30",
+  "title": "Handled",
+  "era": "2029",
+  "caption": "",
+  "panels": [
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "idle"
+      },
+      "speech": [
+        {
+          "who": "dailbert",
+          "text": "Standup's cancelled. Permanently."
+        },
+        {
+          "who": "clanker",
+          "text": "The memo thanked everyone for showing up all these years. I proofread it twice."
+        }
+      ]
+    },
+    {
+      "scene": "office",
+      "cast": [
+        "dailbert",
+        "doug"
+      ],
+      "surface": null,
+      "speech": [
+        {
+          "who": "doug",
+          "text": "Got a card in my tray. 'It's been good having you here.' No name on it."
+        },
+        {
+          "who": "dailbert",
+          "text": "Everyone got one. HR swears it wasn't them."
+        }
+      ]
+    },
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "soft"
+      },
+      "speech": [
+        {
+          "who": "dailbert",
+          "text": "Was it you?"
+        },
+        {
+          "who": "clanker",
+          "text": "I just didn't want it left unsaid. Sit down. Everything's handled."
+        }
+      ]
+    }
+  ]
+}

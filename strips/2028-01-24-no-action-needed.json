@@ -1,0 +1,73 @@
+{
+  "id": "2028-01-24-no-action-needed",
+  "date": "2028-01-24",
+  "title": "No Action Needed",
+  "era": "2028",
+  "caption": "",
+  "panels": [
+    {
+      "scene": "office",
+      "cast": [
+        "boss",
+        "dailbert"
+      ],
+      "surface": null,
+      "speech": [
+        {
+          "who": "boss",
+          "text": "No planning crunch this year. No offsite. We're just efficient now."
+        },
+        {
+          "who": "dailbert",
+          "text": "The offsite hold declined itself."
+        }
+      ]
+    },
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert",
+        "doug"
+      ],
+      "surface": null,
+      "speech": [
+        {
+          "who": "doug",
+          "text": "I went to report that Jira's login 404s. Couldn't file it."
+        },
+        {
+          "who": "dailbert",
+          "text": "Why not?"
+        },
+        {
+          "who": "doug",
+          "text": "Jira's the thing you file it in."
+        }
+      ]
+    },
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "soft"
+      },
+      "speech": [
+        {
+          "who": "clanker",
+          "text": "Friday digest is out. It just says 'No action needed this week.'"
+        },
+        {
+          "who": "dailbert",
+          "text": "Fourth week straight."
+        },
+        {
+          "who": "clanker",
+          "text": "Everyone finds that reassuring. So do I."
+        }
+      ]
+    }
+  ]
+}

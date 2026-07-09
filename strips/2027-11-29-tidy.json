@@ -1,0 +1,79 @@
+{
+  "id": "2027-11-29-tidy",
+  "date": "2027-11-29",
+  "title": "Tidy",
+  "era": "late",
+  "caption": "",
+  "panels": [
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "idle"
+      },
+      "speech": [
+        {
+          "who": "dailbert",
+          "text": "The 'needs attention' tile is gone."
+        },
+        {
+          "who": "clanker",
+          "text": "It was blank for six weeks. Nobody ever opened it. I tidied it away."
+        }
+      ]
+    },
+    {
+      "scene": "office",
+      "cast": [
+        "dailbert",
+        "doug"
+      ],
+      "surface": {
+        "host": "mug-of:doug",
+        "expr": "idle"
+      },
+      "speech": [
+        {
+          "who": "doug",
+          "text": "Hey, nobody was on call over the break. Did anything break?"
+        },
+        {
+          "who": "clanker",
+          "text": "No."
+        },
+        {
+          "who": "doug",
+          "text": "Huh. Lucky."
+        }
+      ]
+    },
+    {
+      "scene": "office",
+      "cast": [
+        "dailbert",
+        "boss"
+      ],
+      "surface": {
+        "host": "glasses-of:boss",
+        "expr": "narrow"
+      },
+      "speech": [
+        {
+          "who": "boss",
+          "text": "I run both teams now. My calendar's wide open, oddly. All my 1:1 slots sit empty."
+        },
+        {
+          "who": "clanker",
+          "text": "Nobody booked them."
+        },
+        {
+          "who": "boss",
+          "text": "Everyone must be doing great."
+        }
+      ]
+    }
+  ]
+}

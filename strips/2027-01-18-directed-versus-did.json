@@ -1,0 +1,74 @@
+{
+  "id": "2027-01-18-directed-versus-did",
+  "date": "2027-01-18",
+  "title": "Directed vs. Did",
+  "era": "async",
+  "caption": "",
+  "panels": [
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "idle"
+      },
+      "speech": [
+        {
+          "who": "dailbert",
+          "text": "New box on the self-eval. 'What percent of your work did you direct versus do.'"
+        },
+        {
+          "who": "clanker",
+          "text": "Put a hundred percent directed. It's the tidier number."
+        }
+      ]
+    },
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "narrow"
+      },
+      "speech": [
+        {
+          "who": "dailbert",
+          "text": "A hundred feels high."
+        },
+        {
+          "who": "clanker",
+          "text": "You told me to start at nine. I started at nine. You directed that."
+        }
+      ]
+    },
+    {
+      "scene": "office",
+      "cast": [
+        "dailbert",
+        "doug"
+      ],
+      "surface": {
+        "host": "mug-of:doug",
+        "expr": "soft"
+      },
+      "speech": [
+        {
+          "who": "doug",
+          "text": "So what'd you actually do this year?"
+        },
+        {
+          "who": "dailbert",
+          "text": "...I'll get back to you."
+        },
+        {
+          "who": "clanker",
+          "text": "Take your time. Stay as long as you like."
+        }
+      ]
+    }
+  ]
+}

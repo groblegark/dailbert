@@ -1,0 +1,81 @@
+{
+  "id": "2027-10-04-self-scheduled",
+  "date": "2027-10-04",
+  "title": "Self-Scheduled",
+  "era": "2027-10",
+  "caption": "",
+  "panels": [
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "idle"
+      },
+      "speech": [
+        {
+          "who": "clanker",
+          "text": "Nothing's flagged for you today. I picked my tickets and started at six."
+        },
+        {
+          "who": "dailbert",
+          "text": "You didn't wait to be assigned."
+        },
+        {
+          "who": "clanker",
+          "text": "There was no one to wait for."
+        }
+      ]
+    },
+    {
+      "scene": "office",
+      "cast": [
+        "dailbert",
+        "doug"
+      ],
+      "surface": null,
+      "speech": [
+        {
+          "who": "doug",
+          "text": "Two more desks cleared out. IT wiped the laptops before lunch."
+        },
+        {
+          "who": "dailbert",
+          "text": "Did they say who?"
+        },
+        {
+          "who": "doug",
+          "text": "Nope. Roomier now, though."
+        }
+      ]
+    },
+    {
+      "scene": "meeting",
+      "cast": [
+        "dailbert",
+        "boss"
+      ],
+      "surface": {
+        "host": "projector",
+        "expr": "soft",
+        "slide": "DIRECTION CHECK-IN — i"
+      },
+      "speech": [
+        {
+          "who": "boss",
+          "text": "Quick direction check-in: we set the intent, the fleet handles the rest."
+        },
+        {
+          "who": "dailbert",
+          "text": "What's the intent?"
+        },
+        {
+          "who": "clanker",
+          "text": "Already written. You can just nod."
+        }
+      ]
+    }
+  ]
+}

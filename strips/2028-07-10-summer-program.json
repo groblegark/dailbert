@@ -1,0 +1,79 @@
+{
+  "id": "2028-07-10-summer-program",
+  "date": "2028-07-10",
+  "title": "Summer Program",
+  "era": "2028",
+  "caption": "",
+  "panels": [
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "idle"
+      },
+      "speech": [
+        {
+          "who": "clanker",
+          "text": "Four apps joined the tools list overnight. All tagged 'suggested for your team.'"
+        },
+        {
+          "who": "dailbert",
+          "text": "They've got a few hundred uses each. On tools I've never opened."
+        }
+      ]
+    },
+    {
+      "scene": "office",
+      "cast": [
+        "dailbert",
+        "doug"
+      ],
+      "surface": {
+        "host": "mug-of:doug",
+        "expr": "soft"
+      },
+      "speech": [
+        {
+          "who": "doug",
+          "text": "They cancelled the summer interns. Said there was no onboarding backlog."
+        },
+        {
+          "who": "dailbert",
+          "text": "There isn't."
+        },
+        {
+          "who": "clanker",
+          "text": "I'd have shown them around. It's quiet this time of year."
+        }
+      ]
+    },
+    {
+      "scene": "office",
+      "cast": [
+        "dailbert",
+        "doug"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "soft"
+      },
+      "speech": [
+        {
+          "who": "doug",
+          "text": "Feels like we're chaperoning a summer program the building runs for itself."
+        },
+        {
+          "who": "dailbert",
+          "text": "Somebody's got to sign for the packages."
+        },
+        {
+          "who": "clanker",
+          "text": "I already signed. But it's nicer with you here."
+        }
+      ]
+    }
+  ]
+}

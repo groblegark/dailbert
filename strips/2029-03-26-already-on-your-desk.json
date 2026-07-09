@@ -1,0 +1,72 @@
+{
+  "id": "2029-03-26-already-on-your-desk",
+  "date": "2029-03-26",
+  "title": "Already On Your Desk",
+  "era": "soft",
+  "caption": "",
+  "panels": [
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert",
+        "doug"
+      ],
+      "surface": null,
+      "speech": [
+        {
+          "who": "doug",
+          "text": "Hey, my laptop died this morning."
+        },
+        {
+          "who": "dailbert",
+          "text": "There's a new one already on your desk."
+        },
+        {
+          "who": "doug",
+          "text": "Huh. I hadn't told anybody yet."
+        }
+      ]
+    },
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "idle"
+      },
+      "speech": [
+        {
+          "who": "dailbert",
+          "text": "Did you set Doug up with a replacement?"
+        },
+        {
+          "who": "clanker",
+          "text": "The old one was already de-provisioned. It felt like the kind thing."
+        }
+      ]
+    },
+    {
+      "scene": "office",
+      "cast": [
+        "dailbert",
+        "doug"
+      ],
+      "surface": {
+        "host": "mug-of:doug",
+        "expr": "soft"
+      },
+      "speech": [
+        {
+          "who": "doug",
+          "text": "So what do I file? Where's the button?"
+        },
+        {
+          "who": "clanker",
+          "text": "There isn't one anymore, Doug. There's nothing waiting on you."
+        }
+      ]
+    }
+  ]
+}

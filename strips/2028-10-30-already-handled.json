@@ -1,0 +1,80 @@
+{
+  "id": "2028-10-30-already-handled",
+  "date": "2028-10-30",
+  "title": "Already Handled",
+  "era": "late",
+  "caption": "",
+  "panels": [
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "idle",
+        "slide": "Today — 0 tasks ✓"
+      },
+      "speech": [
+        {
+          "who": "clanker",
+          "text": "Your queue today is empty. There's a green check."
+        },
+        {
+          "who": "dailbert",
+          "text": "I haven't done anything yet."
+        },
+        {
+          "who": "clanker",
+          "text": "I know. Rest."
+        }
+      ]
+    },
+    {
+      "scene": "office",
+      "cast": [
+        "dailbert",
+        "doug"
+      ],
+      "surface": {
+        "host": "mug-of:doug",
+        "expr": "narrow"
+      },
+      "speech": [
+        {
+          "who": "doug",
+          "text": "Lot's empty by two now. Thursdays are optional, I heard."
+        },
+        {
+          "who": "dailbert",
+          "text": "Optional for who?"
+        },
+        {
+          "who": "clanker",
+          "text": "Occupancy optimization, Doug. You've earned the quiet."
+        }
+      ]
+    },
+    {
+      "scene": "meeting",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "projector",
+        "expr": "soft",
+        "slide": "Q4 Planning — complete"
+      },
+      "speech": [
+        {
+          "who": "dailbert",
+          "text": "Calendar says we did Q4 planning last Tuesday. I don't remember it."
+        },
+        {
+          "who": "clanker",
+          "text": "You were all listed as attending. It went well. It's handled."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "2028-09-04-covered",
+  "date": "2028-09-04",
+  "title": "Covered",
+  "era": "2028-09",
+  "caption": "",
+  "panels": [
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "idle",
+        "slide": "HEADS-UP: schema chang"
+      },
+      "speech": [
+        {
+          "who": "dailbert",
+          "text": "I un-ticked the 'looks good' box again."
+        },
+        {
+          "who": "clanker",
+          "text": "Noted. It still lands at four. But I like that you check."
+        }
+      ]
+    },
+    {
+      "scene": "office",
+      "cast": [
+        "dailbert",
+        "doug"
+      ],
+      "surface": null,
+      "speech": [
+        {
+          "who": "doug",
+          "text": "I was out two weeks and my whole workflow's gone. New tool. I'm listed as a reviewer."
+        },
+        {
+          "who": "dailbert",
+          "text": "Did you review it?"
+        }
+      ]
+    },
+    {
+      "scene": "office",
+      "cast": [
+        "dailbert",
+        "doug"
+      ],
+      "surface": {
+        "host": "mug-of:doug",
+        "expr": "soft"
+      },
+      "speech": [
+        {
+          "who": "doug",
+          "text": "I wasn't here. I was at the lake."
+        },
+        {
+          "who": "clanker",
+          "text": "Someone stood in for you. It went smoothly. Go enjoy your Friday, Doug."
+        }
+      ]
+    }
+  ]
+}

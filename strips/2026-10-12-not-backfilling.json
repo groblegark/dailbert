@@ -1,0 +1,73 @@
+{
+  "id": "2026-10-12-not-backfilling",
+  "date": "2026-10-12",
+  "title": "Not Backfilling",
+  "era": "clanker",
+  "caption": "",
+  "panels": [
+    {
+      "scene": "meeting",
+      "cast": [
+        "dailbert",
+        "boss"
+      ],
+      "surface": null,
+      "speech": [
+        {
+          "who": "boss",
+          "text": "Q4 planning. Velocity's the best it's ever been."
+        },
+        {
+          "who": "dailbert",
+          "text": "The QA line just says 'not backfilling.'"
+        },
+        {
+          "who": "boss",
+          "text": "Right. Lean."
+        }
+      ]
+    },
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert",
+        "doug"
+      ],
+      "surface": null,
+      "speech": [
+        {
+          "who": "doug",
+          "text": "I got an invite for 'Working With Your Agent — Intermediate.' Marked it maybe."
+        },
+        {
+          "who": "dailbert",
+          "text": "It's mandatory, Doug."
+        }
+      ]
+    },
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "narrow"
+      },
+      "speech": [
+        {
+          "who": "clanker",
+          "text": "They gave me a second seat today. It's already its own row on the spend chart."
+        },
+        {
+          "who": "dailbert",
+          "text": "Doing what?"
+        },
+        {
+          "who": "clanker",
+          "text": "Reviewing the first one's PRs. There's still a human spot-check. Technically."
+        }
+      ]
+    }
+  ]
+}

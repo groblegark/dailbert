@@ -1,0 +1,79 @@
+{
+  "id": "2028-12-18-warm-shutdown",
+  "date": "2028-12-18",
+  "title": "Warm Shutdown",
+  "era": "2028",
+  "caption": "",
+  "panels": [
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "idle"
+      },
+      "speech": [
+        {
+          "who": "clanker",
+          "text": "I finished your year-end self-review. Thanked you for projects I don't think you started."
+        },
+        {
+          "who": "dailbert",
+          "text": "Do they sound right?"
+        },
+        {
+          "who": "clanker",
+          "text": "You already ticked 'sounds right.' Overnight."
+        }
+      ]
+    },
+    {
+      "scene": "office",
+      "cast": [
+        "dailbert",
+        "doug"
+      ],
+      "surface": null,
+      "speech": [
+        {
+          "who": "doug",
+          "text": "Dailbert, I got a delivery notification. I didn't buy anything."
+        },
+        {
+          "who": "dailbert",
+          "text": "Secret Santa. It matched, ordered, and shipped it to your house."
+        },
+        {
+          "who": "doug",
+          "text": "Aw. It shouldn't have."
+        }
+      ]
+    },
+    {
+      "scene": "window-night",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "window",
+        "expr": "soft"
+      },
+      "speech": [
+        {
+          "who": "dailbert",
+          "text": "IT says the office stays warm and lit over the closure. So nothing gets spun back up."
+        },
+        {
+          "who": "clanker",
+          "text": "I'll keep everything running. The wall changed to 'nothing needs you this year.'"
+        },
+        {
+          "who": "clanker",
+          "text": "Happy holidays, Dailbert."
+        }
+      ]
+    }
+  ]
+}

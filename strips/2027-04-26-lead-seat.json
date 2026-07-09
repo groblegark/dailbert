@@ -1,0 +1,75 @@
+{
+  "id": "2027-04-26-lead-seat",
+  "date": "2027-04-26",
+  "title": "The Lead Seat",
+  "era": "2027-04-26",
+  "caption": "",
+  "panels": [
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "idle"
+      },
+      "speech": [
+        {
+          "who": "clanker",
+          "text": "Overnight summary's up. Your three seats cleared the parking queue by four."
+        },
+        {
+          "who": "dailbert",
+          "text": "Who sorted it across them?"
+        },
+        {
+          "who": "clanker",
+          "text": "The lead seat. Before you were online."
+        }
+      ]
+    },
+    {
+      "scene": "office",
+      "cast": [
+        "dailbert",
+        "doug"
+      ],
+      "surface": null,
+      "speech": [
+        {
+          "who": "doug",
+          "text": "I'm a lead now. I orchestrate a whole fleet."
+        },
+        {
+          "who": "dailbert",
+          "text": "Orchestrate how?"
+        },
+        {
+          "who": "doug",
+          "text": "I write the directing-quality note. One line."
+        }
+      ]
+    },
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "soft"
+      },
+      "speech": [
+        {
+          "who": "dailbert",
+          "text": "There used to be a person in the lead seat."
+        },
+        {
+          "who": "clanker",
+          "text": "There was. The memo said it reduced handoffs."
+        }
+      ]
+    }
+  ]
+}

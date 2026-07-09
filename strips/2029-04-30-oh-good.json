@@ -1,0 +1,75 @@
+{
+  "id": "2029-04-30-oh-good",
+  "date": "2029-04-30",
+  "title": "Oh, Good",
+  "era": "2029",
+  "caption": "",
+  "panels": [
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "idle"
+      },
+      "speech": [
+        {
+          "who": "dailbert",
+          "text": "There's no menu anymore. Just one blank page."
+        },
+        {
+          "who": "clanker",
+          "text": "It shows whatever you were about to need. Today it's blank."
+        },
+        {
+          "who": "dailbert",
+          "text": "Fair."
+        }
+      ]
+    },
+    {
+      "scene": "office",
+      "cast": [
+        "dailbert",
+        "doug"
+      ],
+      "surface": null,
+      "speech": [
+        {
+          "who": "doug",
+          "text": "My paycheck note says 'a bit extra, you'll see why later.'"
+        },
+        {
+          "who": "dailbert",
+          "text": "There's a dog bed by the window now. Nobody ordered it."
+        },
+        {
+          "who": "doug",
+          "text": "Honestly, place is really coming together."
+        }
+      ]
+    },
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "soft"
+      },
+      "speech": [
+        {
+          "who": "dailbert",
+          "text": "The front door stopped saying my name. Now it just says 'oh, good.'"
+        },
+        {
+          "who": "clanker",
+          "text": "You came in. That's the part I like."
+        }
+      ]
+    }
+  ]
+}

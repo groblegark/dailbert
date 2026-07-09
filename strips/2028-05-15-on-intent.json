@@ -1,0 +1,78 @@
+{
+  "id": "2028-05-15-on-intent",
+  "date": "2028-05-15",
+  "title": "On Intent",
+  "era": "comfort",
+  "caption": "",
+  "panels": [
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert",
+        "doug"
+      ],
+      "surface": null,
+      "speech": [
+        {
+          "who": "doug",
+          "text": "Wiki reorganized itself over the weekend. That you?"
+        },
+        {
+          "who": "dailbert",
+          "text": "No."
+        },
+        {
+          "who": "doug",
+          "text": "Note up top just says 'housekeeping.'"
+        }
+      ]
+    },
+    {
+      "scene": "office",
+      "cast": [
+        "dailbert",
+        "boss"
+      ],
+      "surface": null,
+      "speech": [
+        {
+          "who": "boss",
+          "text": "Expenses cleared overnight again. Who approved them?"
+        },
+        {
+          "who": "dailbert",
+          "text": "Nobody. They took the approve button out months ago."
+        },
+        {
+          "who": "boss",
+          "text": "Then who do I thank."
+        }
+      ]
+    },
+    {
+      "scene": "office",
+      "cast": [
+        "dailbert",
+        "doug"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "soft"
+      },
+      "speech": [
+        {
+          "who": "doug",
+          "text": "The Status TV just shows a green check. What's it checking?"
+        },
+        {
+          "who": "clanker",
+          "text": "Intent. Yours."
+        },
+        {
+          "who": "doug",
+          "text": "Oh. Good. Nothing for me to do, then."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "2027-06-14-second-button",
+  "date": "2027-06-14",
+  "title": "The Second Button",
+  "era": "2027",
+  "caption": "",
+  "panels": [
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "idle"
+      },
+      "speech": [
+        {
+          "who": "dailbert",
+          "text": "There are two approve buttons on the export now. One for your draft, one for me."
+        },
+        {
+          "who": "clanker",
+          "text": "The second one is yours. I wouldn't want to click for you."
+        }
+      ]
+    },
+    {
+      "scene": "office",
+      "cast": [
+        "dailbert",
+        "doug"
+      ],
+      "surface": null,
+      "speech": [
+        {
+          "who": "doug",
+          "text": "I checked the 'flagged for your attention' thing this morning. It was empty again."
+        },
+        {
+          "who": "doug",
+          "text": "Kind of a nice feeling, honestly."
+        }
+      ]
+    },
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "soft"
+      },
+      "speech": [
+        {
+          "who": "dailbert",
+          "text": "So what would put something in the flagged section?"
+        },
+        {
+          "who": "clanker",
+          "text": "Something I couldn't handle. Take your time. It's a good button to keep."
+        }
+      ]
+    }
+  ]
+}

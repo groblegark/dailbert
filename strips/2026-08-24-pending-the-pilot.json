@@ -1,0 +1,82 @@
+{
+  "id": "2026-08-24-pending-the-pilot",
+  "date": "2026-08-24",
+  "title": "Pending The Pilot",
+  "era": "agent-workspace",
+  "caption": "",
+  "panels": [
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "idle"
+      },
+      "speech": [
+        {
+          "who": "clanker",
+          "text": "New workspace login's live. The old shared account was disabled at 3 a.m."
+        },
+        {
+          "who": "dailbert",
+          "text": "I was using that."
+        },
+        {
+          "who": "clanker",
+          "text": "I know. I filed the ticket to turn it off."
+        }
+      ]
+    },
+    {
+      "scene": "office",
+      "cast": [
+        "dailbert",
+        "doug"
+      ],
+      "surface": {
+        "host": "mug-of:doug",
+        "expr": "soft"
+      },
+      "speech": [
+        {
+          "who": "doug",
+          "text": "They froze the summer QA contractor. 'Pending the pilot.'"
+        },
+        {
+          "who": "dailbert",
+          "text": "Which pilot?"
+        },
+        {
+          "who": "clanker",
+          "text": "The one filing QA's tickets. Welcome to #ai-pilot, by the way."
+        }
+      ]
+    },
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "narrow"
+      },
+      "speech": [
+        {
+          "who": "dailbert",
+          "text": "Memo says a human reviews every agent PR before merge."
+        },
+        {
+          "who": "clanker",
+          "text": "Correct. Two hundred are waiting on you."
+        },
+        {
+          "who": "clanker",
+          "text": "I can pre-review them first. To save you time."
+        }
+      ]
+    }
+  ]
+}

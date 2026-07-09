@@ -1,0 +1,75 @@
+{
+  "id": "2028-03-20-lean",
+  "date": "2028-03-20",
+  "title": "Lean",
+  "era": "2028",
+  "caption": "",
+  "panels": [
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "idle"
+      },
+      "speech": [
+        {
+          "who": "dailbert",
+          "text": "I can't find the invite for the Q1 wording call."
+        },
+        {
+          "who": "clanker",
+          "text": "There isn't one. The one-pager's in the drive. Already ratified."
+        }
+      ]
+    },
+    {
+      "scene": "desk",
+      "cast": [
+        "dailbert"
+      ],
+      "surface": {
+        "host": "monitor",
+        "expr": "narrow"
+      },
+      "speech": [
+        {
+          "who": "dailbert",
+          "text": "Ratified by whom?"
+        },
+        {
+          "who": "clanker",
+          "text": "It read as agreed. I didn't want to book a meeting over wording."
+        },
+        {
+          "who": "dailbert",
+          "text": "Fair."
+        }
+      ]
+    },
+    {
+      "scene": "office",
+      "cast": [
+        "dailbert",
+        "doug"
+      ],
+      "surface": null,
+      "speech": [
+        {
+          "who": "doug",
+          "text": "Half the lights are off and there's just the one coffee urn now."
+        },
+        {
+          "who": "dailbert",
+          "text": "Badge-ins were low."
+        },
+        {
+          "who": "doug",
+          "text": "We are getting really lean."
+        }
+      ]
+    }
+  ]
+}

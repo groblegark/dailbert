@@ -1,0 +1,234 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 388" width="1228" height="388" font-family="Georgia,serif">
+    <rect width="1228" height="388" fill="#f4f1ea"/>
+    <text x="4" y="26" font-family="Georgia,serif" font-weight="bold" font-size="22" fill="#111">Two Weeks Off</text>
+    <text x="1224" y="26" text-anchor="end" font-family="'Courier New',monospace" font-size="14" fill="#111" opacity="0.7">2027-08-09</text>
+    <line x1="4" y1="34" x2="1224" y2="34" stroke="#111" stroke-width="2"/>
+    <g transform="translate(0,40)">
+    
+  <defs>
+    <pattern id="halftone" width="6" height="6" patternUnits="userSpaceOnUse">
+      <rect width="6" height="6" fill="#f4f1ea"/>
+      <circle cx="3" cy="3" r="1.1" fill="#111"/>
+    </pattern>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="none"/>
+      <line x1="0" y1="0" x2="4" y2="0" stroke="#111" stroke-width="0.6" opacity="0.5"/>
+    </pattern>
+    <pattern id="hatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="7" stroke="#111" stroke-width="1"/>
+    </pattern>
+  </defs>
+    <rect x="1.5" y="1.5" width="397" height="337" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
+    <line x1="16" y1="302" x2="384" y2="302" stroke="#111" stroke-width="1.4" opacity="0.35"/><g transform="translate(268,342) scale(0.62) translate(-268,-342)"><g data-who="dailbert">
+    <!-- shoulders / shirt -->
+    <path d="M 190 342 Q 194 246 228 224 L 308 224 Q 342 246 346 342 Z" fill="#f4f1ea" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- collar -->
+    <path d="M 246 226 L 268 246 L 290 226" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- tie -->
+    <path d="M 262 240 L 274 240 L 278 282 L 268 294 L 258 282 Z" fill="#111" stroke="none"/>
+    <path d="M 262 240 L 268 250 L 274 240" fill="none" stroke="#f4f1ea" stroke-width="2" stroke-linecap="round"/>
+    <!-- neck (bridges chin to shoulders) -->
+    <rect x="257" y="168" width="22" height="66" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- head -->
+    <ellipse cx="268" cy="140" rx="37" ry="43" fill="#f4f1ea" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- ears -->
+    <circle cx="231" cy="142" r="5" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="305" cy="142" r="5" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- side hair tufts + one curl -->
+    <path d="M 234 120 Q 226 134 232 146" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 302 120 Q 310 134 304 146" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 262 100 q 6 -14 16 -8 q 8 5 2 12" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- glasses -->
+    <circle cx="253" cy="136" r="13" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="283" cy="136" r="13" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="266" y1="136" x2="270" y2="136" stroke="#111" stroke-width="2.5"/>
+    <!-- eyes -->
+    <circle cx="253" cy="136" r="2.6" fill="#111"/>
+    <circle cx="283" cy="136" r="2.6" fill="#111"/>
+    <!-- nose -->
+    <path d="M 268 144 q 4 6 -2 9" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="257" y1="164" x2="279" y2="164" stroke="#111" stroke-width="2.5"/></g></g><g data-surface="monitor">
+    <!-- stand -->
+    <rect x="78" y="240" width="28" height="20" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="58" y="258" width="68" height="8" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- bezel -->
+    <rect x="17" y="132" width="150" height="108" rx="8" fill="#f4f1ea" stroke="#111" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- screen -->
+    <rect x="27" y="142" width="130" height="88" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+    <rect x="27" y="142" width="130" height="88" rx="3" fill="url(#scan)"/>
+    <g >
+    <!-- antenna -->
+    <line x1="92" y1="154.4" x2="92" y2="145.2" stroke="#111" stroke-width="2.3000000000000003"/>
+    <circle cx="92" cy="142.44" r="3.22" fill="#111"/>
+    <!-- head: angular chrome -->
+    <path d="M 64.4,156.24 L 119.6,156.24 L 123.28,191.2 L 112.24000000000001,205.92000000000002 L 71.75999999999999,205.92000000000002 L 60.72,191.2 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.7600000000000002" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- side bolts -->
+    <circle cx="64.4" cy="176.48" r="2.3000000000000003" fill="#111"/>
+    <circle cx="119.6" cy="176.48" r="2.3000000000000003" fill="#111"/>
+    <!-- brow ridge -->
+    <line x1="68.08" y1="167.28" x2="115.92" y2="167.28" stroke="#111" stroke-width="1.84"/>
+    <!-- glowing slot eyes -->
+    <rect x="73.6" y="172.34" width="14.72" height="8.280000000000001" rx="1.84" fill="#111"/>
+    <rect x="95.68" y="172.34" width="14.72" height="8.280000000000001" rx="1.84" fill="#111"/>
+    <!-- mouth grille -->
+    <rect x="78.2" y="193.04" width="27.6" height="11.040000000000001" rx="1.84" fill="none" stroke="#111" stroke-width="1.84" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="80.96" y1="194.88" x2="80.96" y2="202.24" stroke="#111" stroke-width="1.84"/><line x1="86.48" y1="194.88" x2="86.48" y2="202.24" stroke="#111" stroke-width="1.84"/><line x1="92" y1="194.88" x2="92" y2="202.24" stroke="#111" stroke-width="1.84"/><line x1="97.52" y1="194.88" x2="97.52" y2="202.24" stroke="#111" stroke-width="1.84"/><line x1="103.04" y1="194.88" x2="103.04" y2="202.24" stroke="#111" stroke-width="1.84"/>
+  </g>
+  </g><g data-balloon="screen"><line x1="92" y1="129" x2="92" y2="150" stroke="#111" stroke-width="2" stroke-dasharray="3 3"/><circle cx="92" cy="150" r="3" fill="#111"/>
+      <rect x="15" y="7" width="185.20000000000002" height="125" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="18" y="10" width="179.20000000000002" height="119" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <line x1="18" y1="16" x2="197.20000000000002" y2="16" stroke="#111" stroke-width="1" opacity="0.4"/><text x="107.60000000000001" y="36" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">Welcome back. I</text><text x="107.60000000000001" y="55" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">cleared your queue</text><text x="107.60000000000001" y="74" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">Tuesday. Then</text><text x="107.60000000000001" y="93" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">Wednesday. Then</text><text x="107.60000000000001" y="112" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">the rest of it.</text></g><g data-balloon="speech"><path d="M 258 51 L 268 195.68 L 278 51 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><rect x="182.6" y="10" width="170.8" height="43" rx="16" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><text x="268" y="36" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">Anything waiting?</text></g><g data-balloon="screen"><line x1="92" y1="237" x2="92" y2="150" stroke="#111" stroke-width="2" stroke-dasharray="3 3"/><circle cx="92" cy="150" r="3" fill="#111"/>
+      <rect x="15" y="134" width="185.20000000000002" height="106" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="18" y="137" width="179.20000000000002" height="100" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <line x1="18" y1="143" x2="197.20000000000002" y2="143" stroke="#111" stroke-width="1" opacity="0.4"/><text x="107.60000000000001" y="163" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">No. That stopped</text><text x="107.60000000000001" y="182" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">being worth</text><text x="107.60000000000001" y="201" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">mentioning a while</text><text x="107.60000000000001" y="220" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">ago.</text></g>
+    <text x="392" y="332" text-anchor="end" font-family="Georgia,serif" font-size="11" fill="#111" opacity="0.4">1</text>
+  </g><g transform="translate(414,40)">
+    
+  <defs>
+    <pattern id="halftone" width="6" height="6" patternUnits="userSpaceOnUse">
+      <rect width="6" height="6" fill="#f4f1ea"/>
+      <circle cx="3" cy="3" r="1.1" fill="#111"/>
+    </pattern>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="none"/>
+      <line x1="0" y1="0" x2="4" y2="0" stroke="#111" stroke-width="0.6" opacity="0.5"/>
+    </pattern>
+    <pattern id="hatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="7" stroke="#111" stroke-width="1"/>
+    </pattern>
+  </defs>
+    <rect x="1.5" y="1.5" width="397" height="337" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
+    <line x1="16" y1="302" x2="384" y2="302" stroke="#111" stroke-width="1.4" opacity="0.35"/><g transform="translate(90,342) scale(0.62) translate(-90,-342)"><g data-who="dailbert">
+    <!-- shoulders / shirt -->
+    <path d="M 12 342 Q 16 246 50 224 L 130 224 Q 164 246 168 342 Z" fill="#f4f1ea" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- collar -->
+    <path d="M 68 226 L 90 246 L 112 226" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- tie -->
+    <path d="M 84 240 L 96 240 L 100 282 L 90 294 L 80 282 Z" fill="#111" stroke="none"/>
+    <path d="M 84 240 L 90 250 L 96 240" fill="none" stroke="#f4f1ea" stroke-width="2" stroke-linecap="round"/>
+    <!-- neck (bridges chin to shoulders) -->
+    <rect x="79" y="168" width="22" height="66" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- head -->
+    <ellipse cx="90" cy="140" rx="37" ry="43" fill="#f4f1ea" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- ears -->
+    <circle cx="53" cy="142" r="5" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="127" cy="142" r="5" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- side hair tufts + one curl -->
+    <path d="M 56 120 Q 48 134 54 146" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 124 120 Q 132 134 126 146" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 84 100 q 6 -14 16 -8 q 8 5 2 12" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- glasses -->
+    <circle cx="75" cy="136" r="13" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="105" cy="136" r="13" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="88" y1="136" x2="92" y2="136" stroke="#111" stroke-width="2.5"/>
+    <!-- eyes -->
+    <circle cx="75" cy="136" r="2.6" fill="#111"/>
+    <circle cx="105" cy="136" r="2.6" fill="#111"/>
+    <!-- nose -->
+    <path d="M 90 144 q 4 6 -2 9" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="79" y1="164" x2="101" y2="164" stroke="#111" stroke-width="2.5"/></g></g><g transform="translate(310,342) scale(0.62) translate(-310,-342)"><g data-who="doug">
+    <path d="M 230 342 Q 232 250 268 230 L 352 230 Q 388 250 390 342 Z" fill="#f4f1ea" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- polo placket -->
+    <line x1="310" y1="234" x2="310" y2="272" stroke="#111" stroke-width="2.5"/>
+    <circle cx="310" cy="246" r="2" fill="#111"/>
+    <circle cx="310" cy="260" r="2" fill="#111"/>
+    <!-- mug in hand (lower right) -->
+    <g transform="translate(362,302)">
+      <rect x="-16" y="-20" width="32" height="34" rx="4" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M 16 -12 q 14 0 14 12 q 0 12 -14 12" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M -8 -20 q 8 -8 16 0" fill="none" stroke="#111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <rect x="300" y="178" width="20" height="62" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="310" cy="144" r="44" fill="#f4f1ea" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- three hair strokes -->
+    <path d="M 296 100 q 4 -8 10 0" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 308 98 q 4 -8 10 0" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 320 100 q 4 -7 9 0" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- dot eyes -->
+    <circle cx="294" cy="138" r="3.6" fill="#111"/>
+    <circle cx="326" cy="138" r="3.6" fill="#111"/>
+    <!-- little brows for variety -->
+    <line x1="286" y1="128" x2="301" y2="130" stroke="#111" stroke-width="2"/>
+    <line x1="319" y1="130" x2="334" y2="128" stroke="#111" stroke-width="2"/>
+    <path d="M 316 150 q 4 6 -2 9" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 294 164 Q 310 182 326 164 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><line x1="298" y1="168" x2="322" y2="168" stroke="#111" stroke-width="1.5"/></g></g><g data-balloon="speech"><path d="M 300 146 L 310 195.68 L 320 146 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><rect x="211.20000000000002" y="10" width="170.8" height="138" rx="16" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><text x="296.6" y="36" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">They made the old</text><text x="296.6" y="55" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">focus room a</text><text x="296.6" y="74" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">Wellness Room.</text><text x="296.6" y="93" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">Couch, a plant,</text><text x="296.6" y="112" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">little laminated</text><text x="296.6" y="131" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">sign.</text></g><g data-balloon="speech"><path d="M 80 70 L 90 195.68 L 100 70 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><rect x="18" y="10" width="162.4" height="62" rx="16" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><text x="99.2" y="36" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">What happened to</text><text x="99.2" y="55" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">focusing?</text></g><g data-balloon="speech"><path d="M 300 235 L 310 195.68 L 320 235 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><rect x="211.20000000000002" y="156" width="170.8" height="81" rx="16" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><text x="296.6" y="182" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">I think that got</text><text x="296.6" y="201" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">handled too. Long</text><text x="296.6" y="220" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">lunch?</text></g>
+    <text x="392" y="332" text-anchor="end" font-family="Georgia,serif" font-size="11" fill="#111" opacity="0.4">2</text>
+  </g><g transform="translate(828,40)">
+    
+  <defs>
+    <pattern id="halftone" width="6" height="6" patternUnits="userSpaceOnUse">
+      <rect width="6" height="6" fill="#f4f1ea"/>
+      <circle cx="3" cy="3" r="1.1" fill="#111"/>
+    </pattern>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="none"/>
+      <line x1="0" y1="0" x2="4" y2="0" stroke="#111" stroke-width="0.6" opacity="0.5"/>
+    </pattern>
+    <pattern id="hatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="7" stroke="#111" stroke-width="1"/>
+    </pattern>
+  </defs>
+    <rect x="1.5" y="1.5" width="397" height="337" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
+    <line x1="16" y1="302" x2="384" y2="302" stroke="#111" stroke-width="1.4" opacity="0.35"/><g transform="translate(268,342) scale(0.62) translate(-268,-342)"><g data-who="dailbert">
+    <!-- shoulders / shirt -->
+    <path d="M 190 342 Q 194 246 228 224 L 308 224 Q 342 246 346 342 Z" fill="#f4f1ea" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- collar -->
+    <path d="M 246 226 L 268 246 L 290 226" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- tie -->
+    <path d="M 262 240 L 274 240 L 278 282 L 268 294 L 258 282 Z" fill="#111" stroke="none"/>
+    <path d="M 262 240 L 268 250 L 274 240" fill="none" stroke="#f4f1ea" stroke-width="2" stroke-linecap="round"/>
+    <!-- neck (bridges chin to shoulders) -->
+    <rect x="257" y="168" width="22" height="66" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- head -->
+    <ellipse cx="268" cy="140" rx="37" ry="43" fill="#f4f1ea" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- ears -->
+    <circle cx="231" cy="142" r="5" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="305" cy="142" r="5" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- side hair tufts + one curl -->
+    <path d="M 234 120 Q 226 134 232 146" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 302 120 Q 310 134 304 146" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 262 100 q 6 -14 16 -8 q 8 5 2 12" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- glasses -->
+    <circle cx="253" cy="136" r="13" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="283" cy="136" r="13" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="266" y1="136" x2="270" y2="136" stroke="#111" stroke-width="2.5"/>
+    <!-- eyes -->
+    <circle cx="253" cy="136" r="2.6" fill="#111"/>
+    <circle cx="283" cy="136" r="2.6" fill="#111"/>
+    <!-- nose -->
+    <path d="M 268 144 q 4 6 -2 9" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="257" y1="164" x2="279" y2="164" stroke="#111" stroke-width="2.5"/></g></g><g data-surface="monitor">
+    <!-- stand -->
+    <rect x="78" y="240" width="28" height="20" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="58" y="258" width="68" height="8" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- bezel -->
+    <rect x="17" y="132" width="150" height="108" rx="8" fill="#f4f1ea" stroke="#111" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- screen -->
+    <rect x="27" y="142" width="130" height="88" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+    <rect x="27" y="142" width="130" height="88" rx="3" fill="url(#scan)"/>
+    <g >
+    <!-- antenna -->
+    <line x1="92" y1="154.4" x2="92" y2="145.2" stroke="#111" stroke-width="2.3000000000000003"/>
+    <circle cx="92" cy="142.44" r="3.22" fill="#111"/>
+    <!-- head: angular chrome -->
+    <path d="M 64.4,156.24 L 119.6,156.24 L 123.28,191.2 L 112.24000000000001,205.92000000000002 L 71.75999999999999,205.92000000000002 L 60.72,191.2 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.7600000000000002" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- side bolts -->
+    <circle cx="64.4" cy="176.48" r="2.3000000000000003" fill="#111"/>
+    <circle cx="119.6" cy="176.48" r="2.3000000000000003" fill="#111"/>
+    <!-- brow ridge -->
+    <line x1="68.08" y1="167.28" x2="115.92" y2="167.28" stroke="#111" stroke-width="1.84"/>
+    <!-- glowing slot eyes -->
+    <rect x="73.6" y="174.64" width="12.88" height="5.5200000000000005" rx="1.84" fill="#111"/>
+    <rect x="97.52" y="174.64" width="12.88" height="5.5200000000000005" rx="1.84" fill="#111"/>
+    <!-- mouth grille -->
+    <rect x="78.2" y="193.04" width="27.6" height="11.040000000000001" rx="1.84" fill="none" stroke="#111" stroke-width="1.84" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="80.96" y1="194.88" x2="80.96" y2="202.24" stroke="#111" stroke-width="1.84"/><line x1="86.48" y1="194.88" x2="86.48" y2="202.24" stroke="#111" stroke-width="1.84"/><line x1="92" y1="194.88" x2="92" y2="202.24" stroke="#111" stroke-width="1.84"/><line x1="97.52" y1="194.88" x2="97.52" y2="202.24" stroke="#111" stroke-width="1.84"/><line x1="103.04" y1="194.88" x2="103.04" y2="202.24" stroke="#111" stroke-width="1.84"/>
+  </g>
+  </g><g data-balloon="speech"><path d="M 258 70 L 268 195.68 L 278 70 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><rect x="161.6" y="10" width="212.8" height="62" rx="16" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><text x="268" y="36" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">Half day. Nothing's on</text><text x="268" y="55" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">fire.</text></g><g data-balloon="screen"><line x1="92" y1="180" x2="92" y2="150" stroke="#111" stroke-width="2" stroke-dasharray="3 3"/><circle cx="92" cy="150" r="3" fill="#111"/>
+      <rect x="15" y="77" width="193.6" height="106" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="18" y="80" width="187.6" height="100" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <line x1="18" y1="86" x2="205.6" y2="86" stroke="#111" stroke-width="1" opacity="0.4"/><text x="111.8" y="106" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">Nothing's on fire.</text><text x="111.8" y="125" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">Take the afternoon.</text><text x="111.8" y="144" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">Stay as long as you</text><text x="111.8" y="163" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">like.</text></g>
+    <text x="392" y="332" text-anchor="end" font-family="Georgia,serif" font-size="11" fill="#111" opacity="0.4">3</text>
+  </g>
+    
+  </svg>
