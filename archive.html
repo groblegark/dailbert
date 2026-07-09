@@ -1926,10 +1926,45 @@
   <span title="nobody in the strip is watching the calendar">read in order</span>
 </footer>
 <script>
+var DESK = {"api":"https://x6x3i0f2q5.execute-api.us-east-1.amazonaws.com"};
+var Desk = (function () {
+  var api = (DESK && DESK.api) || '';
+  function key() { try { return localStorage.getItem('dv.key') || ''; } catch (e) { return ''; } }
+  function clearPrefix(p) { for (var i = localStorage.length - 1; i >= 0; i--) { var k = localStorage.key(i); if (k && k.indexOf(p) === 0) localStorage.removeItem(k); } }
+  function pull(cb) {
+    if (!api) { if (cb) cb(null); return; }
+    fetch(api + '/', { cache: 'no-store' }).then(function (r) { return r.json(); }).then(function (s) {
+      try {
+        localStorage.setItem('dv.pub', JSON.stringify(s.published || []));
+        localStorage.setItem('dv.chosen', JSON.stringify(s.chosen || {}));
+        clearPrefix('dv.v.'); var V = s.votes || {}; for (var id in V) localStorage.setItem('dv.v.' + id, String(V[id]));
+        clearPrefix('dv.cm.'); var C = s.comments || {}; for (var cid in C) localStorage.setItem('dv.cm.' + cid, JSON.stringify(C[cid]));
+      } catch (e) {}
+      if (cb) cb(s);
+    }).catch(function () { if (cb) cb(null); });
+  }
+  function post(body) {
+    if (!api || !key()) return Promise.resolve(false);
+    return fetch(api + '/', { method: 'POST', headers: { 'content-type': 'application/json', 'x-desk-key': key() }, body: JSON.stringify(body) })
+      .then(function (r) { return r.ok; }).catch(function () { return false; });
+  }
+  return {
+    api: api,
+    hasKey: function () { return !!key(); },
+    setKey: function (k) { try { localStorage.setItem('dv.key', k); } catch (e) {} },
+    pull: pull,
+    vote: function (id, v) { return post({ op: 'vote', id: id, v: v }); },
+    comment: function (id, name, text, ts) { return post({ op: 'comment', id: id, name: name, text: text, ts: ts }); },
+    published: function (ids) { return post({ op: 'published', ids: ids }); },
+    chosen: function (map) { return post({ op: 'chosen', map: map }); }
+  };
+})();
+</script>
+<script>
 // committed review baseline — seed votes/comments into localStorage on first visit
 var BASE = {"votes":{},"comments":{}};
 (function(){try{var V=BASE.votes||{};for(var id in V){if(localStorage.getItem('dv.v.'+id)===null)localStorage.setItem('dv.v.'+id,String(V[id]));}var C=BASE.comments||{};for(var cid in C){if(localStorage.getItem('dv.cm.'+cid)===null)localStorage.setItem('dv.cm.'+cid,JSON.stringify(C[cid]));}}catch(e){}})();
-(function () {
+function boot() {
   var main = document.querySelector('main');
   // nothing is public by date — only un-drafted (force-published) strips show. The rest
   // stay hidden drafts (still in source). Manage at admin.html.
@@ -1961,12 +1996,13 @@ var BASE = {"votes":{},"comments":{}};
     var vn = f.querySelector('.vn'), up = f.querySelector('.up'), down = f.querySelector('.down');
     function gv() { var v = localStorage.getItem('dv.v.' + id); return v === '1' ? 1 : (v === '-1' ? -1 : 0); }
     function draw() { var v = gv(); if (vn) vn.textContent = v; if (up) up.classList.toggle('on', v === 1); if (down) down.classList.toggle('on', v === -1); }
-    function setv(val) { if (val === 0) localStorage.removeItem('dv.v.' + id); else localStorage.setItem('dv.v.' + id, String(val)); draw(); }
+    function setv(val) { if (val === 0) localStorage.removeItem('dv.v.' + id); else localStorage.setItem('dv.v.' + id, String(val)); draw(); Desk.vote(id, val); }
     if (up) up.addEventListener('click', function (e) { e.preventDefault(); setv(gv() === 1 ? 0 : 1); });
     if (down) down.addEventListener('click', function (e) { e.preventDefault(); setv(gv() === -1 ? 0 : -1); });
     draw();
     var cc = 0; try { cc = JSON.parse(localStorage.getItem('dv.cm.' + id) || '[]').length; } catch (e) {}
     var cmn = f.querySelector('.cmn'); if (cmn) cmn.textContent = cc;
   });
-})();
+}
+Desk.pull(boot);
 </script>

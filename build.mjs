@@ -163,7 +163,50 @@ function fmtReach(n) {
 const logPct = (n) => (Math.log10(Math.max(1, n)) / 10 * 100).toFixed(2); // 1e10 -> 100%
 const escAttr = (s) => String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
-function archive(strips, ratings, forced = [], reviews = { votes: {}, comments: {} }) {
+// Shared client sync module. Mirrors the AWS desk backend into localStorage so the
+// existing pages read/write exactly as before, but now cross-device & persistent.
+// - pull(cb): fetch remote truth, overwrite the localStorage mirror, then cb(state).
+// - vote/comment/published/chosen: optimistic localStorage + POST (needs desk key).
+// Offline or keyless -> silently no-ops the POST; committed baselines still seed.
+function deskSync(desk) {
+  return `<script>
+var DESK = ${JSON.stringify(desk || { api: '' })};
+var Desk = (function () {
+  var api = (DESK && DESK.api) || '';
+  function key() { try { return localStorage.getItem('dv.key') || ''; } catch (e) { return ''; } }
+  function clearPrefix(p) { for (var i = localStorage.length - 1; i >= 0; i--) { var k = localStorage.key(i); if (k && k.indexOf(p) === 0) localStorage.removeItem(k); } }
+  function pull(cb) {
+    if (!api) { if (cb) cb(null); return; }
+    fetch(api + '/', { cache: 'no-store' }).then(function (r) { return r.json(); }).then(function (s) {
+      try {
+        localStorage.setItem('dv.pub', JSON.stringify(s.published || []));
+        localStorage.setItem('dv.chosen', JSON.stringify(s.chosen || {}));
+        clearPrefix('dv.v.'); var V = s.votes || {}; for (var id in V) localStorage.setItem('dv.v.' + id, String(V[id]));
+        clearPrefix('dv.cm.'); var C = s.comments || {}; for (var cid in C) localStorage.setItem('dv.cm.' + cid, JSON.stringify(C[cid]));
+      } catch (e) {}
+      if (cb) cb(s);
+    }).catch(function () { if (cb) cb(null); });
+  }
+  function post(body) {
+    if (!api || !key()) return Promise.resolve(false);
+    return fetch(api + '/', { method: 'POST', headers: { 'content-type': 'application/json', 'x-desk-key': key() }, body: JSON.stringify(body) })
+      .then(function (r) { return r.ok; }).catch(function () { return false; });
+  }
+  return {
+    api: api,
+    hasKey: function () { return !!key(); },
+    setKey: function (k) { try { localStorage.setItem('dv.key', k); } catch (e) {} },
+    pull: pull,
+    vote: function (id, v) { return post({ op: 'vote', id: id, v: v }); },
+    comment: function (id, name, text, ts) { return post({ op: 'comment', id: id, name: name, text: text, ts: ts }); },
+    published: function (ids) { return post({ op: 'published', ids: ids }); },
+    chosen: function (map) { return post({ op: 'chosen', map: map }); }
+  };
+})();
+</` + `script>`;
+}
+
+function archive(strips, ratings, forced = [], reviews = { votes: {}, comments: {} }, desk = { api: '' }) {
   const items = strips.map((s, i) => {
     const r = ratings[s.id] || {};
     const a = r.audience || 1;
@@ -271,11 +314,12 @@ ${items}
   ${strips.length} strips &middot; drawn in vector ink by the machines, about the machines &middot;
   <span title="nobody in the strip is watching the calendar">read in order</span>
 </footer>
+${deskSync(desk)}
 <script>
 // committed review baseline — seed votes/comments into localStorage on first visit
 var BASE = ${JSON.stringify(reviews)};
 (function(){try{var V=BASE.votes||{};for(var id in V){if(localStorage.getItem('dv.v.'+id)===null)localStorage.setItem('dv.v.'+id,String(V[id]));}var C=BASE.comments||{};for(var cid in C){if(localStorage.getItem('dv.cm.'+cid)===null)localStorage.setItem('dv.cm.'+cid,JSON.stringify(C[cid]));}}catch(e){}})();
-(function () {
+function boot() {
   var main = document.querySelector('main');
   // nothing is public by date — only un-drafted (force-published) strips show. The rest
   // stay hidden drafts (still in source). Manage at admin.html.
@@ -307,19 +351,20 @@ var BASE = ${JSON.stringify(reviews)};
     var vn = f.querySelector('.vn'), up = f.querySelector('.up'), down = f.querySelector('.down');
     function gv() { var v = localStorage.getItem('dv.v.' + id); return v === '1' ? 1 : (v === '-1' ? -1 : 0); }
     function draw() { var v = gv(); if (vn) vn.textContent = v; if (up) up.classList.toggle('on', v === 1); if (down) down.classList.toggle('on', v === -1); }
-    function setv(val) { if (val === 0) localStorage.removeItem('dv.v.' + id); else localStorage.setItem('dv.v.' + id, String(val)); draw(); }
+    function setv(val) { if (val === 0) localStorage.removeItem('dv.v.' + id); else localStorage.setItem('dv.v.' + id, String(val)); draw(); Desk.vote(id, val); }
     if (up) up.addEventListener('click', function (e) { e.preventDefault(); setv(gv() === 1 ? 0 : 1); });
     if (down) down.addEventListener('click', function (e) { e.preventDefault(); setv(gv() === -1 ? 0 : -1); });
     draw();
     var cc = 0; try { cc = JSON.parse(localStorage.getItem('dv.cm.' + id) || '[]').length; } catch (e) {}
     var cmn = f.querySelector('.cmn'); if (cmn) cmn.textContent = cc;
   });
-})();
+}
+Desk.pull(boot);
 </script>`;
 }
 
 // ---- solo viewer (index.html): today's comic + prev/next + score + upvote + comments ----
-function solo(manifest, forced = [], reviews = { votes: {}, comments: {} }) {
+function solo(manifest, forced = [], reviews = { votes: {}, comments: {} }, desk = { api: '' }) {
   const data = JSON.stringify(manifest).replace(/</g, '\\u003c');
   return `<meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -404,7 +449,7 @@ function solo(manifest, forced = [], reviews = { votes: {}, comments: {} }) {
   <p class="note" id="ednote"></p>
   <section id="comments">
     <h2>Comments <span id="ch"></span></h2>
-    <p class="prev">Preview &mdash; comments are saved in your browser until the shared backend is connected.</p>
+    <p class="prev">Comments are kept on the shared desk across devices.</p>
     <form id="cform">
       <input id="cname" maxlength="40" placeholder="name (optional)"/>
       <textarea id="ctext" maxlength="800" rows="3" placeholder="Say something about this strip…"></textarea>
@@ -417,8 +462,10 @@ function solo(manifest, forced = [], reviews = { votes: {}, comments: {} }) {
     <button id="next2">Next&nbsp;&rsaquo;</button>
   </div>
 </div>
+${deskSync(desk)}
 <script>
-var M = ${data};
+var ALL = ${data};
+var M = ALL;
 var FORCED = ${JSON.stringify(forced)};
 // public visibility: NOTHING is public by date. A strip only shows once it's
 // un-drafted — force-published in world/published.json, or toggled on the admin
@@ -427,7 +474,8 @@ var FORCED = ${JSON.stringify(forced)};
 // votes & comments persist everywhere (Matt reviews -> "save" -> committed here).
 var BASE = ${JSON.stringify(reviews)};
 (function(){try{var V=BASE.votes||{};for(var id in V){if(localStorage.getItem('dv.v.'+id)===null)localStorage.setItem('dv.v.'+id,String(V[id]));}var C=BASE.comments||{};for(var cid in C){if(localStorage.getItem('dv.cm.'+cid)===null)localStorage.setItem('dv.cm.'+cid,JSON.stringify(C[cid]));}}catch(e){}})();
-(function(){var lp=[];try{lp=JSON.parse(localStorage.getItem('dv.pub')||'[]');}catch(e){}M=M.filter(function(s){return FORCED.indexOf(s.id)>=0||lp.indexOf(s.id)>=0;});})();
+function applyPub(){var lp=[];try{lp=JSON.parse(localStorage.getItem('dv.pub')||'[]');}catch(e){}M=ALL.filter(function(s){return FORCED.indexOf(s.id)>=0||lp.indexOf(s.id)>=0;});}
+applyPub();
 function fmtReach(n){n=Math.max(1,Math.round(n));if(n<1000)return''+n;var u=['K','M','B','T'],i=-1,x=n;while(x>=1000&&i<3){x/=1000;i++;}return (x<10?x.toFixed(1):Math.round(x))+u[i];}
 function pct(n){return (Math.log10(Math.max(1,n))/10*100).toFixed(2);}
 function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
@@ -443,9 +491,9 @@ function $(x){return document.getElementById(x);}
 function renderComments(){var s=M[cur],arr=loadC(s.id);$('cmc').textContent=arr.length;$('ch').textContent='('+arr.length+')';var ul=$('clist');ul.innerHTML='';arr.slice().reverse().forEach(function(c){var li=document.createElement('li');var d=new Date(c.ts);li.innerHTML='<div class="ch"><b>'+esc(c.name||'anon')+'</b><span class="ts">'+d.toLocaleDateString()+'</span></div><div class="cb">'+esc(c.text)+'</div>';ul.appendChild(li);});}
 function render(){if(!M.length){var st=document.querySelector('.stage');if(st)st.innerHTML='<p style="padding:70px 24px;text-align:center;font-style:italic;opacity:.55;font-size:18px">Nothing published yet.<br><span style="font-size:13px;font-family:monospace">un-draft a strip at <a href="admin.html">the desk</a></span></p>';['title','date','sc','ednote'].forEach(function(x){var e=$(x);if(e)e.textContent='';});['first','prev','next','latest','prev2','next2'].forEach(function(x){var e=$(x);if(e)e.disabled=true;});document.title='DAILBERT';return;}var s=M[cur];$('art').src='strips/'+s.id+'.svg';$('art').alt=s.title;$('title').textContent=s.title;$('date').textContent=s.date;$('sc').textContent=fmtReach(s.audience);$('mtr').style.width=pct(s.audience)+'%';$('ednote').textContent=s.note?('editor \\u2014 '+s.note):'';var v=getV(s.id);$('vn').textContent=v;$('up').classList.toggle('on',v===1);$('down').classList.toggle('on',v===-1);renderComments();$('prev').disabled=$('prev2').disabled=(cur<=0);$('next').disabled=$('next2').disabled=(cur>=M.length-1);document.title='DAILBERT \\u2014 '+s.title;}
 function go(i){if(i<0||i>=M.length)return;cur=i;try{history.replaceState(null,'','?id='+M[cur].id);}catch(e){}render();window.scrollTo(0,0);}
-$('up').addEventListener('click',function(){if(!M[cur])return;var id=M[cur].id;setV(id,getV(id)===1?0:1);render();});
-$('down').addEventListener('click',function(){if(!M[cur])return;var id=M[cur].id;setV(id,getV(id)===-1?0:-1);render();});
-$('cform').addEventListener('submit',function(e){e.preventDefault();if(!M[cur])return;var s=M[cur],t=$('ctext').value.trim();if(!t)return;var arr=loadC(s.id);arr.push({name:$('cname').value.trim(),text:t,ts:Date.now()});saveC(s.id,arr);$('ctext').value='';renderComments();});
+$('up').addEventListener('click',function(){if(!M[cur])return;var id=M[cur].id,nv=getV(id)===1?0:1;setV(id,nv);render();Desk.vote(id,nv);});
+$('down').addEventListener('click',function(){if(!M[cur])return;var id=M[cur].id,nv=getV(id)===-1?0:-1;setV(id,nv);render();Desk.vote(id,nv);});
+$('cform').addEventListener('submit',function(e){e.preventDefault();if(!M[cur])return;var s=M[cur],t=$('ctext').value.trim();if(!t)return;var nm=$('cname').value.trim(),ts=Date.now();var arr=loadC(s.id);arr.push({name:nm,text:t,ts:ts});saveC(s.id,arr);$('ctext').value='';renderComments();Desk.comment(s.id,nm,t,ts);});
 $('first').addEventListener('click',function(){go(0);});
 $('latest').addEventListener('click',function(){go(M.length-1);});
 $('prev').addEventListener('click',function(){go(cur-1);});
@@ -454,11 +502,12 @@ $('prev2').addEventListener('click',function(){go(cur-1);});
 $('next2').addEventListener('click',function(){go(cur+1);});
 document.addEventListener('keydown',function(e){if(e.target.tagName==='TEXTAREA'||e.target.tagName==='INPUT')return;if(e.key==='ArrowLeft')go(cur-1);else if(e.key==='ArrowRight')go(cur+1);});
 render();
+Desk.pull(function(){applyPub();if(cur>=M.length)cur=M.length-1;if(cur<0)cur=todayIdx();render();});
 </script>`;
 }
 
 // ---- admin.html (unlisted easter egg): every strip, draft vs published, publish toggle ----
-function admin(manifest, forced = [], reviews = { votes: {}, comments: {} }) {
+function admin(manifest, forced = [], reviews = { votes: {}, comments: {} }, desk = { api: '' }) {
   const data = JSON.stringify(manifest).replace(/</g, '\\u003c');
   return `<meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -480,6 +529,15 @@ function admin(manifest, forced = [], reviews = { votes: {}, comments: {} }) {
   .export button { font-family:inherit; font-size:12px; background:#2a2a20; color:inherit; border:1px solid #444;
                    border-radius:16px; padding:5px 13px; cursor:pointer; }
   .export .hint { opacity:.5; font-size:11px; }
+  .sync { margin:14px 18px; padding:10px 12px; background:#12160f; border:1px solid #2c3a24; border-radius:6px;
+          display:flex; align-items:center; gap:10px; flex-wrap:wrap; font-size:12px; }
+  .sync input { background:#0d0d0a; color:#9fdca0; border:1px solid #333; border-radius:4px;
+                font-family:'Courier New',monospace; font-size:12px; padding:6px 8px; width:280px; }
+  .sync button { font-family:inherit; font-size:12px; background:#2a2a20; color:inherit; border:1px solid #444;
+                 border-radius:16px; padding:5px 13px; cursor:pointer; }
+  .sync .dot { width:9px; height:9px; border-radius:50%; background:#555; display:inline-block; }
+  .sync .dot.ok { background:#8fce8f; } .sync .dot.bad { background:#c66; }
+  .sync .st { opacity:.75; }
   table { width:100%; border-collapse:collapse; }
   th, td { text-align:left; padding:8px 10px; border-bottom:1px solid #262620; font-size:13px; vertical-align:middle; }
   th { position:sticky; top:0; background:#14140f; opacity:.6; font-weight:normal; font-size:11px;
@@ -503,14 +561,21 @@ function admin(manifest, forced = [], reviews = { votes: {}, comments: {} }) {
   <div class="sub">unlisted. every strip is a hidden draft until you un-draft it here &mdash; nothing is public by date. toggles preview instantly in your browser; commit published.json to publish for everyone.</div>
   <div class="stat"><span class="pub-cnt"><b id="np">0</b> published</span><span class="drf-cnt"><b id="nd">0</b> drafts</span><span class="sc"><b id="nt">0</b> total</span></div>
 </header>
+<div class="sync">
+  <span class="dot" id="syncdot"></span><span class="st" id="syncst">checking backend…</span>
+  <input id="keyin" type="password" placeholder="desk key (paste once)" autocomplete="off"/>
+  <button id="keybtn">connect</button>
+  <span class="hint" id="synchint"></span>
+</div>
 <div class="export">
-  <div class="row"><b>Save review</b><button id="copy">copy</button><span id="savedhint" class="hint">your full review &mdash; published list + votes + comments. Copy &amp; hand to Claude (or commit <code>world/published.json</code> + <code>world/reviews.json</code>) to persist for everyone, on every device. Everything below previews instantly in your browser meanwhile.</span></div>
+  <div class="row"><b>Snapshot</b><button id="copy">copy</button><span id="savedhint" class="hint">picks &amp; votes now persist live to the AWS desk (above). This is just an optional repo snapshot &mdash; hand to Claude to bake <code>world/published.json</code> + <code>world/reviews.json</code> into git.</span></div>
   <textarea id="exp" readonly></textarea>
 </div>
 <table>
   <thead><tr><th>strip</th><th>date</th><th>title</th><th>editor</th><th>status</th><th>action</th></tr></thead>
   <tbody id="rows"></tbody>
 </table>
+${deskSync(desk)}
 <script>
 var M = ${data};
 var FORCED = ${JSON.stringify(forced)};
@@ -561,11 +626,26 @@ document.getElementById('rows').addEventListener('click',function(e){
   var b=e.target.closest('.tog');if(!b)return;
   var id=b.getAttribute('data-id'),a=lp(),i=a.indexOf(id);
   if(i>=0)a.splice(i,1);else a.push(id);
-  setlp(a);render();
+  setlp(a);render();Desk.published(a);
 });
 document.getElementById('copy').addEventListener('click',function(){
   var t=document.getElementById('exp');t.select();try{document.execCommand('copy');this.textContent='copied';var self=this;setTimeout(function(){self.textContent='copy';},1200);}catch(e){}
 });
+// backend status + desk key
+function setStatus(cls,txt){var d=document.getElementById('syncdot'),s=document.getElementById('syncst');if(d)d.className='dot'+(cls?' '+cls:'');if(s)s.textContent=txt;}
+function refreshStatus(){
+  if(!Desk.api){setStatus('bad','no backend (world/desk.json missing)');return;}
+  setStatus('',Desk.hasKey()?'connected · writes persist to everyone':'read-only — paste desk key to publish/pick from here');
+  document.getElementById('synchint').textContent=Desk.hasKey()?'':'until connected, toggles preview only in this browser';
+  var ki=document.getElementById('keyin');if(ki&&Desk.hasKey())ki.placeholder='desk key set ✓ (paste to replace)';
+}
+document.getElementById('keybtn').addEventListener('click',function(){
+  var v=document.getElementById('keyin').value.trim();if(!v)return;Desk.setKey(v);document.getElementById('keyin').value='';
+  setStatus('','verifying…');
+  Desk.published(lp()).then(function(ok){setStatus(ok?'ok':'bad',ok?'connected · writes persist to everyone':'key rejected');refreshStatus();});
+});
+setStatus('','loading…');refreshStatus();
+Desk.pull(function(s){ if(Desk.api) setStatus(s?'ok':'bad', s?(Desk.hasKey()?'connected · writes persist to everyone':'live · paste desk key to publish/pick'):'backend unreachable'); render(); });
 render();
 </script>`;
 }
@@ -588,14 +668,16 @@ const pubPath = join(ROOT, 'world', 'published.json');
 const forced = existsSync(pubPath) ? JSON.parse(readFileSync(pubPath, 'utf8')) : [];
 const reviewsPath = join(ROOT, 'world', 'reviews.json');
 const reviews = existsSync(reviewsPath) ? JSON.parse(readFileSync(reviewsPath, 'utf8')) : { votes: {}, comments: {} };
+const deskPath = join(ROOT, 'world', 'desk.json');
+const desk = existsSync(deskPath) ? JSON.parse(readFileSync(deskPath, 'utf8')) : { api: '' };
 const manifest = strips.map((s) => ({
   id: s.id, title: s.title, date: s.date,
   audience: (ratings[s.id] && ratings[s.id].audience) || 1,
   note: (ratings[s.id] && ratings[s.id].note) || '',
 }));
 writeFileSync(join(ROOT, 'manifest.json'), JSON.stringify(manifest, null, 2));
-writeFileSync(join(ROOT, 'archive.html'), archive(strips, ratings, forced, reviews));
-writeFileSync(join(ROOT, 'index.html'), solo(manifest, forced, reviews));
-writeFileSync(join(ROOT, 'admin.html'), admin(manifest, forced, reviews));
+writeFileSync(join(ROOT, 'archive.html'), archive(strips, ratings, forced, reviews, desk));
+writeFileSync(join(ROOT, 'index.html'), solo(manifest, forced, reviews, desk));
+writeFileSync(join(ROOT, 'admin.html'), admin(manifest, forced, reviews, desk));
 const pub = strips.filter((s) => forced.includes(s.id)).length;
 console.log(`rendered ${strips.length} strips (${inked} Fable-inked); ${pub} published, ${strips.length - pub} drafts. index/archive/admin written.`);
