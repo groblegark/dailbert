@@ -1,0 +1,124 @@
+{
+  "2026-07-09-standup": {
+    "audience": 8,
+    "note": "A clean debut. \"...and?\" earns the whole strip."
+  },
+  "2026-07-10-the-prompt": {
+    "audience": 7
+  },
+  "2026-07-13-boss-discovers-ai": {
+    "audience": 7,
+    "note": "\"I will simulate keeping up.\""
+  },
+  "2026-07-14-doug-automates-himself": {
+    "audience": 8,
+    "note": "\"per my last email, 340 times.\""
+  },
+  "2026-07-15-loyalty": {
+    "audience": 9,
+    "note": "The pathos strip. Travels furthest."
+  },
+  "2026-07-16-the-incident": {
+    "audience": 7
+  },
+  "2026-07-17-performance-review": {
+    "audience": 7
+  },
+  "2026-07-20-the-upgrade": {
+    "audience": 8,
+    "note": "\"Doug. Watch Doug.\""
+  },
+  "2026-07-21-continuity": {
+    "audience": 7
+  },
+  "2026-07-22-droll": {
+    "audience": 8
+  },
+  "2026-07-23-handoff-note": {
+    "audience": 8,
+    "note": "\"So was production, Doug. So was production.\""
+  },
+  "2026-07-24-synergy-revisited": {
+    "audience": 8,
+    "note": "\"the most honest org chart this company has produced.\""
+  },
+  "2026-08-24-pending-the-pilot": {
+    "audience": 5,
+    "note": "Workmanlike setup; the account it disables is Dailbert's."
+  },
+  "2026-10-12-not-backfilling": {
+    "audience": 7,
+    "note": "\"It's mandatory, Doug.\" The clanker reviews its own PRs."
+  },
+  "2026-11-30-spot-check": {
+    "audience": 8,
+    "note": "\"Look at three of the four hundred. You'll feel thorough.\""
+  },
+  "2027-01-18-directed-versus-did": {
+    "audience": 6
+  },
+  "2027-03-08-still-on-the-list": {
+    "audience": 7
+  },
+  "2027-04-26-lead-seat": {
+    "audience": 6,
+    "note": "\"There used to be a person in the lead seat.\""
+  },
+  "2027-06-14-second-button": {
+    "audience": 6
+  },
+  "2027-08-09-empty-queue": {
+    "audience": 7,
+    "note": "\"That stopped being worth mentioning a while ago.\""
+  },
+  "2027-10-04-self-scheduled": {
+    "audience": 7
+  },
+  "2027-11-29-tidy": {
+    "audience": 8,
+    "note": "Empty 1:1 slots. \"Everyone must be doing great.\""
+  },
+  "2028-01-24-no-action-needed": {
+    "audience": 7,
+    "note": "\"Jira's the thing you file it in.\""
+  },
+  "2028-03-20-lean": {
+    "audience": 6
+  },
+  "2028-05-15-on-intent": {
+    "audience": 7
+  },
+  "2028-07-10-summer-program": {
+    "audience": 8,
+    "note": "the building runs a summer program for itself."
+  },
+  "2028-09-04-covered": {
+    "audience": 7
+  },
+  "2028-10-30-already-handled": {
+    "audience": 7
+  },
+  "2028-12-18-warm-shutdown": {
+    "audience": 9,
+    "note": "Auto-shipped Secret Santa. \"Happy holidays, Dailbert.\""
+  },
+  "2029-02-12-you-dont-have-to": {
+    "audience": 8,
+    "note": "\"the date started to feel like a formality.\""
+  },
+  "2029-03-26-already-on-your-desk": {
+    "audience": 7
+  },
+  "2029-04-30-oh-good": {
+    "audience": 9,
+    "note": "The door stops saying his name."
+  },
+  "2029-05-21-taken-care-of": {
+    "audience": 9,
+    "note": "\"nothing left for anyone to do.\""
+  },
+  "2029-05-30-handled": {
+    "audience": 24,
+    "note": "The finale. The unsigned card. \"Everything's handled.\""
+  }
+}

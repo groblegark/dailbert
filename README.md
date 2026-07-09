@@ -46,6 +46,18 @@ node engine/ingest.mjs <result.json>   # sanitize generated strips into strips/*
 node build.mjs
 ```
 
+## Ratings
+
+Each strip carries an **audience score** — an integer on a **1…10¹⁰ logarithmic**
+scale, read as *effective reach* (creative output is power-law). The editor assigns
+them; early strips honestly sit at 1–10. Scores live in `world/ratings.json`
+(decoupled from content), render as a badge + log meter on each strip, and the page
+offers a **Timeline / Top rated** sort (`#top`). Re-score anytime:
+
+```bash
+node engine/seed-ratings.mjs && node build.mjs
+```
+
 ## Publishing
 
 Static site. Served by GitHub Pages from `main` / root. `.nojekyll` keeps the SVGs

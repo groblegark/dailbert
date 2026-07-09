@@ -148,11 +148,33 @@ function timelineRail(strips) {
     <line x1="0" y1="10" x2="1000" y2="10" stroke="currentColor" stroke-width="1" opacity="0.35"/>${dots}</svg>`;
 }
 
-function gallery(strips) {
-  const items = strips.map((s) => `
-    <figure id="${s.id}" class="strip">
-      <img src="strips/${s.id}.svg" alt="${s.title} (${s.date})" loading="lazy"/>
-    </figure>`).join('\n');
+// audience score -> "reach"-style label on the 1..1e10 scale
+function fmtReach(n) {
+  n = Math.max(1, Math.round(n));
+  if (n < 1000) return String(n);
+  const u = ['K', 'M', 'B', 'T'];
+  let i = -1, x = n;
+  while (x >= 1000 && i < u.length - 1) { x /= 1000; i++; }
+  return (x < 10 ? x.toFixed(1) : Math.round(x)) + u[i];
+}
+const logPct = (n) => (Math.log10(Math.max(1, n)) / 10 * 100).toFixed(2); // 1e10 -> 100%
+const escAttr = (s) => String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+function gallery(strips, ratings) {
+  const items = strips.map((s, i) => {
+    const r = ratings[s.id] || {};
+    const a = r.audience || 1;
+    return `
+    <figure id="${s.id}" class="strip" data-audience="${a}" data-index="${i}" style="order:${i}">
+      <span class="rank"></span>
+      <img src="strips/${s.id}.svg" alt="${escAttr(s.title)} (${s.date})" loading="lazy"/>
+      <figcaption class="rating"${r.note ? ` title="${escAttr(r.note)}"` : ''}>
+        <span class="rk">audience</span>
+        <span class="sc">${fmtReach(a)}</span>
+        <span class="meter" title="log scale · 1 to 10B reach"><i style="width:${logPct(a)}%"></i></span>
+      </figcaption>
+    </figure>`;
+  }).join('\n');
   return `<meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>DAILBERT — dispatches from an LLM-run office</title>
@@ -167,11 +189,26 @@ function gallery(strips) {
   .rail-wrap { max-width:900px; margin:14px auto 0; padding:0 16px; }
   .rail-wrap .ends { display:flex; justify-content:space-between;
                      font-family:'Courier New',monospace; font-size:12px; opacity:.6; margin-top:2px; }
-  main { max-width:1180px; margin:0 auto; padding:20px 12px 80px; }
-  .strip { margin:0 0 34px; background:var(--paper);
+  main { max-width:1180px; margin:0 auto; padding:14px 12px 80px; display:flex; flex-direction:column; }
+  .controls { max-width:1180px; margin:10px auto 0; padding:0 12px; display:flex; gap:8px; align-items:center; }
+  .controls .lbl { margin-right:auto; font-family:'Courier New',monospace; font-size:12px; opacity:.6; }
+  .controls button { font-family:'Courier New',monospace; font-size:12px; background:transparent; color:inherit;
+                     border:1.5px solid currentColor; border-radius:20px; padding:5px 14px; cursor:pointer; opacity:.5; }
+  .controls button.active { opacity:1; background:var(--ink); color:var(--paper); border-color:var(--ink); }
+  .strip { position:relative; margin:0 0 34px; background:var(--paper);
            border:2px solid var(--ink); box-shadow:6px 6px 0 rgba(0,0,0,.18);
            padding:14px; overflow-x:auto; }
   .strip img { display:block; width:100%; height:auto; min-width:640px; }
+  .rank { position:absolute; top:-14px; left:-14px; z-index:2; background:var(--ink); color:var(--paper);
+          font-family:'Courier New',monospace; font-size:14px; font-weight:bold; width:34px; height:34px; border-radius:50%;
+          display:flex; align-items:center; justify-content:center; box-shadow:3px 3px 0 rgba(0,0,0,.22); }
+  .rank:empty { display:none; }
+  .rating { display:flex; align-items:center; gap:12px; margin-top:12px; color:var(--ink);
+            font-family:'Courier New',monospace; }
+  .rating .rk { font-size:11px; opacity:.55; text-transform:uppercase; letter-spacing:1.5px; }
+  .rating .sc { font-size:22px; font-weight:bold; letter-spacing:1px; }
+  .rating .meter { flex:1; max-width:340px; height:9px; border:1.5px solid var(--ink); border-radius:5px; overflow:hidden; }
+  .rating .meter i { display:block; height:100%; background:var(--ink); min-width:2px; }
   footer { text-align:center; padding:0 16px 60px; font-size:13px; opacity:.6; }
   hr.rule { border:none; border-top:2px solid var(--ink); max-width:1180px; margin:0 auto; }
   @media (prefers-color-scheme: dark) {
@@ -188,13 +225,38 @@ function gallery(strips) {
   </div>
 </header>
 <hr class="rule"/>
+<div class="controls">
+  <span class="lbl">audience &mdash; projected reach, log scale</span>
+  <button data-sort="timeline" class="active">Timeline</button>
+  <button data-sort="rated">Top&nbsp;rated</button>
+</div>
 <main>
 ${items}
 </main>
 <footer>
   ${strips.length} strips &middot; drawn in vector ink by the machines, about the machines &middot;
   <span title="nobody in the strip is watching the calendar">read in order</span>
-</footer>`;
+</footer>
+<script>
+(function () {
+  var main = document.querySelector('main');
+  var figs = Array.prototype.slice.call(main.querySelectorAll('.strip'));
+  function apply(mode) {
+    if (mode === 'rated') {
+      var s = figs.slice().sort(function (a, b) { return b.dataset.audience - a.dataset.audience; });
+      s.forEach(function (f, i) { f.style.order = i; f.querySelector('.rank').textContent = '#' + (i + 1); });
+    } else {
+      figs.forEach(function (f) { f.style.order = f.dataset.index; f.querySelector('.rank').textContent = ''; });
+    }
+    document.querySelectorAll('.controls button').forEach(function (b) { b.classList.toggle('active', b.dataset.sort === mode); });
+    try { history.replaceState(null, '', mode === 'rated' ? '#top' : location.pathname); } catch (e) {}
+  }
+  document.querySelectorAll('.controls button').forEach(function (b) {
+    b.addEventListener('click', function () { apply(b.dataset.sort); });
+  });
+  if (location.hash === '#top') apply('rated');
+})();
+</script>`;
 }
 
 // ---- go ----
@@ -209,5 +271,7 @@ for (const s of strips) {
   }
   writeFileSync(join(ROOT, 'strips', `${s.id}.svg`), renderStrip(s, artInner));
 }
-writeFileSync(join(ROOT, 'index.html'), gallery(strips));
-console.log(`rendered ${strips.length} strips (${inked} Fable-inked, ${strips.length - inked} template) -> strips/*.svg + index.html`);
+const ratingsPath = join(ROOT, 'world', 'ratings.json');
+const ratings = existsSync(ratingsPath) ? JSON.parse(readFileSync(ratingsPath, 'utf8')) : {};
+writeFileSync(join(ROOT, 'index.html'), gallery(strips, ratings));
+console.log(`rendered ${strips.length} strips (${inked} Fable-inked) + ratings for ${Object.keys(ratings).length} -> index.html`);
