@@ -5,8 +5,11 @@ of it; they're meant to feel it accumulate.*
 
 ## The premise
 
-The webcomic runs on a real calendar. It opens on **2026-07-09** and moves forward.
-On **2029-06-01** the world reaches a technological singularity — recursive
+The webcomic runs on a real calendar. The archive backfills to **2026-01-15** — the
+day the office installed its agents (the clanker's arrival) — and runs forward through
+a published present toward **2029-06-01**. Jan 2026 is the arrival (announcement,
+install, first power-on around the 15th); by spring the clanker is simply part of the
+furniture. On **2029-06-01** the world reaches a technological singularity — recursive
 self-improvement and near-total automation. It arrives as a **slope, not an event**:
 there is no announcement, no countdown, no single day anyone points to. The office —
 a mid-sized software company — is a lagging indicator that never grasps the big

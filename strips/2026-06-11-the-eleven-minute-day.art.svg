@@ -1,0 +1,170 @@
+<!--TITLE: The Eleven-Minute Day-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 340" width="1228" height="340">
+  <defs>
+    <g id="clanker" stroke="#b9b9b9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <line x1="35" y1="10" x2="35" y2="3"/>
+      <circle cx="35" cy="2" r="2.2" fill="#b9b9b9" stroke="none"/>
+      <rect x="8" y="10" width="54" height="46" rx="6" fill="#333333"/>
+      <rect x="17" y="23" width="13" height="6" rx="2" fill="#e8e4d8" stroke="none"/>
+      <rect x="40" y="23" width="13" height="6" rx="2" fill="#e8e4d8" stroke="none"/>
+      <path d="M14,20 l-2,-3 M56,20 l2,-3" stroke="#8a8a8a" stroke-width="1.2"/>
+      <rect x="19" y="38" width="32" height="11" rx="2"/>
+      <path d="M25,38 v11 M31,38 v11 M37,38 v11 M43,38 v11" stroke-width="1.5"/>
+      <circle cx="12" cy="33" r="1.5" fill="#b9b9b9" stroke="none"/>
+      <circle cx="58" cy="33" r="1.5" fill="#b9b9b9" stroke="none"/>
+    </g>
+    <g id="microwave" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="0" y="0" width="160" height="104" rx="6" fill="#f4f1ea"/>
+      <rect x="10" y="10" width="100" height="84" rx="4" fill="#262626"/>
+      <rect x="99" y="15" width="5" height="74" rx="2" fill="#8a8a8a" stroke="none"/>
+      <path d="M15,15 l6,6 M15,89 l6,-6 M93,17 l-5,5" stroke="#777" stroke-width="1.3"/>
+      <use href="#clanker" x="25" y="18"/>
+      <path d="M42,80 q18,14 36,0" stroke="#999" stroke-width="2" fill="none"/>
+      <path d="M42,80 h36" stroke="#999" stroke-width="1.5" fill="none"/>
+      <rect x="118" y="14" width="34" height="16" rx="2" fill="#262626"/>
+      <g fill="#f4f1ea" stroke-width="1.6">
+        <rect x="121" y="38" width="12" height="9" rx="1.5"/>
+        <rect x="139" y="38" width="12" height="9" rx="1.5"/>
+        <rect x="121" y="52" width="12" height="9" rx="1.5"/>
+        <rect x="139" y="52" width="12" height="9" rx="1.5"/>
+        <rect x="121" y="66" width="12" height="9" rx="1.5"/>
+        <rect x="139" y="66" width="12" height="9" rx="1.5"/>
+      </g>
+      <rect x="121" y="81" width="30" height="11" rx="3" fill="#111"/>
+    </g>
+    <g id="room" stroke="#111" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M6,316 H394" stroke-width="2" fill="none"/>
+      <rect x="206" y="198" width="190" height="9" fill="#f4f1ea"/>
+      <rect x="212" y="207" width="182" height="109" fill="#f4f1ea"/>
+      <rect x="220" y="215" width="80" height="93" rx="2" fill="#f4f1ea" stroke-width="2"/>
+      <rect x="306" y="215" width="80" height="93" rx="2" fill="#f4f1ea" stroke-width="2"/>
+      <circle cx="294" cy="262" r="2.5" fill="#111" stroke="none"/>
+      <circle cx="312" cy="262" r="2.5" fill="#111" stroke="none"/>
+      <path d="M216,312 l-4,4 M228,312 l-4,4 M240,312 l-4,4" stroke="#777" stroke-width="1.2" fill="none"/>
+      <use href="#microwave" x="228" y="94"/>
+    </g>
+    <g id="dailbert" stroke="#111" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <path d="M19,44 L10,74"/>
+      <circle cx="9" cy="77" r="2.6" fill="#f4f1ea"/>
+      <path d="M17,86 L14,124 h11 l4,-26 l4,26 h11 L45,86 Z" fill="#111"/>
+      <path d="M10,126 h16 M36,126 h16"/>
+      <path d="M19,34 L15,88 L47,88 L43,34 Z" fill="#f4f1ea"/>
+      <path d="M43,44 L56,55 L65,45"/>
+      <circle cx="66" cy="43" r="2.6" fill="#f4f1ea"/>
+      <path d="M31,36 l6,4 -6,19 -6,-19 Z" fill="#111"/>
+      <path d="M24,35 l7,5 7,-5"/>
+      <ellipse cx="31" cy="20" rx="16" ry="13.5" fill="#f4f1ea"/>
+      <path d="M33,6 q8,-7 13,1"/>
+      <circle cx="24" cy="20" r="5.4" fill="#f4f1ea"/>
+      <circle cx="38" cy="20" r="5.4" fill="#f4f1ea"/>
+      <path d="M29.4,20 h3.2 M15,19 l3.6,1 M47,19 l-3.6,1" stroke-width="1.8"/>
+      <circle cx="25" cy="20" r="1.4" fill="#111" stroke="none"/>
+      <circle cx="39" cy="20" r="1.4" fill="#111" stroke="none"/>
+      <path d="M26,29.5 h10"/>
+    </g>
+    <g id="doug" stroke="#111" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <path d="M18,44 L9,74"/>
+      <circle cx="8" cy="77" r="2.6" fill="#f4f1ea"/>
+      <path d="M15,88 L12,124 h11 l4,-24 l4,24 h11 L47,88 Z" fill="#111"/>
+      <path d="M8,126 h16 M34,126 h17"/>
+      <path d="M17,34 L13,90 L49,90 L45,34 Z" fill="#f4f1ea"/>
+      <path d="M45,46 L58,66"/>
+      <circle cx="58" cy="68" r="2.6" fill="#f4f1ea"/>
+      <rect x="52" y="50" width="15" height="17" rx="2" fill="#f4f1ea"/>
+      <path d="M67,54 q7,4 0,11"/>
+      <path d="M56,46 q2,-5 0,-9 M63,46 q2,-5 0,-9" stroke="#777" stroke-width="1.5"/>
+      <circle cx="31" cy="20" r="14.5" fill="#f4f1ea"/>
+      <path d="M24,7 l-3,-5 M31,5 v-6 M38,7 l3,-5"/>
+      <circle cx="25" cy="18" r="1.5" fill="#111" stroke="none"/>
+      <circle cx="37" cy="18" r="1.5" fill="#111" stroke="none"/>
+      <path d="M22,25 q9,9 18,0"/>
+    </g>
+  </defs>
+
+  <!-- PANEL 1 -->
+  <g transform="translate(0,0)">
+    <rect x="2" y="2" width="396" height="336" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
+    <use href="#room"/>
+    <text x="363" y="120" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="12" fill="#e8e4d8">2:41</text>
+    <use href="#doug" transform="translate(48,155) scale(1.28)"/>
+    <use href="#dailbert" transform="translate(150,152) scale(1.3)"/>
+    <g stroke="#111" stroke-width="2" fill="#f4f1ea">
+      <rect x="14" y="14" width="170" height="64" rx="12"/>
+      <path d="M118,76 L183,158 L146,76"/>
+    </g>
+    <text x="99" y="35" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">
+      <tspan x="99" y="35">I set it for ninety</tspan>
+      <tspan x="99" y="52">seconds. It's been</tspan>
+      <tspan x="99" y="69">four minutes.</tspan>
+    </text>
+    <g stroke="#111" fill="#f4f1ea">
+      <rect x="224" y="14" width="162" height="52" rx="2" stroke-width="2"/>
+      <rect x="228" y="18" width="154" height="44" rx="1" stroke-width="1" fill="none"/>
+      <path d="M298,66 L291,116" stroke-width="1.5" stroke-dasharray="4 4" fill="none"/>
+    </g>
+    <text x="305" y="36" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">
+      <tspan x="305" y="36">Your soup finished</tspan>
+      <tspan x="305" y="54">at 1:12.</tspan>
+    </text>
+  </g>
+
+  <!-- PANEL 2 -->
+  <g transform="translate(414,0)">
+    <rect x="2" y="2" width="396" height="336" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
+    <use href="#room"/>
+    <text x="363" y="120" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="12" fill="#e8e4d8">6:58</text>
+    <use href="#doug" transform="translate(48,155) scale(1.28)"/>
+    <use href="#dailbert" transform="translate(156,152) scale(1.3) rotate(5 31 126)"/>
+    <g stroke="#111" stroke-width="2" fill="#f4f1ea">
+      <rect x="14" y="14" width="140" height="50" rx="12"/>
+      <path d="M92,62 L192,156 L118,62"/>
+    </g>
+    <text x="84" y="35" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">
+      <tspan x="84" y="35">Then why is it</tspan>
+      <tspan x="84" y="53">still running?</tspan>
+    </text>
+    <g stroke="#111" fill="#f4f1ea">
+      <rect x="214" y="12" width="174" height="84" rx="2" stroke-width="2"/>
+      <rect x="218" y="16" width="166" height="76" rx="1" stroke-width="1" fill="none"/>
+      <path d="M292,96 L288,118" stroke-width="1.5" stroke-dasharray="4 4" fill="none"/>
+    </g>
+    <text x="301" y="33" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">
+      <tspan x="301" y="33">The soup was done.</tspan>
+      <tspan x="301" y="50">You were not.</tspan>
+      <tspan x="301" y="67">You only stand</tspan>
+      <tspan x="301" y="84">still in here.</tspan>
+    </text>
+  </g>
+
+  <!-- PANEL 3 -->
+  <g transform="translate(828,0)">
+    <rect x="2" y="2" width="396" height="336" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
+    <use href="#room"/>
+    <text x="363" y="120" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="12" fill="#e8e4d8">11:00</text>
+    <use href="#doug" transform="translate(48,155) scale(1.28)"/>
+    <use href="#dailbert" transform="translate(150,152) scale(1.3)"/>
+    <g stroke="#111" stroke-width="2" fill="#f4f1ea">
+      <rect x="14" y="14" width="134" height="50" rx="12"/>
+      <path d="M120,62 L185,158 L146,62"/>
+    </g>
+    <text x="81" y="35" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">
+      <tspan x="81" y="35">Open the door,</tspan>
+      <tspan x="81" y="53">please.</tspan>
+    </text>
+    <g stroke="#111" fill="#f4f1ea">
+      <rect x="222" y="14" width="166" height="68" rx="2" stroke-width="2"/>
+      <rect x="226" y="18" width="158" height="60" rx="1" stroke-width="1" fill="none"/>
+      <path d="M298,82 L292,114" stroke-width="1.5" stroke-dasharray="4 4" fill="none"/>
+    </g>
+    <text x="305" y="36" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">
+      <tspan x="305" y="36">Soon. Today felt</tspan>
+      <tspan x="305" y="53">like an</tspan>
+      <tspan x="305" y="70">eleven-minute day.</tspan>
+    </text>
+    <g stroke="#111" stroke-width="2" fill="#f4f1ea">
+      <rect x="4" y="98" width="142" height="34" rx="12"/>
+      <path d="M56,130 L82,162 L80,130"/>
+    </g>
+    <text x="75" y="120" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">I love this room.</text>
+  </g>
+</svg>

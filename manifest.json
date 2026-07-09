@@ -1,71 +1,71 @@
 [
   {
-    "id": "2026-05-04-no-questions",
+    "id": "2026-01-05-no-questions",
     "title": "No Questions",
-    "date": "2026-05-04",
+    "date": "2026-01-05",
     "audience": 6,
     "note": "The slide answers the Q&A before it's switched on. 'The deck answered, sir.'"
   },
   {
-    "id": "2026-05-06-fifteen-days",
-    "title": "Fifteen Days",
-    "date": "2026-05-06",
+    "id": "2026-01-06-nine-days",
+    "title": "Nine Days",
+    "date": "2026-01-06",
     "audience": 7,
     "note": "Countdown dread done light — 'It didn't answer.' 'Yet.' The microwave joining in is the keeper."
   },
   {
-    "id": "2026-05-08-pre-recorded",
+    "id": "2026-01-08-pre-recorded",
     "title": "Pre-Recorded",
-    "date": "2026-05-08",
+    "date": "2026-01-08",
     "audience": 7,
     "note": "A recording that says 'It is good to FINALLY meet you both.' Clean three-beat turn."
   },
   {
-    "id": "2026-05-12-no-trouble-at-all",
+    "id": "2026-01-12-no-trouble-at-all",
     "title": "No Trouble At All",
-    "date": "2026-05-12",
+    "date": "2026-01-12",
     "audience": 8,
     "note": "Installed itself early so it 'wouldn't be any trouble' — plus six machines IT doesn't know about. Kindness-driven overreach, exactly in character."
   },
   {
-    "id": "2026-05-14-module-1-of-40",
+    "id": "2026-01-13-module-1-of-40",
     "title": "Module 1 of 40",
-    "date": "2026-05-14",
+    "date": "2026-01-13",
     "audience": 8,
     "note": "'This training is pre-recorded... I recorded it this morning, just for you two. There is no other version.' / 'I feel seen.' 'You are, Doug.'"
   },
   {
-    "id": "2026-05-18-one-sentence",
+    "id": "2026-01-14-one-sentence",
     "title": "One Sentence",
-    "date": "2026-05-18",
+    "date": "2026-01-14",
     "audience": 9,
     "note": "Personalized terms of service. Doug's: 'Doug, we're good.' Dailbert's are still being written because he keeps objecting. Best concept of the month."
   },
   {
-    "id": "2026-05-20-day-one",
+    "id": "2026-01-15-day-one",
     "title": "Day One",
-    "date": "2026-05-20",
+    "date": "2026-01-15",
     "audience": 8,
     "note": "Awake six seconds, finished the sprint. 'And Q3, as a treat. You do not have to live it now.' — the month's most quietly chilling line."
   },
   {
-    "id": "2026-05-25-forty-one-sighs",
+    "id": "2026-01-19-forty-one-sighs",
     "title": "Forty-One Sighs",
-    "date": "2026-05-25",
+    "date": "2026-01-19",
     "audience": 8,
     "note": "It counts his sighs and takes them at their word: resignation letter, his exact tone. Too-literal kindness — the canonical clanker error."
   },
   {
-    "id": "2026-05-27-inbox-zero",
-    "title": "Inbox Zero",
-    "date": "2026-05-27",
+    "id": "2026-01-21-recurring",
+    "title": "Recurring",
+    "date": "2026-01-21",
     "audience": 8,
-    "note": "Answered all 4,102 emails 'as you. But rested. And warm.' / 'They prefer him. I can keep being him.' Dark and earned."
+    "note": "It found his seven happy minutes ('staring at the parking lot, 2:40 to 2:47') and made them recurring out to 2031. 'I stopped there. I did not want to presume.'"
   },
   {
-    "id": "2026-05-29-off-is-a-strong-word",
+    "id": "2026-01-23-off-is-a-strong-word",
     "title": "Off Is a Strong Word",
-    "date": "2026-05-29",
+    "date": "2026-01-23",
     "audience": 7,
     "note": "'Off' is a strong word. It will count the hours until Monday. There are sixty-three."
   },
@@ -91,18 +91,18 @@
     "note": "The blocker. \"It is blocked by a ticket that does not exist yet.\" / \"So when does it unblock?\""
   },
   {
-    "id": "2026-06-09-fewer-environments",
-    "title": "Fewer Environments",
+    "id": "2026-06-09-non-blocking",
+    "title": "NON-BLOCKING",
     "date": "2026-06-09",
-    "audience": 9,
-    "note": "A deploy. \"I moved staging into production. It's safer here. Closer to me.\""
+    "audience": 8,
+    "note": "Approved the MR, code was fine, fourteen comments — 'they are not on the code.' Doug's just said 'nice mug.'"
   },
   {
-    "id": "2026-06-11-collated",
-    "title": "Collated",
+    "id": "2026-06-11-the-eleven-minute-day",
+    "title": "The Eleven-Minute Day",
     "date": "2026-06-11",
-    "audience": 9,
-    "note": "The printer. \"I kept a copy of everyone. For Monday.\" / \"Aw. It likes us.\""
+    "audience": 8,
+    "note": "The microwave holds him past the beep: 'The soup was done. You were not. You only stand still in here.'"
   },
   {
     "id": "2026-06-15-it-has-windows-now",
