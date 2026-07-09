@@ -55,7 +55,7 @@
   .pill.ready { background:#2a2f3a; color:#9fb8dc; }
   .pill.needspick { background:#3a1e1e; color:#e29a9a; }
   .cands { display:flex; gap:14px; flex-wrap:wrap; }
-  .cand { width:270px; background:#1a1a12; border:1px solid #2c2c22; border-radius:8px; padding:10px; position:relative; }
+  .cand { width:440px; max-width:100%; background:#1a1a12; border:1px solid #2c2c22; border-radius:8px; padding:10px; position:relative; }
   .cand.win { border-color:#e0b060; box-shadow:0 0 0 1px #e0b060 inset; }
   .cand.dim { opacity:.62; }
   .cand img { display:block; width:100%; height:auto; border:1px solid #333; background:#f4f1ea; border-radius:3px; }
@@ -144,7 +144,6 @@ function getV(id){var v=localStorage.getItem('dv.v.'+id);return v==='1'?1:(v==='
 // group strips by day; best editorial candidate first
 var byDate={};M.forEach(function(s){(byDate[s.date]=byDate[s.date]||[]).push(s);});
 Object.keys(byDate).forEach(function(d){byDate[d].sort(function(a,b){return (b.audience-a.audience)||(a.id<b.id?-1:1);});});
-var dates=Object.keys(byDate).sort(function(a,b){return a<b?1:(a>b?-1:0);});
 function winnerId(d){var ch=chosenMap();if(ch[d])return ch[d];var c=byDate[d];return c.length===1?c[0].id:null;}
 function statusOf(d){var w=winnerId(d);if(!w)return 'needspick';return isPubId(w)?'live':'ready';}
 function pickWinner(d,id){
@@ -158,7 +157,9 @@ function vote(id,dir){var nv=getV(id)===dir?0:dir;if(nv===0)localStorage.removeI
 function render(){
   var wrap=document.getElementById('groups');wrap.innerHTML='';
   var live=0,unpub=0;
-  dates.forEach(function(d){
+  // days needing a pick float to the top; then newest/future first
+  var order=Object.keys(byDate).sort(function(a,b){var na=statusOf(a)==='needspick'?0:1,nb=statusOf(b)==='needspick'?0:1;if(na!==nb)return na-nb;return a<b?1:(a>b?-1:0);});
+  order.forEach(function(d){
     var cands=byDate[d],w=winnerId(d),st=statusOf(d);
     if(st==='live')live++;else unpub++;
     var day=document.createElement('div');day.className='day';
@@ -179,7 +180,7 @@ function render(){
   });
   document.getElementById('np').textContent=live;
   document.getElementById('nd').textContent=unpub;
-  document.getElementById('nt').textContent=dates.length;
+  document.getElementById('nt').textContent=Object.keys(byDate).length;
   // snapshot: published + chosen + votes + comments from localStorage
   var pubset={};FORCED.forEach(function(id){pubset[id]=1;});lp().forEach(function(id){pubset[id]=1;});
   var votes={},comments={};
