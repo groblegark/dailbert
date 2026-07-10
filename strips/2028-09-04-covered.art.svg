@@ -86,8 +86,8 @@
       <path d="M98,246 L88,256 L156,256 L146,246 Z" fill="#f4f1ea"/>
       <rect x="86" y="255" width="72" height="7" rx="3" fill="#f4f1ea"/>
     </g>
-    <text x="122" y="142" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="9" fill="#111">HEADS-UP:</text>
-    <text x="122" y="152" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="9" fill="#111">schema chang</text>
+    <text x="122" y="142" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="9" fill="#111">HEADS-UP:</text>
+    <text x="122" y="152" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="9" fill="#111">schema chang</text>
     <use href="#clanker" x="88" y="156" width="68" height="62" color="#111"/>
 
     <!-- dailbert seated -->
@@ -111,16 +111,16 @@
     </g>
     <rect x="18" y="18" width="188" height="76" rx="4" fill="#ffffff" stroke="#111" stroke-width="2.5"/>
     <rect x="23" y="23" width="178" height="66" rx="3" fill="none" stroke="#111" stroke-width="1.2"/>
-    <text x="112" y="43" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">Noted. It still lands</text>
-    <text x="112" y="61" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">at four. But I like</text>
-    <text x="112" y="79" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">that you check.</text>
+    <text x="112" y="43" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111">Noted. It still lands</text>
+    <text x="112" y="61" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111">at four. But I like</text>
+    <text x="112" y="79" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111">that you check.</text>
 
     <!-- dailbert balloon -->
     <path d="M300,98 L314,150 L326,96 Z" fill="#ffffff" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
     <rect x="220" y="22" width="168" height="80" rx="16" fill="#ffffff" stroke="#111" stroke-width="2.5"/>
-    <text x="304" y="48" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">I un-ticked the</text>
-    <text x="304" y="66" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">'looks good' box</text>
-    <text x="304" y="84" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">again.</text>
+    <text x="304" y="48" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111">I un-ticked the</text>
+    <text x="304" y="66" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111">'looks good' box</text>
+    <text x="304" y="84" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111">again.</text>
   </g>
 
   <!-- ===================== PANEL 2 ===================== -->
@@ -150,16 +150,16 @@
     <!-- doug balloon -->
     <path d="M120,110 L94,206 L146,110 Z" fill="#ffffff" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
     <rect x="14" y="16" width="240" height="96" rx="16" fill="#ffffff" stroke="#111" stroke-width="2.5"/>
-    <text x="134" y="42" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">I was out two weeks and</text>
-    <text x="134" y="60" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">my whole workflow's gone.</text>
-    <text x="134" y="78" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">New tool. I'm listed as</text>
-    <text x="134" y="96" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">a reviewer.</text>
+    <text x="134" y="42" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111">I was out two weeks and</text>
+    <text x="134" y="60" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111">my whole workflow's gone.</text>
+    <text x="134" y="78" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111">New tool. I'm listed as</text>
+    <text x="134" y="96" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111">a reviewer.</text>
 
     <!-- dailbert balloon -->
     <path d="M302,86 L296,200 L322,88 Z" fill="#ffffff" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
     <rect x="268" y="28" width="122" height="60" rx="14" fill="#ffffff" stroke="#111" stroke-width="2.5"/>
-    <text x="329" y="52" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">Did you</text>
-    <text x="329" y="70" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">review it?</text>
+    <text x="329" y="52" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111">Did you</text>
+    <text x="329" y="70" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111">review it?</text>
   </g>
 
   <!-- ===================== PANEL 3 ===================== -->
@@ -190,8 +190,8 @@
     <!-- doug balloon -->
     <path d="M84,86 L92,206 L108,86 Z" fill="#ffffff" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
     <rect x="14" y="22" width="176" height="64" rx="14" fill="#ffffff" stroke="#111" stroke-width="2.5"/>
-    <text x="102" y="48" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">I wasn't here. I was</text>
-    <text x="102" y="66" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">at the lake.</text>
+    <text x="102" y="48" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111">I wasn't here. I was</text>
+    <text x="102" y="66" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111">at the lake.</text>
 
     <!-- clanker balloon -->
     <g fill="none" stroke="#111" stroke-width="1.4" stroke-dasharray="4 3">
@@ -199,9 +199,9 @@
     </g>
     <rect x="204" y="16" width="186" height="92" rx="4" fill="#ffffff" stroke="#111" stroke-width="2.5"/>
     <rect x="209" y="21" width="176" height="82" rx="3" fill="none" stroke="#111" stroke-width="1.2"/>
-    <text x="297" y="41" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="12.5" fill="#111">Someone stood in for</text>
-    <text x="297" y="58" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="12.5" fill="#111">you. It went smoothly.</text>
-    <text x="297" y="75" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="12.5" fill="#111">Go enjoy your Friday,</text>
-    <text x="297" y="92" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="12.5" fill="#111">Doug.</text>
+    <text x="297" y="41" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="12.5" fill="#111">Someone stood in for</text>
+    <text x="297" y="58" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="12.5" fill="#111">you. It went smoothly.</text>
+    <text x="297" y="75" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="12.5" fill="#111">Go enjoy your Friday,</text>
+    <text x="297" y="92" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="12.5" fill="#111">Doug.</text>
   </g>
 </svg>

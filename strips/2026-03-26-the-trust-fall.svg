@@ -79,7 +79,7 @@
     <g stroke="#111" stroke-width="2" fill="#fff" stroke-linejoin="round">
       <rect x="24" y="24" width="96" height="30" rx="2"/>
     </g>
-    <text x="72" y="44" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">SYNERGY</text>
+    <text x="72" y="44" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">SYNERGY</text>
 
     <use href="#boss" x="44" y="92" width="108" height="205"/>
     <use href="#dailbert" x="205" y="114" width="88" height="178"/>
@@ -95,7 +95,7 @@
       <path d="M190 84 L112 122 L214 88"/>
       <rect x="150" y="18" width="235" height="70" rx="16"/>
     </g>
-    <text text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">
+    <text text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">
       <tspan x="267" y="40">Team-building day.</tspan>
       <tspan x="267" y="58">Everybody line up</tspan>
       <tspan x="267" y="76">for trust falls.</tspan>
@@ -129,7 +129,7 @@
     <g stroke="#111" stroke-width="2" fill="#fff" stroke-linejoin="round">
       <rect x="520" y="28" width="150" height="72"/>
     </g>
-    <text text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">
+    <text text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">
       <tspan x="595" y="48">The other catchers</tspan>
       <tspan x="595" y="66">went back to work.</tspan>
       <tspan x="595" y="84">It's more efficient.</tspan>
@@ -140,7 +140,7 @@
       <path d="M498 150 L516 172 L512 148"/>
       <rect x="436" y="120" width="72" height="34" rx="12"/>
     </g>
-    <text x="472" y="142" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Great.</text>
+    <text x="472" y="142" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Great.</text>
   </g>
 
   <!-- ============ PANEL 3 ============ -->
@@ -185,7 +185,7 @@
     <g stroke="#111" stroke-width="2" fill="#fff" stroke-linejoin="round">
       <rect x="940" y="26" width="168" height="70"/>
     </g>
-    <text text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">
+    <text text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">
       <tspan x="1024" y="46">You won't need</tspan>
       <tspan x="1024" y="64">all of them.</tspan>
       <tspan x="1024" y="82">You never really did.</tspan>

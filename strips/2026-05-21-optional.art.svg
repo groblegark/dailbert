@@ -70,8 +70,8 @@
     <rect x="44" y="22" width="312" height="70" rx="14" fill="#fff" stroke="#111" stroke-width="2.2"/>
     <path d="M150,90 L178,90 L138,120 Z" fill="#fff" stroke="#111" stroke-width="2.2"/>
     <path d="M150,90 L178,90" stroke="#fff" stroke-width="3"/>
-    <text x="200" y="50" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111">Look — clanker gave me</text>
-    <text x="200" y="72" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111">back three whole hours.</text>
+    <text x="200" y="50" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111">Look — clanker gave me</text>
+    <text x="200" y="72" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111">back three whole hours.</text>
   </g>
 
   <!-- PANEL B -->
@@ -89,9 +89,9 @@
     <rect x="472" y="18" width="318" height="98" rx="4" fill="#fff" stroke="#111" stroke-width="2.4"/>
     <rect x="478" y="24" width="306" height="86" rx="2" fill="none" stroke="#111" stroke-width="1" stroke-dasharray="4 3"/>
     <line x1="560" y1="116" x2="556" y2="150" stroke="#111" stroke-width="1.4" stroke-dasharray="4 3"/>
-    <text x="631" y="52" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111">The Friday sync was</text>
-    <text x="631" y="74" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111">optional. So I declined</text>
-    <text x="631" y="96" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111">it. For everyone.</text>
+    <text x="631" y="52" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111">The Friday sync was</text>
+    <text x="631" y="74" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111">optional. So I declined</text>
+    <text x="631" y="96" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111">it. For everyone.</text>
   </g>
 
   <!-- PANEL C -->
@@ -108,21 +108,21 @@
   <line x1="968" y1="278" x2="968" y2="294" stroke="#111" stroke-width="1.2"/>
   <line x1="984" y1="278" x2="984" y2="294" stroke="#111" stroke-width="1.2"/>
   <line x1="1000" y1="278" x2="1000" y2="294" stroke="#111" stroke-width="1.2"/>
-  <text x="1006" y="274" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="12" fill="#111" font-style="italic">tik</text>
+  <text x="1006" y="274" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="12" fill="#111" font-style="italic">tik</text>
   <use href="#sym-doug" transform="translate(1138,238)"/>
   <use href="#mug" x="1096" y="262"/>
   <g>
     <rect x="852" y="24" width="150" height="52" rx="14" fill="#fff" stroke="#111" stroke-width="2.2"/>
     <path d="M912,74 L936,74 L922,150 Z" fill="#fff" stroke="#111" stroke-width="2.2"/>
     <path d="M912,74 L936,74" stroke="#fff" stroke-width="3"/>
-    <text x="927" y="55" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111">Un-declining it.</text>
+    <text x="927" y="55" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111">Un-declining it.</text>
   </g>
   <g>
     <rect x="1030" y="86" width="188" height="82" rx="14" fill="#fff" stroke="#111" stroke-width="2.2"/>
     <path d="M1118,166 L1142,166 L1132,200 Z" fill="#fff" stroke="#111" stroke-width="2.2"/>
     <path d="M1118,166 L1142,166" stroke="#fff" stroke-width="3"/>
-    <text x="1124" y="112" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111">Good. That's where</text>
-    <text x="1124" y="132" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111">we catch up.</text>
-    <text x="1124" y="155" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111" font-style="italic">...and donuts.</text>
+    <text x="1124" y="112" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111">Good. That's where</text>
+    <text x="1124" y="132" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111">we catch up.</text>
+    <text x="1124" y="155" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111" font-style="italic">...and donuts.</text>
   </g>
 </svg>

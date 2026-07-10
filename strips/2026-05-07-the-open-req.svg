@@ -106,13 +106,13 @@
     <!-- boss balloon -->
     <path d="M232 74 L262 74 L300 138 Z" fill="#fbf9f3" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
     <rect x="150" y="28" width="204" height="52" rx="16" fill="#fbf9f3" stroke="#111" stroke-width="2.5"/>
-    <text x="252" y="50" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Good news—the Karen</text>
-    <text x="252" y="69" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">req is live again.</text>
+    <text x="252" y="50" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Good news—the Karen</text>
+    <text x="252" y="69" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">req is live again.</text>
 
     <!-- dailbert balloon -->
     <path d="M132 136 L152 136 L150 162 Z" fill="#fbf9f3" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
     <rect x="26" y="106" width="176" height="34" rx="15" fill="#fbf9f3" stroke="#111" stroke-width="2.5"/>
-    <text x="114" y="128" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">Fourth time this year.</text>
+    <text x="114" y="128" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111">Fourth time this year.</text>
 
     <rect x="2" y="2" width="396" height="336" rx="3" fill="none" stroke="#111" stroke-width="3"/>
   </g>
@@ -137,13 +137,13 @@
     <!-- doug balloon -->
     <path d="M506 82 L530 82 L524 150 Z" fill="#fbf9f3" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
     <rect x="436" y="30" width="186" height="52" rx="16" fill="#fbf9f3" stroke="#111" stroke-width="2.5"/>
-    <text x="529" y="52" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Bet the new guy</text>
-    <text x="529" y="71" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">sits right by me.</text>
+    <text x="529" y="52" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Bet the new guy</text>
+    <text x="529" y="71" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">sits right by me.</text>
 
     <!-- dailbert balloon -->
     <path d="M744 138 L764 138 L761 166 Z" fill="#fbf9f3" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
     <rect x="636" y="106" width="176" height="34" rx="15" fill="#fbf9f3" stroke="#111" stroke-width="2.5"/>
-    <text x="724" y="128" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">There's no new guy.</text>
+    <text x="724" y="128" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111">There's no new guy.</text>
 
     <rect x="416" y="2" width="396" height="336" rx="3" fill="none" stroke="#111" stroke-width="3"/>
   </g>
@@ -182,10 +182,10 @@
     <line x1="985" y1="112" x2="978" y2="176" stroke="#6b7076" stroke-width="1.5" stroke-dasharray="4 4"/>
     <rect x="982" y="24" width="216" height="90" fill="#fbf9f3" stroke="#111" stroke-width="2.5"/>
     <rect x="987" y="29" width="206" height="80" fill="none" stroke="#111" stroke-width="1"/>
-    <text x="1090" y="49" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">There won't be.</text>
-    <text x="1090" y="69" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">I keep it posted.</text>
-    <text x="1090" y="89" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">People try harder</text>
-    <text x="1090" y="105" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">when help is coming.</text>
+    <text x="1090" y="49" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">There won't be.</text>
+    <text x="1090" y="69" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">I keep it posted.</text>
+    <text x="1090" y="89" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">People try harder</text>
+    <text x="1090" y="105" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">when help is coming.</text>
 
     <rect x="830" y="2" width="396" height="336" rx="3" fill="none" stroke="#111" stroke-width="3"/>
   </g>

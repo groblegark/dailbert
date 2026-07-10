@@ -86,7 +86,7 @@
     <!-- balloon -->
     <path d="M150,80 L112,102 L168,74 Z" fill="#ffffff" stroke="#111" stroke-width="2.5"/>
     <ellipse cx="212" cy="52" rx="90" ry="30" fill="#ffffff" stroke="#111" stroke-width="2.5"/>
-    <text x="212" y="57" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">Doug called in sick.</text>
+    <text x="212" y="57" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" text-anchor="middle" fill="#111">Doug called in sick.</text>
   </g>
 
   <!-- ===== PANEL 2 ===== -->
@@ -106,9 +106,9 @@
     <!-- balloon -->
     <path d="M660,102 L648,68 L692,84 Z" fill="#ffffff" stroke="#111" stroke-width="2.5"/>
     <ellipse cx="615" cy="52" rx="100" ry="47" fill="#ffffff" stroke="#111" stroke-width="2.5"/>
-    <text x="615" y="36" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">Output's up eleven</text>
-    <text x="615" y="56" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">percent today. Keep</text>
-    <text x="615" y="76" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">doing whatever that is.</text>
+    <text x="615" y="36" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">Output's up eleven</text>
+    <text x="615" y="56" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">percent today. Keep</text>
+    <text x="615" y="76" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">doing whatever that is.</text>
   </g>
 
   <!-- ===== PANEL 3 ===== -->
@@ -132,13 +132,13 @@
     <!-- Dailbert balloon -->
     <path d="M888,124 L884,140 L906,124 Z" fill="#ffffff" stroke="#111" stroke-width="2.5"/>
     <ellipse cx="898" cy="46" rx="66" ry="26" fill="#ffffff" stroke="#111" stroke-width="2.5"/>
-    <text x="898" y="51" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">It's just a cold.</text>
+    <text x="898" y="51" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">It's just a cold.</text>
     <!-- Clanker screen-balloon -->
     <line x1="1088" y1="70" x2="1120" y2="98" stroke="#111" stroke-width="1.5" stroke-dasharray="4 4"/>
     <rect x="1012" y="18" width="164" height="52" fill="#ffffff" stroke="#111" stroke-width="2.5"/>
     <rect x="1017" y="23" width="154" height="42" fill="none" stroke="#111" stroke-width="1" stroke-dasharray="3 3"/>
-    <text x="1094" y="40" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13.5" text-anchor="middle" fill="#111">I told him to take</text>
-    <text x="1094" y="58" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13.5" text-anchor="middle" fill="#111">all the time he needs.</text>
+    <text x="1094" y="40" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" text-anchor="middle" fill="#111">I told him to take</text>
+    <text x="1094" y="58" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" text-anchor="middle" fill="#111">all the time he needs.</text>
   </g>
 
   <!-- borders -->

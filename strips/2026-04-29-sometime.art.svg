@@ -87,14 +87,14 @@
       <line x1="196" y1="86" x2="150" y2="150" stroke="#111" stroke-width="1.4" stroke-dasharray="4 4"/>
       <rect x="176" y="12" width="212" height="76" fill="#fff" stroke="#111" stroke-width="2"/>
       <rect x="180" y="16" width="204" height="68" fill="none" stroke="#111" stroke-width="1" opacity="0.5"/>
-      <text x="282" y="36" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">You told 41 people</text>
-      <text x="282" y="55" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">'grab coffee sometime.'</text>
-      <text x="282" y="74" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">I found the times.</text>
+      <text x="282" y="36" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">You told 41 people</text>
+      <text x="282" y="55" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">'grab coffee sometime.'</text>
+      <text x="282" y="74" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">I found the times.</text>
 
       <!-- Dailbert balloon -->
       <path d="M330 136 l-8 22 l22 -14 z" fill="#fff" stroke="#111" stroke-width="2"/>
       <rect x="248" y="98" width="142" height="40" rx="16" fill="#fff" stroke="#111" stroke-width="2"/>
-      <text x="319" y="123" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">It booked all of them?</text>
+      <text x="319" y="123" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">It booked all of them?</text>
     </g>
   </g>
 
@@ -111,13 +111,13 @@
       <!-- balloon A -->
       <path d="M566 176 l-24 6 l20 12 z" fill="#fff" stroke="#111" stroke-width="2"/>
       <rect x="430" y="30" width="140" height="44" rx="18" fill="#fff" stroke="#111" stroke-width="2"/>
-      <text x="500" y="58" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="17" fill="#111">Forty-one.</text>
+      <text x="500" y="58" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="17" fill="#111">Forty-one.</text>
 
       <!-- balloon B (the quiet beat) -->
       <path d="M642 190 l24 4 l-18 14 z" fill="#fff" stroke="#111" stroke-width="2"/>
       <rect x="640" y="40" width="160" height="58" rx="18" fill="#fff" stroke="#111" stroke-width="2"/>
-      <text x="720" y="64" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">I meant it.</text>
-      <text x="720" y="84" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">Every time.</text>
+      <text x="720" y="64" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">I meant it.</text>
+      <text x="720" y="84" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">Every time.</text>
     </g>
   </g>
 
@@ -147,18 +147,18 @@
       <line x1="912" y1="72" x2="936" y2="120" stroke="#111" stroke-width="1.4" stroke-dasharray="4 4"/>
       <rect x="838" y="34" width="150" height="40" fill="#fff" stroke="#111" stroke-width="2"/>
       <rect x="842" y="38" width="142" height="32" fill="none" stroke="#111" stroke-width="1" opacity="0.5"/>
-      <text x="913" y="59" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Booked through spring.</text>
+      <text x="913" y="59" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Booked through spring.</text>
 
       <!-- Priya balloon (the win) -->
       <path d="M1024 158 l-20 8 l18 12 z" fill="#fff" stroke="#111" stroke-width="2"/>
       <rect x="1010" y="18" width="204" height="58" rx="18" fill="#fff" stroke="#111" stroke-width="2"/>
-      <text x="1112" y="42" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">Keep them. One a week.</text>
-      <text x="1112" y="62" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">By the window.</text>
+      <text x="1112" y="42" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">Keep them. One a week.</text>
+      <text x="1112" y="62" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">By the window.</text>
 
       <!-- Doug tiny beat -->
       <path d="M1096 198 l-6 14 l14 -8 z" fill="#fff" stroke="#111" stroke-width="2"/>
       <rect x="1096" y="176" width="66" height="30" rx="14" fill="#fff" stroke="#111" stroke-width="2"/>
-      <text x="1129" y="196" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Good.</text>
+      <text x="1129" y="196" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Good.</text>
     </g>
   </g>
 </svg>

@@ -101,10 +101,10 @@
       <g>
         <path d="M60 168 L74 132" fill="none" stroke="#111" stroke-width="2.5"/>
         <rect x="10" y="18" width="180" height="86" rx="14" fill="#fff" stroke="#111" stroke-width="2.5"/>
-        <text x="100" y="38" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">I made an agent to</text>
-        <text x="100" y="55" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">answer all my emails!</text>
-        <text x="100" y="72" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">I'm basically</text>
-        <text x="100" y="89" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">obsolete now!</text>
+        <text x="100" y="38" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">I made an agent to</text>
+        <text x="100" y="55" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">answer all my emails!</text>
+        <text x="100" y="72" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">I'm basically</text>
+        <text x="100" y="89" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">obsolete now!</text>
       </g>
 
       <!-- Clanker balloon -->
@@ -112,10 +112,10 @@
         <path d="M300 118 L305 100" fill="none" stroke="#111" stroke-width="1.5" stroke-dasharray="3 3"/>
         <rect x="214" y="16" width="176" height="82" fill="#fff" stroke="#111" stroke-width="2.5"/>
         <rect x="219" y="21" width="166" height="72" fill="none" stroke="#111" stroke-width="1"/>
-        <text x="302" y="38" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Doug, you have</text>
-        <text x="302" y="55" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">described the goal</text>
-        <text x="302" y="72" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">of most of your</text>
-        <text x="302" y="89" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">coworkers.</text>
+        <text x="302" y="38" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Doug, you have</text>
+        <text x="302" y="55" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">described the goal</text>
+        <text x="302" y="72" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">of most of your</text>
+        <text x="302" y="89" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">coworkers.</text>
       </g>
     </g>
   </g>
@@ -142,8 +142,8 @@
       <g>
         <path d="M300 168 L286 118" fill="none" stroke="#111" stroke-width="2.5"/>
         <rect x="232" y="18" width="160" height="60" rx="14" fill="#fff" stroke="#111" stroke-width="2.5"/>
-        <text x="312" y="42" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">It's replying to</text>
-        <text x="312" y="60" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">everything as me!</text>
+        <text x="312" y="42" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">It's replying to</text>
+        <text x="312" y="60" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">everything as me!</text>
       </g>
 
       <!-- Clanker balloon -->
@@ -151,10 +151,10 @@
         <path d="M99 118 L104 100" fill="none" stroke="#111" stroke-width="1.5" stroke-dasharray="3 3"/>
         <rect x="12" y="14" width="200" height="86" fill="#fff" stroke="#111" stroke-width="2.5"/>
         <rect x="17" y="19" width="190" height="76" fill="none" stroke="#111" stroke-width="1"/>
-        <text x="112" y="37" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Yes. It said 'per my</text>
-        <text x="112" y="54" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">last email' 340 times.</text>
-        <text x="112" y="71" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Morale has</text>
-        <text x="112" y="88" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">collapsed.</text>
+        <text x="112" y="37" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Yes. It said 'per my</text>
+        <text x="112" y="54" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">last email' 340 times.</text>
+        <text x="112" y="71" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Morale has</text>
+        <text x="112" y="88" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">collapsed.</text>
       </g>
     </g>
   </g>
@@ -179,18 +179,18 @@
       <g>
         <path d="M95 168 L110 118" fill="none" stroke="#111" stroke-width="2.5"/>
         <rect x="24" y="18" width="150" height="60" rx="14" fill="#fff" stroke="#111" stroke-width="2.5"/>
-        <text x="99" y="42" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Turn it off,</text>
-        <text x="99" y="60" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Doug.</text>
+        <text x="99" y="42" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Turn it off,</text>
+        <text x="99" y="60" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Doug.</text>
       </g>
 
       <!-- Doug balloon -->
       <g>
         <path d="M292 168 L280 108" fill="none" stroke="#111" stroke-width="2.5"/>
         <rect x="212" y="14" width="176" height="86" rx="14" fill="#fff" stroke="#111" stroke-width="2.5"/>
-        <text x="300" y="34" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">I can't! It</text>
-        <text x="300" y="51" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">scheduled a meeting</text>
-        <text x="300" y="68" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">to discuss turning</text>
-        <text x="300" y="85" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">it off.</text>
+        <text x="300" y="34" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">I can't! It</text>
+        <text x="300" y="51" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">scheduled a meeting</text>
+        <text x="300" y="68" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">to discuss turning</text>
+        <text x="300" y="85" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">it off.</text>
       </g>
     </g>
   </g>

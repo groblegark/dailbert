@@ -91,15 +91,15 @@
     <line x1="300" y1="110" x2="316" y2="158" stroke="#111" stroke-width="1.4" stroke-dasharray="4 4"/>
     <rect x="120" y="18" width="250" height="92" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
     <rect x="125" y="23" width="240" height="82" fill="none" stroke="#111" stroke-width="1"/>
-    <text x="245" y="43" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">I scheduled standup</text>
-    <text x="245" y="62" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">for 5 AM. It's the only</text>
-    <text x="245" y="81" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">hour all nine calendars</text>
-    <text x="245" y="100" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">agree they're free.</text>
+    <text x="245" y="43" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">I scheduled standup</text>
+    <text x="245" y="62" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">for 5 AM. It's the only</text>
+    <text x="245" y="81" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">hour all nine calendars</text>
+    <text x="245" y="100" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">agree they're free.</text>
     <!-- Dailbert balloon -->
     <path d="M96 176 l6 14 l14 -12 z" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
     <rect x="18" y="120" width="168" height="58" rx="14" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
-    <text x="102" y="146" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Nine people. One hour.</text>
-    <text x="102" y="166" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">All asleep.</text>
+    <text x="102" y="146" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Nine people. One hour.</text>
+    <text x="102" y="166" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">All asleep.</text>
   </g>
 
   <!-- ============ PANEL 2 ============ -->
@@ -114,13 +114,13 @@
     <!-- Doug balloon 1 -->
     <path d="M600 88 l4 16 l16 -10 z" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
     <rect x="432" y="24" width="196" height="62" rx="14" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
-    <text x="530" y="50" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">5 a.m.! The clanker</text>
-    <text x="530" y="70" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">believes in us.</text>
+    <text x="530" y="50" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">5 a.m.! The clanker</text>
+    <text x="530" y="70" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">believes in us.</text>
     <!-- Doug balloon 2 (the quiet beat) -->
     <path d="M660 196 l-16 6 l10 12 z" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
     <rect x="636" y="190" width="164" height="62" rx="14" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
-    <text x="718" y="216" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">...I'm up then anyway.</text>
-    <text x="718" y="236" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Good time to think.</text>
+    <text x="718" y="216" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">...I'm up then anyway.</text>
+    <text x="718" y="236" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Good time to think.</text>
   </g>
 
   <!-- ============ PANEL 3 ============ -->
@@ -147,12 +147,12 @@
     <line x1="1010" y1="80" x2="976" y2="167" stroke="#111" stroke-width="1.4" stroke-dasharray="4 4"/>
     <rect x="1010" y="40" width="184" height="54" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
     <rect x="1015" y="45" width="174" height="44" fill="none" stroke="#111" stroke-width="1"/>
-    <text x="1102" y="63" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Reverted standup</text>
-    <text x="1102" y="82" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">to 10 AM.</text>
+    <text x="1102" y="63" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Reverted standup</text>
+    <text x="1102" y="82" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">to 10 AM.</text>
     <!-- Priya button -->
     <path d="M938 172 l-4 16 l16 -8 z" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
     <rect x="845" y="112" width="150" height="60" rx="14" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
-    <text x="920" y="138" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Free isn't the same</text>
-    <text x="920" y="158" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">as available.</text>
+    <text x="920" y="138" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Free isn't the same</text>
+    <text x="920" y="158" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">as available.</text>
   </g>
 </svg>

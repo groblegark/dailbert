@@ -76,7 +76,7 @@
   </defs>
 
   <style>
-    text{font-family:'Comic Sans MS','Segoe Print',cursive;fill:#111;}
+    text{font-family:'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif;fill:#111;}
     .sp{font-size:15px;}
   </style>
 

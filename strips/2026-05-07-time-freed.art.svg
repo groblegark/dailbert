@@ -84,7 +84,7 @@
     <use href="#boss" transform="translate(28,102)"/>
     <!-- boss balloon -->
     <path d="M40 27 h205 a14 14 0 0 1 14 14 v40 a14 14 0 0 1 -14 14 h-120 l-18 22 l2 -22 h-69 a14 14 0 0 1 -14 -14 v-40 a14 14 0 0 1 14 -14 z" fill="#fff" stroke="#111" stroke-width="2.5"/>
-    <text x="149" y="52" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">
+    <text x="149" y="52" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">
       <tspan x="149">The clanker gave</tspan>
       <tspan x="149" dy="19">everyone 11 hours back.</tspan>
     </text>
@@ -106,14 +106,14 @@
     <line x1="431" y1="25" x2="673" y2="25" stroke="#111" stroke-width="1" stroke-dasharray="3 3"/>
     <line x1="431" y1="97" x2="673" y2="97" stroke="#111" stroke-width="1" stroke-dasharray="3 3"/>
     <path d="M545 102 L575 124" stroke="#111" stroke-width="1.5" stroke-dasharray="4 4" fill="none"/>
-    <text x="552" y="45" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">
+    <text x="552" y="45" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">
       <tspan x="552">I merged all seven</tspan>
       <tspan x="552" dy="18">meetings into one.</tspan>
       <tspan x="552" dy="18">Everyone talks at once.</tspan>
     </text>
     <!-- dailbert balloon -->
     <path d="M700 150 h86 a12 12 0 0 1 12 12 v20 a12 12 0 0 1 -12 12 h-52 l-14 16 l1 -16 h-21 a12 12 0 0 1 -12 -12 v-20 a12 12 0 0 1 12 -12 z" fill="#fff" stroke="#111" stroke-width="2.5"/>
-    <text x="748" y="180" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">Bold.</text>
+    <text x="748" y="180" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">Bold.</text>
   </g>
 
   <!-- ===== PANEL 3 ===== -->
@@ -130,16 +130,16 @@
     <use href="#doug" transform="translate(1082,150) scale(0.82)"/>
     <!-- priya balloon -->
     <path d="M858 22 h206 a14 14 0 0 1 14 14 v38 a14 14 0 0 1 -14 14 h-84 l-16 20 l1 -20 h-107 a14 14 0 0 1 -14 -14 v-38 a14 14 0 0 1 14 -14 z" fill="#fff" stroke="#111" stroke-width="2.5"/>
-    <text x="968" y="48" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">
+    <text x="968" y="48" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">
       <tspan x="968">I renamed it 'Optional.'</tspan>
       <tspan x="968" dy="19">Attendance is zero.</tspan>
     </text>
     <!-- doug balloon -->
     <path d="M1058 96 h132 a12 12 0 0 1 12 12 v22 a12 12 0 0 1 -12 12 h-58 l-14 16 l1 -16 h-61 a12 12 0 0 1 -12 -12 v-22 a12 12 0 0 1 12 -12 z" fill="#fff" stroke="#111" stroke-width="2.5"/>
-    <text x="1124" y="123" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13.5" text-anchor="middle" fill="#111">Best in the building.</text>
+    <text x="1124" y="123" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" text-anchor="middle" fill="#111">Best in the building.</text>
     <!-- tiny clanker screen balloon -->
     <rect x="836" y="150" width="82" height="30" rx="2" fill="#fff" stroke="#111" stroke-width="2"/>
     <path d="M877 180 L881 200" stroke="#111" stroke-width="1.3" stroke-dasharray="3 3" fill="none"/>
-    <text x="877" y="170" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" text-anchor="middle" fill="#111">Noted.</text>
+    <text x="877" y="170" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" text-anchor="middle" fill="#111">Noted.</text>
   </g>
 </svg>

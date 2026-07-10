@@ -99,8 +99,8 @@
       </g>
       <!-- boss balloon -->
       <path d="M118 14 h176 a12 12 0 0 1 12 12 v30 a12 12 0 0 1 -12 12 h-58 l-6 16 l-10 -16 h-102 a12 12 0 0 1 -12 -12 v-30 a12 12 0 0 1 12 -12 z" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
-      <text x="200" y="35" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">New guy starts Thursday.</text>
-      <text x="200" y="53" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">I.T.'s prepping his desk.</text>
+      <text x="200" y="35" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">New guy starts Thursday.</text>
+      <text x="200" y="53" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">I.T.'s prepping his desk.</text>
     </g>
   </g>
 
@@ -127,11 +127,11 @@
       </g>
       <!-- dailbert balloon -->
       <path d="M28 16 h132 a12 12 0 0 1 12 12 v26 a12 12 0 0 1 -12 12 h-56 l-8 15 l-6 -15 h-62 a12 12 0 0 1 -12 -12 v-26 a12 12 0 0 1 12 -12 z" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
-      <text x="100" y="46" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111">Which desk?</text>
+      <text x="100" y="46" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111">Which desk?</text>
       <!-- doug balloon -->
       <path d="M232 12 h140 a12 12 0 0 1 12 12 v30 a12 12 0 0 1 -12 12 h-70 l-10 16 l-6 -16 h-44 a12 12 0 0 1 -12 -12 v-30 a12 12 0 0 1 12 -12 z" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
-      <text x="302" y="34" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">He lives in</text>
-      <text x="302" y="52" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">the screen!</text>
+      <text x="302" y="34" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">He lives in</text>
+      <text x="302" y="52" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">the screen!</text>
     </g>
   </g>
 
@@ -168,13 +168,13 @@
       <use href="#dailbert" width="110" height="175" transform="translate(58,120)"/>
       <!-- dailbert balloon -->
       <path d="M30 40 h150 a12 12 0 0 1 12 12 v26 a12 12 0 0 1 -12 12 h-62 l-8 15 l-8 -15 h-72 a12 12 0 0 1 -12 -12 v-26 a12 12 0 0 1 12 -12 z" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
-      <text x="105" y="62" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">It's not even</text>
-      <text x="105" y="80" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">on yet.</text>
+      <text x="105" y="62" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">It's not even</text>
+      <text x="105" y="80" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">on yet.</text>
       <!-- clanker screen-balloon + dashed connector to screen -->
       <line x1="299" y1="88" x2="299" y2="150" stroke="#83898f" stroke-width="1.6" stroke-dasharray="4 4"/>
       <rect x="250" y="44" width="98" height="42" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
       <rect x="255" y="49" width="88" height="32" rx="1" fill="none" stroke="#83898f" stroke-width="1.2"/>
-      <text x="299" y="71" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111">Thursday.</text>
+      <text x="299" y="71" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111">Thursday.</text>
     </g>
   </g>
 </svg>

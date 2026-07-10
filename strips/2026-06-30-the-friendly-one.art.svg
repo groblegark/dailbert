@@ -69,7 +69,7 @@
   </defs>
 
   <!-- ================= PANEL 1 ================= -->
-  <g clip-path="url(#clip1)" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">
+  <g clip-path="url(#clip1)" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">
     <rect x="1" y="6" width="398" height="328" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
     <line x1="1" y1="305" x2="399" y2="305" stroke="#c7c1b2" stroke-width="2"/>
 
@@ -103,7 +103,7 @@
   </g>
 
   <!-- ================= PANEL 2 ================= -->
-  <g clip-path="url(#clip2)" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">
+  <g clip-path="url(#clip2)" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">
     <rect x="415" y="6" width="398" height="328" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
     <line x1="415" y1="305" x2="813" y2="305" stroke="#c7c1b2" stroke-width="2"/>
 
@@ -133,7 +133,7 @@
   </g>
 
   <!-- ================= PANEL 3 ================= -->
-  <g clip-path="url(#clip3)" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">
+  <g clip-path="url(#clip3)" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">
     <rect x="829" y="6" width="398" height="328" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
     <line x1="829" y1="305" x2="1227" y2="305" stroke="#c7c1b2" stroke-width="2"/>
 

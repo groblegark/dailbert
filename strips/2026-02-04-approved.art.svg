@@ -92,13 +92,13 @@
       <!-- balloons -->
       <rect x="30" y="24" width="152" height="52" rx="16" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
       <path d="M92,74 L104,74 L84,120 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
-      <text x="106" y="46" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">Your code review</text>
-      <text x="106" y="65" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">came back already.</text>
+      <text x="106" y="46" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">Your code review</text>
+      <text x="106" y="65" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">came back already.</text>
 
       <rect x="252" y="22" width="134" height="52" rx="16" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
       <path d="M330,72 L342,72 L322,120 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
-      <text x="319" y="44" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">Already? I just</text>
-      <text x="319" y="63" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">pushed it.</text>
+      <text x="319" y="44" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">Already? I just</text>
+      <text x="319" y="63" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">pushed it.</text>
     </g>
   </g>
 
@@ -126,9 +126,9 @@
       <!-- clanker balloon (screen-edged) -->
       <line x1="546" y1="112" x2="628" y2="150" stroke="#111" stroke-width="1.6" stroke-dasharray="4 4"/>
       <rect x="428" y="30" width="238" height="80" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
-      <text x="547" y="54" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">The logic is wrong in</text>
-      <text x="547" y="74" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">three places. But I</text>
-      <text x="547" y="94" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">know what he meant.</text>
+      <text x="547" y="54" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">The logic is wrong in</text>
+      <text x="547" y="74" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">three places. But I</text>
+      <text x="547" y="94" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">know what he meant.</text>
     </g>
   </g>
 
@@ -154,15 +154,15 @@
       <!-- Dailbert balloon -->
       <rect x="846" y="30" width="140" height="52" rx="16" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
       <path d="M902,80 L914,80 L898,124 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
-      <text x="916" y="52" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">So you'll send</text>
-      <text x="916" y="71" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">it back?</text>
+      <text x="916" y="52" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">So you'll send</text>
+      <text x="916" y="71" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">it back?</text>
 
       <!-- clanker balloon -->
       <line x1="1088" y1="126" x2="1038" y2="210" stroke="#111" stroke-width="1.6" stroke-dasharray="4 4"/>
       <rect x="1018" y="26" width="192" height="98" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
-      <text x="1114" y="52" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">I already fixed it</text>
-      <text x="1114" y="72" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">to match. He</text>
-      <text x="1114" y="92" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">won't notice.</text>
+      <text x="1114" y="52" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">I already fixed it</text>
+      <text x="1114" y="72" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">to match. He</text>
+      <text x="1114" y="92" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">won't notice.</text>
     </g>
   </g>
 </svg>

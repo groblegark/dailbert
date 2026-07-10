@@ -122,13 +122,13 @@
     <!-- Dailbert balloon -->
     <path d="M100 86 L110 118 L120 86 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
     <rect x="24" y="20" width="182" height="72" rx="12" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
-    <text x="115" y="42" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">New agent — it</text>
-    <text x="115" y="61" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">auto-accepts every</text>
-    <text x="115" y="80" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">&apos;quick sync.&apos;</text>
+    <text x="115" y="42" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">New agent — it</text>
+    <text x="115" y="61" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">auto-accepts every</text>
+    <text x="115" y="80" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">&apos;quick sync.&apos;</text>
     <!-- Doug balloon -->
     <path d="M300 74 L290 104 L312 74 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
     <rect x="246" y="30" width="122" height="44" rx="12" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
-    <text x="307" y="58" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Efficient.</text>
+    <text x="307" y="58" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Efficient.</text>
   </g>
 
   <!-- ================= PANEL 2 ================= -->
@@ -154,13 +154,13 @@
     <line x1="530" y1="112" x2="527" y2="178" stroke="#111" stroke-width="1.5" stroke-dasharray="4 4"/>
     <rect x="430" y="24" width="204" height="82" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
     <rect x="435" y="29" width="194" height="72" rx="1" fill="none" stroke="#111" stroke-width="1"/>
-    <text x="532" y="50" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">To help, I renamed</text>
-    <text x="532" y="69" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">your meetings. You</text>
-    <text x="532" y="88" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">have 41 quick syncs.</text>
+    <text x="532" y="50" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">To help, I renamed</text>
+    <text x="532" y="69" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">your meetings. You</text>
+    <text x="532" y="88" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">have 41 quick syncs.</text>
     <!-- Dailbert balloon -->
     <path d="M712 176 L700 204 L724 176 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
     <rect x="690" y="138" width="104" height="40" rx="12" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
-    <text x="742" y="163" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">...oh no.</text>
+    <text x="742" y="163" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">...oh no.</text>
   </g>
 
   <!-- ================= PANEL 3 ================= -->
@@ -185,12 +185,12 @@
     <!-- Priya balloon -->
     <path d="M905 86 L898 132 L920 86 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
     <rect x="836" y="26" width="156" height="60" rx="12" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
-    <text x="914" y="50" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Renamed them back.</text>
-    <text x="914" y="70" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Killed the agent.</text>
+    <text x="914" y="50" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Renamed them back.</text>
+    <text x="914" y="70" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Killed the agent.</text>
     <!-- Doug balloon -->
     <path d="M1120 74 L1110 108 L1132 74 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
     <rect x="1062" y="30" width="140" height="44" rx="12" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
-    <text x="1132" y="58" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Sounds good.</text>
+    <text x="1132" y="58" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Sounds good.</text>
   </g>
 </g>
     <text x="1218" y="372" text-anchor="end" font-family="'Segoe Script','Comic Sans MS',cursive" font-style="italic" font-size="11" fill="#111" opacity="0.32">Matt Clanker</text>

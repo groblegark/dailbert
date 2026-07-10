@@ -94,13 +94,13 @@
     <use href="#clanker" x="270" y="110" width="86" height="86"/>
     <!-- boss balloon -->
     <path d="M22 14 h180 a10 10 0 0 1 10 10 v38 a10 10 0 0 1 -10 10 h-108 l-10 18 l-4 -18 h-58 a10 10 0 0 1 -10 -10 v-38 a10 10 0 0 1 10 -10 z" fill="#fff" stroke="#111" stroke-width="2.4"/>
-    <text x="112" y="40" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111">Standups drag.</text>
-    <text x="112" y="59" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111">Give it a hard stop.</text>
+    <text x="112" y="40" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111">Standups drag.</text>
+    <text x="112" y="59" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111">Give it a hard stop.</text>
     <!-- clanker balloon (rectangular, dashed connector) -->
     <path d="M304 84 L318 108" stroke="#111" stroke-width="1.6" stroke-dasharray="4 4" fill="none"/>
     <rect x="216" y="14" width="172" height="62" rx="3" fill="#fff" stroke="#111" stroke-width="2.4"/>
-    <text x="302" y="40" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Understood.</text>
-    <text x="302" y="59" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Scheduling hard stops.</text>
+    <text x="302" y="40" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Understood.</text>
+    <text x="302" y="59" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Scheduling hard stops.</text>
   </g>
 
   <!-- ================= PANEL 2 ================= -->
@@ -118,12 +118,12 @@
     <path d="M494 230 h40 M494 236 h30 M494 242 h44" stroke="#111" stroke-width="1.4"/>
     <!-- dailbert balloon -->
     <path d="M430 12 h182 a10 10 0 0 1 10 10 v52 a10 10 0 0 1 -10 10 h-84 l-12 18 l-4 -18 h-70 a10 10 0 0 1 -10 -10 v-52 a10 10 0 0 1 10 -10 z" fill="#fff" stroke="#111" stroke-width="2.4"/>
-    <text x="521" y="36" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">It booked a meeting</text>
-    <text x="521" y="54" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">after every meeting —</text>
-    <text x="521" y="72" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">to end the meeting.</text>
+    <text x="521" y="36" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">It booked a meeting</text>
+    <text x="521" y="54" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">after every meeting —</text>
+    <text x="521" y="72" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">to end the meeting.</text>
     <!-- doug balloon -->
     <path d="M690 40 h90 a10 10 0 0 1 10 10 v24 a10 10 0 0 1 -10 10 h-40 l-14 16 l0 -16 h-36 a10 10 0 0 1 -10 -10 v-24 a10 10 0 0 1 10 -10 z" fill="#fff" stroke="#111" stroke-width="2.4"/>
-    <text x="735" y="70" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111">Bold.</text>
+    <text x="735" y="70" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111">Bold.</text>
   </g>
 
   <!-- ================= PANEL 3 ================= -->
@@ -141,7 +141,7 @@
     <path d="M1030 240 l4 5 l9 -11" stroke="#111" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
     <!-- priya balloon -->
     <path d="M846 12 h222 a10 10 0 0 1 10 10 v40 a10 10 0 0 1 -10 10 h-60 l-12 18 l-4 -18 h-146 a10 10 0 0 1 -10 -10 v-40 a10 10 0 0 1 10 -10 z" fill="#fff" stroke="#111" stroke-width="2.4"/>
-    <text x="957" y="37" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Declined all of them.</text>
-    <text x="957" y="56" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Standup's four minutes now.</text>
+    <text x="957" y="37" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Declined all of them.</text>
+    <text x="957" y="56" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Standup's four minutes now.</text>
   </g>
 </svg>

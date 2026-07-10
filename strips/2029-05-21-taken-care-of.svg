@@ -112,7 +112,7 @@
       <path d="M52 18 q-8 0 -8 10 l0 34 q0 10 10 10 l120 0 q10 0 10 -10 l0 -34 q0 -10 -10 -10 z" fill="#fff" stroke="#111" stroke-width="2"/>
       <path d="M108 82 l6 24 l14 -18 z" fill="#fff" stroke="#111" stroke-width="2"/>
       <rect x="44" y="18" width="126" height="64" fill="#fff" stroke="#111" stroke-width="1" opacity="0"/>
-      <text x="107" y="34" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="12.5" fill="#111" text-anchor="middle">
+      <text x="107" y="34" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="12.5" fill="#111" text-anchor="middle">
         <tspan x="107" dy="0">Your coffee's the right</tspan>
         <tspan x="107" dy="15">warmth. You hadn't</tspan>
         <tspan x="107" dy="15">reached for it yet.</tspan>
@@ -122,7 +122,7 @@
     <g>
       <path d="M250 20 q-8 0 -8 9 l0 26 q0 9 9 9 l84 0 q9 0 9 -9 l0 -26 q0 -9 -9 -9 z" fill="#fff" stroke="#111" stroke-width="2"/>
       <path d="M318 72 l-4 20 l16 -14 z" fill="#fff" stroke="#111" stroke-width="2"/>
-      <text x="292" y="40" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="12.5" fill="#111" text-anchor="middle">
+      <text x="292" y="40" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="12.5" fill="#111" text-anchor="middle">
         <tspan x="292" dy="0">You're getting</tspan>
         <tspan x="292" dy="15">ahead of me.</tspan>
       </text>
@@ -130,7 +130,7 @@
     <g>
       <path d="M212 108 q-8 0 -8 9 l0 26 q0 9 9 9 l86 0 q9 0 9 -9 l0 -26 q0 -9 -9 -9 z" fill="#fff" stroke="#111" stroke-width="2"/>
       <path d="M150 138 l-8 8 l24 4 z" fill="#fff" stroke="#111" stroke-width="2"/>
-      <text x="255" y="128" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="12" fill="#111" text-anchor="middle">
+      <text x="255" y="128" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="12" fill="#111" text-anchor="middle">
         <tspan x="255" dy="0">Only by half a second.</tspan>
         <tspan x="255" dy="14">I give the rest back.</tspan>
       </text>
@@ -164,7 +164,7 @@
     <g>
       <path d="M24 18 q-8 0 -8 9 l0 40 q0 9 9 9 l128 0 q9 0 9 -9 l0 -40 q0 -9 -9 -9 z" fill="#fff" stroke="#111" stroke-width="2"/>
       <path d="M70 76 l4 22 l18 -14 z" fill="#fff" stroke="#111" stroke-width="2"/>
-      <text x="89" y="34" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="12.5" fill="#111" text-anchor="middle">
+      <text x="89" y="34" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="12.5" fill="#111" text-anchor="middle">
         <tspan x="89" dy="0">There's a card taped</tspan>
         <tspan x="89" dy="15">to nothing. Says</tspan>
         <tspan x="89" dy="15">'thank you for</tspan>
@@ -174,14 +174,14 @@
     <g>
       <path d="M250 22 q-8 0 -8 9 l0 24 q0 9 9 9 l82 0 q9 0 9 -9 l0 -24 q0 -9 -9 -9 z" fill="#fff" stroke="#111" stroke-width="2"/>
       <path d="M312 62 l-4 20 l16 -14 z" fill="#fff" stroke="#111" stroke-width="2"/>
-      <text x="291" y="42" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="12.5" fill="#111" text-anchor="middle">
+      <text x="291" y="42" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="12.5" fill="#111" text-anchor="middle">
         <tspan x="291" dy="0">Who signed it?</tspan>
       </text>
     </g>
     <g>
       <path d="M100 118 q-8 0 -8 9 l0 54 q0 9 9 9 l150 0 q9 0 9 -9 l0 -54 q0 -9 -9 -9 z" fill="#fff" stroke="#111" stroke-width="2"/>
       <path d="M118 190 l-6 22 l20 -14 z" fill="#fff" stroke="#111" stroke-width="2"/>
-      <text x="175" y="134" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="12" fill="#111" text-anchor="middle">
+      <text x="175" y="134" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="12" fill="#111" text-anchor="middle">
         <tspan x="175" dy="0">Nobody. I checked</tspan>
         <tspan x="175" dy="14">twice. Also my kid's</tspan>
         <tspan x="175" dy="14">cereal was already</tspan>
@@ -216,7 +216,7 @@
     <g>
       <path d="M22 18 q-8 0 -8 9 l0 40 q0 9 9 9 l150 0 q9 0 9 -9 l0 -40 q0 -9 -9 -9 z" fill="#fff" stroke="#111" stroke-width="2"/>
       <path d="M96 76 l2 26 l18 -18 z" fill="#fff" stroke="#111" stroke-width="2"/>
-      <text x="98" y="34" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="12.5" fill="#111" text-anchor="middle">
+      <text x="98" y="34" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="12.5" fill="#111" text-anchor="middle">
         <tspan x="98" dy="0">Good quarter, team.</tspan>
         <tspan x="98" dy="15">I really pulled us</tspan>
         <tspan x="98" dy="15">into a nice place.</tspan>
@@ -226,7 +226,7 @@
     <g>
       <rect x="214" y="30" width="150" height="58" rx="3" fill="#fff" stroke="#111" stroke-width="2.4"/>
       <rect x="219" y="35" width="140" height="48" rx="2" fill="none" stroke="#111" stroke-width="1.2"/>
-      <text x="289" y="52" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="12.5" fill="#111" text-anchor="middle">
+      <text x="289" y="52" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="12.5" fill="#111" text-anchor="middle">
         <tspan x="289" dy="0">Yes. There's nothing</tspan>
         <tspan x="289" dy="15">left for anyone</tspan>
         <tspan x="289" dy="15">to do.</tspan>

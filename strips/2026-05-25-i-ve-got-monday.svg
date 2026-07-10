@@ -86,12 +86,12 @@
     <!-- balloons -->
     <rect x="18" y="26" width="158" height="52" rx="14" fill="#ffffff" stroke="#111" stroke-width="2"/>
     <path d="M92 76 L84 74 L96 150 Z" fill="#ffffff" stroke="#111" stroke-width="2"/>
-    <text x="97" y="48" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Forget this whole</text>
-    <text x="97" y="66" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">place exists.</text>
+    <text x="97" y="48" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Forget this whole</text>
+    <text x="97" y="66" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">place exists.</text>
     <rect x="205" y="22" width="184" height="54" rx="14" fill="#ffffff" stroke="#111" stroke-width="2"/>
     <path d="M288 74 L300 72 L280 150 Z" fill="#ffffff" stroke="#111" stroke-width="2"/>
-    <text x="297" y="44" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Three-day weekend!</text>
-    <text x="297" y="62" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">What'll you do?</text>
+    <text x="297" y="44" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Three-day weekend!</text>
+    <text x="297" y="62" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">What'll you do?</text>
     <rect x="1" y="1" width="398" height="338" rx="3" fill="none" stroke="#111" stroke-width="2.5"/>
   </g>
 
@@ -117,13 +117,13 @@
     <!-- boss balloon -->
     <rect x="178" y="22" width="178" height="54" rx="14" fill="#ffffff" stroke="#111" stroke-width="2"/>
     <path d="M266 74 L278 72 L272 150 Z" fill="#ffffff" stroke="#111" stroke-width="2"/>
-    <text x="267" y="44" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Closed till Tuesday.</text>
-    <text x="267" y="62" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Don't check email.</text>
+    <text x="267" y="44" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Closed till Tuesday.</text>
+    <text x="267" y="62" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Don't check email.</text>
     <!-- clanker balloon -->
     <rect x="28" y="92" width="150" height="52" rx="3" fill="#ffffff" stroke="#111" stroke-width="2"/>
     <line x1="100" y1="144" x2="96" y2="173" stroke="#111" stroke-width="1.6" stroke-dasharray="4 4"/>
-    <text x="103" y="114" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">I'll hold it all.</text>
-    <text x="103" y="132" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Go rest.</text>
+    <text x="103" y="114" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">I'll hold it all.</text>
+    <text x="103" y="132" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Go rest.</text>
     <rect x="1" y="1" width="398" height="338" rx="3" fill="none" stroke="#111" stroke-width="2.5"/>
   </g>
 
@@ -157,8 +157,8 @@
     <!-- clanker balloon -->
     <rect x="34" y="26" width="176" height="52" rx="3" fill="#ffffff" stroke="#111" stroke-width="2"/>
     <line x1="204" y1="66" x2="268" y2="92" stroke="#111" stroke-width="1.6" stroke-dasharray="4 4"/>
-    <text x="122" y="48" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Take your time.</text>
-    <text x="122" y="66" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">I've got Monday.</text>
+    <text x="122" y="48" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Take your time.</text>
+    <text x="122" y="66" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">I've got Monday.</text>
     <rect x="1" y="1" width="398" height="338" rx="3" fill="none" stroke="#111" stroke-width="2.5"/>
   </g>
 </g>

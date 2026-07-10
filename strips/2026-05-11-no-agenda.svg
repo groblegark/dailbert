@@ -97,12 +97,12 @@
     <!-- Dailbert balloon -->
     <path d="M108 74 l-22 4 l8 30 z" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <rect x="34" y="22" width="182" height="56" rx="14" fill="#fff" stroke="#111" stroke-width="2.5"/>
-    <text x="125" y="46" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">New agent. It declines</text>
-    <text x="125" y="65" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">meetings with no agenda.</text>
+    <text x="125" y="46" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">New agent. It declines</text>
+    <text x="125" y="65" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">meetings with no agenda.</text>
     <!-- Doug balloon -->
     <path d="M330 62 l-16 2 l6 22 z" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <rect x="300" y="30" width="70" height="34" rx="12" fill="#fff" stroke="#111" stroke-width="2.5"/>
-    <text x="335" y="52" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">Bold.</text>
+    <text x="335" y="52" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">Bold.</text>
   </g>
 
   <!-- ===================== PANEL 2 ===================== -->
@@ -122,12 +122,12 @@
     <line x1="558" y1="82" x2="545" y2="140" stroke="#111" stroke-width="1.5" stroke-dasharray="4 3"/>
     <rect x="472" y="24" width="212" height="56" fill="#fff" stroke="#111" stroke-width="2"/>
     <rect x="477" y="29" width="202" height="46" fill="none" stroke="#111" stroke-width="1" stroke-dasharray="3 3"/>
-    <text x="578" y="47" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">Done. I declined 14.</text>
-    <text x="578" y="66" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">One had an agenda.</text>
+    <text x="578" y="47" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">Done. I declined 14.</text>
+    <text x="578" y="66" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">One had an agenda.</text>
     <!-- Dailbert balloon -->
     <path d="M700 124 l-16 2 l4 22 z" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <rect x="654" y="92" width="120" height="34" rx="12" fill="#fff" stroke="#111" stroke-width="2.5"/>
-    <text x="714" y="114" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">Which one?</text>
+    <text x="714" y="114" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">Which one?</text>
   </g>
 
   <!-- ===================== PANEL 3 ===================== -->
@@ -154,13 +154,13 @@
     <!-- Priya balloon -->
     <path d="M1046 76 l-16 2 l8 22 z" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <rect x="928" y="22" width="212" height="56" rx="14" fill="#fff" stroke="#111" stroke-width="2.5"/>
-    <text x="1034" y="46" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">The one where you</text>
-    <text x="1034" y="65" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">demo the agent.</text>
+    <text x="1034" y="46" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">The one where you</text>
+    <text x="1034" y="65" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">demo the agent.</text>
     <!-- clanker balloon from laptop -->
     <line x1="1112" y1="196" x2="1028" y2="228" stroke="#111" stroke-width="1.5" stroke-dasharray="4 3"/>
     <rect x="1030" y="158" width="184" height="38" fill="#fff" stroke="#111" stroke-width="2"/>
     <rect x="1035" y="163" width="174" height="28" fill="none" stroke="#111" stroke-width="1" stroke-dasharray="3 3"/>
-    <text x="1122" y="182" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">It was a good agenda.</text>
+    <text x="1122" y="182" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">It was a good agenda.</text>
   </g>
 
   <!-- panel borders on top -->

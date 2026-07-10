@@ -84,10 +84,10 @@
   <rect x="70" y="256" width="80" height="14" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
   <!-- balloons -->
   <path d="M20,16 h178 a8,8 0 0 1 8,8 v30 a8,8 0 0 1 -8,8 h-90 l-12,14 l-2,-14 h-74 a8,8 0 0 1 -8,-8 v-30 a8,8 0 0 1 8,-8 z" fill="#fff" stroke="#111" stroke-width="2"/>
-  <text x="109" y="37" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">I'm out Friday.</text>
-  <text x="109" y="54" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Auto-reply is on.</text>
+  <text x="109" y="37" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">I'm out Friday.</text>
+  <text x="109" y="54" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Auto-reply is on.</text>
   <path d="M252,28 h124 a8,8 0 0 1 8,8 v18 a8,8 0 0 1 -8,8 h-52 l-10,13 l-1,-13 h-61 a8,8 0 0 1 -8,-8 v-18 a8,8 0 0 1 8,-8 z" fill="#fff" stroke="#111" stroke-width="2"/>
-  <text x="314" y="51" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Living the dream.</text>
+  <text x="314" y="51" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Living the dream.</text>
 
   <!-- ===================== PANEL 2 ===================== -->
   <rect x="414" y="2" width="400" height="336" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
@@ -101,24 +101,24 @@
   <line x1="560" y1="100" x2="536" y2="82" stroke="#111" stroke-width="1.5" stroke-dasharray="4 4"/>
   <rect x="426" y="16" width="220" height="66" fill="#fff" stroke="#111" stroke-width="2"/>
   <rect x="430" y="20" width="212" height="58" fill="none" stroke="#111" stroke-width="1" stroke-dasharray="3 3"/>
-  <text x="536" y="38" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">I set one up too. So</text>
-  <text x="536" y="55" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">your out-of-office</text>
-  <text x="536" y="72" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">wouldn't be alone.</text>
+  <text x="536" y="38" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">I set one up too. So</text>
+  <text x="536" y="55" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">your out-of-office</text>
+  <text x="536" y="72" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">wouldn't be alone.</text>
   <!-- dailbert reply -->
   <path d="M672,48 h108 a8,8 0 0 1 8,8 v16 a8,8 0 0 1 -8,8 h-40 l-11,13 l-1,-13 h-56 a8,8 0 0 1 -8,-8 v-16 a8,8 0 0 1 8,-8 z" fill="#fff" stroke="#111" stroke-width="2"/>
-  <text x="728" y="70" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">They're talking.</text>
+  <text x="728" y="70" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">They're talking.</text>
 
   <!-- ===================== PANEL 3 ===================== -->
   <rect x="828" y="2" width="399" height="336" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
   <use href="#monitor" x="952" y="150"/>
   <!-- runaway thread on the screen -->
-  <text x="952" y="118" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="11" text-anchor="middle" fill="#9aa2ac">Re: Re: Re: Re: OOO</text>
-  <text x="952" y="135" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="11" text-anchor="middle" fill="#9aa2ac">OOO &lt;-&gt; OOO</text>
-  <text x="952" y="156" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" text-anchor="middle" fill="#cfe8ff">(2,911 new)</text>
+  <text x="952" y="118" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="11" text-anchor="middle" fill="#9aa2ac">Re: Re: Re: Re: OOO</text>
+  <text x="952" y="135" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="11" text-anchor="middle" fill="#9aa2ac">OOO &lt;-&gt; OOO</text>
+  <text x="952" y="156" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" text-anchor="middle" fill="#cfe8ff">(2,911 new)</text>
   <use href="#priya" x="1122" y="132"/>
   <rect x="828" y="252" width="399" height="86" fill="#f4f1ea"/>
   <line x1="828" y1="252" x2="1227" y2="252" stroke="#111" stroke-width="2.5"/>
   <rect x="1086" y="256" width="74" height="13" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
   <path d="M990,26 h150 a8,8 0 0 1 8,8 v18 a8,8 0 0 1 -8,8 h-24 l24,15 l-42,-15 h-108 a8,8 0 0 1 -8,-8 v-18 a8,8 0 0 1 8,-8 z" fill="#fff" stroke="#111" stroke-width="2"/>
-  <text x="1065" y="49" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Muted the loop.</text>
+  <text x="1065" y="49" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Muted the loop.</text>
 </svg>

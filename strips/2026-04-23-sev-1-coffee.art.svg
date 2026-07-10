@@ -79,9 +79,9 @@
     <line x1="300" y1="102" x2="300" y2="146" stroke="#111" stroke-width="1.5" stroke-dasharray="4 4"/>
     <rect x="192" y="24" width="204" height="76" rx="3" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <rect x="197" y="29" width="194" height="66" rx="2" fill="none" stroke="#111" stroke-width="1"/>
-    <text x="294" y="50" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111" text-anchor="middle">I cleared a recurring</text>
-    <text x="294" y="69" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111" text-anchor="middle">block with no agenda.</text>
-    <text x="294" y="88" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111" text-anchor="middle">You have 30 min back.</text>
+    <text x="294" y="50" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111" text-anchor="middle">I cleared a recurring</text>
+    <text x="294" y="69" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111" text-anchor="middle">block with no agenda.</text>
+    <text x="294" y="88" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111" text-anchor="middle">You have 30 min back.</text>
   </g>
 
   <!-- ================= PANEL 2 ================= -->
@@ -100,12 +100,12 @@
     <!-- doug balloon -->
     <path d="M712 100 l-8 24 l22 -12 Z" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <ellipse cx="726" cy="70" rx="52" ry="30" fill="#fff" stroke="#111" stroke-width="2.5"/>
-    <text x="726" y="76" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111" text-anchor="middle">Coffee?</text>
+    <text x="726" y="76" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111" text-anchor="middle">Coffee?</text>
     <!-- dailbert balloon -->
     <path d="M500 116 l6 26 l16 -14 Z" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <rect x="440" y="34" width="146" height="72" rx="20" fill="#fff" stroke="#111" stroke-width="2.5"/>
-    <text x="513" y="66" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111" text-anchor="middle">It deleted</text>
-    <text x="513" y="86" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111" text-anchor="middle">our coffee.</text>
+    <text x="513" y="66" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111" text-anchor="middle">It deleted</text>
+    <text x="513" y="86" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111" text-anchor="middle">our coffee.</text>
   </g>
 
   <!-- ================= PANEL 3 ================= -->
@@ -130,16 +130,16 @@
     <!-- priya balloon -->
     <path d="M902 132 l4 22 l14 -12 Z" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <rect x="838" y="28" width="140" height="48" rx="18" fill="#fff" stroke="#111" stroke-width="2.5"/>
-    <text x="908" y="58" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111" text-anchor="middle">Renamed it Sev-1.</text>
+    <text x="908" y="58" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111" text-anchor="middle">Renamed it Sev-1.</text>
     <!-- clanker balloon -->
     <line x1="1044" y1="104" x2="1037" y2="150" stroke="#111" stroke-width="1.5" stroke-dasharray="4 4"/>
     <rect x="984" y="30" width="176" height="60" rx="3" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <rect x="989" y="35" width="166" height="50" rx="2" fill="none" stroke="#111" stroke-width="1"/>
-    <text x="1072" y="55" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111" text-anchor="middle">Understood.</text>
-    <text x="1072" y="74" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111" text-anchor="middle">I'll protect it.</text>
+    <text x="1072" y="55" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111" text-anchor="middle">Understood.</text>
+    <text x="1072" y="74" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111" text-anchor="middle">I'll protect it.</text>
     <!-- doug button balloon -->
     <path d="M1168 168 l6 20 l12 -16 Z" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <ellipse cx="1168" cy="140" rx="46" ry="24" fill="#fff" stroke="#111" stroke-width="2.5"/>
-    <text x="1168" y="146" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111" text-anchor="middle">My hero.</text>
+    <text x="1168" y="146" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111" text-anchor="middle">My hero.</text>
   </g>
 </svg>

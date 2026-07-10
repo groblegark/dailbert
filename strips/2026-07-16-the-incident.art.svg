@@ -53,7 +53,7 @@
 </symbol>
 </defs>
 
-<g transform="translate(0,0)" font-family="'Comic Sans MS','Segoe Print',cursive">
+<g transform="translate(0,0)" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif">
 <rect x="2" y="2" width="396" height="336" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
 <path d="M12,258 L388,258" stroke="#111" stroke-width="2" fill="none"/>
 <path d="M42,258 L60,300 M356,258 L338,300" stroke="#111" stroke-width="2" fill="none" opacity="0.45"/>
@@ -80,7 +80,7 @@
 <text x="119" y="107" font-size="14" fill="#111" text-anchor="middle">He said 'you kn—</text>
 </g>
 
-<g transform="translate(414,0)" font-family="'Comic Sans MS','Segoe Print',cursive">
+<g transform="translate(414,0)" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif">
 <rect x="2" y="2" width="396" height="336" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
 <path d="M12,258 L388,258" stroke="#111" stroke-width="2" fill="none"/>
 <path d="M44,258 L62,300 M356,258 L338,300" stroke="#111" stroke-width="2" fill="none" opacity="0.45"/>
@@ -105,7 +105,7 @@
 <text x="277" y="95" font-size="14" fill="#111" text-anchor="middle">'not a team player.'</text>
 </g>
 
-<g transform="translate(828,0)" font-family="'Comic Sans MS','Segoe Print',cursive">
+<g transform="translate(828,0)" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif">
 <rect x="2" y="2" width="396" height="336" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
 <path d="M8,264 L392,264" stroke="#111" stroke-width="2" fill="none"/>
 <path d="M120,264 L150,310 M300,264 L280,310" stroke="#111" stroke-width="1.6" fill="none" opacity="0.4"/>

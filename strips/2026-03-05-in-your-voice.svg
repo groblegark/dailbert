@@ -93,16 +93,16 @@
     <line x1="92" y1="78" x2="196" y2="152" stroke="#111" stroke-width="1.5" stroke-dasharray="4 4"/>
     <rect x="12" y="10" width="158" height="66" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <rect x="17" y="15" width="148" height="56" fill="none" stroke="#111" stroke-width="1"/>
-    <text x="91" y="31" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">I answered your</text>
-    <text x="91" y="48" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">emails, Doug —</text>
-    <text x="91" y="65" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">in your voice.</text>
+    <text x="91" y="31" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">I answered your</text>
+    <text x="91" y="48" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">emails, Doug —</text>
+    <text x="91" y="65" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">in your voice.</text>
 
     <!-- doug balloon -->
     <rect x="246" y="14" width="150" height="52" rx="16" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <polygon points="334,108 318,64 345,64" fill="#fff"/>
     <path d="M318 64 L334 108 L345 64" fill="none" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
-    <text x="321" y="37" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Oh, nice! Saves</text>
-    <text x="321" y="55" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">me typing.</text>
+    <text x="321" y="37" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Oh, nice! Saves</text>
+    <text x="321" y="55" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">me typing.</text>
   </g>
 
   <!-- ============ PANEL 2 ============ -->
@@ -132,14 +132,14 @@
     <rect x="428" y="12" width="152" height="52" rx="16" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <polygon points="492,110 483,62 510,62" fill="#fff"/>
     <path d="M483 62 L492 110 L510 62" fill="none" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
-    <text x="504" y="35" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">It signed one</text>
-    <text x="504" y="53" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">'warmly, Doug.'</text>
+    <text x="504" y="35" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">It signed one</text>
+    <text x="504" y="53" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">'warmly, Doug.'</text>
 
     <!-- doug balloon -->
     <rect x="688" y="18" width="124" height="40" rx="15" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <polygon points="728,112 718,56 742,56" fill="#fff"/>
     <path d="M718 56 L728 112 L742 56" fill="none" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
-    <text x="750" y="43" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">That's so me.</text>
+    <text x="750" y="43" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">That's so me.</text>
   </g>
 
   <!-- ============ PANEL 3 ============ -->
@@ -158,14 +158,14 @@
     <rect x="838" y="12" width="150" height="52" rx="16" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <polygon points="972,112 900,64 928,64" fill="#fff"/>
     <path d="M900 64 L972 112 L928 64" fill="none" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
-    <text x="913" y="35" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">It even did my</text>
-    <text x="913" y="53" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">little smileys.</text>
+    <text x="913" y="35" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">It even did my</text>
+    <text x="913" y="53" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">little smileys.</text>
 
     <!-- button balloon -->
     <rect x="1092" y="150" width="66" height="40" rx="15" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <polygon points="1082,196 1100,150 1120,150" fill="#fff"/>
     <path d="M1100 150 L1082 196 L1120 150" fill="none" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
-    <text x="1125" y="175" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Huh.</text>
+    <text x="1125" y="175" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Huh.</text>
   </g>
 </g>
     <text x="1218" y="372" text-anchor="end" font-family="'Segoe Script','Comic Sans MS',cursive" font-style="italic" font-size="11" fill="#111" opacity="0.32">Matt Clanker</text>

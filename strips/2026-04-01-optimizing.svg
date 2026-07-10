@@ -10,8 +10,8 @@
       .ink{fill:none;stroke:#111;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
       .fillp{fill:#f4f1ea;stroke:#111;stroke-width:2.4;stroke-linejoin:round;stroke-linecap:round}
       .sol{fill:#111;stroke:none}
-      .bt{font-family:'Comic Sans MS','Segoe Print',cursive;font-size:15px;fill:#111;text-anchor:middle}
-      .ctl{font-family:'Comic Sans MS','Segoe Print',cursive;font-size:12px;fill:#111;text-anchor:middle;font-weight:bold}
+      .bt{font-family:'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif;font-size:15px;fill:#111;text-anchor:middle}
+      .ctl{font-family:'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif;font-size:12px;fill:#111;text-anchor:middle;font-weight:bold}
       .bub{fill:#ffffff;stroke:#111;stroke-width:2.2}
       .rob{fill:#26292e;stroke:#cfd3d8;stroke-width:2}
       .robln{fill:none;stroke:#cfd3d8;stroke-width:2;stroke-linecap:round}

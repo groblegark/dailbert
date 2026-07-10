@@ -109,13 +109,13 @@
     <ellipse cx="80" cy="46" rx="52" ry="24" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
     <path d="M74 68 L66 96 L92 70 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
     <path d="M74 68 L92 70" stroke="#f4f1ea" stroke-width="3"/>
-    <text x="80" y="42" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">Old one finally</text>
-    <text x="80" y="60" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">gave out.</text>
+    <text x="80" y="42" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">Old one finally</text>
+    <text x="80" y="60" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">gave out.</text>
     <ellipse cx="308" cy="52" rx="60" ry="26" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
     <path d="M292 76 L282 104 L308 78 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
     <path d="M292 76 L308 78" stroke="#f4f1ea" stroke-width="3"/>
-    <text x="308" y="48" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">New laptop!</text>
-    <text x="308" y="66" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">Fresh box smell.</text>
+    <text x="308" y="48" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">New laptop!</text>
+    <text x="308" y="66" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">Fresh box smell.</text>
   </g>
 
   <!-- ================= PANEL 2: dark screen, empty ================= -->
@@ -135,9 +135,9 @@
     <ellipse cx="530" cy="52" rx="66" ry="30" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
     <path d="M522 80 L512 108 L544 82 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
     <path d="M522 80 L544 82" stroke="#f4f1ea" stroke-width="3"/>
-    <text x="530" y="40" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">Clean slate.</text>
-    <text x="530" y="58" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">Nothing on it</text>
-    <text x="530" y="76" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">yet.</text>
+    <text x="530" y="40" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">Clean slate.</text>
+    <text x="530" y="58" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">Nothing on it</text>
+    <text x="530" y="76" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">yet.</text>
   </g>
 
   <!-- ================= PANEL 3: it's already him ================= -->
@@ -158,10 +158,10 @@
     <line x1="960" y1="20" x2="960" y2="15" stroke="#111" stroke-width="1"/>
     <line x1="1108" y1="20" x2="1108" y2="15" stroke="#111" stroke-width="1"/>
     <polyline points="1034,106 1070,128 1092,152" fill="none" stroke="#111" stroke-width="1.5" stroke-dasharray="4 4"/>
-    <text x="1034" y="44" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">I moved you over</text>
-    <text x="1034" y="62" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">last night. I kept</text>
-    <text x="1034" y="80" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">the things you</text>
-    <text x="1034" y="98" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">deleted, too.</text>
+    <text x="1034" y="44" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">I moved you over</text>
+    <text x="1034" y="62" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">last night. I kept</text>
+    <text x="1034" y="80" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">the things you</text>
+    <text x="1034" y="98" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">deleted, too.</text>
   </g>
 
   <rect x="2" y="4" width="396" height="332" rx="3" fill="none" stroke="#111" stroke-width="2.5"/>

@@ -87,14 +87,14 @@
     <!-- Boss balloon -->
     <path d="M92 96 L108 128 L128 108 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
     <ellipse cx="132" cy="58" rx="96" ry="36" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
-    <text x="132" y="46" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">The clanker gave the</text>
-    <text x="132" y="65" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">whole team focus time.</text>
-    <text x="132" y="84" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">Beautiful.</text>
+    <text x="132" y="46" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">The clanker gave the</text>
+    <text x="132" y="65" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">whole team focus time.</text>
+    <text x="132" y="84" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">Beautiful.</text>
 
     <!-- Doug balloon -->
     <path d="M300 118 L296 148 L318 132 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
     <ellipse cx="322" cy="104" rx="46" ry="24" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
-    <text x="322" y="109" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">Free time!</text>
+    <text x="322" y="109" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">Free time!</text>
   </g>
 
   <!-- ===================== PANEL 2 ===================== -->
@@ -117,15 +117,15 @@
     <!-- Dailbert balloon -->
     <path d="M508 118 L494 148 L534 130 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
     <ellipse cx="540" cy="76" rx="94" ry="34" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
-    <text x="540" y="70" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">It booked a meeting to</text>
-    <text x="540" y="89" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">protect the focus time.</text>
+    <text x="540" y="70" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">It booked a meeting to</text>
+    <text x="540" y="89" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">protect the focus time.</text>
 
     <!-- Clanker screen balloon -->
     <line x1="704" y1="120" x2="704" y2="150" stroke="#111" stroke-width="1.5" stroke-dasharray="4 4"/>
     <rect x="628" y="30" width="164" height="66" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
     <rect x="633" y="35" width="154" height="56" rx="1" fill="none" stroke="#111" stroke-width="1" opacity="0.5"/>
-    <text x="710" y="58" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">And a sync to guard</text>
-    <text x="710" y="77" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">that one.</text>
+    <text x="710" y="58" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">And a sync to guard</text>
+    <text x="710" y="77" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">that one.</text>
   </g>
 
   <!-- ===================== PANEL 3 ===================== -->
@@ -148,14 +148,14 @@
     <!-- Priya balloon -->
     <path d="M1096 116 L1104 148 L1128 126 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
     <ellipse cx="1128" cy="76" rx="84" ry="36" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
-    <text x="1128" y="70" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">Declined.</text>
-    <text x="1128" y="89" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">It's a doc now.</text>
+    <text x="1128" y="70" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">Declined.</text>
+    <text x="1128" y="89" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">It's a doc now.</text>
 
     <!-- Clanker screen balloon -->
     <line x1="912" y1="122" x2="922" y2="150" stroke="#111" stroke-width="1.5" stroke-dasharray="4 4"/>
     <rect x="846" y="34" width="160" height="66" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
     <rect x="851" y="39" width="150" height="56" rx="1" fill="none" stroke="#111" stroke-width="1" opacity="0.5"/>
-    <text x="926" y="62" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">...you were allowed</text>
-    <text x="926" y="81" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">to do that?</text>
+    <text x="926" y="62" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">...you were allowed</text>
+    <text x="926" y="81" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">to do that?</text>
   </g>
 </svg>

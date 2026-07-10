@@ -120,13 +120,13 @@
     <g>
       <rect x="238" y="26" width="140" height="42" rx="18" fill="#fff" stroke="#111" stroke-width="2"/>
       <path d="M300 66 L306 84 L318 66 Z" fill="#fff" stroke="#111" stroke-width="2"/>
-      <text x="308" y="52" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">Machine's dead.</text>
+      <text x="308" y="52" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" text-anchor="middle" fill="#111">Machine's dead.</text>
     </g>
     <!-- Dailbert balloon -->
     <g>
       <rect x="70" y="150" width="130" height="42" rx="18" fill="#fff" stroke="#111" stroke-width="2"/>
       <path d="M140 192 L146 208 L156 192 Z" fill="#fff" stroke="#111" stroke-width="2"/>
-      <text x="135" y="176" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">Since Monday.</text>
+      <text x="135" y="176" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" text-anchor="middle" fill="#111">Since Monday.</text>
     </g>
   </g>
 
@@ -157,9 +157,9 @@
     <g>
       <rect x="512" y="30" width="152" height="84" rx="2" fill="#fff" stroke="#111" stroke-width="2"/>
       <rect x="518" y="36" width="140" height="72" rx="1" fill="none" stroke="#9a9a9a" stroke-width="1" stroke-dasharray="3 3"/>
-      <text x="588" y="56" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">Ticket filed.</text>
-      <text x="588" y="76" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">Priority: low.</text>
-      <text x="588" y="96" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">Resolution: Q3.</text>
+      <text x="588" y="56" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">Ticket filed.</text>
+      <text x="588" y="76" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">Priority: low.</text>
+      <text x="588" y="96" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">Resolution: Q3.</text>
     </g>
   </g>
 
@@ -197,13 +197,13 @@
     <g>
       <rect x="852" y="150" width="132" height="42" rx="18" fill="#fff" stroke="#111" stroke-width="2"/>
       <path d="M916 192 L910 208 L900 192 Z" fill="#fff" stroke="#111" stroke-width="2"/>
-      <text x="918" y="176" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">I made a pot.</text>
+      <text x="918" y="176" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" text-anchor="middle" fill="#111">I made a pot.</text>
     </g>
     <!-- Doug quiet-deep button -->
     <g>
       <rect x="1052" y="30" width="164" height="42" rx="18" fill="#fff" stroke="#111" stroke-width="2"/>
       <path d="M1120 72 L1126 88 L1136 72 Z" fill="#fff" stroke="#111" stroke-width="2"/>
-      <text x="1134" y="56" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">Pressure and time.</text>
+      <text x="1134" y="56" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" text-anchor="middle" fill="#111">Pressure and time.</text>
     </g>
   </g>
 </svg>

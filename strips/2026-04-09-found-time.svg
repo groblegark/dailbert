@@ -97,7 +97,7 @@
 
     <!-- packed calendar -->
     <rect x="110" y="150" width="110" height="80" rx="4" fill="#dfe3e8" stroke="#111" stroke-width="2.5"/>
-    <text x="163" y="163" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="9" text-anchor="middle" fill="#111">APRIL</text>
+    <text x="163" y="163" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="9" text-anchor="middle" fill="#111">APRIL</text>
     <rect x="116" y="166" width="98" height="58" fill="#eef2f6" stroke="#111" stroke-width="1"/>
     <g fill="#111">
       <rect x="118" y="168" width="14" height="12"/><rect x="134" y="168" width="14" height="12"/><rect x="150" y="168" width="30" height="12"/><rect x="182" y="168" width="14" height="12"/><rect x="198" y="168" width="14" height="12"/>
@@ -109,14 +109,14 @@
     <!-- boss balloon -->
     <rect x="8" y="12" width="152" height="56" rx="16" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <path d="M58 65 L76 65 L66 100" fill="#fff" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
-    <text x="84" y="34" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Forty syncs!</text>
-    <text x="84" y="54" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">We are SO aligned!</text>
+    <text x="84" y="34" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Forty syncs!</text>
+    <text x="84" y="54" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">We are SO aligned!</text>
 
     <!-- dailbert balloon -->
     <rect x="250" y="16" width="142" height="54" rx="16" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <path d="M318 67 L336 67 L326 104" fill="#fff" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
-    <text x="321" y="40" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">I have no</text>
-    <text x="321" y="59" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">afternoons.</text>
+    <text x="321" y="40" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">I have no</text>
+    <text x="321" y="59" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">afternoons.</text>
   </g>
 
   <!-- ============ PANEL 2 ============ -->
@@ -140,15 +140,15 @@
     <rect x="16" y="14" width="188" height="80" rx="4" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <rect x="22" y="20" width="176" height="68" rx="2" fill="none" stroke="#8a8f98" stroke-width="1.5" stroke-dasharray="5 4"/>
     <line x1="102" y1="94" x2="88" y2="150" stroke="#8a8f98" stroke-width="1.5" stroke-dasharray="5 4"/>
-    <text x="110" y="38" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">People kept saying</text>
-    <text x="110" y="57" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">'let's find time.'</text>
-    <text x="110" y="76" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">I found all of it.</text>
+    <text x="110" y="38" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">People kept saying</text>
+    <text x="110" y="57" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">'let's find time.'</text>
+    <text x="110" y="76" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">I found all of it.</text>
 
     <!-- doug balloon -->
     <rect x="252" y="22" width="132" height="54" rx="16" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <path d="M300 73 L318 73 L286 108" fill="#fff" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
-    <text x="318" y="46" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">It really</text>
-    <text x="318" y="65" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">listens.</text>
+    <text x="318" y="46" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">It really</text>
+    <text x="318" y="65" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">listens.</text>
   </g>
 
   <!-- ============ PANEL 3 ============ -->
@@ -161,8 +161,8 @@
     <!-- priya's laptop: the fix shipped -->
     <rect x="158" y="240" width="78" height="48" rx="3" fill="#eef2f6" stroke="#111" stroke-width="2.5"/>
     <rect x="150" y="286" width="92" height="10" rx="2" fill="#dfe3e8" stroke="#111" stroke-width="2.5"/>
-    <text x="197" y="262" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="12" text-anchor="middle" fill="#111">sometime</text>
-    <text x="197" y="278" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="11" text-anchor="middle" fill="#111">9:00 – ∞</text>
+    <text x="197" y="262" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="12" text-anchor="middle" fill="#111">sometime</text>
+    <text x="197" y="278" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="11" text-anchor="middle" fill="#111">9:00 – ∞</text>
 
     <!-- monitor with clanker -->
     <rect x="250" y="150" width="120" height="95" rx="6" fill="#dfe3e8" stroke="#111" stroke-width="2.5"/>
@@ -175,15 +175,15 @@
     <rect x="196" y="12" width="192" height="80" rx="4" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <rect x="202" y="18" width="180" height="68" rx="2" fill="none" stroke="#8a8f98" stroke-width="1.5" stroke-dasharray="5 4"/>
     <line x1="300" y1="92" x2="310" y2="150" stroke="#8a8f98" stroke-width="1.5" stroke-dasharray="5 4"/>
-    <text x="292" y="38" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Oh. 'Sometime'</text>
-    <text x="292" y="57" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">exists now.</text>
-    <text x="292" y="76" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Cancelling the rest.</text>
+    <text x="292" y="38" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Oh. 'Sometime'</text>
+    <text x="292" y="57" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">exists now.</text>
+    <text x="292" y="76" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Cancelling the rest.</text>
 
     <!-- priya balloon -->
     <rect x="14" y="30" width="170" height="54" rx="16" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <path d="M78 81 L96 81 L86 116" fill="#fff" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
-    <text x="99" y="54" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">It just wanted</text>
-    <text x="99" y="73" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">closure.</text>
+    <text x="99" y="54" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">It just wanted</text>
+    <text x="99" y="73" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">closure.</text>
   </g>
 </g>
     <text x="1218" y="372" text-anchor="end" font-family="'Segoe Script','Comic Sans MS',cursive" font-style="italic" font-size="11" fill="#111" opacity="0.32">Matt Clanker</text>

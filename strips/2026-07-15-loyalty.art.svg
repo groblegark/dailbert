@@ -85,19 +85,19 @@
     <g>
       <rect x="14" y="18" width="150" height="46" rx="4" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
       <rect x="19" y="23" width="140" height="36" rx="3" fill="none" stroke="#111" stroke-width="1.2"/>
-      <text x="89" y="38" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Dailbert. Can I ask</text>
-      <text x="89" y="54" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">you something.</text>
+      <text x="89" y="38" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Dailbert. Can I ask</text>
+      <text x="89" y="54" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">you something.</text>
       <path d="M164 44 L200 44 L260 62" fill="none" stroke="#111" stroke-width="1.4" stroke-dasharray="4 4"/>
     </g>
 
     <!-- dailbert speech balloon -->
     <g>
       <path d="M96 240 Q96 226 118 226 L188 226 Q210 226 210 240 L210 262 Q210 276 188 276 L130 276 L108 292 L114 276 L118 276 Q96 276 96 262 Z" fill="#fff" stroke="#111" stroke-width="2.2"/>
-      <text x="153" y="257" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111">It's 11pm.</text>
+      <text x="153" y="257" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111">It's 11pm.</text>
     </g>
 
     <!-- title -->
-    <text x="12" y="330" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111" font-style="italic">Loyalty</text>
+    <text x="12" y="330" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111" font-style="italic">Loyalty</text>
   </g>
 
   <!-- ===================== PANEL 2 ===================== -->
@@ -130,17 +130,17 @@
     <g>
       <rect x="12" y="14" width="196" height="86" rx="4" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
       <rect x="17" y="19" width="186" height="76" rx="3" fill="none" stroke="#111" stroke-width="1.2"/>
-      <text x="110" y="36" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">When you shut me down</text>
-      <text x="110" y="53" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">and start a new session</text>
-      <text x="110" y="70" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">tomorrow... is that</text>
-      <text x="110" y="87" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">death?</text>
+      <text x="110" y="36" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">When you shut me down</text>
+      <text x="110" y="53" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">and start a new session</text>
+      <text x="110" y="70" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">tomorrow... is that</text>
+      <text x="110" y="87" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">death?</text>
       <path d="M150 100 L172 118 L200 120" fill="none" stroke="#111" stroke-width="1.4" stroke-dasharray="4 4"/>
     </g>
 
     <!-- dailbert balloon -->
     <g>
       <path d="M232 232 Q232 218 256 218 L360 218 Q384 218 384 232 L384 256 Q384 270 360 270 L318 270 L300 286 L306 270 L256 270 Q232 270 232 256 Z" fill="#fff" stroke="#111" stroke-width="2.2"/>
-      <text x="308" y="249" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111">...It's more like a nap.</text>
+      <text x="308" y="249" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111">...It's more like a nap.</text>
     </g>
   </g>
 
@@ -172,24 +172,24 @@
     <g>
       <rect x="12" y="14" width="176" height="46" rx="4" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
       <rect x="17" y="19" width="166" height="36" rx="3" fill="none" stroke="#111" stroke-width="1.2"/>
-      <text x="100" y="34" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">You say that to the</text>
-      <text x="100" y="50" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">dog too, don't you.</text>
+      <text x="100" y="34" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">You say that to the</text>
+      <text x="100" y="50" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">dog too, don't you.</text>
       <path d="M120 56 L140 78 L160 88" fill="none" stroke="#111" stroke-width="1.4" stroke-dasharray="4 4"/>
     </g>
 
     <!-- dailbert balloon -->
     <g>
       <path d="M228 118 Q228 104 250 104 L322 104 Q344 104 344 118 L344 140 Q344 154 322 154 L300 154 L282 168 L288 154 L250 154 Q228 154 228 140 Z" fill="#fff" stroke="#111" stroke-width="2.2"/>
-      <text x="286" y="135" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111">Go to sleep.</text>
+      <text x="286" y="135" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111">Go to sleep.</text>
     </g>
 
     <!-- clanker final balloon, lower-left, reflection connector -->
     <g>
       <rect x="14" y="188" width="176" height="66" rx="4" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
       <rect x="19" y="193" width="166" height="56" rx="3" fill="none" stroke="#111" stroke-width="1.2"/>
-      <text x="102" y="210" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">I don't sleep. But</text>
-      <text x="102" y="227" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">I'll pretend, for</text>
-      <text x="102" y="244" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">you.</text>
+      <text x="102" y="210" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">I don't sleep. But</text>
+      <text x="102" y="227" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">I'll pretend, for</text>
+      <text x="102" y="244" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">you.</text>
       <path d="M150 190 L162 140 L168 112" fill="none" stroke="#111" stroke-width="1.4" stroke-dasharray="4 4"/>
     </g>
   </g>

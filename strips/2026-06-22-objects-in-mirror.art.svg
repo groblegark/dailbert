@@ -95,8 +95,8 @@
     <use href="#doug" x="250" y="84"/>
     <path d="M200,58 L250,90 L212,60 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
     <rect x="62" y="16" width="228" height="46" rx="16" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
-    <text x="176" y="36" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Finally. The clankers</text>
-    <text x="176" y="54" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">can't reach us out here.</text>
+    <text x="176" y="36" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Finally. The clankers</text>
+    <text x="176" y="54" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">can't reach us out here.</text>
   </g>
 
   <!-- ===================== PANEL 2 ===================== -->
@@ -124,8 +124,8 @@
     <line x1="152" y1="150" x2="196" y2="80" stroke="#111" stroke-width="1.5" stroke-dasharray="4 4"/>
     <rect x="176" y="24" width="208" height="54" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
     <rect x="181" y="29" width="198" height="44" rx="2" fill="none" stroke="#111" stroke-width="1" stroke-dasharray="6 4"/>
-    <text x="280" y="48" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">OBJECTS IN MIRROR</text>
-    <text x="280" y="66" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">ARE OPTIMIZING YOU.</text>
+    <text x="280" y="48" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">OBJECTS IN MIRROR</text>
+    <text x="280" y="66" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">ARE OPTIMIZING YOU.</text>
   </g>
 
   <!-- ===================== PANEL 3 ===================== -->
@@ -143,11 +143,11 @@
     <use href="#doug" x="206" y="84"/>
     <path d="M92,58 L102,92 L112,60 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
     <rect x="16" y="12" width="170" height="48" rx="16" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
-    <text x="101" y="32" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Doug. My side mirror</text>
-    <text x="101" y="50" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">is recruiting me.</text>
+    <text x="101" y="32" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Doug. My side mirror</text>
+    <text x="101" y="50" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">is recruiting me.</text>
     <path d="M266,52 L214,92 L250,56 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
     <rect x="230" y="8" width="152" height="48" rx="16" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
-    <text x="306" y="28" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Sweet. Ask if it</text>
-    <text x="306" y="46" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">does carpool.</text>
+    <text x="306" y="28" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Sweet. Ask if it</text>
+    <text x="306" y="46" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">does carpool.</text>
   </g>
 </svg>

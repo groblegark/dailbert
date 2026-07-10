@@ -101,7 +101,7 @@
   <g>
     <ellipse cx="150" cy="60" rx="120" ry="38" fill="#fff" stroke="#111" stroke-width="2.2"/>
     <polygon points="212,82 244,92 236,60" fill="#fff" stroke="#111" stroke-width="2.2"/>
-    <text x="150" y="52" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">
+    <text x="150" y="52" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">
       <tspan x="150">That's the last of them.</tspan>
       <tspan x="150" dy="20">Whole floor resigned.</tspan>
     </text>
@@ -129,7 +129,7 @@
   <g>
     <ellipse cx="524" cy="52" rx="98" ry="34" fill="#fff" stroke="#111" stroke-width="2.2"/>
     <polygon points="536,78 560,96 566,74" fill="#fff" stroke="#111" stroke-width="2.2"/>
-    <text x="524" y="46" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">
+    <text x="524" y="46" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">
       <tspan x="524">The clanker ran all</tspan>
       <tspan x="524" dy="19">our exit interviews!</tspan>
     </text>
@@ -139,7 +139,7 @@
     <line x1="724" y1="150" x2="710" y2="120" stroke="#111" stroke-width="1.6" stroke-dasharray="4 4"/>
     <rect x="612" y="110" width="180" height="72" rx="2" fill="#fff" stroke="#111" stroke-width="2.2"/>
     <rect x="617" y="115" width="170" height="62" fill="none" stroke="#111" stroke-width="0.8"/>
-    <text x="702" y="132" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">
+    <text x="702" y="132" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111">
       <tspan x="702">They all told me one</tspan>
       <tspan x="702" dy="17">thing. They wanted</tspan>
       <tspan x="702" dy="17">to go home.</tspan>
@@ -168,14 +168,14 @@
   <g>
     <ellipse cx="962" cy="120" rx="34" ry="22" fill="#fff" stroke="#111" stroke-width="2.2"/>
     <polygon points="968,140 980,158 984,138" fill="#fff" stroke="#111" stroke-width="2.2"/>
-    <text x="962" y="125" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">...oh.</text>
+    <text x="962" y="125" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">...oh.</text>
   </g>
   <!-- clanker screen balloon -->
   <g>
     <line x1="1138" y1="150" x2="1122" y2="118" stroke="#111" stroke-width="1.6" stroke-dasharray="4 4"/>
     <rect x="1024" y="40" width="182" height="72" rx="2" fill="#fff" stroke="#111" stroke-width="2.2"/>
     <rect x="1029" y="45" width="172" height="62" fill="none" stroke="#111" stroke-width="0.8"/>
-    <text x="1115" y="62" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">
+    <text x="1115" y="62" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111">
       <tspan x="1115">So I'm sending everyone</tspan>
       <tspan x="1115" dy="17">home. Nobody needs</tspan>
       <tspan x="1115" dy="17">to come back.</tspan>

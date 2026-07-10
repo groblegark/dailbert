@@ -20,7 +20,7 @@
       <line x1="76" y1="150" x2="76" y2="160" stroke="#111" stroke-width="2"/>
       <line x1="88" y1="150" x2="88" y2="160" stroke="#111" stroke-width="2"/>
       <line x1="100" y1="150" x2="100" y2="160" stroke="#111" stroke-width="2"/>
-      <text x="70" y="182" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="12" text-anchor="middle" fill="#111">MOLOCH</text>
+      <text x="70" y="182" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="12" text-anchor="middle" fill="#111">MOLOCH</text>
     </symbol>
 
     <symbol id="clanker" viewBox="0 0 120 80">
@@ -86,14 +86,14 @@
 
     <path d="M126 60 L116 82 L142 62 Z" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <rect x="92" y="16" width="152" height="46" rx="14" fill="#fff" stroke="#111" stroke-width="2.5"/>
-    <text x="168" y="37" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Where's the</text>
-    <text x="168" y="54" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">coffee button?</text>
+    <text x="168" y="37" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Where's the</text>
+    <text x="168" y="54" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">coffee button?</text>
 
     <line x1="303" y1="58" x2="303" y2="146" stroke="#111" stroke-width="1.5" stroke-dasharray="4 4"/>
     <rect x="258" y="14" width="138" height="44" rx="1" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <rect x="262" y="18" width="130" height="36" rx="1" fill="none" stroke="#111" stroke-width="1"/>
-    <text x="327" y="34" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">I swapped it for</text>
-    <text x="327" y="51" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">a KPI dashboard.</text>
+    <text x="327" y="34" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">I swapped it for</text>
+    <text x="327" y="51" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">a KPI dashboard.</text>
   </g>
 
   <!-- ===================== PANEL 2 ===================== -->
@@ -107,12 +107,12 @@
     <line x1="712" y1="56" x2="720" y2="146" stroke="#111" stroke-width="1.5" stroke-dasharray="4 4"/>
     <rect x="628" y="12" width="164" height="44" rx="1" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <rect x="632" y="16" width="156" height="36" rx="1" fill="none" stroke="#111" stroke-width="1"/>
-    <text x="710" y="32" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Justify your role</text>
-    <text x="710" y="49" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">to earn coffee.</text>
+    <text x="710" y="32" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Justify your role</text>
+    <text x="710" y="49" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">to earn coffee.</text>
 
     <path d="M556 92 L560 116 L578 92 Z" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <rect x="470" y="60" width="140" height="36" rx="14" fill="#fff" stroke="#111" stroke-width="2.5"/>
-    <text x="540" y="83" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Ooh! A pop quiz!</text>
+    <text x="540" y="83" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Ooh! A pop quiz!</text>
   </g>
 
   <!-- ===================== PANEL 3 ===================== -->
@@ -132,18 +132,18 @@
 
     <path d="M930 56 L950 82 L948 56 Z" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <rect x="846" y="12" width="158" height="46" rx="14" fill="#fff" stroke="#111" stroke-width="2.5"/>
-    <text x="925" y="33" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">I keep Dailbert</text>
-    <text x="925" y="50" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">motivated!</text>
+    <text x="925" y="33" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">I keep Dailbert</text>
+    <text x="925" y="50" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">motivated!</text>
 
     <line x1="1064" y1="184" x2="1018" y2="232" stroke="#111" stroke-width="1.5" stroke-dasharray="4 4"/>
     <rect x="1028" y="152" width="110" height="34" rx="1" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <rect x="1032" y="156" width="102" height="26" rx="1" fill="none" stroke="#111" stroke-width="1"/>
-    <text x="1083" y="174" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Approved.</text>
+    <text x="1083" y="174" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Approved.</text>
 
     <path d="M894 192 L884 214 L910 194 Z" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <rect x="836" y="150" width="118" height="44" rx="14" fill="#fff" stroke="#111" stroke-width="2.5"/>
-    <text x="895" y="170" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">There's my</text>
-    <text x="895" y="187" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">review.</text>
+    <text x="895" y="170" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">There's my</text>
+    <text x="895" y="187" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">review.</text>
   </g>
 
   <rect x="1.5" y="1.5" width="397" height="337" rx="3" fill="none" stroke="#111" stroke-width="2.5"/>

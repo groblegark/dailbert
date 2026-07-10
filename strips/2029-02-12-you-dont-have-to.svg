@@ -7,8 +7,8 @@
     <g transform="translate(0,40)">
   <defs>
     <style>
-      .t{font-family:'Comic Sans MS','Segoe Print',cursive;fill:#111;text-anchor:middle;}
-      .sl{font-family:'Comic Sans MS','Segoe Print',cursive;fill:#111;text-anchor:middle;}
+      .t{font-family:'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif;fill:#111;text-anchor:middle;}
+      .sl{font-family:'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif;fill:#111;text-anchor:middle;}
     </style>
 
     <symbol id="dailbert" viewBox="0 0 120 180">

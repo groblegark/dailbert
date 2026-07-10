@@ -11,8 +11,8 @@
       .thin{fill:none;stroke:#111;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
       .fillp{fill:#f4f1ea;stroke:#111;stroke-width:2.6;stroke-linejoin:round;}
       .balloon{fill:#f4f1ea;stroke:#111;stroke-width:2.4;}
-      .tx{font-family:'Comic Sans MS','Segoe Print',cursive;font-size:14px;fill:#111;text-anchor:middle;}
-      .txw{font-family:'Comic Sans MS','Segoe Print',cursive;font-size:14px;fill:#f4f1ea;text-anchor:middle;}
+      .tx{font-family:'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif;font-size:14px;fill:#111;text-anchor:middle;}
+      .txw{font-family:'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif;font-size:14px;fill:#f4f1ea;text-anchor:middle;}
       .grey{fill:none;stroke:#7a8088;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
     </style>
 

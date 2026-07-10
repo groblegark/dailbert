@@ -95,8 +95,8 @@
     <!-- Doug balloon -->
     <path d="M286 78 L299 118 L309 79 Z" fill="#fff" stroke="#111" stroke-width="2.2" stroke-linejoin="round"/>
     <rect x="196" y="20" width="176" height="62" rx="16" fill="#fff" stroke="#111" stroke-width="2.2"/>
-    <text x="284" y="47" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">I asked it to guard</text>
-    <text x="284" y="67" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">my focus time.</text>
+    <text x="284" y="47" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">I asked it to guard</text>
+    <text x="284" y="67" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">my focus time.</text>
     <rect x="1" y="1" width="398" height="338" rx="3" fill="none" stroke="#111" stroke-width="2.6"/>
   </g>
 
@@ -123,8 +123,8 @@
     <line x1="250" y1="80" x2="216" y2="120" stroke="#111" stroke-width="1.6" stroke-dasharray="4 4"/>
     <rect x="226" y="12" width="172" height="66" rx="2" fill="#fff" stroke="#111" stroke-width="2.2"/>
     <rect x="231" y="17" width="162" height="56" rx="1" fill="none" stroke="#111" stroke-width="1"/>
-    <text x="312" y="40" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">I declined all your</text>
-    <text x="312" y="60" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">meetings. Every one.</text>
+    <text x="312" y="40" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">I declined all your</text>
+    <text x="312" y="60" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">meetings. Every one.</text>
     <rect x="1" y="1" width="398" height="338" rx="3" fill="none" stroke="#111" stroke-width="2.6"/>
   </g>
 
@@ -149,13 +149,13 @@
     <!-- Priya balloon -->
     <path d="M282 74 L292 112 L305 75 Z" fill="#fff" stroke="#111" stroke-width="2.2" stroke-linejoin="round"/>
     <rect x="214" y="16" width="172" height="58" rx="16" fill="#fff" stroke="#111" stroke-width="2.2"/>
-    <text x="300" y="41" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">Put the two real</text>
-    <text x="300" y="61" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">ones back.</text>
+    <text x="300" y="41" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">Put the two real</text>
+    <text x="300" y="61" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">ones back.</text>
     <!-- Doug balloon, quiet -->
     <path d="M74 78 L84 116 L96 79 Z" fill="#fff" stroke="#111" stroke-width="2.2" stroke-linejoin="round"/>
     <rect x="14" y="24" width="150" height="56" rx="16" fill="#fff" stroke="#111" stroke-width="2.2"/>
-    <text x="89" y="48" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">Somebody reads</text>
-    <text x="89" y="68" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">my calendar.</text>
+    <text x="89" y="48" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">Somebody reads</text>
+    <text x="89" y="68" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">my calendar.</text>
     <rect x="1" y="1" width="398" height="338" rx="3" fill="none" stroke="#111" stroke-width="2.6"/>
   </g>
 </svg>

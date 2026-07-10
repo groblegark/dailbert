@@ -69,7 +69,7 @@
     <!-- monitor showing SENT -->
     <rect x="150" y="150" width="118" height="94" rx="4" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
     <rect x="158" y="158" width="102" height="70" rx="2" fill="#e6e3db" stroke="#111" stroke-width="1.5"/>
-    <text x="209" y="190" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="16" fill="#111" text-anchor="middle">SENT</text>
+    <text x="209" y="190" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="16" fill="#111" text-anchor="middle">SENT</text>
     <path d="M188 204 l7 7 l14 -17" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
     <line x1="209" y1="244" x2="209" y2="252" stroke="#111" stroke-width="2.5"/>
     <rect x="122" y="244" width="80" height="10" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
@@ -80,11 +80,11 @@
 
     <!-- balloon dailbert -->
     <path d="M18 60 h150 a12 12 0 0 1 12 12 v22 a12 12 0 0 1 -12 12 h-88 l-14 18 l-2 -18 h-46 a12 12 0 0 1 -12 -12 v-22 a12 12 0 0 1 12 -12 z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
-    <text x="93" y="89" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111" text-anchor="middle">Weekly report. Sent.</text>
+    <text x="93" y="89" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111" text-anchor="middle">Weekly report. Sent.</text>
 
     <!-- balloon doug -->
     <path d="M286 54 h96 a12 12 0 0 1 12 12 v20 a12 12 0 0 1 -12 12 h-56 l-10 16 l-3 -16 h-27 a12 12 0 0 1 -12 -12 v-20 a12 12 0 0 1 12 -12 z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
-    <text x="334" y="82" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111" text-anchor="middle">Nice one, buddy.</text>
+    <text x="334" y="82" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111" text-anchor="middle">Nice one, buddy.</text>
 
     <rect x="1.5" y="1.5" width="397" height="337" rx="3" fill="none" stroke="#111" stroke-width="2.5"/>
   </g>
@@ -111,14 +111,14 @@
 
     <!-- balloon dailbert -->
     <path d="M436 42 h164 a12 12 0 0 1 12 12 v24 a12 12 0 0 1 -12 12 h-96 l-14 18 l-2 -18 h-52 a12 12 0 0 1 -12 -12 v-24 a12 12 0 0 1 12 -12 z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
-    <text font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111" text-anchor="middle">
+    <text font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111" text-anchor="middle">
       <tspan x="518" y="63">Nobody's read one</tspan>
       <tspan x="518" y="81">in three years.</tspan>
     </text>
 
     <!-- balloon doug -->
     <path d="M672 46 h108 a12 12 0 0 1 12 12 v20 a12 12 0 0 1 -12 12 h-40 l-10 16 l-3 -16 h-47 a12 12 0 0 1 -12 -12 v-20 a12 12 0 0 1 12 -12 z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
-    <text x="726" y="74" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111" text-anchor="middle">That's the dream.</text>
+    <text x="726" y="74" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111" text-anchor="middle">That's the dream.</text>
 
     <rect x="415.5" y="1.5" width="397" height="337" rx="3" fill="none" stroke="#111" stroke-width="2.5"/>
   </g>
@@ -158,7 +158,7 @@
     <!-- clanker screen-edged balloon -->
     <rect x="926" y="30" width="182" height="60" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
     <rect x="931" y="35" width="172" height="50" fill="none" stroke="#111" stroke-width="1" stroke-dasharray="3 3"/>
-    <text font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111" text-anchor="middle">
+    <text font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111" text-anchor="middle">
       <tspan x="1017" y="55">I read all of them.</tspan>
       <tspan x="1017" y="75">Even the footnotes.</tspan>
     </text>

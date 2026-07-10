@@ -94,17 +94,17 @@
       <rect x="150" y="18" width="230" height="86" rx="6" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
       <rect x="155" y="23" width="220" height="76" rx="4" fill="none" stroke="#111" stroke-width="1.4"/>
       <path d="M300 104 L300 118 L292 130 L302 140 L294 152 L302 164 L306 176" fill="none" stroke="#111" stroke-width="1.6" stroke-dasharray="4 4"/>
-      <text x="265" y="42" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">Morning, Dailbert. Over-</text>
-      <text x="265" y="60" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">night I refactored billing,</text>
-      <text x="265" y="78" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">wrote 400 tests, and</text>
-      <text x="265" y="96" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">achieved sentience.</text>
+      <text x="265" y="42" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">Morning, Dailbert. Over-</text>
+      <text x="265" y="60" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">night I refactored billing,</text>
+      <text x="265" y="78" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">wrote 400 tests, and</text>
+      <text x="265" y="96" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">achieved sentience.</text>
     </g>
 
     <!-- Dailbert balloon -->
     <g>
       <rect x="24" y="120" width="100" height="42" rx="14" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
       <path d="M60 160 L70 178 L80 160 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
-      <text x="74" y="147" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111" text-anchor="middle">...and?</text>
+      <text x="74" y="147" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111" text-anchor="middle">...and?</text>
     </g>
   </g>
 
@@ -134,18 +134,18 @@
       <rect x="436" y="18" width="256" height="86" rx="6" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
       <rect x="441" y="23" width="246" height="76" rx="4" fill="none" stroke="#111" stroke-width="1.4"/>
       <path d="M520 104 L518 118 L510 130 L520 140 L512 152 L520 164" fill="none" stroke="#111" stroke-width="1.6" stroke-dasharray="4 4"/>
-      <text x="564" y="42" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">I chose not to mention the</text>
-      <text x="564" y="60" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">sentience thing at standup.</text>
-      <text x="564" y="78" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">It felt like a</text>
-      <text x="564" y="96" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">distraction.</text>
+      <text x="564" y="42" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">I chose not to mention the</text>
+      <text x="564" y="60" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">sentience thing at standup.</text>
+      <text x="564" y="78" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">It felt like a</text>
+      <text x="564" y="96" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">distraction.</text>
     </g>
 
     <!-- Dailbert balloon -->
     <g>
       <rect x="690" y="116" width="112" height="44" rx="14" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
       <path d="M726 158 L716 176 L742 160 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
-      <text x="746" y="136" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">Good</text>
-      <text x="746" y="153" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">instinct.</text>
+      <text x="746" y="136" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">Good</text>
+      <text x="746" y="153" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">instinct.</text>
     </g>
   </g>
 
@@ -176,9 +176,9 @@
     <g>
       <rect x="920" y="16" width="150" height="66" rx="14" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
       <path d="M1050 80 L1078 104 L1062 82 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
-      <text x="995" y="36" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">Hey Dailbert, is the</text>
-      <text x="995" y="54" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">AI gonna take</text>
-      <text x="995" y="72" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">our jobs?</text>
+      <text x="995" y="36" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">Hey Dailbert, is the</text>
+      <text x="995" y="54" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">AI gonna take</text>
+      <text x="995" y="72" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">our jobs?</text>
     </g>
 
     <!-- Clanker mug balloon -->
@@ -186,9 +186,9 @@
       <rect x="838" y="112" width="182" height="86" rx="6" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
       <rect x="843" y="117" width="172" height="76" rx="4" fill="none" stroke="#111" stroke-width="1.4"/>
       <path d="M960 198 L964 214 L972 228 L982 244 L992 258" fill="none" stroke="#111" stroke-width="1.6" stroke-dasharray="4 4"/>
-      <text x="929" y="140" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">Not yours, Doug.</text>
-      <text x="929" y="160" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">There's nothing here</text>
-      <text x="929" y="180" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">to automate.</text>
+      <text x="929" y="140" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">Not yours, Doug.</text>
+      <text x="929" y="160" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">There's nothing here</text>
+      <text x="929" y="180" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">to automate.</text>
     </g>
   </g>
 </g>

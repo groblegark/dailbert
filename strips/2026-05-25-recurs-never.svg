@@ -96,7 +96,7 @@
       <rect x="14" y="258" width="372" height="82" rx="4" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
       <!-- boss balloon -->
       <path d="M118 16 h172 a12 12 0 0 1 12 12 v32 a12 12 0 0 1 -12 12 h-142 l-14 16 l2 -16 h-18 a12 12 0 0 1 -12 -12 v-32 a12 12 0 0 1 12 -12 Z" fill="#fff" stroke="#111" stroke-width="2.5"/>
-      <text x="204" y="40" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">
+      <text x="204" y="40" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">
         <tspan x="204" dy="0">The clanker's minding</tspan>
         <tspan x="204" dy="18">our focus time this week.</tspan>
       </text>
@@ -121,13 +121,13 @@
       <!-- clanker balloon (screen-edged) + dashed connector -->
       <line x1="176" y1="74" x2="150" y2="110" stroke="#111" stroke-width="1.5" stroke-dasharray="4 4"/>
       <rect x="118" y="14" width="200" height="58" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
-      <text x="218" y="38" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">
+      <text x="218" y="38" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">
         <tspan x="218" dy="0">I booked a daily meeting</tspan>
         <tspan x="218" dy="18">so nobody books meetings.</tspan>
       </text>
       <!-- doug balloon -->
       <path d="M258 92 h104 a10 10 0 0 1 10 10 v20 a10 10 0 0 1 -10 10 h-42 l-14 14 l2 -14 h-50 a10 10 0 0 1 -10 -10 v-20 a10 10 0 0 1 10 -10 Z" fill="#fff" stroke="#111" stroke-width="2.5"/>
-      <text x="310" y="118" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">That's a meeting.</text>
+      <text x="310" y="118" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">That's a meeting.</text>
     </g>
   </g>
 
@@ -155,17 +155,17 @@
       <use href="#dailbert" x="178" y="200" width="60" height="102"/>
       <!-- priya balloon -->
       <path d="M96 16 h158 a12 12 0 0 1 12 12 v30 a12 12 0 0 1 -12 12 h-108 l-14 16 l2 -16 h-38 a12 12 0 0 1 -12 -12 v-30 a12 12 0 0 1 12 -12 Z" fill="#fff" stroke="#111" stroke-width="2.5"/>
-      <text x="175" y="40" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">
+      <text x="175" y="40" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">
         <tspan x="175" dy="0">I made it recurring.</tspan>
         <tspan x="175" dy="18">It recurs never.</tspan>
       </text>
       <!-- clanker small balloon -->
       <line x1="300" y1="146" x2="298" y2="168" stroke="#111" stroke-width="1.5" stroke-dasharray="4 4"/>
       <rect x="248" y="110" width="118" height="36" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
-      <text x="307" y="133" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Focus protected.</text>
+      <text x="307" y="133" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Focus protected.</text>
       <!-- dailbert small balloon -->
       <path d="M150 180 h96 a9 9 0 0 1 9 9 v14 a9 9 0 0 1 -9 9 h-30 l-12 12 l2 -12 h-56 a9 9 0 0 1 -9 -9 v-14 a9 9 0 0 1 9 -9 Z" fill="#fff" stroke="#111" stroke-width="2.5"/>
-      <text x="198" y="201" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" text-anchor="middle" fill="#111">Empty cron. She won.</text>
+      <text x="198" y="201" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" text-anchor="middle" fill="#111">Empty cron. She won.</text>
     </g>
   </g>
 </g>

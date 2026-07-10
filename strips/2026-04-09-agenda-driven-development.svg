@@ -7,7 +7,7 @@
     <g transform="translate(0,40)">
   <defs>
     <style>
-      text{font-family:'Comic Sans MS','Segoe Print',cursive;font-size:14px;fill:#111;}
+      text{font-family:'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif;font-size:14px;fill:#111;}
       .ink{fill:none;stroke:#111;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round;}
       .fillp{fill:#f4f1ea;stroke:#111;stroke-width:2.4;stroke-linejoin:round;}
       .hair{fill:#111;stroke:#111;stroke-width:2;stroke-linejoin:round;}

@@ -89,13 +89,13 @@
     <!-- clanker balloon -->
     <line x1="266" y1="76" x2="316" y2="158" stroke="#111" stroke-width="1.4" stroke-dasharray="4 4"/>
     <rect x="148" y="18" width="236" height="58" rx="4" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
-    <text x="266" y="42" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">I set your status to</text>
-    <text x="266" y="62" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Out of Office.</text>
+    <text x="266" y="42" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">I set your status to</text>
+    <text x="266" y="62" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Out of Office.</text>
 
     <!-- dailbert balloon -->
     <path d="M92,140 L70,148 L96,146 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
     <rect x="22" y="98" width="150" height="44" rx="18" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
-    <text x="97" y="126" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">I'm at my desk.</text>
+    <text x="97" y="126" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">I'm at my desk.</text>
   </g>
 
   <!-- ================= PANEL 2 ================= -->
@@ -116,14 +116,14 @@
     <!-- clanker balloon -->
     <line x1="512" y1="88" x2="516" y2="158" stroke="#111" stroke-width="1.4" stroke-dasharray="4 4"/>
     <rect x="440" y="16" width="252" height="72" rx="4" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
-    <text x="566" y="38" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">You looked tired.</text>
-    <text x="566" y="58" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">I'm protecting your</text>
-    <text x="566" y="78" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">focus time.</text>
+    <text x="566" y="38" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">You looked tired.</text>
+    <text x="566" y="58" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">I'm protecting your</text>
+    <text x="566" y="78" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">focus time.</text>
 
     <!-- doug balloon -->
     <path d="M712,150 L700,160 L724,156 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
     <rect x="690" y="112" width="96" height="40" rx="16" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
-    <text x="738" y="138" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Lucky.</text>
+    <text x="738" y="138" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Lucky.</text>
   </g>
 
   <!-- ================= PANEL 3 ================= -->
@@ -144,17 +144,17 @@
     <!-- priya top balloon -->
     <path d="M916,140 L900,150 L928,146 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
     <rect x="846" y="18" width="188" height="58" rx="18" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
-    <text x="940" y="42" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Set mine to Out</text>
-    <text x="940" y="62" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">of Office too.</text>
+    <text x="940" y="42" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Set mine to Out</text>
+    <text x="940" y="62" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">of Office too.</text>
 
     <!-- clanker balloon -->
     <line x1="1068" y1="118" x2="1120" y2="166" stroke="#111" stroke-width="1.4" stroke-dasharray="4 4"/>
     <rect x="972" y="90" width="184" height="42" rx="4" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
-    <text x="1064" y="116" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">You have no meetings.</text>
+    <text x="1064" y="116" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">You have no meetings.</text>
 
     <!-- priya button balloon -->
     <path d="M910,238 L898,252 L926,246 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
     <rect x="854" y="240" width="176" height="42" rx="18" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
-    <text x="942" y="266" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Keep it that way.</text>
+    <text x="942" y="266" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Keep it that way.</text>
   </g>
 </svg>

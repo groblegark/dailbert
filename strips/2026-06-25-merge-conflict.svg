@@ -59,7 +59,7 @@
   </defs>
 
   <style>
-    text{font-family:'Comic Sans MS','Segoe Print',cursive;font-size:14px;fill:#111;text-anchor:middle;}
+    text{font-family:'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif;font-size:14px;fill:#111;text-anchor:middle;}
   </style>
 
   <!-- ===================== PANEL 1 ===================== -->

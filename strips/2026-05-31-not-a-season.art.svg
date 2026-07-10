@@ -77,13 +77,13 @@
     <!-- Doug balloon -->
     <path d="M160,94 L180,164 L188,92" fill="#fdfcf9" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
     <ellipse cx="175" cy="70" rx="80" ry="31" fill="#fdfcf9" stroke="#111" stroke-width="2.5"/>
-    <text x="175" y="62" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">Quick standup thing—</text>
-    <text x="175" y="82" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">I'm out.</text>
+    <text x="175" y="62" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">Quick standup thing—</text>
+    <text x="175" y="82" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">I'm out.</text>
     <!-- clanker balloon -->
     <line x1="330" y1="142" x2="330" y2="221" stroke="#111" stroke-width="1.5" stroke-dasharray="4,3"/>
     <rect x="270" y="98" width="120" height="42" fill="#fdfcf9" stroke="#111" stroke-width="2"/>
     <rect x="274" y="102" width="112" height="34" fill="none" stroke="#111" stroke-width="1"/>
-    <text x="330" y="124" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">Understood.</text>
+    <text x="330" y="124" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">Understood.</text>
   </g>
 
   <!-- ===== PANEL 2 ===== -->
@@ -98,18 +98,18 @@
     <rect x="636" y="196" width="150" height="104" rx="5" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
     <rect x="644" y="206" width="134" height="84" rx="3" fill="#1c1c1c"/>
     <use href="#clank" transform="translate(742,210) scale(0.42)"/>
-    <text x="702" y="244" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#e8e8e8" text-anchor="middle">OUT OF OFFICE</text>
-    <text x="702" y="266" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#bdbdbd" text-anchor="middle">until June 14</text>
+    <text x="702" y="244" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#e8e8e8" text-anchor="middle">OUT OF OFFICE</text>
+    <text x="702" y="266" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#bdbdbd" text-anchor="middle">until June 14</text>
     <!-- Doug balloon (quiet) -->
     <path d="M498,90 L545,166 L522,90" fill="#fdfcf9" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
     <ellipse cx="515" cy="68" rx="74" ry="27" fill="#fdfcf9" stroke="#111" stroke-width="2.5"/>
-    <text x="515" y="73" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">I went for coffee.</text>
+    <text x="515" y="73" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">I went for coffee.</text>
     <!-- clanker balloon -->
     <line x1="720" y1="146" x2="748" y2="212" stroke="#111" stroke-width="1.5" stroke-dasharray="4,3"/>
     <rect x="612" y="98" width="180" height="50" fill="#fdfcf9" stroke="#111" stroke-width="2"/>
     <rect x="616" y="102" width="172" height="42" fill="none" stroke="#111" stroke-width="1"/>
-    <text x="702" y="120" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">I posted your away note</text>
-    <text x="702" y="138" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">and cleared June.</text>
+    <text x="702" y="120" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">I posted your away note</text>
+    <text x="702" y="138" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">and cleared June.</text>
   </g>
 
   <!-- ===== PANEL 3 ===== -->
@@ -139,13 +139,13 @@
     <!-- Priya balloon -->
     <path d="M958,94 L968,170 L992,92" fill="#fdfcf9" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
     <ellipse cx="980" cy="66" rx="86" ry="31" fill="#fdfcf9" stroke="#111" stroke-width="2.5"/>
-    <text x="980" y="60" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">Status: 'Back in five.'</text>
-    <text x="980" y="80" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">Not a season.</text>
+    <text x="980" y="60" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">Status: 'Back in five.'</text>
+    <text x="980" y="80" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">Not a season.</text>
     <!-- clanker balloon -->
     <line x1="1150" y1="150" x2="1128" y2="218" stroke="#111" stroke-width="1.5" stroke-dasharray="4,3"/>
     <rect x="1062" y="104" width="152" height="48" fill="#fdfcf9" stroke="#111" stroke-width="2"/>
     <rect x="1066" y="108" width="144" height="40" fill="none" stroke="#111" stroke-width="1"/>
-    <text x="1138" y="125" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">...Noted.</text>
-    <text x="1138" y="143" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">I overshot.</text>
+    <text x="1138" y="125" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">...Noted.</text>
+    <text x="1138" y="143" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">I overshot.</text>
   </g>
 </svg>

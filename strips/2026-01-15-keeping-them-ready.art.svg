@@ -110,7 +110,7 @@
       <rect x="14" y="12" width="152" height="46" rx="12"/>
       <path d="M62,57 L52,78 L84,57 Z"/>
     </g>
-    <g font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">
+    <g font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">
       <text x="90" y="33">The install's done.</text>
       <text x="90" y="50">It wakes up at nine.</text>
     </g>
@@ -148,7 +148,7 @@
       <rect x="298" y="12" width="94" height="44" rx="12"/>
       <path d="M322,55 L336,72 L346,55 Z"/>
     </g>
-    <g font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">
+    <g font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">
       <text x="96" y="30">Hello.</text>
       <text x="96" y="47">I'm glad to be here.</text>
       <text x="345" y="31">Aw — hi there,</text>
@@ -190,7 +190,7 @@
       <rect x="113" y="9" width="174" height="50" rx="1" fill="none" stroke-width="1"/>
     </g>
     <path d="M200,64 L200,84" stroke="#111" stroke-width="1.4" fill="none" stroke-dasharray="4 4"/>
-    <g font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">
+    <g font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">
       <text x="200" y="26">I counted eleven</text>
       <text x="200" y="43">empty desks.</text>
       <text x="200" y="59">I'll keep them ready.</text>

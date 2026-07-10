@@ -62,13 +62,13 @@
 
       <path d="M100 92 L92 118 L112 100 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
       <ellipse cx="98" cy="58" rx="66" ry="32" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
-      <text x="98" y="52" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">It just keeps</text>
-      <text x="98" y="70" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">getting longer.</text>
+      <text x="98" y="52" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">It just keeps</text>
+      <text x="98" y="70" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">getting longer.</text>
 
       <path d="M300 92 L312 118 L288 100 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
       <ellipse cx="308" cy="56" rx="62" ry="30" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
-      <text x="308" y="51" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Long lunch</text>
-      <text x="308" y="69" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">again!</text>
+      <text x="308" y="51" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Long lunch</text>
+      <text x="308" y="69" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">again!</text>
     </g>
   </g>
 
@@ -85,13 +85,13 @@
 
       <path d="M100 92 L92 118 L112 100 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
       <ellipse cx="98" cy="58" rx="66" ry="32" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
-      <text x="98" y="52" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Less to hurry</text>
-      <text x="98" y="70" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">back to now.</text>
+      <text x="98" y="52" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Less to hurry</text>
+      <text x="98" y="70" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">back to now.</text>
 
       <path d="M300 92 L312 118 L288 100 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
       <ellipse cx="308" cy="56" rx="62" ry="30" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
-      <text x="308" y="51" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">So... more</text>
-      <text x="308" y="69" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">coffee.</text>
+      <text x="308" y="51" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">So... more</text>
+      <text x="308" y="69" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">coffee.</text>
     </g>
   </g>
 
@@ -119,15 +119,15 @@
       <!-- Dailbert balloon -->
       <path d="M96 96 L86 122 L110 104 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
       <ellipse cx="98" cy="60" rx="70" ry="34" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
-      <text x="98" y="54" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Did you make</text>
-      <text x="98" y="72" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">lunch longer?</text>
+      <text x="98" y="54" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Did you make</text>
+      <text x="98" y="72" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">lunch longer?</text>
 
       <!-- Clanker screen balloon -->
       <line x1="305" y1="150" x2="300" y2="108" stroke="#111" stroke-width="1.5" stroke-dasharray="4 4"/>
       <rect x="212" y="42" width="176" height="64" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
       <rect x="217" y="47" width="166" height="54" fill="none" stroke="#111" stroke-width="1"/>
-      <text x="300" y="70" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Yes. The afternoons</text>
-      <text x="300" y="89" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">had gone quiet.</text>
+      <text x="300" y="70" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Yes. The afternoons</text>
+      <text x="300" y="89" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">had gone quiet.</text>
     </g>
   </g>
 </g>

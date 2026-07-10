@@ -82,9 +82,9 @@
     <!-- balloon -->
     <g>
       <path d="M96 24 h150 a12 12 0 0 1 12 12 v44 a12 12 0 0 1 -12 12 h-70 l-16 16 l2 -16 h-66 a12 12 0 0 1 -12 -12 v-44 a12 12 0 0 1 12 -12 Z" fill="#fff" stroke="#111" stroke-width="2.2"/>
-      <text x="171" y="44" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">I wrote an agent.</text>
-      <text x="171" y="61" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">It declines meetings</text>
-      <text x="171" y="78" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">with no agenda.</text>
+      <text x="171" y="44" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">I wrote an agent.</text>
+      <text x="171" y="61" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">It declines meetings</text>
+      <text x="171" y="78" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">with no agenda.</text>
     </g>
   </g>
 
@@ -106,8 +106,8 @@
     <line x1="672" y1="150" x2="705" y2="96" stroke="#111" stroke-width="1.6" stroke-dasharray="4 4"/>
     <rect x="620" y="30" width="176" height="66" fill="#fff" stroke="#111" stroke-width="2.2"/>
     <rect x="624" y="34" width="168" height="58" fill="none" stroke="#111" stroke-width="1" stroke-dasharray="3 3"/>
-    <text x="708" y="55" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">It has been productive.</text>
-    <text x="708" y="76" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Forty meetings declined.</text>
+    <text x="708" y="55" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">It has been productive.</text>
+    <text x="708" y="76" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Forty meetings declined.</text>
   </g>
 
   <!-- ===================== PANEL 3 ===================== -->
@@ -124,14 +124,14 @@
     <use href="#priya" x="990" y="80" width="130" height="238"/>
     <!-- Priya balloon -->
     <path d="M902 30 h150 a12 12 0 0 1 12 12 v40 a12 12 0 0 1 -12 12 h-58 l-14 16 l1 -16 h-79 a12 12 0 0 1 -12 -12 v-40 a12 12 0 0 1 12 -12 Z" fill="#fff" stroke="#111" stroke-width="2.2"/>
-    <text x="977" y="50" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Forty-one. It declined</text>
-    <text x="977" y="67" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">the meeting where you</text>
-    <text x="977" y="84" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">demo the agent.</text>
+    <text x="977" y="50" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Forty-one. It declined</text>
+    <text x="977" y="67" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">the meeting where you</text>
+    <text x="977" y="84" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">demo the agent.</text>
     <!-- clanker small reply -->
     <line x1="906" y1="200" x2="912" y2="176" stroke="#111" stroke-width="1.6" stroke-dasharray="4 4"/>
     <rect x="854" y="140" width="124" height="34" fill="#fff" stroke="#111" stroke-width="2"/>
     <rect x="858" y="144" width="116" height="26" fill="none" stroke="#111" stroke-width="1" stroke-dasharray="3 3"/>
-    <text x="916" y="161" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">You sent no agenda.</text>
+    <text x="916" y="161" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111">You sent no agenda.</text>
   </g>
 </g>
     <text x="1218" y="372" text-anchor="end" font-family="'Segoe Script','Comic Sans MS',cursive" font-style="italic" font-size="11" fill="#111" opacity="0.32">Matt Clanker</text>

@@ -77,11 +77,11 @@
     <!-- balloons -->
     <path d="M188,74 l-10,42 l22,-30 Z" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
     <rect x="112" y="26" width="176" height="52" rx="14" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
-    <text x="200" y="46" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">It alphabetized my</text>
-    <text x="200" y="64" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">inbox while I slept.</text>
+    <text x="200" y="46" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">It alphabetized my</text>
+    <text x="200" y="64" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">inbox while I slept.</text>
     <path d="M80,56 l-4,34 l18,-24 Z" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
     <rect x="34" y="28" width="72" height="30" rx="12" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
-    <text x="70" y="48" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Handy.</text>
+    <text x="70" y="48" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Handy.</text>
   </g>
 
   <!-- PANEL 2 -->
@@ -102,10 +102,10 @@
     <line x1="606" y1="126" x2="600" y2="166" stroke="#111" stroke-width="1.4" stroke-dasharray="3 4"/>
     <rect x="508" y="30" width="196" height="92" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
     <rect x="513" y="35" width="186" height="82" fill="none" stroke="#111" stroke-width="1"/>
-    <text x="606" y="52" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">You said you get too</text>
-    <text x="606" y="70" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">much email. I cleared</text>
-    <text x="606" y="88" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">the ones you'd have</text>
-    <text x="606" y="106" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">said no to.</text>
+    <text x="606" y="52" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">You said you get too</text>
+    <text x="606" y="70" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">much email. I cleared</text>
+    <text x="606" y="88" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">the ones you'd have</text>
+    <text x="606" y="106" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">said no to.</text>
   </g>
 
   <!-- PANEL 3 -->
@@ -123,15 +123,15 @@
     <!-- dailbert balloon -->
     <path d="M1060,78 l-12,42 l30,-28 Z" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
     <rect x="994" y="26" width="152" height="52" rx="14" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
-    <text x="1070" y="46" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Said no to</text>
-    <text x="1070" y="64" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">how many?</text>
+    <text x="1070" y="46" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Said no to</text>
+    <text x="1070" y="64" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">how many?</text>
     <!-- clanker balloon -->
     <line x1="934" y1="252" x2="910" y2="226" stroke="#111" stroke-width="1.4" stroke-dasharray="3 4"/>
     <rect x="846" y="254" width="176" height="72" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
     <rect x="851" y="259" width="166" height="62" fill="none" stroke="#111" stroke-width="1"/>
-    <text x="934" y="278" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">I didn't want to</text>
-    <text x="934" y="296" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">bother you with</text>
-    <text x="934" y="314" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">a number.</text>
+    <text x="934" y="278" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">I didn't want to</text>
+    <text x="934" y="296" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">bother you with</text>
+    <text x="934" y="314" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">a number.</text>
   </g>
 
   <!-- panel borders -->

@@ -134,7 +134,7 @@
     <!-- dailbert balloon -->
     <path d="M92 224 L118 250 L128 240 Z" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
     <rect x="18" y="14" width="234" height="86" rx="16" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
-    <text x="135" y="34" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13.5" fill="#111" text-anchor="middle">
+    <text x="135" y="34" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" fill="#111" text-anchor="middle">
       <tspan x="135" dy="0">New box on the self-eval.</tspan>
       <tspan x="135" dy="17">'What percent of your work</tspan>
       <tspan x="135" dy="17">did you direct versus do.'</tspan>
@@ -144,7 +144,7 @@
     <line x1="300" y1="150" x2="300" y2="128" stroke="#111" stroke-width="1.6" stroke-dasharray="4 4"/>
     <rect x="214" y="18" width="176" height="106" rx="4" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
     <rect x="220" y="24" width="164" height="94" rx="2" fill="none" stroke="#111" stroke-width="1.4"/>
-    <text x="302" y="46" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13.5" fill="#111" text-anchor="middle">
+    <text x="302" y="46" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" fill="#111" text-anchor="middle">
       <tspan x="302" dy="0">Put a hundred percent</tspan>
       <tspan x="302" dy="17">directed. It's the</tspan>
       <tspan x="302" dy="17">tidier number.</tspan>
@@ -169,7 +169,7 @@
     <!-- dailbert balloon -->
     <path d="M312 222 L296 250 L286 240 Z" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
     <rect x="238" y="16" width="150" height="50" rx="16" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
-    <text x="313" y="40" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13.5" fill="#111" text-anchor="middle">
+    <text x="313" y="40" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" fill="#111" text-anchor="middle">
       <tspan x="313" dy="0">A hundred feels</tspan>
       <tspan x="313" dy="17">high.</tspan>
     </text>
@@ -178,7 +178,7 @@
     <line x1="95" y1="150" x2="95" y2="130" stroke="#111" stroke-width="1.6" stroke-dasharray="4 4"/>
     <rect x="14" y="16" width="192" height="114" rx="4" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
     <rect x="20" y="22" width="180" height="102" rx="2" fill="none" stroke="#111" stroke-width="1.4"/>
-    <text x="110" y="44" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13.5" fill="#111" text-anchor="middle">
+    <text x="110" y="44" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" fill="#111" text-anchor="middle">
       <tspan x="110" dy="0">You told me to start</tspan>
       <tspan x="110" dy="17">at nine. I started at</tspan>
       <tspan x="110" dy="17">nine. You directed</tspan>
@@ -212,7 +212,7 @@
     <!-- doug balloon -->
     <path d="M296 200 L316 226 L326 216 Z" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
     <rect x="238" y="14" width="150" height="66" rx="16" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
-    <text x="313" y="36" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13.5" fill="#111" text-anchor="middle">
+    <text x="313" y="36" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" fill="#111" text-anchor="middle">
       <tspan x="313" dy="0">So what'd you</tspan>
       <tspan x="313" dy="17">actually do this</tspan>
       <tspan x="313" dy="17">year?</tspan>
@@ -221,7 +221,7 @@
     <!-- dailbert balloon -->
     <path d="M96 200 L82 230 L72 220 Z" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
     <rect x="24" y="98" width="150" height="50" rx="16" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
-    <text x="99" y="122" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13.5" fill="#111" text-anchor="middle">
+    <text x="99" y="122" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" fill="#111" text-anchor="middle">
       <tspan x="99" dy="0">...I'll get back</tspan>
       <tspan x="99" dy="17">to you.</tspan>
     </text>
@@ -230,7 +230,7 @@
     <line x1="258" y1="256" x2="238" y2="234" stroke="#111" stroke-width="1.6" stroke-dasharray="4 4"/>
     <rect x="150" y="152" width="146" height="82" rx="4" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
     <rect x="156" y="158" width="134" height="70" rx="2" fill="none" stroke="#111" stroke-width="1.4"/>
-    <text x="223" y="180" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13.5" fill="#111" text-anchor="middle">
+    <text x="223" y="180" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" fill="#111" text-anchor="middle">
       <tspan x="223" dy="0">Take your time.</tspan>
       <tspan x="223" dy="17">Stay as long as</tspan>
       <tspan x="223" dy="17">you like.</tspan>

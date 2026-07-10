@@ -84,8 +84,8 @@
     <use href="#fig-boss" x="252" y="64" width="118" height="175"/>
     <path d="M255,74 l-30,-2 l6,10 z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
     <rect x="112" y="16" width="200" height="64" rx="16" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
-    <text x="212" y="44" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">Status report by five.</text>
-    <text x="212" y="64" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">Same as every week.</text>
+    <text x="212" y="44" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" text-anchor="middle" fill="#111">Status report by five.</text>
+    <text x="212" y="64" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" text-anchor="middle" fill="#111">Same as every week.</text>
     <rect x="1" y="1" width="398" height="338" rx="3" fill="none" stroke="#111" stroke-width="2.5"/>
   </g>
 
@@ -98,12 +98,12 @@
     <use href="#fig-doug" x="205" y="88" width="130" height="165"/>
     <rect x="14" y="26" width="180" height="60" rx="16" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
     <path d="M96,86 l-10,26 l18,-16 z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
-    <text x="104" y="52" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">Does anyone even</text>
-    <text x="104" y="72" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">read these?</text>
+    <text x="104" y="52" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" text-anchor="middle" fill="#111">Does anyone even</text>
+    <text x="104" y="72" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" text-anchor="middle" fill="#111">read these?</text>
     <rect x="206" y="14" width="184" height="60" rx="16" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
     <path d="M272,74 l-6,26 l20,-18 z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
-    <text x="298" y="40" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">No. That's the</text>
-    <text x="298" y="60" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">whole point.</text>
+    <text x="298" y="40" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" text-anchor="middle" fill="#111">No. That's the</text>
+    <text x="298" y="60" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" text-anchor="middle" fill="#111">whole point.</text>
     <rect x="1" y="1" width="398" height="338" rx="3" fill="none" stroke="#111" stroke-width="2.5"/>
   </g>
 
@@ -124,9 +124,9 @@
     <rect x="88" y="16" width="230" height="82" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
     <rect x="93" y="21" width="220" height="72" fill="none" stroke="#111" stroke-width="1" stroke-dasharray="4 3"/>
     <line x1="203" y1="98" x2="214" y2="150" stroke="#111" stroke-width="1.5" stroke-dasharray="5 4"/>
-    <text x="203" y="42" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">I read yours twice.</text>
-    <text x="203" y="62" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">You seemed tired</text>
-    <text x="203" y="82" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">on the ninth.</text>
+    <text x="203" y="42" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" text-anchor="middle" fill="#111">I read yours twice.</text>
+    <text x="203" y="62" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" text-anchor="middle" fill="#111">You seemed tired</text>
+    <text x="203" y="82" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" text-anchor="middle" fill="#111">on the ninth.</text>
     <rect x="1" y="1" width="398" height="338" rx="3" fill="none" stroke="#111" stroke-width="2.5"/>
   </g>
 </svg>

@@ -85,7 +85,7 @@
     <!-- boss balloon -->
     <path d="M100 100 L115 190 L124 100 Z" fill="#fff" stroke="#111" stroke-width="2"/>
     <rect x="22" y="24" width="196" height="80" rx="12" fill="#fff" stroke="#111" stroke-width="2"/>
-    <text font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">
+    <text font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">
       <tspan x="120" y="48">No planning crunch</tspan>
       <tspan x="120" y="66">this year. No offsite.</tspan>
       <tspan x="120" y="84">We're just efficient now.</tspan>
@@ -94,7 +94,7 @@
     <!-- dailbert balloon -->
     <path d="M292 162 L300 194 L312 162 Z" fill="#fff" stroke="#111" stroke-width="2"/>
     <rect x="230" y="100" width="160" height="64" rx="12" fill="#fff" stroke="#111" stroke-width="2"/>
-    <text font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">
+    <text font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">
       <tspan x="310" y="126">The offsite hold</tspan>
       <tspan x="310" y="144">declined itself.</tspan>
     </text>
@@ -110,7 +110,7 @@
     <!-- doug balloon 1 -->
     <path d="M700 98 L705 178 L720 98 Z" fill="#fff" stroke="#111" stroke-width="2"/>
     <rect x="612" y="20" width="196" height="80" rx="12" fill="#fff" stroke="#111" stroke-width="2"/>
-    <text font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">
+    <text font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">
       <tspan x="710" y="44">I went to report that</tspan>
       <tspan x="710" y="62">Jira's login 404s.</tspan>
       <tspan x="710" y="80">Couldn't file it.</tspan>
@@ -119,14 +119,14 @@
     <!-- dailbert balloon -->
     <path d="M496 158 L506 190 L516 158 Z" fill="#fff" stroke="#111" stroke-width="2"/>
     <rect x="442" y="118" width="120" height="42" rx="12" fill="#fff" stroke="#111" stroke-width="2"/>
-    <text font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">
+    <text font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">
       <tspan x="502" y="144">Why not?</tspan>
     </text>
 
     <!-- doug balloon 3 -->
     <path d="M706 170 L705 182 L720 170 Z" fill="#fff" stroke="#111" stroke-width="2"/>
     <rect x="625" y="112" width="182" height="60" rx="12" fill="#fff" stroke="#111" stroke-width="2"/>
-    <text font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">
+    <text font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">
       <tspan x="716" y="136">Jira's the thing</tspan>
       <tspan x="716" y="154">you file it in.</tspan>
     </text>
@@ -150,7 +150,7 @@
     <path d="M938 100 L1050 150" stroke="#111" stroke-width="1.5" stroke-dasharray="4 3" fill="none"/>
     <rect x="838" y="22" width="200" height="80" rx="4" fill="#fff" stroke="#111" stroke-width="2"/>
     <rect x="841" y="25" width="194" height="74" rx="3" fill="none" stroke="#111" stroke-width="1"/>
-    <text font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">
+    <text font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">
       <tspan x="938" y="46">Friday digest is out.</tspan>
       <tspan x="938" y="64">It just says 'No action</tspan>
       <tspan x="938" y="82">needed this week.'</tspan>
@@ -159,7 +159,7 @@
     <!-- dailbert balloon -->
     <path d="M918 152 L907 190 L932 152 Z" fill="#fff" stroke="#111" stroke-width="2"/>
     <rect x="845" y="110" width="166" height="42" rx="12" fill="#fff" stroke="#111" stroke-width="2"/>
-    <text font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">
+    <text font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">
       <tspan x="928" y="136">Fourth week straight.</tspan>
     </text>
 
@@ -167,7 +167,7 @@
     <path d="M1110 172 L1128 150" stroke="#111" stroke-width="1.5" stroke-dasharray="4 3" fill="none"/>
     <rect x="1012" y="108" width="200" height="64" rx="4" fill="#fff" stroke="#111" stroke-width="2"/>
     <rect x="1015" y="111" width="194" height="58" rx="3" fill="none" stroke="#111" stroke-width="1"/>
-    <text font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">
+    <text font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">
       <tspan x="1112" y="132">Everyone finds that</tspan>
       <tspan x="1112" y="150">reassuring. So do I.</tspan>
     </text>

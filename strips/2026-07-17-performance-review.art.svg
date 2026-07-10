@@ -60,14 +60,14 @@
     <!-- Boss balloon -->
     <path d="M92 78 L100 138 L108 80 Z" fill="#fff" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
     <rect x="18" y="18" width="170" height="58" rx="14" fill="#fff" stroke="#111" stroke-width="2.5"/>
-    <text x="103" y="44" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">Dailbert, your team's</text>
-    <text x="103" y="62" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">velocity is up 300%.</text>
+    <text x="103" y="44" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">Dailbert, your team's</text>
+    <text x="103" y="62" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">velocity is up 300%.</text>
 
     <!-- Dailbert balloon -->
     <path d="M292 78 L300 125 L308 80 Z" fill="#fff" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
     <rect x="213" y="18" width="172" height="58" rx="14" fill="#fff" stroke="#111" stroke-width="2.5"/>
-    <text x="299" y="44" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">That's the clankers.</text>
-    <text x="299" y="62" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">They do the work.</text>
+    <text x="299" y="44" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">That's the clankers.</text>
+    <text x="299" y="62" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">They do the work.</text>
   </g>
 
   <!-- ================= PANEL 2 ================= -->
@@ -91,17 +91,17 @@
     <!-- Boss balloon -->
     <path d="M87 100 L95 146 L103 102 Z" fill="#fff" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
     <rect x="12" y="12" width="182" height="92" rx="14" fill="#fff" stroke="#111" stroke-width="2.5"/>
-    <text x="103" y="34" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">So I'm promoting you.</text>
-    <text x="103" y="52" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">Leadership is taking</text>
-    <text x="103" y="70" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">credit for what the</text>
-    <text x="103" y="88" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">machines do.</text>
+    <text x="103" y="34" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">So I'm promoting you.</text>
+    <text x="103" y="52" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">Leadership is taking</text>
+    <text x="103" y="70" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">credit for what the</text>
+    <text x="103" y="88" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">machines do.</text>
 
     <!-- Clanker screen balloon + dashed connector to mug -->
     <path d="M300 80 L196 262" fill="none" stroke="#111" stroke-width="1.5" stroke-dasharray="5 5"/>
     <rect x="222" y="16" width="166" height="64" rx="4" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <rect x="227" y="21" width="156" height="54" rx="3" fill="none" stroke="#111" stroke-width="1.2"/>
-    <text x="305" y="46" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">Finally, a role he</text>
-    <text x="305" y="64" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">is qualified for.</text>
+    <text x="305" y="46" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">Finally, a role he</text>
+    <text x="305" y="64" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">is qualified for.</text>
   </g>
 
   <!-- ================= PANEL 3 ================= -->
@@ -125,14 +125,14 @@
     <!-- Dailbert balloon -->
     <path d="M87 68 L95 132 L103 70 Z" fill="#fff" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
     <rect x="14" y="14" width="162" height="58" rx="14" fill="#fff" stroke="#111" stroke-width="2.5"/>
-    <text x="95" y="40" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">Did the coffee</text>
-    <text x="95" y="58" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">just talk?</text>
+    <text x="95" y="40" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">Did the coffee</text>
+    <text x="95" y="58" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">just talk?</text>
 
     <!-- Boss balloon -->
     <path d="M312 92 L320 146 L328 94 Z" fill="#fff" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
     <rect x="212" y="12" width="178" height="84" rx="14" fill="#fff" stroke="#111" stroke-width="2.5"/>
-    <text x="301" y="36" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">Coffee can't talk,</text>
-    <text x="301" y="56" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">Dailbert. Have you</text>
-    <text x="301" y="76" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">been sleeping?</text>
+    <text x="301" y="36" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">Coffee can't talk,</text>
+    <text x="301" y="56" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">Dailbert. Have you</text>
+    <text x="301" y="76" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">been sleeping?</text>
   </g>
 </svg>

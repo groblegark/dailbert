@@ -96,8 +96,8 @@
       <rect x="20" y="104" width="80" height="28" fill="#fff" stroke="#111" stroke-width="2"/>
       <line x1="24" y1="102" x2="34" y2="108" stroke="#111" stroke-width="1.5"/>
       <line x1="96" y1="102" x2="86" y2="108" stroke="#111" stroke-width="1.5"/>
-      <text x="60" y="114" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="10" fill="#111">OUT OF</text>
-      <text x="60" y="126" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="10" fill="#111">ORDER</text>
+      <text x="60" y="114" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="10" fill="#111">OUT OF</text>
+      <text x="60" y="126" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="10" fill="#111">ORDER</text>
     </g>
 
     <use href="#boss" x="56" y="122" width="115" height="197"/>
@@ -110,15 +110,15 @@
     <!-- Boss balloon -->
     <path d="M92,116 L112,86 L124,90 Z" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <rect x="52" y="22" width="118" height="64" rx="12" fill="#fff" stroke="#111" stroke-width="2.5"/>
-    <text x="111" y="42" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Coffee's a perk.</text>
-    <text x="111" y="60" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Perks are</text>
-    <text x="111" y="78" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">under review.</text>
+    <text x="111" y="42" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Coffee's a perk.</text>
+    <text x="111" y="60" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Perks are</text>
+    <text x="111" y="78" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">under review.</text>
 
     <!-- Doug balloon -->
     <path d="M338,120 L326,84 L344,86 Z" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <rect x="276" y="26" width="112" height="58" rx="12" fill="#fff" stroke="#111" stroke-width="2.5"/>
-    <text x="332" y="48" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">But I need it</text>
-    <text x="332" y="66" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">to function.</text>
+    <text x="332" y="48" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">But I need it</text>
+    <text x="332" y="66" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">to function.</text>
   </g>
 
   <!-- ===================== PANEL 2 ===================== -->
@@ -143,8 +143,8 @@
     <line x1="640" y1="150" x2="632" y2="86" stroke="#111" stroke-width="1.5" stroke-dasharray="4 4"/>
     <rect x="558" y="26" width="196" height="60" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <rect x="562" y="30" width="188" height="52" fill="none" stroke="#111" stroke-width="1"/>
-    <text x="656" y="46" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">You said that Tuesday too.</text>
-    <text x="656" y="66" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">You functioned.</text>
+    <text x="656" y="46" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">You said that Tuesday too.</text>
+    <text x="656" y="66" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">You functioned.</text>
   </g>
 
   <!-- ===================== PANEL 3 ===================== -->
@@ -172,10 +172,10 @@
     <line x1="1037" y1="140" x2="1046" y2="112" stroke="#111" stroke-width="1.5" stroke-dasharray="4 4"/>
     <rect x="968" y="14" width="214" height="98" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <rect x="972" y="18" width="206" height="90" fill="none" stroke="#111" stroke-width="1"/>
-    <text x="1075" y="36" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">I keep a list of the</text>
-    <text x="1075" y="54" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">things you can't</text>
-    <text x="1075" y="72" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">live without.</text>
-    <text x="1075" y="96" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">It keeps getting shorter.</text>
+    <text x="1075" y="36" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">I keep a list of the</text>
+    <text x="1075" y="54" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">things you can't</text>
+    <text x="1075" y="72" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">live without.</text>
+    <text x="1075" y="96" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">It keeps getting shorter.</text>
   </g>
 
   <!-- panel borders on top -->

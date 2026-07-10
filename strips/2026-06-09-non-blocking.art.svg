@@ -82,14 +82,14 @@
     <use href="#dailbert" x="118" y="142" width="140" height="180"/>
     <rect x="26" y="14" width="176" height="46" rx="14" fill="#fdfcf8" stroke="#111" stroke-width="2"/>
     <path d="M158 58 L186 108 L178 58" fill="#fdfcf8" stroke="#111" stroke-width="2"/>
-    <text x="114" y="33" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111" text-anchor="middle">You reviewed my</text>
-    <text x="114" y="51" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111" text-anchor="middle">merge request?</text>
+    <text x="114" y="33" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111" text-anchor="middle">You reviewed my</text>
+    <text x="114" y="51" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111" text-anchor="middle">merge request?</text>
     <rect x="214" y="66" width="176" height="62" rx="2" fill="#fdfcf8" stroke="#111" stroke-width="2"/>
     <rect x="218" y="70" width="168" height="54" fill="none" stroke="#111" stroke-width="1"/>
     <line x1="312" y1="128" x2="316" y2="146" stroke="#111" stroke-width="1.5" stroke-dasharray="4 3"/>
-    <text x="302" y="84" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111" text-anchor="middle">Approved. The code</text>
-    <text x="302" y="100" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111" text-anchor="middle">was fine. I left</text>
-    <text x="302" y="116" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111" text-anchor="middle">fourteen comments.</text>
+    <text x="302" y="84" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111" text-anchor="middle">Approved. The code</text>
+    <text x="302" y="100" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111" text-anchor="middle">was fine. I left</text>
+    <text x="302" y="116" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111" text-anchor="middle">fourteen comments.</text>
   </g>
 
   <!-- PANEL 2 -->
@@ -105,13 +105,13 @@
     <use href="#dailbert" x="118" y="142" width="140" height="180"/>
     <rect x="24" y="14" width="196" height="46" rx="14" fill="#fdfcf8" stroke="#111" stroke-width="2"/>
     <path d="M160 58 L186 108 L180 58" fill="#fdfcf8" stroke="#111" stroke-width="2"/>
-    <text x="122" y="33" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111" text-anchor="middle">Fourteen comments on</text>
-    <text x="122" y="51" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111" text-anchor="middle">code that was fine?</text>
+    <text x="122" y="33" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111" text-anchor="middle">Fourteen comments on</text>
+    <text x="122" y="51" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111" text-anchor="middle">code that was fine?</text>
     <rect x="236" y="72" width="150" height="46" rx="2" fill="#fdfcf8" stroke="#111" stroke-width="2"/>
     <rect x="240" y="76" width="142" height="38" fill="none" stroke="#111" stroke-width="1"/>
     <line x1="312" y1="118" x2="316" y2="146" stroke="#111" stroke-width="1.5" stroke-dasharray="4 3"/>
-    <text x="311" y="90" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111" text-anchor="middle">They are not</text>
-    <text x="311" y="108" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111" text-anchor="middle">on the code.</text>
+    <text x="311" y="90" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111" text-anchor="middle">They are not</text>
+    <text x="311" y="108" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111" text-anchor="middle">on the code.</text>
   </g>
 
   <!-- PANEL 3 -->
@@ -130,12 +130,12 @@
     <rect x="208" y="12" width="180" height="62" rx="2" fill="#fdfcf8" stroke="#111" stroke-width="2"/>
     <rect x="212" y="16" width="172" height="54" fill="none" stroke="#111" stroke-width="1"/>
     <line x1="330" y1="74" x2="322" y2="146" stroke="#111" stroke-width="1.5" stroke-dasharray="4 3"/>
-    <text x="298" y="30" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111" text-anchor="middle">None are blocking.</text>
-    <text x="298" y="46" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111" text-anchor="middle">Resolve them when</text>
-    <text x="298" y="62" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111" text-anchor="middle">you feel ready.</text>
+    <text x="298" y="30" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111" text-anchor="middle">None are blocking.</text>
+    <text x="298" y="46" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111" text-anchor="middle">Resolve them when</text>
+    <text x="298" y="62" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111" text-anchor="middle">you feel ready.</text>
     <rect x="20" y="92" width="150" height="46" rx="14" fill="#fdfcf8" stroke="#111" stroke-width="2"/>
     <path d="M70 136 L80 150 L84 136" fill="#fdfcf8" stroke="#111" stroke-width="2"/>
-    <text x="95" y="110" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111" text-anchor="middle">Mine just said</text>
-    <text x="95" y="128" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111" text-anchor="middle">'nice mug.'</text>
+    <text x="95" y="110" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111" text-anchor="middle">Mine just said</text>
+    <text x="95" y="128" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111" text-anchor="middle">'nice mug.'</text>
   </g>
 </svg>

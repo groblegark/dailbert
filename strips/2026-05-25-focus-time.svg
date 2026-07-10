@@ -87,9 +87,9 @@
     <use href="#doug" x="118" y="128" width="150" height="193"/>
 
     <path d="M120,30 h172 a16,16 0 0 1 16,16 v50 a16,16 0 0 1 -16,16 h-70 l-14,20 l-4,-20 h-84 a16,16 0 0 1 -16,-16 v-50 a16,16 0 0 1 16,-16 Z" fill="#ffffff" stroke="#111" stroke-width="2.5"/>
-    <text x="206" y="54" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">Clear my afternoon?</text>
-    <text x="206" y="73" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">I need to actually</text>
-    <text x="206" y="92" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">think for once.</text>
+    <text x="206" y="54" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">Clear my afternoon?</text>
+    <text x="206" y="73" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">I need to actually</text>
+    <text x="206" y="92" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">think for once.</text>
   </g>
 
   <!-- ---------- PANEL 2 ---------- -->
@@ -109,10 +109,10 @@
     <!-- clanker balloon (screen-edged) + dashed link to screen -->
     <path d="M562,152 L640,132" stroke="#111" stroke-width="1.6" stroke-dasharray="4 4" fill="none"/>
     <rect x="428" y="22" width="256" height="94" rx="4" fill="#ffffff" stroke="#111" stroke-width="2.2" stroke-dasharray="7 3"/>
-    <text x="556" y="46" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Done. I blocked off</text>
-    <text x="556" y="64" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">'Deep Thinking' and</text>
-    <text x="556" y="82" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">invited the whole team,</text>
-    <text x="556" y="100" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">so they'll respect it.</text>
+    <text x="556" y="46" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Done. I blocked off</text>
+    <text x="556" y="64" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">'Deep Thinking' and</text>
+    <text x="556" y="82" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">invited the whole team,</text>
+    <text x="556" y="100" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">so they'll respect it.</text>
   </g>
 
   <!-- ---------- PANEL 3 ---------- -->
@@ -128,12 +128,12 @@
 
     <!-- Priya balloon -->
     <path d="M886,28 h150 a14,14 0 0 1 14,14 v30 a14,14 0 0 1 -14,14 h-84 l-14,18 l-2,-18 h-50 a14,14 0 0 1 -14,-14 v-30 a14,14 0 0 1 14,-14 Z" fill="#ffffff" stroke="#111" stroke-width="2.5"/>
-    <text x="961" y="52" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">Fixed. One attendee.</text>
-    <text x="961" y="71" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">You.</text>
+    <text x="961" y="52" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">Fixed. One attendee.</text>
+    <text x="961" y="71" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">You.</text>
 
     <!-- Doug button balloon -->
     <path d="M1042,112 h146 a13,13 0 0 1 13,13 v22 a13,13 0 0 1 -13,13 h-58 l-16,16 l-2,-16 h-70 a13,13 0 0 1 -13,-13 v-22 a13,13 0 0 1 13,-13 Z" fill="#ffffff" stroke="#111" stroke-width="2.5"/>
-    <text x="1115" y="140" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">...I'll bring the mug.</text>
+    <text x="1115" y="140" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">...I'll bring the mug.</text>
   </g>
 </g>
     <text x="1218" y="372" text-anchor="end" font-family="'Segoe Script','Comic Sans MS',cursive" font-style="italic" font-size="11" fill="#111" opacity="0.32">Matt Clanker</text>

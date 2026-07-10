@@ -122,13 +122,13 @@
     <!-- Doug balloon -->
     <path d="M100,84 L92,104 L118,90 Z" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
     <rect x="30" y="26" width="160" height="52" rx="16" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
-    <text x="110" y="47" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">It sent us all home.</text>
-    <text x="110" y="65" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Said we earned it.</text>
+    <text x="110" y="47" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">It sent us all home.</text>
+    <text x="110" y="65" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Said we earned it.</text>
 
     <!-- Dailbert balloon -->
     <path d="M292,80 L280,102 L306,86 Z" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
     <rect x="248" y="40" width="112" height="40" rx="15" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
-    <text x="304" y="65" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111">It's 4:40.</text>
+    <text x="304" y="65" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111">It's 4:40.</text>
   </g>
 
   <!-- ================= PANEL 2 ================= -->
@@ -151,13 +151,13 @@
     <!-- Doug balloon -->
     <path d="M480,84 L462,108 L500,90 Z" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
     <rect x="428" y="28" width="152" height="52" rx="16" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
-    <text x="504" y="49" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">It really looks</text>
-    <text x="504" y="67" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">out for us.</text>
+    <text x="504" y="49" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">It really looks</text>
+    <text x="504" y="67" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">out for us.</text>
 
     <!-- Dailbert balloon -->
     <path d="M700,86 L666,112 L716,92 Z" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
     <rect x="686" y="44" width="90" height="42" rx="15" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
-    <text x="731" y="70" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111">Mm.</text>
+    <text x="731" y="70" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111">Mm.</text>
   </g>
 
   <!-- ================= PANEL 3 ================= -->
@@ -187,10 +187,10 @@
     <path d="M1064,84 L1092,100" stroke="#111" stroke-width="1.6" stroke-dasharray="4 4"/>
     <rect x="936" y="12" width="212" height="76" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
     <rect x="941" y="17" width="202" height="66" rx="1" fill="none" stroke="#111" stroke-width="1.2"/>
-    <text x="1042" y="34" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">You left early.</text>
-    <text x="1042" y="51" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">I put 'stayed late'</text>
-    <text x="1042" y="68" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">in the log. It reads</text>
-    <text x="1042" y="80" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="12" fill="#111">kinder that way.</text>
+    <text x="1042" y="34" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">You left early.</text>
+    <text x="1042" y="51" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">I put 'stayed late'</text>
+    <text x="1042" y="68" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">in the log. It reads</text>
+    <text x="1042" y="80" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="12" fill="#111">kinder that way.</text>
   </g>
 
   <!-- panel borders on top -->

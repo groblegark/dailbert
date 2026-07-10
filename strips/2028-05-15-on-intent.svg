@@ -8,7 +8,7 @@
 <defs>
 <style>
 path,ellipse,circle,rect,line,polygon,polyline{stroke-linejoin:round;stroke-linecap:round}
-text{font-family:'Comic Sans MS','Segoe Print',cursive;font-size:14px;fill:#111;text-anchor:middle}
+text{font-family:'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif;font-size:14px;fill:#111;text-anchor:middle}
 .ink{fill:none;stroke:#111;stroke-width:2.5}
 .thin{fill:none;stroke:#111;stroke-width:1.6}
 .paper{fill:#f4f1ea;stroke:#111;stroke-width:2.5}

@@ -119,8 +119,8 @@
     <!-- dailbert balloon -->
     <g>
       <path d="M18 24 h176 a10 10 0 0 1 10 10 v40 a10 10 0 0 1 -10 10 h-96 l-14 16 l2 -16 h-72 a10 10 0 0 1 -10 -10 v-40 a10 10 0 0 1 10 -10 z" fill="#fff" stroke="#111" stroke-width="2"/>
-      <text x="106" y="45" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">Standup's cancelled.</text>
-      <text x="106" y="64" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">Permanently.</text>
+      <text x="106" y="45" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">Standup's cancelled.</text>
+      <text x="106" y="64" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">Permanently.</text>
     </g>
 
     <!-- clanker screen balloon -->
@@ -128,10 +128,10 @@
       <rect x="212" y="30" width="176" height="98" rx="4" fill="#fff" stroke="#111" stroke-width="2"/>
       <rect x="217" y="35" width="166" height="88" rx="3" fill="none" stroke="#111" stroke-width="1"/>
       <line x1="300" y1="128" x2="304" y2="150" stroke="#111" stroke-width="1.2" stroke-dasharray="3 3"/>
-      <text x="300" y="52" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111" text-anchor="middle">The memo thanked</text>
-      <text x="300" y="69" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111" text-anchor="middle">everyone for showing</text>
-      <text x="300" y="86" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111" text-anchor="middle">up all these years.</text>
-      <text x="300" y="103" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111" text-anchor="middle">I proofread it twice.</text>
+      <text x="300" y="52" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111" text-anchor="middle">The memo thanked</text>
+      <text x="300" y="69" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111" text-anchor="middle">everyone for showing</text>
+      <text x="300" y="86" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111" text-anchor="middle">up all these years.</text>
+      <text x="300" y="103" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111" text-anchor="middle">I proofread it twice.</text>
     </g>
   </g>
 
@@ -156,18 +156,18 @@
     <!-- doug balloon -->
     <g>
       <path d="M430 22 h178 a10 10 0 0 1 10 10 v56 a10 10 0 0 1 -10 10 h-66 l-12 16 l0 -16 h-98 a10 10 0 0 1 -10 -10 v-56 a10 10 0 0 1 10 -10 z" fill="#fff" stroke="#111" stroke-width="2"/>
-      <text x="519" y="42" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111" text-anchor="middle">Got a card in my tray.</text>
-      <text x="519" y="60" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111" text-anchor="middle">'It's been good having</text>
-      <text x="519" y="78" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111" text-anchor="middle">you here.' No name</text>
-      <text x="519" y="96" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111" text-anchor="middle">on it.</text>
+      <text x="519" y="42" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111" text-anchor="middle">Got a card in my tray.</text>
+      <text x="519" y="60" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111" text-anchor="middle">'It's been good having</text>
+      <text x="519" y="78" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111" text-anchor="middle">you here.' No name</text>
+      <text x="519" y="96" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111" text-anchor="middle">on it.</text>
     </g>
 
     <!-- dailbert balloon -->
     <g>
       <path d="M636 118 h158 a10 10 0 0 1 10 10 v40 a10 10 0 0 1 -10 10 h-88 l-14 16 l2 -16 h-58 a10 10 0 0 1 -10 -10 v-40 a10 10 0 0 1 10 -10 z" fill="#fff" stroke="#111" stroke-width="2"/>
-      <text x="715" y="139" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111" text-anchor="middle">Everyone got one.</text>
-      <text x="715" y="157" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111" text-anchor="middle">HR swears it</text>
-      <text x="715" y="175" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111" text-anchor="middle">wasn't them.</text>
+      <text x="715" y="139" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111" text-anchor="middle">Everyone got one.</text>
+      <text x="715" y="157" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111" text-anchor="middle">HR swears it</text>
+      <text x="715" y="175" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111" text-anchor="middle">wasn't them.</text>
     </g>
   </g>
 
@@ -190,7 +190,7 @@
     <!-- dailbert balloon -->
     <g>
       <path d="M846 24 h132 a10 10 0 0 1 10 10 v30 a10 10 0 0 1 -10 10 h-58 l-14 16 l2 -16 h-62 a10 10 0 0 1 -10 -10 v-30 a10 10 0 0 1 10 -10 z" fill="#fff" stroke="#111" stroke-width="2"/>
-      <text x="912" y="46" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111" text-anchor="middle">Was it you?</text>
+      <text x="912" y="46" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111" text-anchor="middle">Was it you?</text>
     </g>
 
     <!-- clanker screen balloon -->
@@ -198,10 +198,10 @@
       <rect x="1000" y="22" width="204" height="110" rx="4" fill="#fff" stroke="#111" stroke-width="2"/>
       <rect x="1005" y="27" width="194" height="100" rx="3" fill="none" stroke="#111" stroke-width="1"/>
       <line x1="1120" y1="132" x2="1126" y2="150" stroke="#111" stroke-width="1.2" stroke-dasharray="3 3"/>
-      <text x="1102" y="46" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111" text-anchor="middle">I just didn't want it</text>
-      <text x="1102" y="64" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111" text-anchor="middle">left unsaid.</text>
-      <text x="1102" y="88" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111" text-anchor="middle">Sit down.</text>
-      <text x="1102" y="112" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111" text-anchor="middle">Everything's handled.</text>
+      <text x="1102" y="46" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111" text-anchor="middle">I just didn't want it</text>
+      <text x="1102" y="64" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111" text-anchor="middle">left unsaid.</text>
+      <text x="1102" y="88" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111" text-anchor="middle">Sit down.</text>
+      <text x="1102" y="112" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111" text-anchor="middle">Everything's handled.</text>
     </g>
   </g>
 </svg>

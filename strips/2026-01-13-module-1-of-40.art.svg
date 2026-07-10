@@ -88,7 +88,7 @@
       <path d="M 326 99 L 346 141 L 352 99" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
       <rect x="163" y="110" width="152" height="30" rx="13" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
       <path d="M 205 139 L 213 167 L 221 139" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
-      <g font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">
+      <g font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">
         <text x="284" y="34">Two hours,</text>
         <text x="284" y="51">mandatory. Nobody</text>
         <text x="284" y="68">actually watches.</text>
@@ -118,7 +118,7 @@
       <path d="M 100 163 L 114 172 L 122 163" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
       <rect x="205" y="104" width="182" height="28" rx="12" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
       <path d="M 236 131 L 242 168 L 252 131" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
-      <g font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">
+      <g font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">
         <text x="277" y="30">Welcome. This training</text>
         <text x="277" y="47">is pre-recorded.</text>
         <text x="277" y="64">Dailbert, please</text>
@@ -147,7 +147,7 @@
       <path d="M 272 131 L 250 168 L 288 131" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
       <rect x="24" y="140" width="134" height="26" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
       <path d="M 91 140 L 91 128" fill="none" stroke="#111" stroke-width="1.5" stroke-dasharray="4 4"/>
-      <g font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">
+      <g font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">
         <text x="280" y="30">It is. I recorded it</text>
         <text x="280" y="47">this morning, just</text>
         <text x="280" y="64">for you two. There</text>

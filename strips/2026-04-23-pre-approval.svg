@@ -112,7 +112,7 @@
 
     <!-- boss balloon -->
     <path d="M162 16 h196 a12 12 0 0 1 12 12 v46 a12 12 0 0 1 -12 12 h-58 l-8 26 l-6 -26 h-124 a12 12 0 0 1 -12 -12 v-46 a12 12 0 0 1 12 -12 z" fill="#fff" stroke="#111" stroke-width="2.4" stroke-linejoin="round"/>
-    <text x="262" y="40" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">
+    <text x="262" y="40" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">
       <tspan x="262" dy="0">From today, every</tspan>
       <tspan x="262" dy="18">meeting needs a</tspan>
       <tspan x="262" dy="18">pre-approval form.</tspan>
@@ -148,7 +148,7 @@
       <path d="M96 84 L91 122" stroke="#111" stroke-width="1.8" stroke-dasharray="4 4"/>
       <rect x="16" y="10" width="216" height="76" fill="#fff" stroke="#111" stroke-width="2.4"/>
       <rect x="20" y="14" width="208" height="68" fill="none" stroke="#111" stroke-width="1"/>
-      <text x="124" y="34" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">
+      <text x="124" y="34" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">
         <tspan x="124" dy="0">I approved every form.</tspan>
         <tspan x="124" dy="18">Then I approved my</tspan>
         <tspan x="124" dy="18">approval.</tspan>
@@ -156,7 +156,7 @@
 
       <!-- doug balloon -->
       <path d="M270 22 h96 a10 10 0 0 1 10 10 v22 a10 10 0 0 1 -10 10 h-38 l-6 16 l-4 -16 h-48 a10 10 0 0 1 -10 -10 v-22 a10 10 0 0 1 10 -10 z" fill="#fff" stroke="#111" stroke-width="2.4" stroke-linejoin="round"/>
-      <text x="322" y="49" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Thorough.</text>
+      <text x="322" y="49" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Thorough.</text>
     </g>
   </g>
 
@@ -176,7 +176,7 @@
 
       <!-- priya balloon -->
       <path d="M42 14 h248 a12 12 0 0 1 12 12 v52 a12 12 0 0 1 -12 12 h-108 l-8 24 l-6 -24 h-126 a12 12 0 0 1 -12 -12 v-52 a12 12 0 0 1 12 -12 z" fill="#fff" stroke="#111" stroke-width="2.4" stroke-linejoin="round"/>
-      <text x="166" y="40" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">
+      <text x="166" y="40" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">
         <tspan x="166" dy="0">Meeting's off.</tspan>
         <tspan x="166" dy="19">I shipped it while</tspan>
         <tspan x="166" dy="19">you filled the form.</tspan>

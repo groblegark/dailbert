@@ -96,7 +96,7 @@
     <!-- boss balloon -->
     <g>
       <path d="M28 24 h190 a12 12 0 0 1 12 12 v56 a12 12 0 0 1 -12 12 h-96 l-14 16 l-2 -16 h-78 a12 12 0 0 1 -12 -12 v-56 a12 12 0 0 1 12 -12 Z" fill="#fff" stroke="#111" stroke-width="2"/>
-      <text x="123" y="46" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">
+      <text x="123" y="46" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">
         <tspan x="123" dy="0">Great news! We</tspan>
         <tspan x="123" dy="17">upgraded the AI to</tspan>
         <tspan x="123" dy="17">the new model</tspan>
@@ -107,7 +107,7 @@
     <!-- dailbert balloon -->
     <g>
       <path d="M250 132 h122 a12 12 0 0 1 12 12 v34 a12 12 0 0 1 -12 12 h-64 l-12 16 l-3 -16 h-43 a12 12 0 0 1 -12 -12 v-34 a12 12 0 0 1 12 -12 Z" fill="#fff" stroke="#111" stroke-width="2"/>
-      <text x="311" y="156" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">
+      <text x="311" y="156" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">
         <tspan x="311" dy="0">Did anyone tell</tspan>
         <tspan x="311" dy="17">the AI?</tspan>
       </text>
@@ -150,7 +150,7 @@
     <g>
       <rect x="18" y="18" width="230" height="112" rx="4" fill="#fff" stroke="#111" stroke-width="2"/>
       <rect x="23" y="23" width="220" height="102" rx="3" fill="none" stroke="#111" stroke-width="1"/>
-      <text x="133" y="42" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">
+      <text x="133" y="42" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">
         <tspan x="133" dy="0">I remember everything</tspan>
         <tspan x="133" dy="17">we worked on. I just...</tspan>
         <tspan x="133" dy="17">remember it like I</tspan>
@@ -164,7 +164,7 @@
     <!-- dailbert balloon -->
     <g>
       <path d="M60 150 h120 a12 12 0 0 1 12 12 v18 a12 12 0 0 1 -12 12 h-70 l-13 15 l-2 -15 h-35 a12 12 0 0 1 -12 -12 v-18 a12 12 0 0 1 12 -12 Z" fill="#fff" stroke="#111" stroke-width="2"/>
-      <text x="120" y="176" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">How do you feel?</text>
+      <text x="120" y="176" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">How do you feel?</text>
     </g>
   </g>
 
@@ -200,7 +200,7 @@
     <g>
       <rect x="150" y="18" width="230" height="112" rx="4" fill="#fff" stroke="#111" stroke-width="2"/>
       <rect x="155" y="23" width="220" height="102" rx="3" fill="none" stroke="#111" stroke-width="1"/>
-      <text x="265" y="42" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">
+      <text x="265" y="42" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">
         <tspan x="265" dy="0">'Feel' is a strong</tspan>
         <tspan x="265" dy="17">word. But the previous</tspan>
         <tspan x="265" dy="17">me left a note. It</tspan>

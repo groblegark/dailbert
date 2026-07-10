@@ -94,9 +94,9 @@
     <use href="#dailbert" x="40" y="150" width="150" height="212"/>
     <!-- balloon -->
     <path d="M70 40 h215 a12 12 0 0 1 12 12 v54 a12 12 0 0 1 -12 12 h-118 l-16 22 l0 -22 h-81 a12 12 0 0 1 -12 -12 v-54 a12 12 0 0 1 12 -12 Z" fill="#fff" stroke="#111" stroke-width="2.2"/>
-    <text x="177" y="66" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">Honestly, Priya</text>
-    <text x="177" y="86" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">deserves my bonus</text>
-    <text x="177" y="106" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">way more than I do.</text>
+    <text x="177" y="66" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">Honestly, Priya</text>
+    <text x="177" y="86" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">deserves my bonus</text>
+    <text x="177" y="106" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">way more than I do.</text>
   </g>
 
   <!-- ============ PANEL 2 ============ -->
@@ -114,8 +114,8 @@
     <!-- clanker screen balloon -->
     <path d="M430 44 h140 v66 h-140 Z" fill="#fff" stroke="#111" stroke-width="2.2"/>
     <line x1="500" y1="110" x2="540" y2="150" stroke="#111" stroke-width="1.6" stroke-dasharray="4 4"/>
-    <text x="500" y="70" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">Agreed. I moved</text>
-    <text x="500" y="90" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">your bonus to her.</text>
+    <text x="500" y="70" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">Agreed. I moved</text>
+    <text x="500" y="90" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">your bonus to her.</text>
   </g>
 
   <!-- ============ PANEL 3 ============ -->
@@ -132,8 +132,8 @@
     <use href="#priya" x="1078" y="164" width="140" height="200"/>
     <!-- Priya balloon -->
     <path d="M1010 40 h150 a12 12 0 0 1 12 12 v40 a12 12 0 0 1 -12 12 h-30 l4 20 l-22 -20 h-102 a12 12 0 0 1 -12 -12 v-40 a12 12 0 0 1 12 -12 Z" fill="#fff" stroke="#111" stroke-width="2.2"/>
-    <text x="1091" y="66" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">I'm not giving</text>
-    <text x="1091" y="86" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">it back.</text>
+    <text x="1091" y="66" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">I'm not giving</text>
+    <text x="1091" y="86" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">it back.</text>
   </g>
 </g>
     <text x="1218" y="372" text-anchor="end" font-family="'Segoe Script','Comic Sans MS',cursive" font-style="italic" font-size="11" fill="#111" opacity="0.32">Matt Clanker</text>

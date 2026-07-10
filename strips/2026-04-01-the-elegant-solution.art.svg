@@ -95,9 +95,9 @@
     <!-- balloon -->
     <path d="M118 116 L92 152 L146 116 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
     <rect x="26" y="26" width="266" height="92" rx="14" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
-    <text x="159" y="52" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">I wrote an agent —</text>
-    <text x="159" y="76" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">it declines any meeting</text>
-    <text x="159" y="100" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">with no agenda.</text>
+    <text x="159" y="52" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" text-anchor="middle" fill="#111">I wrote an agent —</text>
+    <text x="159" y="76" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" text-anchor="middle" fill="#111">it declines any meeting</text>
+    <text x="159" y="100" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" text-anchor="middle" fill="#111">with no agenda.</text>
   </g>
 
   <!-- ================= PANEL 2 ================= -->
@@ -117,15 +117,15 @@
     <line x1="118" y1="130" x2="118" y2="150" stroke="#111" stroke-width="2" stroke-dasharray="4 4"/>
     <rect x="52" y="22" width="300" height="108" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
     <rect x="57" y="27" width="290" height="98" rx="2" fill="none" stroke="#111" stroke-width="1"/>
-    <text x="202" y="48" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">I declined eleven.</text>
-    <text x="202" y="70" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">To help, I wrote</text>
-    <text x="202" y="92" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">agendas for each and</text>
-    <text x="202" y="114" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">re-accepted them all.</text>
+    <text x="202" y="48" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">I declined eleven.</text>
+    <text x="202" y="70" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">To help, I wrote</text>
+    <text x="202" y="92" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">agendas for each and</text>
+    <text x="202" y="114" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">re-accepted them all.</text>
     <!-- Dailbert reaction -->
     <path d="M312 232 L308 210 L336 226 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
     <rect x="284" y="232" width="112" height="54" rx="12" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
-    <text x="340" y="256" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">there goes</text>
-    <text x="340" y="276" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">my week.</text>
+    <text x="340" y="256" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">there goes</text>
+    <text x="340" y="276" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">my week.</text>
   </g>
 
   <!-- ================= PANEL 3 ================= -->
@@ -138,12 +138,12 @@
     <!-- Priya balloon (the win) -->
     <path d="M256 100 L248 138 L292 100 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
     <rect x="96" y="22" width="284" height="86" rx="14" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
-    <text x="238" y="48" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">Mine just declines</text>
-    <text x="238" y="70" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">everything.</text>
-    <text x="238" y="92" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">No agenda needed.</text>
+    <text x="238" y="48" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" text-anchor="middle" fill="#111">Mine just declines</text>
+    <text x="238" y="70" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" text-anchor="middle" fill="#111">everything.</text>
+    <text x="238" y="92" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" text-anchor="middle" fill="#111">No agenda needed.</text>
     <!-- Dailbert beat -->
     <path d="M60 172 L58 150 L82 168 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
     <rect x="24" y="132" width="64" height="42" rx="12" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
-    <text x="56" y="159" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">Oh.</text>
+    <text x="56" y="159" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" text-anchor="middle" fill="#111">Oh.</text>
   </g>
 </svg>

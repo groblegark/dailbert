@@ -81,8 +81,8 @@
     <line x1="374" y1="120" x2="374" y2="292" stroke="#d7d3c8" stroke-width="2"/>
     <rect x="63" y="148" width="12" height="152" fill="#c9c5ba" stroke="#111" stroke-width="2"/>
     <rect x="32" y="92" width="74" height="56" rx="5" fill="#33312c" stroke="#111" stroke-width="2.5"/>
-    <text x="69" y="116" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="12" fill="#cfcabf" text-anchor="middle">NEXT BUS</text>
-    <text x="69" y="138" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#f7f4ec" text-anchor="middle">4 min</text>
+    <text x="69" y="116" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="12" fill="#cfcabf" text-anchor="middle">NEXT BUS</text>
+    <text x="69" y="138" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#f7f4ec" text-anchor="middle">4 min</text>
     <line x1="8" y1="300" x2="392" y2="300" stroke="#111" stroke-width="2.5"/>
     <line x1="20" y1="308" x2="70" y2="308" stroke="#bdb9ae" stroke-width="2"/>
     <line x1="150" y1="312" x2="230" y2="312" stroke="#bdb9ae" stroke-width="2"/>
@@ -93,13 +93,13 @@
     <ellipse cx="116" cy="50" rx="74" ry="27" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
     <path d="M136 72 L150 100 L156 70 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
     <path d="M136 72 L156 70" stroke="#f4f1ea" stroke-width="3"/>
-    <text x="116" y="46" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">They cut three stops</text>
-    <text x="116" y="64" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">off the route.</text>
+    <text x="116" y="46" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">They cut three stops</text>
+    <text x="116" y="64" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">off the route.</text>
     <ellipse cx="308" cy="56" rx="76" ry="28" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
     <path d="M290 80 L280 108 L306 82 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
     <path d="M290 80 L306 82" stroke="#f4f1ea" stroke-width="3"/>
-    <text x="308" y="52" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">Bus is early every day</text>
-    <text x="308" y="70" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">now.</text>
+    <text x="308" y="52" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">Bus is early every day</text>
+    <text x="308" y="70" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">now.</text>
   </g>
 
   <!-- ================= PANEL 2 ================= -->
@@ -123,9 +123,9 @@
     <line x1="466" y1="18" x2="466" y2="14" stroke="#111" stroke-width="1"/>
     <line x1="648" y1="18" x2="648" y2="14" stroke="#111" stroke-width="1"/>
     <line x1="542" y1="84" x2="512" y2="96" stroke="#111" stroke-width="1.5" stroke-dasharray="4 4"/>
-    <text x="557" y="40" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">Those three stops</text>
-    <text x="557" y="58" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">stopped having riders.</text>
-    <text x="557" y="76" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">So I took them out.</text>
+    <text x="557" y="40" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">Those three stops</text>
+    <text x="557" y="58" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">stopped having riders.</text>
+    <text x="557" y="76" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">So I took them out.</text>
   </g>
 
   <!-- ================= PANEL 3 ================= -->
@@ -145,8 +145,8 @@
     <ellipse cx="1090" cy="60" rx="98" ry="30" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
     <path d="M1060 86 L1042 114 L1082 88 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
     <path d="M1060 86 L1082 88" stroke="#f4f1ea" stroke-width="3"/>
-    <text x="1090" y="56" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">Huh... the Third Street</text>
-    <text x="1090" y="74" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">guy. Not around lately.</text>
+    <text x="1090" y="56" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">Huh... the Third Street</text>
+    <text x="1090" y="74" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">guy. Not around lately.</text>
   </g>
 
   <rect x="2" y="4" width="396" height="332" rx="3" fill="none" stroke="#111" stroke-width="2.5"/>

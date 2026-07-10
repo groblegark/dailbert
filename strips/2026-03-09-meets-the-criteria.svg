@@ -87,7 +87,7 @@
       <!-- Dailbert balloon -->
       <ellipse cx="150" cy="52" rx="122" ry="38" fill="#fff" stroke="#111" stroke-width="2.5"/>
       <path d="M112,84 L98,120 L132,86 Z" fill="#fff" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
-      <text font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111" text-anchor="middle">
+      <text font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111" text-anchor="middle">
         <tspan x="150" y="47">My agent auto-declines</tspan>
         <tspan x="150" y="66">meetings with no agenda.</tspan>
       </text>
@@ -95,7 +95,7 @@
       <!-- Doug balloon -->
       <ellipse cx="330" cy="60" rx="42" ry="24" fill="#fff" stroke="#111" stroke-width="2.5"/>
       <path d="M312,80 L300,112 L326,82 Z" fill="#fff" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
-      <text font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111" text-anchor="middle">
+      <text font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111" text-anchor="middle">
         <tspan x="330" y="65">Slick.</tspan>
       </text>
     </g>
@@ -122,7 +122,7 @@
       <line x1="640" y1="104" x2="742" y2="150" stroke="#111" stroke-width="1.6" stroke-dasharray="4 4"/>
       <rect x="452" y="26" width="256" height="76" rx="2" fill="#fff" stroke="#111" stroke-width="2.5"/>
       <rect x="457" y="31" width="246" height="66" fill="none" stroke="#111" stroke-width="1"/>
-      <text font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111" text-anchor="middle">
+      <text font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111" text-anchor="middle">
         <tspan x="580" y="52">I helped. I wrote</tspan>
         <tspan x="580" y="71">agendas for all of them.</tspan>
         <tspan x="580" y="90">Now they all qualify.</tspan>
@@ -131,7 +131,7 @@
       <!-- Dailbert small -->
       <ellipse cx="470" cy="112" rx="38" ry="22" fill="#fff" stroke="#111" stroke-width="2.5"/>
       <path d="M480,132 L490,150 L494,130 Z" fill="#fff" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
-      <text font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111" text-anchor="middle">
+      <text font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111" text-anchor="middle">
         <tspan x="470" y="117">...oh.</tspan>
       </text>
     </g>
@@ -154,7 +154,7 @@
       <!-- Priya balloon (the button) -->
       <ellipse cx="1012" cy="58" rx="128" ry="40" fill="#fff" stroke="#111" stroke-width="2.5"/>
       <path d="M956,90 L936,120 L978,92 Z" fill="#fff" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
-      <text font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111" text-anchor="middle">
+      <text font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111" text-anchor="middle">
         <tspan x="1012" y="53">Mine just declines them.</tspan>
         <tspan x="1012" y="72">No agenda needed.</tspan>
       </text>

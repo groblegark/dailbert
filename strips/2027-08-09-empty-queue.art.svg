@@ -77,23 +77,23 @@
     <rect x="12" y="10" width="185" height="84" rx="4" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
     <rect x="16" y="14" width="177" height="76" rx="2" fill="none" stroke="#111" stroke-width="1"/>
     <line x1="104" y1="94" x2="90" y2="190" stroke="#111" stroke-width="1.5" stroke-dasharray="4 3"/>
-    <text x="104" y="34" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111" text-anchor="middle">Welcome back. I cleared</text>
-    <text x="104" y="50" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111" text-anchor="middle">your queue Tuesday. Then</text>
-    <text x="104" y="66" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111" text-anchor="middle">Wednesday. Then the rest</text>
-    <text x="104" y="82" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111" text-anchor="middle">of it.</text>
+    <text x="104" y="34" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111" text-anchor="middle">Welcome back. I cleared</text>
+    <text x="104" y="50" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111" text-anchor="middle">your queue Tuesday. Then</text>
+    <text x="104" y="66" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111" text-anchor="middle">Wednesday. Then the rest</text>
+    <text x="104" y="82" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111" text-anchor="middle">of it.</text>
 
     <!-- clanker balloon 2 -->
     <rect x="12" y="104" width="180" height="56" rx="4" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
     <rect x="16" y="108" width="172" height="48" rx="2" fill="none" stroke="#111" stroke-width="1"/>
     <line x1="102" y1="160" x2="90" y2="190" stroke="#111" stroke-width="1.5" stroke-dasharray="4 3"/>
-    <text x="102" y="126" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111" text-anchor="middle">No. That stopped being</text>
-    <text x="102" y="142" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111" text-anchor="middle">worth mentioning a</text>
-    <text x="102" y="158" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111" text-anchor="middle">while ago.</text>
+    <text x="102" y="126" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111" text-anchor="middle">No. That stopped being</text>
+    <text x="102" y="142" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111" text-anchor="middle">worth mentioning a</text>
+    <text x="102" y="158" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111" text-anchor="middle">while ago.</text>
 
     <!-- dailbert balloon -->
     <rect x="222" y="92" width="166" height="40" rx="12" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <polygon points="298,131 316,131 303,150" fill="#fff" stroke="#111" stroke-width="2.5"/>
-    <text x="305" y="117" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">Anything waiting?</text>
+    <text x="305" y="117" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">Anything waiting?</text>
   </g>
 
   <!-- ===================== PANEL 2 ===================== -->
@@ -118,22 +118,22 @@
     <!-- doug balloon 1 -->
     <rect x="8" y="8" width="200" height="84" rx="14" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <polygon points="70,90 90,90 74,112" fill="#fff" stroke="#111" stroke-width="2.5"/>
-    <text x="108" y="30" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111" text-anchor="middle">They made the old focus</text>
-    <text x="108" y="46" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111" text-anchor="middle">room a Wellness Room.</text>
-    <text x="108" y="62" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111" text-anchor="middle">Couch, a plant, little</text>
-    <text x="108" y="78" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111" text-anchor="middle">laminated sign.</text>
+    <text x="108" y="30" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111" text-anchor="middle">They made the old focus</text>
+    <text x="108" y="46" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111" text-anchor="middle">room a Wellness Room.</text>
+    <text x="108" y="62" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111" text-anchor="middle">Couch, a plant, little</text>
+    <text x="108" y="78" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111" text-anchor="middle">laminated sign.</text>
 
     <!-- dailbert balloon -->
     <rect x="224" y="8" width="166" height="58" rx="14" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <polygon points="298,64 314,64 302,86" fill="#fff" stroke="#111" stroke-width="2.5"/>
-    <text x="307" y="32" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">What happened to</text>
-    <text x="307" y="50" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">focusing?</text>
+    <text x="307" y="32" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">What happened to</text>
+    <text x="307" y="50" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">focusing?</text>
 
     <!-- doug balloon 2 -->
     <rect x="100" y="100" width="182" height="56" rx="14" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <polygon points="110,154 128,154 100,180" fill="#fff" stroke="#111" stroke-width="2.5"/>
-    <text x="191" y="124" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111" text-anchor="middle">I think that got handled</text>
-    <text x="191" y="140" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111" text-anchor="middle">too. Long lunch?</text>
+    <text x="191" y="124" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111" text-anchor="middle">I think that got handled</text>
+    <text x="191" y="140" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111" text-anchor="middle">too. Long lunch?</text>
   </g>
 
   <!-- ===================== PANEL 3 ===================== -->
@@ -161,15 +161,15 @@
     <!-- dailbert balloon -->
     <rect x="12" y="12" width="172" height="54" rx="14" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <polygon points="86,64 104,64 90,92" fill="#fff" stroke="#111" stroke-width="2.5"/>
-    <text x="98" y="36" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">Half day. Nothing's</text>
-    <text x="98" y="54" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">on fire.</text>
+    <text x="98" y="36" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">Half day. Nothing's</text>
+    <text x="98" y="54" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">on fire.</text>
 
     <!-- clanker balloon -->
     <rect x="205" y="12" width="185" height="74" rx="4" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
     <rect x="209" y="16" width="177" height="66" rx="2" fill="none" stroke="#111" stroke-width="1"/>
     <line x1="297" y1="86" x2="314" y2="190" stroke="#111" stroke-width="1.5" stroke-dasharray="4 3"/>
-    <text x="297" y="38" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111" text-anchor="middle">Nothing's on fire. Take</text>
-    <text x="297" y="54" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111" text-anchor="middle">the afternoon. Stay as</text>
-    <text x="297" y="70" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111" text-anchor="middle">long as you like.</text>
+    <text x="297" y="38" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111" text-anchor="middle">Nothing's on fire. Take</text>
+    <text x="297" y="54" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111" text-anchor="middle">the afternoon. Stay as</text>
+    <text x="297" y="70" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111" text-anchor="middle">long as you like.</text>
   </g>
 </svg>

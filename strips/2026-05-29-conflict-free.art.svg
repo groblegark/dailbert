@@ -91,8 +91,8 @@
     <use href="#clanker" x="266" y="206" width="86" height="72"/>
     <!-- Dailbert balloon -->
     <path d="M60 22 Q56 22 56 40 L56 78 Q56 92 74 92 L120 92 L108 108 L128 92 L206 92 Q222 92 222 76 L222 40 Q222 22 206 22 Z" fill="#fff" stroke="#111" stroke-width="2.2" stroke-linejoin="round"/>
-    <text x="139" y="46" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">Find a time the whole</text>
-    <text x="139" y="66" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">team can make the sync.</text>
+    <text x="139" y="46" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">Find a time the whole</text>
+    <text x="139" y="66" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">team can make the sync.</text>
   </g>
 
   <!-- ===================== PANEL 2 ===================== -->
@@ -115,13 +115,13 @@
     <!-- Clanker screen balloon (rectangular, dashed line to monitor) -->
     <line x1="560" y1="120" x2="543" y2="152" stroke="#111" stroke-width="1.6" stroke-dasharray="4 4"/>
     <rect x="440" y="20" width="248" height="96" rx="3" fill="#fff" stroke="#111" stroke-width="2.2"/>
-    <text x="564" y="45" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Only conflict-free slot</text>
-    <text x="564" y="65" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">is Sunday, 4:15 AM.</text>
-    <text x="564" y="97" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Invites are out.</text>
+    <text x="564" y="45" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Only conflict-free slot</text>
+    <text x="564" y="65" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">is Sunday, 4:15 AM.</text>
+    <text x="564" y="97" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Invites are out.</text>
     <!-- Doug balloon -->
     <path d="M712 132 Q700 132 700 148 L700 168 Q700 182 716 182 L788 182 L788 168 L800 190 L784 182 L788 182 Q790 182 792 178 L792 148 Q792 132 780 132 Z" fill="#fff" stroke="#111" stroke-width="2.2" stroke-linejoin="round"/>
-    <text x="746" y="152" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13.5" text-anchor="middle" fill="#111">So thorough.</text>
-    <text x="746" y="170" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13.5" text-anchor="middle" fill="#111">Love that.</text>
+    <text x="746" y="152" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" text-anchor="middle" fill="#111">So thorough.</text>
+    <text x="746" y="170" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" text-anchor="middle" fill="#111">Love that.</text>
   </g>
 
   <!-- ===================== PANEL 3 ===================== -->
@@ -143,11 +143,11 @@
     </g>
     <!-- Priya balloon -->
     <path d="M1030 30 Q1014 30 1014 48 L1014 92 Q1014 108 1032 108 L1076 108 L1064 126 L1088 108 L1200 108 Q1216 108 1216 92 L1216 48 Q1216 30 1200 30 Z" fill="#fff" stroke="#111" stroke-width="2.2" stroke-linejoin="round"/>
-    <text x="1115" y="56" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Tuesday at ten. Nobody's</text>
-    <text x="1115" y="76" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">free. They just show up.</text>
+    <text x="1115" y="56" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Tuesday at ten. Nobody's</text>
+    <text x="1115" y="76" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">free. They just show up.</text>
     <!-- clanker screen balloon from glasses, dashed to lens -->
     <line x1="944" y1="218" x2="988" y2="250" stroke="#111" stroke-width="1.6" stroke-dasharray="4 4"/>
     <rect x="978" y="248" width="120" height="40" rx="3" fill="#fff" stroke="#111" stroke-width="2.2"/>
-    <text x="1038" y="273" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Noted. Canceling 4:15.</text>
+    <text x="1038" y="273" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Noted. Canceling 4:15.</text>
   </g>
 </svg>

@@ -79,14 +79,14 @@
 
       <path d="M112,86 L100,150 L128,90 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
       <rect x="18" y="14" width="182" height="80" rx="14" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
-      <text x="109" y="40" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Dailbert! I need you</text>
-      <text x="109" y="60" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">to make the AI more</text>
-      <text x="109" y="80" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">synergistic.</text>
+      <text x="109" y="40" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Dailbert! I need you</text>
+      <text x="109" y="60" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">to make the AI more</text>
+      <text x="109" y="80" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">synergistic.</text>
 
       <path d="M292,80 L300,150 L310,80 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
       <rect x="214" y="26" width="170" height="58" rx="14" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
-      <text x="299" y="50" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">That's not</text>
-      <text x="299" y="70" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">a setting.</text>
+      <text x="299" y="50" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">That's not</text>
+      <text x="299" y="70" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">a setting.</text>
     </g>
   </g>
 
@@ -113,15 +113,15 @@
 
       <path d="M104,84 L100,150 L122,86 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
       <rect x="14" y="12" width="184" height="80" rx="14" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
-      <text x="106" y="38" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Everyone's doing</text>
-      <text x="106" y="58" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">agents now. I want</text>
-      <text x="106" y="78" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">ten agents. By Friday.</text>
+      <text x="106" y="38" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Everyone's doing</text>
+      <text x="106" y="58" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">agents now. I want</text>
+      <text x="106" y="78" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">ten agents. By Friday.</text>
 
       <path d="M232,74 L150,196" fill="none" stroke="#111" stroke-width="1.5" stroke-dasharray="4 3"/>
       <rect x="208" y="22" width="180" height="54" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
       <rect x="213" y="27" width="170" height="44" rx="2" fill="none" stroke="#111" stroke-width="1"/>
-      <text x="298" y="46" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">He does not know</text>
-      <text x="298" y="64" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">what one agent does.</text>
+      <text x="298" y="46" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">He does not know</text>
+      <text x="298" y="64" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">what one agent does.</text>
     </g>
   </g>
 
@@ -149,19 +149,19 @@
 
       <path d="M96,66 L100,150 L118,68 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
       <rect x="12" y="12" width="186" height="58" rx="14" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
-      <text x="105" y="36" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Which problem should</text>
-      <text x="105" y="56" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">the ten agents solve?</text>
+      <text x="105" y="36" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Which problem should</text>
+      <text x="105" y="56" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">the ten agents solve?</text>
 
       <path d="M292,62 L300,150 L312,62 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
       <rect x="214" y="10" width="172" height="54" rx="14" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
-      <text x="300" y="32" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">The agent problem.</text>
-      <text x="300" y="52" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Keep up.</text>
+      <text x="300" y="32" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">The agent problem.</text>
+      <text x="300" y="52" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Keep up.</text>
 
       <path d="M288,190 L312,202" fill="none" stroke="#111" stroke-width="1.5" stroke-dasharray="4 3"/>
       <rect x="138" y="150" width="152" height="48" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
       <rect x="143" y="155" width="142" height="38" rx="2" fill="none" stroke="#111" stroke-width="1"/>
-      <text x="214" y="172" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">I will simulate</text>
-      <text x="214" y="190" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">keeping up.</text>
+      <text x="214" y="172" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">I will simulate</text>
+      <text x="214" y="190" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">keeping up.</text>
     </g>
   </g>
 </g>

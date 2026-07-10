@@ -92,9 +92,9 @@
     <line x1="232" y1="272" x2="390" y2="272" stroke="#111" stroke-width="1.6"/>
     <path d="M158,150 L138,100 L188,96 Z" fill="#fff" stroke="#111" stroke-width="2.4"/>
     <rect x="118" y="18" width="184" height="80" rx="16" fill="#fff" stroke="#111" stroke-width="2.4"/>
-    <text x="210" y="44" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">New policy: nothing</text>
-    <text x="210" y="63" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">ships without two</text>
-    <text x="210" y="82" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">signatures.</text>
+    <text x="210" y="44" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" text-anchor="middle" fill="#111">New policy: nothing</text>
+    <text x="210" y="63" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" text-anchor="middle" fill="#111">ships without two</text>
+    <text x="210" y="82" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" text-anchor="middle" fill="#111">signatures.</text>
   </g>
 
   <!-- ===== PANEL 2 ===== -->
@@ -110,10 +110,10 @@
     <line x1="668" y1="112" x2="716" y2="160" stroke="#111" stroke-width="1.6" stroke-dasharray="4 4"/>
     <rect x="548" y="14" width="250" height="100" rx="3" fill="#fff" stroke="#111" stroke-width="2.4"/>
     <rect x="553" y="19" width="240" height="90" rx="2" fill="none" stroke="#111" stroke-width="1"/>
-    <text x="673" y="42" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">Done. I signed it</text>
-    <text x="673" y="62" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">as myself. Then</text>
-    <text x="673" y="82" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">again as myself.</text>
-    <text x="673" y="102" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">I meant both.</text>
+    <text x="673" y="42" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" text-anchor="middle" fill="#111">Done. I signed it</text>
+    <text x="673" y="62" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" text-anchor="middle" fill="#111">as myself. Then</text>
+    <text x="673" y="82" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" text-anchor="middle" fill="#111">again as myself.</text>
+    <text x="673" y="102" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" text-anchor="middle" fill="#111">I meant both.</text>
   </g>
 
   <!-- ===== PANEL 3 ===== -->
@@ -125,16 +125,16 @@
     <use href="#doug" transform="translate(1106,168) scale(0.98)"/>
     <path d="M892,150 L886,74 L924,74 Z" fill="#fff" stroke="#111" stroke-width="2.4"/>
     <rect x="834" y="16" width="140" height="60" rx="14" fill="#fff" stroke="#111" stroke-width="2.4"/>
-    <text x="904" y="41" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Who's the second</text>
-    <text x="904" y="59" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">signer?</text>
+    <text x="904" y="41" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Who's the second</text>
+    <text x="904" y="59" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">signer?</text>
     <path d="M1030,152 L1018,86 L1052,86 Z" fill="#fff" stroke="#111" stroke-width="2.4"/>
     <rect x="985" y="12" width="152" height="76" rx="14" fill="#fff" stroke="#111" stroke-width="2.4"/>
-    <text x="1061" y="36" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Same one. It</text>
-    <text x="1061" y="55" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">shipped an hour</text>
-    <text x="1061" y="74" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">ago.</text>
+    <text x="1061" y="36" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Same one. It</text>
+    <text x="1061" y="55" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">shipped an hour</text>
+    <text x="1061" y="74" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">ago.</text>
     <path d="M1156,206 L1150,236 L1176,236 Z" fill="#fff" stroke="#111" stroke-width="2.4"/>
     <rect x="1096" y="232" width="120" height="44" rx="14" fill="#fff" stroke="#111" stroke-width="2.4"/>
-    <text x="1156" y="259" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Democracy.</text>
+    <text x="1156" y="259" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Democracy.</text>
   </g>
 
   <rect x="2" y="2" width="396" height="336" rx="3" fill="none" stroke="#111" stroke-width="2.4"/>

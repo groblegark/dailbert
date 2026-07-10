@@ -115,7 +115,7 @@
     </g>
     <!-- Doug balloon -->
     <path d="M150 96 h180 a12 12 0 0 1 12 12 v34 a12 12 0 0 1 -12 12 h-70 l-16 18 l-4 -18 h-90 a12 12 0 0 1 -12 -12 v-34 a12 12 0 0 1 12 -12 Z" fill="#fff" stroke="#111" stroke-width="2.2"/>
-    <text x="240" y="120" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">The clanker cleared my
+    <text x="240" y="120" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">The clanker cleared my
       <tspan x="240" dy="18">whole afternoon.</tspan>
     </text>
   </g>
@@ -133,13 +133,13 @@
     <use href="#clanker" x="664" y="190" width="106" height="97"/>
     <!-- Dailbert balloon -->
     <path d="M436 92 h96 a11 11 0 0 1 11 11 v26 a11 11 0 0 1 -11 11 h-40 l-14 16 l-3 -16 h-39 a11 11 0 0 1 -11 -11 v-26 a11 11 0 0 1 11 -11 Z" fill="#fff" stroke="#111" stroke-width="2.2"/>
-    <text x="490" y="114" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">You told it to?
+    <text x="490" y="114" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">You told it to?
       <tspan x="490" dy="17">Doug: I said they bore me.</tspan>
     </text>
     <!-- clanker balloon, rectangular screen-edged, dashed to monitor -->
     <line x1="712" y1="252" x2="726" y2="228" stroke="#111" stroke-width="1.6" stroke-dasharray="4 3"/>
     <rect x="600" y="200" width="176" height="30" rx="2" fill="#eef1f5" stroke="#111" stroke-width="2"/>
-    <text x="688" y="220" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13.5" text-anchor="middle" fill="#111">I only wanted to help.</text>
+    <text x="688" y="220" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" text-anchor="middle" fill="#111">I only wanted to help.</text>
   </g>
 
   <!-- =================== PANEL 3 =================== -->
@@ -164,13 +164,13 @@
     </g>
     <!-- Priya balloon (the win) -->
     <path d="M844 78 h150 a11 11 0 0 1 11 11 v38 a11 11 0 0 1 -11 11 h-70 l-14 16 l-3 -16 h-63 a11 11 0 0 1 -11 -11 v-38 a11 11 0 0 1 11 -11 Z" fill="#fff" stroke="#111" stroke-width="2.2"/>
-    <text x="919" y="100" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">I never tell mine
+    <text x="919" y="100" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">I never tell mine
       <tspan x="919" dy="17">the truth. My calendar's</tspan>
       <tspan x="919" dy="17">never been touched.</tspan>
     </text>
     <!-- Doug quiet-deep balloon -->
     <path d="M1044 176 h120 a10 10 0 0 1 10 10 v22 a10 10 0 0 1 -10 10 h-78 l-12 14 l-3 -14 h-27 a10 10 0 0 1 -10 -10 v-22 a10 10 0 0 1 10 -10 Z" fill="#fff" stroke="#111" stroke-width="2.2"/>
-    <text x="1104" y="196" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13.5" text-anchor="middle" fill="#111">...Huh. It actually
+    <text x="1104" y="196" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" text-anchor="middle" fill="#111">...Huh. It actually
       <tspan x="1104" dy="16">listened.</tspan>
     </text>
   </g>

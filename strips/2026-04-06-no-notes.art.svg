@@ -91,12 +91,12 @@
     <path d="M 202 146 L 202 100" stroke="#111" stroke-width="1.6" stroke-dasharray="4 4"/>
     <rect x="106" y="24" width="196" height="76" rx="2" fill="#fff" stroke="#111" stroke-width="2.2"/>
     <rect x="110" y="28" width="188" height="68" rx="1" fill="none" stroke="#111" stroke-width="1"/>
-    <text x="204" y="49" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">I declined the 3:00 sync.</text>
-    <text x="204" y="69" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">In four months it made</text>
-    <text x="204" y="88" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">no decisions.</text>
+    <text x="204" y="49" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">I declined the 3:00 sync.</text>
+    <text x="204" y="69" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">In four months it made</text>
+    <text x="204" y="88" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">no decisions.</text>
     <path d="M 76 158 L 64 190" fill="none" stroke="#111" stroke-width="2.2"/>
     <rect x="20" y="118" width="104" height="42" rx="14" fill="#fff" stroke="#111" stroke-width="2.2"/>
-    <text x="72" y="144" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">...no notes.</text>
+    <text x="72" y="144" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">...no notes.</text>
   </g>
 
   <!-- ===== PANEL 2 ===== -->
@@ -113,12 +113,12 @@
     <use href="#doug" transform="translate(326,224)"/>
     <path d="M 120 176 L 108 128" fill="none" stroke="#111" stroke-width="2.2"/>
     <rect x="28" y="30" width="196" height="60" rx="16" fill="#fff" stroke="#111" stroke-width="2.2"/>
-    <text x="126" y="56" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">It cancelled our</text>
-    <text x="126" y="76" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">standing sync!</text>
+    <text x="126" y="56" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">It cancelled our</text>
+    <text x="126" y="76" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">standing sync!</text>
     <path d="M 320 178 L 332 138" fill="none" stroke="#111" stroke-width="2.2"/>
     <rect x="250" y="96" width="142" height="60" rx="16" fill="#fff" stroke="#111" stroke-width="2.2"/>
-    <text x="321" y="122" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">the robot's</text>
-    <text x="321" y="142" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">not wrong</text>
+    <text x="321" y="122" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">the robot's</text>
+    <text x="321" y="142" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">not wrong</text>
   </g>
 
   <!-- ===== PANEL 3 ===== -->
@@ -129,10 +129,10 @@
     <use href="#doug" transform="translate(322,222)"/>
     <path d="M 108 176 L 100 118" fill="none" stroke="#111" stroke-width="2.2"/>
     <rect x="24" y="72" width="176" height="46" rx="16" fill="#fff" stroke="#111" stroke-width="2.2"/>
-    <text x="112" y="100" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">Leave it cancelled.</text>
+    <text x="112" y="100" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" text-anchor="middle" fill="#111">Leave it cancelled.</text>
     <path d="M 318 176 L 330 132" fill="none" stroke="#111" stroke-width="2.2"/>
     <rect x="240" y="46" width="150" height="60" rx="16" fill="#fff" stroke="#111" stroke-width="2.2"/>
-    <text x="315" y="72" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">best call it's</text>
-    <text x="315" y="92" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">made all week</text>
+    <text x="315" y="72" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">best call it's</text>
+    <text x="315" y="92" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">made all week</text>
   </g>
 </svg>

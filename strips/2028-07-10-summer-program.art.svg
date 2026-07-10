@@ -74,7 +74,7 @@
     </g>
     <path d="M90,88 L78,120 L106,92 Z" fill="#ffffff" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
     <rect x="15" y="14" width="160" height="80" rx="12" fill="#ffffff" stroke="#111" stroke-width="2"/>
-    <g font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">
+    <g font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">
       <text x="95" y="38">They've got a few</text>
       <text x="95" y="55">hundred uses each.</text>
       <text x="95" y="72">On tools I've never</text>
@@ -83,7 +83,7 @@
     <path d="M300,94 L307,183" fill="none" stroke="#111" stroke-width="1.5" stroke-dasharray="4,3"/>
     <rect x="214" y="12" width="176" height="82" rx="3" fill="#ffffff" stroke="#111" stroke-width="2"/>
     <rect x="218" y="16" width="168" height="74" rx="2" fill="none" stroke="#111" stroke-width="1.2"/>
-    <g font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">
+    <g font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">
       <text x="302" y="34">Four apps joined the</text>
       <text x="302" y="51">tools list overnight.</text>
       <text x="302" y="68">All tagged 'suggested</text>
@@ -104,7 +104,7 @@
     <use href="#dailbert" x="250" y="150" width="140" height="210"/>
     <path d="M95,88 L82,150 L120,92 Z" fill="#ffffff" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
     <rect x="10" y="8" width="168" height="82" rx="12" fill="#ffffff" stroke="#111" stroke-width="2"/>
-    <g font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">
+    <g font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">
       <text x="94" y="30">They cancelled the</text>
       <text x="94" y="47">summer interns. Said</text>
       <text x="94" y="64">there was no</text>
@@ -112,13 +112,13 @@
     </g>
     <path d="M338,48 L322,120 L352,50 Z" fill="#ffffff" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
     <rect x="298" y="14" width="94" height="36" rx="12" fill="#ffffff" stroke="#111" stroke-width="2"/>
-    <g font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">
+    <g font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">
       <text x="345" y="37">There isn't.</text>
     </g>
     <path d="M250,170 L118,296" fill="none" stroke="#111" stroke-width="1.5" stroke-dasharray="4,3"/>
     <rect x="170" y="104" width="176" height="66" rx="3" fill="#ffffff" stroke="#111" stroke-width="2"/>
     <rect x="174" y="108" width="168" height="58" rx="2" fill="none" stroke="#111" stroke-width="1.2"/>
-    <g font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">
+    <g font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">
       <text x="258" y="126">I'd have shown them</text>
       <text x="258" y="143">around. It's quiet</text>
       <text x="258" y="160">this time of year.</text>
@@ -140,7 +140,7 @@
     </g>
     <path d="M92,86 L80,160 L118,90 Z" fill="#ffffff" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
     <rect x="8" y="8" width="176" height="80" rx="12" fill="#ffffff" stroke="#111" stroke-width="2"/>
-    <g font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">
+    <g font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">
       <text x="96" y="28">Feels like we're</text>
       <text x="96" y="45">chaperoning a summer</text>
       <text x="96" y="62">program the building</text>
@@ -148,14 +148,14 @@
     </g>
     <path d="M225,146 L235,183 L255,146 Z" fill="#ffffff" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
     <rect x="118" y="96" width="182" height="50" rx="12" fill="#ffffff" stroke="#111" stroke-width="2"/>
-    <g font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">
+    <g font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">
       <text x="209" y="118">Somebody's got to sign</text>
       <text x="209" y="135">for the packages.</text>
     </g>
     <path d="M320,74 L346,150" fill="none" stroke="#111" stroke-width="1.5" stroke-dasharray="4,3"/>
     <rect x="246" y="8" width="150" height="66" rx="3" fill="#ffffff" stroke="#111" stroke-width="2"/>
     <rect x="250" y="12" width="142" height="58" rx="2" fill="none" stroke="#111" stroke-width="1.2"/>
-    <g font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">
+    <g font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111" text-anchor="middle">
       <text x="321" y="30">I already signed.</text>
       <text x="321" y="47">But it's nicer with</text>
       <text x="321" y="64">you here.</text>

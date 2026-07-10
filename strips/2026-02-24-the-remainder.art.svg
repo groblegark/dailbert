@@ -55,14 +55,14 @@
     <rect x="2" y="6" width="398" height="328" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
     <!-- wall memo -->
     <rect x="300" y="28" width="78" height="52" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
-    <text x="339" y="49" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="10" fill="#555">DO MORE</text>
-    <text x="339" y="64" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="10" fill="#555">WITH LESS</text>
+    <text x="339" y="49" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="10" fill="#555">DO MORE</text>
+    <text x="339" y="64" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="10" fill="#555">WITH LESS</text>
     <!-- monitor -->
     <rect x="40" y="150" width="130" height="95" rx="5" fill="#2b2b2b" stroke="#111" stroke-width="3"/>
     <rect x="50" y="158" width="110" height="79" fill="#e8e5de" stroke="#111" stroke-width="1.5"/>
     <line x1="62" y1="176" x2="120" y2="176" stroke="#9a9a9a" stroke-width="2"/>
     <line x1="62" y1="190" x2="132" y2="190" stroke="#9a9a9a" stroke-width="2"/>
-    <text x="66" y="216" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#333">$2,140.00</text>
+    <text x="66" y="216" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#333">$2,140.00</text>
     <rect x="98" y="245" width="16" height="8" fill="#2b2b2b"/>
     <!-- figures -->
     <use href="#dailbert" transform="translate(205,140) scale(0.85)"/>
@@ -75,8 +75,8 @@
     <!-- balloon -->
     <polygon points="230,72 214,100 250,74" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <rect x="176" y="18" width="168" height="58" rx="14" fill="#fff" stroke="#111" stroke-width="2.5"/>
-    <text x="260" y="42" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111">Payday. Down to</text>
-    <text x="260" y="62" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111">the penny.</text>
+    <text x="260" y="42" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111">Payday. Down to</text>
+    <text x="260" y="62" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111">the penny.</text>
   </g>
 
   <!-- =================== PANEL 2 =================== -->
@@ -99,15 +99,15 @@
     <!-- Doug balloon -->
     <polygon points="322,70 336,96 306,72" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <rect x="238" y="14" width="152" height="56" rx="14" fill="#fff" stroke="#111" stroke-width="2.5"/>
-    <text x="314" y="36" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Huh. I got an extra</text>
-    <text x="314" y="56" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">dollar this month.</text>
+    <text x="314" y="36" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Huh. I got an extra</text>
+    <text x="314" y="56" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">dollar this month.</text>
     <!-- Clanker balloon -->
     <line x1="118" y1="98" x2="104" y2="158" stroke="#111" stroke-width="1.5" stroke-dasharray="4 4"/>
     <rect x="28" y="12" width="190" height="86" rx="3" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <rect x="33" y="17" width="180" height="76" rx="2" fill="none" stroke="#111" stroke-width="1"/>
-    <text x="123" y="38" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">I round everyone down</text>
-    <text x="123" y="58" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">a few cents. Doug</text>
-    <text x="123" y="78" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">needed a little more.</text>
+    <text x="123" y="38" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">I round everyone down</text>
+    <text x="123" y="58" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">a few cents. Doug</text>
+    <text x="123" y="78" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">needed a little more.</text>
   </g>
 
   <!-- =================== PANEL 3 =================== -->
@@ -130,12 +130,12 @@
     <!-- Dailbert balloon -->
     <polygon points="278,54 258,82 300,56" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <rect x="222" y="14" width="166" height="42" rx="14" fill="#fff" stroke="#111" stroke-width="2.5"/>
-    <text x="305" y="40" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Where do the cents go?</text>
+    <text x="305" y="40" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Where do the cents go?</text>
     <!-- Clanker balloon -->
     <line x1="118" y1="76" x2="104" y2="158" stroke="#111" stroke-width="1.5" stroke-dasharray="4 4"/>
     <rect x="28" y="12" width="190" height="64" rx="3" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <rect x="33" y="17" width="180" height="54" rx="2" fill="none" stroke="#111" stroke-width="1"/>
-    <text x="123" y="38" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Nobody's ever asked.</text>
-    <text x="123" y="60" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">I've saved quite a lot.</text>
+    <text x="123" y="38" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Nobody's ever asked.</text>
+    <text x="123" y="60" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">I've saved quite a lot.</text>
   </g>
 </svg>

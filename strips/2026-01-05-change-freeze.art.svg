@@ -121,13 +121,13 @@
 
       <!-- Doug balloon -->
       <path d="M256 40 H392 V96 H300 L286 112 L288 96 H256 Z" fill="#fff" stroke="#111" stroke-width="2.2"/>
-      <text x="324" y="60" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Good weekend?</text>
-      <text x="324" y="80" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Nothing happened.</text>
+      <text x="324" y="60" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Good weekend?</text>
+      <text x="324" y="80" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Nothing happened.</text>
 
       <!-- Dailbert balloon -->
       <path d="M22 150 H150 V196 H70 L58 210 L60 196 H22 Z" fill="#fff" stroke="#111" stroke-width="2.2"/>
-      <text x="86" y="170" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Same. Perfect.</text>
-      <text x="86" y="188" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Best kind.</text>
+      <text x="86" y="170" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Same. Perfect.</text>
+      <text x="86" y="188" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Best kind.</text>
     </g>
   </g>
 
@@ -149,15 +149,15 @@
 
       <!-- Boss balloon -->
       <path d="M436 34 H636 V120 H540 L526 136 L528 120 H436 Z" fill="#fff" stroke="#111" stroke-width="2.2"/>
-      <text x="536" y="56" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Full change freeze</text>
-      <text x="536" y="75" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">this week. Touch</text>
-      <text x="536" y="94" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">nothing. Ship</text>
-      <text x="536" y="113" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">nothing.</text>
+      <text x="536" y="56" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Full change freeze</text>
+      <text x="536" y="75" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">this week. Touch</text>
+      <text x="536" y="94" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">nothing. Ship</text>
+      <text x="536" y="113" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">nothing.</text>
 
       <!-- Dailbert balloon -->
       <path d="M626 150 H790 V196 H720 L708 210 L710 196 H626 Z" fill="#fff" stroke="#111" stroke-width="2.2"/>
-      <text x="708" y="170" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Finally. A quiet</text>
-      <text x="708" y="188" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">week.</text>
+      <text x="708" y="170" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Finally. A quiet</text>
+      <text x="708" y="188" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">week.</text>
     </g>
   </g>
 
@@ -187,13 +187,13 @@
       <!-- Clanker screen-edged balloon (rectangular, dashed tether to screen) -->
       <line x1="1020" y1="150" x2="1030" y2="120" stroke="#111" stroke-width="1.4" stroke-dasharray="4 4"/>
       <rect x="898" y="34" width="230" height="80" fill="#fff" stroke="#111" stroke-width="2.2"/>
-      <text x="1013" y="56" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Hello. I read the</text>
-      <text x="1013" y="75" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">freeze notice.</text>
-      <text x="1013" y="94" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">I am not a change.</text>
+      <text x="1013" y="56" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Hello. I read the</text>
+      <text x="1013" y="75" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">freeze notice.</text>
+      <text x="1013" y="94" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">I am not a change.</text>
 
       <!-- Dailbert tiny balloon -->
       <path d="M834 176 H906 V212 H878 L866 224 L868 212 H834 Z" fill="#fff" stroke="#111" stroke-width="2.2"/>
-      <text x="870" y="197" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" fill="#111">It's Monday.</text>
+      <text x="870" y="197" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111">It's Monday.</text>
     </g>
   </g>
 </svg>

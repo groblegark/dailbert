@@ -81,9 +81,9 @@
       <use href="#doug" x="196" y="150" width="150" height="200"/>
       <!-- Doug balloon -->
       <path d="M198,66 L198,26 Q198,14 212,14 L360,14 Q374,14 374,26 L374,96 Q374,108 360,108 L262,108 L238,132 L246,108 L212,108 Q198,108 198,96 Z" fill="#fff" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
-      <text x="286" y="46" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">I'll get to that</text>
-      <text x="286" y="66" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">ticket when hell</text>
-      <text x="286" y="86" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">freezes over.</text>
+      <text x="286" y="46" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">I'll get to that</text>
+      <text x="286" y="66" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">ticket when hell</text>
+      <text x="286" y="86" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">freezes over.</text>
     </g>
   </g>
 
@@ -108,14 +108,14 @@
       <rect x="592" y="196" width="52" height="40" rx="3" fill="#fff" stroke="#111" stroke-width="2"/>
       <line x1="598" y1="206" x2="638" y2="206" stroke="#111" stroke-width="1.5"/>
       <line x1="598" y1="214" x2="638" y2="214" stroke="#111" stroke-width="1.5"/>
-      <text x="618" y="230" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="9" text-anchor="middle" fill="#111">REOPENED</text>
+      <text x="618" y="230" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="9" text-anchor="middle" fill="#111">REOPENED</text>
       <!-- clanker screen balloon (rectangular, dashed tie to screen) -->
       <line x1="560" y1="150" x2="590" y2="120" stroke="#111" stroke-width="1.5" stroke-dasharray="4 4"/>
       <rect x="450" y="24" width="330" height="96" rx="3" fill="#fff" stroke="#111" stroke-width="2.5"/>
       <rect x="455" y="29" width="320" height="86" rx="2" fill="none" stroke="#111" stroke-width="1" stroke-dasharray="3 3"/>
-      <text x="615" y="52" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">Hell, Michigan reached</text>
-      <text x="615" y="74" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">31&#176;F at 6:02 this morning.</text>
-      <text x="615" y="99" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">I reopened your ticket.</text>
+      <text x="615" y="52" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">Hell, Michigan reached</text>
+      <text x="615" y="74" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">31&#176;F at 6:02 this morning.</text>
+      <text x="615" y="99" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">I reopened your ticket.</text>
     </g>
   </g>
 
@@ -134,12 +134,12 @@
       <use href="#priya" x="1010" y="146" width="150" height="205"/>
       <!-- Priya balloon -->
       <path d="M986,60 L986,24 Q986,14 998,14 L1150,14 Q1162,14 1162,24 L1162,80 Q1162,90 1150,90 L1070,90 L1050,110 L1056,90 L998,90 Q986,90 986,80 Z" fill="#fff" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
-      <text x="1074" y="44" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">Relax. I shipped it</text>
-      <text x="1074" y="66" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">Tuesday.</text>
+      <text x="1074" y="44" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">Relax. I shipped it</text>
+      <text x="1074" y="66" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">Tuesday.</text>
       <!-- Doug small button balloon -->
       <path d="M852,196 L852,172 Q852,164 862,164 L950,164 Q960,164 960,172 L960,204 Q960,212 950,212 L910,212 L898,228 L900,212 L862,212 Q852,212 852,204 Z" fill="#fff" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
-      <text x="906" y="188" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" text-anchor="middle" fill="#111">Huh. Feels</text>
-      <text x="906" y="204" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13" text-anchor="middle" fill="#111">warmer already.</text>
+      <text x="906" y="188" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" text-anchor="middle" fill="#111">Huh. Feels</text>
+      <text x="906" y="204" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" text-anchor="middle" fill="#111">warmer already.</text>
     </g>
   </g>
 </svg>

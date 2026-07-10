@@ -78,8 +78,8 @@
     <!-- projector screen -->
     <rect x="30" y="34" width="150" height="102" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
     <path d="M30 40 L60 34 M30 60 L86 34 M30 92 L150 34 M30 120 L172 34" stroke="#e6e2d8" stroke-width="1.6"/>
-    <text x="105" y="76" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="21" font-weight="bold" fill="#111">AGENTS</text>
-    <text x="105" y="102" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="12" fill="#111">arriving Jan 15</text>
+    <text x="105" y="76" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="21" font-weight="bold" fill="#111">AGENTS</text>
+    <text x="105" y="102" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="12" fill="#111">arriving Jan 15</text>
     <path d="M78 112 H132 M132 112 l-6 -4 M132 112 l-6 4" stroke="#111" stroke-width="2" fill="none" stroke-linecap="round"/>
     <!-- boss legs -->
     <path d="M135 210 L131 272 M162 210 L166 272" stroke="#111" stroke-width="8" stroke-linecap="round"/>
@@ -98,9 +98,9 @@
     <!-- boss balloon -->
     <path d="M232 84 L206 106 L246 88 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.4" stroke-linejoin="round"/>
     <rect x="188" y="14" width="200" height="72" rx="15" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
-    <text x="288" y="37" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">They install Thursday.</text>
-    <text x="288" y="55" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">They learn by watching</text>
-    <text x="288" y="73" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">how we work.</text>
+    <text x="288" y="37" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">They install Thursday.</text>
+    <text x="288" y="55" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">They learn by watching</text>
+    <text x="288" y="73" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">how we work.</text>
   </g>
 
   <!-- ================= PANEL 2 ================= -->
@@ -121,12 +121,12 @@
     <!-- Doug balloon -->
     <path d="M700 62 L700 138 L720 64 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.4" stroke-linejoin="round"/>
     <rect x="590" y="18" width="192" height="46" rx="15" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
-    <text x="686" y="47" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">So it just watches us?</text>
+    <text x="686" y="47" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">So it just watches us?</text>
     <!-- Dailbert balloon -->
     <path d="M520 128 L516 176 L540 130 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.4" stroke-linejoin="round"/>
     <rect x="446" y="78" width="200" height="54" rx="15" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
-    <text x="546" y="101" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">Don't do anything</text>
-    <text x="546" y="120" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">you'd regret.</text>
+    <text x="546" y="101" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Don't do anything</text>
+    <text x="546" y="120" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">you'd regret.</text>
   </g>
 
   <!-- ================= PANEL 3 ================= -->
@@ -137,7 +137,7 @@
     <!-- projector slide still glowing -->
     <rect x="856" y="34" width="118" height="80" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
     <path d="M856 40 L884 34 M856 66 L920 34 M856 96 L974 40" stroke="#e6e2d8" stroke-width="1.6"/>
-    <text x="915" y="82" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111">Jan 15</text>
+    <text x="915" y="82" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111">Jan 15</text>
     <!-- empty chairs (from side, facing screen) -->
     <g stroke="#111" stroke-width="2.2" fill="#f4f1ea" stroke-linejoin="round">
       <rect x="888" y="228" width="12" height="46" rx="4"/>

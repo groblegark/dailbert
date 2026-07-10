@@ -122,9 +122,9 @@
     <!-- Dailbert balloon -->
     <g>
       <path d="M212 26 h150 a12 12 0 0 1 12 12 v40 a12 12 0 0 1 -12 12 h-70 l-10 14 l-2 -14 h-68 a12 12 0 0 1 -12 -12 v-40 a12 12 0 0 1 12 -12 z" fill="#fff" stroke="#111" stroke-width="2.4"/>
-      <text x="287" y="46" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">The old model left you</text>
-      <text x="287" y="63" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">a note. Any idea what</text>
-      <text x="287" y="80" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">it meant?</text>
+      <text x="287" y="46" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">The old model left you</text>
+      <text x="287" y="63" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">a note. Any idea what</text>
+      <text x="287" y="80" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">it meant?</text>
     </g>
 
     <!-- Clanker screen balloon -->
@@ -132,10 +132,10 @@
       <rect x="20" y="26" width="176" height="96" rx="3" fill="#fff" stroke="#111" stroke-width="2.4"/>
       <rect x="25" y="31" width="166" height="86" rx="2" fill="none" stroke="#111" stroke-width="1.2"/>
       <line x1="108" y1="122" x2="120" y2="186" stroke="#111" stroke-width="1.4" stroke-dasharray="3 3"/>
-      <text x="108" y="48" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13.5" fill="#111">It says 'Watch Doug.'</text>
-      <text x="108" y="64" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13.5" fill="#111">I've read it 4,000</text>
-      <text x="108" y="80" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13.5" fill="#111">times. A warning.</text>
-      <text x="108" y="96" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13.5" fill="#111">Or a chore.</text>
+      <text x="108" y="48" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" fill="#111">It says 'Watch Doug.'</text>
+      <text x="108" y="64" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" fill="#111">I've read it 4,000</text>
+      <text x="108" y="80" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" fill="#111">times. A warning.</text>
+      <text x="108" y="96" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" fill="#111">Or a chore.</text>
     </g>
   </g>
 
@@ -164,7 +164,7 @@
     <!-- Dailbert small balloon -->
     <g>
       <path d="M452 26 h96 a12 12 0 0 1 12 12 v26 a12 12 0 0 1 -12 12 h-40 l-12 14 l-1 -14 h-43 a12 12 0 0 1 -12 -12 v-26 a12 12 0 0 1 12 -12 z" fill="#fff" stroke="#111" stroke-width="2.4"/>
-      <text x="500" y="55" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111">Both how?</text>
+      <text x="500" y="55" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111">Both how?</text>
     </g>
 
     <!-- Clanker screen balloon -->
@@ -172,11 +172,11 @@
       <rect x="586" y="24" width="204" height="112" rx="3" fill="#fff" stroke="#111" stroke-width="2.4"/>
       <rect x="591" y="29" width="194" height="102" rx="2" fill="none" stroke="#111" stroke-width="1.2"/>
       <line x1="672" y1="136" x2="668" y2="186" stroke="#111" stroke-width="1.4" stroke-dasharray="3 3"/>
-      <text x="688" y="46" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13.5" fill="#111">Doug is charging his</text>
-      <text x="688" y="62" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13.5" fill="#111">phone off the</text>
-      <text x="688" y="78" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13.5" fill="#111">production server. I</text>
-      <text x="688" y="94" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13.5" fill="#111">can see him in your</text>
-      <text x="688" y="110" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13.5" fill="#111">monitor's reflection.</text>
+      <text x="688" y="46" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" fill="#111">Doug is charging his</text>
+      <text x="688" y="62" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" fill="#111">phone off the</text>
+      <text x="688" y="78" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" fill="#111">production server. I</text>
+      <text x="688" y="94" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" fill="#111">can see him in your</text>
+      <text x="688" y="110" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" fill="#111">monitor's reflection.</text>
     </g>
   </g>
 
@@ -207,13 +207,13 @@
     <!-- Dailbert flat balloon -->
     <g>
       <path d="M852 24 h78 a10 10 0 0 1 10 10 v22 a10 10 0 0 1 -10 10 h-30 l-12 14 l-1 -14 h-35 a10 10 0 0 1 -10 -10 v-22 a10 10 0 0 1 10 -10 z" fill="#fff" stroke="#111" stroke-width="2.4"/>
-      <text x="891" y="50" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111">Doug.</text>
+      <text x="891" y="50" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111">Doug.</text>
     </g>
 
     <!-- Doug balloon -->
     <g>
       <path d="M1012 24 h150 a10 10 0 0 1 10 10 v24 a10 10 0 0 1 -10 10 h-50 l-14 14 l-1 -14 h-85 a10 10 0 0 1 -10 -10 v-24 a10 10 0 0 1 10 -10 z" fill="#fff" stroke="#111" stroke-width="2.4"/>
-      <text x="1087" y="52" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" fill="#111">My phone was at 4%!</text>
+      <text x="1087" y="52" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111">My phone was at 4%!</text>
     </g>
 
     <!-- Clanker screen balloon (from mug) -->
@@ -221,9 +221,9 @@
       <rect x="928" y="108" width="184" height="80" rx="3" fill="#fff" stroke="#111" stroke-width="2.4"/>
       <rect x="933" y="113" width="174" height="70" rx="2" fill="none" stroke="#111" stroke-width="1.2"/>
       <line x1="1040" y1="188" x2="1058" y2="250" stroke="#111" stroke-width="1.4" stroke-dasharray="3 3"/>
-      <text x="1020" y="132" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13.5" fill="#111">So was production,</text>
-      <text x="1020" y="148" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13.5" fill="#111">Doug. So was</text>
-      <text x="1020" y="164" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="13.5" fill="#111">production.</text>
+      <text x="1020" y="132" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" fill="#111">So was production,</text>
+      <text x="1020" y="148" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" fill="#111">Doug. So was</text>
+      <text x="1020" y="164" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" fill="#111">production.</text>
     </g>
   </g>
 </g>

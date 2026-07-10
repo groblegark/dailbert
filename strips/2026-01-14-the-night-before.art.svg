@@ -69,8 +69,8 @@
     <!-- balloon -->
     <path d="M150 138 L104 160 L142 142 Z" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <ellipse cx="182" cy="108" rx="70" ry="33" fill="#fff" stroke="#111" stroke-width="2.5"/>
-    <text x="182" y="103" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111" text-anchor="middle">It comes online</text>
-    <text x="182" y="122" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111" text-anchor="middle">tomorrow.</text>
+    <text x="182" y="103" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111" text-anchor="middle">It comes online</text>
+    <text x="182" y="122" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111" text-anchor="middle">tomorrow.</text>
     <rect x="1" y="1" width="398" height="338" rx="3" fill="none" stroke="#111" stroke-width="3"/>
   </g>
 
@@ -106,8 +106,8 @@
     <!-- balloon (doug) -->
     <path d="M108 128 L86 158 L124 140 Z" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <ellipse cx="118" cy="100" rx="70" ry="32" fill="#fff" stroke="#111" stroke-width="2.5"/>
-    <text x="118" y="95" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111" text-anchor="middle">So who left</text>
-    <text x="118" y="114" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111" text-anchor="middle">the light on?</text>
+    <text x="118" y="95" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111" text-anchor="middle">So who left</text>
+    <text x="118" y="114" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111" text-anchor="middle">the light on?</text>
     <rect x="1" y="1" width="398" height="338" rx="3" fill="none" stroke="#111" stroke-width="3"/>
   </g>
 
@@ -144,8 +144,8 @@
     <line x1="176" y1="118" x2="238" y2="156" stroke="#111" stroke-width="1.5" stroke-dasharray="4 4"/>
     <rect x="36" y="60" width="152" height="60" rx="3" fill="#fff" stroke="#111" stroke-width="2.5"/>
     <rect x="42" y="66" width="140" height="48" rx="2" fill="none" stroke="#111" stroke-width="1.2"/>
-    <text x="112" y="88" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111" text-anchor="middle">Goodnight.</text>
-    <text x="112" y="107" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111" text-anchor="middle">See you tomorrow.</text>
+    <text x="112" y="88" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111" text-anchor="middle">Goodnight.</text>
+    <text x="112" y="107" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111" text-anchor="middle">See you tomorrow.</text>
     <rect x="1" y="1" width="398" height="338" rx="3" fill="none" stroke="#111" stroke-width="3"/>
   </g>
 </svg>
