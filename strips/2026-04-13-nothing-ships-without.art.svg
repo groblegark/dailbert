@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 340" width="1228" height="340">
+  <defs>
+    <style>
+      .ink{fill:none;stroke:#111;stroke-width:2.6;stroke-linejoin:round;stroke-linecap:round;}
+      .thin{fill:none;stroke:#111;stroke-width:1.6;stroke-linejoin:round;stroke-linecap:round;}
+      .fillw{fill:#f4f1ea;}
+      .sk{fill:none;stroke:#8a8f96;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;}
+      .glow{fill:#8a8f96;}
+      text{font-family:'Comic Sans MS','Segoe Print',cursive;fill:#111;}
+      .say{font-size:14px;text-anchor:middle;}
+      .lbl{font-size:12px;text-anchor:middle;fill:#111;}
+    </style>
+
+    <!-- DAILBERT -->
+    <symbol id="dailbert" viewBox="0 0 100 130">
+      <path class="ink fillw" d="M22 128 Q22 92 50 92 Q78 92 78 128"/>
+      <path class="ink fillw" d="M28 20 Q28 -2 50 4 Q72 -2 72 20 Q78 46 50 50 Q22 46 28 20Z"/>
+      <path class="ink" d="M50 4 Q46 -6 55 -6 Q49 -1 54 3"/>
+      <circle class="ink fillw" cx="41" cy="30" r="8"/>
+      <circle class="ink fillw" cx="59" cy="30" r="8"/>
+      <path class="thin" d="M49 30 h2"/>
+      <circle cx="41" cy="30" r="1.6" fill="#111"/>
+      <circle cx="59" cy="30" r="1.6" fill="#111"/>
+      <path class="thin" d="M44 42 Q50 45 56 42"/>
+      <path class="ink" d="M50 50 L44 64 L56 64 L50 50"/>
+      <path class="ink" d="M48 64 L50 90 L52 64"/>
+    </symbol>
+
+    <!-- DOUG -->
+    <symbol id="doug" viewBox="0 0 100 130">
+      <path class="ink fillw" d="M18 128 Q18 90 50 90 Q82 90 82 128"/>
+      <circle class="ink fillw" cx="50" cy="34" r="30"/>
+      <path class="ink" d="M40 14 Q46 6 52 12"/>
+      <circle cx="41" cy="32" r="2.4" fill="#111"/>
+      <circle cx="59" cy="32" r="2.4" fill="#111"/>
+      <path class="ink" d="M36 42 Q50 58 64 42"/>
+      <!-- mug -->
+      <rect class="ink fillw" x="60" y="96" width="26" height="22" rx="3"/>
+      <path class="ink" d="M86 100 q10 2 0 12"/>
+      <path class="thin" d="M64 100 q6 3 0 6" stroke="#8a8f96"/>
+    </symbol>
+
+    <!-- PRIYA -->
+    <symbol id="priya" viewBox="0 0 100 130">
+      <path class="ink fillw" d="M20 128 Q20 90 50 90 Q80 90 80 128"/>
+      <!-- rolled sleeves cuffs -->
+      <path class="ink" d="M24 108 h14 M62 108 h14"/>
+      <path class="ink fillw" d="M28 24 Q28 2 50 4 Q72 2 72 24 Q76 48 50 52 Q24 48 28 24Z"/>
+      <!-- curly hair up -->
+      <path class="ink fillw" d="M28 22 Q22 8 34 6 Q40 -4 52 2 Q66 -4 70 8 Q80 10 72 24 Q64 12 50 12 Q36 12 28 22Z"/>
+      <circle class="ink fillw" cx="50" cy="-1" r="7"/>
+      <!-- rectangular glasses -->
+      <rect class="ink fillw" x="33" y="28" width="15" height="10" rx="1.5"/>
+      <rect class="ink fillw" x="52" y="28" width="15" height="10" rx="1.5"/>
+      <path class="thin" d="M48 33 h4"/>
+      <circle cx="40" cy="33" r="1.5" fill="#111"/>
+      <circle cx="59" cy="33" r="1.5" fill="#111"/>
+      <path class="thin" d="M43 45 Q50 48 57 45"/>
+    </symbol>
+
+    <!-- BOSS -->
+    <symbol id="boss" viewBox="0 0 100 130">
+      <path class="ink fillw" d="M20 128 Q20 90 50 90 Q80 90 80 128"/>
+      <path class="ink fillw" d="M30 26 Q30 6 50 8 Q70 6 70 26 Q74 48 50 52 Q26 48 30 26Z"/>
+      <!-- two tall spikes -->
+      <path class="ink fillw" d="M36 12 L30 -12 L46 10Z"/>
+      <path class="ink fillw" d="M60 12 L70 -12 L52 10Z"/>
+      <circle cx="42" cy="30" r="1.8" fill="#111"/>
+      <circle cx="58" cy="30" r="1.8" fill="#111"/>
+      <path class="thin" d="M44 42 Q50 44 56 42"/>
+      <!-- tie -->
+      <path class="ink" d="M50 52 L45 60 L50 88 L55 60Z"/>
+      <path class="ink" d="M45 54 L50 52 L55 54"/>
+    </symbol>
+
+    <!-- CLANKER (drawn inside a surface) -->
+    <symbol id="clanker" viewBox="0 0 100 100">
+      <rect class="sk" x="22" y="26" width="56" height="46" rx="6"/>
+      <line class="sk" x1="50" y1="26" x2="50" y2="14"/>
+      <circle class="glow" cx="50" cy="11" r="3.2"/>
+      <rect class="glow" x="32" y="40" width="12" height="6" rx="1.5"/>
+      <rect class="glow" x="56" y="40" width="12" height="6" rx="1.5"/>
+      <line class="sk" x1="34" y1="60" x2="66" y2="60"/>
+      <line class="sk" x1="34" y1="64" x2="66" y2="64"/>
+      <line class="sk" x1="40" y1="56" x2="40" y2="68"/>
+      <line class="sk" x1="50" y1="56" x2="50" y2="68"/>
+      <line class="sk" x1="60" y1="56" x2="60" y2="68"/>
+    </symbol>
+  </defs>
+
+  <!-- ===================== PANEL 1 ===================== -->
+  <g>
+    <rect x="1" y="8" width="400" height="324" rx="3" class="fillw" stroke="#111" stroke-width="2.6"/>
+    <!-- whiteboard -->
+    <rect x="26" y="34" width="150" height="96" rx="3" class="ink fillw"/>
+    <text x="101" y="66" class="lbl">APPROVAL</text>
+    <text x="101" y="86" class="lbl">PROCESS</text>
+    <text x="101" y="110" class="lbl" font-size="11">v1</text>
+    <path class="thin" d="M60 120 h40" stroke="#8a8f96"/>
+
+    <!-- boss -->
+    <use href="#boss" x="150" y="150" width="120" height="156"/>
+    <path class="ink" d="M232 210 L272 176" /><!-- pointing arm -->
+
+    <!-- dailbert seated -->
+    <use href="#dailbert" x="270" y="176" width="112" height="146"/>
+
+    <!-- boss balloon -->
+    <path class="ink fillw" d="M214 40 Q214 24 262 24 L360 24 Q384 24 384 44 Q384 64 360 64 L266 64 L250 78 L254 64 Q214 62 214 44Z"/>
+    <text x="299" y="42" class="say">Nothing ships</text>
+    <text x="299" y="58" class="say">without approval.</text>
+  </g>
+
+  <!-- ===================== PANEL 2 ===================== -->
+  <g>
+    <rect x="414" y="8" width="400" height="324" rx="3" class="fillw" stroke="#111" stroke-width="2.6"/>
+
+    <!-- desk + monitor -->
+    <rect x="440" y="196" width="120" height="86" rx="4" fill="#1b1f24" stroke="#111" stroke-width="2.6"/>
+    <rect x="492" y="282" width="16" height="14" fill="#1b1f24" stroke="#111" stroke-width="2.6"/>
+    <rect x="474" y="296" width="52" height="7" rx="2" class="ink fillw"/>
+    <use href="#clanker" x="452" y="196" width="96" height="86"/>
+
+    <!-- dailbert holding long form -->
+    <use href="#dailbert" x="560" y="176" width="112" height="146"/>
+    <path class="ink fillw" d="M636 210 q30 6 6 20 q-28 8 4 20 q30 8 2 22 q-24 6 6 18"/>
+
+    <!-- doug behind with mug -->
+    <use href="#doug" x="700" y="188" width="100" height="130"/>
+
+    <!-- clanker balloon: rectangular, dashed line to monitor -->
+    <path class="thin" stroke-dasharray="4 4" d="M520 190 L560 150"/>
+    <rect x="500" y="28" width="196" height="66" rx="3" class="ink fillw"/>
+    <text x="598" y="48" class="say">I improved approvals.</text>
+    <text x="598" y="66" class="say">First, approve the</text>
+    <text x="598" y="84" class="say">approval.</text>
+
+    <!-- doug balloon -->
+    <path class="ink fillw" d="M706 150 Q706 136 738 136 L788 136 Q806 136 806 152 Q806 168 788 168 L760 168 L752 180 L754 168 Q706 166 706 152Z"/>
+    <text x="756" y="157" class="say">Thorough.</text>
+  </g>
+
+  <!-- ===================== PANEL 3 ===================== -->
+  <g>
+    <rect x="828" y="8" width="400" height="324" rx="3" class="fillw" stroke="#111" stroke-width="2.6"/>
+
+    <!-- dailbert left, buried in the long scroll -->
+    <use href="#dailbert" x="846" y="184" width="104" height="140"/>
+    <path class="ink fillw" d="M902 214 q22 30 -6 44 q30 6 8 24 q26 4 6 20"/>
+
+    <!-- priya handing a single signed sheet to boss -->
+    <use href="#priya" x="948" y="176" width="112" height="150"/>
+    <!-- single sheet -->
+    <rect x="1044" y="238" width="34" height="26" rx="2" class="ink fillw" transform="rotate(6 1061 251)"/>
+    <path class="thin" d="M1050 250 q6 4 12 -2" transform="rotate(6 1061 251)"/>
+
+    <!-- boss receiving -->
+    <use href="#boss" x="1088" y="182" width="112" height="146"/>
+
+    <!-- priya balloon -->
+    <path class="ink fillw" d="M968 40 Q968 24 1016 24 L1122 24 Q1146 24 1146 44 Q1146 66 1122 66 L1030 66 L1016 80 L1020 66 Q968 64 968 44Z"/>
+    <text x="1057" y="42" class="say">Policy says one</text>
+    <text x="1057" y="60" class="say">signature.</text>
+
+    <!-- dailbert small balloon -->
+    <path class="ink fillw" d="M840 150 Q840 138 866 138 L916 138 Q934 138 934 152 Q934 166 916 166 L892 166 L884 178 L886 166 Q840 164 840 152Z"/>
+    <text x="887" y="157" class="say">I did forty.</text>
+  </g>
+</svg>

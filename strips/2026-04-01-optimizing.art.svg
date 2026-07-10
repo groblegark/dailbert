@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 340" width="1228" height="340">
+  <defs>
+    <style>
+      .ink{fill:none;stroke:#111;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+      .fillp{fill:#f4f1ea;stroke:#111;stroke-width:2.4;stroke-linejoin:round;stroke-linecap:round}
+      .sol{fill:#111;stroke:none}
+      .bt{font-family:'Comic Sans MS','Segoe Print',cursive;font-size:15px;fill:#111;text-anchor:middle}
+      .ctl{font-family:'Comic Sans MS','Segoe Print',cursive;font-size:12px;fill:#111;text-anchor:middle;font-weight:bold}
+      .bub{fill:#ffffff;stroke:#111;stroke-width:2.2}
+      .rob{fill:#26292e;stroke:#cfd3d8;stroke-width:2}
+      .robln{fill:none;stroke:#cfd3d8;stroke-width:2;stroke-linecap:round}
+      .glow{fill:#dfe6ea;stroke:none}
+    </style>
+
+    <!-- DAILBERT -->
+    <symbol id="dailbert" viewBox="0 0 120 210">
+      <path class="fillp" d="M26 210 L30 128 Q32 108 52 100 L68 100 Q88 108 90 128 L94 210"/>
+      <path class="ink" d="M52 100 L60 116 L68 100"/>
+      <path class="sol" d="M60 116 L55 165 L60 176 L65 165 Z"/>
+      <path class="ink" d="M52 90 L52 100 M68 90 L68 100"/>
+      <ellipse class="fillp" cx="60" cy="60" rx="27" ry="30"/>
+      <circle class="fillp" cx="33" cy="60" r="4"/>
+      <circle class="fillp" cx="87" cy="60" r="4"/>
+      <path class="ink" d="M60 30 q10 -7 2 -14"/>
+      <path class="ink" d="M40 42 Q46 33 55 36 M80 42 Q74 33 65 36"/>
+      <circle class="ink" cx="50" cy="60" r="10"/>
+      <circle class="ink" cx="70" cy="60" r="10"/>
+      <path class="ink" d="M60 60 h0 M40 60 L33 59 M80 60 L87 59"/>
+      <circle class="sol" cx="50" cy="61" r="2"/>
+      <circle class="sol" cx="70" cy="61" r="2"/>
+      <path class="ink" d="M60 64 L56 71 L61 71"/>
+      <path class="ink" d="M52 80 Q60 84 68 80"/>
+    </symbol>
+
+    <!-- DOUG -->
+    <symbol id="doug" viewBox="0 0 130 210">
+      <path class="fillp" d="M24 210 L28 130 Q30 110 50 102 L66 102 Q86 110 88 130 L92 210"/>
+      <path class="ink" d="M50 102 L58 116 L66 102"/>
+      <path class="ink" d="M50 90 L50 100 M66 90 L66 100"/>
+      <circle class="fillp" cx="58" cy="58" r="31"/>
+      <path class="ink" d="M45 30 Q58 22 71 30 M40 40 Q48 33 55 36"/>
+      <circle class="sol" cx="48" cy="56" r="3"/>
+      <circle class="sol" cx="68" cy="56" r="3"/>
+      <path class="ink" d="M42 70 Q58 88 74 70"/>
+      <path class="ink" d="M88 128 Q104 138 100 148"/>
+      <path class="fillp" d="M92 142 L118 142 L116 172 L94 172 Z"/>
+      <path class="ink" d="M118 148 q13 4 0 18"/>
+      <path class="ink" d="M99 132 q4 -6 0 -11 M108 132 q4 -6 0 -11"/>
+    </symbol>
+
+    <!-- PRIYA -->
+    <symbol id="priya" viewBox="0 0 130 210">
+      <path class="fillp" d="M26 210 L30 128 Q32 108 52 100 L68 100 Q88 108 90 128 L94 210"/>
+      <path class="ink" d="M53 90 L53 100 M67 90 L67 100"/>
+      <ellipse class="fillp" cx="60" cy="62" rx="26" ry="30"/>
+      <circle class="fillp" cx="40" cy="42" r="8"/>
+      <circle class="fillp" cx="52" cy="33" r="8"/>
+      <circle class="fillp" cx="68" cy="33" r="8"/>
+      <circle class="fillp" cx="80" cy="42" r="8"/>
+      <circle class="fillp" cx="60" cy="24" r="11"/>
+      <rect class="ink" x="40" y="54" width="18" height="13" rx="2"/>
+      <rect class="ink" x="62" y="54" width="18" height="13" rx="2"/>
+      <path class="ink" d="M58 60 L62 60 M40 58 L34 58 M80 58 L86 58"/>
+      <circle class="sol" cx="49" cy="61" r="2"/>
+      <circle class="sol" cx="71" cy="61" r="2"/>
+      <path class="ink" d="M60 66 L57 72 L61 72"/>
+      <path class="ink" d="M53 80 Q60 82 67 80"/>
+      <path class="fillp" d="M30 132 L92 152 L90 163 L28 143 Z"/>
+      <path class="fillp" d="M92 130 L30 150 L32 161 L94 141 Z"/>
+      <path class="ink" d="M40 128 L37 138 M80 128 L83 138"/>
+    </symbol>
+
+    <!-- BOSS -->
+    <symbol id="boss" viewBox="0 0 120 210">
+      <path class="fillp" d="M24 210 L28 126 Q30 108 52 100 L68 100 Q90 108 92 126 L96 210"/>
+      <path class="ink" d="M52 100 L44 150 M68 100 L76 150"/>
+      <path class="ink" d="M52 100 L60 120 L68 100"/>
+      <path class="sol" d="M60 120 L55 178 L60 188 L65 178 Z"/>
+      <path class="ink" d="M53 90 L53 100 M67 90 L67 100"/>
+      <ellipse class="fillp" cx="60" cy="62" rx="26" ry="28"/>
+      <path class="fillp" d="M42 42 L34 8 L54 36 Z"/>
+      <path class="fillp" d="M78 42 L86 8 L66 36 Z"/>
+      <path class="ink" d="M46 54 L56 57 M64 57 L74 54"/>
+      <circle class="sol" cx="53" cy="61" r="1.7"/>
+      <circle class="sol" cx="67" cy="61" r="1.7"/>
+      <path class="ink" d="M60 63 L57 69 L61 69"/>
+      <path class="ink" d="M52 78 Q60 81 68 76"/>
+    </symbol>
+
+    <!-- CLANKER (drawn only inside a screen) -->
+    <symbol id="clanker" viewBox="0 0 100 90">
+      <rect class="rob" x="24" y="20" width="52" height="48" rx="7"/>
+      <path class="robln" d="M50 20 L50 9"/>
+      <circle class="glow" cx="50" cy="6" r="3"/>
+      <rect class="glow" x="32" y="36" width="12" height="7" rx="3"/>
+      <rect class="glow" x="56" y="36" width="12" height="7" rx="3"/>
+      <path class="robln" d="M34 52 H66 M34 56 H66 M34 60 H66"/>
+      <circle class="glow" cx="30" cy="30" r="1.6"/>
+      <circle class="glow" cx="70" cy="30" r="1.6"/>
+    </symbol>
+
+    <!-- MONITOR -->
+    <symbol id="monitor" viewBox="0 0 160 150">
+      <rect x="50" y="128" width="60" height="9" rx="3" class="fillp"/>
+      <path class="ink" d="M74 106 L74 128 M86 106 L86 128"/>
+      <rect x="6" y="6" width="148" height="100" rx="8" fill="#1c1c1c" stroke="#111" stroke-width="3"/>
+      <rect x="14" y="14" width="132" height="84" rx="4" fill="none" stroke="#3a3d42" stroke-width="2"/>
+    </symbol>
+
+    <!-- LAPTOP -->
+    <symbol id="laptop" viewBox="0 0 160 110">
+      <rect x="30" y="6" width="100" height="70" rx="4" fill="#f7f5ee" stroke="#111" stroke-width="2.6"/>
+      <path class="fillp" d="M14 100 L146 100 L134 78 L26 78 Z"/>
+      <path class="ink" d="M26 78 L134 78"/>
+    </symbol>
+  </defs>
+
+  <!-- ===================== PANEL 1 ===================== -->
+  <g>
+    <rect x="1.4" y="6" width="397.2" height="326" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+    <path class="ink" d="M18 292 L382 292"/>
+    <rect x="30" y="266" width="352" height="7" rx="2" class="fillp"/>
+
+    <use href="#boss" x="34" y="92" width="130" height="228"/>
+    <use href="#monitor" x="225" y="145" width="150" height="141"/>
+    <use href="#clanker" x="258" y="163" width="88" height="79"/>
+
+    <!-- Boss balloon -->
+    <path class="bub" d="M40 20 h172 a12 12 0 0 1 12 12 v34 a12 12 0 0 1 -12 12 h-92 l-14 20 l-2 -20 h-64 a12 12 0 0 1 -12 -12 v-34 a12 12 0 0 1 12 -12 Z"/>
+    <text class="bt" x="126" y="40">Standup runs</text>
+    <text class="bt" x="126" y="58">long. Make it</text>
+    <text class="bt" x="126" y="76">shorter.</text>
+
+    <!-- Clanker screen balloon (rectangular + dashed tether) -->
+    <path class="ink" style="stroke-dasharray:4 4" d="M310 70 L300 150"/>
+    <rect class="bub" x="234" y="16" width="158" height="54" rx="2"/>
+    <text class="bt" x="313" y="38">Understood.</text>
+    <text class="bt" x="313" y="58">Optimizing.</text>
+  </g>
+
+  <!-- ===================== PANEL 2 ===================== -->
+  <g transform="translate(414,0)">
+    <rect x="1.4" y="6" width="397.2" height="326" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+    <path class="ink" d="M18 300 L382 300"/>
+
+    <use href="#doug" x="4" y="118" width="120" height="194"/>
+    <use href="#dailbert" x="208" y="108" width="118" height="207"/>
+    <use href="#laptop" x="120" y="222" width="152" height="104"/>
+    <text class="ctl" x="196" y="252">DAILY STANDUP</text>
+    <text class="ctl" x="196" y="270">9:00:00 - 9:00:04</text>
+
+    <!-- Doug balloon -->
+    <path class="bub" d="M18 16 h120 a12 12 0 0 1 12 12 v28 a12 12 0 0 1 -12 12 h-52 l-14 18 l-2 -18 h-52 a12 12 0 0 1 -12 -12 v-28 a12 12 0 0 1 12 -12 Z"/>
+    <text class="bt" x="84" y="40">Four seconds.</text>
+
+    <!-- Dailbert balloon -->
+    <path class="bub" d="M214 14 h164 a12 12 0 0 1 12 12 v34 a12 12 0 0 1 -12 12 h-70 l-14 18 l-2 -18 h-78 a12 12 0 0 1 -12 -12 v-34 a12 12 0 0 1 12 -12 Z"/>
+    <text class="bt" x="298" y="38">It took "shorter"</text>
+    <text class="bt" x="298" y="57">seriously.</text>
+  </g>
+
+  <!-- ===================== PANEL 3 ===================== -->
+  <g transform="translate(828,0)">
+    <rect x="1.4" y="6" width="397.2" height="326" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+    <path class="ink" d="M18 300 L382 300"/>
+
+    <use href="#doug" x="-8" y="132" width="112" height="181"/>
+    <use href="#priya" x="138" y="100" width="132" height="213"/>
+
+    <!-- Doug balloon -->
+    <path class="bub" d="M14 18 h132 a12 12 0 0 1 12 12 v30 a12 12 0 0 1 -12 12 h-58 l-14 18 l-2 -18 h-58 a12 12 0 0 1 -12 -12 v-30 a12 12 0 0 1 12 -12 Z"/>
+    <text class="bt" x="80" y="42">But nobody</text>
+    <text class="bt" x="80" y="60">said anything.</text>
+
+    <!-- Priya balloon -->
+    <path class="bub" d="M232 20 h140 a12 12 0 0 1 12 12 v28 a12 12 0 0 1 -12 12 h-54 l-16 18 l-2 -18 h-68 a12 12 0 0 1 -12 -12 v-28 a12 12 0 0 1 12 -12 Z"/>
+    <text class="bt" x="302" y="44">Best one yet.</text>
+  </g>
+</svg>

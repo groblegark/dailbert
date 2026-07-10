@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 388" width="1228" height="388" font-family="Georgia,serif">
+    <rect width="1228" height="388" fill="#f4f1ea"/>
+    <text x="6" y="29" font-family="Georgia,serif" font-weight="bold" font-size="27" letter-spacing="2" fill="#111">DAILBERT</text>
+    <text x="1222" y="19" text-anchor="end" font-family="Georgia,serif" font-style="italic" font-size="16" fill="#111">Two Signatures</text>
+    <text x="1222" y="34" text-anchor="end" font-family="'Courier New',monospace" font-size="12" fill="#111" opacity="0.65">2026-04-06</text>
+    <line x1="6" y1="37" x2="1222" y2="37" stroke="#111" stroke-width="2"/>
+    <g transform="translate(0,40)">
+  <defs>
+    <clipPath id="p1"><rect x="2" y="2" width="396" height="336" rx="3"/></clipPath>
+    <clipPath id="p2"><rect x="416" y="2" width="396" height="336" rx="3"/></clipPath>
+    <clipPath id="p3"><rect x="830" y="2" width="396" height="336" rx="3"/></clipPath>
+
+    <symbol id="dailbert" viewBox="0 0 100 150">
+      <path d="M18,150 L21,104 Q23,90 40,86 L60,86 Q77,90 79,104 L82,150 Z" fill="#fff" stroke="#111" stroke-width="2.4"/>
+      <rect x="43" y="74" width="14" height="14" fill="#fff" stroke="#111" stroke-width="2.4"/>
+      <ellipse cx="50" cy="45" rx="26" ry="31" fill="#fff" stroke="#111" stroke-width="2.4"/>
+      <path d="M50,15 q-9,-9 -1,-13 q6,-3 4,4" fill="none" stroke="#111" stroke-width="2.4"/>
+      <path d="M50,86 L45,97 L50,120 L55,97 Z" fill="#111"/>
+      <circle cx="40" cy="46" r="9" fill="#fff" stroke="#111" stroke-width="2"/>
+      <circle cx="60" cy="46" r="9" fill="#fff" stroke="#111" stroke-width="2"/>
+      <line x1="49" y1="46" x2="51" y2="46" stroke="#111" stroke-width="2"/>
+      <line x1="31" y1="45" x2="24" y2="43" stroke="#111" stroke-width="2"/>
+      <line x1="69" y1="45" x2="76" y2="43" stroke="#111" stroke-width="2"/>
+      <circle cx="40" cy="46" r="2.2" fill="#111"/>
+      <circle cx="60" cy="46" r="2.2" fill="#111"/>
+      <line x1="44" y1="62" x2="56" y2="62" stroke="#111" stroke-width="2"/>
+    </symbol>
+
+    <symbol id="doug" viewBox="0 0 110 150">
+      <path d="M18,150 L21,104 Q23,90 40,86 L62,86 Q79,90 81,104 L84,150 Z" fill="#fff" stroke="#111" stroke-width="2.4"/>
+      <rect x="44" y="74" width="14" height="14" fill="#fff" stroke="#111" stroke-width="2.4"/>
+      <circle cx="51" cy="44" r="31" fill="#fff" stroke="#111" stroke-width="2.4"/>
+      <path d="M40,15 q4,-6 9,-1 M52,14 q5,-5 9,0" fill="none" stroke="#111" stroke-width="2"/>
+      <circle cx="42" cy="42" r="2.4" fill="#111"/>
+      <circle cx="60" cy="42" r="2.4" fill="#111"/>
+      <path d="M38,55 q13,14 26,0" fill="none" stroke="#111" stroke-width="2.4"/>
+      <rect x="70" y="112" width="26" height="24" rx="2" fill="#fff" stroke="#111" stroke-width="2.4"/>
+      <path d="M96,116 q10,2 0,14" fill="none" stroke="#111" stroke-width="2.4"/>
+      <path d="M76,110 q0,-6 8,-6 M84,104 q6,0 6,6" fill="none" stroke="#111" stroke-width="1.6"/>
+    </symbol>
+
+    <symbol id="priya" viewBox="0 0 100 150">
+      <path d="M16,150 L20,104 Q22,90 40,86 L60,86 Q78,90 80,104 L84,150 Z" fill="#fff" stroke="#111" stroke-width="2.4"/>
+      <line x1="24" y1="112" x2="36" y2="112" stroke="#111" stroke-width="2"/>
+      <line x1="64" y1="112" x2="76" y2="112" stroke="#111" stroke-width="2"/>
+      <rect x="43" y="74" width="14" height="14" fill="#fff" stroke="#111" stroke-width="2.4"/>
+      <path d="M20,46 q-5,-32 30,-35 q35,3 30,35 q5,10 -6,15 q3,-15 -8,-21 q-16,10 -32,0 q-11,6 -8,21 q-11,-5 -6,-15 Z" fill="#111"/>
+      <ellipse cx="50" cy="48" rx="24" ry="29" fill="#fff" stroke="#111" stroke-width="2.4"/>
+      <circle cx="50" cy="11" r="8" fill="#111"/>
+      <path d="M27,42 q-6,-25 23,-28 q29,3 23,28 q-8,-15 -23,-14 q-15,-1 -23,14 Z" fill="#111"/>
+      <rect x="31" y="43" width="16" height="11" rx="1.5" fill="#fff" stroke="#111" stroke-width="2"/>
+      <rect x="53" y="43" width="16" height="11" rx="1.5" fill="#fff" stroke="#111" stroke-width="2"/>
+      <line x1="47" y1="48" x2="53" y2="48" stroke="#111" stroke-width="2"/>
+      <circle cx="39" cy="48.5" r="2.2" fill="#111"/>
+      <circle cx="61" cy="48.5" r="2.2" fill="#111"/>
+      <line x1="45" y1="65" x2="56" y2="65" stroke="#111" stroke-width="2"/>
+    </symbol>
+
+    <symbol id="boss" viewBox="0 0 100 150">
+      <path d="M12,150 L16,100 Q18,86 38,82 L62,82 Q82,86 84,100 L88,150 Z" fill="#111"/>
+      <path d="M50,82 L40,100 L50,150 L60,100 Z" fill="#fff"/>
+      <path d="M50,82 L38,82 L46,104 Z" fill="#111" stroke="#fff" stroke-width="1"/>
+      <path d="M50,82 L62,82 L54,104 Z" fill="#111" stroke="#fff" stroke-width="1"/>
+      <path d="M50,84 L46,96 L50,116 L54,96 Z" fill="#111"/>
+      <rect x="44" y="72" width="12" height="12" fill="#fff" stroke="#111" stroke-width="2.4"/>
+      <ellipse cx="50" cy="46" rx="24" ry="28" fill="#fff" stroke="#111" stroke-width="2.4"/>
+      <path d="M40,22 L30,-6 L48,20 Z" fill="#111"/>
+      <path d="M60,22 L70,-6 L52,20 Z" fill="#111"/>
+      <circle cx="43" cy="46" r="1.8" fill="#111"/>
+      <circle cx="57" cy="46" r="1.8" fill="#111"/>
+      <line x1="44" y1="60" x2="56" y2="60" stroke="#111" stroke-width="2"/>
+    </symbol>
+
+    <symbol id="clanker" viewBox="0 0 120 100">
+      <line x1="60" y1="16" x2="60" y2="6" stroke="#9aa3ad" stroke-width="2"/>
+      <circle cx="60" cy="5" r="3" fill="#9aa3ad"/>
+      <rect x="30" y="16" width="60" height="52" rx="6" fill="#3a4048" stroke="#9aa3ad" stroke-width="2"/>
+      <rect x="38" y="30" width="16" height="7" rx="2" fill="#cfe8ff"/>
+      <rect x="66" y="30" width="16" height="7" rx="2" fill="#cfe8ff"/>
+      <rect x="42" y="48" width="36" height="12" rx="2" fill="#20242a" stroke="#9aa3ad" stroke-width="1.4"/>
+      <line x1="49" y1="48" x2="49" y2="60" stroke="#9aa3ad" stroke-width="1.2"/>
+      <line x1="56" y1="48" x2="56" y2="60" stroke="#9aa3ad" stroke-width="1.2"/>
+      <line x1="63" y1="48" x2="63" y2="60" stroke="#9aa3ad" stroke-width="1.2"/>
+      <line x1="70" y1="48" x2="70" y2="60" stroke="#9aa3ad" stroke-width="1.2"/>
+    </symbol>
+  </defs>
+
+  <rect x="0" y="0" width="1228" height="340" fill="#f4f1ea"/>
+
+  <!-- ===== PANEL 1 ===== -->
+  <g clip-path="url(#p1)">
+    <rect x="2" y="2" width="396" height="336" fill="#f4f1ea"/>
+    <line x1="18" y1="300" x2="382" y2="300" stroke="#111" stroke-width="2"/>
+    <use href="#boss" transform="translate(64,150) scale(1.15)"/>
+    <use href="#dailbert" transform="translate(238,186) scale(0.92)"/>
+    <use href="#doug" transform="translate(300,190) scale(0.92)"/>
+    <rect x="232" y="256" width="158" height="60" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+    <line x1="232" y1="272" x2="390" y2="272" stroke="#111" stroke-width="1.6"/>
+    <path d="M158,150 L138,100 L188,96 Z" fill="#fff" stroke="#111" stroke-width="2.4"/>
+    <rect x="118" y="18" width="184" height="80" rx="16" fill="#fff" stroke="#111" stroke-width="2.4"/>
+    <text x="210" y="44" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">New policy: nothing</text>
+    <text x="210" y="63" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">ships without two</text>
+    <text x="210" y="82" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">signatures.</text>
+  </g>
+
+  <!-- ===== PANEL 2 ===== -->
+  <g clip-path="url(#p2)">
+    <rect x="416" y="2" width="396" height="336" fill="#f4f1ea"/>
+    <line x1="422" y1="296" x2="806" y2="296" stroke="#111" stroke-width="2"/>
+    <use href="#dailbert" transform="translate(430,150) scale(1.06)"/>
+    <rect x="648" y="150" width="150" height="120" rx="6" fill="#111"/>
+    <rect x="656" y="158" width="134" height="96" rx="3" fill="#20242a"/>
+    <use href="#clanker" transform="translate(660,160)"/>
+    <rect x="708" y="270" width="30" height="16" fill="#111"/>
+    <rect x="684" y="286" width="78" height="8" rx="2" fill="#111"/>
+    <line x1="668" y1="112" x2="716" y2="160" stroke="#111" stroke-width="1.6" stroke-dasharray="4 4"/>
+    <rect x="548" y="14" width="250" height="100" rx="3" fill="#fff" stroke="#111" stroke-width="2.4"/>
+    <rect x="553" y="19" width="240" height="90" rx="2" fill="none" stroke="#111" stroke-width="1"/>
+    <text x="673" y="42" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">Done. I signed it</text>
+    <text x="673" y="62" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">as myself. Then</text>
+    <text x="673" y="82" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">again as myself.</text>
+    <text x="673" y="102" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="15" text-anchor="middle" fill="#111">I meant both.</text>
+  </g>
+
+  <!-- ===== PANEL 3 ===== -->
+  <g clip-path="url(#p3)">
+    <rect x="830" y="2" width="396" height="336" fill="#f4f1ea"/>
+    <line x1="840" y1="302" x2="1220" y2="302" stroke="#111" stroke-width="2"/>
+    <use href="#boss" transform="translate(842,168) scale(1.0)"/>
+    <use href="#priya" transform="translate(966,152) scale(1.2)"/>
+    <use href="#doug" transform="translate(1106,168) scale(0.98)"/>
+    <path d="M892,150 L886,74 L924,74 Z" fill="#fff" stroke="#111" stroke-width="2.4"/>
+    <rect x="834" y="16" width="140" height="60" rx="14" fill="#fff" stroke="#111" stroke-width="2.4"/>
+    <text x="904" y="41" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Who's the second</text>
+    <text x="904" y="59" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">signer?</text>
+    <path d="M1030,152 L1018,86 L1052,86 Z" fill="#fff" stroke="#111" stroke-width="2.4"/>
+    <rect x="985" y="12" width="152" height="76" rx="14" fill="#fff" stroke="#111" stroke-width="2.4"/>
+    <text x="1061" y="36" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Same one. It</text>
+    <text x="1061" y="55" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">shipped an hour</text>
+    <text x="1061" y="74" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">ago.</text>
+    <path d="M1156,206 L1150,236 L1176,236 Z" fill="#fff" stroke="#111" stroke-width="2.4"/>
+    <rect x="1096" y="232" width="120" height="44" rx="14" fill="#fff" stroke="#111" stroke-width="2.4"/>
+    <text x="1156" y="259" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" text-anchor="middle" fill="#111">Democracy.</text>
+  </g>
+
+  <rect x="2" y="2" width="396" height="336" rx="3" fill="none" stroke="#111" stroke-width="2.4"/>
+  <rect x="416" y="2" width="396" height="336" rx="3" fill="none" stroke="#111" stroke-width="2.4"/>
+  <rect x="830" y="2" width="396" height="336" rx="3" fill="none" stroke="#111" stroke-width="2.4"/>
+</g>
+    <text x="1218" y="372" text-anchor="end" font-family="'Segoe Script','Comic Sans MS',cursive" font-style="italic" font-size="11" fill="#111" opacity="0.32">Matt Clanker</text>
+    
+  </svg>

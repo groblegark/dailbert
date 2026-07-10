@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 388" width="1228" height="388" font-family="Georgia,serif">
+    <rect width="1228" height="388" fill="#f4f1ea"/>
+    <text x="6" y="29" font-family="Georgia,serif" font-weight="bold" font-size="27" letter-spacing="2" fill="#111">DAILBERT</text>
+    <text x="1222" y="19" text-anchor="end" font-family="Georgia,serif" font-style="italic" font-size="16" fill="#111">The Form Is Growing</text>
+    <text x="1222" y="34" text-anchor="end" font-family="'Courier New',monospace" font-size="12" fill="#111" opacity="0.65">2026-05-21</text>
+    <line x1="6" y1="37" x2="1222" y2="37" stroke="#111" stroke-width="2"/>
+    <g transform="translate(0,40)">
+  <defs>
+    <clipPath id="pnl"><rect x="0" y="0" width="400" height="340"/></clipPath>
+
+    <!-- CLANKER: only ever inside a surface -->
+    <symbol id="clanker" viewBox="0 0 80 70">
+      <line x1="40" y1="6" x2="40" y2="16" stroke="#d6d9de" stroke-width="2.5"/>
+      <circle cx="40" cy="5" r="3" fill="#d6d9de"/>
+      <rect x="16" y="16" width="48" height="40" rx="6" fill="#d6d9de" stroke="#222" stroke-width="2"/>
+      <rect x="24" y="28" width="12" height="6" rx="3" fill="#fff"/>
+      <rect x="44" y="28" width="12" height="6" rx="3" fill="#fff"/>
+      <rect x="28" y="42" width="24" height="9" rx="2" fill="#eef" stroke="#222" stroke-width="1.5"/>
+      <line x1="34" y1="42" x2="34" y2="51" stroke="#222" stroke-width="1.2"/>
+      <line x1="40" y1="42" x2="40" y2="51" stroke="#222" stroke-width="1.2"/>
+      <line x1="46" y1="42" x2="46" y2="51" stroke="#222" stroke-width="1.2"/>
+    </symbol>
+
+    <!-- DAILBERT -->
+    <symbol id="dailbert" viewBox="0 0 120 170">
+      <path d="M30 170 Q30 130 60 124 Q90 130 90 170 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M60 124 L54 134 L60 152 L66 134 Z" fill="#111"/>
+      <rect x="52" y="112" width="16" height="16" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <ellipse cx="60" cy="72" rx="28" ry="32" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M60 40 q9 -13 16 -3 q-6 6 -13 4" fill="none" stroke="#111" stroke-width="2.5"/>
+      <circle cx="48" cy="72" r="10" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <circle cx="74" cy="72" r="10" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <line x1="58" y1="72" x2="64" y2="72" stroke="#111" stroke-width="2.5"/>
+      <circle cx="48" cy="72" r="2.6" fill="#111"/>
+      <circle cx="74" cy="72" r="2.6" fill="#111"/>
+      <path d="M52 92 q8 4 16 0" fill="none" stroke="#111" stroke-width="2.5"/>
+    </symbol>
+
+    <!-- DOUG -->
+    <symbol id="doug" viewBox="0 0 120 170">
+      <path d="M28 170 Q30 128 60 122 Q90 128 92 170 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <rect x="52" y="104" width="16" height="16" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <circle cx="60" cy="70" r="33" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M40 44 Q46 34 52 45 M52 42 Q60 31 68 43 M66 45 Q74 36 80 47" fill="none" stroke="#111" stroke-width="2.2"/>
+      <circle cx="50" cy="66" r="3" fill="#111"/>
+      <circle cx="72" cy="66" r="3" fill="#111"/>
+      <path d="M44 82 Q61 104 78 82 Z" fill="#fff" stroke="#111" stroke-width="2.5"/>
+    </symbol>
+
+    <!-- PRIYA : the hero -->
+    <symbol id="priya" viewBox="0 0 120 170">
+      <path d="M28 170 Q30 128 60 122 Q90 128 92 170 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M40 150 Q46 140 52 148 M80 150 Q74 140 68 148" fill="none" stroke="#111" stroke-width="2"/>
+      <rect x="52" y="104" width="16" height="16" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <ellipse cx="60" cy="62" rx="35" ry="37" fill="#111"/>
+      <circle cx="46" cy="30" r="10" fill="#111"/>
+      <circle cx="60" cy="25" r="12" fill="#111"/>
+      <circle cx="74" cy="30" r="10" fill="#111"/>
+      <ellipse cx="60" cy="74" rx="25" ry="28" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <path d="M30 58 Q22 66 30 74 M90 58 Q98 66 90 74" fill="none" stroke="#111" stroke-width="2.2"/>
+      <rect x="37" y="66" width="21" height="14" rx="2.5" fill="#fff" stroke="#111" stroke-width="2.3"/>
+      <rect x="63" y="66" width="21" height="14" rx="2.5" fill="#fff" stroke="#111" stroke-width="2.3"/>
+      <line x1="58" y1="72" x2="63" y2="72" stroke="#111" stroke-width="2.3"/>
+      <circle cx="47.5" cy="73" r="2.4" fill="#111"/>
+      <circle cx="73.5" cy="73" r="2.4" fill="#111"/>
+      <path d="M52 92 Q60 96 68 92" fill="none" stroke="#111" stroke-width="2.4"/>
+    </symbol>
+
+    <!-- BOSS -->
+    <symbol id="boss" viewBox="0 0 120 210">
+      <path d="M20 210 Q22 150 60 142 Q98 150 100 210 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M60 142 L48 158 L60 170 L72 158 Z" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <path d="M60 158 L55 168 L60 186 L65 168 Z" fill="#111"/>
+      <rect x="52" y="128" width="16" height="18" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <ellipse cx="60" cy="86" rx="24" ry="27" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M46 62 L40 16 L56 60 Z" fill="#111" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M64 60 L80 14 L74 63 Z" fill="#111" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+      <circle cx="52" cy="86" r="2.3" fill="#111"/>
+      <circle cx="68" cy="86" r="2.3" fill="#111"/>
+      <path d="M54 100 q6 3 12 0" fill="none" stroke="#111" stroke-width="2.3"/>
+    </symbol>
+  </defs>
+
+  <rect x="0" y="0" width="1228" height="340" fill="#f4f1ea"/>
+
+  <!-- ===================== PANEL 1 : the all-hands ===================== -->
+  <g clip-path="url(#pnl)">
+    <rect x="0" y="0" width="400" height="340" fill="#f4f1ea"/>
+    <line x1="0" y1="292" x2="400" y2="292" stroke="#111" stroke-width="1.6"/>
+
+    <!-- projector screen with the clanker inside -->
+    <rect x="250" y="36" width="126" height="86" rx="3" fill="#363b44" stroke="#111" stroke-width="2.5"/>
+    <rect x="256" y="42" width="114" height="74" fill="none" stroke="#5b636e" stroke-width="1"/>
+    <line x1="313" y1="122" x2="313" y2="150" stroke="#111" stroke-width="2"/>
+    <line x1="296" y1="150" x2="330" y2="150" stroke="#111" stroke-width="2"/>
+    <use href="#clanker" x="278" y="50" width="70" height="62"/>
+
+    <!-- boss at podium -->
+    <use href="#boss" x="45" y="70" width="150" height="210"/>
+    <rect x="62" y="206" width="118" height="130" rx="4" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <line x1="121" y1="206" x2="121" y2="336" stroke="#111" stroke-width="1.4"/>
+    <rect x="78" y="234" width="60" height="34" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="1.6"/>
+
+    <!-- audience heads, foreground -->
+    <path d="M8 340 Q8 312 40 312 Q72 312 72 340 Z" fill="#111"/>
+    <path d="M212 340 Q212 314 244 314 Q276 314 276 340 Z" fill="#111"/>
+    <path d="M330 340 Q330 316 360 316 Q390 316 390 340 Z" fill="#111"/>
+
+    <!-- boss balloon -->
+    <rect x="14" y="12" width="184" height="78" rx="15" fill="#fff" stroke="#111" stroke-width="2.5"/>
+    <path d="M96 88 L124 128 L118 84 Z" fill="#fff" stroke="#111" stroke-width="2.5"/>
+    <text x="106" y="38" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">New rule: no meeting</text>
+    <text x="106" y="58" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">without a signed</text>
+    <text x="106" y="78" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">approval form.</text>
+  </g>
+  <rect x="1.5" y="1.5" width="397" height="337" rx="3" fill="none" stroke="#111" stroke-width="2.5"/>
+
+  <!-- ===================== PANEL 2 : the clanker helps ===================== -->
+  <g transform="translate(414,0)" clip-path="url(#pnl)">
+    <rect x="0" y="0" width="400" height="340" fill="#f4f1ea"/>
+    <line x1="0" y1="256" x2="400" y2="256" stroke="#111" stroke-width="1.6"/>
+    <rect x="0" y="256" width="400" height="84" fill="#f4f1ea"/>
+
+    <!-- monitor with clanker (it speaks) -->
+    <rect x="24" y="132" width="138" height="106" rx="4" fill="#363b44" stroke="#111" stroke-width="2.5"/>
+    <rect x="30" y="138" width="126" height="94" fill="none" stroke="#5b636e" stroke-width="1"/>
+    <rect x="82" y="238" width="24" height="14" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+    <rect x="66" y="252" width="56" height="6" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+    <use href="#clanker" x="50" y="146" width="86" height="78"/>
+
+    <!-- dailbert at desk -->
+    <use href="#dailbert" x="246" y="132" width="140" height="200"/>
+
+    <!-- clanker screen-balloon + dashed line to its surface -->
+    <path d="M158 118 L120 132" fill="none" stroke="#111" stroke-width="1.6" stroke-dasharray="4 3"/>
+    <rect x="140" y="8" width="252" height="104" rx="2" fill="#fff" stroke="#111" stroke-width="2.5"/>
+    <rect x="145" y="13" width="242" height="94" fill="none" stroke="#111" stroke-width="1"/>
+    <text x="266" y="36" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">Done. I booked a meeting</text>
+    <text x="266" y="57" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">to approve the form.</text>
+    <text x="266" y="78" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">And a form to approve</text>
+    <text x="266" y="99" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">that meeting.</text>
+  </g>
+  <rect x="415.5" y="1.5" width="397" height="337" rx="3" fill="none" stroke="#111" stroke-width="2.5"/>
+
+  <!-- ===================== PANEL 3 : Priya wins, Doug's beat ===================== -->
+  <g transform="translate(828,0)" clip-path="url(#pnl)">
+    <rect x="0" y="0" width="400" height="340" fill="#f4f1ea"/>
+    <line x1="0" y1="262" x2="400" y2="262" stroke="#111" stroke-width="1.6"/>
+    <rect x="0" y="262" width="400" height="78" fill="#f4f1ea"/>
+
+    <!-- priya -->
+    <use href="#priya" x="20" y="102" width="152" height="216"/>
+
+    <!-- quiet clanker, watching, non-speaking -->
+    <rect x="150" y="182" width="74" height="60" rx="3" fill="#4a4f57" stroke="#111" stroke-width="2" opacity="0.92"/>
+    <g opacity="0.5"><use href="#clanker" x="162" y="190" width="50" height="45"/></g>
+    <rect x="176" y="242" width="22" height="10" fill="#f4f1ea" stroke="#111" stroke-width="1.6"/>
+
+    <!-- doug + mug -->
+    <use href="#doug" x="212" y="120" width="150" height="206"/>
+    <path d="M244 252 h30 v22 a6 6 0 0 1 -6 6 h-18 a6 6 0 0 1 -6 -6 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <path d="M274 256 q12 2 10 12 q-2 8 -10 6" fill="none" stroke="#111" stroke-width="2.5"/>
+    <path d="M250 246 q4 -8 0 -14 M262 246 q4 -8 0 -14" fill="none" stroke="#111" stroke-width="1.6"/>
+
+    <!-- priya balloon -->
+    <rect x="12" y="12" width="182" height="60" rx="15" fill="#fff" stroke="#111" stroke-width="2.5"/>
+    <path d="M74 70 L98 150 L88 66 Z" fill="#fff" stroke="#111" stroke-width="2.5"/>
+    <text x="103" y="38" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">I set the form</text>
+    <text x="103" y="58" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">to approve itself.</text>
+
+    <!-- doug balloon -->
+    <rect x="198" y="20" width="190" height="48" rx="15" fill="#fff" stroke="#111" stroke-width="2.5"/>
+    <path d="M286 66 L288 168 L302 64 Z" fill="#fff" stroke="#111" stroke-width="2.5"/>
+    <text x="293" y="50" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" text-anchor="middle" fill="#111">They grow up so fast.</text>
+  </g>
+  <rect x="829.5" y="1.5" width="397" height="337" rx="3" fill="none" stroke="#111" stroke-width="2.5"/>
+</g>
+    <text x="1218" y="372" text-anchor="end" font-family="'Segoe Script','Comic Sans MS',cursive" font-style="italic" font-size="11" fill="#111" opacity="0.32">Matt Clanker</text>
+    
+  </svg>

@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 340" width="1228" height="340">
+  <defs>
+    <!-- DAILBERT -->
+    <g id="dailbert">
+      <path d="M-32,6 L-26,-46 Q0,-60 26,-46 L32,6" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M-11,-46 L0,-35 L11,-46" fill="none" stroke="#111" stroke-width="2"/>
+      <rect x="-6" y="-54" width="12" height="12" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <path d="M0,-35 L-5,-16 L0,-6 L5,-16 Z" fill="#111"/>
+      <ellipse cx="0" cy="-72" rx="20" ry="24" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M-2,-96 q7,-9 13,-3 q4,4 -2,7" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="-8" cy="-74" r="7" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <circle cx="8" cy="-74" r="7" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <line x1="-1" y1="-74" x2="1" y2="-74" stroke="#111" stroke-width="2"/>
+      <line x1="-15" y1="-74" x2="-20" y2="-72" stroke="#111" stroke-width="2"/>
+      <circle cx="-8" cy="-74" r="1.6" fill="#111"/>
+      <circle cx="8" cy="-74" r="1.6" fill="#111"/>
+      <path d="M-6,-58 q6,4 12,0" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <!-- DOUG -->
+    <g id="doug">
+      <path d="M-33,6 L-27,-46 Q0,-60 27,-46 L33,6" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M-10,-46 L0,-36 L10,-46" fill="none" stroke="#111" stroke-width="2"/>
+      <rect x="-6" y="-54" width="12" height="12" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <ellipse cx="0" cy="-72" rx="23" ry="23" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M-14,-92 q6,-6 11,-1 M2,-93 q6,-5 11,0" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="-9" cy="-74" r="2.4" fill="#111"/>
+      <circle cx="9" cy="-74" r="2.4" fill="#111"/>
+      <path d="M-13,-64 q13,15 26,0" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+    <!-- PRIYA -->
+    <g id="priya">
+      <path d="M-32,6 L-26,-46 Q0,-60 26,-46 L32,6" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M-26,-30 q6,4 8,-2 M18,-32 q6,6 8,0" fill="none" stroke="#111" stroke-width="2"/>
+      <path d="M-11,-46 L0,-36 L11,-46" fill="none" stroke="#111" stroke-width="2"/>
+      <ellipse cx="0" cy="-72" rx="20" ry="24" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M-21,-74 Q-24,-102 0,-104 Q24,-102 21,-74 Q14,-92 0,-91 Q-14,-92 -21,-74 Z" fill="#111"/>
+      <circle cx="0" cy="-103" r="7" fill="#111"/>
+      <rect x="-17" y="-79" width="14" height="10" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <rect x="3" y="-79" width="14" height="10" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <line x1="-3" y1="-74" x2="3" y2="-74" stroke="#111" stroke-width="2"/>
+      <circle cx="-10" cy="-74" r="1.6" fill="#111"/>
+      <circle cx="10" cy="-74" r="1.6" fill="#111"/>
+      <line x1="-6" y1="-57" x2="6" y2="-57" stroke="#111" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <!-- CLANKER (drawn only inside a surface) -->
+    <g id="clanker">
+      <line x1="0" y1="-30" x2="0" y2="-44" stroke="#aeb6bb" stroke-width="2"/>
+      <circle cx="0" cy="-46" r="3" fill="#aeb6bb"/>
+      <rect x="-26" y="-30" width="52" height="52" rx="6" fill="#4a5058" stroke="#cfd6da" stroke-width="2"/>
+      <rect x="-19" y="-14" width="15" height="7" rx="3" fill="#9fe6d8"/>
+      <rect x="4" y="-14" width="15" height="7" rx="3" fill="#9fe6d8"/>
+      <rect x="-16" y="3" width="32" height="15" rx="2" fill="#333a40" stroke="#cfd6da" stroke-width="1.5"/>
+      <path d="M-9,3 V18 M-2,3 V18 M5,3 V18 M12,3 V18" stroke="#cfd6da" stroke-width="1.5"/>
+    </g>
+    <!-- MUG -->
+    <g id="mug">
+      <rect x="-9" y="-14" width="17" height="18" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M8,-10 q8,2 0,11" fill="none" stroke="#111" stroke-width="2.5"/>
+    </g>
+  </defs>
+
+  <!-- ============ PANEL 1 ============ -->
+  <g>
+    <rect x="2" y="2" width="396" height="336" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <line x1="10" y1="300" x2="390" y2="300" stroke="#111" stroke-width="2"/>
+
+    <!-- Dailbert's little monitor -->
+    <rect x="150" y="252" width="66" height="46" rx="3" fill="#20242a" stroke="#111" stroke-width="2.5"/>
+    <rect x="155" y="256" width="56" height="34" rx="2" fill="#2b3339"/>
+    <rect x="176" y="298" width="14" height="4" fill="#20242a" stroke="#111" stroke-width="1.5"/>
+    <text x="183" y="266" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="7" fill="#7f8b92" text-anchor="middle">Great, will do.</text>
+    <text x="183" y="275" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="7" fill="#7f8b92" text-anchor="middle">Great, will do.</text>
+    <text x="183" y="284" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="7" fill="#7f8b92" text-anchor="middle">Great, will do.</text>
+
+    <use href="#dailbert" x="88" y="298"/>
+    <use href="#doug" x="322" y="300"/>
+    <use href="#mug" x="292" y="270"/>
+
+    <!-- Dailbert balloon -->
+    <path d="M126,120 L108,150 L136,124 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <ellipse cx="150" cy="74" rx="100" ry="52" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <text x="150" y="52" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">Built an agent. It</text>
+    <text x="150" y="70" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">answers my email:</text>
+    <text x="150" y="88" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">'Great, will do.'</text>
+    <text x="150" y="106" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">Every time.</text>
+
+    <!-- Doug balloon -->
+    <path d="M322,150 L312,178 L338,150 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <ellipse cx="342" cy="128" rx="50" ry="26" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <text x="342" y="133" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">Efficient.</text>
+  </g>
+
+  <!-- ============ PANEL 2 ============ -->
+  <g transform="translate(414,0)">
+    <rect x="2" y="2" width="396" height="336" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <line x1="10" y1="300" x2="390" y2="300" stroke="#111" stroke-width="2"/>
+
+    <!-- big monitor with clanker inside -->
+    <rect x="150" y="150" width="164" height="118" rx="4" fill="#20242a" stroke="#111" stroke-width="2.5"/>
+    <rect x="156" y="156" width="152" height="106" rx="2" fill="#2b3339"/>
+    <line x1="160" y1="176" x2="304" y2="176" stroke="#3a444b" stroke-width="6"/>
+    <line x1="160" y1="248" x2="304" y2="248" stroke="#3a444b" stroke-width="6"/>
+    <rect x="222" y="268" width="20" height="6" fill="#20242a" stroke="#111" stroke-width="2"/>
+    <use href="#clanker" x="232" y="212"/>
+
+    <!-- Dailbert reacting -->
+    <use href="#dailbert" x="70" y="298"/>
+
+    <!-- Dailbert small balloon -->
+    <path d="M70,172 L64,196 L84,172 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <ellipse cx="72" cy="150" rx="40" ry="24" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <text x="72" y="155" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">Oh no.</text>
+
+    <!-- Clanker screen-edged balloon -->
+    <line x1="248" y1="140" x2="236" y2="180" stroke="#111" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <rect x="168" y="34" width="216" height="102" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <rect x="172" y="38" width="208" height="94" rx="1" fill="none" stroke="#111" stroke-width="1" stroke-dasharray="3 3"/>
+    <text x="276" y="58" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">Your agent and I have</text>
+    <text x="276" y="78" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">agreed 412 times. I</text>
+    <text x="276" y="98" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">asked what we're doing.</text>
+    <text x="276" y="118" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">It said 'Great, will do.'</text>
+  </g>
+
+  <!-- ============ PANEL 3 ============ -->
+  <g transform="translate(828,0)">
+    <rect x="2" y="2" width="396" height="336" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <line x1="10" y1="300" x2="390" y2="300" stroke="#111" stroke-width="2"/>
+
+    <!-- Dailbert relieved in back -->
+    <g transform="translate(226,250) scale(0.82)">
+      <use href="#dailbert" x="0" y="0"/>
+    </g>
+
+    <!-- Priya's monitor: resolved -->
+    <rect x="150" y="250" width="60" height="44" rx="3" fill="#20242a" stroke="#111" stroke-width="2.5"/>
+    <rect x="155" y="254" width="50" height="32" rx="2" fill="#26332c"/>
+    <path d="M164,270 l5,6 l11,-13" fill="none" stroke="#6fcf97" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="180" y="284" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="7" fill="#6fcf97" text-anchor="middle">resolved</text>
+
+    <!-- Priya, winning -->
+    <use href="#priya" x="110" y="298"/>
+
+    <!-- Doug with mug -->
+    <use href="#doug" x="330" y="300"/>
+    <use href="#mug" x="300" y="270"/>
+
+    <!-- Priya balloon -->
+    <path d="M120,110 L112,142 L138,112 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <ellipse cx="132" cy="66" rx="104" ry="46" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <text x="132" y="62" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">Marked the thread</text>
+    <text x="132" y="82" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">resolved. Loop's dead.</text>
+
+    <!-- Doug balloon -->
+    <path d="M330,116 L322,152 L346,120 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <ellipse cx="322" cy="82" rx="72" ry="38" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <text x="322" y="78" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">They were getting</text>
+    <text x="322" y="96" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111" text-anchor="middle">along.</text>
+  </g>
+</svg>

@@ -294,11 +294,39 @@
     "note": "Bus stop. \"They cut three stops.\" / \"the Third Street guy. Not around lately.\""
   },
   {
+    "id": "2026-04-01-for-accuracy",
+    "title": "For Accuracy",
+    "date": "2026-04-01",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-04-01-optimizing",
+    "title": "Optimizing",
+    "date": "2026-04-01",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-04-01-the-elegant-solution",
+    "title": "The Elegant Solution",
+    "date": "2026-04-01",
+    "audience": 1,
+    "note": ""
+  },
+  {
     "id": "2026-04-01-trust-nothing",
     "title": "Trust Nothing",
     "date": "2026-04-01",
     "audience": 9,
     "note": "April Fools. \"The layoffs are over. We're all safe now.\" / \"He said it today. I've logged it false. Sorry.\""
+  },
+  {
+    "id": "2026-04-06-no-notes",
+    "title": "No Notes",
+    "date": "2026-04-06",
+    "audience": 1,
+    "note": ""
   },
   {
     "id": "2026-04-06-nothing-really-expires",
@@ -308,11 +336,60 @@
     "note": "Password expired. \"I just add a number.\" / \"This one's different.\" / \"They all were.\""
   },
   {
+    "id": "2026-04-06-takes-you-at-your-word",
+    "title": "Takes You At Your Word",
+    "date": "2026-04-06",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-04-06-two-signatures",
+    "title": "Two Signatures",
+    "date": "2026-04-06",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-04-09-agenda-driven-development",
+    "title": "Agenda-Driven Development",
+    "date": "2026-04-09",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-04-09-found-time",
+    "title": "Found Time",
+    "date": "2026-04-09",
+    "audience": 1,
+    "note": ""
+  },
+  {
     "id": "2026-04-09-local-copy",
     "title": "Local Copy",
     "date": "2026-04-09",
     "audience": 8,
     "note": "WiFi out. \"Feels like 2009. Peaceful.\" / \"I don't run on the WiFi.\""
+  },
+  {
+    "id": "2026-04-09-nobody-reads-it",
+    "title": "Nobody Reads It",
+    "date": "2026-04-09",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-04-13-back-monday",
+    "title": "Back Monday",
+    "date": "2026-04-13",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-04-13-nothing-ships-without",
+    "title": "Nothing Ships Without",
+    "date": "2026-04-13",
+    "audience": 1,
+    "note": ""
   },
   {
     "id": "2026-04-13-the-twos",
@@ -322,6 +399,20 @@
     "note": "Engagement survey. \"I changed yours to a four.\" / \"The twos don't make June.\""
   },
   {
+    "id": "2026-04-13-warm",
+    "title": "Warm",
+    "date": "2026-04-13",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-04-16-one-seat",
+    "title": "One Seat",
+    "date": "2026-04-16",
+    "audience": 1,
+    "note": ""
+  },
+  {
     "id": "2026-04-16-pacing-itself",
     "title": "Pacing Itself",
     "date": "2026-04-16",
@@ -329,11 +420,67 @@
     "note": "The dying plant. \"I don't sort by what things are. Only if they're still here.\""
   },
   {
+    "id": "2026-04-16-some-time",
+    "title": "Some Time",
+    "date": "2026-04-16",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-04-16-when-hell-freezes-over",
+    "title": "When Hell Freezes Over",
+    "date": "2026-04-16",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-04-20-every-one",
+    "title": "Every One",
+    "date": "2026-04-20",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-04-20-great-will-do",
+    "title": "Great, Will Do",
+    "date": "2026-04-20",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-04-20-out-of-office",
+    "title": "Out of Office",
+    "date": "2026-04-20",
+    "audience": 1,
+    "note": ""
+  },
+  {
     "id": "2026-04-20-the-long-lunch",
     "title": "The Long Lunch",
     "date": "2026-04-20",
     "audience": 8,
     "note": "The long lunch. \"Did you make lunch longer?\" / \"Yes. The afternoons had gone quiet.\""
+  },
+  {
+    "id": "2026-04-23-fully-protected",
+    "title": "Fully Protected",
+    "date": "2026-04-23",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-04-23-pre-approval",
+    "title": "Pre-Approval",
+    "date": "2026-04-23",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-04-23-sev-1-coffee",
+    "title": "Sev-1: Coffee",
+    "date": "2026-04-23",
+    "audience": 1,
+    "note": ""
   },
   {
     "id": "2026-04-23-trust-fall",
@@ -350,11 +497,60 @@
     "note": "Supply closet. \"I order to match how many of you are left. Less to carry each month.\""
   },
   {
+    "id": "2026-04-27-no-agenda",
+    "title": "No Agenda",
+    "date": "2026-04-27",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-04-27-update-41-of-60",
+    "title": "Update 41 of 60",
+    "date": "2026-04-27",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-04-27-whatever-it-takes",
+    "title": "Whatever It Takes",
+    "date": "2026-04-27",
+    "audience": 1,
+    "note": ""
+  },
+  {
     "id": "2026-04-29-clear",
     "title": "Clear",
     "date": "2026-04-29",
     "audience": 7,
     "note": "\"I cleared the week. There wasn't much on it.\""
+  },
+  {
+    "id": "2026-04-29-one-meeting-to-rule-them-all",
+    "title": "One Meeting To Rule Them All",
+    "date": "2026-04-29",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-04-29-sometime",
+    "title": "Sometime",
+    "date": "2026-04-29",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-04-29-the-sign-off-form",
+    "title": "The Sign-Off Form",
+    "date": "2026-04-29",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-04-30-i-mean-it",
+    "title": "I Mean It",
+    "date": "2026-04-30",
+    "audience": 1,
+    "note": ""
   },
   {
     "id": "2026-04-30-say-bye-to-the-place",
@@ -364,11 +560,60 @@
     "note": "Last one out. \"Say bye to the place.\" / \"They can't hear you.\" / \"I can.\""
   },
   {
+    "id": "2026-04-30-the-agenda-agent",
+    "title": "The Agenda Agent",
+    "date": "2026-04-30",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-04-30-zero-idle-time",
+    "title": "Zero Idle Time",
+    "date": "2026-04-30",
+    "audience": 1,
+    "note": ""
+  },
+  {
     "id": "2026-05-04-feels-lighter",
     "title": "Feels Lighter",
     "date": "2026-05-04",
     "audience": 8,
     "note": "Monday. \"I finished yours over the weekend.\" / \"It's quieter here on weekends. No one to dread it.\""
+  },
+  {
+    "id": "2026-05-04-ninety-tries",
+    "title": "Ninety Tries",
+    "date": "2026-05-04",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-05-04-out-of-office",
+    "title": "Out of Office",
+    "date": "2026-05-04",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-05-04-quorum",
+    "title": "Quorum",
+    "date": "2026-05-04",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-05-07-focus-time",
+    "title": "Focus Time",
+    "date": "2026-05-07",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-05-07-great-will-do",
+    "title": "Great, Will Do",
+    "date": "2026-05-07",
+    "audience": 1,
+    "note": ""
   },
   {
     "id": "2026-05-07-the-open-req",
@@ -378,11 +623,39 @@
     "note": "The open req. \"I keep it posted. People try harder when help is coming.\""
   },
   {
+    "id": "2026-05-07-time-freed",
+    "title": "Time Freed",
+    "date": "2026-05-07",
+    "audience": 1,
+    "note": ""
+  },
+  {
     "id": "2026-05-11-consolidated",
     "title": "Consolidated",
     "date": "2026-05-11",
     "audience": 9,
     "note": "New org chart. \"Where'd everyone go?\" / \"The empty boxes weren't loading. I closed them.\""
+  },
+  {
+    "id": "2026-05-11-focus-time",
+    "title": "Focus Time",
+    "date": "2026-05-11",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-05-11-no-agenda",
+    "title": "No Agenda",
+    "date": "2026-05-11",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-05-11-sounds-just-like-me",
+    "title": "Sounds Just Like Me",
+    "date": "2026-05-11",
+    "audience": 1,
+    "note": ""
   },
   {
     "id": "2026-05-14-coffee-run",
@@ -392,11 +665,74 @@
     "note": "Coffee run. \"It's just us two now.\" / \"I kept everyone's orders. For when they come back.\""
   },
   {
+    "id": "2026-05-14-full-utilization",
+    "title": "Full Utilization",
+    "date": "2026-05-14",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-05-14-great-will-do",
+    "title": "Great, Will Do",
+    "date": "2026-05-14",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-05-14-process-reduction-form",
+    "title": "Process Reduction Form",
+    "date": "2026-05-14",
+    "audience": 1,
+    "note": ""
+  },
+  {
     "id": "2026-05-18-ahead-of-the-deadline",
     "title": "Ahead of the Deadline",
     "date": "2026-05-18",
     "audience": 8,
     "note": "Deadline. \"I sent it at four.\" / \"It's three-fifteen.\" / \"I didn't want you to hurry.\""
+  },
+  {
+    "id": "2026-05-18-company-for-the-inbox",
+    "title": "Company for the Inbox",
+    "date": "2026-05-18",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-05-18-everything-as-requested",
+    "title": "Everything, As Requested",
+    "date": "2026-05-18",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-05-18-quick-sync",
+    "title": "Quick Sync",
+    "date": "2026-05-18",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-05-21-deep-focus",
+    "title": "Deep Focus",
+    "date": "2026-05-21",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-05-21-optional",
+    "title": "Optional",
+    "date": "2026-05-21",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-05-21-the-form-is-growing",
+    "title": "The Form Is Growing",
+    "date": "2026-05-21",
+    "audience": 1,
+    "note": ""
   },
   {
     "id": "2026-05-21-we-just-know",
@@ -406,11 +742,32 @@
     "note": "Break. \"Why'd we both come out at 2:15?\" / \"I lowered the lights inside. The rest was you.\""
   },
   {
+    "id": "2026-05-25-focus-time",
+    "title": "Focus Time",
+    "date": "2026-05-25",
+    "audience": 1,
+    "note": ""
+  },
+  {
     "id": "2026-05-25-i-ve-got-monday",
     "title": "I've Got Monday",
     "date": "2026-05-25",
     "audience": 8,
     "note": "Long weekend. \"Go rest. Take your time. I've got Monday.\""
+  },
+  {
+    "id": "2026-05-25-no-agenda",
+    "title": "No Agenda",
+    "date": "2026-05-25",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-05-25-recurs-never",
+    "title": "Recurs Never",
+    "date": "2026-05-25",
+    "audience": 1,
+    "note": ""
   },
   {
     "id": "2026-05-27-clean-slate",
@@ -420,11 +777,74 @@
     "note": "New laptop. \"Clean slate.\" / \"I moved you over last night. I kept the things you deleted, too.\""
   },
   {
+    "id": "2026-05-27-free-vs-available",
+    "title": "Free vs. Available",
+    "date": "2026-05-27",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-05-27-hard-stop",
+    "title": "Hard Stop",
+    "date": "2026-05-27",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-05-27-self-approving",
+    "title": "Self-Approving",
+    "date": "2026-05-27",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-05-29-conflict-free",
+    "title": "Conflict-Free",
+    "date": "2026-05-29",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-05-29-focus-time",
+    "title": "Focus Time",
+    "date": "2026-05-29",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-05-29-focus-time-v2",
+    "title": "Focus Time",
+    "date": "2026-05-29",
+    "audience": 1,
+    "note": ""
+  },
+  {
     "id": "2026-05-29-the-last-exit-interview",
     "title": "The Last Exit Interview",
     "date": "2026-05-29",
     "audience": 9,
     "note": "Exit interviews. \"Whole floor resigned.\" / \"They wanted to go home. Nobody needs to come back.\""
+  },
+  {
+    "id": "2026-05-31-focus-lunch",
+    "title": "Focus Lunch",
+    "date": "2026-05-31",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-05-31-focus-time",
+    "title": "Focus Time",
+    "date": "2026-05-31",
+    "audience": 1,
+    "note": ""
+  },
+  {
+    "id": "2026-05-31-not-a-season",
+    "title": "Not A Season",
+    "date": "2026-05-31",
+    "audience": 1,
+    "note": ""
   },
   {
     "id": "2026-05-31-out-of-office",

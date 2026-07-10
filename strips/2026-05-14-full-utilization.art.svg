@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 340" width="1228" height="340">
+  <defs>
+    <style>
+      .ink{stroke:#111;stroke-width:2.4;fill:none;stroke-linejoin:round;stroke-linecap:round;}
+      .thin{stroke:#111;stroke-width:1.6;fill:none;stroke-linejoin:round;stroke-linecap:round;}
+      .wht{fill:#fff;stroke:#111;stroke-width:2.4;stroke-linejoin:round;}
+      .dk{fill:#111;}
+      .scr{fill:#e2ded4;stroke:#111;stroke-width:2.2;}
+      .bal{fill:#fff;stroke:#111;stroke-width:2.2;stroke-linejoin:round;}
+      .dash{stroke:#111;stroke-width:1.4;fill:none;stroke-dasharray:4 4;}
+      text{font-family:'Comic Sans MS','Segoe Print',cursive;fill:#111;text-anchor:middle;}
+      .sp{font-size:14px;}
+    </style>
+
+    <!-- DAILBERT -->
+    <symbol id="dailbert" viewBox="0 0 120 180">
+      <path class="wht" d="M28,180 L33,116 Q60,100 87,116 L92,180 Z"/>
+      <path class="dk" d="M60,104 l-6,10 l6,26 l6,-26 Z"/>
+      <ellipse class="wht" cx="60" cy="56" rx="30" ry="34"/>
+      <path class="ink" d="M60,22 q-10,-6 -3,-13 q6,-6 10,2"/>
+      <circle class="wht" cx="48" cy="56" r="10"/>
+      <circle class="wht" cx="72" cy="56" r="10"/>
+      <path class="thin" d="M58,56 L62,56"/>
+      <circle class="dk" cx="48" cy="56" r="2.4"/>
+      <circle class="dk" cx="72" cy="56" r="2.4"/>
+      <path class="thin" d="M52,76 q8,4 16,0"/>
+    </symbol>
+
+    <!-- DOUG -->
+    <symbol id="doug" viewBox="0 0 130 180">
+      <path class="wht" d="M26,180 L32,118 Q62,102 92,118 L98,180 Z"/>
+      <circle class="wht" cx="62" cy="54" r="34"/>
+      <circle class="dk" cx="52" cy="52" r="2.6"/>
+      <circle class="dk" cx="72" cy="52" r="2.6"/>
+      <path class="ink" d="M46,62 Q62,80 78,62"/>
+      <path class="wht" d="M92,128 h20 v22 h-20 Z"/>
+      <path class="ink" d="M112,132 q9,3 0,13"/>
+      <path class="thin" d="M98,124 q2,-6 5,0 M106,124 q2,-6 5,0"/>
+    </symbol>
+
+    <!-- PRIYA -->
+    <symbol id="priya" viewBox="0 0 120 180">
+      <path class="wht" d="M26,180 L32,116 Q60,100 88,116 L94,180 Z"/>
+      <path class="ink" d="M40,124 q10,10 22,6 M80,124 q-8,10 -18,7"/>
+      <ellipse class="dk" cx="60" cy="42" rx="34" ry="30"/>
+      <circle class="dk" cx="60" cy="16" r="12"/>
+      <ellipse class="wht" cx="60" cy="60" rx="26" ry="28"/>
+      <rect class="wht" x="38" y="52" width="20" height="13" rx="2"/>
+      <rect class="wht" x="63" y="52" width="20" height="13" rx="2"/>
+      <path class="thin" d="M58,58 L63,58"/>
+      <circle class="dk" cx="48" cy="58" r="2.3"/>
+      <circle class="dk" cx="73" cy="58" r="2.3"/>
+      <path class="thin" d="M53,78 q7,3 14,0"/>
+    </symbol>
+
+    <!-- BOSS -->
+    <symbol id="boss" viewBox="0 0 120 180">
+      <path class="wht" d="M28,180 L33,116 Q60,100 87,116 L92,180 Z"/>
+      <path class="ink" d="M60,116 L54,150 M60,116 L66,150"/>
+      <path class="dk" d="M60,120 l-5,9 l5,20 l5,-20 Z"/>
+      <path class="dk" d="M42,34 L50,4 L58,34 Z"/>
+      <path class="dk" d="M62,34 L72,2 L82,34 Z"/>
+      <ellipse class="wht" cx="60" cy="54" rx="28" ry="30"/>
+      <circle class="dk" cx="51" cy="54" r="2"/>
+      <circle class="dk" cx="69" cy="54" r="2"/>
+      <path class="thin" d="M53,72 q7,3 14,0"/>
+    </symbol>
+
+    <!-- CLANKER -->
+    <symbol id="clank" viewBox="0 0 100 100">
+      <line class="ink" x1="50" y1="22" x2="50" y2="9"/>
+      <circle class="dk" cx="50" cy="6" r="3.2"/>
+      <rect x="18" y="22" width="64" height="50" rx="8" fill="#eeebe2" stroke="#111" stroke-width="2.2"/>
+      <rect class="dk" x="30" y="36" width="16" height="7" rx="3.5"/>
+      <rect class="dk" x="54" y="36" width="16" height="7" rx="3.5"/>
+      <line stroke="#eeebe2" stroke-width="1.4" x1="33" y1="39.5" x2="38" y2="39.5"/>
+      <line stroke="#eeebe2" stroke-width="1.4" x1="57" y1="39.5" x2="62" y2="39.5"/>
+      <rect class="wht" x="33" y="54" width="34" height="11" rx="2"/>
+      <path class="thin" d="M40,54 v11 M47,54 v11 M54,54 v11 M61,54 v11"/>
+      <circle class="dk" cx="24" cy="28" r="1.8"/>
+      <circle class="dk" cx="76" cy="28" r="1.8"/>
+    </symbol>
+  </defs>
+
+  <!-- ===== PANEL 1 ===== -->
+  <rect x="2" y="1" width="396" height="338" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+  <line class="ink" x1="24" y1="292" x2="376" y2="292"/>
+  <line class="thin" x1="60" y1="292" x2="60" y2="320"/>
+  <line class="thin" x1="330" y1="292" x2="330" y2="320"/>
+
+  <use href="#boss" x="48" y="128" width="120" height="180"/>
+  <path class="ink" d="M150,182 Q200,176 236,206"/>
+
+  <!-- monitor -->
+  <rect class="wht" x="244" y="196" width="122" height="92" rx="5"/>
+  <rect class="scr" x="252" y="204" width="106" height="76"/>
+  <use href="#clank" x="272" y="210" width="66" height="66"/>
+  <path class="wht" d="M292,288 h26 l6,14 h-38 Z"/>
+  <rect class="wht" x="284" y="300" width="54" height="6" rx="3"/>
+
+  <path class="bal" d="M34,26 h176 a10,10 0 0 1 10,10 v46 a10,10 0 0 1 -10,10 h-96 l-14,16 l0,-16 h-66 a10,10 0 0 1 -10,-10 v-46 a10,10 0 0 1 10,-10 Z"/>
+  <text class="sp" x="122" y="48">The clanker booked</text>
+  <text class="sp" x="122" y="66">everyone solid.</text>
+  <text class="sp" x="122" y="84">Full utilization.</text>
+
+  <!-- ===== PANEL 2 ===== -->
+  <rect x="416" y="1" width="396" height="338" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+  <line class="ink" x1="438" y1="292" x2="790" y2="292"/>
+
+  <use href="#dailbert" x="430" y="150" width="118" height="178"/>
+  <use href="#doug" x="690" y="150" width="126" height="178"/>
+
+  <!-- monitor center -->
+  <rect class="wht" x="556" y="188" width="104" height="78" rx="5"/>
+  <rect class="scr" x="563" y="195" width="90" height="64"/>
+  <use href="#clank" x="580" y="199" width="56" height="56"/>
+  <path class="wht" d="M597,266 h22 l5,12 h-32 Z"/>
+  <rect class="wht" x="590" y="277" width="46" height="5" rx="2.5"/>
+
+  <!-- clanker screen balloon -->
+  <path class="dash" d="M608,188 L640,96"/>
+  <rect class="bal" x="548" y="22" width="152" height="64" rx="3"/>
+  <path class="thin" d="M556,30 h-4 v-4 M692,30 h4 v-4 M556,78 h-4 v4 M692,78 h4 v4"/>
+  <text class="sp" x="624" y="44">Empty calendars</text>
+  <text class="sp" x="624" y="61">worried people.</text>
+  <text class="sp" x="624" y="78">So I filled them.</text>
+
+  <path class="bal" d="M424,94 h96 a10,10 0 0 1 10,10 v28 a10,10 0 0 1 -10,10 h-40 l-8,14 l-2,-14 h-46 a10,10 0 0 1 -10,-10 v-28 a10,10 0 0 1 10,-10 Z"/>
+  <text class="sp" x="472" y="116">It's all</text>
+  <text class="sp" x="472" y="133">meetings.</text>
+
+  <path class="bal" d="M706,98 h84 a10,10 0 0 1 10,10 v22 a10,10 0 0 1 -10,10 h-24 l-10,14 l-1,-14 h-49 a10,10 0 0 1 -10,-10 v-22 a10,10 0 0 1 10,-10 Z"/>
+  <text class="sp" x="748" y="126">So many.</text>
+
+  <!-- ===== PANEL 3 ===== -->
+  <rect x="830" y="1" width="396" height="338" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+  <line class="ink" x1="852" y1="292" x2="1204" y2="292"/>
+  <line class="thin" x1="890" y1="292" x2="890" y2="320"/>
+
+  <use href="#priya" x="852" y="150" width="120" height="178"/>
+
+  <!-- her monitor -->
+  <rect class="wht" x="1008" y="196" width="98" height="74" rx="5"/>
+  <rect class="scr" x="1015" y="203" width="84" height="60"/>
+  <use href="#clank" x="1030" y="206" width="52" height="52"/>
+  <path class="wht" d="M1046,270 h20 l5,12 h-30 Z"/>
+  <rect class="wht" x="1040" y="281" width="42" height="5" rx="2.5"/>
+
+  <path class="bal" d="M844,22 h204 a10,10 0 0 1 10,10 v68 a10,10 0 0 1 -10,10 h-118 l-16,18 l-1,-18 h-69 a10,10 0 0 1 -10,-10 v-68 a10,10 0 0 1 10,-10 Z"/>
+  <text class="sp" x="946" y="46">I booked you to</text>
+  <text class="sp" x="946" y="64">review the meetings.</text>
+  <text class="sp" x="946" y="82">Every slot. Come</text>
+  <text class="sp" x="946" y="100">prepared.</text>
+
+  <!-- clanker small reply -->
+  <path class="dash" d="M1057,196 L1078,168"/>
+  <rect class="bal" x="984" y="126" width="132" height="44" rx="3"/>
+  <path class="thin" d="M992,134 h-4 v-4 M1108,134 h4 v-4 M992,162 h-4 v4 M1108,162 h4 v4"/>
+  <text class="sp" x="1050" y="146">...I'll need</text>
+  <text class="sp" x="1050" y="163">the week.</text>
+</svg>

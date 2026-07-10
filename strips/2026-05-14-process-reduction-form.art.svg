@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 340" width="1228" height="340">
+  <defs>
+    <clipPath id="pc"><rect x="0" y="0" width="400" height="340" rx="3"/></clipPath>
+
+    <!-- DAILBERT -->
+    <symbol id="dailbert" overflow="visible">
+      <path d="M4 152 C4 108 22 98 40 98 C58 98 76 108 76 152 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <path d="M28 100 L40 112 L52 100" fill="none" stroke="#111" stroke-width="2.4"/>
+      <path d="M40 100 L34 118 L40 134 L46 118 Z" fill="#111"/>
+      <ellipse cx="40" cy="50" rx="24" ry="28" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <path d="M40 23 q11 -7 6 -17 q-1 7 -9 9" fill="#111"/>
+      <circle cx="31" cy="50" r="8.5" fill="#fff" stroke="#111" stroke-width="2.4"/>
+      <circle cx="49" cy="50" r="8.5" fill="#fff" stroke="#111" stroke-width="2.4"/>
+      <line x1="39.5" y1="50" x2="40.5" y2="50" stroke="#111" stroke-width="2.4"/>
+      <circle cx="31" cy="50" r="2.2" fill="#111"/>
+      <circle cx="49" cy="50" r="2.2" fill="#111"/>
+      <path d="M32 68 q8 5 16 0" fill="none" stroke="#111" stroke-width="2.2"/>
+    </symbol>
+
+    <!-- BOSS -->
+    <symbol id="boss" overflow="visible">
+      <path d="M2 152 C2 106 22 96 42 96 C62 96 82 106 82 152 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <line x1="26" y1="100" x2="20" y2="150" stroke="#111" stroke-width="2"/>
+      <line x1="58" y1="100" x2="64" y2="150" stroke="#111" stroke-width="2"/>
+      <path d="M30 98 L42 110 L54 98" fill="none" stroke="#111" stroke-width="2.4"/>
+      <path d="M42 98 L35 114 L42 130 L49 114 Z" fill="#111"/>
+      <ellipse cx="42" cy="52" rx="23" ry="26" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <path d="M31 29 L25 3 L41 25 Z" fill="#111"/>
+      <path d="M53 27 L61 1 L47 23 Z" fill="#111"/>
+      <circle cx="35" cy="53" r="1.9" fill="#111"/>
+      <circle cx="49" cy="53" r="1.9" fill="#111"/>
+      <path d="M37 66 q5 3 10 0" fill="none" stroke="#111" stroke-width="2"/>
+    </symbol>
+
+    <!-- PRIYA -->
+    <symbol id="priya" overflow="visible">
+      <path d="M2 152 C2 108 22 98 42 98 C62 98 82 108 82 152 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <path d="M12 128 h15" stroke="#111" stroke-width="2.2"/>
+      <path d="M57 128 h15" stroke="#111" stroke-width="2.2"/>
+      <path d="M30 100 L42 111 L54 100" fill="none" stroke="#111" stroke-width="2.4"/>
+      <path d="M15 60 C11 22 28 8 42 8 C56 8 73 22 69 60 L60 54 C64 30 54 18 42 18 C30 18 20 30 24 54 Z" fill="#111"/>
+      <circle cx="42" cy="12" r="8.5" fill="#111"/>
+      <circle cx="24" cy="24" r="4.5" fill="#111"/>
+      <circle cx="60" cy="24" r="4.5" fill="#111"/>
+      <ellipse cx="42" cy="54" rx="21" ry="24" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <rect x="24" y="48" width="16" height="11" rx="2.5" fill="#fff" stroke="#111" stroke-width="2.2"/>
+      <rect x="44" y="48" width="16" height="11" rx="2.5" fill="#fff" stroke="#111" stroke-width="2.2"/>
+      <line x1="40" y1="53" x2="44" y2="53" stroke="#111" stroke-width="2.2"/>
+      <circle cx="32" cy="53.5" r="2" fill="#111"/>
+      <circle cx="52" cy="53.5" r="2" fill="#111"/>
+      <path d="M35 70 q7 4 14 0" fill="none" stroke="#111" stroke-width="2.2"/>
+    </symbol>
+
+    <!-- DOUG -->
+    <symbol id="doug" overflow="visible">
+      <path d="M4 152 C4 108 22 98 40 98 C58 98 76 108 76 152 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <path d="M28 100 L40 110 L52 100" fill="none" stroke="#111" stroke-width="2.4"/>
+      <circle cx="40" cy="52" r="28" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <path d="M40 24 q7 -6 2 -12 q0 6 -6 8" fill="#111"/>
+      <circle cx="31" cy="50" r="2.7" fill="#111"/>
+      <circle cx="49" cy="50" r="2.7" fill="#111"/>
+      <path d="M27 59 q13 15 26 0" fill="none" stroke="#111" stroke-width="2.6"/>
+      <rect x="56" y="120" width="24" height="21" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+      <path d="M80 124 q9 3 0 13" fill="none" stroke="#111" stroke-width="2.4"/>
+      <path d="M62 117 q4 -6 0 -11 M70 117 q4 -6 0 -11" fill="none" stroke="#9a9a9a" stroke-width="1.8"/>
+    </symbol>
+
+    <!-- CLANKER (drawn inside a surface) -->
+    <symbol id="clanker" overflow="visible">
+      <line x1="40" y1="14" x2="40" y2="2" stroke="#9fb0bb" stroke-width="2.4"/>
+      <circle cx="40" cy="2" r="3" fill="#d4e6f0"/>
+      <rect x="14" y="14" width="52" height="42" rx="7" fill="#b7c1c7" stroke="#e8f0f4" stroke-width="2"/>
+      <rect x="22" y="26" width="15" height="8" rx="4" fill="#eaf6ff"/>
+      <rect x="43" y="26" width="15" height="8" rx="4" fill="#eaf6ff"/>
+      <line x1="26" y1="47" x2="54" y2="47" stroke="#5a6a73" stroke-width="1.6"/>
+      <line x1="30" y1="42" x2="30" y2="51" stroke="#5a6a73" stroke-width="1.6"/>
+      <line x1="36" y1="42" x2="36" y2="51" stroke="#5a6a73" stroke-width="1.6"/>
+      <line x1="42" y1="42" x2="42" y2="51" stroke="#5a6a73" stroke-width="1.6"/>
+      <line x1="48" y1="42" x2="48" y2="51" stroke="#5a6a73" stroke-width="1.6"/>
+    </symbol>
+  </defs>
+
+  <rect x="0" y="0" width="1228" height="340" fill="#f4f1ea"/>
+
+  <!-- ================= PANEL 1 ================= -->
+  <g clip-path="url(#pc)">
+    <rect x="1.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+
+    <!-- boss on stage -->
+    <use href="#boss" x="150" y="70"/>
+
+    <!-- podium -->
+    <rect x="150" y="202" width="100" height="112" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+    <line x1="200" y1="202" x2="200" y2="314" stroke="#111" stroke-width="1.6"/>
+    <rect x="164" y="222" width="30" height="20" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+    <rect x="206" y="222" width="30" height="20" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+
+    <!-- audience backs of heads (foreground) -->
+    <g fill="#f4f1ea" stroke="#111" stroke-width="2.6">
+      <circle cx="42" cy="342" r="40"/>
+      <circle cx="120" cy="352" r="42"/>
+      <circle cx="300" cy="350" r="42"/>
+      <circle cx="374" cy="340" r="38"/>
+    </g>
+    <g fill="none" stroke="#111" stroke-width="2">
+      <path d="M14 320 q28 -14 56 0"/>
+      <path d="M84 328 q36 -16 72 0"/>
+      <path d="M264 326 q36 -16 72 0"/>
+      <path d="M340 318 q34 -14 68 0"/>
+    </g>
+
+    <!-- boss balloon -->
+    <path d="M150 82 L172 82 L190 118 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+    <rect x="16" y="12" width="214" height="72" rx="14" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+    <text x="123" y="36" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">To request less process,</text>
+    <text x="123" y="54" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">fill out the Process</text>
+    <text x="123" y="72" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">Reduction Form.</text>
+  </g>
+
+  <!-- ================= PANEL 2 ================= -->
+  <g transform="translate(414,0)" clip-path="url(#pc)">
+    <rect x="1.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+
+    <!-- dailbert seated -->
+    <use href="#dailbert" x="20" y="116"/>
+
+    <!-- desk -->
+    <rect x="0" y="252" width="400" height="88" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+    <line x1="0" y1="252" x2="400" y2="252" stroke="#111" stroke-width="2.6"/>
+    <rect x="70" y="262" width="96" height="20" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+
+    <!-- monitor with clanker -->
+    <rect x="286" y="248" width="48" height="6" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+    <rect x="300" y="240" width="20" height="10" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+    <rect x="248" y="148" width="124" height="98" rx="6" fill="#23282b" stroke="#111" stroke-width="2.6"/>
+    <g stroke="#3c454a" stroke-width="1.4">
+      <line x1="256" y1="238" x2="366" y2="160"/>
+      <line x1="256" y1="222" x2="352" y2="156"/>
+      <line x1="300" y1="240" x2="366" y2="196"/>
+    </g>
+    <use href="#clanker" x="272" y="158" transform="scale(1.02)" transform-origin="272 158"/>
+
+    <!-- clanker balloon -->
+    <line x1="300" y1="92" x2="312" y2="148" stroke="#111" stroke-width="1.6" stroke-dasharray="4 4"/>
+    <rect x="196" y="14" width="198" height="78" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+    <rect x="200" y="18" width="190" height="70" rx="2" fill="none" stroke="#111" stroke-width="1.2"/>
+    <text x="295" y="40" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">I pre-filled all 12</text>
+    <text x="295" y="58" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">pages. It only needs</text>
+    <text x="295" y="76" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14" fill="#111">three approvals.</text>
+
+    <!-- dailbert balloon -->
+    <path d="M56 140 L74 140 L64 158 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+    <rect x="14" y="94" width="152" height="48" rx="14" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+    <text x="90" y="123" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">Of course it does.</text>
+  </g>
+
+  <!-- ================= PANEL 3 ================= -->
+  <g transform="translate(828,0)" clip-path="url(#pc)">
+    <rect x="1.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+
+    <line x1="0" y1="300" x2="400" y2="300" stroke="#111" stroke-width="2"/>
+
+    <!-- priya holding approved sheet -->
+    <use href="#priya" x="36" y="116" transform="scale(1.05)" transform-origin="78 200"/>
+
+    <!-- the single approved page -->
+    <g transform="rotate(-8 108 232)">
+      <rect x="88" y="196" width="40" height="52" rx="2" fill="#fff" stroke="#111" stroke-width="2.2"/>
+      <line x1="94" y1="206" x2="122" y2="206" stroke="#111" stroke-width="1.3"/>
+      <line x1="94" y1="212" x2="122" y2="212" stroke="#111" stroke-width="1.3"/>
+      <line x1="94" y1="218" x2="116" y2="218" stroke="#111" stroke-width="1.3"/>
+      <circle cx="108" cy="232" r="11" fill="none" stroke="#111" stroke-width="2"/>
+      <path d="M103 232 l4 4 l7 -9" fill="none" stroke="#111" stroke-width="2.2"/>
+    </g>
+    <circle cx="88" cy="200" r="5" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+
+    <!-- doug with mug -->
+    <use href="#doug" x="248" y="128"/>
+
+    <!-- priya balloon -->
+    <path d="M72 74 L92 74 L84 118 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+    <rect x="14" y="12" width="196" height="62" rx="14" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+    <text x="112" y="38" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">I set the form to</text>
+    <text x="112" y="57" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">approve itself.</text>
+
+    <!-- doug balloon -->
+    <path d="M282 68 L302 68 L292 120 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+    <rect x="214" y="18" width="174" height="50" rx="14" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+    <text x="301" y="48" text-anchor="middle" font-family="'Comic Sans MS','Segoe Print',cursive" font-size="14.5" fill="#111">Whole thing shipped.</text>
+  </g>
+</svg>
