@@ -389,6 +389,9 @@ function solo(manifest, forced = [], reviews = { votes: {}, comments: {} }, desk
   .nav .ctr { min-width:260px; text-align:center; }
   .nav .ctr #title { font-family:Georgia,serif; font-weight:bold; font-size:20px; }
   .nav .ctr #date { font-family:'Courier New',monospace; opacity:.6; font-size:13px; margin-left:8px; }
+  .nav .ctr #draft { display:none; font-family:'Courier New',monospace; font-size:11px; text-transform:uppercase;
+                     letter-spacing:1.5px; color:#a25b1a; border:1px solid #a25b1a; border-radius:20px;
+                     padding:2px 9px; margin-left:9px; vertical-align:middle; }
   .nav button { font-family:'Courier New',monospace; font-size:14px; background:transparent; color:inherit;
                 border:1.5px solid currentColor; border-radius:20px; padding:6px 14px; cursor:pointer; }
   .nav button:disabled { opacity:.28; cursor:default; }
@@ -438,7 +441,7 @@ function solo(manifest, forced = [], reviews = { votes: {}, comments: {} }, desk
   <div class="nav">
     <button id="first" title="First strip">&laquo;</button>
     <button id="prev" title="Previous (&larr;)">&lsaquo;&nbsp;Prev</button>
-    <div class="ctr"><span id="title"></span><span id="date"></span></div>
+    <div class="ctr"><span id="title"></span><span id="date"></span><span id="draft" title="Unpublished candidate — visible via direct link only">draft</span></div>
     <button id="next" title="Next (&rarr;)">Next&nbsp;&rsaquo;</button>
     <button id="latest" title="Latest strip">&raquo;</button>
   </div>
@@ -489,22 +492,56 @@ applyPub();
 function fmtReach(n){n=Math.max(1,Math.round(n));if(n<1000)return''+n;var u=['K','M','B','T'],i=-1,x=n;while(x>=1000&&i<3){x/=1000;i++;}return (x<10?x.toFixed(1):Math.round(x))+u[i];}
 function pct(n){return (Math.log10(Math.max(1,n))/10*100).toFixed(2);}
 function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
-function byId(id){for(var i=0;i<M.length;i++)if(M[i].id===id)return i;return -1;}
+function idxIn(arr,id){for(var i=0;i<arr.length;i++)if(arr[i].id===id)return i;return -1;}
+function byId(id){return idxIn(M,id);}
 function todayIdx(){var t=new Date().toISOString().slice(0,10),idx=0;for(var i=0;i<M.length;i++){if(M[i].date<=t)idx=i;}return idx;}
+// The strip currently on stage: a direct-linked draft preview (DRAFT), else the
+// published strip at cur. Everything that reads "the current strip" goes through here.
+function curStrip(){return DRAFT||M[cur];}
 function vkey(id){return 'dv.v.'+id;} function ckey(id){return 'dv.cm.'+id;}
 function getV(id){var v=localStorage.getItem(vkey(id));return v==='1'?1:(v==='-1'?-1:0);}
 function setV(id,val){if(val===0)localStorage.removeItem(vkey(id));else localStorage.setItem(vkey(id),String(val));}
 function loadC(id){try{return JSON.parse(localStorage.getItem(ckey(id))||'[]');}catch(e){return [];}}
 function saveC(id,a){localStorage.setItem(ckey(id),JSON.stringify(a));}
-var HASID=!!new URLSearchParams(location.search).get('id');
-var cur=(function(){var p=new URLSearchParams(location.search).get('id');var i=p?byId(p):-1;return i>=0?i:todayIdx();})();
+var REQID=new URLSearchParams(location.search).get('id');
+// DRAFT: a ?id= that names a real strip which is NOT in the published set M
+// (an unpublished candidate opened by direct link, e.g. from the admin desk).
+// Without this, byId() misses it and cur silently falls back to today's strip —
+// so every draft link rendered the SAME comic. When set, curStrip() shows it.
+var DRAFT=null,cur=0;
+// resolve() decides what to show for the current REQID/M state. Called on first
+// paint AND after Desk.pull re-derives M, so a draft link survives the refresh.
+// cur is ALWAYS left a valid published-feed anchor (today by default); DRAFT, when
+// set, overlays a specific unpublished strip on top of that anchor for display.
+function resolve(){
+  DRAFT=null;cur=todayIdx();                      // default: today's published strip
+  if(REQID){
+    var i=byId(REQID);
+    if(i>=0){cur=i;return;}                       // published: show it in-feed
+    var a=idxIn(ALL,REQID);
+    if(a>=0){DRAFT=ALL[a];return;}               // real but unpublished: preview overlay
+  }
+}
+resolve();
 function $(x){return document.getElementById(x);}
-function renderComments(){var s=M[cur],arr=loadC(s.id);$('cmc').textContent=arr.length;$('ch').textContent='('+arr.length+')';var ul=$('clist');ul.innerHTML='';arr.slice().reverse().forEach(function(c){var li=document.createElement('li');var d=new Date(c.ts);li.innerHTML='<div class="ch"><b>'+esc(c.name||'anon')+'</b><span class="ts">'+d.toLocaleDateString()+'</span></div><div class="cb">'+esc(c.text)+'</div>';ul.appendChild(li);});}
-function render(){if(!M.length){var st=document.querySelector('.stage');if(st)st.innerHTML='<p style="padding:70px 24px;text-align:center;font-style:italic;opacity:.55;font-size:18px">Nothing published yet.<br><span style="font-size:13px;font-family:monospace">un-draft a strip at <a href="admin.html">the desk</a></span></p>';['title','date','sc','ednote'].forEach(function(x){var e=$(x);if(e)e.textContent='';});['first','prev','next','latest','prev2','next2'].forEach(function(x){var e=$(x);if(e)e.disabled=true;});document.title='DAILBERT';return;}var s=M[cur];$('art').src='strips/'+s.id+'.svg';$('art').alt=s.title;$('title').textContent=s.title;$('date').textContent=s.date;$('sc').textContent=fmtReach(s.audience);$('mtr').style.width=pct(s.audience)+'%';$('ednote').textContent=s.note?('editor \\u2014 '+s.note):'';var v=getV(s.id);$('vn').textContent=v;$('up').classList.toggle('on',v===1);$('down').classList.toggle('on',v===-1);renderComments();$('prev').disabled=$('prev2').disabled=(cur<=0);$('next').disabled=$('next2').disabled=(cur>=M.length-1);document.title='DAILBERT \\u2014 '+s.title;}
-function go(i){if(i<0||i>=M.length)return;cur=i;try{history.replaceState(null,'','?id='+M[cur].id);}catch(e){}render();window.scrollTo(0,0);}
-$('up').addEventListener('click',function(){if(!M[cur])return;var id=M[cur].id,nv=getV(id)===1?0:1;setV(id,nv);render();Desk.vote(id,nv);});
-$('down').addEventListener('click',function(){if(!M[cur])return;var id=M[cur].id,nv=getV(id)===-1?0:-1;setV(id,nv);render();Desk.vote(id,nv);});
-$('cform').addEventListener('submit',function(e){e.preventDefault();if(!M[cur])return;var s=M[cur],t=$('ctext').value.trim();if(!t)return;var nm=$('cname').value.trim(),ts=Date.now();var arr=loadC(s.id);arr.push({name:nm,text:t,ts:ts});saveC(s.id,arr);$('ctext').value='';renderComments();Desk.comment(s.id,nm,t,ts);});
+function renderComments(){var s=curStrip();if(!s)return;var arr=loadC(s.id);$('cmc').textContent=arr.length;$('ch').textContent='('+arr.length+')';var ul=$('clist');ul.innerHTML='';arr.slice().reverse().forEach(function(c){var li=document.createElement('li');var d=new Date(c.ts);li.innerHTML='<div class="ch"><b>'+esc(c.name||'anon')+'</b><span class="ts">'+d.toLocaleDateString()+'</span></div><div class="cb">'+esc(c.text)+'</div>';ul.appendChild(li);});}
+function render(){var s=curStrip();
+  // Nothing to show only when there is neither a published strip nor a draft preview.
+  if(!s){var st=document.querySelector('.stage');if(st)st.innerHTML='<p style="padding:70px 24px;text-align:center;font-style:italic;opacity:.55;font-size:18px">Nothing published yet.<br><span style="font-size:13px;font-family:monospace">un-draft a strip at <a href="admin.html">the desk</a></span></p>';['title','date','sc','ednote'].forEach(function(x){var e=$(x);if(e)e.textContent='';});var db=$('draft');if(db)db.style.display='none';['first','prev','next','latest','prev2','next2'].forEach(function(x){var e=$(x);if(e)e.disabled=true;});document.title='DAILBERT';return;}
+  $('art').src='strips/'+s.id+'.svg';$('art').alt=s.title;$('title').textContent=s.title;$('date').textContent=s.date;$('sc').textContent=fmtReach(s.audience);$('mtr').style.width=pct(s.audience)+'%';$('ednote').textContent=s.note?('editor \\u2014 '+s.note):'';var v=getV(s.id);$('vn').textContent=v;$('up').classList.toggle('on',v===1);$('down').classList.toggle('on',v===-1);renderComments();
+  // In draft-preview mode we're outside the published sequence: flag it, and
+  // disable prev/next (a draft has no neighbours in the feed). first/latest stay
+  // live as escape hatches back into the published feed.
+  var db=$('draft');if(db)db.style.display=DRAFT?'inline-block':'none';
+  $('prev').disabled=$('prev2').disabled=DRAFT?true:(cur<=0);
+  $('next').disabled=$('next2').disabled=DRAFT?true:(cur>=M.length-1);
+  $('first').disabled=$('latest').disabled=(M.length===0);
+  document.title='DAILBERT \\u2014 '+s.title+(DRAFT?' (draft)':'');}
+// Any deliberate navigation leaves draft-preview mode and re-enters the published feed.
+function go(i){if(i<0||i>=M.length)return;DRAFT=null;cur=i;try{history.replaceState(null,'','?id='+M[cur].id);}catch(e){}render();window.scrollTo(0,0);}
+$('up').addEventListener('click',function(){var s=curStrip();if(!s)return;var id=s.id,nv=getV(id)===1?0:1;setV(id,nv);render();Desk.vote(id,nv);});
+$('down').addEventListener('click',function(){var s=curStrip();if(!s)return;var id=s.id,nv=getV(id)===-1?0:-1;setV(id,nv);render();Desk.vote(id,nv);});
+$('cform').addEventListener('submit',function(e){e.preventDefault();var s=curStrip();if(!s)return;var t=$('ctext').value.trim();if(!t)return;var nm=$('cname').value.trim(),ts=Date.now();var arr=loadC(s.id);arr.push({name:nm,text:t,ts:ts});saveC(s.id,arr);$('ctext').value='';renderComments();Desk.comment(s.id,nm,t,ts);});
 $('first').addEventListener('click',function(){go(0);});
 $('latest').addEventListener('click',function(){go(M.length-1);});
 $('prev').addEventListener('click',function(){go(cur-1);});
@@ -513,8 +550,10 @@ $('prev2').addEventListener('click',function(){go(cur-1);});
 $('next2').addEventListener('click',function(){go(cur+1);});
 document.addEventListener('keydown',function(e){if(e.target.tagName==='TEXTAREA'||e.target.tagName==='INPUT')return;if(e.key==='ArrowLeft')go(cur-1);else if(e.key==='ArrowRight')go(cur+1);});
 render();
-// after remote truth arrives, re-filter; land on today's strip unless the user opened a specific one
-Desk.pull(function(){applyPub();if(!HASID){cur=todayIdx();}else{if(cur>=M.length)cur=M.length-1;}if(cur<0)cur=todayIdx();render();});
+// after remote truth arrives, re-filter and re-resolve: a ?id= that just became a
+// published winner snaps into the feed; one that's still a draft keeps previewing;
+// no ?id= lands on today. resolve() encapsulates all three cases.
+Desk.pull(function(){applyPub();resolve();render();});
 </script>`;
 }
 
