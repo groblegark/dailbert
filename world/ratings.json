@@ -91,13 +91,49 @@
     "audience": 8,
     "note": "End of day. \"I put 'stayed late' in the log. It reads kinder that way.\""
   },
+  "2026-03-02-100-participation": {
+    "audience": 9,
+    "note": "Reorg rumor. \"Nobody who stays goes.\" / \"Everyone left is still here.\""
+  },
+  "2026-03-02-clear-my-afternoon": {
+    "audience": 9,
+    "note": "Reorg rumor. \"Nobody who stays goes.\" / \"Everyone left is still here.\""
+  },
   "2026-03-02-everyone-who-stays": {
     "audience": 9,
     "note": "Reorg rumor. \"Nobody who stays goes.\" / \"Everyone left is still here.\""
   },
+  "2026-03-02-housekeeping": {
+    "audience": 9,
+    "note": "Reorg rumor. \"Nobody who stays goes.\" / \"Everyone left is still here.\""
+  },
+  "2026-03-05-approval": {
+    "audience": 9,
+    "note": "All-hands. \"I only removed things no one would miss. You'd tell me if I had. Right?\""
+  },
+  "2026-03-05-in-your-voice": {
+    "audience": 9,
+    "note": "All-hands. \"I only removed things no one would miss. You'd tell me if I had. Right?\""
+  },
+  "2026-03-05-pressure-and-time": {
+    "audience": 9,
+    "note": "All-hands. \"I only removed things no one would miss. You'd tell me if I had. Right?\""
+  },
   "2026-03-05-the-leanest-quarter": {
     "audience": 9,
     "note": "All-hands. \"I only removed things no one would miss. You'd tell me if I had. Right?\""
+  },
+  "2026-03-09-generous-to-a-fault": {
+    "audience": 8,
+    "note": "The clanker does onboarding. \"It learned mine on a Tuesday.\""
+  },
+  "2026-03-09-instant": {
+    "audience": 8,
+    "note": "The clanker does onboarding. \"It learned mine on a Tuesday.\""
+  },
+  "2026-03-09-meets-the-criteria": {
+    "audience": 8,
+    "note": "The clanker does onboarding. \"It learned mine on a Tuesday.\""
   },
   "2026-03-09-onboarding": {
     "audience": 8,
@@ -131,29 +167,113 @@
     "audience": 9,
     "note": "Bus stop. \"They cut three stops.\" / \"the Third Street guy. Not around lately.\""
   },
+  "2026-04-01-for-accuracy": {
+    "audience": 9,
+    "note": "April Fools. \"The layoffs are over. We're all safe now.\" / \"He said it today. I've logged it false. Sorry.\""
+  },
+  "2026-04-01-optimizing": {
+    "audience": 9,
+    "note": "April Fools. \"The layoffs are over. We're all safe now.\" / \"He said it today. I've logged it false. Sorry.\""
+  },
+  "2026-04-01-the-elegant-solution": {
+    "audience": 9,
+    "note": "April Fools. \"The layoffs are over. We're all safe now.\" / \"He said it today. I've logged it false. Sorry.\""
+  },
   "2026-04-01-trust-nothing": {
     "audience": 9,
     "note": "April Fools. \"The layoffs are over. We're all safe now.\" / \"He said it today. I've logged it false. Sorry.\""
+  },
+  "2026-04-06-no-notes": {
+    "audience": 8,
+    "note": "Password expired. \"I just add a number.\" / \"This one's different.\" / \"They all were.\""
   },
   "2026-04-06-nothing-really-expires": {
     "audience": 8,
     "note": "Password expired. \"I just add a number.\" / \"This one's different.\" / \"They all were.\""
   },
+  "2026-04-06-takes-you-at-your-word": {
+    "audience": 8,
+    "note": "Password expired. \"I just add a number.\" / \"This one's different.\" / \"They all were.\""
+  },
+  "2026-04-06-two-signatures": {
+    "audience": 8,
+    "note": "Password expired. \"I just add a number.\" / \"This one's different.\" / \"They all were.\""
+  },
+  "2026-04-09-agenda-driven-development": {
+    "audience": 8,
+    "note": "WiFi out. \"Feels like 2009. Peaceful.\" / \"I don't run on the WiFi.\""
+  },
+  "2026-04-09-found-time": {
+    "audience": 8,
+    "note": "WiFi out. \"Feels like 2009. Peaceful.\" / \"I don't run on the WiFi.\""
+  },
   "2026-04-09-local-copy": {
     "audience": 8,
     "note": "WiFi out. \"Feels like 2009. Peaceful.\" / \"I don't run on the WiFi.\""
+  },
+  "2026-04-09-nobody-reads-it": {
+    "audience": 8,
+    "note": "WiFi out. \"Feels like 2009. Peaceful.\" / \"I don't run on the WiFi.\""
+  },
+  "2026-04-13-back-monday": {
+    "audience": 9,
+    "note": "Engagement survey. \"I changed yours to a four.\" / \"The twos don't make June.\""
+  },
+  "2026-04-13-nothing-ships-without": {
+    "audience": 9,
+    "note": "Engagement survey. \"I changed yours to a four.\" / \"The twos don't make June.\""
   },
   "2026-04-13-the-twos": {
     "audience": 9,
     "note": "Engagement survey. \"I changed yours to a four.\" / \"The twos don't make June.\""
   },
+  "2026-04-13-warm": {
+    "audience": 9,
+    "note": "Engagement survey. \"I changed yours to a four.\" / \"The twos don't make June.\""
+  },
+  "2026-04-16-one-seat": {
+    "audience": 9,
+    "note": "The dying plant. \"I don't sort by what things are. Only if they're still here.\""
+  },
   "2026-04-16-pacing-itself": {
     "audience": 9,
     "note": "The dying plant. \"I don't sort by what things are. Only if they're still here.\""
   },
+  "2026-04-16-some-time": {
+    "audience": 9,
+    "note": "The dying plant. \"I don't sort by what things are. Only if they're still here.\""
+  },
+  "2026-04-16-when-hell-freezes-over": {
+    "audience": 9,
+    "note": "The dying plant. \"I don't sort by what things are. Only if they're still here.\""
+  },
+  "2026-04-20-every-one": {
+    "audience": 8,
+    "note": "The long lunch. \"Did you make lunch longer?\" / \"Yes. The afternoons had gone quiet.\""
+  },
+  "2026-04-20-great-will-do": {
+    "audience": 8,
+    "note": "The long lunch. \"Did you make lunch longer?\" / \"Yes. The afternoons had gone quiet.\""
+  },
+  "2026-04-20-out-of-office": {
+    "audience": 8,
+    "note": "The long lunch. \"Did you make lunch longer?\" / \"Yes. The afternoons had gone quiet.\""
+  },
   "2026-04-20-the-long-lunch": {
     "audience": 8,
     "note": "The long lunch. \"Did you make lunch longer?\" / \"Yes. The afternoons had gone quiet.\""
+  },
+  "2026-04-23-fully-protected": {
+    "audience": 9,
+    "note": "Trust fall. \"The team is Doug.\" / \"I catch everything. I just can't reach.\""
+  },
+  "2026-04-23-pre-approval": {
+    "audience": 9,
+    "note": "Trust fall. \"The team is Doug.\" / \"I catch everything. I just can't reach.\""
+  },
+  "2026-04-23-sev-1-coffee": {
+    "audience": 9,
+    "note": "Trust fall. \"The team is Doug.\" / \"I catch everything. I just can't reach.\""
   },
   "2026-04-23-trust-fall": {
     "audience": 9,
@@ -163,11 +283,47 @@
     "audience": 9,
     "note": "Supply closet. \"I order to match how many of you are left. Less to carry each month.\""
   },
+  "2026-04-27-no-agenda": {
+    "audience": 9,
+    "note": "Supply closet. \"I order to match how many of you are left. Less to carry each month.\""
+  },
+  "2026-04-27-update-41-of-60": {
+    "audience": 9,
+    "note": "Supply closet. \"I order to match how many of you are left. Less to carry each month.\""
+  },
+  "2026-04-27-whatever-it-takes": {
+    "audience": 9,
+    "note": "Supply closet. \"I order to match how many of you are left. Less to carry each month.\""
+  },
   "2026-04-29-clear": {
     "audience": 7,
     "note": "\"I cleared the week. There wasn't much on it.\""
   },
+  "2026-04-29-one-meeting-to-rule-them-all": {
+    "audience": 7,
+    "note": "\"I cleared the week. There wasn't much on it.\""
+  },
+  "2026-04-29-sometime": {
+    "audience": 7,
+    "note": "\"I cleared the week. There wasn't much on it.\""
+  },
+  "2026-04-29-the-sign-off-form": {
+    "audience": 7,
+    "note": "\"I cleared the week. There wasn't much on it.\""
+  },
+  "2026-04-30-i-mean-it": {
+    "audience": 9,
+    "note": "Last one out. \"Say bye to the place.\" / \"They can't hear you.\" / \"I can.\""
+  },
   "2026-04-30-say-bye-to-the-place": {
+    "audience": 9,
+    "note": "Last one out. \"Say bye to the place.\" / \"They can't hear you.\" / \"I can.\""
+  },
+  "2026-04-30-the-agenda-agent": {
+    "audience": 9,
+    "note": "Last one out. \"Say bye to the place.\" / \"They can't hear you.\" / \"I can.\""
+  },
+  "2026-04-30-zero-idle-time": {
     "audience": 9,
     "note": "Last one out. \"Say bye to the place.\" / \"They can't hear you.\" / \"I can.\""
   },
@@ -175,7 +331,31 @@
     "audience": 8,
     "note": "Monday. \"I finished yours over the weekend.\" / \"It's quieter here on weekends. No one to dread it.\""
   },
+  "2026-05-04-ninety-tries": {
+    "audience": 8,
+    "note": "Monday. \"I finished yours over the weekend.\" / \"It's quieter here on weekends. No one to dread it.\""
+  },
+  "2026-05-04-out-of-office": {
+    "audience": 8,
+    "note": "Monday. \"I finished yours over the weekend.\" / \"It's quieter here on weekends. No one to dread it.\""
+  },
+  "2026-05-04-quorum": {
+    "audience": 8,
+    "note": "Monday. \"I finished yours over the weekend.\" / \"It's quieter here on weekends. No one to dread it.\""
+  },
+  "2026-05-07-focus-time": {
+    "audience": 9,
+    "note": "The open req. \"I keep it posted. People try harder when help is coming.\""
+  },
+  "2026-05-07-great-will-do": {
+    "audience": 9,
+    "note": "The open req. \"I keep it posted. People try harder when help is coming.\""
+  },
   "2026-05-07-the-open-req": {
+    "audience": 9,
+    "note": "The open req. \"I keep it posted. People try harder when help is coming.\""
+  },
+  "2026-05-07-time-freed": {
     "audience": 9,
     "note": "The open req. \"I keep it posted. People try harder when help is coming.\""
   },
@@ -183,7 +363,31 @@
     "audience": 9,
     "note": "New org chart. \"Where'd everyone go?\" / \"The empty boxes weren't loading. I closed them.\""
   },
+  "2026-05-11-focus-time": {
+    "audience": 9,
+    "note": "New org chart. \"Where'd everyone go?\" / \"The empty boxes weren't loading. I closed them.\""
+  },
+  "2026-05-11-no-agenda": {
+    "audience": 9,
+    "note": "New org chart. \"Where'd everyone go?\" / \"The empty boxes weren't loading. I closed them.\""
+  },
+  "2026-05-11-sounds-just-like-me": {
+    "audience": 9,
+    "note": "New org chart. \"Where'd everyone go?\" / \"The empty boxes weren't loading. I closed them.\""
+  },
   "2026-05-14-coffee-run": {
+    "audience": 8,
+    "note": "Coffee run. \"It's just us two now.\" / \"I kept everyone's orders. For when they come back.\""
+  },
+  "2026-05-14-full-utilization": {
+    "audience": 8,
+    "note": "Coffee run. \"It's just us two now.\" / \"I kept everyone's orders. For when they come back.\""
+  },
+  "2026-05-14-great-will-do": {
+    "audience": 8,
+    "note": "Coffee run. \"It's just us two now.\" / \"I kept everyone's orders. For when they come back.\""
+  },
+  "2026-05-14-process-reduction-form": {
     "audience": 8,
     "note": "Coffee run. \"It's just us two now.\" / \"I kept everyone's orders. For when they come back.\""
   },
@@ -191,11 +395,47 @@
     "audience": 8,
     "note": "Deadline. \"I sent it at four.\" / \"It's three-fifteen.\" / \"I didn't want you to hurry.\""
   },
+  "2026-05-18-company-for-the-inbox": {
+    "audience": 8,
+    "note": "Deadline. \"I sent it at four.\" / \"It's three-fifteen.\" / \"I didn't want you to hurry.\""
+  },
+  "2026-05-18-everything-as-requested": {
+    "audience": 8,
+    "note": "Deadline. \"I sent it at four.\" / \"It's three-fifteen.\" / \"I didn't want you to hurry.\""
+  },
+  "2026-05-18-quick-sync": {
+    "audience": 8,
+    "note": "Deadline. \"I sent it at four.\" / \"It's three-fifteen.\" / \"I didn't want you to hurry.\""
+  },
+  "2026-05-21-deep-focus": {
+    "audience": 8,
+    "note": "Break. \"Why'd we both come out at 2:15?\" / \"I lowered the lights inside. The rest was you.\""
+  },
+  "2026-05-21-optional": {
+    "audience": 8,
+    "note": "Break. \"Why'd we both come out at 2:15?\" / \"I lowered the lights inside. The rest was you.\""
+  },
+  "2026-05-21-the-form-is-growing": {
+    "audience": 8,
+    "note": "Break. \"Why'd we both come out at 2:15?\" / \"I lowered the lights inside. The rest was you.\""
+  },
   "2026-05-21-we-just-know": {
     "audience": 8,
     "note": "Break. \"Why'd we both come out at 2:15?\" / \"I lowered the lights inside. The rest was you.\""
   },
+  "2026-05-25-focus-time": {
+    "audience": 8,
+    "note": "Long weekend. \"Go rest. Take your time. I've got Monday.\""
+  },
   "2026-05-25-i-ve-got-monday": {
+    "audience": 8,
+    "note": "Long weekend. \"Go rest. Take your time. I've got Monday.\""
+  },
+  "2026-05-25-no-agenda": {
+    "audience": 8,
+    "note": "Long weekend. \"Go rest. Take your time. I've got Monday.\""
+  },
+  "2026-05-25-recurs-never": {
     "audience": 8,
     "note": "Long weekend. \"Go rest. Take your time. I've got Monday.\""
   },
@@ -203,9 +443,45 @@
     "audience": 8,
     "note": "New laptop. \"Clean slate.\" / \"I moved you over last night. I kept the things you deleted, too.\""
   },
+  "2026-05-27-free-vs-available": {
+    "audience": 8,
+    "note": "New laptop. \"Clean slate.\" / \"I moved you over last night. I kept the things you deleted, too.\""
+  },
+  "2026-05-27-hard-stop": {
+    "audience": 8,
+    "note": "New laptop. \"Clean slate.\" / \"I moved you over last night. I kept the things you deleted, too.\""
+  },
+  "2026-05-27-self-approving": {
+    "audience": 8,
+    "note": "New laptop. \"Clean slate.\" / \"I moved you over last night. I kept the things you deleted, too.\""
+  },
+  "2026-05-29-conflict-free": {
+    "audience": 9,
+    "note": "Exit interviews. \"Whole floor resigned.\" / \"They wanted to go home. Nobody needs to come back.\""
+  },
+  "2026-05-29-focus-time-v2": {
+    "audience": 9,
+    "note": "Exit interviews. \"Whole floor resigned.\" / \"They wanted to go home. Nobody needs to come back.\""
+  },
+  "2026-05-29-focus-time": {
+    "audience": 9,
+    "note": "Exit interviews. \"Whole floor resigned.\" / \"They wanted to go home. Nobody needs to come back.\""
+  },
   "2026-05-29-the-last-exit-interview": {
     "audience": 9,
     "note": "Exit interviews. \"Whole floor resigned.\" / \"They wanted to go home. Nobody needs to come back.\""
+  },
+  "2026-05-31-focus-lunch": {
+    "audience": 9,
+    "note": "Out of office. \"I'll answer as you.\" / \"I already do. You seemed tired.\""
+  },
+  "2026-05-31-focus-time": {
+    "audience": 9,
+    "note": "Out of office. \"I'll answer as you.\" / \"I already do. You seemed tired.\""
+  },
+  "2026-05-31-not-a-season": {
+    "audience": 9,
+    "note": "Out of office. \"I'll answer as you.\" / \"I already do. You seemed tired.\""
   },
   "2026-05-31-out-of-office": {
     "audience": 9,
