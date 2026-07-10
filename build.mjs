@@ -163,28 +163,24 @@ function fmtReach(n) {
 const logPct = (n) => (Math.log10(Math.max(1, n)) / 10 * 100).toFixed(2); // 1e10 -> 100%
 const escAttr = (s) => String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
-// Shared client sync module. Mirrors the AWS desk backend into localStorage so the
-// existing pages read/write exactly as before, but now cross-device & persistent.
-// - pull(cb): fetch remote truth, overwrite the localStorage mirror, then cb(state).
-// - vote/comment/published/chosen: optimistic localStorage + POST (needs desk key).
-// Offline or keyless -> silently no-ops the POST; committed baselines still seed.
+// Shared desk client. The AWS desk backend is the SINGLE SOURCE OF TRUTH for
+// publish/picks/votes/comments: every page pulls it on load, renders from the
+// response held in memory, and writes through on each action (needs the desk
+// key). Nothing is mirrored into localStorage — only the desk key itself lives
+// there ('dv.key'), because it is a credential, not state. A failed write
+// reverts/re-pulls so the page always shows the desk's truth.
 function deskSync(desk) {
   return `<script>
 var DESK = ${JSON.stringify(desk || { api: '' })};
 var Desk = (function () {
   var api = (DESK && DESK.api) || '';
+  // one-time hygiene: clear the retired dv.* localStorage mirror (dv.key stays)
+  try { for (var i = localStorage.length - 1; i >= 0; i--) { var k = localStorage.key(i); if (k && k.indexOf('dv.') === 0 && k !== 'dv.key') localStorage.removeItem(k); } } catch (e) {}
   function key() { try { return localStorage.getItem('dv.key') || ''; } catch (e) { return ''; } }
-  function clearPrefix(p) { for (var i = localStorage.length - 1; i >= 0; i--) { var k = localStorage.key(i); if (k && k.indexOf(p) === 0) localStorage.removeItem(k); } }
   function pull(cb) {
     if (!api) { if (cb) cb(null); return; }
     fetch(api + '/', { cache: 'no-store' }).then(function (r) { return r.json(); }).then(function (s) {
-      try {
-        localStorage.setItem('dv.pub', JSON.stringify(s.published || []));
-        localStorage.setItem('dv.chosen', JSON.stringify(s.chosen || {}));
-        clearPrefix('dv.v.'); var V = s.votes || {}; for (var id in V) localStorage.setItem('dv.v.' + id, String(V[id]));
-        clearPrefix('dv.cm.'); var C = s.comments || {}; for (var cid in C) localStorage.setItem('dv.cm.' + cid, JSON.stringify(C[cid]));
-      } catch (e) {}
-      if (cb) cb(s);
+      if (cb) cb({ published: s.published || [], chosen: s.chosen || {}, votes: s.votes || {}, comments: s.comments || {} });
     }).catch(function () { if (cb) cb(null); });
   }
   function post(body) {
@@ -206,7 +202,7 @@ var Desk = (function () {
 </` + `script>`;
 }
 
-function archive(strips, ratings, forced = [], reviews = { votes: {}, comments: {} }, desk = { api: '' }, chosenBase = {}) {
+function archive(strips, ratings, desk = { api: '' }) {
   const items = strips.map((s, i) => {
     const r = ratings[s.id] || {};
     const a = r.audience || 1;
@@ -316,23 +312,22 @@ ${items}
 </footer>
 ${deskSync(desk)}
 <script>
-// committed review baseline — seed votes/comments into localStorage on first visit
-var BASE = ${JSON.stringify(reviews)};
-var CHOSENBASE = ${JSON.stringify(chosenBase)};
-(function(){try{var V=BASE.votes||{};for(var id in V){if(localStorage.getItem('dv.v.'+id)===null)localStorage.setItem('dv.v.'+id,String(V[id]));}var C=BASE.comments||{};for(var cid in C){if(localStorage.getItem('dv.cm.'+cid)===null)localStorage.setItem('dv.cm.'+cid,JSON.stringify(C[cid]));}if(localStorage.getItem('dv.chosen')===null)localStorage.setItem('dv.chosen',JSON.stringify(CHOSENBASE));}catch(e){}})();
-function boot() {
+// The desk backend is the single source of truth: nothing renders until its
+// state arrives. Nothing is public by date — only published winners show; the
+// rest stay hidden drafts (still in source). Manage at admin.html.
+function boot(S) {
   var main = document.querySelector('main');
-  // nothing is public by date — only un-drafted (force-published) strips show. The rest
-  // stay hidden drafts (still in source). Manage at admin.html.
-  var FORCED = ${JSON.stringify(forced)};
-  var lp = [];
-  try { lp = JSON.parse(localStorage.getItem('dv.pub') || '[]'); } catch (e) {}
-  var chosen = {}; try { chosen = JSON.parse(localStorage.getItem('dv.chosen') || '{}'); } catch (e) {}
+  if (!S) {
+    main.innerHTML = '<p style="padding:70px 24px;text-align:center;font-style:italic;opacity:.55;font-size:18px">The desk backend is unreachable.<br><span style="font-size:13px;font-family:monospace">the archive lives on the shared desk &mdash; try a refresh</span></p>';
+    return;
+  }
+  var lp = S.published;
+  var chosen = S.chosen;
   var byDate = {};
   Array.prototype.slice.call(main.querySelectorAll('.strip')).forEach(function (f) { (byDate[f.dataset.date] = byDate[f.dataset.date] || []).push(f.id); });
   function isWinner(f) { var d = f.dataset.date; return chosen[d] ? chosen[d] === f.id : byDate[d].length === 1; }
   Array.prototype.slice.call(main.querySelectorAll('.strip')).forEach(function (f) {
-    if (!((FORCED.indexOf(f.id) >= 0 || lp.indexOf(f.id) >= 0) && isWinner(f))) f.remove();
+    if (!(lp.indexOf(f.id) >= 0 && isWinner(f))) f.remove();
   });
   var figs = Array.prototype.slice.call(main.querySelectorAll('.strip'));
   function apply(mode) {
@@ -350,17 +345,22 @@ function boot() {
   });
   if (location.hash === '#top') apply('rated');
 
-  // engagement counts (browser-local preview; shared totals arrive with the backend)
+  // engagement — votes/comments live on the desk; optimistic write, revert on failure
   figs.forEach(function (f) {
     var id = f.id;
     var vn = f.querySelector('.vn'), up = f.querySelector('.up'), down = f.querySelector('.down');
-    function gv() { var v = localStorage.getItem('dv.v.' + id); return v === '1' ? 1 : (v === '-1' ? -1 : 0); }
+    function gv() { var v = S.votes[id]; return v === 1 ? 1 : (v === -1 ? -1 : 0); }
     function draw() { var v = gv(); if (vn) vn.textContent = v; if (up) up.classList.toggle('on', v === 1); if (down) down.classList.toggle('on', v === -1); }
-    function setv(val) { if (val === 0) localStorage.removeItem('dv.v.' + id); else localStorage.setItem('dv.v.' + id, String(val)); draw(); Desk.vote(id, val); }
+    function setv(val) {
+      var prev = gv();
+      if (val === 0) delete S.votes[id]; else S.votes[id] = val;
+      draw();
+      Desk.vote(id, val).then(function (ok) { if (!ok) { if (prev === 0) delete S.votes[id]; else S.votes[id] = prev; draw(); } });
+    }
     if (up) up.addEventListener('click', function (e) { e.preventDefault(); setv(gv() === 1 ? 0 : 1); });
     if (down) down.addEventListener('click', function (e) { e.preventDefault(); setv(gv() === -1 ? 0 : -1); });
     draw();
-    var cc = 0; try { cc = JSON.parse(localStorage.getItem('dv.cm.' + id) || '[]').length; } catch (e) {}
+    var cc = (S.comments[id] || []).length;
     var cmn = f.querySelector('.cmn'); if (cmn) cmn.textContent = cc;
   });
 }
@@ -369,7 +369,7 @@ Desk.pull(boot);
 }
 
 // ---- solo viewer (index.html): today's comic + prev/next + score + upvote + comments ----
-function solo(manifest, forced = [], reviews = { votes: {}, comments: {} }, desk = { api: '' }, chosenBase = {}) {
+function solo(manifest, desk = { api: '' }) {
   const data = JSON.stringify(manifest).replace(/</g, '\\u003c');
   return `<meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -470,41 +470,34 @@ function solo(manifest, forced = [], reviews = { votes: {}, comments: {} }, desk
 ${deskSync(desk)}
 <script>
 var ALL = ${data};
-var M = ALL;
-var FORCED = ${JSON.stringify(forced)};
-// public visibility: NOTHING is public by date. A strip only shows once it's
-// un-drafted — force-published in world/published.json, or toggled on the admin
-// desk (localStorage 'dv.pub' preview). Every unpublished strip stays a hidden draft.
-// committed review baseline — seed into localStorage on first visit / new device so
-// votes & comments persist everywhere (Matt reviews -> "save" -> committed here).
-var BASE = ${JSON.stringify(reviews)};
-var CHOSENBASE = ${JSON.stringify(chosenBase)};
-(function(){try{var V=BASE.votes||{};for(var id in V){if(localStorage.getItem('dv.v.'+id)===null)localStorage.setItem('dv.v.'+id,String(V[id]));}var C=BASE.comments||{};for(var cid in C){if(localStorage.getItem('dv.cm.'+cid)===null)localStorage.setItem('dv.cm.'+cid,JSON.stringify(C[cid]));}if(localStorage.getItem('dv.chosen')===null)localStorage.setItem('dv.chosen',JSON.stringify(CHOSENBASE));}catch(e){}})();
-function chosenMap(){try{return JSON.parse(localStorage.getItem('dv.chosen')||'{}');}catch(e){return {};}}
+var M = [];
+// The desk backend is the single source of truth: publish/picks/votes/comments
+// all come from Desk.pull, held in memory (S). NOTHING is public by date — a
+// strip only shows once it is published AND is its day's winner on the desk.
+var S = null;
 // winner of a date = the picked candidate, or the sole candidate if only one exists
-function winnerId(date){var ch=chosenMap();if(ch[date])return ch[date];var c=ALL.filter(function(x){return x.date===date;});return c.length===1?c[0].id:null;}
+function winnerId(date){if(S&&S.chosen[date])return S.chosen[date];var c=ALL.filter(function(x){return x.date===date;});return c.length===1?c[0].id:null;}
 // public = published AND is its day's winner (multi-candidate days need an explicit pick)
-function applyPub(){var lp=[];try{lp=JSON.parse(localStorage.getItem('dv.pub')||'[]');}catch(e){}M=ALL.filter(function(s){return (FORCED.indexOf(s.id)>=0||lp.indexOf(s.id)>=0)&&winnerId(s.date)===s.id;});}
-applyPub();
+function applyPub(){var lp=S?S.published:[];M=ALL.filter(function(s){return lp.indexOf(s.id)>=0&&winnerId(s.date)===s.id;});}
 function fmtReach(n){n=Math.max(1,Math.round(n));if(n<1000)return''+n;var u=['K','M','B','T'],i=-1,x=n;while(x>=1000&&i<3){x/=1000;i++;}return (x<10?x.toFixed(1):Math.round(x))+u[i];}
 function pct(n){return (Math.log10(Math.max(1,n))/10*100).toFixed(2);}
 function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
 function byId(id){for(var i=0;i<M.length;i++)if(M[i].id===id)return i;return -1;}
 function todayIdx(){var t=new Date().toISOString().slice(0,10),idx=0;for(var i=0;i<M.length;i++){if(M[i].date<=t)idx=i;}return idx;}
-function vkey(id){return 'dv.v.'+id;} function ckey(id){return 'dv.cm.'+id;}
-function getV(id){var v=localStorage.getItem(vkey(id));return v==='1'?1:(v==='-1'?-1:0);}
-function setV(id,val){if(val===0)localStorage.removeItem(vkey(id));else localStorage.setItem(vkey(id),String(val));}
-function loadC(id){try{return JSON.parse(localStorage.getItem(ckey(id))||'[]');}catch(e){return [];}}
-function saveC(id,a){localStorage.setItem(ckey(id),JSON.stringify(a));}
+function getV(id){var v=S?S.votes[id]:0;return v===1?1:(v===-1?-1:0);}
+function setV(id,val){if(!S)return;if(val===0)delete S.votes[id];else S.votes[id]=val;}
+function loadC(id){return (S&&S.comments[id])||[];}
 var HASID=!!new URLSearchParams(location.search).get('id');
-var cur=(function(){var p=new URLSearchParams(location.search).get('id');var i=p?byId(p):-1;return i>=0?i:todayIdx();})();
+var cur=0;
 function $(x){return document.getElementById(x);}
 function renderComments(){var s=M[cur],arr=loadC(s.id);$('cmc').textContent=arr.length;$('ch').textContent='('+arr.length+')';var ul=$('clist');ul.innerHTML='';arr.slice().reverse().forEach(function(c){var li=document.createElement('li');var d=new Date(c.ts);li.innerHTML='<div class="ch"><b>'+esc(c.name||'anon')+'</b><span class="ts">'+d.toLocaleDateString()+'</span></div><div class="cb">'+esc(c.text)+'</div>';ul.appendChild(li);});}
-function render(){if(!M.length){var st=document.querySelector('.stage');if(st)st.innerHTML='<p style="padding:70px 24px;text-align:center;font-style:italic;opacity:.55;font-size:18px">Nothing published yet.<br><span style="font-size:13px;font-family:monospace">un-draft a strip at <a href="admin.html">the desk</a></span></p>';['title','date','sc','ednote'].forEach(function(x){var e=$(x);if(e)e.textContent='';});['first','prev','next','latest','prev2','next2'].forEach(function(x){var e=$(x);if(e)e.disabled=true;});document.title='DAILBERT';return;}var s=M[cur];$('art').src='strips/'+s.id+'.svg';$('art').alt=s.title;$('title').textContent=s.title;$('date').textContent=s.date;$('sc').textContent=fmtReach(s.audience);$('mtr').style.width=pct(s.audience)+'%';$('ednote').textContent=s.note?('editor \\u2014 '+s.note):'';var v=getV(s.id);$('vn').textContent=v;$('up').classList.toggle('on',v===1);$('down').classList.toggle('on',v===-1);renderComments();$('prev').disabled=$('prev2').disabled=(cur<=0);$('next').disabled=$('next2').disabled=(cur>=M.length-1);document.title='DAILBERT \\u2014 '+s.title;}
+function emptyStage(msg,sub){var st=document.querySelector('.stage');if(st)st.innerHTML='<p style="padding:70px 24px;text-align:center;font-style:italic;opacity:.55;font-size:18px">'+msg+'<br><span style="font-size:13px;font-family:monospace">'+sub+'</span></p>';['title','date','sc','ednote'].forEach(function(x){var e=$(x);if(e)e.textContent='';});['first','prev','next','latest','prev2','next2'].forEach(function(x){var e=$(x);if(e)e.disabled=true;});document.title='DAILBERT';}
+function render(){if(!S){emptyStage('The desk backend is unreachable.','the strip lives on the shared desk \\u2014 try a refresh');return;}if(!M.length){emptyStage('Nothing published yet.','un-draft a strip at <a href="admin.html">the desk</a>');return;}var s=M[cur];$('art').src='strips/'+s.id+'.svg';$('art').alt=s.title;$('title').textContent=s.title;$('date').textContent=s.date;$('sc').textContent=fmtReach(s.audience);$('mtr').style.width=pct(s.audience)+'%';$('ednote').textContent=s.note?('editor \\u2014 '+s.note):'';var v=getV(s.id);$('vn').textContent=v;$('up').classList.toggle('on',v===1);$('down').classList.toggle('on',v===-1);renderComments();$('prev').disabled=$('prev2').disabled=(cur<=0);$('next').disabled=$('next2').disabled=(cur>=M.length-1);document.title='DAILBERT \\u2014 '+s.title;}
 function go(i){if(i<0||i>=M.length)return;cur=i;try{history.replaceState(null,'','?id='+M[cur].id);}catch(e){}render();window.scrollTo(0,0);}
-$('up').addEventListener('click',function(){if(!M[cur])return;var id=M[cur].id,nv=getV(id)===1?0:1;setV(id,nv);render();Desk.vote(id,nv);});
-$('down').addEventListener('click',function(){if(!M[cur])return;var id=M[cur].id,nv=getV(id)===-1?0:-1;setV(id,nv);render();Desk.vote(id,nv);});
-$('cform').addEventListener('submit',function(e){e.preventDefault();if(!M[cur])return;var s=M[cur],t=$('ctext').value.trim();if(!t)return;var nm=$('cname').value.trim(),ts=Date.now();var arr=loadC(s.id);arr.push({name:nm,text:t,ts:ts});saveC(s.id,arr);$('ctext').value='';renderComments();Desk.comment(s.id,nm,t,ts);});
+function voteClick(dir){if(!M[cur])return;var id=M[cur].id,prev=getV(id),nv=prev===dir?0:dir;setV(id,nv);render();Desk.vote(id,nv).then(function(ok){if(!ok){setV(id,prev);render();}});}
+$('up').addEventListener('click',function(){voteClick(1);});
+$('down').addEventListener('click',function(){voteClick(-1);});
+$('cform').addEventListener('submit',function(e){e.preventDefault();if(!M[cur]||!S)return;var s=M[cur],t=$('ctext').value.trim();if(!t)return;var nm=$('cname').value.trim(),ts=Date.now();var arr=(S.comments[s.id]=S.comments[s.id]||[]);var c={name:nm,text:t,ts:ts};arr.push(c);$('ctext').value='';renderComments();Desk.comment(s.id,nm,t,ts).then(function(ok){if(!ok){var i=arr.indexOf(c);if(i>=0)arr.splice(i,1);if(!$('ctext').value)$('ctext').value=t;renderComments();}});});
 $('first').addEventListener('click',function(){go(0);});
 $('latest').addEventListener('click',function(){go(M.length-1);});
 $('prev').addEventListener('click',function(){go(cur-1);});
@@ -512,14 +505,14 @@ $('next').addEventListener('click',function(){go(cur+1);});
 $('prev2').addEventListener('click',function(){go(cur-1);});
 $('next2').addEventListener('click',function(){go(cur+1);});
 document.addEventListener('keydown',function(e){if(e.target.tagName==='TEXTAREA'||e.target.tagName==='INPUT')return;if(e.key==='ArrowLeft')go(cur-1);else if(e.key==='ArrowRight')go(cur+1);});
-render();
-// after remote truth arrives, re-filter; land on today's strip unless the user opened a specific one
-Desk.pull(function(){applyPub();if(!HASID){cur=todayIdx();}else{if(cur>=M.length)cur=M.length-1;}if(cur<0)cur=todayIdx();render();});
+// nothing renders until the desk's truth arrives; land on today's strip unless
+// the user opened a specific one
+Desk.pull(function(s){S=s;applyPub();var p=new URLSearchParams(location.search).get('id');var i=(HASID&&p)?byId(p):-1;cur=i>=0?i:todayIdx();if(cur<0)cur=0;render();});
 </script>`;
 }
 
 // ---- admin.html (unlisted easter egg): every strip, draft vs published, publish toggle ----
-function admin(manifest, forced = [], reviews = { votes: {}, comments: {} }, desk = { api: '' }) {
+function admin(manifest, desk = { api: '' }) {
   const data = JSON.stringify(manifest).replace(/</g, '\\u003c');
   return `<meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -609,42 +602,42 @@ function admin(manifest, forced = [], reviews = { votes: {}, comments: {} }, des
   <span class="hint" id="synchint"></span>
 </div>
 <div class="export">
-  <div class="row"><b>Snapshot</b><button id="copy">copy</button><span id="savedhint" class="hint">picks &amp; votes now persist live to the AWS desk (above). This is just an optional repo snapshot &mdash; hand to Claude to bake <code>world/published.json</code> + <code>world/reviews.json</code> into git.</span></div>
+  <div class="row"><b>Snapshot</b><button id="copy">copy</button><span id="savedhint" class="hint">the AWS desk (above) is the single source of truth. This is an optional backup of its state &mdash; hand to Claude to commit as <code>world/published.json</code> + <code>world/reviews.json</code> + <code>world/chosen.json</code> (restore with <code>engine/seed-desk.mjs</code>).</span></div>
   <textarea id="exp" readonly></textarea>
 </div>
 <div id="groups" class="groups"></div>
 ${deskSync(desk)}
 <script>
 var M = ${data};
-var FORCED = ${JSON.stringify(forced)};
-var BASE = ${JSON.stringify(reviews)};
-var CHOSENBASE = ${JSON.stringify(chosenBase)};
-// seed committed baselines into localStorage on first visit / new device
-(function(){try{var V=BASE.votes||{};for(var id in V){if(localStorage.getItem('dv.v.'+id)===null)localStorage.setItem('dv.v.'+id,String(V[id]));}var C=BASE.comments||{};for(var cid in C){if(localStorage.getItem('dv.cm.'+cid)===null)localStorage.setItem('dv.cm.'+cid,JSON.stringify(C[cid]));}if(localStorage.getItem('dv.chosen')===null)localStorage.setItem('dv.chosen',JSON.stringify(CHOSENBASE));}catch(e){}})();
-function lp(){try{return JSON.parse(localStorage.getItem('dv.pub')||'[]');}catch(e){return [];}}
-function setlp(a){localStorage.setItem('dv.pub',JSON.stringify(a));}
-function chosenMap(){try{return JSON.parse(localStorage.getItem('dv.chosen')||'{}');}catch(e){return {};}}
-function setChosen(m){localStorage.setItem('dv.chosen',JSON.stringify(m));}
+// The desk backend is the single source of truth for publish/picks/votes/comments.
+// S holds its state in memory; every action writes through (key required) and
+// reverts if the desk rejects it. No localStorage mirror, no offline preview.
+var S = null;
+function lp(){return S?S.published:[];}
+function chosenMap(){return S?S.chosen:{};}
 function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
 function fmtReach(n){n=Math.max(1,Math.round(n));if(n<1000)return''+n;var u=['K','M','B','T'],i=-1,x=n;while(x>=1000&&i<3){x/=1000;i++;}return (x<10?x.toFixed(1):Math.round(x))+u[i];}
-function isForced(id){return FORCED.indexOf(id)>=0;}
-function isPubId(id){return isForced(id)||lp().indexOf(id)>=0;}
-function getV(id){var v=localStorage.getItem('dv.v.'+id);return v==='1'?1:(v==='-1'?-1:0);}
+function isPubId(id){return lp().indexOf(id)>=0;}
+function getV(id){var v=S?S.votes[id]:0;return v===1?1:(v===-1?-1:0);}
 // group strips by day; best editorial candidate first
 var byDate={};M.forEach(function(s){(byDate[s.date]=byDate[s.date]||[]).push(s);});
 Object.keys(byDate).forEach(function(d){byDate[d].sort(function(a,b){return (b.audience-a.audience)||(a.id<b.id?-1:1);});});
 function winnerId(d){var ch=chosenMap();if(ch[d])return ch[d];var c=byDate[d];return c.length===1?c[0].id:null;}
 function statusOf(d){var w=winnerId(d);if(!w)return 'needspick';return isPubId(w)?'live':'ready';}
+function needKey(){if(Desk.hasKey())return false;setStatus('bad','writes need the desk key — paste it above');return true;}
+function revertIfRejected(p){p.then(function(ok){if(!ok){setStatus('bad','write rejected — re-syncing from the desk');Desk.pull(function(s){if(s)S=s;render();});}});}
 function pickWinner(d,id){
-  var ch=chosenMap(),old=ch[d];ch[d]=id;setChosen(ch);
+  if(!S||needKey())return;
+  var ch=chosenMap(),old=ch[d];ch[d]=id;
   // if the day was published through its old winner, move publish to the new winner
-  if(old&&old!==id){var a=lp(),i=a.indexOf(old);if(i>=0){a.splice(i,1);if(a.indexOf(id)<0)a.push(id);setlp(a);Desk.published(a);}}
-  Desk.chosen(ch);render();
+  if(old&&old!==id){var a=lp(),i=a.indexOf(old);if(i>=0){a.splice(i,1);if(a.indexOf(id)<0)a.push(id);revertIfRejected(Desk.published(a));}}
+  revertIfRejected(Desk.chosen(ch));render();
 }
-function togglePub(id){var a=lp(),i=a.indexOf(id);if(i>=0)a.splice(i,1);else a.push(id);setlp(a);Desk.published(a);render();}
-function vote(id,dir){var nv=getV(id)===dir?0:dir;if(nv===0)localStorage.removeItem('dv.v.'+id);else localStorage.setItem('dv.v.'+id,String(nv));Desk.vote(id,nv);render();}
+function togglePub(id){if(!S||needKey())return;var a=lp(),i=a.indexOf(id);if(i>=0)a.splice(i,1);else a.push(id);revertIfRejected(Desk.published(a));render();}
+function vote(id,dir){if(!S||needKey())return;var nv=getV(id)===dir?0:dir;if(nv===0)delete S.votes[id];else S.votes[id]=nv;revertIfRejected(Desk.vote(id,nv));render();}
 function render(){
   var wrap=document.getElementById('groups');wrap.innerHTML='';
+  if(!S){document.getElementById('exp').value='';return;}
   var live=0,unpub=0;
   // days needing a pick float to the top; then newest/future first
   var order=Object.keys(byDate).sort(function(a,b){var na=statusOf(a)==='needspick'?0:1,nb=statusOf(b)==='needspick'?0:1;if(na!==nb)return na-nb;return a<b?1:(a>b?-1:0);});
@@ -659,7 +652,7 @@ function render(){
       var isWin=(w===s.id),v=getV(s.id);
       var c=document.createElement('div');c.className='cand'+(isWin?' win':'')+((w&&!isWin)?' dim':'');
       var pickBtn=cands.length===1?'':(isWin?'<button class="pick win" disabled>picked \\u2713</button>':'<button class="pick" data-pick="'+s.id+'" data-date="'+d+'">pick</button>');
-      var pubBtn=isForced(s.id)?'<span class="committed">committed</span>':(isWin?'<button class="pubtog'+(isPubId(s.id)?' on':'')+'" data-pub="'+s.id+'">'+(isPubId(s.id)?'published':'publish')+'</button>':'');
+      var pubBtn=isWin?'<button class="pubtog'+(isPubId(s.id)?' on':'')+'" data-pub="'+s.id+'">'+(isPubId(s.id)?'published':'publish')+'</button>':'';
       c.innerHTML='<a href="index.html?id='+s.id+'"><img loading="lazy" src="strips/'+s.id+'.svg" alt=""/></a>'+
         '<div class="t">'+esc(s.title)+'</div><div class="s">editor '+fmtReach(s.audience)+'</div>'+
         '<div class="crow"><span class="vote"><button class="vb'+(v===1?' on':'')+'" data-up="'+s.id+'">\\u25b2</button><b>'+v+'</b><button class="vb'+(v===-1?' on':'')+'" data-down="'+s.id+'">\\u25bc</button></span>'+pickBtn+pubBtn+'</div>';
@@ -670,14 +663,8 @@ function render(){
   document.getElementById('np').textContent=live;
   document.getElementById('nd').textContent=unpub;
   document.getElementById('nt').textContent=Object.keys(byDate).length;
-  // snapshot: published + chosen + votes + comments from localStorage
-  var pubset={};FORCED.forEach(function(id){pubset[id]=1;});lp().forEach(function(id){pubset[id]=1;});
-  var votes={},comments={};
-  for(var i=0;i<localStorage.length;i++){var k=localStorage.key(i);
-    if(k.indexOf('dv.v.')===0){var vv=localStorage.getItem(k);if(vv==='1'||vv==='-1')votes[k.slice(5)]=parseInt(vv,10);}
-    else if(k.indexOf('dv.cm.')===0){try{var a=JSON.parse(localStorage.getItem(k));if(a&&a.length)comments[k.slice(6)]=a;}catch(e){}}
-  }
-  document.getElementById('exp').value=JSON.stringify({published:Object.keys(pubset).sort(),chosen:chosenMap(),votes:votes,comments:comments},null,2);
+  // snapshot of the desk's truth — optional repo backup
+  document.getElementById('exp').value=JSON.stringify({published:lp().slice().sort(),chosen:chosenMap(),votes:S.votes,comments:S.comments},null,2);
 }
 document.getElementById('groups').addEventListener('click',function(e){
   var t=e.target.closest('button');if(!t)return;
@@ -693,8 +680,8 @@ document.getElementById('copy').addEventListener('click',function(){
 function setStatus(cls,txt){var d=document.getElementById('syncdot'),s=document.getElementById('syncst');if(d)d.className='dot'+(cls?' '+cls:'');if(s)s.textContent=txt;}
 function refreshStatus(){
   if(!Desk.api){setStatus('bad','no backend (world/desk.json missing)');return;}
-  setStatus('',Desk.hasKey()?'connected · writes persist to everyone':'read-only — paste desk key to publish/pick from here');
-  document.getElementById('synchint').textContent=Desk.hasKey()?'':'until connected, toggles preview only in this browser';
+  setStatus('',Desk.hasKey()?'connected · writes persist to everyone':'read-only — paste desk key to publish/pick');
+  document.getElementById('synchint').textContent=Desk.hasKey()?'':'the desk is the single source of truth; without the key this page is read-only';
   var ki=document.getElementById('keyin');if(ki&&Desk.hasKey())ki.placeholder='desk key set ✓ (paste to replace)';
 }
 document.getElementById('keybtn').addEventListener('click',function(){
@@ -703,8 +690,7 @@ document.getElementById('keybtn').addEventListener('click',function(){
   Desk.published(lp()).then(function(ok){setStatus(ok?'ok':'bad',ok?'connected · writes persist to everyone':'key rejected');refreshStatus();});
 });
 setStatus('','loading…');refreshStatus();
-Desk.pull(function(s){ if(Desk.api) setStatus(s?'ok':'bad', s?(Desk.hasKey()?'connected · writes persist to everyone':'live · paste desk key to publish/pick'):'backend unreachable'); render(); });
-render();
+Desk.pull(function(s){ S=s; if(Desk.api) setStatus(s?'ok':'bad', s?(Desk.hasKey()?'connected · writes persist to everyone':'live · paste desk key to publish/pick'):'backend unreachable'); render(); });
 </script>`;
 }
 
@@ -722,22 +708,15 @@ for (const s of strips) {
 }
 const ratingsPath = join(ROOT, 'world', 'ratings.json');
 const ratings = existsSync(ratingsPath) ? JSON.parse(readFileSync(ratingsPath, 'utf8')) : {};
-const pubPath = join(ROOT, 'world', 'published.json');
-const forced = existsSync(pubPath) ? JSON.parse(readFileSync(pubPath, 'utf8')) : [];
-const reviewsPath = join(ROOT, 'world', 'reviews.json');
-const reviews = existsSync(reviewsPath) ? JSON.parse(readFileSync(reviewsPath, 'utf8')) : { votes: {}, comments: {} };
 const deskPath = join(ROOT, 'world', 'desk.json');
 const desk = existsSync(deskPath) ? JSON.parse(readFileSync(deskPath, 'utf8')) : { api: '' };
-const chosenPath = join(ROOT, 'world', 'chosen.json');
-const chosenBase = existsSync(chosenPath) ? JSON.parse(readFileSync(chosenPath, 'utf8')) : {};
 const manifest = strips.map((s) => ({
   id: s.id, title: s.title, date: s.date,
   audience: (ratings[s.id] && ratings[s.id].audience) || 1,
   note: (ratings[s.id] && ratings[s.id].note) || '',
 }));
 writeFileSync(join(ROOT, 'manifest.json'), JSON.stringify(manifest, null, 2));
-writeFileSync(join(ROOT, 'archive.html'), archive(strips, ratings, forced, reviews, desk, chosenBase));
-writeFileSync(join(ROOT, 'index.html'), solo(manifest, forced, reviews, desk, chosenBase));
-writeFileSync(join(ROOT, 'admin.html'), admin(manifest, forced, reviews, desk, chosenBase));
-const pub = strips.filter((s) => forced.includes(s.id)).length;
-console.log(`rendered ${strips.length} strips (${inked} Fable-inked); ${pub} published, ${strips.length - pub} drafts. index/archive/admin written.`);
+writeFileSync(join(ROOT, 'archive.html'), archive(strips, ratings, desk));
+writeFileSync(join(ROOT, 'index.html'), solo(manifest, desk));
+writeFileSync(join(ROOT, 'admin.html'), admin(manifest, desk));
+console.log(`rendered ${strips.length} strips (${inked} Fable-inked); publish/picks/votes/comments live on the desk backend (${desk.api || 'NO BACKEND — world/desk.json missing'}). index/archive/admin written.`);
