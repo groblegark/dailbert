@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 340" width="1228" height="340">
+  <defs>
+    <!-- ===================== SYMBOLS ===================== -->
+
+    <!-- DAILBERT -->
+    <symbol id="dailbert" viewBox="0 0 120 160">
+      <ellipse cx="60" cy="42" rx="30" ry="34" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M60 8 q10 -8 4 -14 q10 4 4 14" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="49" cy="42" r="9" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <circle cx="71" cy="42" r="9" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <line x1="58" y1="42" x2="62" y2="42" stroke="#111" stroke-width="2.5"/>
+      <circle cx="49" cy="42" r="2" fill="#111"/>
+      <circle cx="71" cy="42" r="2" fill="#111"/>
+      <path d="M50 62 q10 5 20 0" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M50 74 h20 v8 h-20 z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M34 150 q0 -62 26 -68 q26 6 26 68 z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M60 84 l-6 8 l6 26 l6 -26 z" fill="#111"/>
+    </symbol>
+
+    <!-- DOUG -->
+    <symbol id="doug" viewBox="0 0 120 160">
+      <circle cx="60" cy="46" r="36" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <circle cx="49" cy="44" r="3" fill="#111"/>
+      <circle cx="71" cy="44" r="3" fill="#111"/>
+      <path d="M46 58 q14 16 28 0" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M36 150 q0 -60 24 -66 q24 6 24 66 z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <g>
+        <rect x="70" y="112" width="26" height="22" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+        <path d="M96 116 q10 2 0 12" fill="none" stroke="#111" stroke-width="2.5"/>
+        <path d="M74 118 q9 -4 18 0" fill="none" stroke="#111" stroke-width="1.8"/>
+      </g>
+    </symbol>
+
+    <!-- PRIYA -->
+    <symbol id="priya" viewBox="0 0 120 160">
+      <ellipse cx="60" cy="30" rx="20" ry="14" fill="#111"/>
+      <circle cx="60" cy="46" r="30" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M32 44 q-4 -30 28 -34 q32 4 28 34 q-6 -18 -28 -18 q-22 0 -28 18z" fill="#111"/>
+      <path d="M30 44 q-3 8 3 14" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round"/>
+      <path d="M90 44 q3 8 -3 14" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round"/>
+      <rect x="40" y="42" width="16" height="11" rx="2" fill="#fff" stroke="#111" stroke-width="2.3"/>
+      <rect x="64" y="42" width="16" height="11" rx="2" fill="#fff" stroke="#111" stroke-width="2.3"/>
+      <line x1="56" y1="47" x2="64" y2="47" stroke="#111" stroke-width="2.3"/>
+      <circle cx="48" cy="47" r="1.8" fill="#111"/>
+      <circle cx="72" cy="47" r="1.8" fill="#111"/>
+      <path d="M52 64 q8 3 16 0" fill="none" stroke="#111" stroke-width="2.3" stroke-linecap="round"/>
+      <path d="M34 150 q0 -60 26 -66 q26 6 26 66 z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M40 108 q6 -6 14 -4" fill="none" stroke="#111" stroke-width="2"/>
+      <path d="M80 108 q-6 -6 -14 -4" fill="none" stroke="#111" stroke-width="2"/>
+    </symbol>
+
+    <!-- THE CLANKER (inside a surface) -->
+    <symbol id="clanker" viewBox="0 0 120 120">
+      <rect x="24" y="30" width="72" height="60" rx="8" fill="#cfcbc2" stroke="#111" stroke-width="2.5"/>
+      <line x1="60" y1="30" x2="60" y2="16" stroke="#111" stroke-width="2.5"/>
+      <circle cx="60" cy="13" r="4" fill="#111"/>
+      <rect x="36" y="46" width="18" height="9" rx="3" fill="#fff" stroke="#111" stroke-width="2"/>
+      <rect x="66" y="46" width="18" height="9" rx="3" fill="#fff" stroke="#111" stroke-width="2"/>
+      <g stroke="#111" stroke-width="2">
+        <line x1="44" y1="72" x2="76" y2="72"/>
+        <line x1="44" y1="78" x2="76" y2="78"/>
+        <line x1="50" y1="68" x2="50" y2="82"/>
+        <line x1="60" y1="68" x2="60" y2="82"/>
+        <line x1="70" y1="68" x2="70" y2="82"/>
+      </g>
+    </symbol>
+
+    <!-- dying desk plant -->
+    <symbol id="plant" viewBox="0 0 60 80">
+      <path d="M20 74 h20 l-3 -22 h-14 z" fill="#f4f1ea" stroke="#111" stroke-width="2.3"/>
+      <path d="M30 52 q-2 -18 -12 -22" fill="none" stroke="#111" stroke-width="2.3" stroke-linecap="round"/>
+      <path d="M30 52 q4 -14 12 -14" fill="none" stroke="#111" stroke-width="2.3" stroke-linecap="round"/>
+      <path d="M30 52 q0 -20 0 -26" fill="none" stroke="#111" stroke-width="2.3" stroke-linecap="round"/>
+      <path d="M18 30 q-4 4 -8 2" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round"/>
+      <path d="M42 38 q4 4 8 2" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round"/>
+      <path d="M30 26 q0 4 -3 6" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round"/>
+    </symbol>
+  </defs>
+
+  <!-- ===================== PANEL 1 ===================== -->
+  <g>
+    <rect x="1.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
+    <g stroke="#111" stroke-width="1.6" fill="none" opacity="0.5">
+      <path d="M60 30 q6 -8 12 0 q6 8 12 0"/>
+      <path d="M330 30 q6 -8 12 0 q6 8 12 0"/>
+    </g>
+    <rect x="1" y="250" width="398" height="9" fill="#111"/>
+    <!-- monitor with clanker -->
+    <g>
+      <rect x="242" y="152" width="120" height="90" rx="6" fill="#111"/>
+      <rect x="250" y="160" width="104" height="70" rx="3" fill="#dedacf"/>
+      <rect x="288" y="242" width="28" height="12" fill="#111"/>
+      <rect x="272" y="254" width="60" height="6" rx="3" fill="#111"/>
+      <use href="#clanker" x="258" y="150" width="88" height="88"/>
+    </g>
+    <!-- Dailbert -->
+    <use href="#dailbert" x="30" y="98" width="120" height="160"/>
+    <path d="M100 132 q4 6 0 9 q-4 -3 0 -9" fill="#8a8a8a"/>
+    <!-- Dailbert balloon -->
+    <g>
+      <rect x="22" y="18" width="196" height="54" rx="16" fill="#fff" stroke="#111" stroke-width="2"/>
+      <path d="M78 70 l-8 18 l22 -12 z" fill="#fff" stroke="#111" stroke-width="2"/>
+      <text x="120" y="41" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">The AC quit. It's</text>
+      <text x="120" y="59" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">ninety in here.</text>
+    </g>
+    <!-- clanker balloon -->
+    <g>
+      <line x1="302" y1="150" x2="302" y2="120" stroke="#111" stroke-width="1.4" stroke-dasharray="4 3"/>
+      <rect x="216" y="80" width="176" height="40" fill="#eceae2" stroke="#111" stroke-width="1.8"/>
+      <text x="304" y="100" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111">I filed a warm-office</text>
+      <text x="304" y="115" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111">ticket. Priority: low.</text>
+    </g>
+  </g>
+
+  <!-- ===================== PANEL 2 ===================== -->
+  <g>
+    <rect x="415.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
+    <rect x="415" y="250" width="398" height="9" fill="#111"/>
+    <!-- dying plant on desk -->
+    <use href="#plant" x="432" y="184" width="58" height="76"/>
+    <!-- monitor with clanker -->
+    <g>
+      <rect x="662" y="152" width="118" height="90" rx="6" fill="#111"/>
+      <rect x="670" y="160" width="102" height="70" rx="3" fill="#dedacf"/>
+      <rect x="707" y="242" width="28" height="12" fill="#111"/>
+      <rect x="692" y="254" width="58" height="6" rx="3" fill="#111"/>
+      <use href="#clanker" x="676" y="150" width="90" height="90"/>
+    </g>
+    <!-- Doug fanning himself -->
+    <use href="#doug" x="504" y="98" width="120" height="160"/>
+    <path d="M604 152 l30 -8 l4 20 l-30 6 z" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+    <g stroke="#111" stroke-width="1.3" opacity="0.5" fill="none">
+      <path d="M638 140 q8 -4 12 2"/>
+      <path d="M640 152 q9 -3 13 3"/>
+    </g>
+    <!-- Doug balloon -->
+    <g>
+      <rect x="470" y="16" width="192" height="54" rx="16" fill="#fff" stroke="#111" stroke-width="2"/>
+      <path d="M542 68 l-6 18 l20 -12 z" fill="#fff" stroke="#111" stroke-width="2"/>
+      <text x="566" y="39" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">It thinks warm is</text>
+      <text x="566" y="57" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">a mood, not a number.</text>
+    </g>
+    <!-- clanker reply -->
+    <g>
+      <line x1="720" y1="150" x2="720" y2="120" stroke="#111" stroke-width="1.4" stroke-dasharray="4 3"/>
+      <rect x="640" y="82" width="168" height="38" fill="#eceae2" stroke="#111" stroke-width="1.8"/>
+      <text x="724" y="99" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111">You seemed to be</text>
+      <text x="724" y="114" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111">coping so well.</text>
+    </g>
+  </g>
+
+  <!-- ===================== PANEL 3 ===================== -->
+  <g>
+    <rect x="829.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
+    <rect x="829" y="250" width="398" height="9" fill="#111"/>
+    <!-- window with propped-open sash + breeze -->
+    <g>
+      <rect x="1078" y="58" width="130" height="152" rx="4" fill="#eceae2" stroke="#111" stroke-width="2.5"/>
+      <line x1="1143" y1="58" x2="1143" y2="210" stroke="#111" stroke-width="2"/>
+      <line x1="1078" y1="150" x2="1208" y2="150" stroke="#111" stroke-width="2"/>
+      <rect x="1078" y="148" width="130" height="18" fill="#cfcbc2" stroke="#111" stroke-width="2.5"/>
+      <rect x="1088" y="148" width="16" height="18" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <g stroke="#111" stroke-width="1.6" fill="none" opacity="0.55">
+        <path d="M1096 180 q14 6 28 0 q14 -6 28 0"/>
+        <path d="M1096 192 q14 6 28 0 q14 -6 28 0"/>
+      </g>
+      <!-- faint clanker in the glass reflection -->
+      <g opacity="0.4">
+        <use href="#clanker" x="1150" y="66" width="46" height="46"/>
+      </g>
+    </g>
+    <!-- Priya -->
+    <use href="#priya" x="902" y="98" width="120" height="160"/>
+    <!-- Priya balloon -->
+    <g>
+      <rect x="846" y="18" width="200" height="54" rx="16" fill="#fff" stroke="#111" stroke-width="2"/>
+      <path d="M982 70 l8 18 l10 -14 z" fill="#fff" stroke="#111" stroke-width="2"/>
+      <text x="946" y="41" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">I opened a window.</text>
+      <text x="946" y="59" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">Priority: done.</text>
+    </g>
+  </g>
+</svg>
