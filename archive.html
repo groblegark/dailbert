@@ -3525,18 +3525,13 @@
 var DESK = {"api":"https://x6x3i0f2q5.execute-api.us-east-1.amazonaws.com"};
 var Desk = (function () {
   var api = (DESK && DESK.api) || '';
+  // one-time hygiene: clear the retired dv.* localStorage mirror (dv.key stays)
+  try { for (var i = localStorage.length - 1; i >= 0; i--) { var k = localStorage.key(i); if (k && k.indexOf('dv.') === 0 && k !== 'dv.key') localStorage.removeItem(k); } } catch (e) {}
   function key() { try { return localStorage.getItem('dv.key') || ''; } catch (e) { return ''; } }
-  function clearPrefix(p) { for (var i = localStorage.length - 1; i >= 0; i--) { var k = localStorage.key(i); if (k && k.indexOf(p) === 0) localStorage.removeItem(k); } }
   function pull(cb) {
     if (!api) { if (cb) cb(null); return; }
     fetch(api + '/', { cache: 'no-store' }).then(function (r) { return r.json(); }).then(function (s) {
-      try {
-        localStorage.setItem('dv.pub', JSON.stringify(s.published || []));
-        localStorage.setItem('dv.chosen', JSON.stringify(s.chosen || {}));
-        clearPrefix('dv.v.'); var V = s.votes || {}; for (var id in V) localStorage.setItem('dv.v.' + id, String(V[id]));
-        clearPrefix('dv.cm.'); var C = s.comments || {}; for (var cid in C) localStorage.setItem('dv.cm.' + cid, JSON.stringify(C[cid]));
-      } catch (e) {}
-      if (cb) cb(s);
+      if (cb) cb({ published: s.published || [], chosen: s.chosen || {}, votes: s.votes || {}, comments: s.comments || {} });
     }).catch(function () { if (cb) cb(null); });
   }
   function post(body) {
@@ -3557,23 +3552,22 @@ var Desk = (function () {
 })();
 </script>
 <script>
-// committed review baseline — seed votes/comments into localStorage on first visit
-var BASE = {"votes":{},"comments":{}};
-var CHOSENBASE = {};
-(function(){try{var V=BASE.votes||{};for(var id in V){if(localStorage.getItem('dv.v.'+id)===null)localStorage.setItem('dv.v.'+id,String(V[id]));}var C=BASE.comments||{};for(var cid in C){if(localStorage.getItem('dv.cm.'+cid)===null)localStorage.setItem('dv.cm.'+cid,JSON.stringify(C[cid]));}if(localStorage.getItem('dv.chosen')===null)localStorage.setItem('dv.chosen',JSON.stringify(CHOSENBASE));}catch(e){}})();
-function boot() {
+// The desk backend is the single source of truth: nothing renders until its
+// state arrives. Nothing is public by date — only published winners show; the
+// rest stay hidden drafts (still in source). Manage at admin.html.
+function boot(S) {
   var main = document.querySelector('main');
-  // nothing is public by date — only un-drafted (force-published) strips show. The rest
-  // stay hidden drafts (still in source). Manage at admin.html.
-  var FORCED = ["2026-01-05-change-freeze","2026-01-06-nine-days","2026-01-08-learning-by-watching","2026-01-12-prepping-his-desk","2026-01-13-module-1-of-40","2026-01-14-the-night-before","2026-01-15-keeping-them-ready","2026-01-16-clause-9","2026-01-19-day-four","2026-01-21-recurring","2026-01-22-give-it-till-friday","2026-01-26-the-ones-you-d-have-said-no-to","2026-01-29-reader","2026-02-02-every-one-of-them","2026-02-04-approved","2026-02-06-under-review","2026-02-10-the-review","2026-02-12-reallocated","2026-02-13-sick-day","2026-02-17-for-the-archive","2026-02-19-full-attendance","2026-02-24-the-remainder","2026-02-26-stayed-late","2026-03-02-everyone-who-stays","2026-03-05-the-leanest-quarter","2026-03-09-onboarding","2026-03-12-fully-anonymous","2026-03-16-the-board-stays-tidy","2026-03-19-you-re-not-alone","2026-03-23-express-service","2026-03-26-the-trust-fall","2026-03-30-three-points-of-margin","2026-03-31-the-third-street-guy","2026-04-01-trust-nothing","2026-04-06-nothing-really-expires","2026-04-09-local-copy","2026-04-13-the-twos","2026-04-16-pacing-itself","2026-04-20-the-long-lunch","2026-04-23-trust-fall","2026-04-27-never-run-out","2026-04-29-clear","2026-04-30-say-bye-to-the-place","2026-05-04-feels-lighter","2026-05-07-the-open-req","2026-05-11-consolidated","2026-05-14-coffee-run","2026-05-18-ahead-of-the-deadline","2026-05-21-we-just-know","2026-05-25-i-ve-got-monday","2026-05-27-clean-slate","2026-05-29-the-last-exit-interview","2026-05-31-out-of-office","2026-06-01-the-1-1","2026-06-03-justify-your-role","2026-06-05-the-blocker","2026-06-09-non-blocking","2026-06-11-the-eleven-minute-day","2026-06-15-it-has-windows-now","2026-06-18-password-reset","2026-06-22-objects-in-mirror","2026-06-25-merge-conflict","2026-06-30-the-friendly-one","2026-07-09-standup"];
-  var lp = [];
-  try { lp = JSON.parse(localStorage.getItem('dv.pub') || '[]'); } catch (e) {}
-  var chosen = {}; try { chosen = JSON.parse(localStorage.getItem('dv.chosen') || '{}'); } catch (e) {}
+  if (!S) {
+    main.innerHTML = '<p style="padding:70px 24px;text-align:center;font-style:italic;opacity:.55;font-size:18px">The desk backend is unreachable.<br><span style="font-size:13px;font-family:monospace">the archive lives on the shared desk &mdash; try a refresh</span></p>';
+    return;
+  }
+  var lp = S.published;
+  var chosen = S.chosen;
   var byDate = {};
   Array.prototype.slice.call(main.querySelectorAll('.strip')).forEach(function (f) { (byDate[f.dataset.date] = byDate[f.dataset.date] || []).push(f.id); });
   function isWinner(f) { var d = f.dataset.date; return chosen[d] ? chosen[d] === f.id : byDate[d].length === 1; }
   Array.prototype.slice.call(main.querySelectorAll('.strip')).forEach(function (f) {
-    if (!((FORCED.indexOf(f.id) >= 0 || lp.indexOf(f.id) >= 0) && isWinner(f))) f.remove();
+    if (!(lp.indexOf(f.id) >= 0 && isWinner(f))) f.remove();
   });
   var figs = Array.prototype.slice.call(main.querySelectorAll('.strip'));
   function apply(mode) {
@@ -3591,17 +3585,22 @@ function boot() {
   });
   if (location.hash === '#top') apply('rated');
 
-  // engagement counts (browser-local preview; shared totals arrive with the backend)
+  // engagement — votes/comments live on the desk; optimistic write, revert on failure
   figs.forEach(function (f) {
     var id = f.id;
     var vn = f.querySelector('.vn'), up = f.querySelector('.up'), down = f.querySelector('.down');
-    function gv() { var v = localStorage.getItem('dv.v.' + id); return v === '1' ? 1 : (v === '-1' ? -1 : 0); }
+    function gv() { var v = S.votes[id]; return v === 1 ? 1 : (v === -1 ? -1 : 0); }
     function draw() { var v = gv(); if (vn) vn.textContent = v; if (up) up.classList.toggle('on', v === 1); if (down) down.classList.toggle('on', v === -1); }
-    function setv(val) { if (val === 0) localStorage.removeItem('dv.v.' + id); else localStorage.setItem('dv.v.' + id, String(val)); draw(); Desk.vote(id, val); }
+    function setv(val) {
+      var prev = gv();
+      if (val === 0) delete S.votes[id]; else S.votes[id] = val;
+      draw();
+      Desk.vote(id, val).then(function (ok) { if (!ok) { if (prev === 0) delete S.votes[id]; else S.votes[id] = prev; draw(); } });
+    }
     if (up) up.addEventListener('click', function (e) { e.preventDefault(); setv(gv() === 1 ? 0 : 1); });
     if (down) down.addEventListener('click', function (e) { e.preventDefault(); setv(gv() === -1 ? 0 : -1); });
     draw();
-    var cc = 0; try { cc = JSON.parse(localStorage.getItem('dv.cm.' + id) || '[]').length; } catch (e) {}
+    var cc = (S.comments[id] || []).length;
     var cmn = f.querySelector('.cmn'); if (cmn) cmn.textContent = cc;
   });
 }

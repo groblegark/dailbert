@@ -53,15 +53,15 @@ New candidates arrive as **drafts**; they do not appear on the public site until
 
 **Public visibility = published AND is-the-day's-winner.** Single-candidate days auto-win; multi-candidate days need an explicit pick. The front page lands on **today's strip**.
 
-## Persistence: the AWS desk backend
+## Persistence: the AWS desk backend (single source of truth)
 
-Picks / votes / comments / publish state persist across devices via a tiny backend on the **MC AWS account (360190250083)** — a Lambda + DynamoDB behind an **API Gateway HTTP API** (the account blocks anonymous Lambda Function URLs). Public endpoint is committed in [`world/desk.json`](world/desk.json); **reads are open, writes are gated by a desk key** (paste once on `admin.html`; the key lives only in `engine/aws/.desk-key`, gitignored).
+Picks / votes / comments / publish state live **only** on the desk backend — a tiny service on the **MC AWS account (360190250083)**: Lambda + DynamoDB behind an **API Gateway HTTP API** (the account blocks anonymous Lambda Function URLs). Public endpoint is committed in [`world/desk.json`](world/desk.json); **reads are open, writes are gated by a desk key** (paste once on `admin.html`; the key lives only in `engine/aws/.desk-key`, gitignored — the key is the one thing kept in the browser's localStorage).
 
 - `engine/aws/handler.mjs` — the Lambda (GET full state; POST `published|chosen|vote|comment`, key-gated).
 - `engine/aws/deploy.sh` — idempotent deploy (table + role + lambda + HTTP API). Re-run to update.
-- `build.mjs` injects a shared `Desk` sync client into all pages: pull remote truth on load, write through on every action, localStorage as offline mirror.
+- `build.mjs` injects a shared `Desk` client into all pages: pull the desk's truth on load, render from it, write through on every action (a rejected write reverts on-page). There is **no localStorage mirror and no offline preview** — if the backend is unreachable the pages say so instead of showing stale state.
 
-Optional "bake to repo": the desk's **Snapshot** exports `{published, chosen, votes, comments}` to commit into `world/published.json` / `world/reviews.json` / `world/chosen.json` so the git repo is a full save state.
+`world/{published,reviews,chosen}.json` are **seed/backup snapshots only** — the pages no longer read them. The desk's **Snapshot** box exports the live state to commit as a backup; `node engine/seed-desk.mjs` pushes a committed snapshot into the backend (first cutover or disaster restore; merge semantics — remote wins on conflict, `--dry-run` supported).
 
 ## Ratings
 
@@ -81,10 +81,12 @@ The original **two-agent World-Sim / Joke-Writer** engine (`engine/timeline.work
 world/spine.md        ⭐ continuity + cast + tone rule (READ FIRST)
 world/bible.md           original premise/tone (legacy engine)
 world/desk.json          public backend endpoint
-world/{published,reviews,chosen,ratings}.json   committed state / baselines
+world/ratings.json       editor scores (committed; baked into pages)
+world/{published,reviews,chosen}.json   desk seed/backup snapshots (NOT read by pages)
 engine/continuity-batch.workflow.mjs   ⭐ candidate generator (3/day, spine-briefed)
 engine/harvest-candidates.mjs          ⭐ non-destructive harvest
-engine/aws/{handler.mjs,deploy.sh}     the desk backend
+engine/aws/{handler.mjs,deploy.sh}     the desk backend (single source of truth)
+engine/seed-desk.mjs                   seed/restore the desk from the committed snapshot
 engine/seed-ratings.mjs                (re)score strips
 build.mjs               render strips + index/archive/admin
 strips/<id>.art.svg     Fable-inked art;  strips/<id>.json  content/meta
