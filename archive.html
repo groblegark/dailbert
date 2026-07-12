@@ -3848,9 +3848,11 @@ function boot(S) {
   }
   var lp = S.published;
   var chosen = S.chosen;
-  var byDate = {};
-  Array.prototype.slice.call(main.querySelectorAll('.strip')).forEach(function (f) { (byDate[f.dataset.date] = byDate[f.dataset.date] || []).push(f.id); });
-  function isWinner(f) { var d = f.dataset.date; return chosen[d] ? chosen[d] === f.id : byDate[d].length === 1; }
+  // group PUBLISHED strips by date; a day's fallback winner is its sole published
+  // strip (drafts never count — they are already excluded from the public feed).
+  var pubByDate = {};
+  Array.prototype.slice.call(main.querySelectorAll('.strip')).forEach(function (f) { if (lp.indexOf(f.id) >= 0) (pubByDate[f.dataset.date] = pubByDate[f.dataset.date] || []).push(f.id); });
+  function isWinner(f) { var d = f.dataset.date; return chosen[d] ? chosen[d] === f.id : (pubByDate[d] || []).length === 1; }
   Array.prototype.slice.call(main.querySelectorAll('.strip')).forEach(function (f) {
     if (!(lp.indexOf(f.id) >= 0 && isWinner(f))) f.remove();
   });

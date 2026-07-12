@@ -134,8 +134,9 @@ var M = [];
 // all come from Desk.pull, held in memory (S). NOTHING is public by date — a
 // strip only shows once it is published AND is its day's winner on the desk.
 var S = null;
-// winner of a date = the picked candidate, or the sole candidate if only one exists
-function winnerId(date){if(S&&S.chosen[date])return S.chosen[date];var c=ALL.filter(function(x){return x.date===date;});return c.length===1?c[0].id:null;}
+// winner of a date = the picked candidate, or the sole PUBLISHED strip if only one
+// exists (drafts never win a day; they are hidden from the public feed regardless).
+function winnerId(date){if(S&&S.chosen[date])return S.chosen[date];var lp=S?S.published:[];var c=ALL.filter(function(x){return x.date===date&&lp.indexOf(x.id)>=0;});return c.length===1?c[0].id:null;}
 // public = published AND is its day's winner (multi-candidate days need an explicit pick)
 function applyPub(){var lp=S?S.published:[];M=ALL.filter(function(s){return lp.indexOf(s.id)>=0&&winnerId(s.date)===s.id;});}
 function fmtReach(n){n=Math.max(1,Math.round(n));if(n<1000)return''+n;var u=['K','M','B','T'],i=-1,x=n;while(x>=1000&&i<3){x/=1000;i++;}return (x<10?x.toFixed(1):Math.round(x))+u[i];}
