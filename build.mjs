@@ -665,7 +665,7 @@ function getV(id){var v=S?S.votes[id]:0;return v===1?1:(v===-1?-1:0);}
 // group strips by day; best editorial candidate first
 var byDate={};M.forEach(function(s){(byDate[s.date]=byDate[s.date]||[]).push(s);});
 Object.keys(byDate).forEach(function(d){byDate[d].sort(function(a,b){return (b.audience-a.audience)||(a.id<b.id?-1:1);});});
-function winnerId(d){var ch=chosenMap();if(ch[d])return ch[d];var c=(byDate[d]||[]).filter(function(s){return isPubId(s.id);});return c.length===1?c[0].id:null;}
+function winnerId(d){var ch=chosenMap();if(ch[d]&&(byDate[d]||[]).some(function(s){return s.id===ch[d];}))return ch[d];var c=(byDate[d]||[]).filter(function(s){return isPubId(s.id);});return c.length===1?c[0].id:null;}
 function statusOf(d){var w=winnerId(d);if(!w)return 'needspick';return isPubId(w)?'live':'ready';}
 function needKey(){if(Desk.hasKey())return false;setStatus('bad','writes need the desk key — paste it above');return true;}
 function revertIfRejected(p){p.then(function(ok){if(!ok){setStatus('bad','write rejected — re-syncing from the desk');Desk.pull(function(s){if(s)S=s;render();});}});}
