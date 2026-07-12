@@ -323,9 +323,11 @@ function boot(S) {
   }
   var lp = S.published;
   var chosen = S.chosen;
-  var byDate = {};
-  Array.prototype.slice.call(main.querySelectorAll('.strip')).forEach(function (f) { (byDate[f.dataset.date] = byDate[f.dataset.date] || []).push(f.id); });
-  function isWinner(f) { var d = f.dataset.date; return chosen[d] ? chosen[d] === f.id : byDate[d].length === 1; }
+  // group PUBLISHED strips by date; a day's fallback winner is its sole published
+  // strip (drafts never count — they are already excluded from the public feed).
+  var pubByDate = {};
+  Array.prototype.slice.call(main.querySelectorAll('.strip')).forEach(function (f) { if (lp.indexOf(f.id) >= 0) (pubByDate[f.dataset.date] = pubByDate[f.dataset.date] || []).push(f.id); });
+  function isWinner(f) { var d = f.dataset.date; return chosen[d] ? chosen[d] === f.id : (pubByDate[d] || []).length === 1; }
   Array.prototype.slice.call(main.querySelectorAll('.strip')).forEach(function (f) {
     if (!(lp.indexOf(f.id) >= 0 && isWinner(f))) f.remove();
   });
@@ -478,8 +480,9 @@ var M = [];
 // all come from Desk.pull, held in memory (S). NOTHING is public by date — a
 // strip only shows once it is published AND is its day's winner on the desk.
 var S = null;
-// winner of a date = the picked candidate, or the sole candidate if only one exists
-function winnerId(date){if(S&&S.chosen[date])return S.chosen[date];var c=ALL.filter(function(x){return x.date===date;});return c.length===1?c[0].id:null;}
+// winner of a date = the picked candidate, or the sole PUBLISHED strip if only one
+// exists (drafts never win a day; they are hidden from the public feed regardless).
+function winnerId(date){if(S&&S.chosen[date])return S.chosen[date];var lp=S?S.published:[];var c=ALL.filter(function(x){return x.date===date&&lp.indexOf(x.id)>=0;});return c.length===1?c[0].id:null;}
 // public = published AND is its day's winner (multi-candidate days need an explicit pick)
 function applyPub(){var lp=S?S.published:[];M=ALL.filter(function(s){return lp.indexOf(s.id)>=0&&winnerId(s.date)===s.id;});}
 function fmtReach(n){n=Math.max(1,Math.round(n));if(n<1000)return''+n;var u=['K','M','B','T'],i=-1,x=n;while(x>=1000&&i<3){x/=1000;i++;}return (x<10?x.toFixed(1):Math.round(x))+u[i];}
@@ -662,7 +665,7 @@ function getV(id){var v=S?S.votes[id]:0;return v===1?1:(v===-1?-1:0);}
 // group strips by day; best editorial candidate first
 var byDate={};M.forEach(function(s){(byDate[s.date]=byDate[s.date]||[]).push(s);});
 Object.keys(byDate).forEach(function(d){byDate[d].sort(function(a,b){return (b.audience-a.audience)||(a.id<b.id?-1:1);});});
-function winnerId(d){var ch=chosenMap();if(ch[d])return ch[d];var c=byDate[d];return c.length===1?c[0].id:null;}
+function winnerId(d){var ch=chosenMap();if(ch[d])return ch[d];var c=(byDate[d]||[]).filter(function(s){return isPubId(s.id);});return c.length===1?c[0].id:null;}
 function statusOf(d){var w=winnerId(d);if(!w)return 'needspick';return isPubId(w)?'live':'ready';}
 function needKey(){if(Desk.hasKey())return false;setStatus('bad','writes need the desk key — paste it above');return true;}
 function revertIfRejected(p){p.then(function(ok){if(!ok){setStatus('bad','write rejected — re-syncing from the desk');Desk.pull(function(s){if(s)S=s;render();});}});}
