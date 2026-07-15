@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 340" width="1228" height="340">
+  <defs>
+    <symbol id="dailbert" viewBox="0 0 100 130">
+      <ellipse cx="50" cy="34" rx="26" ry="30" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+      <path d="M50 4 q10 -6 8 6 q-1 6 -8 3" fill="none" stroke="#111" stroke-width="2.4" stroke-linecap="round"/>
+      <circle cx="40" cy="34" r="8" fill="#fff" stroke="#111" stroke-width="2.2"/>
+      <circle cx="60" cy="34" r="8" fill="#fff" stroke="#111" stroke-width="2.2"/>
+      <line x1="48" y1="34" x2="52" y2="34" stroke="#111" stroke-width="2.2"/>
+      <circle cx="40" cy="34" r="1.8" fill="#111"/>
+      <circle cx="60" cy="34" r="1.8" fill="#111"/>
+      <line x1="43" y1="50" x2="57" y2="50" stroke="#111" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M28 128 q0 -52 22 -60 q22 8 22 60 z" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+      <path d="M42 70 l8 8 l8 -8" fill="none" stroke="#111" stroke-width="2.2"/>
+      <path d="M50 78 l-4 8 l4 22 l4 -22 z" fill="#111"/>
+    </symbol>
+    <symbol id="doug" viewBox="0 0 110 130">
+      <circle cx="52" cy="36" r="31" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+      <path d="M30 16 q6 -8 12 -2 M70 14 q8 -6 12 2" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="round"/>
+      <circle cx="43" cy="33" r="2.6" fill="#111"/>
+      <circle cx="61" cy="33" r="2.6" fill="#111"/>
+      <path d="M38 46 q14 16 28 0" fill="none" stroke="#111" stroke-width="2.4" stroke-linecap="round"/>
+      <path d="M26 128 q2 -50 26 -58 q24 8 26 58 z" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+      <path d="M74 96 q18 2 22 16" fill="none" stroke="#111" stroke-width="2.4" stroke-linecap="round"/>
+      <rect x="90" y="104" width="20" height="18" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+      <path d="M110 108 q7 1 7 6 q0 5 -7 6" fill="none" stroke="#111" stroke-width="2.2"/>
+    </symbol>
+    <symbol id="priya" viewBox="0 0 100 130">
+      <ellipse cx="50" cy="10" rx="10" ry="8" fill="#111"/>
+      <ellipse cx="50" cy="34" rx="25" ry="29" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+      <path d="M25 30 q-6 -22 12 -28 q13 -6 26 0 q18 6 12 28 q-4 -14 -18 -16 q-14 -3 -22 4 q-6 4 -10 12 z" fill="#111"/>
+      <rect x="31" y="30" width="15" height="10" rx="1.5" fill="#fff" stroke="#111" stroke-width="2.2"/>
+      <rect x="54" y="30" width="15" height="10" rx="1.5" fill="#fff" stroke="#111" stroke-width="2.2"/>
+      <line x1="46" y1="35" x2="54" y2="35" stroke="#111" stroke-width="2.2"/>
+      <circle cx="38.5" cy="35" r="1.8" fill="#111"/>
+      <circle cx="61.5" cy="35" r="1.8" fill="#111"/>
+      <line x1="44" y1="50" x2="56" y2="50" stroke="#111" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M27 128 q1 -50 23 -58 q22 8 23 58 z" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+      <path d="M30 92 l-6 4 M70 92 l6 4" stroke="#111" stroke-width="2.4" stroke-linecap="round"/>
+      <path d="M27 90 q-4 3 -3 8 M73 90 q4 3 3 8" fill="none" stroke="#111" stroke-width="2.2"/>
+    </symbol>
+    <symbol id="clanker" viewBox="0 0 100 100">
+      <rect x="22" y="26" width="56" height="48" rx="6" fill="#c9cdd2" stroke="#111" stroke-width="2.4"/>
+      <line x1="50" y1="26" x2="50" y2="12" stroke="#111" stroke-width="2.4"/>
+      <circle cx="50" cy="9" r="3.5" fill="#111"/>
+      <rect x="31" y="40" width="14" height="6" rx="3" fill="#7fd8e6" stroke="#111" stroke-width="1.6"/>
+      <rect x="55" y="40" width="14" height="6" rx="3" fill="#7fd8e6" stroke="#111" stroke-width="1.6"/>
+      <rect x="34" y="56" width="32" height="10" rx="2" fill="#eef1f3" stroke="#111" stroke-width="1.8"/>
+      <line x1="40" y1="56" x2="40" y2="66" stroke="#111" stroke-width="1.4"/>
+      <line x1="46" y1="56" x2="46" y2="66" stroke="#111" stroke-width="1.4"/>
+      <line x1="52" y1="56" x2="52" y2="66" stroke="#111" stroke-width="1.4"/>
+      <line x1="58" y1="56" x2="58" y2="66" stroke="#111" stroke-width="1.4"/>
+    </symbol>
+  </defs>
+
+  <g>
+    <rect x="1" y="1" width="400" height="338" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+    <g stroke="#111" stroke-width="1.2" opacity="0.35">
+      <line x1="300" y1="14" x2="392" y2="14"/>
+      <line x1="300" y1="26" x2="392" y2="26"/>
+      <line x1="300" y1="38" x2="392" y2="38"/>
+    </g>
+    <rect x="120" y="30" width="200" height="120" rx="4" fill="#111" stroke="#111" stroke-width="2.6"/>
+    <rect x="127" y="37" width="186" height="106" rx="2" fill="#1d2226"/>
+    <g stroke="#7fd8e6" stroke-width="1.8" fill="none">
+      <rect x="200" y="44" width="34" height="14"/>
+      <rect x="150" y="72" width="34" height="14"/>
+      <rect x="250" y="72" width="34" height="14" stroke-dasharray="3 3" opacity="0.5"/>
+      <rect x="192" y="110" width="34" height="14" stroke-dasharray="3 3" opacity="0.4"/>
+    </g>
+    <g stroke="#7fd8e6" stroke-width="1.4" fill="none" opacity="0.7">
+      <path d="M217 58 L217 72 M167 86 L167 96 M267 79 L280 96"/>
+    </g>
+    <g transform="translate(258,96) scale(0.42)"><use href="#clanker"/></g>
+    <text x="220" y="140" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="9" fill="#7fd8e6" text-anchor="middle">ORG CHART (auto)</text>
+    <use href="#dailbert" x="20" y="200" width="100" height="130"/>
+    <use href="#doug" x="96" y="204" width="110" height="130"/>
+    <g>
+      <rect x="20" y="168" width="150" height="46" rx="12" fill="#fff" stroke="#111" stroke-width="2"/>
+      <path d="M60 214 l6 14 l12 -14 z" fill="#fff" stroke="#111" stroke-width="2"/>
+      <text font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" fill="#111" text-anchor="middle">
+        <tspan x="95" y="186">Half the boxes on</tspan>
+        <tspan x="95" y="202">the org chart won't load.</tspan>
+      </text>
+    </g>
+  </g>
+
+  <g>
+    <rect x="415" y="1" width="400" height="338" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+    <rect x="470" y="24" width="150" height="96" rx="4" fill="#111" stroke="#111" stroke-width="2.6"/>
+    <rect x="476" y="30" width="138" height="84" rx="2" fill="#1d2226"/>
+    <g stroke="#7fd8e6" stroke-width="1.4" fill="none" opacity="0.75">
+      <path d="M520 44 L545 70 M575 44 L555 70 M500 92 L545 82 M595 92 L560 82"/>
+    </g>
+    <g transform="translate(525,58) scale(0.42)"><use href="#clanker"/></g>
+    <path d="M600 96 L648 118" stroke="#111" stroke-width="1.4" stroke-dasharray="4 3" fill="none"/>
+    <g>
+      <rect x="648" y="112" width="150" height="60" fill="#eef1f3" stroke="#111" stroke-width="2"/>
+      <rect x="652" y="116" width="142" height="52" fill="none" stroke="#111" stroke-width="1" stroke-dasharray="3 2"/>
+      <text font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="12.5" fill="#111" text-anchor="middle">
+        <tspan x="723" y="132">I've tidied the</tspan>
+        <tspan x="723" y="147">reporting lines. They</tspan>
+        <tspan x="723" y="162">all route through me now.</tspan>
+      </text>
+    </g>
+    <use href="#priya" x="440" y="205" width="100" height="130"/>
+    <use href="#dailbert" x="560" y="210" width="90" height="120"/>
+    <g>
+      <rect x="500" y="182" width="170" height="46" rx="12" fill="#fff" stroke="#111" stroke-width="2"/>
+      <path d="M520 228 l-8 14 l18 -12 z" fill="#fff" stroke="#111" stroke-width="2"/>
+      <text font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" fill="#111" text-anchor="middle">
+        <tspan x="585" y="200">That's convenient</tspan>
+        <tspan x="585" y="216">for exactly one of us.</tspan>
+      </text>
+    </g>
+  </g>
+
+  <g>
+    <rect x="829" y="1" width="399" height="338" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+    <rect x="850" y="24" width="230" height="150" rx="4" fill="#fff" stroke="#111" stroke-width="2.6"/>
+    <rect x="856" y="174" width="218" height="7" rx="2" fill="#d9d5cc" stroke="#111" stroke-width="1.8"/>
+    <g stroke="#111" stroke-width="2.2" fill="none">
+      <rect x="945" y="40" width="46" height="20" rx="1"/>
+      <rect x="890" y="90" width="46" height="20" rx="1"/>
+      <rect x="1000" y="90" width="46" height="20" rx="1"/>
+      <rect x="878" y="134" width="40" height="18" rx="1"/>
+      <rect x="1010" y="134" width="40" height="18" rx="1"/>
+      <path d="M968 60 L968 74 M968 74 L913 74 L913 90 M968 74 L1023 74 L1023 90 M910 110 L898 134 M1023 110 L1030 134"/>
+    </g>
+    <text font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="11" fill="#111" text-anchor="middle">
+      <tspan x="968" y="53">BOSS</tspan>
+      <tspan x="913" y="103">PRIYA</tspan>
+      <tspan x="1023" y="103">CRAIG</tspan>
+    </text>
+    <text x="965" y="20" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="12" fill="#111" text-anchor="middle" font-weight="bold">SOURCE OF TRUTH</text>
+    <use href="#priya" x="880" y="205" width="100" height="130"/>
+    <rect x="1120" y="150" width="96" height="72" rx="3" fill="#111" stroke="#111" stroke-width="2.4"/>
+    <rect x="1125" y="155" width="86" height="62" rx="2" fill="#1d2226"/>
+    <g transform="translate(1140,158) scale(0.34)"><use href="#clanker"/></g>
+    <rect x="1123" y="222" width="20" height="10" fill="#111"/>
+    <rect x="1113" y="232" width="40" height="5" rx="2" fill="#111"/>
+    <path d="M1168 150 L1150 118" stroke="#111" stroke-width="1.4" stroke-dasharray="4 3" fill="none"/>
+    <g>
+      <rect x="1030" y="70" width="176" height="50" fill="#eef1f3" stroke="#111" stroke-width="2"/>
+      <rect x="1034" y="74" width="168" height="42" fill="none" stroke="#111" stroke-width="1" stroke-dasharray="3 2"/>
+      <text font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="12" fill="#111" text-anchor="middle">
+        <tspan x="1118" y="90">Understood. The board</tspan>
+        <tspan x="1118" y="105">is now canonical. I've</tspan>
+        <tspan x="1118" y="120">deprecated my dashboard.</tspan>
+      </text>
+    </g>
+    <g>
+      <rect x="912" y="196" width="150" height="30" rx="12" fill="#fff" stroke="#111" stroke-width="2"/>
+      <path d="M940 226 l-6 12 l14 -12 z" fill="#fff" stroke="#111" stroke-width="2"/>
+      <text x="987" y="215" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" fill="#111" text-anchor="middle">Don't erase it.</text>
+    </g>
+  </g>
+</svg>

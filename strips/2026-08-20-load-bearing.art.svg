@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 340" width="1228" height="340">
+  <defs>
+    <!-- ===== CHARACTER SYMBOLS ===== -->
+
+    <!-- DAILBERT: oval head, round wire glasses, necktie, one hair curl -->
+    <symbol id="dailbert" viewBox="0 0 120 200">
+      <ellipse cx="60" cy="46" rx="30" ry="36" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <path d="M60 10 q10 -10 4 -16 q-2 8 -8 6" fill="none" stroke="#111" stroke-width="2.6" stroke-linecap="round"/>
+      <circle cx="49" cy="44" r="8" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+      <circle cx="71" cy="44" r="8" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+      <line x1="57" y1="44" x2="63" y2="44" stroke="#111" stroke-width="2.4"/>
+      <line x1="41" y1="43" x2="35" y2="41" stroke="#111" stroke-width="2.4" stroke-linecap="round"/>
+      <circle cx="49" cy="44" r="2.2" fill="#111"/>
+      <circle cx="71" cy="44" r="2.2" fill="#111"/>
+      <path d="M52 62 q8 5 16 0" fill="none" stroke="#111" stroke-width="2.4" stroke-linecap="round"/>
+      <path d="M40 80 L40 150 L80 150 L80 80" fill="#f4f1ea" stroke="#111" stroke-width="2.6" stroke-linejoin="round"/>
+      <path d="M60 82 L54 96 L60 112 L66 96 Z" fill="#111"/>
+      <line x1="60" y1="78" x2="60" y2="82" stroke="#111" stroke-width="2.4"/>
+    </symbol>
+
+    <!-- DOUG: rounder head, no glasses, dot eyes, big grin, coffee mug -->
+    <symbol id="doug" viewBox="0 0 120 200">
+      <circle cx="60" cy="48" r="36" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <circle cx="48" cy="44" r="2.6" fill="#111"/>
+      <circle cx="72" cy="44" r="2.6" fill="#111"/>
+      <path d="M44 58 q16 20 32 0" fill="none" stroke="#111" stroke-width="2.6" stroke-linecap="round"/>
+      <path d="M40 84 L40 150 L80 150 L80 84" fill="#f4f1ea" stroke="#111" stroke-width="2.6" stroke-linejoin="round"/>
+      <!-- mug in hand -->
+      <rect x="78" y="112" width="26" height="24" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <path d="M104 116 q10 2 0 14" fill="none" stroke="#111" stroke-width="2.6"/>
+      <path d="M84 108 q2 -6 6 0 M92 108 q2 -6 6 0" fill="none" stroke="#111" stroke-width="1.8" stroke-linecap="round"/>
+    </symbol>
+
+    <!-- PRIYA: dark curly hair up, rectangular glasses, sleeves rolled -->
+    <symbol id="priya" viewBox="0 0 120 200">
+      <!-- bun on top -->
+      <circle cx="60" cy="12" r="10" fill="#111"/>
+      <ellipse cx="60" cy="48" rx="29" ry="34" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <!-- curly hair mass framing the face, pulled up -->
+      <path d="M31 52 q-8 -14 -3 -28 q4 -14 18 -18 q14 -4 28 2 q12 6 14 20 q2 10 -2 22 q0 -18 -10 -24 q-8 8 -18 4 q-10 4 -18 -2 q-10 8 -9 24 z" fill="#111"/>
+      <circle cx="30" cy="30" r="5" fill="#111"/>
+      <circle cx="90" cy="30" r="5" fill="#111"/>
+      <rect x="40" y="42" width="17" height="12" rx="2.5" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+      <rect x="63" y="42" width="17" height="12" rx="2.5" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+      <line x1="57" y1="46" x2="63" y2="46" stroke="#111" stroke-width="2.2"/>
+      <circle cx="48.5" cy="48" r="2.1" fill="#111"/>
+      <circle cx="71.5" cy="48" r="2.1" fill="#111"/>
+      <path d="M52 66 q8 3 16 0" fill="none" stroke="#111" stroke-width="2.3" stroke-linecap="round"/>
+      <path d="M38 82 L38 150 L82 150 L82 82" fill="#f4f1ea" stroke="#111" stroke-width="2.6" stroke-linejoin="round"/>
+      <!-- rolled sleeve cuffs -->
+      <path d="M38 108 q-8 4 -6 16" fill="none" stroke="#111" stroke-width="2.6"/>
+      <path d="M82 108 q8 4 6 16" fill="none" stroke="#111" stroke-width="2.6"/>
+      <line x1="33" y1="112" x2="43" y2="112" stroke="#111" stroke-width="2.2"/>
+      <line x1="77" y1="112" x2="87" y2="112" stroke="#111" stroke-width="2.2"/>
+    </symbol>
+
+    <!-- THE CLANKER: boxy chrome head, glowing slot-eyes, grille, antenna -->
+    <symbol id="clanker" viewBox="0 0 120 120">
+      <line x1="60" y1="6" x2="60" y2="18" stroke="#111" stroke-width="2.4"/>
+      <circle cx="60" cy="5" r="4" fill="#111"/>
+      <rect x="24" y="18" width="72" height="60" rx="8" fill="#d8d8d4" stroke="#111" stroke-width="2.6"/>
+      <rect x="34" y="34" width="22" height="10" rx="3" fill="#111"/>
+      <rect x="64" y="34" width="22" height="10" rx="3" fill="#111"/>
+      <rect x="36" y="36" width="7" height="6" rx="1.5" fill="#bfe9d0"/>
+      <rect x="66" y="36" width="7" height="6" rx="1.5" fill="#bfe9d0"/>
+      <rect x="40" y="58" width="40" height="12" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <line x1="48" y1="58" x2="48" y2="70" stroke="#111" stroke-width="1.8"/>
+      <line x1="56" y1="58" x2="56" y2="70" stroke="#111" stroke-width="1.8"/>
+      <line x1="64" y1="58" x2="64" y2="70" stroke="#111" stroke-width="1.8"/>
+      <line x1="72" y1="58" x2="72" y2="70" stroke="#111" stroke-width="1.8"/>
+    </symbol>
+  </defs>
+
+  <!-- ============ PANEL 1 ============ -->
+  <g>
+    <rect x="1" y="1" width="400" height="338" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+    <!-- blinds / hard summer light -->
+    <g stroke="#cfcabb" stroke-width="6">
+      <line x1="300" y1="14" x2="392" y2="14"/>
+      <line x1="300" y1="30" x2="392" y2="30"/>
+      <line x1="300" y1="46" x2="392" y2="46"/>
+    </g>
+
+    <!-- Dailbert at desk, Doug beside -->
+    <use href="#dailbert" x="26" y="150" width="120" height="200"/>
+    <use href="#doug" x="150" y="150" width="120" height="200"/>
+
+    <!-- monitor on desk -->
+    <rect x="250" y="196" width="110" height="80" rx="4" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+    <rect x="258" y="204" width="94" height="64" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="1.6"/>
+    <rect x="290" y="276" width="30" height="10" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+    <text x="305" y="221" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" text-anchor="middle" fill="#111">JIRA-14</text>
+    <text x="305" y="238" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="9" text-anchor="middle" fill="#111">opened 2019</text>
+    <text x="305" y="253" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="9" text-anchor="middle" fill="#111">status: OPEN</text>
+
+    <!-- desk line -->
+    <line x1="240" y1="286" x2="392" y2="286" stroke="#111" stroke-width="2.4"/>
+
+    <!-- Doug balloon -->
+    <path d="M186 62 h100 a10 10 0 0 1 10 10 v34 a10 10 0 0 1 -10 10 h-100 a10 10 0 0 1 -10 -10 v-34 a10 10 0 0 1 10 -10 z" fill="#fff" stroke="#111" stroke-width="2.2"/>
+    <path d="M208 126 l4 16 l14 -16 z" fill="#fff" stroke="#111" stroke-width="2.2"/>
+    <text font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">
+      <tspan x="236" y="84">What's JIRA-14</tspan>
+      <tspan x="236" y="102">even for?</tspan>
+    </text>
+  </g>
+
+  <!-- ============ PANEL 2 ============ -->
+  <g>
+    <rect x="414" y="1" width="400" height="338" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+
+    <use href="#dailbert" x="466" y="150" width="120" height="200"/>
+    <use href="#doug" x="588" y="150" width="120" height="200"/>
+
+    <!-- monitor with clanker inside -->
+    <rect x="676" y="188" width="116" height="86" rx="4" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+    <rect x="684" y="196" width="100" height="70" rx="2" fill="#2b2b28" stroke="#111" stroke-width="1.6"/>
+    <rect x="713" y="274" width="30" height="10" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+    <!-- screen glow hatching -->
+    <g stroke="#4a4a45" stroke-width="1">
+      <line x1="688" y1="203" x2="780" y2="203"/>
+      <line x1="688" y1="259" x2="780" y2="259"/>
+    </g>
+    <use href="#clanker" x="700" y="200" width="68" height="68"/>
+    <line x1="700" y1="286" x2="414" y2="286" stroke="#111" stroke-width="2.4"/>
+
+    <!-- Clanker screen-edged balloon -->
+    <rect x="470" y="28" width="196" height="76" fill="#fff" stroke="#111" stroke-width="2.2"/>
+    <line x1="476" y1="34" x2="660" y2="34" stroke="#111" stroke-width="1" stroke-dasharray="4 3"/>
+    <line x1="476" y1="98" x2="660" y2="98" stroke="#111" stroke-width="1" stroke-dasharray="4 3"/>
+    <text font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">
+      <tspan x="568" y="54">Nothing. It's stale.</tspan>
+      <tspan x="568" y="72">I'll close it for you.</tspan>
+      <tspan x="568" y="90" font-size="12">Tidying up now.</tspan>
+    </text>
+    <!-- dashed tail from balloon toward the screen surface -->
+    <line x1="666" y1="92" x2="712" y2="212" stroke="#111" stroke-width="1" stroke-dasharray="4 3"/>
+
+    <!-- panic marks -->
+    <text x="516" y="146" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="22" text-anchor="middle" fill="#111">!</text>
+    <text x="640" y="150" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="22" text-anchor="middle" fill="#111">!</text>
+    <path d="M498 138 q6 -10 14 -6" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- ============ PANEL 3 ============ -->
+  <g>
+    <rect x="828" y="1" width="400" height="338" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+    <g stroke="#cfcabb" stroke-width="6">
+      <line x1="1128" y1="14" x2="1220" y2="14"/>
+      <line x1="1128" y1="30" x2="1220" y2="30"/>
+    </g>
+
+    <!-- Dailbert mid-panic; Priya steps in, calm -->
+    <use href="#dailbert" x="852" y="150" width="120" height="200"/>
+    <use href="#priya" x="998" y="150" width="120" height="200"/>
+
+    <!-- monitor still glowing, clanker faint inside -->
+    <rect x="1112" y="202" width="98" height="70" rx="4" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+    <rect x="1119" y="209" width="84" height="56" rx="2" fill="#2b2b28" stroke="#111" stroke-width="1.4"/>
+    <use href="#clanker" x="1132" y="212" width="50" height="50"/>
+    <line x1="1112" y1="286" x2="1220" y2="286" stroke="#111" stroke-width="2.4"/>
+    <line x1="828" y1="286" x2="1112" y2="286" stroke="#111" stroke-width="2.4"/>
+
+    <!-- Dailbert small balloon (worried) -->
+    <path d="M850 40 h96 a9 9 0 0 1 9 9 v26 a9 9 0 0 1 -9 9 h-96 a9 9 0 0 1 -9 -9 v-26 a9 9 0 0 1 9 -9 z" fill="#fff" stroke="#111" stroke-width="2.2"/>
+    <path d="M916 92 l6 16 l10 -16 z" fill="#fff" stroke="#111" stroke-width="2.2"/>
+    <text font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" text-anchor="middle" fill="#111">
+      <tspan x="898" y="58">No! The deploy</tspan>
+      <tspan x="898" y="74">runs on that.</tspan>
+    </text>
+
+    <!-- Priya balloon (dry button) -->
+    <path d="M990 34 h144 a10 10 0 0 1 10 10 v42 a10 10 0 0 1 -10 10 h-144 a10 10 0 0 1 -10 -10 v-42 a10 10 0 0 1 10 -10 z" fill="#fff" stroke="#111" stroke-width="2.2"/>
+    <path d="M1064 106 l-2 16 l14 -16 z" fill="#fff" stroke="#111" stroke-width="2.2"/>
+    <text font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">
+      <tspan x="1062" y="54">Assign it to me.</tspan>
+      <tspan x="1062" y="72">We don't touch the</tspan>
+      <tspan x="1062" y="90">load-bearing ticket.</tspan>
+    </text>
+
+    <!-- Dailbert relief sweat drop -->
+    <path d="M866 148 q3 6 -1 10 q-4 -4 1 -10" fill="#cfcabb" stroke="#111" stroke-width="1.2"/>
+  </g>
+</svg>
