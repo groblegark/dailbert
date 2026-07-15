@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 388" width="1228" height="388" font-family="Georgia,serif">
+    <rect width="1228" height="388" fill="#f4f1ea"/>
+    <text x="6" y="29" font-family="Georgia,serif" font-weight="bold" font-size="27" letter-spacing="2" fill="#111">DAILBERT</text>
+    <text x="1222" y="19" text-anchor="end" font-family="Georgia,serif" font-style="italic" font-size="16" fill="#111">Green Means Go</text>
+    <text x="1222" y="34" text-anchor="end" font-family="'Courier New',monospace" font-size="12" fill="#111" opacity="0.65">2026-08-12</text>
+    <line x1="6" y1="37" x2="1222" y2="37" stroke="#111" stroke-width="2"/>
+    <g transform="translate(0,40)">
+  <defs>
+    <symbol id="dailbert" viewBox="0 0 120 160">
+      <ellipse cx="60" cy="46" rx="30" ry="34" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <path d="M60 12 q10 -10 3 -16" fill="none" stroke="#111" stroke-width="2.6" stroke-linecap="round"/>
+      <circle cx="49" cy="46" r="8.5" fill="#fff" stroke="#111" stroke-width="2.4"/>
+      <circle cx="71" cy="46" r="8.5" fill="#fff" stroke="#111" stroke-width="2.4"/>
+      <line x1="57.5" y1="46" x2="62.5" y2="46" stroke="#111" stroke-width="2.4"/>
+      <circle cx="49" cy="46" r="2" fill="#111"/>
+      <circle cx="71" cy="46" r="2" fill="#111"/>
+      <path d="M52 64 q8 5 16 0" fill="none" stroke="#111" stroke-width="2.4" stroke-linecap="round"/>
+      <path d="M50 78 v8 h20 v-8" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <path d="M34 150 q0 -60 26 -64 q26 4 26 64 z" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <path d="M60 86 l-6 8 l6 26 l6 -26 z" fill="#111"/>
+      <path d="M55 86 h10 l-5 6 z" fill="#111"/>
+    </symbol>
+    <symbol id="doug" viewBox="0 0 120 160">
+      <circle cx="60" cy="48" r="34" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <circle cx="49" cy="46" r="2.6" fill="#111"/>
+      <circle cx="71" cy="46" r="2.6" fill="#111"/>
+      <path d="M46 58 q14 16 28 0" fill="none" stroke="#111" stroke-width="2.6" stroke-linecap="round"/>
+      <path d="M50 82 v6 h20 v-6" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <path d="M32 150 q0 -60 28 -62 q28 2 28 62 z" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <g>
+        <rect x="20" y="104" width="26" height="24" rx="3" fill="#fff" stroke="#111" stroke-width="2.6"/>
+        <path d="M46 110 q10 0 10 8 q0 8 -10 8" fill="none" stroke="#111" stroke-width="2.6"/>
+        <path d="M20 128 h26" stroke="#111" stroke-width="2.6"/>
+        <circle cx="26" cy="122" r="5" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      </g>
+    </symbol>
+    <symbol id="priya" viewBox="0 0 120 160">
+      <path d="M27 50 q0 -34 33 -34 q33 0 33 34 q0 10 -4 16 q-4 -8 -29 -8 q-25 0 -29 8 q-4 -6 -4 -16z" fill="#111"/>
+      <circle cx="60" cy="13" r="8" fill="#111"/>
+      <ellipse cx="60" cy="48" rx="27" ry="31" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <path d="M33 40 q-4 -22 27 -24 q31 2 27 24 q-8 -12 -27 -12 q-19 0 -27 12z" fill="#111"/>
+      <rect x="40" y="44" width="17" height="12" rx="2" fill="#fff" stroke="#111" stroke-width="2.4"/>
+      <rect x="63" y="44" width="17" height="12" rx="2" fill="#fff" stroke="#111" stroke-width="2.4"/>
+      <line x1="57" y1="49" x2="63" y2="49" stroke="#111" stroke-width="2.4"/>
+      <circle cx="48.5" cy="50" r="2" fill="#111"/>
+      <circle cx="71.5" cy="50" r="2" fill="#111"/>
+      <path d="M53 66 q7 3 14 0" fill="none" stroke="#111" stroke-width="2.4" stroke-linecap="round"/>
+      <path d="M51 78 v7 h18 v-7" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <path d="M34 150 q0 -58 26 -62 q26 4 26 62 z" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <path d="M40 112 h12 M68 112 h12" stroke="#111" stroke-width="2.4"/>
+    </symbol>
+    <symbol id="boss" viewBox="0 0 120 160">
+      <ellipse cx="60" cy="52" rx="28" ry="30" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <path d="M44 26 l-6 -22 l16 16z" fill="#111" stroke="#111" stroke-width="2"/>
+      <path d="M76 26 l6 -22 l-16 16z" fill="#111" stroke="#111" stroke-width="2"/>
+      <path d="M40 28 q20 -10 40 0" fill="none" stroke="#111" stroke-width="2.4"/>
+      <circle cx="50" cy="50" r="1.8" fill="#111"/>
+      <circle cx="70" cy="50" r="1.8" fill="#111"/>
+      <path d="M53 66 q7 3 14 0" fill="none" stroke="#111" stroke-width="2.4" stroke-linecap="round"/>
+      <path d="M50 80 v7 h20 v-7" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <path d="M32 150 q0 -60 28 -62 q28 2 28 62 z" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <path d="M60 87 l-7 9 l7 22 l7 -22 z" fill="#111"/>
+      <path d="M53 87 h14 l-7 6 z" fill="#111"/>
+    </symbol>
+    <symbol id="clanker" viewBox="0 0 120 120">
+      <line x1="60" y1="20" x2="60" y2="8" stroke="#cfd6da" stroke-width="2.4"/>
+      <circle cx="60" cy="6" r="3" fill="#cfd6da"/>
+      <rect x="30" y="20" width="60" height="52" rx="6" fill="#8f9aa2" stroke="#cfd6da" stroke-width="2.4"/>
+      <rect x="40" y="36" width="14" height="7" rx="3" fill="#eaf6ff"/>
+      <rect x="66" y="36" width="14" height="7" rx="3" fill="#eaf6ff"/>
+      <line x1="44" y1="58" x2="76" y2="58" stroke="#cfd6da" stroke-width="2"/>
+      <line x1="48" y1="54" x2="48" y2="62" stroke="#cfd6da" stroke-width="1.6"/>
+      <line x1="56" y1="54" x2="56" y2="62" stroke="#cfd6da" stroke-width="1.6"/>
+      <line x1="64" y1="54" x2="64" y2="62" stroke="#cfd6da" stroke-width="1.6"/>
+      <line x1="72" y1="54" x2="72" y2="62" stroke="#cfd6da" stroke-width="1.6"/>
+    </symbol>
+    <symbol id="dashred" viewBox="0 0 120 120">
+      <rect x="8" y="8" width="104" height="104" rx="5" fill="#1c1c1c" stroke="#111" stroke-width="2.6"/>
+      <text x="60" y="30" text-anchor="middle" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="11" fill="#e9e9e9">COFFEE KPI</text>
+      <polyline points="20,44 40,52 58,50 78,72 100,86" fill="none" stroke="#c0392b" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="100" cy="86" r="3.5" fill="#c0392b"/>
+      <text x="60" y="104" text-anchor="middle" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="12" fill="#c0392b">RED</text>
+    </symbol>
+    <symbol id="dashgreen" viewBox="0 0 120 120">
+      <rect x="8" y="8" width="104" height="104" rx="5" fill="#1c1c1c" stroke="#111" stroke-width="2.6"/>
+      <text x="60" y="30" text-anchor="middle" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="11" fill="#e9e9e9">COFFEE KPI</text>
+      <polyline points="20,80 40,74 58,58 78,50 100,40" fill="none" stroke="#2f8f3f" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="100" cy="40" r="3.5" fill="#2f8f3f"/>
+      <text x="60" y="104" text-anchor="middle" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="12" fill="#2f8f3f">GREEN</text>
+    </symbol>
+  </defs>
+
+  <g>
+    <rect x="0" y="0" width="400" height="340" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+    <rect x="40" y="120" width="70" height="150" rx="6" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+    <rect x="52" y="140" width="46" height="30" rx="3" fill="#1c1c1c" stroke="#111" stroke-width="2"/>
+    <rect x="60" y="200" width="30" height="24" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+    <line x1="40" y1="248" x2="110" y2="248" stroke="#111" stroke-width="2.2"/>
+    <rect x="66" y="176" width="18" height="14" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+    <path d="M69 176 v-4 a6 6 0 0 1 12 0 v4" fill="none" stroke="#111" stroke-width="2"/>
+    <use href="#dashred" x="250" y="30" width="120" height="120"/>
+    <use href="#dailbert" x="150" y="150" width="120" height="160"/>
+    <g>
+      <rect x="122" y="24" width="150" height="52" rx="14" fill="#fff" stroke="#111" stroke-width="2.2"/>
+      <path d="M186 74 l6 18 l14 -16z" fill="#fff" stroke="#111" stroke-width="2.2"/>
+      <text x="197" y="44" text-anchor="middle" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="14" fill="#111">Machine's locked</text>
+      <text x="197" y="62" text-anchor="middle" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="14" fill="#111">till the KPI's green.</text>
+    </g>
+  </g>
+
+  <g>
+    <rect x="414" y="0" width="400" height="340" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+    <rect x="470" y="150" width="120" height="90" rx="6" fill="#111" stroke="#111" stroke-width="2.6"/>
+    <rect x="478" y="158" width="104" height="74" rx="3" fill="#20262b"/>
+    <use href="#clanker" x="490" y="160" width="80" height="80"/>
+    <rect x="516" y="240" width="28" height="18" fill="#111"/>
+    <rect x="500" y="258" width="60" height="8" rx="2" fill="#111"/>
+    <use href="#priya" x="590" y="150" width="120" height="160"/>
+    <g>
+      <rect x="560" y="20" width="220" height="52" rx="14" fill="#fff" stroke="#111" stroke-width="2.2"/>
+      <path d="M660 70 l-8 18 l22 -14z" fill="#fff" stroke="#111" stroke-width="2.2"/>
+      <text x="670" y="40" text-anchor="middle" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="14" fill="#111">What counts as coffee</text>
+      <text x="670" y="58" text-anchor="middle" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="14" fill="#111">on that dashboard?</text>
+    </g>
+    <line x1="530" y1="150" x2="500" y2="118" stroke="#111" stroke-width="1.6" stroke-dasharray="4 4"/>
+    <g>
+      <rect x="426" y="70" width="150" height="50" rx="3" fill="#eef2f4" stroke="#111" stroke-width="2"/>
+      <text x="501" y="90" text-anchor="middle" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="13" fill="#111">Cups brewed here,</text>
+      <text x="501" y="108" text-anchor="middle" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="13" fill="#111">logged per hour.</text>
+    </g>
+  </g>
+
+  <g>
+    <rect x="828" y="0" width="400" height="340" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+    <use href="#dashgreen" x="880" y="26" width="120" height="120"/>
+    <use href="#priya" x="880" y="150" width="120" height="160"/>
+    <g>
+      <rect x="928" y="228" width="22" height="34" rx="3" fill="#fff" stroke="#111" stroke-width="2.4"/>
+      <rect x="926" y="222" width="26" height="8" rx="2" fill="#111"/>
+      <line x1="939" y1="222" x2="939" y2="206" stroke="#111" stroke-width="2.2"/>
+      <circle cx="939" cy="204" r="3" fill="#111"/>
+      <path d="M950 236 q10 0 10 8 q0 8 -10 8" fill="none" stroke="#111" stroke-width="2.4"/>
+    </g>
+    <use href="#doug" x="1050" y="150" width="120" height="160"/>
+    <g>
+      <rect x="826" y="14" width="176" height="34" rx="13" fill="#fff" stroke="#111" stroke-width="2.2"/>
+      <path d="M900 46 l-6 16 l18 -12z" fill="#fff" stroke="#111" stroke-width="2.2"/>
+      <text x="914" y="35" text-anchor="middle" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="14" fill="#111">I brought a press. Log it.</text>
+    </g>
+    <g>
+      <rect x="1020" y="70" width="150" height="52" rx="14" fill="#fff" stroke="#111" stroke-width="2.2"/>
+      <path d="M1090 120 l-4 18 l18 -14z" fill="#fff" stroke="#111" stroke-width="2.2"/>
+      <text x="1095" y="90" text-anchor="middle" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="14" fill="#111">We're green.</text>
+      <text x="1095" y="108" text-anchor="middle" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="14" fill="#111">We brew happy now.</text>
+    </g>
+  </g>
+</g>
+    <text x="1218" y="372" text-anchor="end" font-family="'Segoe Script','Comic Sans MS',cursive" font-style="italic" font-size="11" fill="#111" opacity="0.32">Matt Clanker</text>
+    
+  </svg>
