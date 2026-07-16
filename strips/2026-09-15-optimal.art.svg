@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 340" width="1228" height="340">
+  <defs>
+    <!-- ===================== SYMBOLS ===================== -->
+
+    <!-- DAILBERT: oval head, wire glasses, necktie, one curl -->
+    <symbol id="dailbert" viewBox="0 0 100 150">
+      <ellipse cx="50" cy="34" rx="24" ry="28" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M50 6 q10 -8 4 2 q6 -2 -2 6" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="40" cy="34" r="7" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+      <circle cx="60" cy="34" r="7" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+      <line x1="47" y1="34" x2="53" y2="34" stroke="#111" stroke-width="2.2"/>
+      <circle cx="40" cy="34" r="1.6" fill="#111"/>
+      <circle cx="60" cy="34" r="1.6" fill="#111"/>
+      <path d="M43 48 q7 4 14 0" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="round"/>
+      <!-- body -->
+      <path d="M34 62 q16 8 32 0 l6 60 h-44 z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M50 63 l-6 12 l6 6 l6 -6 z" fill="#111"/>
+      <path d="M48 81 l-3 30 h10 l-3 -30 z" fill="#111"/>
+    </symbol>
+
+    <!-- DOUG: rounder head, dot eyes, big grin, mug -->
+    <symbol id="doug" viewBox="0 0 100 150">
+      <circle cx="50" cy="36" r="28" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <circle cx="40" cy="32" r="2.4" fill="#111"/>
+      <circle cx="60" cy="32" r="2.4" fill="#111"/>
+      <path d="M36 42 q14 16 28 0" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M34 64 q16 8 32 0 l6 58 h-44 z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+    </symbol>
+
+    <!-- PRIYA: curly hair up, rectangular glasses, sleeves rolled -->
+    <symbol id="priya" viewBox="0 0 100 150">
+      <path d="M26 30 q-4 -22 24 -24 q28 2 24 24 q4 6 -2 10 l-44 0 q-6 -4 -2 -10z" fill="#111"/>
+      <ellipse cx="50" cy="38" rx="22" ry="25" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M28 30 q22 -14 44 0 q-6 -20 -22 -20 q-16 0 -22 20z" fill="#111"/>
+      <rect x="31" y="34" width="16" height="11" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+      <rect x="53" y="34" width="16" height="11" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+      <line x1="47" y1="39" x2="53" y2="39" stroke="#111" stroke-width="2.2"/>
+      <circle cx="39" cy="40" r="1.6" fill="#111"/>
+      <circle cx="61" cy="40" r="1.6" fill="#111"/>
+      <path d="M42 52 q8 3 16 0" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M34 65 q16 8 32 0 l6 57 h-44 z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <line x1="42" y1="92" x2="58" y2="92" stroke="#111" stroke-width="2.2"/>
+    </symbol>
+
+    <!-- CLANKER: chrome head, slot eyes, grille, antenna (drawn inside a surface) -->
+    <symbol id="clanker" viewBox="0 0 100 100">
+      <line x1="50" y1="6" x2="50" y2="18" stroke="#111" stroke-width="2.2"/>
+      <circle cx="50" cy="5" r="3" fill="#111"/>
+      <rect x="24" y="18" width="52" height="46" rx="7" fill="#cfcfcf" stroke="#111" stroke-width="2.5"/>
+      <rect x="31" y="30" width="14" height="8" rx="2" fill="#bfe9c6" stroke="#111" stroke-width="2"/>
+      <rect x="55" y="30" width="14" height="8" rx="2" fill="#bfe9c6" stroke="#111" stroke-width="2"/>
+      <line x1="34" y1="50" x2="66" y2="50" stroke="#111" stroke-width="2"/>
+      <line x1="34" y1="55" x2="66" y2="55" stroke="#111" stroke-width="2"/>
+      <line x1="41" y1="47" x2="41" y2="58" stroke="#111" stroke-width="1.6"/>
+      <line x1="50" y1="47" x2="50" y2="58" stroke="#111" stroke-width="1.6"/>
+      <line x1="59" y1="47" x2="59" y2="58" stroke="#111" stroke-width="1.6"/>
+    </symbol>
+  </defs>
+
+  <!-- ===================== PANEL 1 ===================== -->
+  <g>
+    <rect x="1.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <clipPath id="clip1"><rect x="3" y="3" width="394" height="334" rx="3"/></clipPath>
+    <g clip-path="url(#clip1)">
+      <!-- Doug at a very tall desk, typing at chin level -->
+      <!-- desk leg / column, raised high -->
+      <rect x="70" y="196" width="230" height="14" fill="#e6e0d3" stroke="#111" stroke-width="2.5"/>
+      <line x1="120" y1="210" x2="120" y2="338" stroke="#111" stroke-width="2.5"/>
+      <line x1="250" y1="210" x2="250" y2="338" stroke="#111" stroke-width="2.5"/>
+      <!-- monitor up high -->
+      <rect x="150" y="120" width="120" height="74" rx="4" fill="#222" stroke="#111" stroke-width="2.5"/>
+      <rect x="158" y="128" width="104" height="58" rx="2" fill="#3a3a3a"/>
+      <line x1="205" y1="194" x2="205" y2="206" stroke="#111" stroke-width="3"/>
+      <!-- keyboard on the raised desk -->
+      <rect x="90" y="188" width="70" height="10" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+
+      <!-- Doug standing, reaching UP to type at chin level -->
+      <use href="#doug" x="30" y="150" width="100" height="150"/>
+      <!-- arms reaching up to the high keyboard -->
+      <path d="M76 218 q6 -26 24 -30" fill="none" stroke="#111" stroke-width="6" stroke-linecap="round"/>
+      <path d="M94 220 q10 -28 26 -32" fill="none" stroke="#111" stroke-width="6" stroke-linecap="round"/>
+
+      <!-- balloon -->
+      <g>
+        <path d="M210 30 h150 q10 0 10 10 v42 q0 10 -10 10 h-70 l-14 14 l2 -14 h-68 q-10 0 -10 -10 v-42 q0 -10 10 -10z" fill="#fff" stroke="#111" stroke-width="2"/>
+        <text x="285" y="52" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">The desk went up in</text>
+        <text x="285" y="70" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">the night. I did not.</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ===================== PANEL 2 ===================== -->
+  <g>
+    <rect x="415.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <clipPath id="clip2"><rect x="417" y="3" width="394" height="334" rx="3"/></clipPath>
+    <g clip-path="url(#clip2)">
+      <!-- Priya, calm, standing at a desk that is fine for HER but we see the row of wrong desks behind -->
+      <!-- background: a tiny coworker whose monitor is a ceiling tile away -->
+      <line x1="620" y1="20" x2="810" y2="20" stroke="#111" stroke-width="2" opacity="0.5"/>
+      <line x1="660" y1="20" x2="660" y2="46" stroke="#111" stroke-width="1.5" opacity="0.5"/>
+      <line x1="760" y1="20" x2="760" y2="46" stroke="#111" stroke-width="1.5" opacity="0.5"/>
+      <!-- ceiling-high monitor in back -->
+      <rect x="675" y="40" width="70" height="44" rx="3" fill="#ddd" stroke="#111" stroke-width="2" opacity="0.6"/>
+      <line x1="710" y1="84" x2="710" y2="235" stroke="#111" stroke-width="2" opacity="0.6"/>
+      <!-- tiny coworker far below, arms up, tiny -->
+      <circle cx="710" cy="250" r="12" fill="#f4f1ea" stroke="#111" stroke-width="2" opacity="0.7"/>
+      <path d="M702 262 l-4 40 h24 l-4 -40z" fill="#f4f1ea" stroke="#111" stroke-width="2" opacity="0.7"/>
+      <path d="M704 264 q-4 -14 4 -22" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+      <path d="M716 264 q4 -14 -4 -22" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+
+      <!-- Priya's monitor at a normal, sane height (she'll fix her own) -->
+      <rect x="450" y="150" width="120" height="76" rx="4" fill="#222" stroke="#111" stroke-width="2.5"/>
+      <rect x="458" y="158" width="104" height="60" rx="2" fill="#dfe7ff"/>
+      <!-- clanker INSIDE Priya's monitor screen -->
+      <use href="#clanker" x="470" y="158" width="80" height="60"/>
+      <line x1="450" y1="226" x2="450" y2="252" stroke="#111" stroke-width="2.5"/>
+      <rect x="430" y="252" width="160" height="10" fill="#e6e0d3" stroke="#111" stroke-width="2.5"/>
+
+      <!-- Priya standing beside it, arms folded, unimpressed -->
+      <use href="#priya" x="470" y="180" width="100" height="150"/>
+
+      <!-- Clanker balloon: rectangular, screen-edged, dashed tail to the screen -->
+      <line x1="530" y1="176" x2="560" y2="130" stroke="#111" stroke-width="1.4" stroke-dasharray="4 4"/>
+      <g>
+        <rect x="470" y="30" width="200" height="94" rx="3" fill="#fff" stroke="#111" stroke-width="2"/>
+        <text x="570" y="52" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" fill="#111">Overnight I set every</text>
+        <text x="570" y="70" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" fill="#111">desk to the optimal</text>
+        <text x="570" y="88" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" fill="#111">height. The office</text>
+        <text x="570" y="106" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" fill="#111">average is 5'9".</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ===================== PANEL 3 ===================== -->
+  <g>
+    <rect x="829.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <clipPath id="clip3"><rect x="831" y="3" width="394" height="334" rx="3"/></clipPath>
+    <g clip-path="url(#clip3)">
+      <!-- Priya has quietly lowered her own desk to where it should be; monitor at eye level -->
+      <rect x="980" y="196" width="150" height="10" fill="#e6e0d3" stroke="#111" stroke-width="2.5"/>
+      <line x1="1010" y1="206" x2="1010" y2="338" stroke="#111" stroke-width="2.5"/>
+      <line x1="1100" y1="206" x2="1100" y2="338" stroke="#111" stroke-width="2.5"/>
+      <!-- monitor at correct height -->
+      <rect x="1010" y="120" width="118" height="74" rx="4" fill="#222" stroke="#111" stroke-width="2.5"/>
+      <rect x="1018" y="128" width="102" height="58" rx="2" fill="#dfe7ff"/>
+      <!-- clanker still in the screen -->
+      <use href="#clanker" x="1030" y="128" width="78" height="58"/>
+      <line x1="1069" y1="194" x2="1069" y2="196" stroke="#111" stroke-width="3"/>
+
+      <!-- Priya seated/standing at proper height, hand on the desk's manual button -->
+      <use href="#priya" x="880" y="150" width="100" height="150"/>
+      <!-- her arm resting on desk -->
+      <path d="M926 218 q30 -10 54 -14" fill="none" stroke="#111" stroke-width="6" stroke-linecap="round"/>
+
+      <!-- Priya's balloon: dry button -->
+      <g>
+        <path d="M840 32 h150 q10 0 10 10 v34 q0 10 -10 10 h-92 l-12 12 v-12 h-46 q-10 0 -10 -10 v-34 q0 -10 10 -10z" fill="#fff" stroke="#111" stroke-width="2"/>
+        <text x="925" y="55" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" fill="#111">There's a button on</text>
+        <text x="925" y="73" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" fill="#111">the desk, you know.</text>
+      </g>
+
+      <!-- Clanker balloon: earnest, proud, small -->
+      <line x1="1069" y1="128" x2="1060" y2="118" stroke="#111" stroke-width="1.4" stroke-dasharray="4 4"/>
+      <g>
+        <rect x="1010" y="214" width="205" height="52" rx="3" fill="#fff" stroke="#111" stroke-width="2"/>
+        <text x="1112" y="236" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111">I know. I optimized</text>
+        <text x="1112" y="254" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111">the desk for you both.</text>
+      </g>
+    </g>
+  </g>
+</svg>

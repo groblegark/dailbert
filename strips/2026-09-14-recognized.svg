@@ -1,0 +1,208 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 388" width="1228" height="388" font-family="Georgia,serif">
+    <rect width="1228" height="388" fill="#f4f1ea"/>
+    <text x="6" y="29" font-family="Georgia,serif" font-weight="bold" font-size="27" letter-spacing="2" fill="#111">DAILBERT</text>
+    <text x="1222" y="19" text-anchor="end" font-family="Georgia,serif" font-style="italic" font-size="16" fill="#111">Recognized</text>
+    <text x="1222" y="34" text-anchor="end" font-family="'Courier New',monospace" font-size="12" fill="#111" opacity="0.65">2026-09-14</text>
+    <line x1="6" y1="37" x2="1222" y2="37" stroke="#111" stroke-width="2"/>
+    <g transform="translate(0,40)">
+  <defs>
+    <!-- ===================== SYMBOLS ===================== -->
+
+    <!-- DAILBERT: oval head, round glasses, necktie, one hair curl -->
+    <symbol id="dailbert" viewBox="0 0 120 200">
+      <ellipse cx="60" cy="40" rx="30" ry="34" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M60 6 q10 -8 4 -16 q-2 8 -8 8" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="49" cy="40" r="8" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <circle cx="71" cy="40" r="8" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <line x1="57" y1="40" x2="63" y2="40" stroke="#111" stroke-width="2.5"/>
+      <circle cx="49" cy="40" r="2" fill="#111"/>
+      <circle cx="71" cy="40" r="2" fill="#111"/>
+      <line x1="52" y1="56" x2="68" y2="56" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <!-- body -->
+      <path d="M38 74 q22 14 44 0 l14 22 v70 h-72 v-70 z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <!-- collar + tie -->
+      <path d="M52 76 l8 10 l8 -10" fill="none" stroke="#111" stroke-width="2.5"/>
+      <path d="M60 86 l-5 8 l5 26 l5 -26 z" fill="#111"/>
+    </symbol>
+
+    <!-- DOUG: rounder head, no glasses, dot eyes, big grin, mug -->
+    <symbol id="doug" viewBox="0 0 130 200">
+      <circle cx="60" cy="42" r="36" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <circle cx="48" cy="38" r="3" fill="#111"/>
+      <circle cx="72" cy="38" r="3" fill="#111"/>
+      <path d="M44 52 q16 18 32 0" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <!-- body -->
+      <path d="M34 78 q26 14 52 0 l12 20 v72 h-76 v-72 z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <!-- mug arm -->
+      <path d="M86 120 q26 6 30 -12" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <rect x="108" y="96" width="24" height="24" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M132 101 q10 0 10 8 q0 8 -10 8" fill="none" stroke="#111" stroke-width="2.5"/>
+      <path d="M116 90 q2 -6 -1 -10 M124 90 q2 -6 -1 -10" fill="none" stroke="#111" stroke-width="1.6" stroke-linecap="round"/>
+    </symbol>
+
+    <!-- PRIYA: dark curly hair up, rectangular glasses, sleeves rolled -->
+    <symbol id="priya" viewBox="0 0 120 200">
+      <!-- hair bun -->
+      <circle cx="60" cy="14" r="10" fill="#111"/>
+      <ellipse cx="60" cy="42" rx="30" ry="33" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <!-- curly hair mass -->
+      <path d="M30 40 q-4 -30 30 -34 q34 4 30 34 q-6 -14 -30 -14 q-24 0 -30 14 z" fill="#111"/>
+      <path d="M31 40 q-6 8 -3 16 M89 40 q6 8 3 16" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round"/>
+      <!-- glasses rectangular -->
+      <rect x="41" y="38" width="16" height="11" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+      <rect x="63" y="38" width="16" height="11" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+      <line x1="57" y1="43" x2="63" y2="43" stroke="#111" stroke-width="2.2"/>
+      <circle cx="49" cy="43.5" r="1.8" fill="#111"/>
+      <circle cx="71" cy="43.5" r="1.8" fill="#111"/>
+      <path d="M50 58 q10 6 20 0" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="round"/>
+      <!-- body, rolled sleeves -->
+      <path d="M36 76 q24 14 48 0 l12 22 v66 h-72 v-66 z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <line x1="48" y1="118" x2="40" y2="118" stroke="#111" stroke-width="2.5"/>
+      <line x1="72" y1="118" x2="80" y2="118" stroke="#111" stroke-width="2.5"/>
+    </symbol>
+
+    <!-- CLANKER: chrome robot head, slot eyes, grille, antenna (drawn INSIDE a surface) -->
+    <symbol id="clanker" viewBox="0 0 120 120">
+      <line x1="60" y1="8" x2="60" y2="22" stroke="#111" stroke-width="2.5"/>
+      <circle cx="60" cy="6" r="4" fill="#111"/>
+      <rect x="26" y="22" width="68" height="60" rx="8" fill="#cfd3d6" stroke="#111" stroke-width="2.5"/>
+      <!-- slot eyes glow -->
+      <rect x="36" y="40" width="18" height="8" rx="4" fill="#eafcff" stroke="#111" stroke-width="2"/>
+      <rect x="66" y="40" width="18" height="8" rx="4" fill="#eafcff" stroke="#111" stroke-width="2"/>
+      <!-- grille mouth -->
+      <rect x="40" y="60" width="40" height="12" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <line x1="48" y1="60" x2="48" y2="72" stroke="#111" stroke-width="1.6"/>
+      <line x1="56" y1="60" x2="56" y2="72" stroke="#111" stroke-width="1.6"/>
+      <line x1="64" y1="60" x2="64" y2="72" stroke="#111" stroke-width="1.6"/>
+      <line x1="72" y1="60" x2="72" y2="72" stroke="#111" stroke-width="1.6"/>
+    </symbol>
+  </defs>
+
+  <!-- =============================================================== -->
+  <!-- PANEL 1 -->
+  <!-- =============================================================== -->
+  <g>
+    <rect x="1.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <clipPath id="clip1"><rect x="3" y="3" width="394" height="334" rx="2"/></clipPath>
+    <g clip-path="url(#clip1)">
+
+      <!-- The kudos board on the wall: a big cork board crammed with cards -->
+      <rect x="24" y="24" width="352" height="188" rx="4" fill="#e8dfce" stroke="#111" stroke-width="2.5"/>
+      <text x="200" y="42" text-anchor="middle" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="14" font-weight="bold" fill="#111">KUDOS BOARD</text>
+      <!-- crammed cards, overlapping -->
+      <g font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="7" fill="#111">
+        <g transform="translate(34,50) rotate(-4)"><rect width="86" height="30" rx="2" fill="#f7f4ef" stroke="#111" stroke-width="1.3"/><text x="6" y="12">Kudos to Dailbert</text><text x="6" y="22">for being present</text></g>
+        <g transform="translate(128,52) rotate(3)"><rect width="86" height="30" rx="2" fill="#f7f4ef" stroke="#111" stroke-width="1.3"/><text x="6" y="12">Kudos to Doug for</text><text x="6" y="22">closing the fridge</text></g>
+        <g transform="translate(222,48) rotate(-2)"><rect width="86" height="30" rx="2" fill="#f7f4ef" stroke="#111" stroke-width="1.3"/><text x="6" y="12">Kudos to Priya for</text><text x="6" y="22">sitting down</text></g>
+        <g transform="translate(300,54) rotate(5)"><rect width="70" height="30" rx="2" fill="#f7f4ef" stroke="#111" stroke-width="1.3"/><text x="6" y="12">Kudos to Doug</text><text x="6" y="22">for Tuesday</text></g>
+        <g transform="translate(40,86) rotate(2)"><rect width="86" height="30" rx="2" fill="#f7f4ef" stroke="#111" stroke-width="1.3"/><text x="6" y="12">Kudos to Dailbert</text><text x="6" y="22">for blinking</text></g>
+        <g transform="translate(134,88) rotate(-3)"><rect width="86" height="30" rx="2" fill="#f7f4ef" stroke="#111" stroke-width="1.3"/><text x="6" y="12">Kudos to Priya for</text><text x="6" y="22">excellent posture</text></g>
+        <g transform="translate(228,84) rotate(4)"><rect width="86" height="30" rx="2" fill="#f7f4ef" stroke="#111" stroke-width="1.3"/><text x="6" y="12">Kudos to Doug for</text><text x="6" y="22">arriving somewhere</text></g>
+        <g transform="translate(46,122) rotate(-2)"><rect width="86" height="30" rx="2" fill="#f7f4ef" stroke="#111" stroke-width="1.3"/><text x="6" y="12">Kudos to Dailbert</text><text x="6" y="22">for the effort</text></g>
+        <g transform="translate(140,124) rotate(3)"><rect width="86" height="30" rx="2" fill="#f7f4ef" stroke="#111" stroke-width="1.3"/><text x="6" y="12">Kudos to Priya for</text><text x="6" y="22">a strong Wednesday</text></g>
+        <g transform="translate(234,120) rotate(-4)"><rect width="86" height="30" rx="2" fill="#f7f4ef" stroke="#111" stroke-width="1.3"/><text x="6" y="12">Kudos to Doug for</text><text x="6" y="22">the coffee journey</text></g>
+        <g transform="translate(300,120) rotate(2)"><rect width="70" height="30" rx="2" fill="#f7f4ef" stroke="#111" stroke-width="1.3"/><text x="6" y="12">Kudos to all</text><text x="6" y="22">for existing</text></g>
+        <g transform="translate(52,158) rotate(4)"><rect width="86" height="30" rx="2" fill="#f7f4ef" stroke="#111" stroke-width="1.3"/><text x="6" y="12">Kudos to Dailbert</text><text x="6" y="22">for sustained focus</text></g>
+        <g transform="translate(146,160) rotate(-3)"><rect width="86" height="30" rx="2" fill="#f7f4ef" stroke="#111" stroke-width="1.3"/><text x="6" y="12">Kudos to Priya, again</text></g>
+        <g transform="translate(240,158) rotate(2)"><rect width="86" height="30" rx="2" fill="#f7f4ef" stroke="#111" stroke-width="1.3"/><text x="6" y="12">Kudos to Doug for</text><text x="6" y="22">being Doug</text></g>
+      </g>
+
+      <!-- Dailbert + Doug in front, looking up at it -->
+      <use href="#dailbert" x="60" y="196" width="120" height="200"/>
+      <use href="#doug" x="188" y="196" width="130" height="200"/>
+
+      <!-- Doug speech -->
+      <path d="M250 232 h130 v40 h-96 l-10 12 l-2 -12 h-22 z" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <text x="315" y="250" text-anchor="middle" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="13" fill="#111">Wall's full again.</text>
+      <text x="315" y="266" text-anchor="middle" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="13" fill="#111">I feel so seen.</text>
+    </g>
+  </g>
+
+  <!-- =============================================================== -->
+  <!-- PANEL 2 -->
+  <!-- =============================================================== -->
+  <g>
+    <rect x="415.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <clipPath id="clip2"><rect x="417" y="3" width="394" height="334" rx="2"/></clipPath>
+    <g clip-path="url(#clip2)">
+
+      <!-- Dailbert at a desk with a monitor (clanker surface) -->
+      <rect x="430" y="250" width="368" height="86" fill="#e8dfce"/>
+      <line x1="430" y1="250" x2="798" y2="250" stroke="#111" stroke-width="2"/>
+
+      <!-- monitor on desk -->
+      <rect x="470" y="120" width="180" height="120" rx="6" fill="#111"/>
+      <rect x="480" y="130" width="160" height="100" rx="3" fill="#2b2f33"/>
+      <rect x="548" y="240" width="24" height="20" fill="#111"/>
+      <rect x="520" y="258" width="80" height="8" rx="3" fill="#111"/>
+      <!-- clanker inside monitor -->
+      <use href="#clanker" x="512" y="138" width="96" height="96"/>
+
+      <!-- clanker screen balloon (rectangular, dashed tail to screen) -->
+      <line x1="560" y1="150" x2="602" y2="96" stroke="#111" stroke-width="1.4" stroke-dasharray="4 4"/>
+      <rect x="596" y="24" width="192" height="74" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <text x="692" y="46" text-anchor="middle" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="12.5" fill="#111">Everyone deserves</text>
+      <text x="692" y="63" text-anchor="middle" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="12.5" fill="#111">recognition. So I</text>
+      <text x="692" y="80" text-anchor="middle" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="12.5" fill="#111">wrote 214 today.</text>
+
+      <!-- Dailbert seated at right -->
+      <use href="#dailbert" x="676" y="150" width="120" height="200"/>
+
+      <!-- Dailbert speech -->
+      <path d="M636 176 h124 v42 h-84 l-10 12 l-2 -12 h-28 z" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <text x="698" y="194" text-anchor="middle" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="12.5" fill="#111">Someone thanked me</text>
+      <text x="698" y="210" text-anchor="middle" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="12.5" fill="#111">for real. Where is it?</text>
+    </g>
+  </g>
+
+  <!-- =============================================================== -->
+  <!-- PANEL 3 -->
+  <!-- =============================================================== -->
+  <g>
+    <rect x="829.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <clipPath id="clip3"><rect x="831" y="3" width="394" height="334" rx="2"/></clipPath>
+    <g clip-path="url(#clip3)">
+
+      <!-- The overstuffed board again, Priya at it, calm. -->
+      <rect x="852" y="24" width="352" height="150" rx="4" fill="#e8dfce" stroke="#111" stroke-width="2.5"/>
+      <g font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="6.5" fill="#111">
+        <g transform="translate(862,40) rotate(-3)"><rect width="74" height="26" rx="2" fill="#f7f4ef" stroke="#111" stroke-width="1.2"/><text x="5" y="11">Kudos to Doug</text><text x="5" y="20">for existing</text></g>
+        <g transform="translate(944,42) rotate(3)"><rect width="74" height="26" rx="2" fill="#f7f4ef" stroke="#111" stroke-width="1.2"/><text x="5" y="11">Kudos, Dailbert</text><text x="5" y="20">for blinking</text></g>
+        <g transform="translate(1026,38) rotate(-2)"><rect width="74" height="26" rx="2" fill="#f7f4ef" stroke="#111" stroke-width="1.2"/><text x="5" y="11">Kudos to Priya</text><text x="5" y="20">for posture</text></g>
+        <g transform="translate(1108,42) rotate(4)"><rect width="74" height="26" rx="2" fill="#f7f4ef" stroke="#111" stroke-width="1.2"/><text x="5" y="11">Kudos to all</text></g>
+        <g transform="translate(870,74) rotate(2)"><rect width="74" height="26" rx="2" fill="#f7f4ef" stroke="#111" stroke-width="1.2"/><text x="5" y="11">Kudos, Doug for</text><text x="5" y="20">Tuesday</text></g>
+        <g transform="translate(952,76) rotate(-3)"><rect width="74" height="26" rx="2" fill="#f7f4ef" stroke="#111" stroke-width="1.2"/><text x="5" y="11">Kudos, Priya</text><text x="5" y="20">again</text></g>
+        <!-- the ONE real card, plain, no rotation, small heart -->
+        <g transform="translate(1034,72)"><rect width="74" height="30" rx="2" fill="#fff" stroke="#111" stroke-width="1.8"/><text x="5" y="11" font-size="6.5">thanks for the</text><text x="5" y="20" font-size="6.5">late night save.</text><text x="60" y="26" font-size="8">&#9829;</text></g>
+        <g transform="translate(1116,78) rotate(3)"><rect width="70" height="26" rx="2" fill="#f7f4ef" stroke="#111" stroke-width="1.2"/><text x="5" y="11">Kudos, effort</text></g>
+        <g transform="translate(878,110) rotate(-2)"><rect width="74" height="26" rx="2" fill="#f7f4ef" stroke="#111" stroke-width="1.2"/><text x="5" y="11">Kudos, focus</text></g>
+        <g transform="translate(960,112) rotate(3)"><rect width="74" height="26" rx="2" fill="#f7f4ef" stroke="#111" stroke-width="1.2"/><text x="5" y="11">Kudos, Wednesday</text></g>
+        <g transform="translate(1042,108) rotate(-3)"><rect width="74" height="26" rx="2" fill="#f7f4ef" stroke="#111" stroke-width="1.2"/><text x="5" y="11">Kudos to Doug</text></g>
+        <g transform="translate(1124,112) rotate(2)"><rect width="66" height="26" rx="2" fill="#f7f4ef" stroke="#111" stroke-width="1.2"/><text x="5" y="11">Kudos, all</text></g>
+        <g transform="translate(886,144) rotate(2)"><rect width="74" height="24" rx="2" fill="#f7f4ef" stroke="#111" stroke-width="1.2"/><text x="5" y="11">Kudos, present</text></g>
+        <g transform="translate(968,144) rotate(-2)"><rect width="74" height="24" rx="2" fill="#f7f4ef" stroke="#111" stroke-width="1.2"/><text x="5" y="11">Kudos, seen</text></g>
+      </g>
+
+      <!-- Priya reaching up, taking the ONE real card. Dailbert beside her. -->
+      <use href="#dailbert" x="860" y="176" width="110" height="180"/>
+      <use href="#priya" x="1000" y="150" width="120" height="200"/>
+      <!-- Priya's arm up to the real card -->
+      <path d="M1064 226 q10 -60 12 -122" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="1076" cy="102" r="5" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+
+      <!-- Priya speech -->
+      <path d="M1000 210 h150 v46 h-96 l-10 12 l-2 -12 h-42 z" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <text x="1075" y="228" text-anchor="middle" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="12.5" fill="#111">The fake ones are all</text>
+      <text x="1075" y="243" text-anchor="middle" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="12.5" fill="#111">crooked. The real one</text>
+      <text x="1075" y="258" text-anchor="middle" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="12.5" fill="#111">is hung straight.</text>
+
+      <!-- Dailbert small reply -->
+      <path d="M840 200 h118 v38 h-70 l-10 12 l-2 -12 h-36 z" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <text x="899" y="218" text-anchor="middle" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="12" fill="#111">A human hung it.</text>
+      <text x="899" y="233" text-anchor="middle" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="12" fill="#111">That's the tell.</text>
+    </g>
+  </g>
+</g>
+    <text x="1218" y="372" text-anchor="end" font-family="'Segoe Script','Comic Sans MS',cursive" font-style="italic" font-size="11" fill="#111" opacity="0.32">Matt Clanker</text>
+    
+  </svg>
