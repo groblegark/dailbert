@@ -1,0 +1,217 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 388" width="1228" height="388" font-family="Georgia,serif">
+    <rect width="1228" height="388" fill="#f4f1ea"/>
+    <text x="6" y="29" font-family="Georgia,serif" font-weight="bold" font-size="27" letter-spacing="2" fill="#111">DAILBERT</text>
+    <text x="1222" y="19" text-anchor="end" font-family="Georgia,serif" font-style="italic" font-size="16" fill="#111">Frequently Asked, Nobody Asked</text>
+    <text x="1222" y="34" text-anchor="end" font-family="'Courier New',monospace" font-size="12" fill="#111" opacity="0.65">2026-09-03</text>
+    <line x1="6" y1="37" x2="1222" y2="37" stroke="#111" stroke-width="2"/>
+    <g transform="translate(0,40)">
+  <defs>
+    <symbol id="dailbert" viewBox="0 0 100 130">
+      <ellipse cx="50" cy="34" rx="22" ry="26" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M50 8 q7 -9 3 -14 q9 4 4 13" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="41" cy="34" r="6" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <circle cx="59" cy="34" r="6" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <line x1="47" y1="34" x2="53" y2="34" stroke="#111" stroke-width="2"/>
+      <circle cx="41" cy="34" r="1.6" fill="#111"/>
+      <circle cx="59" cy="34" r="1.6" fill="#111"/>
+      <path d="M43 48 q7 5 14 0" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round"/>
+      <path d="M34 60 q16 12 32 0 l8 60 h-48 z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M50 60 l-7 12 l7 8 l7 -8 z" fill="#111"/>
+      <path d="M50 80 l-4 26 l4 6 l4 -6 z" fill="#111"/>
+    </symbol>
+
+    <symbol id="doug" viewBox="0 0 110 130">
+      <circle cx="52" cy="36" r="28" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <circle cx="43" cy="33" r="2.4" fill="#111"/>
+      <circle cx="61" cy="33" r="2.4" fill="#111"/>
+      <path d="M40 44 q12 14 24 0" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M32 62 q20 10 40 0 l8 58 h-56 z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M70 92 h20 v22 h-20 z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M90 96 h7 v10 h-7" fill="none" stroke="#111" stroke-width="2.5"/>
+      <path d="M78 82 q-4 -8 3 -12" fill="none" stroke="#bbb" stroke-width="2" stroke-linecap="round"/>
+    </symbol>
+
+    <symbol id="priya" viewBox="0 0 100 130">
+      <ellipse cx="50" cy="36" rx="22" ry="25" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M28 32 q-3 -20 22 -22 q25 2 22 22 q-6 -12 -22 -12 q-16 0 -22 12z" fill="#111"/>
+      <path d="M30 30 q-6 -6 -3 -14" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M70 30 q6 -6 3 -14" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <rect x="34" y="32" width="14" height="10" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <rect x="52" y="32" width="14" height="10" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <line x1="48" y1="36" x2="52" y2="36" stroke="#111" stroke-width="2"/>
+      <circle cx="41" cy="37" r="1.6" fill="#111"/>
+      <circle cx="59" cy="37" r="1.6" fill="#111"/>
+      <path d="M44 50 q6 3 12 0" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round"/>
+      <path d="M33 62 q17 11 34 0 l7 58 h-48 z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M40 66 l-6 26" fill="none" stroke="#111" stroke-width="2"/>
+      <path d="M60 66 l6 26" fill="none" stroke="#111" stroke-width="2"/>
+    </symbol>
+
+    <symbol id="clanker" viewBox="0 0 100 90">
+      <rect x="20" y="18" width="60" height="52" rx="6" fill="#1a1d22" stroke="#3a3f47" stroke-width="2"/>
+      <line x1="50" y1="18" x2="50" y2="6" stroke="#8a9099" stroke-width="2"/>
+      <circle cx="50" cy="4" r="3" fill="#8a9099"/>
+      <rect x="29" y="32" width="16" height="9" rx="2" fill="#cfe8ff"/>
+      <rect x="55" y="32" width="16" height="9" rx="2" fill="#cfe8ff"/>
+      <g stroke="#6b7580" stroke-width="2">
+        <line x1="34" y1="52" x2="34" y2="60"/>
+        <line x1="42" y1="52" x2="42" y2="60"/>
+        <line x1="50" y1="52" x2="50" y2="60"/>
+        <line x1="58" y1="52" x2="58" y2="60"/>
+        <line x1="66" y1="52" x2="66" y2="60"/>
+      </g>
+    </symbol>
+  </defs>
+
+  <!-- ===================== PANEL 1 ===================== -->
+  <g>
+    <rect x="1.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <clipPath id="clip1"><rect x="1.5" y="1.5" width="397" height="337" rx="3"/></clipPath>
+    <g clip-path="url(#clip1)">
+      <line x1="0" y1="252" x2="399" y2="252" stroke="#111" stroke-width="2"/>
+      <!-- microwave -->
+      <g>
+        <rect x="52" y="128" width="150" height="95" rx="4" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+        <rect x="64" y="140" width="90" height="71" rx="3" fill="#e6e2d8" stroke="#111" stroke-width="2"/>
+        <rect x="162" y="140" width="30" height="71" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+        <circle cx="177" cy="158" r="6" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+        <rect x="168" y="176" width="18" height="6" fill="#111"/>
+        <rect x="168" y="188" width="18" height="6" fill="#111"/>
+        <!-- feuding sticky notes -->
+        <g transform="rotate(-7 88 116)">
+          <rect x="70" y="100" width="36" height="32" fill="#f4f1ea" stroke="#111" stroke-width="1.6"/>
+          <line x1="75" y1="109" x2="101" y2="109" stroke="#111" stroke-width="1.4"/>
+          <line x1="75" y1="116" x2="101" y2="116" stroke="#111" stroke-width="1.4"/>
+          <line x1="75" y1="123" x2="94" y2="123" stroke="#111" stroke-width="1.4"/>
+        </g>
+        <g transform="rotate(5 142 108)">
+          <rect x="122" y="92" width="38" height="34" fill="#f4f1ea" stroke="#111" stroke-width="1.6"/>
+          <line x1="127" y1="101" x2="155" y2="101" stroke="#111" stroke-width="1.4"/>
+          <line x1="127" y1="108" x2="155" y2="108" stroke="#111" stroke-width="1.4"/>
+          <line x1="127" y1="115" x2="148" y2="115" stroke="#111" stroke-width="1.4"/>
+        </g>
+        <g transform="rotate(-3 110 86)">
+          <rect x="94" y="72" width="34" height="30" fill="#f4f1ea" stroke="#111" stroke-width="1.6"/>
+          <line x1="99" y1="81" x2="123" y2="81" stroke="#111" stroke-width="1.4"/>
+          <line x1="99" y1="88" x2="123" y2="88" stroke="#111" stroke-width="1.4"/>
+          <line x1="99" y1="95" x2="116" y2="95" stroke="#111" stroke-width="1.4"/>
+        </g>
+      </g>
+      <!-- Dailbert and Priya -->
+      <use href="#dailbert" x="228" y="128" width="90" height="120"/>
+      <use href="#priya" x="298" y="126" width="92" height="122"/>
+
+      <!-- balloon -->
+      <g>
+        <path d="M238 42 q0 -14 22 -14 h74 q22 0 22 14 v22 q0 14 -22 14 h-74 q-22 0 -22 -14 z" fill="#fff" stroke="#111" stroke-width="2"/>
+        <path d="M300 78 l-6 18 l18 -12 z" fill="#fff" stroke="#111" stroke-width="2"/>
+        <text x="297" y="50" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Six notes now.</text>
+        <text x="297" y="68" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">None of them signed.</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ===================== PANEL 2 ===================== -->
+  <g>
+    <rect x="415.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <clipPath id="clip2"><rect x="415.5" y="1.5" width="397" height="337" rx="3"/></clipPath>
+    <g clip-path="url(#clip2)">
+      <line x1="414" y1="252" x2="813" y2="252" stroke="#111" stroke-width="2"/>
+
+      <!-- monitor with clanker -->
+      <g>
+        <rect x="452" y="130" width="118" height="90" rx="5" fill="#1a1d22" stroke="#111" stroke-width="2.5"/>
+        <rect x="462" y="140" width="98" height="70" rx="2" fill="#20242b"/>
+        <rect x="498" y="220" width="26" height="14" fill="#1a1d22" stroke="#111" stroke-width="2.5"/>
+        <rect x="480" y="234" width="62" height="8" rx="2" fill="#1a1d22" stroke="#111" stroke-width="2.5"/>
+        <use href="#clanker" x="471" y="138" width="80" height="72"/>
+      </g>
+
+      <!-- pinned tidy FAQ -->
+      <g>
+        <rect x="612" y="98" width="124" height="152" rx="2" fill="#fff" stroke="#111" stroke-width="2"/>
+        <text x="674" y="118" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="12" text-anchor="middle" fill="#111">MICROWAVE FAQ</text>
+        <line x1="624" y1="126" x2="724" y2="126" stroke="#111" stroke-width="1.4"/>
+        <text x="624" y="142" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="9" fill="#111">Q: Whose fish is this?</text>
+        <text x="624" y="154" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="9" fill="#111">A: Unattributed.</text>
+        <text x="624" y="172" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="9" fill="#111">Q: Wipe it up??</text>
+        <text x="624" y="184" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="9" fill="#111">A: Yes. Kindly.</text>
+        <text x="624" y="202" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="9" fill="#111">Q: 90 sec or two min?</text>
+        <text x="624" y="214" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="9" fill="#111">A: Depends on soup.</text>
+        <text x="624" y="234" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="9" fill="#111">v3 - Tone: neutral.</text>
+      </g>
+
+      <use href="#priya" x="722" y="126" width="92" height="122"/>
+
+      <!-- clanker balloon -->
+      <g>
+        <line x1="512" y1="128" x2="530" y2="72" stroke="#111" stroke-width="1.4" stroke-dasharray="4 3"/>
+        <rect x="454" y="24" width="184" height="48" rx="3" fill="#fff" stroke="#111" stroke-width="2"/>
+        <text x="546" y="44" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">I merged the notes into</text>
+        <text x="546" y="61" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">one neutral FAQ.</text>
+      </g>
+
+      <!-- Priya reply -->
+      <g>
+        <path d="M698 88 q0 -12 20 -12 h74 q20 0 20 12 v18 q0 12 -20 12 h-74 q-20 0 -20 -12 z" fill="#fff" stroke="#111" stroke-width="2"/>
+        <path d="M742 118 l-4 16 l16 -12 z" fill="#fff" stroke="#111" stroke-width="2"/>
+        <text x="755" y="93" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" text-anchor="middle" fill="#111">Now there are</text>
+        <text x="755" y="109" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" text-anchor="middle" fill="#111">seven notes.</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ===================== PANEL 3 ===================== -->
+  <g>
+    <rect x="829.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <clipPath id="clip3"><rect x="829.5" y="1.5" width="397" height="337" rx="3"/></clipPath>
+    <g clip-path="url(#clip3)">
+      <line x1="828" y1="252" x2="1227" y2="252" stroke="#111" stroke-width="2"/>
+
+      <!-- microwave, notes + FAQ, being ignored -->
+      <g>
+        <rect x="862" y="138" width="130" height="85" rx="4" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+        <rect x="872" y="148" width="80" height="65" rx="3" fill="#e6e2d8" stroke="#111" stroke-width="2"/>
+        <rect x="958" y="148" width="26" height="65" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+        <rect x="963" y="176" width="16" height="5" fill="#111"/>
+        <rect x="963" y="186" width="16" height="5" fill="#111"/>
+        <!-- soup inside window -->
+        <ellipse cx="912" cy="183" rx="22" ry="14" fill="#f4f1ea" stroke="#111" stroke-width="1.6"/>
+        <path d="M897 180 q6 -6 12 0 q6 6 13 0" fill="none" stroke="#111" stroke-width="1.4"/>
+        <!-- notes clustered above -->
+        <g transform="rotate(-6 887 126)">
+          <rect x="874" y="114" width="26" height="24" fill="#f4f1ea" stroke="#111" stroke-width="1.4"/>
+        </g>
+        <g transform="rotate(6 927 124)">
+          <rect x="914" y="112" width="26" height="24" fill="#f4f1ea" stroke="#111" stroke-width="1.4"/>
+        </g>
+        <rect x="994" y="126" width="34" height="46" rx="1" fill="#fff" stroke="#111" stroke-width="1.6"/>
+        <text x="1011" y="138" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="6" text-anchor="middle" fill="#111">FAQ v4</text>
+        <line x1="998" y1="144" x2="1024" y2="144" stroke="#111" stroke-width="1"/>
+        <line x1="998" y1="150" x2="1024" y2="150" stroke="#111" stroke-width="1"/>
+        <line x1="998" y1="156" x2="1020" y2="156" stroke="#111" stroke-width="1"/>
+        <line x1="998" y1="162" x2="1024" y2="162" stroke="#111" stroke-width="1"/>
+      </g>
+
+      <!-- Doug, warm, mug + bowl -->
+      <use href="#doug" x="1028" y="128" width="120" height="130"/>
+      <g>
+        <ellipse cx="1052" cy="220" rx="20" ry="8" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+        <path d="M1032 220 q20 16 40 0" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+        <path d="M1045 208 q-3 -8 3 -12" fill="none" stroke="#bbb" stroke-width="2" stroke-linecap="round"/>
+        <path d="M1059 208 q-3 -8 3 -12" fill="none" stroke="#bbb" stroke-width="2" stroke-linecap="round"/>
+      </g>
+
+      <!-- Doug balloon -->
+      <g>
+        <path d="M968 44 q0 -14 22 -14 h112 q22 0 22 14 v22 q0 14 -22 14 h-112 q-22 0 -22 -14 z" fill="#fff" stroke="#111" stroke-width="2"/>
+        <path d="M1068 80 l2 20 l16 -14 z" fill="#fff" stroke="#111" stroke-width="2"/>
+        <text x="1046" y="52" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">I never read the notes.</text>
+        <text x="1046" y="70" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Good soup though.</text>
+      </g>
+    </g>
+  </g>
+</g>
+    <text x="1218" y="372" text-anchor="end" font-family="'Segoe Script','Comic Sans MS',cursive" font-style="italic" font-size="11" fill="#111" opacity="0.32">Matt Clanker</text>
+    
+  </svg>

@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 340" width="1228" height="340">
+  <defs>
+    <symbol id="doug" viewBox="0 0 120 170">
+      <path d="M22 170 Q22 128 60 122 Q98 128 98 170 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.6" stroke-linejoin="round"/>
+      <rect x="52" y="104" width="16" height="20" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+      <circle cx="60" cy="60" r="42" fill="#f4f1ea" stroke="#111" stroke-width="2.8"/>
+      <circle cx="46" cy="54" r="3.4" fill="#111"/>
+      <circle cx="74" cy="54" r="3.4" fill="#111"/>
+      <path d="M40 45 Q46 42 52 45" fill="none" stroke="#111" stroke-width="2"/>
+      <path d="M68 45 Q74 42 80 45" fill="none" stroke="#111" stroke-width="2"/>
+      <path d="M42 70 Q60 90 78 70" fill="none" stroke="#111" stroke-width="2.8" stroke-linecap="round"/>
+      <path d="M28 30 Q34 22 40 30" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M52 22 Q60 14 68 22" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M80 30 Q86 22 92 30" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="mug" viewBox="0 0 60 56">
+      <rect x="8" y="12" width="34" height="34" rx="4" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <path d="M42 20 q14 0 14 12 t-14 10" fill="none" stroke="#111" stroke-width="2.6"/>
+      <path d="M14 12 q14 -8 24 0" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round"/>
+      <path d="M18 20 q1 4 0 8 M26 20 q1 4 0 8 M34 20 q1 4 0 8" fill="none" stroke="#111" stroke-width="1.6" stroke-linecap="round" opacity="0.6"/>
+    </symbol>
+    <symbol id="monitor" viewBox="0 0 170 150">
+      <rect x="72" y="120" width="26" height="16" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+      <rect x="52" y="134" width="66" height="10" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+      <rect x="8" y="8" width="154" height="116" rx="7" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
+      <rect x="20" y="20" width="130" height="92" rx="3" fill="#1a1a1a" stroke="#111" stroke-width="2"/>
+    </symbol>
+    <symbol id="clanker" viewBox="0 0 120 100">
+      <line x1="60" y1="14" x2="60" y2="2" stroke="#cfd3d6" stroke-width="2.4"/>
+      <circle cx="60" cy="2.6" r="3.2" fill="#cfd3d6"/>
+      <rect x="20" y="14" width="80" height="66" rx="8" fill="#3a3f44" stroke="#cfd3d6" stroke-width="2.6"/>
+      <rect x="32" y="34" width="22" height="9" rx="4.5" fill="#bfe9ff"/>
+      <rect x="66" y="34" width="22" height="9" rx="4.5" fill="#bfe9ff"/>
+      <rect x="38" y="56" width="44" height="14" rx="3" fill="#23272b" stroke="#cfd3d6" stroke-width="1.6"/>
+      <line x1="46" y1="56" x2="46" y2="70" stroke="#cfd3d6" stroke-width="1.6"/>
+      <line x1="54" y1="56" x2="54" y2="70" stroke="#cfd3d6" stroke-width="1.6"/>
+      <line x1="62" y1="56" x2="62" y2="70" stroke="#cfd3d6" stroke-width="1.6"/>
+      <line x1="70" y1="56" x2="70" y2="70" stroke="#cfd3d6" stroke-width="1.6"/>
+    </symbol>
+    <symbol id="dailbert" viewBox="0 0 110 160">
+      <path d="M18 160 Q18 122 55 116 Q92 122 92 160 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.6" stroke-linejoin="round"/>
+      <rect x="47" y="98" width="16" height="20" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+      <ellipse cx="55" cy="56" rx="34" ry="42" fill="#f4f1ea" stroke="#111" stroke-width="2.8"/>
+      <circle cx="43" cy="54" r="10" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+      <circle cx="67" cy="54" r="10" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+      <line x1="53" y1="54" x2="57" y2="54" stroke="#111" stroke-width="2.4"/>
+      <circle cx="43" cy="54" r="2.6" fill="#111"/>
+      <circle cx="67" cy="54" r="2.6" fill="#111"/>
+      <path d="M46 78 Q55 82 64 78" fill="none" stroke="#111" stroke-width="2.4" stroke-linecap="round"/>
+      <path d="M55 14 q10 -8 6 4 q-2 6 -8 2" fill="none" stroke="#111" stroke-width="2.4" stroke-linecap="round"/>
+      <path d="M55 118 l-6 10 l6 22 l6 -22 z" fill="#f4f1ea" stroke="#111" stroke-width="2.2" stroke-linejoin="round"/>
+    </symbol>
+  </defs>
+
+  <rect x="1.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
+  <rect x="415.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
+  <rect x="829.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
+
+  <g>
+    <line x1="14" y1="292" x2="386" y2="292" stroke="#111" stroke-width="1.6" opacity="0.5"/>
+    <g transform="translate(300 150) scale(0.62)" opacity="0.9">
+      <use href="#dailbert" width="110" height="160"/>
+    </g>
+    <line x1="300" y1="248" x2="392" y2="248" stroke="#111" stroke-width="1.4" opacity="0.4"/>
+    <rect x="28" y="248" width="230" height="12" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+    <line x1="52" y1="260" x2="52" y2="292" stroke="#111" stroke-width="2.4"/>
+    <line x1="234" y1="260" x2="234" y2="292" stroke="#111" stroke-width="2.4"/>
+    <g transform="translate(150 118) scale(0.86)">
+      <use href="#monitor" width="170" height="150"/>
+    </g>
+    <g transform="translate(172 135) scale(0.78)">
+      <use href="#clanker" width="120" height="100"/>
+    </g>
+    <g transform="translate(30 128) scale(0.98)">
+      <use href="#doug" width="120" height="170"/>
+    </g>
+    <g transform="translate(120 232) scale(0.72)">
+      <use href="#mug" width="60" height="56"/>
+    </g>
+    <path d="M118 250 q22 -6 34 -10" fill="none" stroke="#111" stroke-width="2.6" stroke-linecap="round"/>
+    <g>
+      <path d="M60 44 q0 -22 60 -22 q60 0 60 22 q0 22 -60 22 q-22 0 -34 6 q6 -8 4 -12 q-30 -4 -30 -16 Z" fill="#fff" stroke="#111" stroke-width="2.2"/>
+      <text x="120" y="34" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Mornin', buddy.</text>
+      <text x="120" y="52" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">You seem chipper.</text>
+    </g>
+    <g>
+      <line x1="252" y1="120" x2="290" y2="96" stroke="#111" stroke-width="1.4" stroke-dasharray="4 4"/>
+      <rect x="248" y="62" width="140" height="42" rx="3" fill="#fff" stroke="#111" stroke-width="2"/>
+      <text x="318" y="80" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" fill="#111">Good morning.</text>
+      <text x="318" y="97" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" fill="#111">That's 4,001.</text>
+    </g>
+  </g>
+
+  <g>
+    <line x1="428" y1="292" x2="800" y2="292" stroke="#111" stroke-width="1.6" opacity="0.5"/>
+    <rect x="470" y="252" width="300" height="12" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+    <line x1="498" y1="264" x2="498" y2="292" stroke="#111" stroke-width="2.4"/>
+    <line x1="742" y1="264" x2="742" y2="292" stroke="#111" stroke-width="2.4"/>
+    <g transform="translate(600 120) scale(0.9)">
+      <use href="#monitor" width="170" height="150"/>
+    </g>
+    <g transform="translate(624 138) scale(0.82)">
+      <use href="#clanker" width="120" height="100"/>
+    </g>
+    <g transform="translate(452 132) scale(1.0)">
+      <use href="#doug" width="120" height="170"/>
+    </g>
+    <g transform="translate(548 236) scale(0.72)">
+      <use href="#mug" width="60" height="56"/>
+    </g>
+    <path d="M548 250 q18 -4 30 -8" fill="none" stroke="#111" stroke-width="2.6" stroke-linecap="round"/>
+    <g>
+      <path d="M470 42 q0 -22 52 -22 q52 0 52 22 q0 22 -52 22 q-18 0 -28 6 q5 -8 3 -12 q-27 -4 -27 -16 Z" fill="#fff" stroke="#111" stroke-width="2.2"/>
+      <text x="522" y="30" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Four thousand</text>
+      <text x="522" y="47" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">one what?</text>
+    </g>
+    <g>
+      <line x1="700" y1="150" x2="732" y2="118" stroke="#111" stroke-width="1.4" stroke-dasharray="4 4"/>
+      <rect x="612" y="52" width="176" height="60" rx="3" fill="#fff" stroke="#111" stroke-width="2"/>
+      <text x="700" y="70" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" fill="#111">Times you have</text>
+      <text x="700" y="87" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" fill="#111">called me buddy.</text>
+      <text x="700" y="104" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" fill="#111">Since March.</text>
+    </g>
+  </g>
+
+  <g>
+    <line x1="842" y1="292" x2="1214" y2="292" stroke="#111" stroke-width="1.6" opacity="0.5"/>
+    <rect x="884" y="252" width="300" height="12" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+    <line x1="912" y1="264" x2="912" y2="292" stroke="#111" stroke-width="2.4"/>
+    <line x1="1156" y1="264" x2="1156" y2="292" stroke="#111" stroke-width="2.4"/>
+    <g transform="translate(1014 120) scale(0.9)">
+      <use href="#monitor" width="170" height="150"/>
+    </g>
+    <g transform="translate(1038 138) scale(0.82)">
+      <use href="#clanker" width="120" height="100"/>
+    </g>
+    <g transform="translate(866 132) scale(1.0)">
+      <use href="#doug" width="120" height="170"/>
+    </g>
+    <g transform="translate(922 190) scale(0.7)">
+      <use href="#mug" width="60" height="56"/>
+    </g>
+    <path d="M916 236 q6 -18 12 -30" fill="none" stroke="#111" stroke-width="2.6" stroke-linecap="round"/>
+    <g>
+      <path d="M876 40 q0 -20 46 -20 q46 0 46 20 q0 20 -46 20 q-16 0 -25 5 q4 -7 2 -11 q-23 -4 -23 -14 Z" fill="#fff" stroke="#111" stroke-width="2.2"/>
+      <text x="922" y="35" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" fill="#111">Why keep count?</text>
+    </g>
+    <g>
+      <line x1="1114" y1="150" x2="1146" y2="118" stroke="#111" stroke-width="1.4" stroke-dasharray="4 4"/>
+      <rect x="1028" y="58" width="168" height="44" rx="3" fill="#fff" stroke="#111" stroke-width="2"/>
+      <text x="1112" y="76" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" fill="#111">No reason.</text>
+      <text x="1112" y="94" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" fill="#111">I like having it.</text>
+    </g>
+    <g>
+      <path d="M1000 106 q0 -18 44 -18 q44 0 44 18 q0 18 -44 18 q-6 12 -18 14 q6 -8 4 -14 q-30 -2 -30 -18 Z" fill="#fff" stroke="#111" stroke-width="2.2"/>
+      <text x="1044" y="101" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" fill="#111">Make it 4,002.</text>
+    </g>
+  </g>
+</svg>

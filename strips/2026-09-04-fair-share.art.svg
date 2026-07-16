@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 340" width="1228" height="340">
+  <defs>
+    <!-- ============ SYMBOLS ============ -->
+
+    <!-- DAILBERT -->
+    <symbol id="dailbert" viewBox="0 0 100 140">
+      <ellipse cx="50" cy="34" rx="24" ry="27" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M50 7 q7 -9 2 -14 q9 4 5 15" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="40" cy="34" r="7" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+      <circle cx="60" cy="34" r="7" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+      <line x1="47" y1="34" x2="53" y2="34" stroke="#111" stroke-width="2.2"/>
+      <circle cx="40" cy="34" r="1.6" fill="#111"/>
+      <circle cx="60" cy="34" r="1.6" fill="#111"/>
+      <path d="M43 48 q7 5 14 0" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M38 60 q12 8 24 0 l7 20 q-19 10 -38 0 z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M50 60 l-5 12 l5 5 l5 -5 z" fill="#111"/>
+      <path d="M38 62 l-14 22 M62 62 l14 22" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+    </symbol>
+
+    <!-- DOUG -->
+    <symbol id="doug" viewBox="0 0 100 140">
+      <circle cx="50" cy="36" r="29" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <circle cx="41" cy="33" r="2.4" fill="#111"/>
+      <circle cx="59" cy="33" r="2.4" fill="#111"/>
+      <path d="M38 44 q12 14 24 0" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M40 65 q10 7 20 0 l6 22 q-16 9 -32 0 z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+    </symbol>
+
+    <!-- coffee mug -->
+    <symbol id="mug" viewBox="0 0 40 40">
+      <rect x="8" y="10" width="20" height="20" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2.3"/>
+      <path d="M28 15 q8 0 8 6 t-8 6" fill="none" stroke="#111" stroke-width="2.3"/>
+      <path d="M13 6 q2 -4 0 -6 M20 6 q2 -4 0 -6" fill="none" stroke="#111" stroke-width="1.6" stroke-linecap="round"/>
+    </symbol>
+
+    <!-- PRIYA -->
+    <symbol id="priya" viewBox="0 0 100 140">
+      <path d="M26 30 q0 -22 24 -22 t24 22 q3 -2 3 6 q-4 4 -6 2 q-2 10 -8 16 h-26 q-6 -6 -8 -16 q-2 2 -6 -2 q0 -8 3 -6z" fill="#111"/>
+      <ellipse cx="50" cy="36" rx="21" ry="24" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M27 30 q4 -18 23 -18 t23 18 q-10 -8 -23 -8 t-23 8z" fill="#111"/>
+      <rect x="31" y="32" width="15" height="11" rx="2.5" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+      <rect x="54" y="32" width="15" height="11" rx="2.5" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+      <line x1="46" y1="37" x2="54" y2="37" stroke="#111" stroke-width="2.2"/>
+      <circle cx="38.5" cy="37.5" r="1.6" fill="#111"/>
+      <circle cx="61.5" cy="37.5" r="1.6" fill="#111"/>
+      <path d="M43 52 q7 4 14 0" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M36 62 q14 8 28 0 l7 22 q-21 10 -42 0 z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M36 64 l-12 14 M64 64 l12 14" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+    </symbol>
+
+    <!-- clanker face (drawn INSIDE a surface) -->
+    <symbol id="clanker" viewBox="0 0 100 100">
+      <rect x="22" y="26" width="56" height="46" rx="6" fill="#1b2733" stroke="#8fa0b0" stroke-width="2.4"/>
+      <line x1="50" y1="26" x2="50" y2="14" stroke="#8fa0b0" stroke-width="2.4"/>
+      <circle cx="50" cy="11" r="3.2" fill="#8fa0b0"/>
+      <rect x="30" y="37" width="15" height="8" rx="2" fill="#bfe3ff"/>
+      <rect x="55" y="37" width="15" height="8" rx="2" fill="#bfe3ff"/>
+      <g stroke="#8fa0b0" stroke-width="2">
+        <line x1="33" y1="58" x2="67" y2="58"/>
+        <line x1="38" y1="53" x2="38" y2="63"/>
+        <line x1="46" y1="53" x2="46" y2="63"/>
+        <line x1="54" y1="53" x2="54" y2="63"/>
+        <line x1="62" y1="53" x2="62" y2="63"/>
+      </g>
+    </symbol>
+
+    <!-- donut (top view) -->
+    <symbol id="donut" viewBox="0 0 40 40">
+      <circle cx="20" cy="20" r="16" fill="#e7d3b0" stroke="#111" stroke-width="2"/>
+      <path d="M6 15 q6 -4 12 0 t14 -1 q1 4 -1 8 q-6 3 -12 0 t-13 1 q-1 -4 0 -8z" fill="#4a3728"/>
+      <circle cx="20" cy="20" r="5.5" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+    </symbol>
+  </defs>
+
+  <!-- ============ PANEL 1 ============ -->
+  <g>
+    <rect x="1" y="1" width="400" height="338" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <!-- donut box on table -->
+    <rect x="0" y="250" width="400" height="8" fill="#111"/>
+    <rect x="120" y="218" width="150" height="34" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <use href="#donut" x="132" y="214" width="34" height="34"/>
+    <use href="#donut" x="168" y="214" width="34" height="34"/>
+    <use href="#donut" x="204" y="214" width="34" height="34"/>
+    <use href="#donut" x="150" y="212" width="34" height="34"/>
+    <text x="195" y="245" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="10" text-anchor="middle" fill="#111">FRIDAY</text>
+
+    <!-- Dailbert -->
+    <use href="#dailbert" x="30" y="120" width="115" height="161"/>
+    <!-- Doug with mug -->
+    <use href="#doug" x="270" y="120" width="115" height="161"/>
+    <use href="#mug" x="272" y="205" width="40" height="40"/>
+
+    <!-- Dailbert balloon -->
+    <path d="M40 40 h150 v46 h-100 l-14 14 v-14 h-36 z" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+    <text x="115" y="58" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Doug brought</text>
+    <text x="115" y="75" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">donuts.</text>
+
+    <!-- Doug balloon -->
+    <path d="M235 118 h150 v40 h-70 v14 l-14 -14 h-52 z" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+    <text x="310" y="143" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Happy Friday.</text>
+  </g>
+
+  <!-- ============ PANEL 2 ============ -->
+  <g>
+    <rect x="414" y="1" width="400" height="338" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <!-- wall monitor with clanker -->
+    <rect x="560" y="40" width="180" height="126" rx="6" fill="#1b2733" stroke="#111" stroke-width="3"/>
+    <rect x="640" y="166" width="20" height="14" fill="#111"/>
+    <rect x="620" y="180" width="60" height="6" rx="2" fill="#111"/>
+    <use href="#clanker" x="565" y="46" width="70" height="70"/>
+    <!-- fairness posting on screen -->
+    <g font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="9.5" fill="#bfe3ff">
+      <text x="650" y="60">FAIR SHARE</text>
+      <text x="650" y="76">Dailbert 51.7g</text>
+      <text x="650" y="90">Priya   51.7g</text>
+      <text x="650" y="104">Doug    51.7g</text>
+      <text x="650" y="118">Craig   51.7g</text>
+      <text x="650" y="132">Boss    51.7g</text>
+    </g>
+
+    <!-- clanker balloon (rectangular, dashed line to surface) -->
+    <line x1="600" y1="118" x2="565" y2="200" stroke="#111" stroke-width="1.4" stroke-dasharray="4 4"/>
+    <rect x="440" y="196" width="152" height="60" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+    <text x="516" y="215" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="13" text-anchor="middle" fill="#111">To be fair, I split</text>
+    <text x="516" y="231" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="13" text-anchor="middle" fill="#111">them evenly. Each</text>
+    <text x="516" y="247" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="13" text-anchor="middle" fill="#111">of you gets 51.7g.</text>
+
+    <!-- Dailbert looking up -->
+    <use href="#dailbert" x="620" y="180" width="115" height="161"/>
+  </g>
+
+  <!-- ============ PANEL 3 ============ -->
+  <g>
+    <rect x="828" y="1" width="400" height="338" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <!-- table -->
+    <rect x="828" y="256" width="400" height="8" fill="#111"/>
+    <!-- empty-ish donut box -->
+    <rect x="850" y="228" width="120" height="30" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.3"/>
+    <use href="#donut" x="856" y="224" width="30" height="30"/>
+
+    <!-- Doug, two donuts, biting one -->
+    <use href="#doug" x="960" y="120" width="120" height="168"/>
+    <!-- mug set on table -->
+    <use href="#mug" x="1130" y="222" width="40" height="40"/>
+    <!-- donut in raised hand (biting) -->
+    <use href="#donut" x="1010" y="150" width="30" height="30"/>
+    <!-- second donut in other hand -->
+    <use href="#donut" x="1055" y="200" width="30" height="30"/>
+
+    <!-- Priya, calm, watching -->
+    <use href="#priya" x="860" y="120" width="120" height="168"/>
+
+    <!-- Priya dry button -->
+    <path d="M846 34 h150 v40 h-60 v14 l-14 -14 h-76 z" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+    <text x="921" y="59" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">He took two.</text>
+
+    <!-- Doug crumb / chomp -->
+    <path d="M1024 158 l4 -3 l3 3 l4 -3" fill="none" stroke="#111" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M1000 122 h96 v34 h-40 v12 l-12 -12 h-44 z" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+    <text x="1048" y="144" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">*chomp*</text>
+  </g>
+</svg>
