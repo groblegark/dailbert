@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 388" width="1228" height="388" font-family="Georgia,serif">
+    <rect width="1228" height="388" fill="#f4f1ea"/>
+    <text x="6" y="29" font-family="Georgia,serif" font-weight="bold" font-size="27" letter-spacing="2" fill="#111">DAILBERT</text>
+    <text x="1222" y="19" text-anchor="end" font-family="Georgia,serif" font-style="italic" font-size="16" fill="#111">The Alignment</text>
+    <text x="1222" y="34" text-anchor="end" font-family="'Courier New',monospace" font-size="12" fill="#111" opacity="0.65">2026-08-27</text>
+    <line x1="6" y1="37" x2="1222" y2="37" stroke="#111" stroke-width="2"/>
+    <g transform="translate(0,40)">
+  <defs>
+    <symbol id="craig" viewBox="0 0 120 200">
+      <path d="M35 200 L35 130 Q60 118 85 130 L85 200 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M60 130 L54 145 L60 178 L66 145 Z" fill="#111"/>
+      <path d="M55 130 L65 130 L60 138 Z" fill="#111"/>
+      <rect x="53" y="112" width="14" height="14" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <ellipse cx="60" cy="88" rx="30" ry="32" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M32 78 Q34 54 60 52 Q86 54 88 78 Q80 66 60 66 Q46 66 44 78 Q40 72 32 78 Z" fill="#111"/>
+      <path d="M60 66 L60 52" stroke="#f4f1ea" stroke-width="2"/>
+      <circle cx="50" cy="88" r="2.5" fill="#111"/>
+      <circle cx="70" cy="88" r="2.5" fill="#111"/>
+      <path d="M45 80 L55 80" stroke="#111" stroke-width="2" stroke-linecap="round"/>
+      <path d="M65 80 L75 80" stroke="#111" stroke-width="2" stroke-linecap="round"/>
+      <path d="M60 90 L57 98 L62 98" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M50 106 Q60 110 70 106" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="dailbert" viewBox="0 0 120 200">
+      <path d="M36 200 L36 132 Q60 120 84 132 L84 200 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M60 132 L55 145 L60 172 L65 145 Z" fill="#111"/>
+      <path d="M55 132 L65 132 L60 139 Z" fill="#111"/>
+      <rect x="53" y="114" width="14" height="14" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <ellipse cx="60" cy="88" rx="27" ry="33" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M60 55 Q54 46 62 44 Q70 44 66 52" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="50" cy="88" r="8" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <circle cx="70" cy="88" r="8" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <line x1="58" y1="88" x2="62" y2="88" stroke="#111" stroke-width="2"/>
+      <circle cx="50" cy="88" r="2" fill="#111"/>
+      <circle cx="70" cy="88" r="2" fill="#111"/>
+      <path d="M60 92 L57 99 L62 99" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M52 108 Q60 106 68 108" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="priya" viewBox="0 0 120 200">
+      <path d="M36 200 L36 132 Q60 120 84 132 L84 200 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M36 150 L28 168 L40 170" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M84 150 L92 168 L80 170" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <rect x="54" y="114" width="12" height="14" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <ellipse cx="60" cy="88" rx="27" ry="31" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M33 84 Q28 52 60 48 Q92 52 87 84 Q86 66 78 62 Q80 54 70 54 Q72 48 60 50 Q48 48 50 54 Q40 54 42 62 Q34 66 33 84 Z" fill="#111"/>
+      <circle cx="60" cy="43" r="9" fill="#111"/>
+      <rect x="41" y="82" width="17" height="11" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <rect x="62" y="82" width="17" height="11" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <line x1="58" y1="87" x2="62" y2="87" stroke="#111" stroke-width="2"/>
+      <circle cx="49" cy="88" r="2" fill="#111"/>
+      <circle cx="70" cy="88" r="2" fill="#111"/>
+      <path d="M60 92 L57 99 L62 99" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M53 108 L67 108" stroke="#111" stroke-width="2" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="clanker" viewBox="0 0 120 120">
+      <rect x="24" y="26" width="72" height="66" rx="8" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <line x1="60" y1="26" x2="60" y2="14" stroke="#111" stroke-width="2.5"/>
+      <circle cx="60" cy="11" r="4" fill="#111"/>
+      <rect x="34" y="46" width="22" height="9" rx="3" fill="#111"/>
+      <rect x="64" y="46" width="22" height="9" rx="3" fill="#111"/>
+      <rect x="37" y="48" width="7" height="4" rx="1" fill="#f4f1ea"/>
+      <rect x="67" y="48" width="7" height="4" rx="1" fill="#f4f1ea"/>
+      <rect x="40" y="68" width="40" height="14" rx="3" fill="none" stroke="#111" stroke-width="2"/>
+      <line x1="48" y1="68" x2="48" y2="82" stroke="#111" stroke-width="1.5"/>
+      <line x1="56" y1="68" x2="56" y2="82" stroke="#111" stroke-width="1.5"/>
+      <line x1="64" y1="68" x2="64" y2="82" stroke="#111" stroke-width="1.5"/>
+      <line x1="72" y1="68" x2="72" y2="82" stroke="#111" stroke-width="1.5"/>
+    </symbol>
+  </defs>
+
+  <g>
+    <rect x="1.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <clipPath id="c1"><rect x="1.5" y="1.5" width="397" height="337" rx="3"/></clipPath>
+    <g clip-path="url(#c1)">
+      <rect x="196" y="26" width="176" height="120" rx="4" fill="#e9e5db" stroke="#111" stroke-width="2.5"/>
+      <text x="284" y="42" text-anchor="middle" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="10" fill="#111" font-weight="bold">PILOT ALIGNMENT — v1.0</text>
+      <line x1="210" y1="52" x2="358" y2="52" stroke="#9a958a" stroke-width="1"/>
+      <line x1="210" y1="66" x2="358" y2="66" stroke="#9a958a" stroke-width="1.5"/>
+      <line x1="210" y1="78" x2="340" y2="78" stroke="#9a958a" stroke-width="1.5"/>
+      <line x1="210" y1="90" x2="358" y2="90" stroke="#9a958a" stroke-width="1.5"/>
+      <line x1="210" y1="102" x2="330" y2="102" stroke="#9a958a" stroke-width="1.5"/>
+      <line x1="210" y1="114" x2="355" y2="114" stroke="#9a958a" stroke-width="1.5"/>
+      <line x1="210" y1="126" x2="315" y2="126" stroke="#9a958a" stroke-width="1.5"/>
+      <text x="352" y="139" text-anchor="end" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="8" fill="#555">done</text>
+      <use href="#clanker" x="150" y="38" width="60" height="60"/>
+      <rect x="22" y="150" width="150" height="96" rx="3" fill="#fbfaf6" stroke="#111" stroke-width="2.5"/>
+      <line x1="60" y1="246" x2="40" y2="300" stroke="#111" stroke-width="2.5"/>
+      <line x1="134" y1="246" x2="154" y2="300" stroke="#111" stroke-width="2.5"/>
+      <text x="97" y="200" text-anchor="middle" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="11" fill="#c9c4b8">(blank)</text>
+      <use href="#craig" x="228" y="150" width="120" height="200"/>
+      <line x1="270" y1="238" x2="250" y2="222" stroke="#111" stroke-width="3" stroke-linecap="round"/>
+      <rect x="245" y="216" width="8" height="10" rx="2" fill="#111" transform="rotate(-40 249 221)"/>
+      <path d="M60 40 Q60 20 90 20 L200 20 Q222 20 222 42 L222 68 Q222 88 200 88 L110 88 L92 104 L96 88 L82 88 Q60 88 60 66 Z" fill="#fff" stroke="#111" stroke-width="2"/>
+      <text x="141" y="42" text-anchor="middle" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="13" fill="#111">Great turnout.</text>
+      <text x="141" y="60" text-anchor="middle" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="13" fill="#111">Let's align the</text>
+      <text x="141" y="78" text-anchor="middle" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="13" fill="#111">team on the pilot.</text>
+    </g>
+  </g>
+
+  <g>
+    <rect x="415.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <clipPath id="c2"><rect x="415.5" y="1.5" width="397" height="337" rx="3"/></clipPath>
+    <g clip-path="url(#c2)">
+      <rect x="610" y="24" width="178" height="122" rx="4" fill="#e9e5db" stroke="#111" stroke-width="2.5"/>
+      <text x="699" y="40" text-anchor="middle" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="10" fill="#111" font-weight="bold">PILOT ALIGNMENT — v1.1</text>
+      <line x1="624" y1="50" x2="774" y2="50" stroke="#9a958a" stroke-width="1"/>
+      <line x1="624" y1="64" x2="774" y2="64" stroke="#9a958a" stroke-width="1.5"/>
+      <line x1="624" y1="76" x2="756" y2="76" stroke="#9a958a" stroke-width="1.5"/>
+      <line x1="624" y1="88" x2="774" y2="88" stroke="#9a958a" stroke-width="1.5"/>
+      <line x1="624" y1="100" x2="748" y2="100" stroke="#9a958a" stroke-width="1.5"/>
+      <line x1="624" y1="112" x2="770" y2="112" stroke="#9a958a" stroke-width="1.5"/>
+      <line x1="624" y1="124" x2="740" y2="124" stroke="#9a958a" stroke-width="1.5"/>
+      <line x1="624" y1="136" x2="700" y2="136" stroke="#9a958a" stroke-width="1.5"/>
+      <use href="#clanker" x="566" y="36" width="58" height="58"/>
+      <line x1="616" y1="60" x2="600" y2="80" stroke="#111" stroke-width="1.5" stroke-dasharray="4 3"/>
+      <rect x="470" y="76" width="132" height="52" rx="3" fill="#fff" stroke="#111" stroke-width="1.8"/>
+      <text x="536" y="96" text-anchor="middle" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="12" fill="#111">Incorporated your</text>
+      <text x="536" y="112" text-anchor="middle" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="12" fill="#111">first point. Thank you.</text>
+      <rect x="440" y="150" width="150" height="96" rx="3" fill="#fbfaf6" stroke="#111" stroke-width="2.5"/>
+      <line x1="478" y1="246" x2="458" y2="300" stroke="#111" stroke-width="2.5"/>
+      <line x1="552" y1="246" x2="572" y2="300" stroke="#111" stroke-width="2.5"/>
+      <circle cx="460" cy="178" r="3" fill="#111"/>
+      <line x1="470" y1="178" x2="560" y2="178" stroke="#111" stroke-width="2" stroke-linecap="round"/>
+      <line x1="470" y1="190" x2="540" y2="190" stroke="#111" stroke-width="2" stroke-linecap="round"/>
+      <use href="#craig" x="600" y="150" width="120" height="200"/>
+      <line x1="642" y1="238" x2="576" y2="196" stroke="#111" stroke-width="3" stroke-linecap="round"/>
+      <rect x="570" y="190" width="8" height="10" rx="2" fill="#111" transform="rotate(-30 574 195)"/>
+      <path d="M640 172 Q640 156 668 156 L780 156 Q800 156 800 174 L800 196 Q800 214 780 214 L706 214 L690 230 L694 214 L660 214 Q640 214 640 196 Z" fill="#fff" stroke="#111" stroke-width="2"/>
+      <text x="720" y="180" text-anchor="middle" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="13" fill="#111">Point one:</text>
+      <text x="720" y="198" text-anchor="middle" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="13" fill="#111">shared context.</text>
+    </g>
+  </g>
+
+  <g>
+    <rect x="829.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <clipPath id="c3"><rect x="829.5" y="1.5" width="397" height="337" rx="3"/></clipPath>
+    <g clip-path="url(#c3)">
+      <rect x="1006" y="24" width="200" height="128" rx="4" fill="#e9e5db" stroke="#111" stroke-width="2.5"/>
+      <text x="1106" y="40" text-anchor="middle" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="10" fill="#111" font-weight="bold">PILOT ALIGNMENT — v3.4</text>
+      <line x1="1020" y1="50" x2="1192" y2="50" stroke="#9a958a" stroke-width="1"/>
+      <line x1="1020" y1="62" x2="1192" y2="62" stroke="#9a958a" stroke-width="1.5"/>
+      <line x1="1020" y1="72" x2="1170" y2="72" stroke="#9a958a" stroke-width="1.5"/>
+      <line x1="1020" y1="82" x2="1192" y2="82" stroke="#9a958a" stroke-width="1.5"/>
+      <line x1="1020" y1="92" x2="1160" y2="92" stroke="#9a958a" stroke-width="1.5"/>
+      <line x1="1020" y1="102" x2="1188" y2="102" stroke="#9a958a" stroke-width="1.5"/>
+      <line x1="1020" y1="112" x2="1150" y2="112" stroke="#9a958a" stroke-width="1.5"/>
+      <line x1="1020" y1="122" x2="1185" y2="122" stroke="#9a958a" stroke-width="1.5"/>
+      <line x1="1020" y1="132" x2="1140" y2="132" stroke="#9a958a" stroke-width="1.5"/>
+      <line x1="1020" y1="142" x2="1175" y2="142" stroke="#9a958a" stroke-width="1.5"/>
+      <use href="#clanker" x="962" y="34" width="54" height="54"/>
+      <use href="#priya" x="852" y="150" width="120" height="200"/>
+      <rect x="1010" y="176" width="120" height="80" rx="3" fill="#fbfaf6" stroke="#111" stroke-width="2.5"/>
+      <circle cx="1022" cy="196" r="2.5" fill="#111"/>
+      <line x1="1030" y1="196" x2="1108" y2="196" stroke="#111" stroke-width="1.8" stroke-linecap="round"/>
+      <circle cx="1022" cy="210" r="2.5" fill="#111"/>
+      <line x1="1030" y1="210" x2="1095" y2="210" stroke="#111" stroke-width="1.8" stroke-linecap="round"/>
+      <line x1="1030" y1="222" x2="1112" y2="222" stroke="#111" stroke-width="1.8" stroke-linecap="round"/>
+      <line x1="1030" y1="234" x2="1080" y2="234" stroke="#111" stroke-width="1.8" stroke-linecap="round"/>
+      <use href="#craig" x="1080" y="176" width="96" height="164"/>
+      <line x1="1114" y1="246" x2="1100" y2="228" stroke="#111" stroke-width="3" stroke-linecap="round"/>
+      <path d="M842 42 Q842 22 872 22 L988 22 Q1010 22 1010 44 L1010 82 Q1010 102 988 102 L916 102 L900 118 L904 102 L872 102 Q842 102 842 80 Z" fill="#fff" stroke="#111" stroke-width="2"/>
+      <text x="926" y="46" text-anchor="middle" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="13" fill="#111">It's already on</text>
+      <text x="926" y="64" text-anchor="middle" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="13" fill="#111">version three.</text>
+      <text x="926" y="82" text-anchor="middle" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="13" fill="#111">You're on two.</text>
+      <path d="M1055 150 Q1055 136 1078 136 L1150 136 Q1168 136 1168 152 L1168 168 Q1168 182 1150 182 L1120 182 L1108 196 L1112 182 L1078 182 Q1055 182 1055 168 Z" fill="#fff" stroke="#111" stroke-width="1.8"/>
+      <text x="1111" y="160" text-anchor="middle" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="11" fill="#111">Mine's the</text>
+      <text x="1111" y="174" text-anchor="middle" font-family="'Comic Sans MS','Comic Neue',sans-serif" font-size="11" fill="#111">source of truth.</text>
+    </g>
+  </g>
+</g>
+    <text x="1218" y="372" text-anchor="end" font-family="'Segoe Script','Comic Sans MS',cursive" font-style="italic" font-size="11" fill="#111" opacity="0.32">Matt Clanker</text>
+    
+  </svg>

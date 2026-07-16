@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 340" width="1228" height="340">
+  <defs>
+    <!-- DAILBERT: oval head, round glasses, necktie, one hair curl -->
+    <symbol id="dailbert" viewBox="0 0 100 150">
+      <ellipse cx="50" cy="34" rx="26" ry="30" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <path d="M50 4 q10 -8 4 -14 q8 4 3 14" fill="none" stroke="#111" stroke-width="2.6" stroke-linecap="round"/>
+      <circle cx="41" cy="34" r="7" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+      <circle cx="59" cy="34" r="7" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+      <line x1="48" y1="34" x2="52" y2="34" stroke="#111" stroke-width="2.4"/>
+      <circle cx="41" cy="34" r="1.7" fill="#111"/>
+      <circle cx="59" cy="34" r="1.7" fill="#111"/>
+      <path d="M42 50 q8 5 16 0" fill="none" stroke="#111" stroke-width="2.4" stroke-linecap="round"/>
+      <path d="M34 62 q16 10 32 0 l8 60 h-48 z" fill="#f4f1ea" stroke="#111" stroke-width="2.6" stroke-linejoin="round"/>
+      <path d="M50 63 l-5 11 l5 22 l5 -22 z" fill="#111"/>
+    </symbol>
+
+    <!-- DOUG: rounder head, no glasses, dot eyes, big grin -->
+    <symbol id="doug" viewBox="0 0 100 150">
+      <circle cx="50" cy="36" r="32" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <circle cx="40" cy="32" r="2.4" fill="#111"/>
+      <circle cx="60" cy="32" r="2.4" fill="#111"/>
+      <path d="M37 45 q13 16 26 0" fill="none" stroke="#111" stroke-width="2.6" stroke-linecap="round"/>
+      <path d="M32 66 q18 9 36 0 l8 56 h-52 z" fill="#f4f1ea" stroke="#111" stroke-width="2.6" stroke-linejoin="round"/>
+    </symbol>
+
+    <!-- Mug -->
+    <symbol id="mug" viewBox="0 0 60 60">
+      <rect x="10" y="16" width="34" height="32" rx="4" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <path d="M44 24 q11 0 11 9 q0 9 -11 9" fill="none" stroke="#111" stroke-width="2.6"/>
+      <path d="M18 24 q9 4 18 0" fill="none" stroke="#111" stroke-width="1.6" opacity="0.6"/>
+    </symbol>
+
+    <!-- CLANKER: boxy chrome head inside a surface -->
+    <symbol id="clanker" viewBox="0 0 100 100">
+      <line x1="50" y1="6" x2="50" y2="18" stroke="#c9c9d2" stroke-width="2.2"/>
+      <circle cx="50" cy="6" r="3.4" fill="#8fd3c8"/>
+      <rect x="22" y="18" width="56" height="50" rx="6" fill="#1c1c22" stroke="#c9c9d2" stroke-width="2.4"/>
+      <rect x="30" y="32" width="16" height="9" rx="2" fill="#8fd3c8"/>
+      <rect x="54" y="32" width="16" height="9" rx="2" fill="#8fd3c8"/>
+      <g stroke="#c9c9d2" stroke-width="1.8">
+        <line x1="33" y1="54" x2="67" y2="54"/>
+        <line x1="33" y1="59" x2="67" y2="59"/>
+      </g>
+    </symbol>
+  </defs>
+
+  <!-- ===================== PANEL 1 ===================== -->
+  <g>
+    <rect x="1.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+    <clipPath id="clip1"><rect x="3" y="3" width="394" height="334" rx="3"/></clipPath>
+    <g clip-path="url(#clip1)">
+      <line x1="3" y1="258" x2="397" y2="258" stroke="#111" stroke-width="2"/>
+
+      <!-- snack cabinet on the right, drawer open -->
+      <rect x="248" y="96" width="149" height="162" fill="#e7e2d6" stroke="#111" stroke-width="2.4"/>
+      <line x1="248" y1="150" x2="397" y2="150" stroke="#111" stroke-width="1.8"/>
+      <line x1="248" y1="206" x2="397" y2="206" stroke="#111" stroke-width="1.8"/>
+      <!-- neat auto-ordered packets, perfectly aligned -->
+      <rect x="260" y="110" width="24" height="32" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="1.8"/>
+      <rect x="292" y="110" width="24" height="32" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="1.8"/>
+      <rect x="324" y="110" width="24" height="32" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="1.8"/>
+      <rect x="356" y="110" width="24" height="32" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="1.8"/>
+      <rect x="260" y="166" width="24" height="32" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="1.8"/>
+      <rect x="292" y="166" width="24" height="32" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="1.8"/>
+      <rect x="324" y="166" width="24" height="32" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="1.8"/>
+      <rect x="356" y="166" width="24" height="32" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="1.8"/>
+
+      <!-- Doug standing at the cabinet with a grocery bag -->
+      <use href="#doug" x="120" y="120" width="100" height="150"/>
+      <!-- paper grocery bag on the counter beside him -->
+      <path d="M188 214 l58 0 l-5 44 l-48 0 z" fill="#e7e2d6" stroke="#111" stroke-width="2.4" stroke-linejoin="round"/>
+      <path d="M188 214 q29 -10 58 0" fill="#e7e2d6" stroke="#111" stroke-width="2.4"/>
+      <rect x="200" y="196" width="16" height="24" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="1.8"/>
+      <rect x="220" y="192" width="16" height="28" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="1.8"/>
+
+      <!-- Doug balloon -->
+      <path d="M26 28 h176 a10 10 0 0 1 10 10 v42 a10 10 0 0 1 -10 10 h-84 l-12 15 l-2 -15 h-76 a10 10 0 0 1 -10 -10 v-42 a10 10 0 0 1 10 -10 z" fill="#fff" stroke="#111" stroke-width="2.2"/>
+      <text x="114" y="47" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">The robot orders the</text>
+      <text x="114" y="65" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">snacks now. Same day.</text>
+      <text x="114" y="83" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">Never runs out.</text>
+    </g>
+  </g>
+
+  <!-- ===================== PANEL 2 ===================== -->
+  <g>
+    <rect x="415.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+    <clipPath id="clip2"><rect x="417" y="3" width="394" height="334" rx="3"/></clipPath>
+    <g clip-path="url(#clip2)">
+      <line x1="417" y1="258" x2="811" y2="258" stroke="#111" stroke-width="2"/>
+
+      <!-- the cabinet, Doug restocking by hand -->
+      <rect x="640" y="96" width="160" height="162" fill="#e7e2d6" stroke="#111" stroke-width="2.4"/>
+      <line x1="640" y1="150" x2="800" y2="150" stroke="#111" stroke-width="1.8"/>
+      <line x1="640" y1="206" x2="800" y2="206" stroke="#111" stroke-width="1.8"/>
+      <rect x="652" y="110" width="24" height="32" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="1.8"/>
+      <rect x="684" y="110" width="24" height="32" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="1.8"/>
+      <rect x="716" y="110" width="24" height="32" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="1.8"/>
+      <rect x="748" y="110" width="24" height="32" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="1.8"/>
+      <rect x="652" y="166" width="24" height="32" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="1.8"/>
+      <rect x="684" y="166" width="24" height="32" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="1.8"/>
+
+      <!-- Doug reaching in, placing one by hand -->
+      <use href="#doug" x="470" y="120" width="100" height="150"/>
+      <path d="M556 200 q52 -6 88 -60" fill="none" stroke="#111" stroke-width="2.6" stroke-linecap="round"/>
+      <rect x="636" y="132" width="22" height="26" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="1.9"/>
+
+      <!-- Doug balloon -->
+      <path d="M440 24 h150 a10 10 0 0 1 10 10 v34 a10 10 0 0 1 -10 10 h-66 l-12 15 l-2 -15 h-70 a10 10 0 0 1 -10 -10 v-34 a10 10 0 0 1 10 -10 z" fill="#fff" stroke="#111" stroke-width="2.2"/>
+      <text x="515" y="46" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">I still fill it myself.</text>
+      <text x="515" y="64" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" fill="#111">It's not the same.</text>
+
+      <!-- Dailbert watching, standing right -->
+      <use href="#dailbert" x="700" y="150" width="90" height="135"/>
+      <path d="M690 252 h112 a10 10 0 0 1 10 10 v22 a10 10 0 0 1 -10 10 h-44 l-11 12 l-2 -12 h-55 a10 10 0 0 1 -10 -10 v-22 a10 10 0 0 1 10 -10 z" fill="#fff" stroke="#111" stroke-width="2.2"/>
+      <text x="746" y="271" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Same snacks, Doug.</text>
+      <text x="746" y="288" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Same drawer.</text>
+    </g>
+  </g>
+
+  <!-- ===================== PANEL 3 ===================== -->
+  <g>
+    <rect x="829.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+    <clipPath id="clip3"><rect x="831" y="3" width="394" height="334" rx="3"/></clipPath>
+    <g clip-path="url(#clip3)">
+      <line x1="831" y1="258" x2="1225" y2="258" stroke="#111" stroke-width="2"/>
+
+      <!-- break-room table -->
+      <rect x="905" y="238" width="290" height="20" fill="#e7e2d6" stroke="#111" stroke-width="2"/>
+
+      <!-- wall monitor upper right, clanker inside it -->
+      <rect x="1128" y="28" width="90" height="74" rx="4" fill="#111" stroke="#111" stroke-width="2.6"/>
+      <rect x="1133" y="33" width="80" height="64" rx="2" fill="#1c1c22"/>
+      <use href="#clanker" x="1140" y="30" width="66" height="66"/>
+
+      <!-- clanker balloon: rectangular, dashed line back to monitor glass -->
+      <line x1="1128" y1="70" x2="1088" y2="86" stroke="#111" stroke-width="1.4" stroke-dasharray="4 4"/>
+      <rect x="902" y="30" width="184" height="76" fill="#fff" stroke="#111" stroke-width="2.2"/>
+      <rect x="906" y="34" width="176" height="68" fill="none" stroke="#111" stroke-width="1" stroke-dasharray="3 3"/>
+      <text x="994" y="54" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" fill="#111">The old brand is</text>
+      <text x="994" y="72" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" fill="#111">discontinued. Shall I</text>
+      <text x="994" y="90" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" fill="#111">clear the last box?</text>
+
+      <!-- Doug and Dailbert seated side by side, sharing the last packet -->
+      <use href="#doug" x="905" y="118" width="100" height="150"/>
+      <use href="#mug" x="912" y="206" width="48" height="48"/>
+      <use href="#dailbert" x="1028" y="120" width="96" height="146"/>
+
+      <!-- the last old packet, opened, on the table between them -->
+      <path d="M1002 214 l40 0 l-3 24 l-34 0 z" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <path d="M1002 214 l5 -12 l30 0 l5 12" fill="none" stroke="#111" stroke-width="1.8" stroke-linejoin="round"/>
+      <path d="M1010 210 l4 -6 M1018 209 l3 -6 M1026 210 l4 -6" stroke="#111" stroke-width="1.4" stroke-linecap="round"/>
+
+      <!-- Dailbert reply balloon: the quiet button -->
+      <path d="M1024 122 h150 a10 10 0 0 1 10 10 v30 a10 10 0 0 1 -10 10 h-46 l-11 13 l-2 -13 h-91 a10 10 0 0 1 -10 -10 v-30 a10 10 0 0 1 10 -10 z" fill="#fff" stroke="#111" stroke-width="2.2"/>
+      <text x="1099" y="142" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Not yet. We're</text>
+      <text x="1099" y="160" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">finishing them.</text>
+    </g>
+  </g>
+</svg>

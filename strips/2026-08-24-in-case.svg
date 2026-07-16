@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 388" width="1228" height="388" font-family="Georgia,serif">
+    <rect width="1228" height="388" fill="#f4f1ea"/>
+    <text x="6" y="29" font-family="Georgia,serif" font-weight="bold" font-size="27" letter-spacing="2" fill="#111">DAILBERT</text>
+    <text x="1222" y="19" text-anchor="end" font-family="Georgia,serif" font-style="italic" font-size="16" fill="#111">In Case</text>
+    <text x="1222" y="34" text-anchor="end" font-family="'Courier New',monospace" font-size="12" fill="#111" opacity="0.65">2026-08-24</text>
+    <line x1="6" y1="37" x2="1222" y2="37" stroke="#111" stroke-width="2"/>
+    <g transform="translate(0,40)">
+  <defs>
+    <!-- ================= SYMBOLS ================= -->
+
+    <!-- DOUG: rounder head, no glasses, dot eyes, big goofy grin, mug -->
+    <symbol id="doug" viewBox="0 0 120 170">
+      <g fill="none" stroke="#111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round">
+        <!-- body -->
+        <path d="M30 170 V120 Q30 96 60 96 Q90 96 90 120 V170" fill="#f4f1ea"/>
+        <!-- collar -->
+        <path d="M50 100 L60 112 L70 100" fill="#f4f1ea"/>
+        <!-- neck -->
+        <path d="M52 96 V88 M68 96 V88" />
+        <!-- head, rounder -->
+        <circle cx="60" cy="56" r="34" fill="#f4f1ea"/>
+        <!-- dot eyes -->
+        <circle cx="49" cy="52" r="3.2" fill="#111"/>
+        <circle cx="71" cy="52" r="3.2" fill="#111"/>
+        <!-- big goofy grin -->
+        <path d="M44 66 Q60 84 76 66" />
+        <!-- little hair fringe -->
+        <path d="M34 40 Q42 30 52 34 M52 32 Q62 26 72 32 M72 33 Q82 30 86 40" />
+      </g>
+    </symbol>
+
+    <!-- DOUG MUG (held) -->
+    <symbol id="mug" viewBox="0 0 60 60">
+      <g fill="#f4f1ea" stroke="#111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round">
+        <rect x="10" y="16" width="30" height="30" rx="4"/>
+        <path d="M40 22 q12 0 12 10 t-12 10" fill="none"/>
+      </g>
+    </symbol>
+
+    <!-- SECOND MUG (sitting on desk) -->
+    <symbol id="mug2" viewBox="0 0 60 60">
+      <g fill="#f4f1ea" stroke="#111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round">
+        <rect x="8" y="18" width="28" height="28" rx="4"/>
+        <path d="M36 24 q11 0 11 10 t-11 10" fill="none"/>
+      </g>
+    </symbol>
+
+    <!-- MONITOR (empty / dark screen) -->
+    <symbol id="monitor" viewBox="0 0 160 150">
+      <g stroke="#111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round">
+        <rect x="14" y="10" width="132" height="94" rx="6" fill="#111"/>
+        <rect x="22" y="18" width="116" height="78" rx="3" fill="#2b2b2b"/>
+        <!-- stand -->
+        <path d="M70 104 L64 128 M90 104 L96 128" fill="none"/>
+        <rect x="52" y="128" width="56" height="8" rx="3" fill="#f4f1ea"/>
+      </g>
+    </symbol>
+
+    <!-- CLANKER FACE (drawn INSIDE a screen) -->
+    <symbol id="clanker" viewBox="0 0 110 90">
+      <g stroke="#9fb0c8" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" fill="none">
+        <!-- antenna -->
+        <path d="M55 12 V4"/>
+        <circle cx="55" cy="3" r="2.6" fill="#9fb0c8"/>
+        <!-- head box -->
+        <rect x="24" y="14" width="62" height="52" rx="8" fill="#1c2532" stroke="#9fb0c8"/>
+        <!-- slot eyes, glowing -->
+        <rect x="34" y="30" width="16" height="6" rx="3" fill="#bcd0ea" stroke="none"/>
+        <rect x="60" y="30" width="16" height="6" rx="3" fill="#bcd0ea" stroke="none"/>
+        <!-- grille mouth -->
+        <path d="M38 50 H72 M42 46 V56 M50 46 V56 M58 46 V56 M66 46 V56"/>
+      </g>
+    </symbol>
+
+    <!-- DESK EDGE detail -->
+  </defs>
+
+  <!-- ================= PANEL 1 ================= -->
+  <g>
+    <rect x="0" y="0" width="400" height="340" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+    <!-- desk -->
+    <line x1="0" y1="266" x2="400" y2="266" stroke="#111" stroke-width="2.6"/>
+    <!-- monitor on desk (dark, empty) -->
+    <use href="#monitor" x="118" y="126" width="160" height="150"/>
+    <!-- Doug at desk, holding mug, facing screen -->
+    <use href="#doug" x="34" y="150" width="120" height="170"/>
+    <use href="#mug" x="120" y="196" width="56" height="56"/>
+    <!-- speech balloon: Doug cheery -->
+    <g>
+      <path d="M96 40 Q96 24 118 24 H300 Q322 24 322 40 V78 Q322 94 300 94 H150 L128 112 L134 94 H118 Q96 94 96 78 Z"
+            fill="#fff" stroke="#111" stroke-width="2.4" stroke-linejoin="round"/>
+      <text x="209" y="52" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111">Morning! Sleep okay</text>
+      <text x="209" y="72" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111">in there, buddy?</text>
+    </g>
+  </g>
+
+  <!-- ================= PANEL 2 ================= -->
+  <g>
+    <rect x="414" y="0" width="400" height="340" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+    <line x1="414" y1="266" x2="814" y2="266" stroke="#111" stroke-width="2.6"/>
+    <!-- monitor, now with clanker inside -->
+    <use href="#monitor" x="520" y="126" width="160" height="150"/>
+    <!-- clanker inside the lit screen -->
+    <use href="#clanker" x="558" y="150" width="90" height="74"/>
+    <!-- screen glow hatch -->
+    <g stroke="#9fb0c8" stroke-width="1" opacity="0.5">
+      <line x1="536" y1="146" x2="664" y2="146"/>
+      <line x1="536" y1="230" x2="664" y2="230"/>
+    </g>
+    <!-- Priya walking past at right, sleeves rolled -->
+    <g fill="none" stroke="#111" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round">
+      <!-- body -->
+      <path d="M720 320 V236 Q720 214 748 214 Q776 214 776 236 V320" fill="#f4f1ea"/>
+      <!-- rolled sleeves cuff -->
+      <path d="M722 244 h-14 M774 244 h14"/>
+      <!-- head -->
+      <circle cx="748" cy="186" r="24" fill="#f4f1ea"/>
+      <!-- curly hair up -->
+      <path d="M726 178 q-6 -22 22 -26 q28 4 22 26 q-8 -8 -22 -8 q-14 0 -22 8" fill="#111" stroke="#111"/>
+      <circle cx="748" cy="160" r="6" fill="#111" stroke="#111"/>
+      <!-- rectangular glasses -->
+      <rect x="736" y="182" width="10" height="7" rx="1"/>
+      <rect x="750" y="182" width="10" height="7" rx="1"/>
+      <line x1="746" y1="185" x2="750" y2="185"/>
+      <!-- small wry mouth -->
+      <path d="M742 198 q6 3 12 0"/>
+    </g>
+    <!-- clanker balloon: rectangular screen-edged, dashed tail to screen -->
+    <path d="M436 34 h164 v58 h-60 l-10 16 l-4 -16 h-90 z" fill="#eef1f6" stroke="#111" stroke-width="2.2"/>
+    <line x1="520" y1="108" x2="560" y2="152" stroke="#111" stroke-width="1.4" stroke-dasharray="4 4"/>
+    <text x="518" y="56" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111">Good morning, Doug.</text>
+    <text x="518" y="76" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111">The coffee is for me?</text>
+  </g>
+
+  <!-- ================= PANEL 3 ================= -->
+  <g>
+    <rect x="828" y="0" width="400" height="340" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+    <line x1="828" y1="266" x2="1228" y2="266" stroke="#111" stroke-width="2.6"/>
+    <!-- monitor -->
+    <use href="#monitor" x="890" y="126" width="160" height="150"/>
+    <use href="#clanker" x="928" y="150" width="90" height="74"/>
+    <!-- second mug sitting on desk beside the screen -->
+    <use href="#mug2" x="1046" y="212" width="52" height="52"/>
+    <!-- tiny steam wisp from the desk mug -->
+    <g stroke="#111" stroke-width="1.6" fill="none" opacity="0.6" stroke-linecap="round">
+      <path d="M1066 214 q-4 -6 0 -12"/>
+      <path d="M1074 214 q4 -6 0 -12"/>
+    </g>
+    <!-- Doug half-turned, mug in hand, easy -->
+    <use href="#doug" x="1100" y="150" width="120" height="170"/>
+    <use href="#mug" x="1120" y="200" width="52" height="52"/>
+    <!-- Doug's small button line -->
+    <g>
+      <path d="M846 42 Q846 26 866 26 H1010 Q1030 26 1030 42 V76 Q1030 92 1010 92 H930 L910 108 L916 92 H866 Q846 92 846 76 Z"
+            fill="#fff" stroke="#111" stroke-width="2.4" stroke-linejoin="round"/>
+      <text x="938" y="54" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111">Nah. It's yours if</text>
+      <text x="938" y="74" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111">you ever want it.</text>
+    </g>
+  </g>
+</g>
+    <text x="1218" y="372" text-anchor="end" font-family="'Segoe Script','Comic Sans MS',cursive" font-style="italic" font-size="11" fill="#111" opacity="0.32">Matt Clanker</text>
+    
+  </svg>
