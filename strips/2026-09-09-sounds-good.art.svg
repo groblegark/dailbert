@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 340" width="1228" height="340">
+  <defs>
+    <!-- ===================== CHARACTER SYMBOLS ===================== -->
+
+    <!-- DAILBERT: oval head, round wire glasses, necktie, one hair curl -->
+    <symbol id="dailbert" viewBox="0 0 120 170">
+      <path d="M22 170 V132 Q22 108 60 108 Q98 108 98 132 V170" fill="#f4f1ea" stroke="#111" stroke-width="2.6" stroke-linejoin="round"/>
+      <path d="M50 112 L60 124 L70 112" fill="#f4f1ea" stroke="#111" stroke-width="2.6" stroke-linejoin="round"/>
+      <path d="M60 124 L55 150 L60 156 L65 150 Z" fill="#111" stroke="#111" stroke-width="2.6" stroke-linejoin="round"/>
+      <line x1="52" y1="108" x2="52" y2="100" stroke="#111" stroke-width="2.6" stroke-linecap="round"/>
+      <line x1="68" y1="108" x2="68" y2="100" stroke="#111" stroke-width="2.6" stroke-linecap="round"/>
+      <ellipse cx="60" cy="66" rx="32" ry="38" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <path d="M60 28 q10 -10 4 -18" fill="none" stroke="#111" stroke-width="2.6" stroke-linecap="round"/>
+      <circle cx="47" cy="64" r="9" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+      <circle cx="73" cy="64" r="9" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+      <line x1="56" y1="64" x2="64" y2="64" stroke="#111" stroke-width="2.4"/>
+      <line x1="38" y1="62" x2="32" y2="59" stroke="#111" stroke-width="2.4" stroke-linecap="round"/>
+      <line x1="82" y1="62" x2="88" y2="59" stroke="#111" stroke-width="2.4" stroke-linecap="round"/>
+      <circle cx="47" cy="64" r="1.6" fill="#111"/>
+      <circle cx="73" cy="64" r="1.6" fill="#111"/>
+      <path d="M40 52 q7 -3 13 0" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M67 52 q7 -3 13 0" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="round"/>
+      <line x1="50" y1="88" x2="70" y2="88" stroke="#111" stroke-width="2.4" stroke-linecap="round"/>
+    </symbol>
+
+    <!-- DOUG: rounder head, no glasses, dot eyes, big grin, mug -->
+    <symbol id="doug" viewBox="0 0 130 170">
+      <path d="M20 170 V134 Q20 110 60 110 Q100 110 100 134 V170" fill="#f4f1ea" stroke="#111" stroke-width="2.6" stroke-linejoin="round"/>
+      <path d="M50 114 L60 124 L70 114" fill="#f4f1ea" stroke="#111" stroke-width="2.6" stroke-linejoin="round"/>
+      <line x1="53" y1="110" x2="53" y2="102" stroke="#111" stroke-width="2.6" stroke-linecap="round"/>
+      <line x1="67" y1="110" x2="67" y2="102" stroke="#111" stroke-width="2.6" stroke-linecap="round"/>
+      <circle cx="60" cy="64" r="38" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <path d="M52 27 q8 -7 16 0" fill="none" stroke="#111" stroke-width="2.6" stroke-linecap="round"/>
+      <circle cx="48" cy="60" r="2.6" fill="#111"/>
+      <circle cx="72" cy="60" r="2.6" fill="#111"/>
+      <path d="M42 78 q18 22 36 0" fill="none" stroke="#111" stroke-width="2.6" stroke-linecap="round"/>
+      <rect x="86" y="128" width="26" height="24" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <path d="M112 133 q10 0 10 9 q0 9 -10 9" fill="none" stroke="#111" stroke-width="2.6"/>
+      <line x1="86" y1="134" x2="112" y2="134" stroke="#111" stroke-width="2.6"/>
+      <path d="M90 122 q2 -6 6 -6" fill="none" stroke="#111" stroke-width="1.8" stroke-linecap="round"/>
+    </symbol>
+
+    <!-- PRIYA: curly hair up, rectangular glasses, sleeves rolled -->
+    <symbol id="priya" viewBox="0 0 120 170">
+      <path d="M20 170 V132 Q20 108 60 108 Q100 108 100 132 V170" fill="#f4f1ea" stroke="#111" stroke-width="2.6" stroke-linejoin="round"/>
+      <path d="M26 132 q-4 8 2 14" fill="none" stroke="#111" stroke-width="2.6" stroke-linecap="round"/>
+      <path d="M94 132 q4 8 -2 14" fill="none" stroke="#111" stroke-width="2.6" stroke-linecap="round"/>
+      <path d="M50 112 L60 122 L70 112" fill="#f4f1ea" stroke="#111" stroke-width="2.6" stroke-linejoin="round"/>
+      <line x1="53" y1="108" x2="53" y2="100" stroke="#111" stroke-width="2.6" stroke-linecap="round"/>
+      <line x1="67" y1="108" x2="67" y2="100" stroke="#111" stroke-width="2.6" stroke-linecap="round"/>
+      <ellipse cx="60" cy="66" rx="30" ry="36" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <path d="M32 56 q-4 -22 12 -30 q6 -12 16 -10 q10 -2 16 10 q16 8 12 30 q-6 -14 -16 -16 q-2 -8 -12 -8 q-10 0 -12 8 q-10 2 -16 16z" fill="#111" stroke="#111" stroke-width="2.4" stroke-linejoin="round"/>
+      <circle cx="60" cy="16" r="7" fill="#111" stroke="#111" stroke-width="2.4"/>
+      <rect x="38" y="58" width="17" height="12" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+      <rect x="65" y="58" width="17" height="12" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+      <line x1="55" y1="64" x2="65" y2="64" stroke="#111" stroke-width="2.4"/>
+      <circle cx="46.5" cy="64" r="1.6" fill="#111"/>
+      <circle cx="73.5" cy="64" r="1.6" fill="#111"/>
+      <path d="M52 88 q8 4 16 0" fill="none" stroke="#111" stroke-width="2.4" stroke-linecap="round"/>
+    </symbol>
+
+    <!-- THE CLANKER: chrome robot head, slot eyes, grille, antenna -->
+    <symbol id="clanker" viewBox="0 0 120 120">
+      <line x1="60" y1="20" x2="60" y2="8" stroke="#111" stroke-width="2.4" stroke-linecap="round"/>
+      <circle cx="60" cy="6" r="3.4" fill="#111"/>
+      <rect x="24" y="20" width="72" height="60" rx="10" fill="#d9d9d9" stroke="#111" stroke-width="2.4"/>
+      <line x1="20" y1="40" x2="24" y2="40" stroke="#111" stroke-width="2.4" stroke-linecap="round"/>
+      <line x1="96" y1="40" x2="100" y2="40" stroke="#111" stroke-width="2.4" stroke-linecap="round"/>
+      <rect x="35" y="38" width="20" height="8" rx="4" fill="#bfe3d0" stroke="#111" stroke-width="1.6"/>
+      <rect x="65" y="38" width="20" height="8" rx="4" fill="#bfe3d0" stroke="#111" stroke-width="1.6"/>
+      <rect x="40" y="58" width="40" height="12" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+      <line x1="48" y1="58" x2="48" y2="70" stroke="#111" stroke-width="1.6"/>
+      <line x1="56" y1="58" x2="56" y2="70" stroke="#111" stroke-width="1.6"/>
+      <line x1="64" y1="58" x2="64" y2="70" stroke="#111" stroke-width="1.6"/>
+      <line x1="72" y1="58" x2="72" y2="70" stroke="#111" stroke-width="1.6"/>
+    </symbol>
+  </defs>
+
+  <!-- ===================== PANEL FRAMES ===================== -->
+  <rect x="1.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+  <rect x="415.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+  <rect x="829.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+
+  <!-- ============ PANEL 1: Dailbert proud at monitor, Doug beside with mug ============ -->
+  <clipPath id="clip1"><rect x="1.5" y="1.5" width="397" height="337" rx="3"/></clipPath>
+  <g clip-path="url(#clip1)">
+    <rect x="14" y="270" width="373" height="10" fill="#111"/>
+    <rect x="38" y="148" width="150" height="104" rx="6" fill="#1c1c1c" stroke="#111" stroke-width="2.4"/>
+    <rect x="50" y="160" width="126" height="80" rx="3" fill="#2a2a2a" stroke="#111" stroke-width="1.4"/>
+    <rect x="98" y="252" width="30" height="14" fill="#1c1c1c" stroke="#111" stroke-width="2.4"/>
+    <rect x="80" y="266" width="66" height="6" rx="3" fill="#111"/>
+    <use href="#clanker" x="78" y="166" width="70" height="70"/>
+    <use href="#doug" x="10" y="120" width="130" height="170"/>
+    <use href="#dailbert" x="248" y="118" width="120" height="170"/>
+
+    <path d="M214 26 h164 q10 0 10 10 v46 q0 10 -10 10 h-70 l-6 14 l-14 -14 h-74 q-10 0 -10 -10 v-46 q0 -10 10 -10 z" fill="#fff" stroke="#111" stroke-width="2.2"/>
+    <text x="296" y="47" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">New agent triages my</text>
+    <text x="296" y="65" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">inbox. Archives the noise,</text>
+    <text x="296" y="83" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">answers the rest for me.</text>
+  </g>
+
+  <!-- ============ PANEL 2: Clanker explains its policy; Dailbert nods ============ -->
+  <clipPath id="clip2"><rect x="415.5" y="1.5" width="397" height="337" rx="3"/></clipPath>
+  <g clip-path="url(#clip2)">
+    <rect x="428" y="270" width="373" height="10" fill="#111"/>
+    <rect x="560" y="148" width="150" height="104" rx="6" fill="#1c1c1c" stroke="#111" stroke-width="2.4"/>
+    <rect x="572" y="160" width="126" height="80" rx="3" fill="#2a2a2a" stroke="#111" stroke-width="1.4"/>
+    <rect x="620" y="252" width="30" height="14" fill="#1c1c1c" stroke="#111" stroke-width="2.4"/>
+    <rect x="602" y="266" width="66" height="6" rx="3" fill="#111"/>
+    <use href="#clanker" x="600" y="166" width="70" height="70"/>
+    <use href="#dailbert" x="440" y="120" width="120" height="170"/>
+
+    <line x1="640" y1="176" x2="640" y2="122" stroke="#111" stroke-width="1.6" stroke-dasharray="4 4"/>
+    <rect x="548" y="28" width="252" height="92" rx="4" fill="#fff" stroke="#111" stroke-width="2.2"/>
+    <rect x="553" y="33" width="242" height="82" rx="2" fill="none" stroke="#111" stroke-width="1" stroke-dasharray="3 3"/>
+    <text x="674" y="52" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Low priority is archived.</text>
+    <text x="674" y="70" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Everything worth your time</text>
+    <text x="674" y="88" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">gets a warm, brief reply:</text>
+    <text x="674" y="108" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="15" fill="#111">&quot;Sounds good.&quot;</text>
+  </g>
+
+  <!-- ============ PANEL 3: Priya walks up, dry; Dailbert stricken ============ -->
+  <clipPath id="clip3"><rect x="829.5" y="1.5" width="397" height="337" rx="3"/></clipPath>
+  <g clip-path="url(#clip3)">
+    <rect x="842" y="270" width="373" height="10" fill="#111"/>
+    <rect x="854" y="156" width="118" height="96" rx="6" fill="#1c1c1c" stroke="#111" stroke-width="2.4"/>
+    <rect x="864" y="166" width="98" height="72" rx="3" fill="#2a2a2a" stroke="#111" stroke-width="1.4"/>
+    <rect x="898" y="252" width="30" height="14" fill="#1c1c1c" stroke="#111" stroke-width="2.4"/>
+    <rect x="882" y="266" width="62" height="6" rx="3" fill="#111"/>
+    <use href="#clanker" x="876" y="170" width="58" height="58" opacity="0.92"/>
+
+    <use href="#dailbert" x="938" y="130" width="112" height="160"/>
+    <use href="#priya" x="1050" y="122" width="120" height="170"/>
+
+    <path d="M998 24 h194 q10 0 10 10 v42 q0 10 -10 10 h-58 l16 14 l-30 -14 h-122 q-10 0 -10 -10 v-42 q0 -10 10 -10 z" fill="#fff" stroke="#111" stroke-width="2.2"/>
+    <text x="1100" y="43" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">I asked which build</text>
+    <text x="1100" y="61" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">to ship. You replied</text>
+    <text x="1100" y="79" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">&quot;sounds good.&quot;</text>
+
+    <path d="M900 108 h96 q8 0 8 8 v22 q0 8 -8 8 h-40 l-8 12 l-6 -12 h-42 q-8 0 -8 -8 v-22 q0 -8 8 -8 z" fill="#fff" stroke="#111" stroke-width="2.2"/>
+    <text x="948" y="124" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">To which</text>
+    <text x="948" y="141" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">build?</text>
+  </g>
+</svg>
