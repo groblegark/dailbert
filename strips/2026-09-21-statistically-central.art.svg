@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 340" width="1228" height="340">
+  <defs>
+    <symbol id="dailbert" viewBox="0 0 100 130">
+      <ellipse cx="50" cy="34" rx="24" ry="27" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+      <path d="M50 7 q6 -9 1 -3 q-2 5 3 6" fill="none" stroke="#111" stroke-width="2.4" stroke-linecap="round"/>
+      <circle cx="41" cy="34" r="7" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+      <circle cx="59" cy="34" r="7" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+      <line x1="48" y1="34" x2="52" y2="34" stroke="#111" stroke-width="2.2"/>
+      <circle cx="41" cy="34" r="1.6" fill="#111"/>
+      <circle cx="59" cy="34" r="1.6" fill="#111"/>
+      <path d="M43 48 q7 5 14 0" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M30 61 q20 14 40 0 l7 60 h-54 z" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+      <path d="M50 61 l-6 12 l6 8 l6 -8 z" fill="#111"/>
+      <path d="M50 81 l0 26" stroke="#111" stroke-width="2.2"/>
+    </symbol>
+
+    <symbol id="doug" viewBox="0 0 100 130">
+      <circle cx="50" cy="36" r="29" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+      <circle cx="40" cy="33" r="2.4" fill="#111"/>
+      <circle cx="60" cy="33" r="2.4" fill="#111"/>
+      <path d="M37 44 q13 16 26 0" fill="none" stroke="#111" stroke-width="2.4" stroke-linecap="round"/>
+      <path d="M28 63 q22 12 44 0 l6 58 h-56 z" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+      <rect x="12" y="86" width="20" height="18" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+      <path d="M32 90 q9 1 0 10" fill="none" stroke="#111" stroke-width="2.2"/>
+      <path d="M76 90 l8 6 l-6 22 l-14 -4 z" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+    </symbol>
+
+    <symbol id="priya" viewBox="0 0 100 130">
+      <ellipse cx="50" cy="36" rx="24" ry="26" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+      <path d="M27 30 q-5 -18 12 -22 q6 -8 15 -3 q14 -3 17 12 q9 4 3 15 q3 -14 -8 -16 q-14 -6 -28 2 q-11 3 -11 12 z" fill="#111"/>
+      <path d="M48 12 q10 -5 20 4 q6 3 5 12" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="round"/>
+      <rect x="34" y="32" width="13" height="9" rx="1.5" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+      <rect x="53" y="32" width="13" height="9" rx="1.5" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+      <line x1="47" y1="36" x2="53" y2="36" stroke="#111" stroke-width="2.2"/>
+      <circle cx="40.5" cy="36.5" r="1.5" fill="#111"/>
+      <circle cx="59.5" cy="36.5" r="1.5" fill="#111"/>
+      <path d="M43 49 q7 4 14 0" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M30 62 q20 12 40 0 l6 59 h-52 z" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+      <path d="M30 62 l-6 20" stroke="#111" stroke-width="2.4" fill="none"/>
+      <path d="M70 62 l6 20" stroke="#111" stroke-width="2.4" fill="none"/>
+      <path d="M22 80 l6 4 M74 80 l-6 4" stroke="#111" stroke-width="2.2"/>
+    </symbol>
+
+    <symbol id="boss" viewBox="0 0 100 130">
+      <ellipse cx="50" cy="40" rx="23" ry="25" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+      <path d="M34 22 l-6 -18 l14 12 z" fill="#111" stroke="#111" stroke-width="2.2" stroke-linejoin="round"/>
+      <path d="M66 22 l6 -18 l-14 12 z" fill="#111" stroke="#111" stroke-width="2.2" stroke-linejoin="round"/>
+      <path d="M34 22 q16 -6 32 0" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+      <circle cx="42" cy="40" r="1.8" fill="#111"/>
+      <circle cx="58" cy="40" r="1.8" fill="#111"/>
+      <path d="M44 51 q6 3 12 0" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M30 65 q20 12 40 0 l7 56 h-54 z" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+      <path d="M50 65 l-7 10 l7 6 l7 -6 z" fill="#111"/>
+      <path d="M50 87 l0 24" stroke="#111" stroke-width="2.2"/>
+    </symbol>
+
+    <symbol id="clanker" viewBox="0 0 100 90">
+      <rect x="22" y="20" width="56" height="46" rx="5" fill="#1a1a1a" stroke="#111" stroke-width="2.2"/>
+      <line x1="50" y1="20" x2="50" y2="9" stroke="#cfcfcf" stroke-width="2"/>
+      <circle cx="50" cy="7" r="2.6" fill="#cfcfcf"/>
+      <rect x="30" y="32" width="14" height="8" rx="2" fill="#8fd0d8"/>
+      <rect x="56" y="32" width="14" height="8" rx="2" fill="#8fd0d8"/>
+      <g stroke="#7a7a7a" stroke-width="2">
+        <line x1="33" y1="52" x2="67" y2="52"/>
+        <line x1="33" y1="57" x2="67" y2="57"/>
+      </g>
+    </symbol>
+  </defs>
+
+  <g>
+    <rect x="2" y="2" width="400" height="336" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+    <clipPath id="clip1"><rect x="2" y="2" width="400" height="336" rx="3"/></clipPath>
+    <g clip-path="url(#clip1)">
+      <line x1="2" y1="250" x2="402" y2="250" stroke="#111" stroke-width="1.6"/>
+      <rect x="250" y="150" width="140" height="100" fill="#e6e2d8" stroke="#111" stroke-width="1.6"/>
+      <rect x="270" y="120" width="118" height="80" rx="4" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+      <rect x="322" y="200" width="14" height="14" fill="#e6e2d8" stroke="#111" stroke-width="1.6"/>
+      <rect x="304" y="214" width="50" height="6" fill="#e6e2d8" stroke="#111" stroke-width="1.6"/>
+      <use href="#clanker" x="284" y="122" width="90" height="80"/>
+      <use href="#dailbert" x="30" y="118" width="110" height="143"/>
+      <use href="#doug" x="120" y="118" width="110" height="143"/>
+      <rect x="42" y="248" width="90" height="34" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <rect x="50" y="256" width="18" height="18" fill="none" stroke="#111" stroke-width="1.6"/>
+      <line x1="315" y1="132" x2="278" y2="60" stroke="#111" stroke-width="1.3" stroke-dasharray="4 3"/>
+      <g>
+        <rect x="196" y="20" width="184" height="52" fill="#f4f1ea" stroke="#111" stroke-width="1.8"/>
+        <text x="288" y="40" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">I moved the good stapler</text>
+        <text x="288" y="58" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">to the most central drawer.</text>
+      </g>
+      <path d="M40 78 h96 v34 h-70 l-10 12 v-12 h-16 z" fill="#f4f1ea" stroke="#111" stroke-width="1.8"/>
+      <text x="88" y="99" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Which one is that?</text>
+    </g>
+  </g>
+
+  <g>
+    <rect x="416" y="2" width="400" height="336" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+    <clipPath id="clip2"><rect x="416" y="2" width="400" height="336" rx="3"/></clipPath>
+    <g clip-path="url(#clip2)">
+      <line x1="416" y1="250" x2="816" y2="250" stroke="#111" stroke-width="1.6"/>
+      <rect x="470" y="96" width="200" height="140" rx="4" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+      <rect x="560" y="236" width="20" height="16" fill="#e6e2d8" stroke="#111" stroke-width="1.6"/>
+      <rect x="536" y="252" width="68" height="7" fill="#e6e2d8" stroke="#111" stroke-width="1.6"/>
+      <g stroke="#111" stroke-width="1">
+        <rect x="486" y="118" width="168" height="96" fill="#f4f1ea"/>
+      </g>
+      <g>
+        <rect x="486" y="118" width="28" height="24" fill="#f4f1ea"/>
+        <rect x="514" y="142" width="28" height="24" fill="#ddd8cc"/>
+        <rect x="542" y="142" width="28" height="24" fill="#c7c1b2"/>
+        <rect x="570" y="142" width="28" height="24" fill="#ddd8cc"/>
+        <rect x="542" y="166" width="28" height="24" fill="#ddd8cc"/>
+        <rect x="542" y="118" width="28" height="24" fill="#ddd8cc"/>
+        <rect x="542" y="142" width="28" height="24" fill="#9c968a"/>
+      </g>
+      <g stroke="#111" stroke-width="0.9" fill="none">
+        <line x1="514" y1="118" x2="514" y2="214"/><line x1="542" y1="118" x2="542" y2="214"/>
+        <line x1="570" y1="118" x2="570" y2="214"/><line x1="598" y1="118" x2="598" y2="214"/><line x1="626" y1="118" x2="626" y2="214"/>
+        <line x1="486" y1="142" x2="654" y2="142"/><line x1="486" y1="166" x2="654" y2="166"/><line x1="486" y1="190" x2="654" y2="190"/>
+      </g>
+      <rect x="486" y="118" width="168" height="96" fill="none" stroke="#111" stroke-width="1.6"/>
+      <text x="570" y="112" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="11" fill="#111">STAPLER PROXIMITY — LIVE</text>
+      <text x="570" y="182" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="10" fill="#f4f1ea">HERE</text>
+      <use href="#boss" x="672" y="120" width="104" height="135"/>
+      <use href="#doug" x="738" y="128" width="96" height="125"/>
+      <path d="M690 30 h108 v40 h-72 l-9 12 v-12 h-27 z" fill="#f4f1ea" stroke="#111" stroke-width="1.8"/>
+      <text x="744" y="48" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111">Beautiful. Look at</text>
+      <text x="744" y="64" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111">that hot spot.</text>
+      <line x1="500" y1="130" x2="470" y2="86" stroke="#111" stroke-width="1.2" stroke-dasharray="4 3"/>
+      <rect x="424" y="52" width="130" height="34" fill="#f4f1ea" stroke="#111" stroke-width="1.8"/>
+      <text x="489" y="66" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="12" fill="#111">Darker means closer.</text>
+      <text x="489" y="80" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="12" fill="#111">It is very close.</text>
+    </g>
+  </g>
+
+  <g>
+    <rect x="830" y="2" width="396" height="336" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+    <clipPath id="clip3"><rect x="830" y="2" width="396" height="336" rx="3"/></clipPath>
+    <g clip-path="url(#clip3)">
+      <line x1="830" y1="250" x2="1226" y2="250" stroke="#111" stroke-width="1.6"/>
+      <rect x="1150" y="150" width="72" height="54" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="1.6"/>
+      <g stroke="#111" stroke-width="0.7" fill="none">
+        <line x1="1162" y1="162" x2="1162" y2="196"/><line x1="1178" y1="162" x2="1178" y2="196"/><line x1="1194" y1="162" x2="1194" y2="196"/>
+        <line x1="1152" y1="172" x2="1220" y2="172"/><line x1="1152" y1="186" x2="1220" y2="186"/>
+      </g>
+      <rect x="1170" y="172" width="16" height="14" fill="#9c968a"/>
+      <use href="#dailbert" x="1102" y="150" width="70" height="91"/>
+      <rect x="852" y="222" width="150" height="30" fill="#e6e2d8" stroke="#111" stroke-width="1.8"/>
+      <use href="#priya" x="856" y="96" width="150" height="195"/>
+      <path d="M968 200 q28 -6 36 8 l2 22 h-40 z" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <path d="M968 200 q18 -3 36 8" fill="none" stroke="#111" stroke-width="1.6"/>
+      <rect x="892" y="224" width="46" height="14" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+      <rect x="892" y="216" width="46" height="10" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+      <rect x="880" y="238" width="60" height="10" fill="#f4f1ea" stroke="#111" stroke-width="1.6"/>
+      <path d="M910 216 q6 -8 14 -2" fill="none" stroke="#111" stroke-width="1.6"/>
+      <path d="M868 60 h132 v46 h-70 l-10 12 v-12 h-52 z" fill="#f4f1ea" stroke="#111" stroke-width="1.8"/>
+      <text x="934" y="80" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">I bring my own.</text>
+      <text x="934" y="98" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">It stays central.</text>
+      <path d="M1064 118 h108 v30 h-40 l-8 10 v-10 h-60 z" fill="#f4f1ea" stroke="#111" stroke-width="1.6"/>
+      <text x="1118" y="137" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="12" fill="#111">Still buffering.</text>
+    </g>
+  </g>
+</svg>

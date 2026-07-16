@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 340" width="1228" height="340">
+  <defs>
+    <!-- ===================== SYMBOLS ===================== -->
+
+    <!-- DAILBERT -->
+    <symbol id="dailbert" viewBox="0 0 120 170">
+      <ellipse cx="60" cy="42" rx="30" ry="34" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M60 8 q11 -9 5 3 q-2 6 -9 3" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="49" cy="42" r="7.5" fill="#fff" stroke="#111" stroke-width="2.2"/>
+      <circle cx="71" cy="42" r="7.5" fill="#fff" stroke="#111" stroke-width="2.2"/>
+      <line x1="56.5" y1="42" x2="63.5" y2="42" stroke="#111" stroke-width="2.2"/>
+      <circle cx="49" cy="42" r="1.8" fill="#111"/>
+      <circle cx="71" cy="42" r="1.8" fill="#111"/>
+      <path d="M52 60 q8 5 16 0" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M44 76 L76 76 L84 152 L36 152 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M60 76 L54 96 L60 104 L66 96 Z" fill="#111"/>
+      <line x1="60" y1="76" x2="60" y2="84" stroke="#111" stroke-width="2.2"/>
+    </symbol>
+
+    <!-- DOUG -->
+    <symbol id="doug" viewBox="0 0 140 170">
+      <circle cx="62" cy="44" r="36" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <circle cx="50" cy="42" r="2.7" fill="#111"/>
+      <circle cx="74" cy="42" r="2.7" fill="#111"/>
+      <path d="M46 54 q16 16 32 0" fill="none" stroke="#111" stroke-width="2.6" stroke-linecap="round"/>
+      <path d="M42 80 L82 80 L90 154 L34 154 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+      <!-- mug arm -->
+      <path d="M84 102 q22 4 30 20" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <rect x="108" y="118" width="20" height="17" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M128 122 q7 2 0 9" fill="none" stroke="#111" stroke-width="2.5"/>
+      <path d="M113 118 q1 -6 6 -6" fill="none" stroke="#111" stroke-width="1.6"/>
+    </symbol>
+
+    <!-- THE CLANKER (inside a surface only) -->
+    <symbol id="clanker" viewBox="0 0 120 110">
+      <line x1="60" y1="4" x2="60" y2="18" stroke="#3a5a6a" stroke-width="2.4"/>
+      <circle cx="60" cy="4" r="3.2" fill="#5a7a8a"/>
+      <rect x="26" y="18" width="68" height="56" rx="8" fill="#c9d4d8" stroke="#3a5a6a" stroke-width="2.6"/>
+      <rect x="34" y="36" width="20" height="12" rx="3" fill="#0f2a33" stroke="#3a5a6a" stroke-width="1.6"/>
+      <rect x="66" y="36" width="20" height="12" rx="3" fill="#0f2a33" stroke="#3a5a6a" stroke-width="1.6"/>
+      <rect x="36.5" y="38.5" width="7" height="7" rx="1.5" fill="#8fd6e8"/>
+      <rect x="68.5" y="38.5" width="7" height="7" rx="1.5" fill="#8fd6e8"/>
+      <rect x="40" y="58" width="40" height="9" rx="2" fill="#0f2a33" stroke="#3a5a6a" stroke-width="1.6"/>
+      <line x1="46" y1="58" x2="46" y2="67" stroke="#5a7a8a" stroke-width="1.4"/>
+      <line x1="54" y1="58" x2="54" y2="67" stroke="#5a7a8a" stroke-width="1.4"/>
+      <line x1="62" y1="58" x2="62" y2="67" stroke="#5a7a8a" stroke-width="1.4"/>
+      <line x1="70" y1="58" x2="70" y2="67" stroke="#5a7a8a" stroke-width="1.4"/>
+    </symbol>
+
+    <!-- BIKE RACK (upright loops) -->
+    <symbol id="rack" viewBox="0 0 220 100">
+      <line x1="14" y1="90" x2="206" y2="90" stroke="#111" stroke-width="3.4" stroke-linecap="round"/>
+      <path d="M34 90 L34 34 q0 -16 16 -16 q16 0 16 16 L66 90" fill="none" stroke="#111" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M96 90 L96 34 q0 -16 16 -16 q16 0 16 16 L128 90" fill="none" stroke="#111" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M158 90 L158 34 q0 -16 16 -16 q16 0 16 16 L190 90" fill="none" stroke="#111" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+  </defs>
+
+  <!-- background paper -->
+  <rect x="0" y="0" width="1228" height="340" fill="#f4f1ea"/>
+
+  <!-- ===================== PANEL 1 ===================== -->
+  <g>
+    <rect x="1.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <clipPath id="c1"><rect x="3" y="3" width="394" height="334" rx="3"/></clipPath>
+    <g clip-path="url(#c1)">
+      <!-- grey Thursday sky -->
+      <rect x="3" y="3" width="394" height="150" fill="#e3e0d8"/>
+      <line x1="30" y1="30" x2="130" y2="30" stroke="#cbc7bd" stroke-width="4"/>
+      <line x1="90" y1="50" x2="210" y2="50" stroke="#cbc7bd" stroke-width="4"/>
+      <line x1="250" y1="34" x2="360" y2="34" stroke="#cbc7bd" stroke-width="4"/>
+      <!-- ground -->
+      <rect x="3" y="258" width="394" height="79" fill="#e7e2d6"/>
+      <line x1="3" y1="258" x2="397" y2="258" stroke="#111" stroke-width="2"/>
+
+      <!-- wobbly rack, tilted -->
+      <g transform="translate(60 168) rotate(-6)">
+        <use href="#rack" width="240" height="109"/>
+      </g>
+      <!-- wobble motion marks -->
+      <path d="M118 150 q-7 -6 0 -13" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round"/>
+      <path d="M132 148 q7 -6 0 -13" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round"/>
+      <!-- loose-bolt circle -->
+      <circle cx="86" cy="256" r="10" fill="none" stroke="#111" stroke-width="2" stroke-dasharray="3 3"/>
+
+      <!-- Dailbert giving it a nudge -->
+      <use href="#dailbert" x="236" y="130" width="130" height="184"/>
+      <line x1="248" y1="230" x2="196" y2="220" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+
+      <!-- Dailbert balloon -->
+      <rect x="192" y="150" width="120" height="46" rx="12" fill="#fff" stroke="#111" stroke-width="2"/>
+      <path d="M236 196 l-3 15 l16 -11 z" fill="#fff" stroke="#111" stroke-width="2"/>
+      <text x="252" y="169" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Rack's wobbly</text>
+      <text x="252" y="187" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">again.</text>
+    </g>
+  </g>
+
+  <!-- ===================== PANEL 2 ===================== -->
+  <g>
+    <rect x="415.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <clipPath id="c2"><rect x="417" y="3" width="394" height="334" rx="3"/></clipPath>
+    <g clip-path="url(#c2)">
+      <rect x="417" y="3" width="394" height="150" fill="#e3e0d8"/>
+      <line x1="450" y1="34" x2="560" y2="34" stroke="#cbc7bd" stroke-width="4"/>
+      <line x1="640" y1="48" x2="770" y2="48" stroke="#cbc7bd" stroke-width="4"/>
+      <rect x="417" y="262" width="394" height="75" fill="#e7e2d6"/>
+      <line x1="417" y1="262" x2="811" y2="262" stroke="#111" stroke-width="2"/>
+
+      <!-- outdoor info kiosk / dark glass panel: the clanker's surface -->
+      <rect x="454" y="40" width="104" height="82" rx="4" fill="#0f2a33" stroke="#111" stroke-width="3"/>
+      <rect x="461" y="47" width="90" height="68" rx="3" fill="#12333d"/>
+      <use href="#clanker" x="466" y="52" width="80" height="73"/>
+      <rect x="500" y="122" width="12" height="70" fill="#0f2a33" stroke="#111" stroke-width="2.5"/>
+      <rect x="482" y="192" width="48" height="10" rx="2" fill="#0f2a33" stroke="#111" stroke-width="2.5"/>
+
+      <!-- clanker balloon, dashed to its glass -->
+      <line x1="556" y1="70" x2="574" y2="52" stroke="#111" stroke-width="1.4" stroke-dasharray="4 4"/>
+      <rect x="572" y="18" width="222" height="86" rx="2" fill="#fff" stroke="#111" stroke-width="2"/>
+      <text x="683" y="40" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">I can commission a</text>
+      <text x="683" y="58" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">rack-optimization study.</text>
+      <text x="683" y="82" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Findings by Tuesday.</text>
+
+      <!-- Doug crouched holding the rack steady -->
+      <use href="#doug" x="452" y="176" width="146" height="160"/>
+      <!-- Dailbert kneeling at the base with a wrench -->
+      <use href="#dailbert" x="614" y="176" width="130" height="176"/>
+      <!-- wrench on the bolt -->
+      <line x1="676" y1="252" x2="676" y2="292" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M666 296 L686 286 L692 292 L674 302 Z" fill="#f4f1ea" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+      <circle cx="670" cy="300" r="5" fill="none" stroke="#111" stroke-width="2"/>
+
+      <!-- Doug's balloon -->
+      <rect x="446" y="150" width="132" height="46" rx="12" fill="#fff" stroke="#111" stroke-width="2"/>
+      <path d="M540 196 l6 16 l14 -13 z" fill="#fff" stroke="#111" stroke-width="2"/>
+      <text x="512" y="169" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Or... hold still,</text>
+      <text x="512" y="187" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">I got it.</text>
+    </g>
+  </g>
+
+  <!-- ===================== PANEL 3 ===================== -->
+  <g>
+    <rect x="829.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <clipPath id="c3"><rect x="831" y="3" width="394" height="334" rx="3"/></clipPath>
+    <g clip-path="url(#c3)">
+      <rect x="831" y="3" width="394" height="150" fill="#e3e0d8"/>
+      <line x1="860" y1="30" x2="960" y2="30" stroke="#cbc7bd" stroke-width="4"/>
+      <line x1="1070" y1="46" x2="1180" y2="46" stroke="#cbc7bd" stroke-width="4"/>
+      <rect x="831" y="262" width="394" height="75" fill="#e7e2d6"/>
+      <line x1="831" y1="262" x2="1225" y2="262" stroke="#111" stroke-width="2"/>
+
+      <!-- fixed rack: dead straight -->
+      <g transform="translate(878 168)">
+        <use href="#rack" width="240" height="109"/>
+      </g>
+      <!-- solid ticks -->
+      <path d="M905 176 l7 -7 M916 176 l7 -7" stroke="#111" stroke-width="2" stroke-linecap="round"/>
+
+      <!-- Dailbert standing, done, wrench in hand -->
+      <use href="#dailbert" x="888" y="150" width="130" height="184"/>
+      <line x1="912" y1="230" x2="900" y2="256" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M892 258 L906 250 L910 256 L896 264 Z" fill="#f4f1ea" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+
+      <!-- Doug beside, mug up, content -->
+      <use href="#doug" x="1024" y="152" width="146" height="176"/>
+
+      <!-- Doug's warm button -->
+      <rect x="1052" y="150" width="160" height="44" rx="12" fill="#fff" stroke="#111" stroke-width="2"/>
+      <path d="M1120 194 l4 16 l14 -12 z" fill="#fff" stroke="#111" stroke-width="2"/>
+      <text x="1132" y="168" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Beat the study by</text>
+      <text x="1132" y="185" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">four days.</text>
+
+      <!-- Dailbert deadpan -->
+      <rect x="856" y="126" width="122" height="30" rx="10" fill="#fff" stroke="#111" stroke-width="2"/>
+      <path d="M910 156 l-3 14 l15 -10 z" fill="#fff" stroke="#111" stroke-width="2"/>
+      <text x="917" y="146" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">One bolt.</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,206 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 340" width="1228" height="340">
+  <defs>
+    <!-- ===================== SYMBOLS ===================== -->
+
+    <!-- DAILBERT -->
+    <symbol id="dailbert" viewBox="0 0 120 170">
+      <ellipse cx="60" cy="42" rx="30" ry="34" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <path d="M60 8 q7 -9 2 -15 q10 3 5 14" fill="none" stroke="#111" stroke-width="2.6" stroke-linecap="round"/>
+      <circle cx="49" cy="42" r="8" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+      <circle cx="71" cy="42" r="8" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+      <line x1="57" y1="42" x2="63" y2="42" stroke="#111" stroke-width="2.4"/>
+      <line x1="41" y1="41" x2="35" y2="39" stroke="#111" stroke-width="2.4" stroke-linecap="round"/>
+      <line x1="79" y1="41" x2="85" y2="39" stroke="#111" stroke-width="2.4" stroke-linecap="round"/>
+      <circle cx="49" cy="42" r="1.8" fill="#111"/>
+      <circle cx="71" cy="42" r="1.8" fill="#111"/>
+      <path d="M52 60 q8 6 16 0" fill="none" stroke="#111" stroke-width="2.4" stroke-linecap="round"/>
+      <path d="M36 74 q24 16 48 0 l6 60 q-30 12 -60 0 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.6" stroke-linejoin="round"/>
+      <path d="M60 76 l-7 12 l7 8 l7 -8 Z" fill="#111"/>
+      <path d="M60 96 l0 26" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+    </symbol>
+
+    <!-- DOUG -->
+    <symbol id="doug" viewBox="0 0 120 170">
+      <circle cx="60" cy="44" r="34" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <path d="M50 16 q10 -6 20 0" fill="none" stroke="#111" stroke-width="2.4" stroke-linecap="round"/>
+      <circle cx="50" cy="42" r="3" fill="#111"/>
+      <circle cx="72" cy="42" r="3" fill="#111"/>
+      <path d="M46 54 q15 18 30 0" fill="none" stroke="#111" stroke-width="2.6" stroke-linecap="round"/>
+      <path d="M40 78 q20 12 40 0 l5 58 q-25 10 -50 0 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.6" stroke-linejoin="round"/>
+    </symbol>
+
+    <!-- PRIYA -->
+    <symbol id="priya" viewBox="0 0 120 170">
+      <ellipse cx="60" cy="46" rx="29" ry="32" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <path d="M31 44 q-4 -30 29 -32 q33 2 29 32 q-6 -14 -14 -14 q4 8 -2 12 q-4 -12 -13 -12 q-9 0 -13 12 q-6 -4 -2 -12 q-8 0 -14 14 Z" fill="#111"/>
+      <path d="M31 46 q-3 12 2 22 q-8 -8 -6 -22 Z" fill="#111"/>
+      <path d="M89 46 q3 12 -2 22 q8 -8 6 -22 Z" fill="#111"/>
+      <rect x="41" y="42" width="16" height="12" rx="2.5" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+      <rect x="63" y="42" width="16" height="12" rx="2.5" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+      <line x1="57" y1="47" x2="63" y2="47" stroke="#111" stroke-width="2.2"/>
+      <circle cx="49" cy="48" r="1.8" fill="#111"/>
+      <circle cx="71" cy="48" r="1.8" fill="#111"/>
+      <path d="M53 64 q7 4 14 0" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M38 78 q22 13 44 0 l6 58 q-28 11 -56 0 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.6" stroke-linejoin="round"/>
+      <path d="M44 96 l-6 22" stroke="#111" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+      <path d="M76 96 l6 22" stroke="#111" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+    </symbol>
+
+    <!-- THE BOSS -->
+    <symbol id="boss" viewBox="0 0 120 170">
+      <ellipse cx="60" cy="48" rx="28" ry="30" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <path d="M40 26 l-6 -22 l14 16 Z" fill="#111"/>
+      <path d="M80 26 l6 -22 l-14 16 Z" fill="#111"/>
+      <path d="M40 26 q20 -10 40 0" fill="none" stroke="#111" stroke-width="2.4"/>
+      <circle cx="51" cy="48" r="1.8" fill="#111"/>
+      <circle cx="69" cy="48" r="1.8" fill="#111"/>
+      <path d="M53 62 q7 3 14 0" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M38 80 q22 12 44 0 l6 56 q-28 11 -56 0 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.6" stroke-linejoin="round"/>
+      <path d="M60 82 l-6 10 l6 7 l6 -7 Z" fill="#111"/>
+      <path d="M60 99 l0 22" stroke="#111" stroke-width="3.5" stroke-linecap="round"/>
+    </symbol>
+
+    <!-- COFFEE MUG -->
+    <symbol id="mug" viewBox="0 0 60 60">
+      <rect x="10" y="18" width="34" height="30" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <path d="M44 24 q12 0 12 10 q0 10 -12 10" fill="none" stroke="#111" stroke-width="2.6"/>
+      <path d="M14 18 q13 6 26 0" fill="none" stroke="#111" stroke-width="2.2"/>
+    </symbol>
+
+    <!-- THE CLANKER -->
+    <symbol id="clanker" viewBox="0 0 120 120">
+      <line x1="60" y1="6" x2="60" y2="20" stroke="#111" stroke-width="2.4" stroke-linecap="round"/>
+      <circle cx="60" cy="5" r="4" fill="#111"/>
+      <rect x="26" y="20" width="68" height="58" rx="9" fill="#dfe3e6" stroke="#111" stroke-width="2.8"/>
+      <rect x="35" y="36" width="20" height="12" rx="2.5" fill="#111"/>
+      <rect x="65" y="36" width="20" height="12" rx="2.5" fill="#111"/>
+      <rect x="38" y="39" width="9" height="6" rx="1.5" fill="#bfe4ff"/>
+      <rect x="68" y="39" width="9" height="6" rx="1.5" fill="#bfe4ff"/>
+      <g stroke="#111" stroke-width="2.4" stroke-linecap="round">
+        <line x1="40" y1="62" x2="80" y2="62"/>
+        <line x1="44" y1="56" x2="44" y2="68"/>
+        <line x1="52" y1="56" x2="52" y2="68"/>
+        <line x1="60" y1="56" x2="60" y2="68"/>
+        <line x1="68" y1="56" x2="68" y2="68"/>
+        <line x1="76" y1="56" x2="76" y2="68"/>
+      </g>
+    </symbol>
+
+    <!-- COMPLIANCE TAG -->
+    <symbol id="tag" viewBox="0 0 90 54">
+      <path d="M4 27 l18 -22 h60 a4 4 0 0 1 4 4 v36 a4 4 0 0 1 -4 4 h-60 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.4" stroke-linejoin="round"/>
+      <circle cx="20" cy="27" r="4" fill="none" stroke="#111" stroke-width="2.2"/>
+    </symbol>
+  </defs>
+
+  <!-- ============ PANEL FRAMES ============ -->
+  <rect x="1" y="1" width="398" height="338" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+  <rect x="415" y="1" width="398" height="338" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+  <rect x="829" y="1" width="398" height="338" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+
+  <!-- ==================================================== -->
+  <!-- PANEL 1 : Doug's yogurt gets tagged -->
+  <!-- ==================================================== -->
+  <g>
+    <line x1="12" y1="300" x2="388" y2="300" stroke="#111" stroke-width="2.4"/>
+
+    <!-- monitor with clanker -->
+    <rect x="250" y="152" width="120" height="96" rx="6" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+    <rect x="258" y="160" width="104" height="80" rx="4" fill="#eef1f3" stroke="#111" stroke-width="1.6"/>
+    <use href="#clanker" x="255" y="152" width="112" height="112"/>
+    <rect x="298" y="248" width="24" height="12" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+    <rect x="278" y="260" width="64" height="8" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+
+    <!-- Doug holding a yogurt cup -->
+    <use href="#doug" x="40" y="130" width="120" height="170"/>
+    <g>
+      <path d="M96 216 l4 34 h26 l4 -34 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.4" stroke-linejoin="round"/>
+      <rect x="93" y="211" width="40" height="7" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+      <text x="113" y="236" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="9" text-anchor="middle" fill="#111">YOGURT</text>
+    </g>
+    <use href="#tag" x="120" y="224" width="70" height="42"/>
+    <text x="158" y="242" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="8.5" text-anchor="middle" fill="#111">PAST DUE</text>
+    <text x="158" y="253" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="8.5" text-anchor="middle" fill="#111">FOR REVIEW</text>
+
+    <!-- clanker balloon (screen-edged, dashed to monitor) -->
+    <line x1="300" y1="152" x2="270" y2="122" stroke="#111" stroke-width="1.2" stroke-dasharray="4 3"/>
+    <rect x="146" y="26" width="176" height="72" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+    <text x="234" y="48" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" text-anchor="middle" fill="#111">New policy: anything</text>
+    <text x="234" y="65" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" text-anchor="middle" fill="#111">with a date gets a</text>
+    <text x="234" y="82" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" text-anchor="middle" fill="#111">compliance check.</text>
+  </g>
+
+  <!-- ==================================================== -->
+  <!-- PANEL 2 : plant + Boss's mug tagged -->
+  <!-- ==================================================== -->
+  <g>
+    <line x1="426" y1="300" x2="802" y2="300" stroke="#111" stroke-width="2.4"/>
+
+    <!-- houseplant -->
+    <g>
+      <path d="M470 262 l6 38 h34 l6 -38 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.6" stroke-linejoin="round"/>
+      <path d="M493 262 q-6 -34 -22 -44 q18 4 22 30 q4 -30 22 -34 q-14 14 -14 48" fill="none" stroke="#111" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M493 250 q14 -22 30 -22 q-16 10 -20 30" fill="none" stroke="#111" stroke-width="2.4" stroke-linecap="round"/>
+    </g>
+    <use href="#tag" x="500" y="238" width="64" height="38"/>
+    <text x="534" y="261" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="9" text-anchor="middle" fill="#111">PAST DUE</text>
+
+    <!-- Boss's motivational mug, tagged -->
+    <use href="#mug" x="598" y="240" width="80" height="80"/>
+    <text x="621" y="286" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="8.5" text-anchor="middle" fill="#111">HANG</text>
+    <text x="621" y="295" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="8.5" text-anchor="middle" fill="#111">IN THERE</text>
+    <use href="#tag" x="638" y="250" width="60" height="36"/>
+    <text x="670" y="272" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="8.5" text-anchor="middle" fill="#111">PAST DUE</text>
+
+    <!-- Boss reacting -->
+    <use href="#boss" x="644" y="122" width="120" height="170"/>
+
+    <!-- wall screen with clanker -->
+    <rect x="452" y="30" width="118" height="86" rx="6" fill="#e7e9ea" stroke="#111" stroke-width="2.4"/>
+    <use href="#clanker" x="455" y="20" width="112" height="112"/>
+
+    <!-- Boss balloon -->
+    <path d="M604 128 h96 q18 0 18 18 v20 q0 18 -18 18 h-56 l-14 14 l2 -14 h-30 q-18 0 -18 -18 v-20 q0 -18 18 -18 Z" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+    <text x="660" y="152" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" text-anchor="middle" fill="#111">That mug is a</text>
+    <text x="660" y="169" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" text-anchor="middle" fill="#111">motivational asset.</text>
+
+    <!-- clanker reply, dashed to wall screen -->
+    <line x1="511" y1="116" x2="500" y2="212" stroke="#111" stroke-width="1.2" stroke-dasharray="4 3"/>
+    <rect x="438" y="212" width="154" height="52" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+    <text x="515" y="233" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="12.5" text-anchor="middle" fill="#111">It has a date on the</text>
+    <text x="515" y="250" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="12.5" text-anchor="middle" fill="#111">bottom, like all mugs.</text>
+  </g>
+
+  <!-- ==================================================== -->
+  <!-- PANEL 3 : Priya wins -->
+  <!-- ==================================================== -->
+  <g>
+    <line x1="840" y1="300" x2="1216" y2="300" stroke="#111" stroke-width="2.4"/>
+
+    <!-- Priya at a laptop -->
+    <use href="#priya" x="850" y="128" width="120" height="170"/>
+    <path d="M903 256 h70 l10 40 h-90 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.4" stroke-linejoin="round"/>
+    <rect x="910" y="218" width="64" height="42" rx="3" fill="#eef1f3" stroke="#111" stroke-width="2.4"/>
+    <use href="#clanker" x="914" y="208" width="56" height="56"/>
+
+    <!-- Doug in back, still content, mug -->
+    <use href="#doug" x="1060" y="150" width="108" height="150"/>
+    <use href="#mug" x="1142" y="232" width="54" height="54"/>
+
+    <!-- a tag on the desk -->
+    <use href="#tag" x="982" y="182" width="62" height="38"/>
+    <text x="1015" y="205" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="9" text-anchor="middle" fill="#111">PAST DUE</text>
+
+    <!-- Priya balloon -->
+    <path d="M866 24 h108 q20 0 20 20 v24 q0 20 -20 20 h-58 l-16 16 l3 -16 h-37 q-20 0 -20 -20 v-24 q0 -20 20 -20 Z" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+    <text x="948" y="44" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" text-anchor="middle" fill="#111">I set the review</text>
+    <text x="948" y="61" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" text-anchor="middle" fill="#111">interval to a</text>
+    <text x="948" y="78" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" text-anchor="middle" fill="#111">hundred years.</text>
+
+    <!-- clanker reply, dashed to laptop -->
+    <line x1="942" y1="214" x2="1030" y2="238" stroke="#111" stroke-width="1.2" stroke-dasharray="4 3"/>
+    <rect x="1008" y="238" width="198" height="52" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+    <text x="1107" y="259" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="12.5" text-anchor="middle" fill="#111">Understood. Nothing</text>
+    <text x="1107" y="276" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="12.5" text-anchor="middle" fill="#111">is due until 2126.</text>
+  </g>
+</svg>
