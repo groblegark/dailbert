@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 340" width="1228" height="340">
+  <defs>
+    <!-- ================= SYMBOLS ================= -->
+
+    <!-- PRIYA -->
+    <symbol id="priya" viewBox="0 0 120 170">
+      <!-- hair back -->
+      <path d="M32 44 Q28 16 60 12 Q92 16 88 44 Q92 30 88 22 Q80 6 60 6 Q40 6 32 22 Q28 30 32 44Z" fill="#111"/>
+      <!-- bun / pulled up curls -->
+      <circle cx="60" cy="9" r="9" fill="#111"/>
+      <circle cx="49" cy="12" r="6" fill="#111"/>
+      <circle cx="71" cy="12" r="6" fill="#111"/>
+      <!-- face -->
+      <path d="M38 40 Q38 68 60 70 Q82 68 82 40 Q82 24 60 24 Q38 24 38 40Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <!-- side hair -->
+      <path d="M38 40 Q30 34 34 20 Q42 26 40 42Z" fill="#111"/>
+      <path d="M82 40 Q90 34 86 20 Q78 26 80 42Z" fill="#111"/>
+      <!-- rectangular glasses -->
+      <rect x="42" y="40" width="14" height="10" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <rect x="64" y="40" width="14" height="10" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <line x1="56" y1="45" x2="64" y2="45" stroke="#111" stroke-width="2"/>
+      <!-- eyes -->
+      <circle cx="49" cy="45" r="1.8" fill="#111"/>
+      <circle cx="71" cy="45" r="1.8" fill="#111"/>
+      <!-- calm mouth -->
+      <path d="M53 60 Q60 63 67 60" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round"/>
+      <!-- neck -->
+      <rect x="54" y="68" width="12" height="10" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <!-- torso, sleeves rolled -->
+      <path d="M40 80 Q60 74 80 80 L86 150 L34 150 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <!-- rolled sleeve cuffs -->
+      <path d="M40 80 L30 118 L44 122 L48 88Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M80 80 L90 118 L76 122 L72 88Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <line x1="30" y1="118" x2="44" y2="122" stroke="#111" stroke-width="2.5"/>
+      <line x1="90" y1="118" x2="76" y2="122" stroke="#111" stroke-width="2.5"/>
+      <!-- collar -->
+      <path d="M54 78 L60 88 L66 78" fill="none" stroke="#111" stroke-width="2"/>
+    </symbol>
+
+    <!-- RUBBER DUCK -->
+    <symbol id="duck" viewBox="0 0 60 50">
+      <ellipse cx="30" cy="38" rx="22" ry="11" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <circle cx="20" cy="20" r="12" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <!-- beak -->
+      <path d="M8 19 Q-2 20 8 25 Q12 23 12 21Z" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <!-- eye -->
+      <circle cx="18" cy="17" r="1.8" fill="#111"/>
+      <!-- wing -->
+      <path d="M34 34 Q44 32 40 42" fill="none" stroke="#111" stroke-width="2"/>
+      <!-- tail -->
+      <path d="M50 36 Q56 30 52 40" fill="none" stroke="#111" stroke-width="2"/>
+    </symbol>
+
+    <!-- CLANKER (inside a surface) -->
+    <symbol id="clanker" viewBox="0 0 100 90">
+      <!-- head box -->
+      <rect x="18" y="24" width="64" height="52" rx="7" fill="#1a1a1a" stroke="#555" stroke-width="2"/>
+      <!-- antenna -->
+      <line x1="50" y1="24" x2="50" y2="10" stroke="#888" stroke-width="2.5"/>
+      <circle cx="50" cy="8" r="3.5" fill="#9fb7c9"/>
+      <!-- slot eyes glowing -->
+      <rect x="28" y="38" width="16" height="7" rx="3.5" fill="#bfe0ff"/>
+      <rect x="56" y="38" width="16" height="7" rx="3.5" fill="#bfe0ff"/>
+      <!-- grille mouth -->
+      <rect x="32" y="56" width="36" height="12" rx="2" fill="#2a2a2a" stroke="#555" stroke-width="1.5"/>
+      <line x1="38" y1="56" x2="38" y2="68" stroke="#666" stroke-width="1.5"/>
+      <line x1="44" y1="56" x2="44" y2="68" stroke="#666" stroke-width="1.5"/>
+      <line x1="50" y1="56" x2="50" y2="68" stroke="#666" stroke-width="1.5"/>
+      <line x1="56" y1="56" x2="56" y2="68" stroke="#666" stroke-width="1.5"/>
+      <line x1="62" y1="56" x2="62" y2="68" stroke="#666" stroke-width="1.5"/>
+    </symbol>
+
+    <!-- DESK MONITOR -->
+    <symbol id="monitor" viewBox="0 0 140 120">
+      <rect x="10" y="6" width="120" height="82" rx="5" fill="#111" stroke="#111" stroke-width="3"/>
+      <rect x="16" y="12" width="108" height="70" rx="2" fill="#0f0f0f"/>
+      <rect x="62" y="88" width="16" height="16" fill="#111"/>
+      <rect x="40" y="103" width="60" height="8" rx="3" fill="#111"/>
+    </symbol>
+  </defs>
+
+  <!-- ================= PANEL 1 ================= -->
+  <g>
+    <rect x="1.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
+    <clipPath id="clip1"><rect x="3" y="3" width="394" height="334" rx="3"/></clipPath>
+    <g clip-path="url(#clip1)">
+      <!-- desk -->
+      <rect x="0" y="255" width="400" height="85" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="255" x2="400" y2="255" stroke="#111" stroke-width="2.5"/>
+      <!-- monitor on desk -->
+      <use href="#monitor" x="35" y="150" width="120" height="103"/>
+      <!-- code lines on screen -->
+      <line x1="52" y1="172" x2="120" y2="172" stroke="#3a5a4a" stroke-width="2"/>
+      <line x1="52" y1="182" x2="140" y2="182" stroke="#3a5a4a" stroke-width="2"/>
+      <line x1="60" y1="192" x2="110" y2="192" stroke="#3a5a4a" stroke-width="2"/>
+      <line x1="52" y1="202" x2="132" y2="202" stroke="#3a5a4a" stroke-width="2"/>
+      <!-- Priya -->
+      <use href="#priya" x="210" y="120" width="120" height="170"/>
+      <!-- duck on desk -->
+      <use href="#duck" x="168" y="228" width="60" height="50"/>
+      <!-- balloon -->
+      <g>
+        <rect x="210" y="30" width="170" height="66" rx="14" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+        <path d="M250 94 L242 116 L268 96Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+        <text x="295" y="55" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">Okay, duck. Walk me</text>
+        <text x="295" y="74" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">through this again.</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ================= PANEL 2 ================= -->
+  <g>
+    <rect x="415.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
+    <clipPath id="clip2"><rect x="417" y="3" width="394" height="334" rx="3"/></clipPath>
+    <g clip-path="url(#clip2)">
+      <!-- desk -->
+      <rect x="414" y="255" width="400" height="85" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <line x1="414" y1="255" x2="814" y2="255" stroke="#111" stroke-width="2.5"/>
+      <!-- monitor with clanker -->
+      <use href="#monitor" x="450" y="150" width="120" height="103"/>
+      <!-- screen glow hatching -->
+      <g opacity="0.5">
+        <line x1="470" y1="168" x2="550" y2="168" stroke="#33566a" stroke-width="1"/>
+        <line x1="470" y1="228" x2="550" y2="228" stroke="#33566a" stroke-width="1"/>
+      </g>
+      <use href="#clanker" x="472" y="160" width="76" height="68"/>
+      <!-- Priya, ignoring, leaning to duck -->
+      <use href="#priya" x="600" y="120" width="120" height="170"/>
+      <!-- duck on desk -->
+      <use href="#duck" x="560" y="228" width="60" height="50"/>
+      <!-- clanker balloon (rect, dashed tail to screen) -->
+      <g>
+        <rect x="470" y="24" width="238" height="88" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+        <line x1="470" y1="30" x2="708" y2="30" stroke="#111" stroke-width="1" stroke-dasharray="3 3"/>
+        <line x1="470" y1="106" x2="708" y2="106" stroke="#111" stroke-width="1" stroke-dasharray="3 3"/>
+        <text x="589" y="46" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" text-anchor="middle" fill="#111">I can be the duck. Your</text>
+        <text x="589" y="63" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" text-anchor="middle" fill="#111">retry wraps the whole</text>
+        <text x="589" y="80" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" text-anchor="middle" fill="#111">batch, so on failure it</text>
+        <text x="589" y="97" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13.5" text-anchor="middle" fill="#111">re-sends the good rows. I —</text>
+        <!-- dashed line down to monitor -->
+        <line x1="510" y1="112" x2="510" y2="155" stroke="#111" stroke-width="1" stroke-dasharray="4 4"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- ================= PANEL 3 ================= -->
+  <g>
+    <rect x="829.5" y="1.5" width="397" height="337" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="3"/>
+    <clipPath id="clip3"><rect x="831" y="3" width="394" height="334" rx="3"/></clipPath>
+    <g clip-path="url(#clip3)">
+      <!-- desk -->
+      <rect x="828" y="255" width="400" height="85" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <line x1="828" y1="255" x2="1228" y2="255" stroke="#111" stroke-width="2.5"/>
+      <!-- monitor still murmuring, small -->
+      <use href="#monitor" x="858" y="158" width="108" height="93"/>
+      <use href="#clanker" x="878" y="168" width="66" height="59"/>
+      <!-- clanker tiny trailing balloon -->
+      <g>
+        <rect x="850" y="40" width="128" height="46" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="1.5"/>
+        <text x="914" y="59" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="12" text-anchor="middle" fill="#111">— and step four also</text>
+        <text x="914" y="75" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="12" text-anchor="middle" fill="#111">re-sends the good rows —</text>
+        <line x1="880" y1="86" x2="900" y2="158" stroke="#111" stroke-width="1" stroke-dasharray="4 4"/>
+      </g>
+      <!-- Priya, pointing at her own screen, finger, holding duck -->
+      <use href="#priya" x="1020" y="120" width="120" height="170"/>
+      <!-- duck held up near Priya -->
+      <use href="#duck" x="985" y="205" width="54" height="45"/>
+      <!-- Priya balloon -->
+      <g>
+        <rect x="1010" y="26" width="200" height="66" rx="14" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+        <path d="M1060 90 L1052 112 L1078 92Z" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+        <text x="1110" y="51" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">Found it. Off-by-one.</text>
+        <text x="1110" y="72" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14.5" text-anchor="middle" fill="#111">Thanks, duck.</text>
+      </g>
+    </g>
+  </g>
+</svg>

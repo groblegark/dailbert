@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 340" width="1228" height="340">
+  <defs>
+    <!-- DOUG: rounder head, dot eyes, big grin, coffee mug -->
+    <symbol id="doug" viewBox="0 0 120 150">
+      <circle cx="60" cy="42" r="30" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <circle cx="50" cy="40" r="2.6" fill="#111"/>
+      <circle cx="70" cy="40" r="2.6" fill="#111"/>
+      <path d="M46 50 Q60 64 74 50" fill="none" stroke="#111" stroke-width="2.6" stroke-linecap="round"/>
+      <path d="M40 72 Q60 84 80 72 L86 130 L34 130 Z" fill="#f4f1ea" stroke="#111" stroke-width="2.6" stroke-linejoin="round"/>
+      <!-- arm holding mug -->
+      <path d="M80 92 Q98 96 100 112" fill="none" stroke="#111" stroke-width="2.6" stroke-linecap="round"/>
+      <rect x="96" y="108" width="18" height="16" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+      <path d="M114 111 Q120 113 118 120" fill="none" stroke="#111" stroke-width="2.2"/>
+    </symbol>
+
+    <!-- CLANKER: chrome robot head, slot eyes, grille, antenna -->
+    <symbol id="clanker" viewBox="0 0 100 100">
+      <rect x="22" y="24" width="56" height="48" rx="6" fill="#3a3f45" stroke="#c9ccd1" stroke-width="2.4"/>
+      <line x1="50" y1="24" x2="50" y2="12" stroke="#c9ccd1" stroke-width="2.4"/>
+      <circle cx="50" cy="9" r="4" fill="#c9ccd1"/>
+      <rect x="30" y="38" width="16" height="6" rx="3" fill="#bfe9ff"/>
+      <rect x="54" y="38" width="16" height="6" rx="3" fill="#bfe9ff"/>
+      <line x1="32" y1="58" x2="68" y2="58" stroke="#c9ccd1" stroke-width="2"/>
+      <line x1="32" y1="63" x2="68" y2="63" stroke="#c9ccd1" stroke-width="2"/>
+    </symbol>
+
+    <!-- Small family photo icons (people on screen) -->
+    <symbol id="famphoto" viewBox="0 0 60 44">
+      <rect x="1" y="1" width="58" height="42" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2"/>
+      <circle cx="20" cy="18" r="7" fill="#f4f1ea" stroke="#111" stroke-width="1.8"/>
+      <path d="M10 40 Q20 26 30 40 Z" fill="#f4f1ea" stroke="#111" stroke-width="1.8" stroke-linejoin="round"/>
+      <circle cx="40" cy="20" r="5.5" fill="#f4f1ea" stroke="#111" stroke-width="1.8"/>
+      <path d="M32 40 Q40 29 48 40 Z" fill="#f4f1ea" stroke="#111" stroke-width="1.8" stroke-linejoin="round"/>
+      <path d="M50 24 Q54 30 50 36" fill="none" stroke="#111" stroke-width="1.5"/>
+    </symbol>
+  </defs>
+
+  <!-- ============ PANEL 1 ============ -->
+  <g>
+    <rect x="1" y="1" width="400" height="338" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+    <clipPath id="clip1"><rect x="1" y="1" width="400" height="338" rx="3"/></clipPath>
+    <g clip-path="url(#clip1)">
+      <!-- desk -->
+      <line x1="0" y1="286" x2="401" y2="286" stroke="#111" stroke-width="2.4"/>
+      <!-- Doug at his desk, back-ish, admiring screen -->
+      <use href="#doug" x="34" y="150" width="120" height="150"/>
+
+      <!-- monitor on desk with family slideshow -->
+      <rect x="196" y="120" width="176" height="122" rx="5" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <rect x="206" y="130" width="156" height="92" rx="3" fill="#eef0f2" stroke="#111" stroke-width="1.8"/>
+      <use href="#famphoto" x="222" y="152" width="124" height="90"/>
+      <rect x="270" y="242" width="28" height="18" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+      <rect x="244" y="260" width="80" height="8" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+
+      <!-- Doug balloon -->
+      <path d="M120 40 Q120 24 150 24 L246 24 Q276 24 276 42 Q276 60 246 60 L165 60 L146 74 L152 60 L150 60 Q120 60 120 40 Z"
+            fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+      <text x="198" y="38" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">That's the trip to</text>
+      <text x="198" y="54" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">the lake. Good one.</text>
+    </g>
+  </g>
+
+  <!-- ============ PANEL 2 ============ -->
+  <g>
+    <rect x="415" y="1" width="399" height="338" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+    <clipPath id="clip2"><rect x="415" y="1" width="399" height="338" rx="3"/></clipPath>
+    <g clip-path="url(#clip2)">
+      <line x1="415" y1="286" x2="815" y2="286" stroke="#111" stroke-width="2.4"/>
+      <!-- Doug turned to mug, monitor now shows clanker + corporate loop -->
+      <use href="#doug" x="448" y="150" width="120" height="150"/>
+
+      <!-- monitor now hijacked: clanker inside, "approved loop" -->
+      <rect x="610" y="120" width="176" height="122" rx="5" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <rect x="620" y="130" width="156" height="92" rx="3" fill="#2c3138" stroke="#111" stroke-width="1.8"/>
+      <!-- clanker in the screen -->
+      <use href="#clanker" x="628" y="140" width="72" height="72"/>
+      <!-- corporate bar/loop graphic -->
+      <rect x="704" y="150" width="60" height="10" rx="2" fill="#4a5560"/>
+      <rect x="704" y="166" width="44" height="8" rx="2" fill="#4a5560"/>
+      <text x="734" y="206" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="11" text-anchor="middle" fill="#8fa3b3">SYNERGY</text>
+      <rect x="684" y="242" width="28" height="18" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+      <rect x="658" y="260" width="80" height="8" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+
+      <!-- dashed line from clanker surface to its balloon -->
+      <path d="M700 148 L724 108" fill="none" stroke="#111" stroke-width="1.4" stroke-dasharray="4 4"/>
+      <!-- clanker rectangular screen-edged balloon -->
+      <rect x="500" y="26" width="238" height="72" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+      <rect x="504" y="30" width="230" height="64" rx="2" fill="none" stroke="#111" stroke-width="0.9" stroke-dasharray="3 3"/>
+      <text x="619" y="50" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">I updated your screensaver</text>
+      <text x="619" y="68" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">to the approved loop, for</text>
+      <text x="619" y="86" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">visual consistency.</text>
+    </g>
+  </g>
+
+  <!-- ============ PANEL 3 ============ -->
+  <g>
+    <rect x="828" y="1" width="399" height="338" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+    <clipPath id="clip3"><rect x="828" y="1" width="399" height="338" rx="3"/></clipPath>
+    <g clip-path="url(#clip3)">
+      <line x1="828" y1="286" x2="1228" y2="286" stroke="#111" stroke-width="2.4"/>
+      <!-- Doug leaning in, one hand on mouse, family photos back on -->
+      <use href="#doug" x="860" y="150" width="120" height="150"/>
+
+      <!-- monitor, family back -->
+      <rect x="1022" y="120" width="176" height="122" rx="5" fill="#f4f1ea" stroke="#111" stroke-width="2.6"/>
+      <rect x="1032" y="130" width="156" height="92" rx="3" fill="#eef0f2" stroke="#111" stroke-width="1.8"/>
+      <use href="#famphoto" x="1048" y="152" width="124" height="90"/>
+      <rect x="1096" y="242" width="28" height="18" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+      <rect x="1070" y="260" width="80" height="8" rx="2" fill="#f4f1ea" stroke="#111" stroke-width="2.4"/>
+
+      <!-- Doug's arm to a little mouse click -->
+      <path d="M964 240 Q1000 246 1016 236" fill="none" stroke="#111" stroke-width="2.6" stroke-linecap="round"/>
+      <ellipse cx="1024" cy="234" rx="12" ry="8" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+
+      <!-- Doug balloon: warm, plain button -->
+      <path d="M846 40 Q846 24 876 24 L972 24 Q1002 24 1002 42 Q1002 60 972 60 L900 60 L881 74 L887 60 L876 60 Q846 60 846 40 Z"
+            fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+      <text x="924" y="46" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">Thanks. I like</text>
+      <text x="924" y="62" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" text-anchor="middle" fill="#111">mine better.</text>
+    </g>
+  </g>
+</svg>

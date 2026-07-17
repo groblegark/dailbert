@@ -1,0 +1,270 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 388" width="1228" height="388" font-family="Georgia,serif">
+    <rect width="1228" height="388" fill="#f4f1ea"/>
+    <text x="6" y="29" font-family="Georgia,serif" font-weight="bold" font-size="27" letter-spacing="2" fill="#111">DAILBERT</text>
+    <text x="1222" y="19" text-anchor="end" font-family="Georgia,serif" font-style="italic" font-size="16" fill="#111">Gut Check</text>
+    <text x="1222" y="34" text-anchor="end" font-family="'Courier New',monospace" font-size="12" fill="#111" opacity="0.65">2026-09-28</text>
+    <line x1="6" y1="37" x2="1222" y2="37" stroke="#111" stroke-width="2"/>
+    <g transform="translate(0,40)">
+  <defs>
+    <!-- ===================== SYMBOLS ===================== -->
+
+    <!-- DAILBERT -->
+    <symbol id="dailbert" viewBox="0 0 120 160">
+      <path d="M50 74 v10 h20 v-10" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+      <path d="M30 158 q0 -66 30 -76 q30 10 30 76" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M60 84 l-6 8 l6 30 l6 -30 z" fill="#111"/>
+      <ellipse cx="60" cy="42" rx="30" ry="34" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M60 8 q11 -7 4 -15 q-1 7 -8 5" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="48" cy="42" r="8.5" fill="#fff" stroke="#111" stroke-width="2.2"/>
+      <circle cx="72" cy="42" r="8.5" fill="#fff" stroke="#111" stroke-width="2.2"/>
+      <line x1="56.5" y1="42" x2="63.5" y2="42" stroke="#111" stroke-width="2.2"/>
+      <circle cx="48" cy="42" r="2" fill="#111"/>
+      <circle cx="72" cy="42" r="2" fill="#111"/>
+      <path d="M50 60 q10 5 20 0" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="round"/>
+    </symbol>
+
+    <!-- DOUG -->
+    <symbol id="doug" viewBox="0 0 120 160">
+      <path d="M30 158 q2 -64 30 -76 q28 12 30 76" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <circle cx="60" cy="44" r="34" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <circle cx="49" cy="42" r="2.8" fill="#111"/>
+      <circle cx="71" cy="42" r="2.8" fill="#111"/>
+      <path d="M43 53 q17 20 34 0" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="52" y1="82" x2="68" y2="82" stroke="#111" stroke-width="2.2"/>
+      <!-- mug -->
+      <rect x="66" y="112" width="26" height="24" rx="3" fill="#fff" stroke="#111" stroke-width="2.5"/>
+      <path d="M92 118 q10 0 10 8 q0 8 -10 8" fill="none" stroke="#111" stroke-width="2.5"/>
+      <path d="M59 118 q6 -5 10 0" fill="none" stroke="#111" stroke-width="2.2"/>
+    </symbol>
+
+    <!-- PRIYA -->
+    <symbol id="priya" viewBox="0 0 120 160">
+      <path d="M30 158 q0 -64 30 -75 q30 11 30 75" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M50 77 v7 h20 v-7" fill="#f4f1ea" stroke="#111" stroke-width="2.2"/>
+      <circle cx="60" cy="20" r="10" fill="#111"/>
+      <ellipse cx="60" cy="45" rx="30" ry="33" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+      <path d="M30 45 q-5 -31 30 -35 q35 4 30 35 q-7 -15 -30 -15 q-23 0 -30 15z" fill="#111"/>
+      <rect x="39" y="41" width="17" height="11" rx="2" fill="#fff" stroke="#111" stroke-width="2.2"/>
+      <rect x="64" y="41" width="17" height="11" rx="2" fill="#fff" stroke="#111" stroke-width="2.2"/>
+      <line x1="56" y1="46" x2="64" y2="46" stroke="#111" stroke-width="2.2"/>
+      <circle cx="47.5" cy="46.5" r="1.8" fill="#111"/>
+      <circle cx="72.5" cy="46.5" r="1.8" fill="#111"/>
+      <path d="M52 63 h16" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M35 116 q7 -6 13 0" fill="none" stroke="#111" stroke-width="2.2"/>
+      <path d="M72 116 q7 -6 13 0" fill="none" stroke="#111" stroke-width="2.2"/>
+    </symbol>
+
+    <!-- THE CLANKER -->
+    <symbol id="clanker" viewBox="0 0 120 120">
+      <line x1="60" y1="16" x2="60" y2="5" stroke="#9aa0a6" stroke-width="2.4"/>
+      <circle cx="60" cy="4" r="3" fill="#9aa0a6"/>
+      <rect x="26" y="16" width="68" height="60" rx="7" fill="#3a3f45" stroke="#9aa0a6" stroke-width="2.4"/>
+      <rect x="36" y="32" width="20" height="9" rx="4" fill="#bfe9ff"/>
+      <rect x="64" y="32" width="20" height="9" rx="4" fill="#bfe9ff"/>
+      <rect x="40" y="54" width="40" height="12" rx="3" fill="#22262b" stroke="#9aa0a6" stroke-width="1.6"/>
+      <line x1="48" y1="54" x2="48" y2="66" stroke="#9aa0a6" stroke-width="1.4"/>
+      <line x1="56" y1="54" x2="56" y2="66" stroke="#9aa0a6" stroke-width="1.4"/>
+      <line x1="64" y1="54" x2="64" y2="66" stroke="#9aa0a6" stroke-width="1.4"/>
+      <line x1="72" y1="54" x2="72" y2="66" stroke="#9aa0a6" stroke-width="1.4"/>
+    </symbol>
+
+    <!-- a single mascot doodle: blobby chrome mascot with antenna -->
+    <symbol id="mascot" viewBox="0 0 40 40">
+      <ellipse cx="20" cy="25" rx="12" ry="13" fill="#f4f1ea" stroke="#111" stroke-width="1.6"/>
+      <circle cx="15" cy="22" r="2" fill="#111"/>
+      <circle cx="25" cy="22" r="2" fill="#111"/>
+      <path d="M14 29 q6 5 12 0" fill="none" stroke="#111" stroke-width="1.6" stroke-linecap="round"/>
+      <line x1="20" y1="12" x2="20" y2="6" stroke="#111" stroke-width="1.6"/>
+      <circle cx="20" cy="5" r="1.7" fill="#111"/>
+      <path d="M9 25 l-4 3 M31 25 l4 3" fill="none" stroke="#111" stroke-width="1.6" stroke-linecap="round"/>
+    </symbol>
+  </defs>
+
+  <!-- ===================== PANEL 1 ===================== -->
+  <g>
+    <rect x="1" y="1" width="400" height="338" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <line x1="8" y1="272" x2="393" y2="272" stroke="#111" stroke-width="2.2"/>
+
+    <!-- monitor -->
+    <rect x="230" y="86" width="150" height="112" rx="6" fill="#20242a" stroke="#111" stroke-width="2.5"/>
+    <rect x="240" y="96" width="130" height="92" rx="3" fill="#2b3037"/>
+    <rect x="288" y="198" width="34" height="14" fill="#20242a" stroke="#111" stroke-width="2.2"/>
+    <rect x="268" y="212" width="74" height="8" rx="2" fill="#20242a" stroke="#111" stroke-width="2.2"/>
+    <use href="#clanker" x="254" y="98" width="104" height="104"/>
+
+    <!-- grey empty chair, quiet background -->
+    <g opacity="0.5">
+      <rect x="150" y="176" width="34" height="12" rx="3" fill="none" stroke="#9aa0a6" stroke-width="2"/>
+      <rect x="154" y="120" width="26" height="56" rx="4" fill="none" stroke="#9aa0a6" stroke-width="2"/>
+      <line x1="167" y1="188" x2="167" y2="238" stroke="#9aa0a6" stroke-width="2"/>
+    </g>
+
+    <use href="#dailbert" x="26" y="150" width="120" height="160"/>
+
+    <line x1="270" y1="90" x2="252" y2="72" stroke="#111" stroke-width="1.4" stroke-dasharray="4 3"/>
+    <rect x="94" y="18" width="182" height="56" rx="4" fill="#fff" stroke="#111" stroke-width="2"/>
+    <text x="185" y="40" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Good morning. I designed</text>
+    <text x="185" y="58" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">us a company mascot.</text>
+  </g>
+
+  <!-- ===================== PANEL 2 ===================== -->
+  <g>
+    <rect x="414" y="1" width="400" height="338" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <line x1="422" y1="272" x2="806" y2="272" stroke="#111" stroke-width="2.2"/>
+
+    <!-- big monitor filled with mascot grid -->
+    <rect x="470" y="50" width="288" height="178" rx="6" fill="#20242a" stroke="#111" stroke-width="2.5"/>
+    <rect x="480" y="58" width="268" height="158" rx="3" fill="#e9e6df"/>
+    <rect x="598" y="228" width="34" height="14" fill="#20242a" stroke="#111" stroke-width="2.2"/>
+    <rect x="578" y="242" width="74" height="8" rx="2" fill="#20242a" stroke="#111" stroke-width="2.2"/>
+    <clipPath id="gridclip"><rect x="480" y="58" width="268" height="158" rx="3"/></clipPath>
+    <g clip-path="url(#gridclip)">
+      <use href="#mascot" x="484" y="60" width="18" height="18"/>
+      <use href="#mascot" x="504" y="60" width="18" height="18"/>
+      <use href="#mascot" x="524" y="60" width="18" height="18"/>
+      <use href="#mascot" x="544" y="60" width="18" height="18"/>
+      <use href="#mascot" x="564" y="60" width="18" height="18"/>
+      <use href="#mascot" x="584" y="60" width="18" height="18"/>
+      <use href="#mascot" x="604" y="60" width="18" height="18"/>
+      <use href="#mascot" x="624" y="60" width="18" height="18"/>
+      <use href="#mascot" x="644" y="60" width="18" height="18"/>
+      <use href="#mascot" x="664" y="60" width="18" height="18"/>
+      <use href="#mascot" x="684" y="60" width="18" height="18"/>
+      <use href="#mascot" x="704" y="60" width="18" height="18"/>
+      <use href="#mascot" x="724" y="60" width="18" height="18"/>
+      <use href="#mascot" x="484" y="79" width="18" height="18"/>
+      <use href="#mascot" x="504" y="79" width="18" height="18"/>
+      <use href="#mascot" x="524" y="79" width="18" height="18"/>
+      <use href="#mascot" x="544" y="79" width="18" height="18"/>
+      <use href="#mascot" x="564" y="79" width="18" height="18"/>
+      <use href="#mascot" x="584" y="79" width="18" height="18"/>
+      <use href="#mascot" x="604" y="79" width="18" height="18"/>
+      <use href="#mascot" x="624" y="79" width="18" height="18"/>
+      <use href="#mascot" x="644" y="79" width="18" height="18"/>
+      <use href="#mascot" x="664" y="79" width="18" height="18"/>
+      <use href="#mascot" x="684" y="79" width="18" height="18"/>
+      <use href="#mascot" x="704" y="79" width="18" height="18"/>
+      <use href="#mascot" x="724" y="79" width="18" height="18"/>
+      <use href="#mascot" x="484" y="98" width="18" height="18"/>
+      <use href="#mascot" x="504" y="98" width="18" height="18"/>
+      <use href="#mascot" x="524" y="98" width="18" height="18"/>
+      <use href="#mascot" x="544" y="98" width="18" height="18"/>
+      <use href="#mascot" x="564" y="98" width="18" height="18"/>
+      <use href="#mascot" x="584" y="98" width="18" height="18"/>
+      <use href="#mascot" x="604" y="98" width="18" height="18"/>
+      <use href="#mascot" x="624" y="98" width="18" height="18"/>
+      <use href="#mascot" x="644" y="98" width="18" height="18"/>
+      <use href="#mascot" x="664" y="98" width="18" height="18"/>
+      <use href="#mascot" x="684" y="98" width="18" height="18"/>
+      <use href="#mascot" x="704" y="98" width="18" height="18"/>
+      <use href="#mascot" x="724" y="98" width="18" height="18"/>
+      <use href="#mascot" x="484" y="117" width="18" height="18"/>
+      <use href="#mascot" x="504" y="117" width="18" height="18"/>
+      <use href="#mascot" x="524" y="117" width="18" height="18"/>
+      <use href="#mascot" x="544" y="117" width="18" height="18"/>
+      <use href="#mascot" x="564" y="117" width="18" height="18"/>
+      <use href="#mascot" x="584" y="117" width="18" height="18"/>
+      <use href="#mascot" x="604" y="117" width="18" height="18"/>
+      <use href="#mascot" x="624" y="117" width="18" height="18"/>
+      <use href="#mascot" x="644" y="117" width="18" height="18"/>
+      <use href="#mascot" x="664" y="117" width="18" height="18"/>
+      <use href="#mascot" x="684" y="117" width="18" height="18"/>
+      <use href="#mascot" x="704" y="117" width="18" height="18"/>
+      <use href="#mascot" x="724" y="117" width="18" height="18"/>
+      <use href="#mascot" x="484" y="136" width="18" height="18"/>
+      <use href="#mascot" x="504" y="136" width="18" height="18"/>
+      <use href="#mascot" x="524" y="136" width="18" height="18"/>
+      <use href="#mascot" x="544" y="136" width="18" height="18"/>
+      <use href="#mascot" x="564" y="136" width="18" height="18"/>
+      <use href="#mascot" x="584" y="136" width="18" height="18"/>
+      <use href="#mascot" x="604" y="136" width="18" height="18"/>
+      <use href="#mascot" x="624" y="136" width="18" height="18"/>
+      <use href="#mascot" x="644" y="136" width="18" height="18"/>
+      <use href="#mascot" x="664" y="136" width="18" height="18"/>
+      <use href="#mascot" x="684" y="136" width="18" height="18"/>
+      <use href="#mascot" x="704" y="136" width="18" height="18"/>
+      <use href="#mascot" x="724" y="136" width="18" height="18"/>
+      <use href="#mascot" x="484" y="155" width="18" height="18"/>
+      <use href="#mascot" x="504" y="155" width="18" height="18"/>
+      <use href="#mascot" x="524" y="155" width="18" height="18"/>
+      <use href="#mascot" x="544" y="155" width="18" height="18"/>
+      <use href="#mascot" x="564" y="155" width="18" height="18"/>
+      <use href="#mascot" x="584" y="155" width="18" height="18"/>
+      <use href="#mascot" x="604" y="155" width="18" height="18"/>
+      <use href="#mascot" x="624" y="155" width="18" height="18"/>
+      <use href="#mascot" x="644" y="155" width="18" height="18"/>
+      <use href="#mascot" x="664" y="155" width="18" height="18"/>
+      <use href="#mascot" x="684" y="155" width="18" height="18"/>
+      <use href="#mascot" x="704" y="155" width="18" height="18"/>
+      <use href="#mascot" x="724" y="155" width="18" height="18"/>
+      <use href="#mascot" x="484" y="174" width="18" height="18"/>
+      <use href="#mascot" x="504" y="174" width="18" height="18"/>
+      <use href="#mascot" x="524" y="174" width="18" height="18"/>
+      <use href="#mascot" x="544" y="174" width="18" height="18"/>
+      <use href="#mascot" x="564" y="174" width="18" height="18"/>
+      <use href="#mascot" x="584" y="174" width="18" height="18"/>
+      <use href="#mascot" x="604" y="174" width="18" height="18"/>
+      <use href="#mascot" x="624" y="174" width="18" height="18"/>
+      <use href="#mascot" x="644" y="174" width="18" height="18"/>
+      <use href="#mascot" x="664" y="174" width="18" height="18"/>
+      <use href="#mascot" x="684" y="174" width="18" height="18"/>
+      <use href="#mascot" x="704" y="174" width="18" height="18"/>
+      <use href="#mascot" x="724" y="174" width="18" height="18"/>
+      <use href="#mascot" x="484" y="193" width="18" height="18"/>
+      <use href="#mascot" x="504" y="193" width="18" height="18"/>
+      <use href="#mascot" x="524" y="193" width="18" height="18"/>
+      <use href="#mascot" x="544" y="193" width="18" height="18"/>
+      <use href="#mascot" x="564" y="193" width="18" height="18"/>
+      <use href="#mascot" x="584" y="193" width="18" height="18"/>
+      <use href="#mascot" x="604" y="193" width="18" height="18"/>
+      <use href="#mascot" x="624" y="193" width="18" height="18"/>
+      <use href="#mascot" x="644" y="193" width="18" height="18"/>
+      <use href="#mascot" x="664" y="193" width="18" height="18"/>
+      <use href="#mascot" x="684" y="193" width="18" height="18"/>
+      <use href="#mascot" x="704" y="193" width="18" height="18"/>
+      <use href="#mascot" x="724" y="193" width="18" height="18"/>
+    </g>
+
+    <line x1="502" y1="50" x2="490" y2="40" stroke="#111" stroke-width="1.4" stroke-dasharray="4 3"/>
+    <rect x="430" y="9" width="180" height="32" rx="4" fill="#fff" stroke="#111" stroke-width="2"/>
+    <text x="520" y="29" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111">200 variants. A quick gut check?</text>
+
+    <use href="#dailbert" x="418" y="182" width="106" height="146"/>
+  </g>
+
+  <!-- ===================== PANEL 3 ===================== -->
+  <g>
+    <rect x="828" y="1" width="400" height="338" rx="3" fill="#f4f1ea" stroke="#111" stroke-width="2.5"/>
+    <line x1="836" y1="272" x2="1220" y2="272" stroke="#111" stroke-width="2.2"/>
+
+    <!-- monitor -->
+    <rect x="1064" y="118" width="140" height="106" rx="6" fill="#20242a" stroke="#111" stroke-width="2.5"/>
+    <rect x="1074" y="128" width="120" height="86" rx="3" fill="#2b3037"/>
+    <rect x="1117" y="224" width="34" height="14" fill="#20242a" stroke="#111" stroke-width="2.2"/>
+    <rect x="1097" y="238" width="74" height="8" rx="2" fill="#20242a" stroke="#111" stroke-width="2.2"/>
+    <use href="#clanker" x="1086" y="128" width="96" height="96"/>
+
+    <use href="#priya" x="838" y="150" width="120" height="160"/>
+    <use href="#doug" x="936" y="162" width="120" height="160"/>
+
+    <!-- Priya balloon -->
+    <rect x="838" y="14" width="196" height="56" rx="16" fill="#fff" stroke="#111" stroke-width="2"/>
+    <text x="936" y="36" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">Gut says keep one,</text>
+    <text x="936" y="54" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="14" fill="#111">archive the other 199.</text>
+    <path d="M900 70 l-6 16 l16 -10 z" fill="#fff" stroke="#111" stroke-width="2"/>
+
+    <!-- clanker reply, small and shy -->
+    <line x1="1120" y1="122" x2="1112" y2="110" stroke="#111" stroke-width="1.4" stroke-dasharray="4 3"/>
+    <rect x="1064" y="78" width="150" height="34" rx="4" fill="#fff" stroke="#111" stroke-width="2"/>
+    <text x="1139" y="99" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111">Which of the one?</text>
+    <line x1="1114" y1="112" x2="1108" y2="122" stroke="#111" stroke-width="2"/>
+
+    <!-- Doug button, warm and oblivious -->
+    <rect x="962" y="120" width="118" height="30" rx="14" fill="#fff" stroke="#111" stroke-width="2"/>
+    <text x="1021" y="140" text-anchor="middle" font-family="'Comic Sans MS','Chalkboard SE','Comic Neue',sans-serif" font-size="13" fill="#111">I liked all of them.</text>
+    <path d="M1002 150 l-6 16 l14 -10 z" fill="#fff" stroke="#111" stroke-width="2"/>
+  </g>
+</g>
+    <text x="1218" y="372" text-anchor="end" font-family="'Segoe Script','Comic Sans MS',cursive" font-style="italic" font-size="11" fill="#111" opacity="0.32">Matt Clanker</text>
+    
+  </svg>
